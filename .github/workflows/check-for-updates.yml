@@ -51,14 +51,15 @@ jobs:
         with:
           result-encoding: string
           script: |
+            console.log(`checking tags for ${context.repo.owner}/${context.repo.repo}`)
             const tags = await github.rest.repos.listTags({
               owner: context.repo.owner,
               repo: context.repo.repo,
             });
+            console.log(tags);
             const version = "bs-${{ steps.latest-version.outputs.version }}";
             const tag = tags.data.find(tag => {
               const match = tag.name == version;
-              console.log(`Got tag ${tag.name}, check is ${match}`)
               return match;
             });
             return tag === undefined;
