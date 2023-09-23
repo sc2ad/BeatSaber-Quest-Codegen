@@ -54,7 +54,7 @@ jobs:
         id: version-check
         env:
           GIT_TAG: bs-${{ steps.latest-version.outputs.version }}
-        run: deno run --allow-env --allow-run ./scripts/deno/checktag.ts
+        run: deno run --allow-env --allow-run --allow-write ./scripts/deno/checktag.ts
 
       - name: Print results
         run: |
