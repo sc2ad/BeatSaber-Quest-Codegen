@@ -145,8 +145,8 @@ jobs:
           git add ./include
           git commit -q -m "Update headers -> $VERSION" --allow-empty
           git push --set-upstream origin $TARGET_BRANCH
-          git tag GIT_TAG
-          git push origin GIT_TAG
+          git tag $GIT_TAG
+          git push origin $GIT_TAG
 
       - name: Get Commit ID
         id: commit-id
