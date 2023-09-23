@@ -186,7 +186,7 @@ jobs:
 
       - name: Format headers
         env:
-          FORMAT_PATH: ${{env.GITHUB_WORKSPACE}}/include
+          FORMAT_PATH: ${GITHUB_WORKSPACE}/include
         run: deno run --allow-write --allow-read --allow-run --allow-env ./scripts/deno/format.ts
 
       - name: Configure commit
