@@ -37,6 +37,8 @@ async function format_chunk(formatfile: string, chunk: string[]) {
         await Deno.writeTextFile(formatfile, `${filepath}${fs.EOL.LF}`, { append: true });
     }
 
-    const format_cmd = new Deno.Command("clang-format", {args: ["-i",  "--verbose", "--files", formatfile], stdout: "piped", stderr: "piped"});
-    await format_cmd.spawn();
+    const format_cmd = new Deno.Command("clang-format", {args: ["-i",  "--verbose", "--files", formatfile], stdout: "inherit", stderr: "inherit"});
+    const proc = await format_cmd.spawn();
+
+    await proc.status;
 }
