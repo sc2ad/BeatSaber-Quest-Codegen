@@ -18,9 +18,11 @@ assert(fileCount <= procCount * chunkSize);
 console.log(`Formatting ${fileCount} files across ${procCount} processors, with chunks of size ${chunkSize}`);
 
 const chunks = [];
-for (let i = 0; i < procCount; i += chunkSize) {
+for (let i = 0; i < fileCount; i += chunkSize) {
     chunks.push(files.slice(i, i + chunkSize));
 }
+
+console.log(`constructed ${chunks.length} chunks`)
 
 const format_processes = []
 for (let i = 0; i < chunks.length; i++) {
@@ -30,7 +32,7 @@ for (let i = 0; i < chunks.length; i++) {
 await Promise.all(format_processes);
 
 async function format_chunk(formatfile: string, chunk: string[]) {
-    for (const filepath of chunk) {
+    for await (const filepath of chunk) {
         await Deno.writeTextFile(formatfile, `${filepath}${fs.EOL}`, { append: true });
     }
 
