@@ -138,14 +138,15 @@ jobs:
       - name: Commit and push new header files to seperate branch
         env:
           VERSION: ${{ needs.update-check.outputs.version }}
+          GIT_TAG: bs-${{ needs.update-check.outputs.version }}
           TARGET_BRANCH: ${{ steps.target-branch.outputs.value }}
         run: |
           git checkout -b $TARGET_BRANCH
           git add ./include
           git commit -q -m "Update headers -> $VERSION" --allow-empty
-          git tag bs-$VERSION
           git push --set-upstream origin $TARGET_BRANCH
-          git push origin $VERSION
+          git tag GIT_TAG
+          git push origin GIT_TAG
 
       - name: Get Commit ID
         id: commit-id
@@ -201,6 +202,8 @@ jobs:
           git push -u origin ${{ needs.generate-headers.outputs.target-branch }}
 
       - name: Retag game version commit
+        env:
+          GIT_TAG: bs-${{ needs.update-check.outputs.version }}
         run: |
-          git tag bs-$VERSION
-          git push origin ${{ needs.update-check.outputs.version }} --force
+          git tag $GIT_TAG
+          git push origin $GIT_TAG --force
