@@ -133,7 +133,6 @@ jobs:
           qpm restore
           git add qpm.json qpm.shared.json
           git commit -m "Update Package version and info" --allow-empty
-          git push
 
       # header files go to a seperate branch unrelated to the main one
       - name: Commit and push new header files to seperate branch
@@ -146,6 +145,7 @@ jobs:
           git commit -q -m "Update headers -> $VERSION" --allow-empty
           git tag $VERSION
           git push --set-upstream origin $TARGET_BRANCH
+          git push origin $VERSION
 
       - name: Get Commit ID
         id: commit-id
@@ -199,3 +199,4 @@ jobs:
           git add ./include
           git commit -q -m "Format files"
           git push -u origin ${{ needs.generate-headers.outputs.target-branch }}
+          git push origin ${{ needs.update-check.outputs.version }} --force
