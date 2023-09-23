@@ -199,4 +199,8 @@ jobs:
           git add ./include
           git commit -q -m "Format files"
           git push -u origin ${{ needs.generate-headers.outputs.target-branch }}
+
+      - name: Retag game version commit
+        run: |
+          git tag $VERSION
           git push origin ${{ needs.update-check.outputs.version }} --force
