@@ -3,16 +3,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements {
 class StyleSheet;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,11 +26,11 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE VisualElementStyleSheetSet : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::VisualElementStyleSheetSet>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::VisualElementStyleSheetSet>() const;
 
-// Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
-constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement m_Element) noexcept;
+// Ctor Parameters [CppParam { name: "m_Element", ty: "UnityEngine::UIElements::VisualElement", modifiers: "", def_value: None }]
+constexpr VisualElementStyleSheetSet(UnityEngine::UIElements::VisualElement m_Element) noexcept;
 
 
                     constexpr VisualElementStyleSheetSet(VisualElementStyleSheetSet const&) = default;
@@ -64,26 +63,26 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Element, put=__set_m_Element))  m_Element;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Element, put=__set_m_Element))  m_Element;
 
-constexpr void __set_m_Element(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_Element(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_Element() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_Element() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2c4f498 size 0x8 virtual false final false
- void _ctor(::UnityEngine::UIElements::VisualElement element) ;
+ void _ctor(UnityEngine::UIElements::VisualElement element) ;
 
 /// @brief Method Add addr 0x2c4f4a0 size 0x1d0 virtual false final false
- void Add(::UnityEngine::UIElements::StyleSheet styleSheet) ;
+ void Add(UnityEngine::UIElements::StyleSheet styleSheet) ;
 
 /// @brief Method Remove addr 0x2c4f670 size 0x134 virtual false final false
- bool Remove(::UnityEngine::UIElements::StyleSheet styleSheet) ;
+ bool Remove(UnityEngine::UIElements::StyleSheet styleSheet) ;
 
 /// @brief Method Equals addr 0x2c4f7a4 size 0xc virtual true final true
- bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other) ;
+ bool Equals(UnityEngine::UIElements::VisualElementStyleSheetSet other) ;
 
 /// @brief Method Equals addr 0x2c4f7b0 size 0x7c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -95,5 +94,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementStyleSheetSet, "UnityEngine.UIElements", "VisualElementStyleSheetSet");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::VisualElementStyleSheetSet, "UnityEngine.UIElements", "VisualElementStyleSheetSet");

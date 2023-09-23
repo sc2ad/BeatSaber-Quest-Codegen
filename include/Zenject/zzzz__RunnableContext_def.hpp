@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__Context_def.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -18,7 +17,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11061))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11064))
 // CS Name: Zenject.RunnableContext
-class CORDL_TYPE RunnableContext : public ::Zenject::Context {
+class CORDL_TYPE RunnableContext : public Zenject::Context {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr RunnableContext(RunnableContext const& ) noexcept = default;
 constexpr RunnableContext(RunnableContext&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RunnableContext(void* ptr) noexcept : ::Zenject::Context(ptr) {
+constexpr explicit RunnableContext(void* ptr) noexcept : Zenject::Context(ptr) {
 }
 
 
@@ -97,7 +96,7 @@ constexpr bool __get__Initialized_k__BackingField() const;
 
 /// @brief Method CreateComponent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static T CreateComponent(::UnityEngine::GameObject gameObject) ;
+static T CreateComponent(UnityEngine::GameObject gameObject) ;
 
 // Ctor Parameters []
 explicit RunnableContext() ;
@@ -106,12 +105,11 @@ explicit RunnableContext() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d77f40 size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::RunnableContext);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::RunnableContext, "Zenject", "RunnableContext");
+NEED_NO_BOX(Zenject::RunnableContext);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext, "Zenject", "RunnableContext");

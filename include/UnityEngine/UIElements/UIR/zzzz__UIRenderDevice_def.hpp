@@ -6,38 +6,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class Exception;
-}
-namespace UnityEngine {
-class Texture;
-}
-namespace UnityEngine::UIElements {
-struct Vertex;
-}
 namespace UnityEngine::UIElements::UIR {
 struct DrawBufferRange;
 }
 namespace UnityEngine::UIElements::UIR {
-class Page;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace Unity::Collections {
-template<typename T>
-struct NativeSlice_1;
-}
-namespace UnityEngine::UIElements::UIR {
 class RenderChainCommand;
-}
-namespace UnityEngine::UIElements::UIR {
-struct Transform3x4;
-}
-namespace UnityEngine::UIElements::UIR {
-template<typename T>
-class ____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
 }
 namespace System {
 template<typename T>
@@ -46,41 +19,67 @@ struct Nullable_1;
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
 }
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace UnityEngine::UIElements::UIR {
+class TextureSlotManager;
+}
 namespace Unity::Profiling {
 struct ProfilerMarker;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+class Texture;
 }
-namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
+namespace System {
+class Exception;
 }
 namespace UnityEngine::UIElements::UIR {
 template<typename T>
 class LinkedPool_1;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class MaterialPropertyBlock;
 }
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements::UIR {
-class DrawParams;
-}
-namespace UnityEngine::UIElements::UIR {
-class TextureSlotManager;
+namespace UnityEngine {
+class Material;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
 }
+namespace UnityEngine::UIElements::UIR {
+class MeshHandle;
+}
+namespace UnityEngine::UIElements::UIR {
+struct Transform3x4;
+}
+namespace UnityEngine::UIElements::UIR {
+template<typename T>
+class UnityEngine__UIElements__UIR__Utility__GPUBuffer_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class Page;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace UnityEngine::UIElements::UIR {
+class DrawParams;
+}
 namespace UnityEngine {
 struct Vector4;
+}
+namespace Unity::Collections {
+template<typename T>
+struct NativeSlice_1;
 }
 namespace System {
 template<typename TResult>
@@ -98,22 +97,22 @@ namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice;
 }
 namespace UnityEngine::UIElements::UIR {
-class ____UnityEngine__UIElements__UIR__UIRenderDevice____c;
+class UnityEngine__UIElements__UIR__UIRenderDevice____c;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree;
+struct UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate;
+struct UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree;
+struct UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics;
+struct UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics;
 }
 namespace UnityEngine::UIElements::UIR {
-struct ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState;
+struct UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState;
 }
 // Type: ::AllocToUpdate
 namespace UnityEngine::UIElements::UIR {
@@ -121,20 +120,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::AllocToUpdate
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "meshHandle", ty: "::UnityEngine::UIElements::UIR::MeshHandle", modifiers: "", def_value: None }, CppParam { name: "permAllocVerts", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "permAllocIndices", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "permPage", ty: "::UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "copyBackIndices", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(uint32_t id, uint32_t allocTime, ::UnityEngine::UIElements::UIR::MeshHandle meshHandle, ::UnityEngine::UIElements::UIR::Alloc permAllocVerts, ::UnityEngine::UIElements::UIR::Alloc permAllocIndices, ::UnityEngine::UIElements::UIR::Page permPage, bool copyBackIndices) noexcept;
+// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "allocTime", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "meshHandle", ty: "UnityEngine::UIElements::UIR::MeshHandle", modifiers: "", def_value: None }, CppParam { name: "permAllocVerts", ty: "UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "permAllocIndices", ty: "UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "permPage", ty: "UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "copyBackIndices", ty: "bool", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(uint32_t id, uint32_t allocTime, UnityEngine::UIElements::UIR::MeshHandle meshHandle, UnityEngine::UIElements::UIR::Alloc permAllocVerts, UnityEngine::UIElements::UIR::Alloc permAllocIndices, UnityEngine::UIElements::UIR::Page permPage, bool copyBackIndices) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate const& o) {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -147,7 +146,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x50};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -170,29 +169,29 @@ constexpr void __set_allocTime(uint32_t value) ;
 
 constexpr uint32_t __get_allocTime() const;
 
- ::UnityEngine::UIElements::UIR::MeshHandle __declspec(property(get=__get_meshHandle, put=__set_meshHandle))  meshHandle;
+ UnityEngine::UIElements::UIR::MeshHandle __declspec(property(get=__get_meshHandle, put=__set_meshHandle))  meshHandle;
 
-constexpr void __set_meshHandle(::UnityEngine::UIElements::UIR::MeshHandle value) ;
+constexpr void __set_meshHandle(UnityEngine::UIElements::UIR::MeshHandle value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::MeshHandle __get_meshHandle() const;
+constexpr UnityEngine::UIElements::UIR::MeshHandle __get_meshHandle() const;
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_permAllocVerts, put=__set_permAllocVerts))  permAllocVerts;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_permAllocVerts, put=__set_permAllocVerts))  permAllocVerts;
 
-constexpr void __set_permAllocVerts(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_permAllocVerts(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_permAllocVerts() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_permAllocVerts() const;
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_permAllocIndices, put=__set_permAllocIndices))  permAllocIndices;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_permAllocIndices, put=__set_permAllocIndices))  permAllocIndices;
 
-constexpr void __set_permAllocIndices(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_permAllocIndices(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_permAllocIndices() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_permAllocIndices() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_permPage, put=__set_permPage))  permPage;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_permPage, put=__set_permPage))  permPage;
 
-constexpr void __set_permPage(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_permPage(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_permPage() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_permPage() const;
 
  bool __declspec(property(get=__get_copyBackIndices, put=__set_copyBackIndices))  copyBackIndices;
 
@@ -210,20 +209,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7527))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::AllocToFree
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "alloc", ty: "::UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(::UnityEngine::UIElements::UIR::Alloc alloc, ::UnityEngine::UIElements::UIR::Page page, bool vertices) noexcept;
+// Ctor Parameters [CppParam { name: "alloc", ty: "UnityEngine::UIElements::UIR::Alloc", modifiers: "", def_value: None }, CppParam { name: "page", ty: "UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "vertices", ty: "bool", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(UnityEngine::UIElements::UIR::Alloc alloc, UnityEngine::UIElements::UIR::Page page, bool vertices) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree const& o) {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -236,7 +235,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -247,17 +246,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_alloc, put=__set_alloc))  alloc;
+ UnityEngine::UIElements::UIR::Alloc __declspec(property(get=__get_alloc, put=__set_alloc))  alloc;
 
-constexpr void __set_alloc(::UnityEngine::UIElements::UIR::Alloc value) ;
+constexpr void __set_alloc(UnityEngine::UIElements::UIR::Alloc value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Alloc __get_alloc() const;
+constexpr UnityEngine::UIElements::UIR::Alloc __get_alloc() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_page, put=__set_page))  page;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_page, put=__set_page))  page;
 
-constexpr void __set_page(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_page(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_page() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_page() const;
 
  bool __declspec(property(get=__get_vertices, put=__set_vertices))  vertices;
 
@@ -275,20 +274,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::DeviceToFree
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "page", ty: "::UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(uint32_t handle, ::UnityEngine::UIElements::UIR::Page page) noexcept;
+// Ctor Parameters [CppParam { name: "handle", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "page", ty: "UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(uint32_t handle, UnityEngine::UIElements::UIR::Page page) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree const& o) {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -301,7 +300,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -318,11 +317,11 @@ constexpr void __set_handle(uint32_t value) ;
 
 constexpr uint32_t __get_handle() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_page, put=__set_page))  page;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_page, put=__set_page))  page;
 
-constexpr void __set_page(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_page(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_page() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_page() const;
 
 
 // Methods
@@ -340,20 +339,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7529))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::EvaluationState
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "stateMatProps", ty: "::UnityEngine::MaterialPropertyBlock", modifiers: "", def_value: None }, CppParam { name: "defaultMat", ty: "::UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "curState", ty: "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None }, CppParam { name: "curPage", ty: "::UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyCommonBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStateBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(::UnityEngine::MaterialPropertyBlock stateMatProps, ::UnityEngine::Material defaultMat, ::UnityEngine::UIElements::UIR::State curState, ::UnityEngine::UIElements::UIR::Page curPage, bool mustApplyMaterial, bool mustApplyCommonBlock, bool mustApplyStateBlock, bool mustApplyStencil) noexcept;
+// Ctor Parameters [CppParam { name: "stateMatProps", ty: "UnityEngine::MaterialPropertyBlock", modifiers: "", def_value: None }, CppParam { name: "defaultMat", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "curState", ty: "UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None }, CppParam { name: "curPage", ty: "UnityEngine::UIElements::UIR::Page", modifiers: "", def_value: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyCommonBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStateBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStencil", ty: "bool", modifiers: "", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(UnityEngine::MaterialPropertyBlock stateMatProps, UnityEngine::Material defaultMat, UnityEngine::UIElements::UIR::State curState, UnityEngine::UIElements::UIR::Page curPage, bool mustApplyMaterial, bool mustApplyCommonBlock, bool mustApplyStateBlock, bool mustApplyStencil) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState const& o) {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -366,7 +365,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x40};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -377,29 +376,29 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_stateMatProps, put=__set_stateMatProps))  stateMatProps;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_stateMatProps, put=__set_stateMatProps))  stateMatProps;
 
-constexpr void __set_stateMatProps(::UnityEngine::MaterialPropertyBlock value) ;
+constexpr void __set_stateMatProps(UnityEngine::MaterialPropertyBlock value) ;
 
-constexpr ::UnityEngine::MaterialPropertyBlock __get_stateMatProps() const;
+constexpr UnityEngine::MaterialPropertyBlock __get_stateMatProps() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_defaultMat, put=__set_defaultMat))  defaultMat;
+ UnityEngine::Material __declspec(property(get=__get_defaultMat, put=__set_defaultMat))  defaultMat;
 
-constexpr void __set_defaultMat(::UnityEngine::Material value) ;
+constexpr void __set_defaultMat(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_defaultMat() const;
+constexpr UnityEngine::Material __get_defaultMat() const;
 
- ::UnityEngine::UIElements::UIR::State __declspec(property(get=__get_curState, put=__set_curState))  curState;
+ UnityEngine::UIElements::UIR::State __declspec(property(get=__get_curState, put=__set_curState))  curState;
 
-constexpr void __set_curState(::UnityEngine::UIElements::UIR::State value) ;
+constexpr void __set_curState(UnityEngine::UIElements::UIR::State value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::State __get_curState() const;
+constexpr UnityEngine::UIElements::UIR::State __get_curState() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_curPage, put=__set_curPage))  curPage;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_curPage, put=__set_curPage))  curPage;
 
-constexpr void __set_curPage(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_curPage(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_curPage() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_curPage() const;
 
  bool __declspec(property(get=__get_mustApplyMaterial, put=__set_mustApplyMaterial))  mustApplyMaterial;
 
@@ -435,20 +434,20 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::DrawStatistics
-struct CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "currentFrameIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalIndices", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "commandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawCommandCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "materialSetCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawRangeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "drawRangeCallCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "immediateDraws", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "stencilRefChanges", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(int32_t currentFrameIndex, uint32_t totalIndices, uint32_t commandCount, uint32_t drawCommandCount, uint32_t materialSetCount, uint32_t drawRangeCount, uint32_t drawRangeCallCount, uint32_t immediateDraws, uint32_t stencilRefChanges) noexcept;
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(int32_t currentFrameIndex, uint32_t totalIndices, uint32_t commandCount, uint32_t drawCommandCount, uint32_t materialSetCount, uint32_t drawRangeCount, uint32_t drawRangeCallCount, uint32_t immediateDraws, uint32_t stencilRefChanges) noexcept;
 
 
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics const&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics&&) = default;
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics const& o) {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics const&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics&&) = default;
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics&& o) noexcept {
+                    constexpr UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics& operator=(UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -461,7 +460,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x24};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -536,74 +535,74 @@ namespace UnityEngine::UIElements::UIR {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7531))
 // CS Name: UnityEngine.UIElements.UIR.UIRenderDevice::<>c
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__UIRenderDevice____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__UIR__UIRenderDevice____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__UIElements__UIR__UIRenderDevice____c() = default;
+virtual ~UnityEngine__UIElements__UIR__UIRenderDevice____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__UIRenderDevice____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c(____UnityEngine__UIElements__UIR__UIRenderDevice____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__UIRenderDevice____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c(UnityEngine__UIElements__UIR__UIRenderDevice____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__UIRenderDevice____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c(____UnityEngine__UIElements__UIR__UIRenderDevice____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__UIRenderDevice____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c(UnityEngine__UIElements__UIR__UIRenderDevice____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__UIRenderDevice____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__UIRenderDevice____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice____c&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(____UnityEngine__UIElements__UIR__UIRenderDevice____c const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(UnityEngine__UIElements__UIR__UIRenderDevice____c&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__UIRenderDevice____c& operator=(UnityEngine__UIElements__UIR__UIRenderDevice____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c value) ;
+static void __set___9(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c value) ;
 
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c __get___9() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c __get___9() ;
 
-static ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get___9__53_0, put=__set___9__53_0))  __9__53_0;
+static System::Func_1<UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get___9__53_0, put=__set___9__53_0))  __9__53_0;
 
-static void __set___9__53_0(::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle> value) ;
+static void __set___9__53_0(System::Func_1<UnityEngine::UIElements::UIR::MeshHandle> value) ;
 
-static ::System::Func_1<::UnityEngine::UIElements::UIR::MeshHandle> __get___9__53_0() ;
+static System::Func_1<UnityEngine::UIElements::UIR::MeshHandle> __get___9__53_0() ;
 
-static ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get___9__53_1, put=__set___9__53_1))  __9__53_1;
+static System::Action_1<UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get___9__53_1, put=__set___9__53_1))  __9__53_1;
 
-static void __set___9__53_1(::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle> value) ;
+static void __set___9__53_1(System::Action_1<UnityEngine::UIElements::UIR::MeshHandle> value) ;
 
-static ::System::Action_1<::UnityEngine::UIElements::UIR::MeshHandle> __get___9__53_1() ;
+static System::Action_1<UnityEngine::UIElements::UIR::MeshHandle> __get___9__53_1() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIR__UIRenderDevice____c() ;
+explicit UnityEngine__UIElements__UIR__UIRenderDevice____c() ;
 
 /// @brief Method .ctor addr 0x2c5c308 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <.ctor>b__53_0 addr 0x2c5c310 size 0x58 virtual false final false
- ::UnityEngine::UIElements::UIR::MeshHandle __ctor_b__53_0() ;
+ UnityEngine::UIElements::UIR::MeshHandle __ctor_b__53_0() ;
 
 /// @brief Method <.ctor>b__53_1 addr 0x2c5c368 size 0x4 virtual false final false
- void __ctor_b__53_1(::UnityEngine::UIElements::UIR::MeshHandle mh) ;
+ void __ctor_b__53_1(UnityEngine::UIElements::UIR::MeshHandle mh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -618,20 +617,20 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE UIRenderDevice : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c;
+using __c = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c;
 
-using DrawStatistics = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics;
+using DrawStatistics = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics;
 
-using EvaluationState = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState;
+using EvaluationState = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState;
 
-using DeviceToFree = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree;
+using DeviceToFree = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree;
 
-using AllocToFree = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree;
+using AllocToFree = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree;
 
-using AllocToUpdate = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate;
+using AllocToUpdate = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xb0};
@@ -684,11 +683,11 @@ constexpr void __set_m_VertexDecl(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_m_VertexDecl() const;
 
- ::UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_m_FirstPage, put=__set_m_FirstPage))  m_FirstPage;
+ UnityEngine::UIElements::UIR::Page __declspec(property(get=__get_m_FirstPage, put=__set_m_FirstPage))  m_FirstPage;
 
-constexpr void __set_m_FirstPage(::UnityEngine::UIElements::UIR::Page value) ;
+constexpr void __set_m_FirstPage(UnityEngine::UIElements::UIR::Page value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::Page __get_m_FirstPage() const;
+constexpr UnityEngine::UIElements::UIR::Page __get_m_FirstPage() const;
 
  uint32_t __declspec(property(get=__get_m_NextPageVertexCount, put=__set_m_NextPageVertexCount))  m_NextPageVertexCount;
 
@@ -708,17 +707,17 @@ constexpr void __set_m_IndexToVertexCountRatio(float_t value) ;
 
 constexpr float_t __get_m_IndexToVertexCountRatio() const;
 
- ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> __declspec(property(get=__get_m_DeferredFrees, put=__set_m_DeferredFrees))  m_DeferredFrees;
+ System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> __declspec(property(get=__get_m_DeferredFrees, put=__set_m_DeferredFrees))  m_DeferredFrees;
 
-constexpr void __set_m_DeferredFrees(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> value) ;
+constexpr void __set_m_DeferredFrees(System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> __get_m_DeferredFrees() const;
+constexpr System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree>> __get_m_DeferredFrees() const;
 
- ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> __declspec(property(get=__get_m_Updates, put=__set_m_Updates))  m_Updates;
+ System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> __declspec(property(get=__get_m_Updates, put=__set_m_Updates))  m_Updates;
 
-constexpr void __set_m_Updates(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> value) ;
+constexpr void __set_m_Updates(System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> __get_m_Updates() const;
+constexpr System::Collections::Generic::List_1<System::Collections::Generic::List_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate>> __get_m_Updates() const;
 
  ::ArrayW<uint32_t> __declspec(property(get=__get_m_Fences, put=__set_m_Fences))  m_Fences;
 
@@ -726,11 +725,11 @@ constexpr void __set_m_Fences(::ArrayW<uint32_t> value) ;
 
 constexpr ::ArrayW<uint32_t> __get_m_Fences() const;
 
- ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_m_StandardMatProps, put=__set_m_StandardMatProps))  m_StandardMatProps;
+ UnityEngine::MaterialPropertyBlock __declspec(property(get=__get_m_StandardMatProps, put=__set_m_StandardMatProps))  m_StandardMatProps;
 
-constexpr void __set_m_StandardMatProps(::UnityEngine::MaterialPropertyBlock value) ;
+constexpr void __set_m_StandardMatProps(UnityEngine::MaterialPropertyBlock value) ;
 
-constexpr ::UnityEngine::MaterialPropertyBlock __get_m_StandardMatProps() const;
+constexpr UnityEngine::MaterialPropertyBlock __get_m_StandardMatProps() const;
 
  uint32_t __declspec(property(get=__get_m_FrameIndex, put=__set_m_FrameIndex))  m_FrameIndex;
 
@@ -744,35 +743,35 @@ constexpr void __set_m_NextUpdateID(uint32_t value) ;
 
 constexpr uint32_t __get_m_NextUpdateID() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics __declspec(property(get=__get_m_DrawStats, put=__set_m_DrawStats))  m_DrawStats;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics __declspec(property(get=__get_m_DrawStats, put=__set_m_DrawStats))  m_DrawStats;
 
-constexpr void __set_m_DrawStats(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics value) ;
+constexpr void __set_m_DrawStats(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics __get_m_DrawStats() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics __get_m_DrawStats() const;
 
- ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get_m_MeshHandles, put=__set_m_MeshHandles))  m_MeshHandles;
+ UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::MeshHandle> __declspec(property(get=__get_m_MeshHandles, put=__set_m_MeshHandles))  m_MeshHandles;
 
-constexpr void __set_m_MeshHandles(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle> value) ;
+constexpr void __set_m_MeshHandles(UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::MeshHandle> value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle> __get_m_MeshHandles() const;
+constexpr UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::MeshHandle> __get_m_MeshHandles() const;
 
- ::UnityEngine::UIElements::UIR::DrawParams __declspec(property(get=__get_m_DrawParams, put=__set_m_DrawParams))  m_DrawParams;
+ UnityEngine::UIElements::UIR::DrawParams __declspec(property(get=__get_m_DrawParams, put=__set_m_DrawParams))  m_DrawParams;
 
-constexpr void __set_m_DrawParams(::UnityEngine::UIElements::UIR::DrawParams value) ;
+constexpr void __set_m_DrawParams(UnityEngine::UIElements::UIR::DrawParams value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::DrawParams __get_m_DrawParams() const;
+constexpr UnityEngine::UIElements::UIR::DrawParams __get_m_DrawParams() const;
 
- ::UnityEngine::UIElements::UIR::TextureSlotManager __declspec(property(get=__get_m_TextureSlotManager, put=__set_m_TextureSlotManager))  m_TextureSlotManager;
+ UnityEngine::UIElements::UIR::TextureSlotManager __declspec(property(get=__get_m_TextureSlotManager, put=__set_m_TextureSlotManager))  m_TextureSlotManager;
 
-constexpr void __set_m_TextureSlotManager(::UnityEngine::UIElements::UIR::TextureSlotManager value) ;
+constexpr void __set_m_TextureSlotManager(UnityEngine::UIElements::UIR::TextureSlotManager value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager __get_m_TextureSlotManager() const;
+constexpr UnityEngine::UIElements::UIR::TextureSlotManager __get_m_TextureSlotManager() const;
 
-static ::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> __declspec(property(get=__get_m_DeviceFreeQueue, put=__set_m_DeviceFreeQueue))  m_DeviceFreeQueue;
+static System::Collections::Generic::LinkedList_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> __declspec(property(get=__get_m_DeviceFreeQueue, put=__set_m_DeviceFreeQueue))  m_DeviceFreeQueue;
 
-static void __set_m_DeviceFreeQueue(::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> value) ;
+static void __set_m_DeviceFreeQueue(System::Collections::Generic::LinkedList_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> value) ;
 
-static ::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> __get_m_DeviceFreeQueue() ;
+static System::Collections::Generic::LinkedList_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree> __get_m_DeviceFreeQueue() ;
 
 static int32_t __declspec(property(get=__get_m_ActiveDeviceCount, put=__set_m_ActiveDeviceCount))  m_ActiveDeviceCount;
 
@@ -834,47 +833,47 @@ static void __set_s_ClipSpaceParamsID(int32_t value) ;
 
 static int32_t __get_s_ClipSpaceParamsID() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerAllocate, put=__set_s_MarkerAllocate))  s_MarkerAllocate;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerAllocate, put=__set_s_MarkerAllocate))  s_MarkerAllocate;
 
-static void __set_s_MarkerAllocate(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerAllocate(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerAllocate() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerAllocate() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerFree, put=__set_s_MarkerFree))  s_MarkerFree;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerFree, put=__set_s_MarkerFree))  s_MarkerFree;
 
-static void __set_s_MarkerFree(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerFree(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerFree() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerFree() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerAdvanceFrame, put=__set_s_MarkerAdvanceFrame))  s_MarkerAdvanceFrame;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerAdvanceFrame, put=__set_s_MarkerAdvanceFrame))  s_MarkerAdvanceFrame;
 
-static void __set_s_MarkerAdvanceFrame(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerAdvanceFrame(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerAdvanceFrame() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerAdvanceFrame() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerFence, put=__set_s_MarkerFence))  s_MarkerFence;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerFence, put=__set_s_MarkerFence))  s_MarkerFence;
 
-static void __set_s_MarkerFence(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerFence(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerFence() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerFence() ;
 
-static ::Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerBeforeDraw, put=__set_s_MarkerBeforeDraw))  s_MarkerBeforeDraw;
+static Unity::Profiling::ProfilerMarker __declspec(property(get=__get_s_MarkerBeforeDraw, put=__set_s_MarkerBeforeDraw))  s_MarkerBeforeDraw;
 
-static void __set_s_MarkerBeforeDraw(::Unity::Profiling::ProfilerMarker value) ;
+static void __set_s_MarkerBeforeDraw(Unity::Profiling::ProfilerMarker value) ;
 
-static ::Unity::Profiling::ProfilerMarker __get_s_MarkerBeforeDraw() ;
+static Unity::Profiling::ProfilerMarker __get_s_MarkerBeforeDraw() ;
 
-static ::System::Nullable_1<bool> __declspec(property(get=__get_s_VertexTexturingIsAvailable, put=__set_s_VertexTexturingIsAvailable))  s_VertexTexturingIsAvailable;
+static System::Nullable_1<bool> __declspec(property(get=__get_s_VertexTexturingIsAvailable, put=__set_s_VertexTexturingIsAvailable))  s_VertexTexturingIsAvailable;
 
-static void __set_s_VertexTexturingIsAvailable(::System::Nullable_1<bool> value) ;
+static void __set_s_VertexTexturingIsAvailable(System::Nullable_1<bool> value) ;
 
-static ::System::Nullable_1<bool> __get_s_VertexTexturingIsAvailable() ;
+static System::Nullable_1<bool> __get_s_VertexTexturingIsAvailable() ;
 
-static ::System::Nullable_1<bool> __declspec(property(get=__get_s_ShaderModelIs35, put=__set_s_ShaderModelIs35))  s_ShaderModelIs35;
+static System::Nullable_1<bool> __declspec(property(get=__get_s_ShaderModelIs35, put=__set_s_ShaderModelIs35))  s_ShaderModelIs35;
 
-static void __set_s_ShaderModelIs35(::System::Nullable_1<bool> value) ;
+static void __set_s_ShaderModelIs35(System::Nullable_1<bool> value) ;
 
-static ::System::Nullable_1<bool> __get_s_ShaderModelIs35() ;
+static System::Nullable_1<bool> __get_s_ShaderModelIs35() ;
 
  uint32_t __declspec(property(get=__get__maxVerticesPerPage_k__BackingField, put=__set__maxVerticesPerPage_k__BackingField))  _maxVerticesPerPage_k__BackingField;
 
@@ -888,17 +887,17 @@ constexpr void __set__breakBatches_k__BackingField(bool value) ;
 
 constexpr bool __get__breakBatches_k__BackingField() const;
 
-static ::UnityEngine::Texture2D __declspec(property(get=__get_s_DefaultShaderInfoTexFloat, put=__set_s_DefaultShaderInfoTexFloat))  s_DefaultShaderInfoTexFloat;
+static UnityEngine::Texture2D __declspec(property(get=__get_s_DefaultShaderInfoTexFloat, put=__set_s_DefaultShaderInfoTexFloat))  s_DefaultShaderInfoTexFloat;
 
-static void __set_s_DefaultShaderInfoTexFloat(::UnityEngine::Texture2D value) ;
+static void __set_s_DefaultShaderInfoTexFloat(UnityEngine::Texture2D value) ;
 
-static ::UnityEngine::Texture2D __get_s_DefaultShaderInfoTexFloat() ;
+static UnityEngine::Texture2D __get_s_DefaultShaderInfoTexFloat() ;
 
-static ::UnityEngine::Texture2D __declspec(property(get=__get_s_DefaultShaderInfoTexARGB8, put=__set_s_DefaultShaderInfoTexARGB8))  s_DefaultShaderInfoTexARGB8;
+static UnityEngine::Texture2D __declspec(property(get=__get_s_DefaultShaderInfoTexARGB8, put=__set_s_DefaultShaderInfoTexARGB8))  s_DefaultShaderInfoTexARGB8;
 
-static void __set_s_DefaultShaderInfoTexARGB8(::UnityEngine::Texture2D value) ;
+static void __set_s_DefaultShaderInfoTexARGB8(UnityEngine::Texture2D value) ;
 
-static ::UnityEngine::Texture2D __get_s_DefaultShaderInfoTexARGB8() ;
+static UnityEngine::Texture2D __get_s_DefaultShaderInfoTexARGB8() ;
 
  bool __declspec(property(get=__get__disposed_k__BackingField, put=__set__disposed_k__BackingField))  _disposed_k__BackingField;
 
@@ -913,9 +912,9 @@ constexpr bool __get__disposed_k__BackingField() const;
 
  bool __declspec(property(get=get_breakBatches, put=set_breakBatches))  breakBatches;
 
-static ::UnityEngine::Texture2D __declspec(property(get=get_defaultShaderInfoTexFloat))  defaultShaderInfoTexFloat;
+static UnityEngine::Texture2D __declspec(property(get=get_defaultShaderInfoTexFloat))  defaultShaderInfoTexFloat;
 
-static ::UnityEngine::Texture2D __declspec(property(get=get_defaultShaderInfoTexARGB8))  defaultShaderInfoTexARGB8;
+static UnityEngine::Texture2D __declspec(property(get=get_defaultShaderInfoTexARGB8))  defaultShaderInfoTexARGB8;
 
 static bool __declspec(property(get=get_vertexTexturingIsAvailable))  vertexTexturingIsAvailable;
 
@@ -950,10 +949,10 @@ explicit UIRenderDevice(uint32_t initialVertexCapacity, uint32_t initialIndexCap
  void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice) ;
 
 /// @brief Method get_defaultShaderInfoTexFloat addr 0x2c55b74 size 0x394 virtual false final false
-static ::UnityEngine::Texture2D get_defaultShaderInfoTexFloat() ;
+static UnityEngine::Texture2D get_defaultShaderInfoTexFloat() ;
 
 /// @brief Method get_defaultShaderInfoTexARGB8 addr 0x2c55f08 size 0x2cc virtual false final false
-static ::UnityEngine::Texture2D get_defaultShaderInfoTexARGB8() ;
+static UnityEngine::Texture2D get_defaultShaderInfoTexARGB8() ;
 
 /// @brief Method get_vertexTexturingIsAvailable addr 0x2c561d4 size 0x1e4 virtual false final false
 static bool get_vertexTexturingIsAvailable() ;
@@ -983,54 +982,54 @@ static bool get_shaderModelIs35() ;
  void Dispose(bool disposing) ;
 
 /// @brief Method Allocate addr 0x2c56f4c size 0xc0 virtual false final false
- ::UnityEngine::UIElements::UIR::MeshHandle Allocate(uint32_t vertexCount, uint32_t indexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset) ;
+ UnityEngine::UIElements::UIR::MeshHandle Allocate(uint32_t vertexCount, uint32_t indexCount, ByRef<Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>> vertexData, ByRef<Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset) ;
 
 /// @brief Method Update addr 0x2c57640 size 0x1c8 virtual false final false
- void Update(::UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData) ;
+ void Update(UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, ByRef<Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>> vertexData) ;
 
 /// @brief Method Update addr 0x2c57f0c size 0x188 virtual false final false
- void Update(::UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, uint32_t indexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset) ;
+ void Update(UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, uint32_t indexCount, ByRef<Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>> vertexData, ByRef<Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset) ;
 
 /// @brief Method TryAllocFromPage addr 0x2c58094 size 0x104 virtual false final false
- bool TryAllocFromPage(::UnityEngine::UIElements::UIR::Page page, uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::Alloc> va, ByRef<::UnityEngine::UIElements::UIR::Alloc> ia, bool shortLived) ;
+ bool TryAllocFromPage(UnityEngine::UIElements::UIR::Page page, uint32_t vertexCount, uint32_t indexCount, ByRef<UnityEngine::UIElements::UIR::Alloc> va, ByRef<UnityEngine::UIElements::UIR::Alloc> ia, bool shortLived) ;
 
 /// @brief Method Allocate addr 0x2c5700c size 0x634 virtual false final false
- void Allocate(::UnityEngine::UIElements::UIR::MeshHandle meshHandle, uint32_t vertexCount, uint32_t indexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, bool shortLived) ;
+ void Allocate(UnityEngine::UIElements::UIR::MeshHandle meshHandle, uint32_t vertexCount, uint32_t indexCount, ByRef<Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>> vertexData, ByRef<Unity::Collections::NativeSlice_1<uint16_t>> indexData, bool shortLived) ;
 
 /// @brief Method UpdateAfterGPUUsedData addr 0x2c57808 size 0x704 virtual false final false
- void UpdateAfterGPUUsedData(::UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, uint32_t indexCount, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>> vertexData, ByRef<::Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset, ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate> allocToUpdate, bool copyBackIndices) ;
+ void UpdateAfterGPUUsedData(UnityEngine::UIElements::UIR::MeshHandle mesh, uint32_t vertexCount, uint32_t indexCount, ByRef<Unity::Collections::NativeSlice_1<UnityEngine::UIElements::Vertex>> vertexData, ByRef<Unity::Collections::NativeSlice_1<uint16_t>> indexData, ByRef<uint16_t> indexOffset, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate> allocToUpdate, bool copyBackIndices) ;
 
 /// @brief Method Free addr 0x2c584ec size 0x84c virtual false final false
- void Free(::UnityEngine::UIElements::UIR::MeshHandle mesh) ;
+ void Free(UnityEngine::UIElements::UIR::MeshHandle mesh) ;
 
 /// @brief Method GetClipSpaceParams addr 0x2c58d38 size 0xc8 virtual false final false
-static ::UnityEngine::Vector4 GetClipSpaceParams() ;
+static UnityEngine::Vector4 GetClipSpaceParams() ;
 
 /// @brief Method OnFrameRenderingBegin addr 0x2c58e00 size 0xa4 virtual false final false
  void OnFrameRenderingBegin() ;
 
 /// @brief Method PtrToSlice addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count) ;
+static Unity::Collections::NativeSlice_1<T> PtrToSlice(void* p, int32_t count) ;
 
 /// @brief Method ApplyDrawCommandState addr 0x2c59858 size 0x224 virtual false final false
- void ApplyDrawCommandState(::UnityEngine::UIElements::UIR::RenderChainCommand cmd, int32_t textureSlot, ::UnityEngine::Material newMat, bool newMatDiffers, bool newFontDiffers, ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState> st) ;
+ void ApplyDrawCommandState(UnityEngine::UIElements::UIR::RenderChainCommand cmd, int32_t textureSlot, UnityEngine::Material newMat, bool newMatDiffers, bool newFontDiffers, ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState> st) ;
 
 /// @brief Method ApplyBatchState addr 0x2c59a7c size 0x184 virtual false final false
- void ApplyBatchState(ByRef<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState> st, bool allowMaterialChange) ;
+ void ApplyBatchState(ByRef<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState> st, bool allowMaterialChange) ;
 
 /// @brief Method EvaluateChain addr 0x2c59c00 size 0x1118 virtual false final false
- void EvaluateChain(::UnityEngine::UIElements::UIR::RenderChainCommand head, ::UnityEngine::Material initialMat, ::UnityEngine::Material defaultMat, ::UnityEngine::Texture gradientSettings, ::UnityEngine::Texture shaderInfo, float_t pixelsPerPoint, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transforms, ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRects, ::UnityEngine::MaterialPropertyBlock stateMatProps, bool allowMaterialChange, ByRef<::System::Exception> immediateException) ;
+ void EvaluateChain(UnityEngine::UIElements::UIR::RenderChainCommand head, UnityEngine::Material initialMat, UnityEngine::Material defaultMat, UnityEngine::Texture gradientSettings, UnityEngine::Texture shaderInfo, float_t pixelsPerPoint, Unity::Collections::NativeSlice_1<UnityEngine::UIElements::UIR::Transform3x4> transforms, Unity::Collections::NativeSlice_1<UnityEngine::Vector4> clipRects, UnityEngine::MaterialPropertyBlock stateMatProps, bool allowMaterialChange, ByRef<System::Exception> immediateException) ;
 
 /// @brief Method UpdateFenceValue addr 0x2c5bce8 size 0xcc virtual false final false
  void UpdateFenceValue() ;
 
 /// @brief Method KickRanges addr 0x2c5aee4 size 0x248 virtual false final false
- void KickRanges(void* ranges, ByRef<int32_t> rangesReady, ByRef<int32_t> rangesStart, int32_t rangesCount, ::UnityEngine::UIElements::UIR::Page curPage) ;
+ void KickRanges(void* ranges, ByRef<int32_t> rangesReady, ByRef<int32_t> rangesStart, int32_t rangesCount, UnityEngine::UIElements::UIR::Page curPage) ;
 
 /// @brief Method DrawRanges addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename I,typename T>
- void DrawRanges(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<I> ib, ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<T> vb, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::DrawBufferRange> ranges) ;
+ void DrawRanges(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<I> ib, UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__Utility__GPUBuffer_1<T> vb, Unity::Collections::NativeSlice_1<UnityEngine::UIElements::UIR::DrawBufferRange> ranges) ;
 
 /// @brief Method WaitOnCpuFence addr 0x2c5bdb4 size 0x88 virtual false final false
  void WaitOnCpuFence(uint32_t fence) ;
@@ -1051,7 +1050,7 @@ static void WrapUpGfxDeviceRecreate() ;
 static void FlushAllPendingDeviceDisposes() ;
 
 /// @brief Method GatherDrawStatistics addr 0x2c5c1e4 size 0x18 virtual false final false
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics GatherDrawStatistics() ;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics GatherDrawStatistics() ;
 
 /// @brief Method ProcessDeviceFreeQueue addr 0x2c56bb0 size 0x39c virtual false final false
 static void ProcessDeviceFreeQueue() ;
@@ -1066,13 +1065,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::UIRenderDevice);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::UIRenderDevice, "UnityEngine.UIElements.UIR", "UIRenderDevice");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice____c, "UnityEngine.UIElements.UIR", "UIRenderDevice/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree, "UnityEngine.UIElements.UIR", "UIRenderDevice/AllocToFree");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate, "UnityEngine.UIElements.UIR", "UIRenderDevice/AllocToUpdate");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree, "UnityEngine.UIElements.UIR", "UIRenderDevice/DeviceToFree");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics, "UnityEngine.UIElements.UIR", "UIRenderDevice/DrawStatistics");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState, "UnityEngine.UIElements.UIR", "UIRenderDevice/EvaluationState");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::UIRenderDevice);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UIRenderDevice, "UnityEngine.UIElements.UIR", "UIRenderDevice");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice____c, "UnityEngine.UIElements.UIR", "UIRenderDevice/<>c");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToFree, "UnityEngine.UIElements.UIR", "UIRenderDevice/AllocToFree");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__AllocToUpdate, "UnityEngine.UIElements.UIR", "UIRenderDevice/AllocToUpdate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DeviceToFree, "UnityEngine.UIElements.UIR", "UIRenderDevice/DeviceToFree");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__DrawStatistics, "UnityEngine.UIElements.UIR", "UIRenderDevice/DrawStatistics");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__UIRenderDevice__EvaluationState, "UnityEngine.UIElements.UIR", "UIRenderDevice/EvaluationState");

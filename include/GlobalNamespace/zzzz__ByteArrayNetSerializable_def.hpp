@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -28,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE ByteArrayNetSerializable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -141,10 +140,10 @@ explicit ByteArrayNetSerializable(::StringW name, int32_t size, bool allowEmpty)
  ::ArrayW<uint8_t> GetData(bool emptyAsNull) ;
 
 /// @brief Method Serialize addr 0xd9d308 size 0xf0 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0xd9d3f8 size 0x244 virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method Clear addr 0xd9d1d8 size 0x70 virtual false final false
  void Clear() ;
@@ -153,7 +152,7 @@ explicit ByteArrayNetSerializable(::StringW name, int32_t size, bool allowEmpty)
  void Resize(int32_t length) ;
 
 /// @brief Method op_Implicit addr 0xd9d63c size 0x14 virtual false final false
-static ::ArrayW<uint8_t> op_Implicit___ArrayW_uint8_t_(::GlobalNamespace::ByteArrayNetSerializable byteArrayNetSerializable) ;
+static ::ArrayW<uint8_t> op_Implicit___ArrayW_uint8_t_(GlobalNamespace::ByteArrayNetSerializable byteArrayNetSerializable) ;
 
 /// @brief Method CopyTo addr 0xd9d2ec size 0x1c virtual false final false
  void CopyTo(::ArrayW<uint8_t> destination) ;
@@ -165,6 +164,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ByteArrayNetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ByteArrayNetSerializable, "", "ByteArrayNetSerializable");
+NEED_NO_BOX(GlobalNamespace::ByteArrayNetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable, "", "ByteArrayNetSerializable");

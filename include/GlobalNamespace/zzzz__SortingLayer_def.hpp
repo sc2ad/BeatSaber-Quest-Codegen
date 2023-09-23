@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine {
 class Renderer;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13889))
 // CS Name: SortingLayer
-class CORDL_TYPE SortingLayer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SortingLayer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SortingLayer(SortingLayer const& ) noexcept = default;
 constexpr SortingLayer(SortingLayer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SortingLayer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SortingLayer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,22 +50,22 @@ constexpr explicit SortingLayer(void* ptr) noexcept : ::UnityEngine::MonoBehavio
 
 // Fields
 
- ::UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
+ UnityEngine::Renderer __declspec(property(get=__get__renderer, put=__set__renderer))  _renderer;
 
-constexpr void __set__renderer(::UnityEngine::Renderer value) ;
+constexpr void __set__renderer(UnityEngine::Renderer value) ;
 
-constexpr ::UnityEngine::Renderer __get__renderer() const;
+constexpr UnityEngine::Renderer __get__renderer() const;
 
 
 // Properties
 
- ::UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
+ UnityEngine::Renderer __declspec(property(get=get_renderer))  renderer;
 
 
 // Methods
 
 /// @brief Method get_renderer addr 0x1f83860 size 0x8 virtual false final false
- ::UnityEngine::Renderer get_renderer() ;
+ UnityEngine::Renderer get_renderer() ;
 
 /// @brief Method Reset addr 0x1f83868 size 0x50 virtual false final false
  void Reset() ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SortingLayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SortingLayer, "", "SortingLayer");
+NEED_NO_BOX(GlobalNamespace::SortingLayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer, "", "SortingLayer");

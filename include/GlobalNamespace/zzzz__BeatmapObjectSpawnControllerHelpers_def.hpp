@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+struct GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType;
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,12 +56,11 @@ constexpr explicit BeatmapObjectSpawnControllerHelpers(void* ptr) noexcept : ::b
 // Methods
 
 /// @brief Method GetNoteJumpValues addr 0x2236d34 size 0x38 virtual false final false
-static void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset, ByRef<::GlobalNamespace::____GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue) ;
+static void GetNoteJumpValues(GlobalNamespace::PlayerSpecificSettings playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset, ByRef<GlobalNamespace::GlobalNamespace__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectSpawnControllerHelpers, "", "BeatmapObjectSpawnControllerHelpers");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectSpawnControllerHelpers);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerHelpers, "", "BeatmapObjectSpawnControllerHelpers");

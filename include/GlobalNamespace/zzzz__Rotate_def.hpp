@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class Transform;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13824))
 // CS Name: Rotate
-class CORDL_TYPE Rotate : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE Rotate : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr Rotate(Rotate const& ) noexcept = default;
 constexpr Rotate(Rotate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Rotate(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit Rotate(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit Rotate(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__rotationVector, put=__set__rotationVector))  _rotationVector;
+ UnityEngine::Vector3 __declspec(property(get=__get__rotationVector, put=__set__rotationVector))  _rotationVector;
 
-constexpr void __set__rotationVector(::UnityEngine::Vector3 value) ;
+constexpr void __set__rotationVector(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__rotationVector() const;
+constexpr UnityEngine::Vector3 __get__rotationVector() const;
 
  float_t __declspec(property(get=__get__speed, put=__set__speed))  _speed;
 
@@ -73,35 +72,35 @@ constexpr void __set__randomize(bool value) ;
 
 constexpr bool __get__randomize() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__randomMinMultiplier, put=__set__randomMinMultiplier))  _randomMinMultiplier;
+ UnityEngine::Vector3 __declspec(property(get=__get__randomMinMultiplier, put=__set__randomMinMultiplier))  _randomMinMultiplier;
 
-constexpr void __set__randomMinMultiplier(::UnityEngine::Vector3 value) ;
+constexpr void __set__randomMinMultiplier(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__randomMinMultiplier() const;
+constexpr UnityEngine::Vector3 __get__randomMinMultiplier() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__randomMaxMultiplier, put=__set__randomMaxMultiplier))  _randomMaxMultiplier;
+ UnityEngine::Vector3 __declspec(property(get=__get__randomMaxMultiplier, put=__set__randomMaxMultiplier))  _randomMaxMultiplier;
 
-constexpr void __set__randomMaxMultiplier(::UnityEngine::Vector3 value) ;
+constexpr void __set__randomMaxMultiplier(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__randomMaxMultiplier() const;
+constexpr UnityEngine::Vector3 __get__randomMaxMultiplier() const;
 
- ::UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
+ UnityEngine::Transform __declspec(property(get=__get__transform, put=__set__transform))  _transform;
 
-constexpr void __set__transform(::UnityEngine::Transform value) ;
+constexpr void __set__transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get__transform() const;
+constexpr UnityEngine::Transform __get__transform() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__startRotationAngles, put=__set__startRotationAngles))  _startRotationAngles;
+ UnityEngine::Vector3 __declspec(property(get=__get__startRotationAngles, put=__set__startRotationAngles))  _startRotationAngles;
 
-constexpr void __set__startRotationAngles(::UnityEngine::Vector3 value) ;
+constexpr void __set__startRotationAngles(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__startRotationAngles() const;
+constexpr UnityEngine::Vector3 __get__startRotationAngles() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__randomizedMultiplier, put=__set__randomizedMultiplier))  _randomizedMultiplier;
+ UnityEngine::Vector3 __declspec(property(get=__get__randomizedMultiplier, put=__set__randomizedMultiplier))  _randomizedMultiplier;
 
-constexpr void __set__randomizedMultiplier(::UnityEngine::Vector3 value) ;
+constexpr void __set__randomizedMultiplier(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__randomizedMultiplier() const;
+constexpr UnityEngine::Vector3 __get__randomizedMultiplier() const;
 
 
 // Methods
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Rotate);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Rotate, "", "Rotate");
+NEED_NO_BOX(GlobalNamespace::Rotate);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Rotate, "", "Rotate");

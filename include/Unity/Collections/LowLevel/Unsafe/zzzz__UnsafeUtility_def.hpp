@@ -5,15 +5,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class Array;
 }
-namespace Unity::Collections {
-struct Allocator;
-}
 namespace System {
 class Type;
+}
+namespace Unity::Collections {
+struct Allocator;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -21,7 +20,7 @@ class UnsafeUtility;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
 template<typename T>
-struct ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1;
+struct Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1;
 }
 // Type: ::AlignOfHelper`1
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -31,20 +30,20 @@ template<typename T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9952))
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeUtility::AlignOfHelper`1
-struct CORDL_TYPE ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "dummy", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "T", modifiers: "", def_value: None }]
-constexpr ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(uint8_t dummy, T data) noexcept;
+constexpr Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(uint8_t dummy, T data) noexcept;
 
 
-                    constexpr ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 const&) = default;
-                    constexpr ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1&&) = default;
-                    constexpr ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1& operator=(____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 const& o) {
+                    constexpr Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 const&) = default;
+                    constexpr Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1&&) = default;
+                    constexpr Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1& operator=(Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1& operator=(____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1&& o) noexcept {
+                    constexpr Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1& operator=(Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -57,7 +56,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -94,7 +93,7 @@ class CORDL_TYPE UnsafeUtility : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 template<typename T>
-using AlignOfHelper_1 = ::Unity::Collections::LowLevel::Unsafe::____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1<T>;
+using AlignOfHelper_1 = Unity::Collections::LowLevel::Unsafe::Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1<T>;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -166,20 +165,20 @@ template<typename T>
 static bool EnumEquals(T lhs, T rhs) ;
 
 /// @brief Method IsBlittableValueType addr 0x2b2858c size 0x60 virtual false final false
-static bool IsBlittableValueType(::System::Type t) ;
+static bool IsBlittableValueType(System::Type t) ;
 
 /// @brief Method GetReasonForTypeNonBlittableImpl addr 0x2b28628 size 0x1bc virtual false final false
-static ::StringW GetReasonForTypeNonBlittableImpl(::System::Type t, ::StringW name) ;
+static ::StringW GetReasonForTypeNonBlittableImpl(System::Type t, ::StringW name) ;
 
 /// @brief Method IsArrayBlittable addr 0x2b287e4 size 0x30 virtual false final false
-static bool IsArrayBlittable(::System::Array arr) ;
+static bool IsArrayBlittable(System::Array arr) ;
 
 /// @brief Method IsGenericListBlittable addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
 static bool IsGenericListBlittable() ;
 
 /// @brief Method GetReasonForArrayNonBlittable addr 0x2b28814 size 0x4c virtual false final false
-static ::StringW GetReasonForArrayNonBlittable(::System::Array arr) ;
+static ::StringW GetReasonForArrayNonBlittable(System::Array arr) ;
 
 /// @brief Method GetReasonForGenericListNonBlittable addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -194,10 +193,10 @@ template<typename T>
 static bool IsBlittable() ;
 
 /// @brief Method Malloc addr 0x2b28860 size 0x54 virtual false final false
-static void* Malloc(int64_t size, int32_t alignment, ::Unity::Collections::Allocator allocator) ;
+static void* Malloc(int64_t size, int32_t alignment, Unity::Collections::Allocator allocator) ;
 
 /// @brief Method Free addr 0x2b284f4 size 0x44 virtual false final false
-static void Free(void* memory, ::Unity::Collections::Allocator allocator) ;
+static void Free(void* memory, Unity::Collections::Allocator allocator) ;
 
 /// @brief Method MemCpy addr 0x2b288b4 size 0x54 virtual false final false
 static void MemCpy(void* destination, void* source, int64_t size) ;
@@ -218,13 +217,12 @@ static void MemClear(void* destination, int64_t size) ;
 static int32_t MemCmp(void* ptr1, void* ptr2, int64_t size) ;
 
 /// @brief Method IsBlittable addr 0x2b285ec size 0x3c virtual false final false
-static bool IsBlittable(::System::Type type) ;
+static bool IsBlittable(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Collections::LowLevel::Unsafe
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::UnsafeUtility, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::Unity::Collections::LowLevel::Unsafe::____Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility/AlignOfHelper`1");
+NEED_NO_BOX(Unity::Collections::LowLevel::Unsafe::UnsafeUtility);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(Unity::Collections::LowLevel::Unsafe::Unity__Collections__LowLevel__Unsafe__UnsafeUtility__AlignOfHelper_1, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility/AlignOfHelper`1");

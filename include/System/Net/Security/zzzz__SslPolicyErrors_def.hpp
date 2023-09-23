@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::Security {
 struct SslPolicyErrors;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Net::Security::SslPolicyErrors const None;
+static System::Net::Security::SslPolicyErrors const None;
 
 /// @brief Field RemoteCertificateNotAvailable offset 0
-static ::System::Net::Security::SslPolicyErrors const RemoteCertificateNotAvailable;
+static System::Net::Security::SslPolicyErrors const RemoteCertificateNotAvailable;
 
 /// @brief Field RemoteCertificateNameMismatch offset 0
-static ::System::Net::Security::SslPolicyErrors const RemoteCertificateNameMismatch;
+static System::Net::Security::SslPolicyErrors const RemoteCertificateNameMismatch;
 
 /// @brief Field RemoteCertificateChainErrors offset 0
-static ::System::Net::Security::SslPolicyErrors const RemoteCertificateChainErrors;
+static System::Net::Security::SslPolicyErrors const RemoteCertificateChainErrors;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslPolicyErrors, "System.Net.Security", "SslPolicyErrors");

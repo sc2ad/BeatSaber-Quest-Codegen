@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct RoomJoinability;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::RoomJoinability const Unknown;
+static Oculus::Platform::RoomJoinability const Unknown;
 
 /// @brief Field AreIn offset 0
-static ::Oculus::Platform::RoomJoinability const AreIn;
+static Oculus::Platform::RoomJoinability const AreIn;
 
 /// @brief Field AreKicked offset 0
-static ::Oculus::Platform::RoomJoinability const AreKicked;
+static Oculus::Platform::RoomJoinability const AreKicked;
 
 /// @brief Field CanJoin offset 0
-static ::Oculus::Platform::RoomJoinability const CanJoin;
+static Oculus::Platform::RoomJoinability const CanJoin;
 
 /// @brief Field IsFull offset 0
-static ::Oculus::Platform::RoomJoinability const IsFull;
+static Oculus::Platform::RoomJoinability const IsFull;
 
 /// @brief Field NoViewer offset 0
-static ::Oculus::Platform::RoomJoinability const NoViewer;
+static Oculus::Platform::RoomJoinability const NoViewer;
 
 /// @brief Field PolicyPrevents offset 0
-static ::Oculus::Platform::RoomJoinability const PolicyPrevents;
+static Oculus::Platform::RoomJoinability const PolicyPrevents;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RoomJoinability, "Oculus.Platform", "RoomJoinability");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::RoomJoinability, "Oculus.Platform", "RoomJoinability");

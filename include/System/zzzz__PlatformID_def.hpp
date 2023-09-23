@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct PlatformID;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Win32S offset 0
-static ::System::PlatformID const Win32S;
+static System::PlatformID const Win32S;
 
 /// @brief Field Win32Windows offset 0
-static ::System::PlatformID const Win32Windows;
+static System::PlatformID const Win32Windows;
 
 /// @brief Field Win32NT offset 0
-static ::System::PlatformID const Win32NT;
+static System::PlatformID const Win32NT;
 
 /// @brief Field WinCE offset 0
-static ::System::PlatformID const WinCE;
+static System::PlatformID const WinCE;
 
 /// @brief Field Unix offset 0
-static ::System::PlatformID const Unix;
+static System::PlatformID const Unix;
 
 /// @brief Field Xbox offset 0
-static ::System::PlatformID const Xbox;
+static System::PlatformID const Xbox;
 
 /// @brief Field MacOSX offset 0
-static ::System::PlatformID const MacOSX;
+static System::PlatformID const MacOSX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::PlatformID, "System", "PlatformID");
+DEFINE_IL2CPP_ARG_TYPE(System::PlatformID, "System", "PlatformID");

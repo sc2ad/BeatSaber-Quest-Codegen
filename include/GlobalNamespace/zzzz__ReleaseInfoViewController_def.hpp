@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
-namespace {
-namespace UnityEngine {
-class TextAsset;
+namespace GlobalNamespace {
+class MainSettingsModelSO;
 }
 namespace HMUI {
 class TextPageScrollView;
 }
-namespace GlobalNamespace {
-class MainSettingsModelSO;
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13656))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5837))
 // CS Name: ReleaseInfoViewController
-class CORDL_TYPE ReleaseInfoViewController : public ::HMUI::ViewController {
+class CORDL_TYPE ReleaseInfoViewController : public HMUI::ViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr ReleaseInfoViewController(ReleaseInfoViewController const& ) noexcept 
 constexpr ReleaseInfoViewController(ReleaseInfoViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ReleaseInfoViewController(void* ptr) noexcept : ::HMUI::ViewController(ptr) {
+constexpr explicit ReleaseInfoViewController(void* ptr) noexcept : HMUI::ViewController(ptr) {
 }
 
 
@@ -57,29 +56,29 @@ constexpr explicit ReleaseInfoViewController(void* ptr) noexcept : ::HMUI::ViewC
 
 // Fields
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
+ HMUI::TextPageScrollView __declspec(property(get=__get__textPageScrollView, put=__set__textPageScrollView))  _textPageScrollView;
 
-constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView value) ;
+constexpr void __set__textPageScrollView(HMUI::TextPageScrollView value) ;
 
-constexpr ::HMUI::TextPageScrollView __get__textPageScrollView() const;
+constexpr HMUI::TextPageScrollView __get__textPageScrollView() const;
 
- ::UnityEngine::TextAsset __declspec(property(get=__get__releaseNotesTextAsset, put=__set__releaseNotesTextAsset))  _releaseNotesTextAsset;
+ UnityEngine::TextAsset __declspec(property(get=__get__releaseNotesTextAsset, put=__set__releaseNotesTextAsset))  _releaseNotesTextAsset;
 
-constexpr void __set__releaseNotesTextAsset(::UnityEngine::TextAsset value) ;
+constexpr void __set__releaseNotesTextAsset(UnityEngine::TextAsset value) ;
 
-constexpr ::UnityEngine::TextAsset __get__releaseNotesTextAsset() const;
+constexpr UnityEngine::TextAsset __get__releaseNotesTextAsset() const;
 
- ::UnityEngine::TextAsset __declspec(property(get=__get__firstTextAsset, put=__set__firstTextAsset))  _firstTextAsset;
+ UnityEngine::TextAsset __declspec(property(get=__get__firstTextAsset, put=__set__firstTextAsset))  _firstTextAsset;
 
-constexpr void __set__firstTextAsset(::UnityEngine::TextAsset value) ;
+constexpr void __set__firstTextAsset(UnityEngine::TextAsset value) ;
 
-constexpr ::UnityEngine::TextAsset __get__firstTextAsset() const;
+constexpr UnityEngine::TextAsset __get__firstTextAsset() const;
 
 
 // Methods
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ReleaseInfoViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ReleaseInfoViewController, "", "ReleaseInfoViewController");
+NEED_NO_BOX(GlobalNamespace::ReleaseInfoViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController, "", "ReleaseInfoViewController");

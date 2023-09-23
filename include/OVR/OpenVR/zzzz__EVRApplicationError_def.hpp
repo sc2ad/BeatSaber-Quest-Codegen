@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRApplicationError;
@@ -86,71 +85,70 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRApplicationError const None;
+static OVR::OpenVR::EVRApplicationError const None;
 
 /// @brief Field AppKeyAlreadyExists offset 0
-static ::OVR::OpenVR::EVRApplicationError const AppKeyAlreadyExists;
+static OVR::OpenVR::EVRApplicationError const AppKeyAlreadyExists;
 
 /// @brief Field NoManifest offset 0
-static ::OVR::OpenVR::EVRApplicationError const NoManifest;
+static OVR::OpenVR::EVRApplicationError const NoManifest;
 
 /// @brief Field NoApplication offset 0
-static ::OVR::OpenVR::EVRApplicationError const NoApplication;
+static OVR::OpenVR::EVRApplicationError const NoApplication;
 
 /// @brief Field InvalidIndex offset 0
-static ::OVR::OpenVR::EVRApplicationError const InvalidIndex;
+static OVR::OpenVR::EVRApplicationError const InvalidIndex;
 
 /// @brief Field UnknownApplication offset 0
-static ::OVR::OpenVR::EVRApplicationError const UnknownApplication;
+static OVR::OpenVR::EVRApplicationError const UnknownApplication;
 
 /// @brief Field IPCFailed offset 0
-static ::OVR::OpenVR::EVRApplicationError const IPCFailed;
+static OVR::OpenVR::EVRApplicationError const IPCFailed;
 
 /// @brief Field ApplicationAlreadyRunning offset 0
-static ::OVR::OpenVR::EVRApplicationError const ApplicationAlreadyRunning;
+static OVR::OpenVR::EVRApplicationError const ApplicationAlreadyRunning;
 
 /// @brief Field InvalidManifest offset 0
-static ::OVR::OpenVR::EVRApplicationError const InvalidManifest;
+static OVR::OpenVR::EVRApplicationError const InvalidManifest;
 
 /// @brief Field InvalidApplication offset 0
-static ::OVR::OpenVR::EVRApplicationError const InvalidApplication;
+static OVR::OpenVR::EVRApplicationError const InvalidApplication;
 
 /// @brief Field LaunchFailed offset 0
-static ::OVR::OpenVR::EVRApplicationError const LaunchFailed;
+static OVR::OpenVR::EVRApplicationError const LaunchFailed;
 
 /// @brief Field ApplicationAlreadyStarting offset 0
-static ::OVR::OpenVR::EVRApplicationError const ApplicationAlreadyStarting;
+static OVR::OpenVR::EVRApplicationError const ApplicationAlreadyStarting;
 
 /// @brief Field LaunchInProgress offset 0
-static ::OVR::OpenVR::EVRApplicationError const LaunchInProgress;
+static OVR::OpenVR::EVRApplicationError const LaunchInProgress;
 
 /// @brief Field OldApplicationQuitting offset 0
-static ::OVR::OpenVR::EVRApplicationError const OldApplicationQuitting;
+static OVR::OpenVR::EVRApplicationError const OldApplicationQuitting;
 
 /// @brief Field TransitionAborted offset 0
-static ::OVR::OpenVR::EVRApplicationError const TransitionAborted;
+static OVR::OpenVR::EVRApplicationError const TransitionAborted;
 
 /// @brief Field IsTemplate offset 0
-static ::OVR::OpenVR::EVRApplicationError const IsTemplate;
+static OVR::OpenVR::EVRApplicationError const IsTemplate;
 
 /// @brief Field SteamVRIsExiting offset 0
-static ::OVR::OpenVR::EVRApplicationError const SteamVRIsExiting;
+static OVR::OpenVR::EVRApplicationError const SteamVRIsExiting;
 
 /// @brief Field BufferTooSmall offset 0
-static ::OVR::OpenVR::EVRApplicationError const BufferTooSmall;
+static OVR::OpenVR::EVRApplicationError const BufferTooSmall;
 
 /// @brief Field PropertyNotSet offset 0
-static ::OVR::OpenVR::EVRApplicationError const PropertyNotSet;
+static OVR::OpenVR::EVRApplicationError const PropertyNotSet;
 
 /// @brief Field UnknownProperty offset 0
-static ::OVR::OpenVR::EVRApplicationError const UnknownProperty;
+static OVR::OpenVR::EVRApplicationError const UnknownProperty;
 
 /// @brief Field InvalidParameter offset 0
-static ::OVR::OpenVR::EVRApplicationError const InvalidParameter;
+static OVR::OpenVR::EVRApplicationError const InvalidParameter;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRApplicationError, "OVR.OpenVR", "EVRApplicationError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRApplicationError, "OVR.OpenVR", "EVRApplicationError");

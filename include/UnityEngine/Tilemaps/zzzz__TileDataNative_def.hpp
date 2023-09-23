@@ -2,18 +2,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Color;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 namespace UnityEngine::Tilemaps {
 struct TileFlags;
 }
 namespace UnityEngine::Tilemaps {
-struct ____UnityEngine__Tilemaps__Tile__ColliderType;
+struct UnityEngine__Tilemaps__Tile__ColliderType;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
@@ -28,8 +27,8 @@ namespace UnityEngine::Tilemaps {
 struct CORDL_TYPE TileDataNative : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_Sprite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_GameObject", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::Tilemaps::TileFlags", modifiers: "", def_value: None }, CppParam { name: "m_ColliderType", ty: "::UnityEngine::Tilemaps::____UnityEngine__Tilemaps__Tile__ColliderType", modifiers: "", def_value: None }]
-constexpr TileDataNative(int32_t m_Sprite, ::UnityEngine::Color m_Color, ::UnityEngine::Matrix4x4 m_Transform, int32_t m_GameObject, ::UnityEngine::Tilemaps::TileFlags m_Flags, ::UnityEngine::Tilemaps::____UnityEngine__Tilemaps__Tile__ColliderType m_ColliderType) noexcept;
+// Ctor Parameters [CppParam { name: "m_Sprite", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Color", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_Transform", ty: "UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "m_GameObject", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "UnityEngine::Tilemaps::TileFlags", modifiers: "", def_value: None }, CppParam { name: "m_ColliderType", ty: "UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType", modifiers: "", def_value: None }]
+constexpr TileDataNative(int32_t m_Sprite, UnityEngine::Color m_Color, UnityEngine::Matrix4x4 m_Transform, int32_t m_GameObject, UnityEngine::Tilemaps::TileFlags m_Flags, UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType m_ColliderType) noexcept;
 
 
                     constexpr TileDataNative(TileDataNative const&) = default;
@@ -68,17 +67,17 @@ constexpr void __set_m_Sprite(int32_t value) ;
 
 constexpr int32_t __get_m_Sprite() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
+ UnityEngine::Color __declspec(property(get=__get_m_Color, put=__set_m_Color))  m_Color;
 
-constexpr void __set_m_Color(::UnityEngine::Color value) ;
+constexpr void __set_m_Color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_m_Color() const;
+constexpr UnityEngine::Color __get_m_Color() const;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=__get_m_Transform, put=__set_m_Transform))  m_Transform;
+ UnityEngine::Matrix4x4 __declspec(property(get=__get_m_Transform, put=__set_m_Transform))  m_Transform;
 
-constexpr void __set_m_Transform(::UnityEngine::Matrix4x4 value) ;
+constexpr void __set_m_Transform(UnityEngine::Matrix4x4 value) ;
 
-constexpr ::UnityEngine::Matrix4x4 __get_m_Transform() const;
+constexpr UnityEngine::Matrix4x4 __get_m_Transform() const;
 
  int32_t __declspec(property(get=__get_m_GameObject, put=__set_m_GameObject))  m_GameObject;
 
@@ -86,21 +85,20 @@ constexpr void __set_m_GameObject(int32_t value) ;
 
 constexpr int32_t __get_m_GameObject() const;
 
- ::UnityEngine::Tilemaps::TileFlags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
+ UnityEngine::Tilemaps::TileFlags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
 
-constexpr void __set_m_Flags(::UnityEngine::Tilemaps::TileFlags value) ;
+constexpr void __set_m_Flags(UnityEngine::Tilemaps::TileFlags value) ;
 
-constexpr ::UnityEngine::Tilemaps::TileFlags __get_m_Flags() const;
+constexpr UnityEngine::Tilemaps::TileFlags __get_m_Flags() const;
 
- ::UnityEngine::Tilemaps::____UnityEngine__Tilemaps__Tile__ColliderType __declspec(property(get=__get_m_ColliderType, put=__set_m_ColliderType))  m_ColliderType;
+ UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType __declspec(property(get=__get_m_ColliderType, put=__set_m_ColliderType))  m_ColliderType;
 
-constexpr void __set_m_ColliderType(::UnityEngine::Tilemaps::____UnityEngine__Tilemaps__Tile__ColliderType value) ;
+constexpr void __set_m_ColliderType(UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType value) ;
 
-constexpr ::UnityEngine::Tilemaps::____UnityEngine__Tilemaps__Tile__ColliderType __get_m_ColliderType() const;
+constexpr UnityEngine::Tilemaps::UnityEngine__Tilemaps__Tile__ColliderType __get_m_ColliderType() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Tilemaps
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileDataNative, "UnityEngine.Tilemaps", "TileDataNative");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileDataNative, "UnityEngine.Tilemaps", "TileDataNative");

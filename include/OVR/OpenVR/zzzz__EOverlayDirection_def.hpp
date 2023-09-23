@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EOverlayDirection;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Up offset 0
-static ::OVR::OpenVR::EOverlayDirection const Up;
+static OVR::OpenVR::EOverlayDirection const Up;
 
 /// @brief Field Down offset 0
-static ::OVR::OpenVR::EOverlayDirection const Down;
+static OVR::OpenVR::EOverlayDirection const Down;
 
 /// @brief Field Left offset 0
-static ::OVR::OpenVR::EOverlayDirection const Left;
+static OVR::OpenVR::EOverlayDirection const Left;
 
 /// @brief Field Right offset 0
-static ::OVR::OpenVR::EOverlayDirection const Right;
+static OVR::OpenVR::EOverlayDirection const Right;
 
 /// @brief Field Count offset 0
-static ::OVR::OpenVR::EOverlayDirection const Count;
+static OVR::OpenVR::EOverlayDirection const Count;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EOverlayDirection, "OVR.OpenVR", "EOverlayDirection");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EOverlayDirection, "OVR.OpenVR", "EOverlayDirection");

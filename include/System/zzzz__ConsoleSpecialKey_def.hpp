@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ConsoleSpecialKey;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ControlC offset 0
-static ::System::ConsoleSpecialKey const ControlC;
+static System::ConsoleSpecialKey const ControlC;
 
 /// @brief Field ControlBreak offset 0
-static ::System::ConsoleSpecialKey const ControlBreak;
+static System::ConsoleSpecialKey const ControlBreak;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ConsoleSpecialKey, "System", "ConsoleSpecialKey");
+DEFINE_IL2CPP_ARG_TYPE(System::ConsoleSpecialKey, "System", "ConsoleSpecialKey");

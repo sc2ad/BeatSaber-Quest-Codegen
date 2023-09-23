@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -117,15 +116,14 @@ explicit Capture(::StringW text, int32_t index, int32_t length) ;
  ::StringW ToString() ;
 
 /// @brief Method GetLeftSubstring addr 0x27bc9b4 size 0x88 virtual false final false
- ::System::ReadOnlySpan_1<char16_t> GetLeftSubstring() ;
+ System::ReadOnlySpan_1<char16_t> GetLeftSubstring() ;
 
 /// @brief Method GetRightSubstring addr 0x27bca3c size 0x90 virtual false final false
- ::System::ReadOnlySpan_1<char16_t> GetRightSubstring() ;
+ System::ReadOnlySpan_1<char16_t> GetRightSubstring() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::Capture);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::Capture, "System.Text.RegularExpressions", "Capture");
+NEED_NO_BOX(System::Text::RegularExpressions::Capture);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Capture, "System.Text.RegularExpressions", "Capture");

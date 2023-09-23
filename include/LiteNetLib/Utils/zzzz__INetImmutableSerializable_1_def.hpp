@@ -1,11 +1,10 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -33,14 +32,13 @@ constexpr explicit INetImmutableSerializable_1(void* ptr) noexcept : ::cordl_int
 // Methods
 
 /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method CreateFromSerializedData addr 0x0 size 0xffffffffffffffff virtual true final false
- T CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader reader) ;
+ T CreateFromSerializedData(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::LiteNetLib::Utils::INetImmutableSerializable_1, "LiteNetLib.Utils", "INetImmutableSerializable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::INetImmutableSerializable_1, "LiteNetLib.Utils", "INetImmutableSerializable`1");

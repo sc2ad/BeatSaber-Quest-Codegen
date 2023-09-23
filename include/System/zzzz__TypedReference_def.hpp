@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class FieldInfo;
 }
@@ -27,8 +26,8 @@ namespace System {
 struct CORDL_TYPE TypedReference : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "type", ty: "::System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-constexpr TypedReference(::System::RuntimeTypeHandle type, ::cordl_internals::intptr_t Value, ::cordl_internals::intptr_t Type) noexcept;
+// Ctor Parameters [CppParam { name: "type", ty: "System::RuntimeTypeHandle", modifiers: "", def_value: None }, CppParam { name: "Value", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "Type", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
+constexpr TypedReference(System::RuntimeTypeHandle type, ::cordl_internals::intptr_t Value, ::cordl_internals::intptr_t Type) noexcept;
 
 
                     constexpr TypedReference(TypedReference const&) = default;
@@ -61,11 +60,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::RuntimeTypeHandle __declspec(property(get=__get_type, put=__set_type))  type;
+ System::RuntimeTypeHandle __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::RuntimeTypeHandle value) ;
+constexpr void __set_type(System::RuntimeTypeHandle value) ;
 
-constexpr ::System::RuntimeTypeHandle __get_type() const;
+constexpr System::RuntimeTypeHandle __get_type() const;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get_Value, put=__set_Value))  Value;
 
@@ -88,10 +87,10 @@ constexpr ::cordl_internals::intptr_t __get_Type() const;
 // Methods
 
 /// @brief Method MakeTypedReference addr 0x2483840 size 0x448 virtual false final false
-static /* UNKNOWN TYPE! Il2CppType { data: TypeDefinitionIndex(TypeDefinitionIndex(2571)), attrs: 0, ty: Typedbyref, byref: true, pinned: true, valuetype: true } */ MakeTypedReference(::bs_hook::Il2CppWrapperType target, ::ArrayW<::System::Reflection::FieldInfo> flds) ;
+static /* UNKNOWN TYPE! Il2CppType { data: TypeDefinitionIndex(TypeDefinitionIndex(2571)), attrs: 0, ty: Typedbyref, byref: true, pinned: true, valuetype: true } */ MakeTypedReference(::bs_hook::Il2CppWrapperType target, ::ArrayW<System::Reflection::FieldInfo> flds) ;
 
 /// @brief Method InternalMakeTypedReference addr 0x2483c8c size 0x4 virtual false final false
-static void InternalMakeTypedReference(void* result, ::bs_hook::Il2CppWrapperType target, ::ArrayW<::cordl_internals::intptr_t> flds, ::System::RuntimeType lastFieldType) ;
+static void InternalMakeTypedReference(void* result, ::bs_hook::Il2CppWrapperType target, ::ArrayW<::cordl_internals::intptr_t> flds, System::RuntimeType lastFieldType) ;
 
 /// @brief Method GetHashCode addr 0x2483c90 size 0xac virtual true final false
  int32_t GetHashCode() ;
@@ -109,5 +108,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TypedReference, "System", "TypedReference");
+DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");

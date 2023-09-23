@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::IO {
 struct FileShare;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::IO::FileShare const None;
+static System::IO::FileShare const None;
 
 /// @brief Field Read offset 0
-static ::System::IO::FileShare const Read;
+static System::IO::FileShare const Read;
 
 /// @brief Field Write offset 0
-static ::System::IO::FileShare const Write;
+static System::IO::FileShare const Write;
 
 /// @brief Field ReadWrite offset 0
-static ::System::IO::FileShare const ReadWrite;
+static System::IO::FileShare const ReadWrite;
 
 /// @brief Field Delete offset 0
-static ::System::IO::FileShare const Delete;
+static System::IO::FileShare const Delete;
 
 /// @brief Field Inheritable offset 0
-static ::System::IO::FileShare const Inheritable;
+static System::IO::FileShare const Inheritable;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::FileShare, "System.IO", "FileShare");
+DEFINE_IL2CPP_ARG_TYPE(System::IO::FileShare, "System.IO", "FileShare");

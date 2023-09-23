@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 class CalendarData;
@@ -168,11 +167,11 @@ constexpr void __set_bUseUserOverrides(bool value) ;
 
 constexpr bool __get_bUseUserOverrides() const;
 
-static ::System::Globalization::CalendarData __declspec(property(get=__get_Invariant, put=__set_Invariant))  Invariant;
+static System::Globalization::CalendarData __declspec(property(get=__get_Invariant, put=__set_Invariant))  Invariant;
 
-static void __set_Invariant(::System::Globalization::CalendarData value) ;
+static void __set_Invariant(System::Globalization::CalendarData value) ;
 
-static ::System::Globalization::CalendarData __get_Invariant() ;
+static System::Globalization::CalendarData __get_Invariant() ;
 
 static ::ArrayW<::StringW> __declspec(property(get=__get_HEBREW_MONTH_NAMES, put=__set_HEBREW_MONTH_NAMES))  HEBREW_MONTH_NAMES;
 
@@ -214,7 +213,7 @@ static ::ArrayW<::StringW> GetJapaneseEnglishEraNames() ;
  void InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId) ;
 
 /// @brief Method GetCalendarData addr 0x23ee800 size 0xa8 virtual false final false
-static ::System::Globalization::CalendarData GetCalendarData(int32_t calendarId) ;
+static System::Globalization::CalendarData GetCalendarData(int32_t calendarId) ;
 
 /// @brief Method CalendarIdToCultureName addr 0x23f12f4 size 0xcc virtual false final false
 static ::StringW CalendarIdToCultureName(int32_t calendarId) ;
@@ -223,7 +222,7 @@ static ::StringW CalendarIdToCultureName(int32_t calendarId) ;
 static int32_t nativeGetTwoDigitYearMax(int32_t calID) ;
 
 /// @brief Method nativeGetCalendarData addr 0x23f09a0 size 0xbc virtual false final false
-static bool nativeGetCalendarData(::System::Globalization::CalendarData data, ::StringW localeName, int32_t calendarId) ;
+static bool nativeGetCalendarData(System::Globalization::CalendarData data, ::StringW localeName, int32_t calendarId) ;
 
 /// @brief Method fill_calendar_data addr 0x23f13c0 size 0x4 virtual false final false
  bool fill_calendar_data(::StringW localeName, int32_t datetimeIndex) ;
@@ -232,6 +231,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::CalendarData);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::CalendarData, "System.Globalization", "CalendarData");
+NEED_NO_BOX(System::Globalization::CalendarData);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CalendarData, "System.Globalization", "CalendarData");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 class Sensor;
@@ -13,7 +12,7 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6357))
 // CS Name: UnityEngine.InputSystem.Sensor
-class CORDL_TYPE Sensor : public ::UnityEngine::InputSystem::InputDevice {
+class CORDL_TYPE Sensor : public UnityEngine::InputSystem::InputDevice {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr Sensor(Sensor const& ) noexcept = default;
 constexpr Sensor(Sensor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sensor(void* ptr) noexcept : ::UnityEngine::InputSystem::InputDevice(ptr) {
+constexpr explicit Sensor(void* ptr) noexcept : UnityEngine::InputSystem::InputDevice(ptr) {
 }
 
 
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Sensor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Sensor, "UnityEngine.InputSystem", "Sensor");
+NEED_NO_BOX(UnityEngine::InputSystem::Sensor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Sensor, "UnityEngine.InputSystem", "Sensor");

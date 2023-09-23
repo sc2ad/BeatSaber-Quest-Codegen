@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::UI {
 struct CanvasUpdate;
 }
@@ -29,16 +28,16 @@ constexpr explicit ICanvasElement(void* ptr) noexcept : ::cordl_internals::Inter
 
 // Properties
 
- ::UnityEngine::Transform __declspec(property(get=get_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=get_transform))  transform;
 
 
 // Methods
 
 /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate executing) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate executing) ;
 
 /// @brief Method get_transform addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Transform get_transform() ;
+ UnityEngine::Transform get_transform() ;
 
 /// @brief Method LayoutComplete addr 0x0 size 0xffffffffffffffff virtual true final false
  void LayoutComplete() ;
@@ -53,6 +52,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::ICanvasElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ICanvasElement, "UnityEngine.UI", "ICanvasElement");
+NEED_NO_BOX(UnityEngine::UI::ICanvasElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ICanvasElement, "UnityEngine.UI", "ICanvasElement");

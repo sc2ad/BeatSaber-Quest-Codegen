@@ -3,27 +3,36 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+namespace UnityEngine {
+class GameObject;
 }
 namespace HMUI {
 class ImageView;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class BeatmapCharacteristicSO;
+}
+namespace System::Runtime::CompilerServices {
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace UnityEngine {
-class GameObject;
+class Sprite;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -31,22 +40,12 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
-namespace UnityEngine {
-class Sprite;
-}
-namespace System::Runtime::CompilerServices {
-template<typename TResult>
-struct TaskAwaiter_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__LevelBar___Setup_d__17;
+struct GlobalNamespace__LevelBar___Setup_d__17;
 }
 // Type: ::<Setup>d__17
 namespace GlobalNamespace {
@@ -54,23 +53,23 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5877))
 // CS Name: LevelBar::<Setup>d__17
-struct CORDL_TYPE ____GlobalNamespace__LevelBar___Setup_d__17 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__LevelBar___Setup_d__17 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelBar", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "::GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite>", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__LevelBar___Setup_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::LevelBar __4__this, ::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::System::Threading::CancellationToken _cancellationToken_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "GlobalNamespace::LevelBar", modifiers: "", def_value: None }, CppParam { name: "previewBeatmapLevel", ty: "GlobalNamespace::IPreviewBeatmapLevel", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty: "GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "GlobalNamespace::BeatmapCharacteristicSO", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite>", modifiers: "", def_value: None }]
+constexpr GlobalNamespace__LevelBar___Setup_d__17(int32_t __1__state, System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, GlobalNamespace::LevelBar __4__this, GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, System::Threading::CancellationToken _cancellationToken_5__2, System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __u__1) noexcept;
 
 
-                    constexpr ____GlobalNamespace__LevelBar___Setup_d__17(____GlobalNamespace__LevelBar___Setup_d__17 const&) = default;
-                    constexpr ____GlobalNamespace__LevelBar___Setup_d__17(____GlobalNamespace__LevelBar___Setup_d__17&&) = default;
-                    constexpr ____GlobalNamespace__LevelBar___Setup_d__17& operator=(____GlobalNamespace__LevelBar___Setup_d__17 const& o) {
+                    constexpr GlobalNamespace__LevelBar___Setup_d__17(GlobalNamespace__LevelBar___Setup_d__17 const&) = default;
+                    constexpr GlobalNamespace__LevelBar___Setup_d__17(GlobalNamespace__LevelBar___Setup_d__17&&) = default;
+                    constexpr GlobalNamespace__LevelBar___Setup_d__17& operator=(GlobalNamespace__LevelBar___Setup_d__17 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__LevelBar___Setup_d__17& operator=(____GlobalNamespace__LevelBar___Setup_d__17&& o) noexcept {
+                    constexpr GlobalNamespace__LevelBar___Setup_d__17& operator=(GlobalNamespace__LevelBar___Setup_d__17&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -83,7 +82,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x58};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LevelBar___Setup_d__17(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__LevelBar___Setup_d__17(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -100,47 +99,47 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncVoidMethodBuilder __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncVoidMethodBuilder value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncVoidMethodBuilder __get___t__builder() const;
 
- ::GlobalNamespace::LevelBar __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::LevelBar __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::LevelBar value) ;
+constexpr void __set___4__this(GlobalNamespace::LevelBar value) ;
 
-constexpr ::GlobalNamespace::LevelBar __get___4__this() const;
+constexpr GlobalNamespace::LevelBar __get___4__this() const;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=__get_previewBeatmapLevel, put=__set_previewBeatmapLevel))  previewBeatmapLevel;
 
-constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel value) ;
+constexpr void __set_previewBeatmapLevel(GlobalNamespace::IPreviewBeatmapLevel value) ;
 
-constexpr ::GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
+constexpr GlobalNamespace::IPreviewBeatmapLevel __get_previewBeatmapLevel() const;
 
- ::GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
+ GlobalNamespace::BeatmapDifficulty __declspec(property(get=__get_beatmapDifficulty, put=__set_beatmapDifficulty))  beatmapDifficulty;
 
-constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) ;
+constexpr void __set_beatmapDifficulty(GlobalNamespace::BeatmapDifficulty value) ;
 
-constexpr ::GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
+constexpr GlobalNamespace::BeatmapDifficulty __get_beatmapDifficulty() const;
 
- ::GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
+ GlobalNamespace::BeatmapCharacteristicSO __declspec(property(get=__get_beatmapCharacteristic, put=__set_beatmapCharacteristic))  beatmapCharacteristic;
 
-constexpr void __set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO value) ;
+constexpr void __set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
+constexpr GlobalNamespace::BeatmapCharacteristicSO __get_beatmapCharacteristic() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get__cancellationToken_5__2, put=__set__cancellationToken_5__2))  _cancellationToken_5__2;
+ System::Threading::CancellationToken __declspec(property(get=__get__cancellationToken_5__2, put=__set__cancellationToken_5__2))  _cancellationToken_5__2;
 
-constexpr void __set__cancellationToken_5__2(::System::Threading::CancellationToken value) ;
+constexpr void __set__cancellationToken_5__2(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get__cancellationToken_5__2() const;
+constexpr System::Threading::CancellationToken __get__cancellationToken_5__2() const;
 
- ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> value) ;
 
-constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::TaskAwaiter_1<UnityEngine::Sprite> __get___u__1() const;
 
 
 // Methods
@@ -149,7 +148,7 @@ constexpr ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Spri
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x2189f74 size 0xc virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -161,10 +160,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5878))
 // CS Name: LevelBar
-class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LevelBar : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Setup_d__17 = ::GlobalNamespace::____GlobalNamespace__LevelBar___Setup_d__17;
+using _Setup_d__17 = GlobalNamespace::GlobalNamespace__LevelBar___Setup_d__17;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
@@ -178,7 +177,7 @@ constexpr LevelBar(LevelBar const& ) noexcept = default;
 constexpr LevelBar(LevelBar&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelBar(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LevelBar(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -199,23 +198,23 @@ constexpr explicit LevelBar(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(p
 
 // Fields
 
- ::HMUI::ImageView __declspec(property(get=__get__songArtworkImageView, put=__set__songArtworkImageView))  _songArtworkImageView;
+ HMUI::ImageView __declspec(property(get=__get__songArtworkImageView, put=__set__songArtworkImageView))  _songArtworkImageView;
 
-constexpr void __set__songArtworkImageView(::HMUI::ImageView value) ;
+constexpr void __set__songArtworkImageView(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__songArtworkImageView() const;
+constexpr HMUI::ImageView __get__songArtworkImageView() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__songNameText, put=__set__songNameText))  _songNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__songNameText, put=__set__songNameText))  _songNameText;
 
-constexpr void __set__songNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__songNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__songNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__songNameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__authorNameText, put=__set__authorNameText))  _authorNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__authorNameText, put=__set__authorNameText))  _authorNameText;
 
-constexpr void __set__authorNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__authorNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__authorNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__authorNameText() const;
 
  bool __declspec(property(get=__get__showSongSubName, put=__set__showSongSubName))  _showSongSubName;
 
@@ -223,29 +222,29 @@ constexpr void __set__showSongSubName(bool value) ;
 
 constexpr bool __get__showSongSubName() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__singleLineSongInfoContainer, put=__set__singleLineSongInfoContainer))  _singleLineSongInfoContainer;
+ UnityEngine::GameObject __declspec(property(get=__get__singleLineSongInfoContainer, put=__set__singleLineSongInfoContainer))  _singleLineSongInfoContainer;
 
-constexpr void __set__singleLineSongInfoContainer(::UnityEngine::GameObject value) ;
+constexpr void __set__singleLineSongInfoContainer(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__singleLineSongInfoContainer() const;
+constexpr UnityEngine::GameObject __get__singleLineSongInfoContainer() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__multiLineSongInfoContainer, put=__set__multiLineSongInfoContainer))  _multiLineSongInfoContainer;
+ UnityEngine::GameObject __declspec(property(get=__get__multiLineSongInfoContainer, put=__set__multiLineSongInfoContainer))  _multiLineSongInfoContainer;
 
-constexpr void __set__multiLineSongInfoContainer(::UnityEngine::GameObject value) ;
+constexpr void __set__multiLineSongInfoContainer(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__multiLineSongInfoContainer() const;
+constexpr UnityEngine::GameObject __get__multiLineSongInfoContainer() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__multiLineSongNameText, put=__set__multiLineSongNameText))  _multiLineSongNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__multiLineSongNameText, put=__set__multiLineSongNameText))  _multiLineSongNameText;
 
-constexpr void __set__multiLineSongNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__multiLineSongNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__multiLineSongNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__multiLineSongNameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__multiLineAuthorNameText, put=__set__multiLineAuthorNameText))  _multiLineAuthorNameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__multiLineAuthorNameText, put=__set__multiLineAuthorNameText))  _multiLineAuthorNameText;
 
-constexpr void __set__multiLineAuthorNameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__multiLineAuthorNameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__multiLineAuthorNameText() const;
+constexpr TMPro::TextMeshProUGUI __get__multiLineAuthorNameText() const;
 
  bool __declspec(property(get=__get__showDifficultyAndCharacteristic, put=__set__showDifficultyAndCharacteristic))  _showDifficultyAndCharacteristic;
 
@@ -253,17 +252,17 @@ constexpr void __set__showDifficultyAndCharacteristic(bool value) ;
 
 constexpr bool __get__showDifficultyAndCharacteristic() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__difficultyText, put=__set__difficultyText))  _difficultyText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__difficultyText, put=__set__difficultyText))  _difficultyText;
 
-constexpr void __set__difficultyText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__difficultyText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__difficultyText() const;
+constexpr TMPro::TextMeshProUGUI __get__difficultyText() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__characteristicIconImageView, put=__set__characteristicIconImageView))  _characteristicIconImageView;
+ HMUI::ImageView __declspec(property(get=__get__characteristicIconImageView, put=__set__characteristicIconImageView))  _characteristicIconImageView;
 
-constexpr void __set__characteristicIconImageView(::HMUI::ImageView value) ;
+constexpr void __set__characteristicIconImageView(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__characteristicIconImageView() const;
+constexpr HMUI::ImageView __get__characteristicIconImageView() const;
 
  bool __declspec(property(get=__get__useArtworkBackground, put=__set__useArtworkBackground))  _useArtworkBackground;
 
@@ -271,17 +270,17 @@ constexpr void __set__useArtworkBackground(bool value) ;
 
 constexpr bool __get__useArtworkBackground() const;
 
- ::HMUI::ImageView __declspec(property(get=__get__artworkBackgroundImage, put=__set__artworkBackgroundImage))  _artworkBackgroundImage;
+ HMUI::ImageView __declspec(property(get=__get__artworkBackgroundImage, put=__set__artworkBackgroundImage))  _artworkBackgroundImage;
 
-constexpr void __set__artworkBackgroundImage(::HMUI::ImageView value) ;
+constexpr void __set__artworkBackgroundImage(HMUI::ImageView value) ;
 
-constexpr ::HMUI::ImageView __get__artworkBackgroundImage() const;
+constexpr HMUI::ImageView __get__artworkBackgroundImage() const;
 
- ::System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
+ System::Threading::CancellationTokenSource __declspec(property(get=__get__cancellationTokenSource, put=__set__cancellationTokenSource))  _cancellationTokenSource;
 
-constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource value) ;
+constexpr void __set__cancellationTokenSource(System::Threading::CancellationTokenSource value) ;
 
-constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
+constexpr System::Threading::CancellationTokenSource __get__cancellationTokenSource() const;
 
 
 // Properties
@@ -295,10 +294,10 @@ constexpr ::System::Threading::CancellationTokenSource __get__cancellationTokenS
  void set_hide(bool value) ;
 
 /// @brief Method Setup addr 0x2189550 size 0xc virtual false final false
- void Setup(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+ void Setup(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 /// @brief Method Setup addr 0x218955c size 0xbc virtual false final false
- void Setup(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
+ void Setup(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel, GlobalNamespace::BeatmapCharacteristicSO beatmapCharacteristic, GlobalNamespace::BeatmapDifficulty beatmapDifficulty) ;
 
 /// @brief Method OnDestroy addr 0x2189618 size 0x14 virtual false final false
  void OnDestroy() ;
@@ -313,7 +312,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelBar);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelBar, "", "LevelBar");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LevelBar___Setup_d__17, "", "LevelBar/<Setup>d__17");
+NEED_NO_BOX(GlobalNamespace::LevelBar);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar, "", "LevelBar");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LevelBar___Setup_d__17, "", "LevelBar/<Setup>d__17");

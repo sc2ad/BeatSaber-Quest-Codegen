@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PDG_EventType;
@@ -107,134 +106,133 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PDG_EVENT_NULL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NULL;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NULL;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_ADD offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_REMOVE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_STATE_CHANGE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_STATE_CHANGE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_STATE_CHANGE;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_ADD_DEP offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_DEP;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_DEP;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_REMOVE_DEP offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_DEP;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_DEP;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_ADD_PARENT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_PARENT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_PARENT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_REMOVE_PARENT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_PARENT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_PARENT;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_CLEAR offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CLEAR;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CLEAR;
 
 /// @brief Field HAPI_PDG_EVENT_COOK_ERROR offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_ERROR;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_ERROR;
 
 /// @brief Field HAPI_PDG_EVENT_COOK_WARNING offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_WARNING;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_WARNING;
 
 /// @brief Field HAPI_PDG_EVENT_COOK_COMPLETE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_COMPLETE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_COMPLETE;
 
 /// @brief Field HAPI_PDG_EVENT_DIRTY_START offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_START;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_START;
 
 /// @brief Field HAPI_PDG_EVENT_DIRTY_STOP offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_STOP;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_STOP;
 
 /// @brief Field HAPI_PDG_EVENT_DIRTY_ALL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_ALL;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_DIRTY_ALL;
 
 /// @brief Field HAPI_PDG_EVENT_UI_SELECT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_UI_SELECT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_UI_SELECT;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_CREATE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CREATE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CREATE;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_REMOVE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_REMOVE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_REMOVE;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_RENAME offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_RENAME;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_RENAME;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_CONNECT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CONNECT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_CONNECT;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_DISCONNECT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_DISCONNECT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_DISCONNECT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_INT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_INT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_INT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_FLOAT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_FLOAT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_FLOAT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_STRING offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_STRING;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_STRING;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_FILE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_FILE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_FILE;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_PYOBJECT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_PYOBJECT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_PYOBJECT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_SET_GEOMETRY offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_GEOMETRY;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_SET_GEOMETRY;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_MERGE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_MERGE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_MERGE;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_RESULT offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_RESULT;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_RESULT;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_PRIORITY offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_PRIORITY;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_PRIORITY;
 
 /// @brief Field HAPI_PDG_EVENT_COOK_START offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_START;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_COOK_START;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_ADD_STATIC_ANCESTOR offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_STATIC_ANCESTOR;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_ADD_STATIC_ANCESTOR;
 
 /// @brief Field HAPI_PDG_EVENT_WORKITEM_REMOVE_STATIC_ANCESTOR offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_STATIC_ANCESTOR;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_WORKITEM_REMOVE_STATIC_ANCESTOR;
 
 /// @brief Field HAPI_PDG_EVENT_NODE_PROGRESS_UPDATE offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_PROGRESS_UPDATE;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_NODE_PROGRESS_UPDATE;
 
 /// @brief Field HAPI_PDG_EVENT_BATCH_ITEM_INITIALIZED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_BATCH_ITEM_INITIALIZED;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_BATCH_ITEM_INITIALIZED;
 
 /// @brief Field HAPI_PDG_EVENT_ALL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_ALL;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_ALL;
 
 /// @brief Field HAPI_PDG_EVENT_LOG offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_LOG;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_LOG;
 
 /// @brief Field HAPI_PDG_EVENT_SCHEDULER_ADDED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SCHEDULER_ADDED;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SCHEDULER_ADDED;
 
 /// @brief Field HAPI_PDG_EVENT_SCHEDULER_REMOVED offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SCHEDULER_REMOVED;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SCHEDULER_REMOVED;
 
 /// @brief Field HAPI_PDG_EVENT_SET_SCHEDULER offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SET_SCHEDULER;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SET_SCHEDULER;
 
 /// @brief Field HAPI_PDG_EVENT_SERVICE_MANAGER_ALL offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SERVICE_MANAGER_ALL;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_EVENT_SERVICE_MANAGER_ALL;
 
 /// @brief Field HAPI_PDG_CONTEXT_EVENTS offset 0
-static ::HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_CONTEXT_EVENTS;
+static HoudiniEngineUnity::HAPI_PDG_EventType const HAPI_PDG_CONTEXT_EVENTS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PDG_EventType, "HoudiniEngineUnity", "HAPI_PDG_EventType");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PDG_EventType, "HoudiniEngineUnity", "HAPI_PDG_EventType");

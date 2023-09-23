@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__ArgumentException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -16,7 +15,7 @@ namespace LiteNetLib {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14441))
 // CS Name: LiteNetLib.InvalidPacketException
-class CORDL_TYPE InvalidPacketException : public ::System::ArgumentException {
+class CORDL_TYPE InvalidPacketException : public System::ArgumentException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr InvalidPacketException(InvalidPacketException const& ) noexcept = defa
 constexpr InvalidPacketException(InvalidPacketException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InvalidPacketException(void* ptr) noexcept : ::System::ArgumentException(ptr) {
+constexpr explicit InvalidPacketException(void* ptr) noexcept : System::ArgumentException(ptr) {
 }
 
 
@@ -64,16 +63,15 @@ explicit InvalidPacketException(::StringW message) ;
 /// @brief Method .ctor addr 0x2088b9c size 0x8 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit InvalidPacketException(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit InvalidPacketException(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x2088ba4 size 0x8 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::InvalidPacketException);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::InvalidPacketException, "LiteNetLib", "InvalidPacketException");
+NEED_NO_BOX(LiteNetLib::InvalidPacketException);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::InvalidPacketException, "LiteNetLib", "InvalidPacketException");

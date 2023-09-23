@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
 struct GlyphPackingMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field BestShortSideFit offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestShortSideFit;
+static UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestShortSideFit;
 
 /// @brief Field BestLongSideFit offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestLongSideFit;
+static UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestLongSideFit;
 
 /// @brief Field BestAreaFit offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestAreaFit;
+static UnityEngine::TextCore::LowLevel::GlyphPackingMode const BestAreaFit;
 
 /// @brief Field BottomLeftRule offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphPackingMode const BottomLeftRule;
+static UnityEngine::TextCore::LowLevel::GlyphPackingMode const BottomLeftRule;
 
 /// @brief Field ContactPointRule offset 0
-static ::UnityEngine::TextCore::LowLevel::GlyphPackingMode const ContactPointRule;
+static UnityEngine::TextCore::LowLevel::GlyphPackingMode const ContactPointRule;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::LowLevel
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");

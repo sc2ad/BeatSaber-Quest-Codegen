@@ -6,16 +6,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class IntSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class NamedIntListSettingsController;
+class GlobalNamespace__NamedIntListSettingsController__TextValuePair;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__NamedIntListSettingsController__TextValuePair;
+class NamedIntListSettingsController;
 }
 // Type: ::TextValuePair
 namespace GlobalNamespace {
@@ -23,37 +22,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5688))
 // CS Name: NamedIntListSettingsController::TextValuePair
-class CORDL_TYPE ____GlobalNamespace__NamedIntListSettingsController__TextValuePair : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__NamedIntListSettingsController__TextValuePair : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__NamedIntListSettingsController__TextValuePair() = default;
+virtual ~GlobalNamespace__NamedIntListSettingsController__TextValuePair() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NamedIntListSettingsController__TextValuePair", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair(____GlobalNamespace__NamedIntListSettingsController__TextValuePair const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NamedIntListSettingsController__TextValuePair", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair(GlobalNamespace__NamedIntListSettingsController__TextValuePair const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NamedIntListSettingsController__TextValuePair", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair(____GlobalNamespace__NamedIntListSettingsController__TextValuePair&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NamedIntListSettingsController__TextValuePair", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair(GlobalNamespace__NamedIntListSettingsController__TextValuePair&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__NamedIntListSettingsController__TextValuePair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__NamedIntListSettingsController__TextValuePair(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(____GlobalNamespace__NamedIntListSettingsController__TextValuePair&& o) noexcept = default;
-  constexpr ____GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(____GlobalNamespace__NamedIntListSettingsController__TextValuePair const& o) noexcept = default;
+  constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(GlobalNamespace__NamedIntListSettingsController__TextValuePair&& o) noexcept = default;
+  constexpr GlobalNamespace__NamedIntListSettingsController__TextValuePair& operator=(GlobalNamespace__NamedIntListSettingsController__TextValuePair const& o) noexcept = default;
                 
 
 
@@ -83,7 +82,7 @@ constexpr int32_t __get_value() const;
  ::StringW get_localizedText() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__NamedIntListSettingsController__TextValuePair() ;
+explicit GlobalNamespace__NamedIntListSettingsController__TextValuePair() ;
 
 /// @brief Method .ctor addr 0x2153958 size 0x8 virtual false final false
  void _ctor() ;
@@ -98,10 +97,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5687))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5689))
 // CS Name: NamedIntListSettingsController
-class CORDL_TYPE NamedIntListSettingsController : public ::GlobalNamespace::ListSettingsController {
+class CORDL_TYPE NamedIntListSettingsController : public GlobalNamespace::ListSettingsController {
 public:
 // Declarations
-using TextValuePair = ::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair;
+using TextValuePair = GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -115,7 +114,7 @@ constexpr NamedIntListSettingsController(NamedIntListSettingsController const& )
 constexpr NamedIntListSettingsController(NamedIntListSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NamedIntListSettingsController(void* ptr) noexcept : ::GlobalNamespace::ListSettingsController(ptr) {
+constexpr explicit NamedIntListSettingsController(void* ptr) noexcept : GlobalNamespace::ListSettingsController(ptr) {
 }
 
 
@@ -136,17 +135,17 @@ constexpr explicit NamedIntListSettingsController(void* ptr) noexcept : ::Global
 
 // Fields
 
- ::GlobalNamespace::IntSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
+ GlobalNamespace::IntSO __declspec(property(get=__get__settingsValue, put=__set__settingsValue))  _settingsValue;
 
-constexpr void __set__settingsValue(::GlobalNamespace::IntSO value) ;
+constexpr void __set__settingsValue(GlobalNamespace::IntSO value) ;
 
-constexpr ::GlobalNamespace::IntSO __get__settingsValue() const;
+constexpr GlobalNamespace::IntSO __get__settingsValue() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair> __declspec(property(get=__get__textValuePairs, put=__set__textValuePairs))  _textValuePairs;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair> __declspec(property(get=__get__textValuePairs, put=__set__textValuePairs))  _textValuePairs;
 
-constexpr void __set__textValuePairs(::ArrayW<::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair> value) ;
+constexpr void __set__textValuePairs(::ArrayW<GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair> __get__textValuePairs() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair> __get__textValuePairs() const;
 
 
 // Methods
@@ -170,8 +169,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NamedIntListSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NamedIntListSettingsController, "", "NamedIntListSettingsController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__NamedIntListSettingsController__TextValuePair, "", "NamedIntListSettingsController/TextValuePair");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__NamedIntListSettingsController__TextValuePair, "", "NamedIntListSettingsController/TextValuePair");
+NEED_NO_BOX(GlobalNamespace::NamedIntListSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController, "", "NamedIntListSettingsController");

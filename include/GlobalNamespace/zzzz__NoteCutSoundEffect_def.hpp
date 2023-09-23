@@ -5,9 +5,21 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class AudioSource;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
+template<typename T>
+class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class INoteCutSoundEffectDidFinishEvent;
 }
 namespace GlobalNamespace {
 template<typename T>
@@ -17,34 +29,21 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace UnityEngine {
-class AnimationCurve;
+class AudioClip;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-class INoteCutSoundEffectDidFinishEvent;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
 template<typename T>
 class RandomObjectPicker_1;
 }
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-template<typename T>
-class LazyCopyHashSet_1;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class NoteCutSoundEffect;
+class GlobalNamespace__NoteCutSoundEffect__Pool;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__NoteCutSoundEffect__Pool;
+class NoteCutSoundEffect;
 }
 // Type: ::NoteCutSoundEffect
 namespace GlobalNamespace {
@@ -52,10 +51,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4055))
 // CS Name: NoteCutSoundEffect
-class CORDL_TYPE NoteCutSoundEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE NoteCutSoundEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using Pool = ::GlobalNamespace::____GlobalNamespace__NoteCutSoundEffect__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -69,7 +68,7 @@ constexpr NoteCutSoundEffect(NoteCutSoundEffect const& ) noexcept = default;
 constexpr NoteCutSoundEffect(NoteCutSoundEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoteCutSoundEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit NoteCutSoundEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -90,23 +89,23 @@ constexpr explicit NoteCutSoundEffect(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__speedToVolumeCurve, put=__set__speedToVolumeCurve))  _speedToVolumeCurve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__speedToVolumeCurve, put=__set__speedToVolumeCurve))  _speedToVolumeCurve;
 
-constexpr void __set__speedToVolumeCurve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__speedToVolumeCurve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__speedToVolumeCurve() const;
+constexpr UnityEngine::AnimationCurve __get__speedToVolumeCurve() const;
 
- ::ArrayW<::UnityEngine::AudioClip> __declspec(property(get=__get__badCutSoundEffectAudioClips, put=__set__badCutSoundEffectAudioClips))  _badCutSoundEffectAudioClips;
+ ::ArrayW<UnityEngine::AudioClip> __declspec(property(get=__get__badCutSoundEffectAudioClips, put=__set__badCutSoundEffectAudioClips))  _badCutSoundEffectAudioClips;
 
-constexpr void __set__badCutSoundEffectAudioClips(::ArrayW<::UnityEngine::AudioClip> value) ;
+constexpr void __set__badCutSoundEffectAudioClips(::ArrayW<UnityEngine::AudioClip> value) ;
 
-constexpr ::ArrayW<::UnityEngine::AudioClip> __get__badCutSoundEffectAudioClips() const;
+constexpr ::ArrayW<UnityEngine::AudioClip> __get__badCutSoundEffectAudioClips() const;
 
  float_t __declspec(property(get=__get__badCutVolume, put=__set__badCutVolume))  _badCutVolume;
 
@@ -120,17 +119,17 @@ constexpr void __set__goodCutVolume(float_t value) ;
 
 constexpr float_t __get__goodCutVolume() const;
 
- ::GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
+ GlobalNamespace::Saber __declspec(property(get=__get__saber, put=__set__saber))  _saber;
 
-constexpr void __set__saber(::GlobalNamespace::Saber value) ;
+constexpr void __set__saber(GlobalNamespace::Saber value) ;
 
-constexpr ::GlobalNamespace::Saber __get__saber() const;
+constexpr GlobalNamespace::Saber __get__saber() const;
 
- ::GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
+ GlobalNamespace::NoteController __declspec(property(get=__get__noteController, put=__set__noteController))  _noteController;
 
-constexpr void __set__noteController(::GlobalNamespace::NoteController value) ;
+constexpr void __set__noteController(GlobalNamespace::NoteController value) ;
 
-constexpr ::GlobalNamespace::NoteController __get__noteController() const;
+constexpr GlobalNamespace::NoteController __get__noteController() const;
 
  bool __declspec(property(get=__get__isPlaying, put=__set__isPlaying))  _isPlaying;
 
@@ -210,11 +209,11 @@ constexpr void __set__pitch(float_t value) ;
 
 constexpr float_t __get__pitch() const;
 
- ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> __declspec(property(get=__get__badCutRandomSoundPicker, put=__set__badCutRandomSoundPicker))  _badCutRandomSoundPicker;
+ GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __declspec(property(get=__get__badCutRandomSoundPicker, put=__set__badCutRandomSoundPicker))  _badCutRandomSoundPicker;
 
-constexpr void __set__badCutRandomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> value) ;
+constexpr void __set__badCutRandomSoundPicker(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> value) ;
 
-constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip> __get__badCutRandomSoundPicker() const;
+constexpr GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip> __get__badCutRandomSoundPicker() const;
 
  bool __declspec(property(get=__get__handleWrongSaberTypeAsGood, put=__set__handleWrongSaberTypeAsGood))  _handleWrongSaberTypeAsGood;
 
@@ -234,11 +233,11 @@ constexpr void __set__ignoreBadCuts(bool value) ;
 
 constexpr bool __get__ignoreBadCuts() const;
 
- ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __declspec(property(get=__get__didFinishEvent, put=__set__didFinishEvent))  _didFinishEvent;
+ GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __declspec(property(get=__get__didFinishEvent, put=__set__didFinishEvent))  _didFinishEvent;
 
-constexpr void __set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent> value) ;
+constexpr void __set__didFinishEvent(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent> value) ;
 
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __get__didFinishEvent() const;
+constexpr GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __get__didFinishEvent() const;
 
 /// @brief Field kEndOverlap offset 0
 static constexpr float_t  kEndOverlap{100.01};
@@ -249,7 +248,7 @@ static constexpr float_t  kEndFadeLength{0.01};
 
 // Properties
 
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __declspec(property(get=get_didFinishEvent))  didFinishEvent;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent> __declspec(property(get=get_didFinishEvent))  didFinishEvent;
 
  float_t __declspec(property(get=get_volumeMultiplier, put=set_volumeMultiplier))  volumeMultiplier;
 
@@ -259,7 +258,7 @@ static constexpr float_t  kEndFadeLength{0.01};
 // Methods
 
 /// @brief Method get_didFinishEvent addr 0x20bbbf8 size 0x8 virtual false final false
- ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent> get_didFinishEvent() ;
+ GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent> get_didFinishEvent() ;
 
 /// @brief Method set_volumeMultiplier addr 0x20bbc00 size 0x8 virtual false final false
  void set_volumeMultiplier(float_t value) ;
@@ -277,7 +276,7 @@ static constexpr float_t  kEndFadeLength{0.01};
  void Start() ;
 
 /// @brief Method Init addr 0x20bbce0 size 0x1b0 virtual false final false
- void Init(::UnityEngine::AudioClip audioClip, ::GlobalNamespace::NoteController noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote, float_t timeToNextNote, ::GlobalNamespace::Saber saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts) ;
+ void Init(UnityEngine::AudioClip audioClip, GlobalNamespace::NoteController noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote, float_t timeToNextNote, GlobalNamespace::Saber saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts) ;
 
 /// @brief Method ComputeDSPTimes addr 0x20bbe90 size 0xac virtual false final false
  void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote) ;
@@ -289,7 +288,7 @@ static constexpr float_t  kEndFadeLength{0.01};
  void StopPlayingAndFinish() ;
 
 /// @brief Method NoteWasCut addr 0x20bc2ec size 0x20c virtual false final false
- void NoteWasCut(::GlobalNamespace::NoteController noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo) ;
+ void NoteWasCut(GlobalNamespace::NoteController noteController, ByRef<GlobalNamespace::NoteCutInfo> noteCutInfo) ;
 
 // Ctor Parameters []
 explicit NoteCutSoundEffect() ;
@@ -307,44 +306,44 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(4055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2719 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
 // CS Name: NoteCutSoundEffect::Pool
-class CORDL_TYPE ____GlobalNamespace__NoteCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect> {
+class CORDL_TYPE GlobalNamespace__NoteCutSoundEffect__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::NoteCutSoundEffect> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__NoteCutSoundEffect__Pool() = default;
+virtual ~GlobalNamespace__NoteCutSoundEffect__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NoteCutSoundEffect__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool(____GlobalNamespace__NoteCutSoundEffect__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NoteCutSoundEffect__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__NoteCutSoundEffect__Pool(GlobalNamespace__NoteCutSoundEffect__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NoteCutSoundEffect__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool(____GlobalNamespace__NoteCutSoundEffect__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NoteCutSoundEffect__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__NoteCutSoundEffect__Pool(GlobalNamespace__NoteCutSoundEffect__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__NoteCutSoundEffect__Pool(void* ptr) noexcept : ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteCutSoundEffect>(ptr) {
+constexpr explicit GlobalNamespace__NoteCutSoundEffect__Pool(void* ptr) noexcept : Zenject::MonoMemoryPool_1<GlobalNamespace::NoteCutSoundEffect>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__NoteCutSoundEffect__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__NoteCutSoundEffect__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool& operator=(____GlobalNamespace__NoteCutSoundEffect__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__NoteCutSoundEffect__Pool& operator=(____GlobalNamespace__NoteCutSoundEffect__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__NoteCutSoundEffect__Pool& operator=(GlobalNamespace__NoteCutSoundEffect__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__NoteCutSoundEffect__Pool& operator=(GlobalNamespace__NoteCutSoundEffect__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__NoteCutSoundEffect__Pool() ;
+explicit GlobalNamespace__NoteCutSoundEffect__Pool() ;
 
 /// @brief Method .ctor addr 0x20bc57c size 0x48 virtual false final false
  void _ctor() ;
@@ -353,8 +352,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteCutSoundEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteCutSoundEffect, "", "NoteCutSoundEffect");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__NoteCutSoundEffect__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__NoteCutSoundEffect__Pool, "", "NoteCutSoundEffect/Pool");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__NoteCutSoundEffect__Pool, "", "NoteCutSoundEffect/Pool");
+NEED_NO_BOX(GlobalNamespace::NoteCutSoundEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffect, "", "NoteCutSoundEffect");

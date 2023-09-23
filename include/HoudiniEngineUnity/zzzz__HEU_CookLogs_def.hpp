@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class StringBuilder;
 }
@@ -53,17 +52,17 @@ constexpr explicit HEU_CookLogs(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::HoudiniEngineUnity::HEU_CookLogs __declspec(property(get=__get__instance, put=__set__instance))  _instance;
+static HoudiniEngineUnity::HEU_CookLogs __declspec(property(get=__get__instance, put=__set__instance))  _instance;
 
-static void __set__instance(::HoudiniEngineUnity::HEU_CookLogs value) ;
+static void __set__instance(HoudiniEngineUnity::HEU_CookLogs value) ;
 
-static ::HoudiniEngineUnity::HEU_CookLogs __get__instance() ;
+static HoudiniEngineUnity::HEU_CookLogs __get__instance() ;
 
- ::System::Text::StringBuilder __declspec(property(get=__get__cookLogs, put=__set__cookLogs))  _cookLogs;
+ System::Text::StringBuilder __declspec(property(get=__get__cookLogs, put=__set__cookLogs))  _cookLogs;
 
-constexpr void __set__cookLogs(::System::Text::StringBuilder value) ;
+constexpr void __set__cookLogs(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get__cookLogs() const;
+constexpr System::Text::StringBuilder __get__cookLogs() const;
 
  int32_t __declspec(property(get=__get__currentCookLogCount, put=__set__currentCookLogCount))  _currentCookLogCount;
 
@@ -92,13 +91,13 @@ static constexpr int64_t  MaxLogSize{50000000};
 
 // Properties
 
-static ::HoudiniEngineUnity::HEU_CookLogs __declspec(property(get=get_Instance))  Instance;
+static HoudiniEngineUnity::HEU_CookLogs __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
 
 /// @brief Method get_Instance addr 0x2040e58 size 0x7c virtual false final false
-static ::HoudiniEngineUnity::HEU_CookLogs get_Instance() ;
+static HoudiniEngineUnity::HEU_CookLogs get_Instance() ;
 
 /// @brief Method GetCookLogString addr 0x2040f60 size 0x20 virtual false final false
  ::StringW GetCookLogString() ;
@@ -131,6 +130,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_CookLogs);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_CookLogs, "HoudiniEngineUnity", "HEU_CookLogs");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_CookLogs);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_CookLogs, "HoudiniEngineUnity", "HEU_CookLogs");

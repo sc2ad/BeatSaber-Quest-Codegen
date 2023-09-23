@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class FormattableString;
 }
@@ -17,7 +16,7 @@ namespace System::Runtime::CompilerServices {
 class FormattableStringFactory;
 }
 namespace System::Runtime::CompilerServices {
-class ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString;
+class System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString;
 }
 // Type: ::ConcreteFormattableString
 namespace System::Runtime::CompilerServices {
@@ -25,37 +24,37 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2383))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3363))
 // CS Name: System.Runtime.CompilerServices.FormattableStringFactory::ConcreteFormattableString
-class CORDL_TYPE ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString : public ::System::FormattableString {
+class CORDL_TYPE System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString : public System::FormattableString {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString() = default;
+virtual ~System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString", modifiers: " const&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString", modifiers: " const&", def_value: None }]
+constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString", modifiers: "&&", def_value: None }]
-constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString", modifiers: "&&", def_value: None }]
+constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(void* ptr) noexcept : ::System::FormattableString(ptr) {
+constexpr explicit System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(void* ptr) noexcept : System::FormattableString(ptr) {
 }
 
 
-  constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(std::nullptr_t) noexcept {
+  constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(void* o) noexcept {
+  constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString&& o) noexcept = default;
-  constexpr ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString const& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString&& o) noexcept = default;
+  constexpr System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString& operator=(System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString const& o) noexcept = default;
                 
 
 
@@ -84,7 +83,7 @@ constexpr ::ArrayW<::bs_hook::Il2CppWrapperType> __get__arguments() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "format", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "arguments", ty: "::ArrayW<::bs_hook::Il2CppWrapperType>", modifiers: "", def_value: None }]
-explicit ____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
+explicit System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
 
 /// @brief Method .ctor addr 0x236e02c size 0x2c virtual false final false
  void _ctor(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
@@ -102,7 +101,7 @@ explicit ____System__Runtime__CompilerServices__FormattableStringFactory__Concre
  ::bs_hook::Il2CppWrapperType GetArgument(int32_t index) ;
 
 /// @brief Method ToString addr 0x236e0b4 size 0x14 virtual true final false
- ::StringW ToString(::System::IFormatProvider formatProvider) ;
+ ::StringW ToString(System::IFormatProvider formatProvider) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -117,7 +116,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE FormattableStringFactory : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ConcreteFormattableString = ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString;
+using ConcreteFormattableString = System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -153,14 +152,13 @@ constexpr explicit FormattableStringFactory(void* ptr) noexcept : ::bs_hook::Il2
 // Methods
 
 /// @brief Method Create addr 0x236df4c size 0xe0 virtual false final false
-static ::System::FormattableString Create(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
+static System::FormattableString Create(::StringW format, ::ArrayW<::bs_hook::Il2CppWrapperType> arguments) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::FormattableStringFactory);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::FormattableStringFactory, "System.Runtime.CompilerServices", "FormattableStringFactory");
-NEED_NO_BOX(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString, "System.Runtime.CompilerServices", "FormattableStringFactory/ConcreteFormattableString");
+NEED_NO_BOX(System::Runtime::CompilerServices::FormattableStringFactory);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FormattableStringFactory, "System.Runtime.CompilerServices", "FormattableStringFactory");
+NEED_NO_BOX(System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::System__Runtime__CompilerServices__FormattableStringFactory__ConcreteFormattableString, "System.Runtime.CompilerServices", "FormattableStringFactory/ConcreteFormattableString");

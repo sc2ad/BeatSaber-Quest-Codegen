@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class ICloneable;
-}
 namespace System {
 struct DayOfWeek;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 struct DateTime;
@@ -27,8 +26,8 @@ namespace System::Globalization {
 class CORDL_TYPE Calendar : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::ICloneable
-constexpr operator  ::System::ICloneable() const noexcept;
+/// @brief Convert operator to System::ICloneable
+constexpr operator  System::ICloneable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -201,9 +200,9 @@ constexpr int32_t __get_twoDigitYearMax() const;
 
 // Properties
 
- ::System::DateTime __declspec(property(get=get_MinSupportedDateTime))  MinSupportedDateTime;
+ System::DateTime __declspec(property(get=get_MinSupportedDateTime))  MinSupportedDateTime;
 
- ::System::DateTime __declspec(property(get=get_MaxSupportedDateTime))  MaxSupportedDateTime;
+ System::DateTime __declspec(property(get=get_MaxSupportedDateTime))  MaxSupportedDateTime;
 
  int32_t __declspec(property(get=get_ID))  ID;
 
@@ -219,10 +218,10 @@ constexpr int32_t __get_twoDigitYearMax() const;
 // Methods
 
 /// @brief Method get_MinSupportedDateTime addr 0x23ee594 size 0x58 virtual true final false
- ::System::DateTime get_MinSupportedDateTime() ;
+ System::DateTime get_MinSupportedDateTime() ;
 
 /// @brief Method get_MaxSupportedDateTime addr 0x23ee5ec size 0x58 virtual true final false
- ::System::DateTime get_MaxSupportedDateTime() ;
+ System::DateTime get_MaxSupportedDateTime() ;
 
 // Ctor Parameters []
 explicit Calendar() ;
@@ -249,10 +248,10 @@ explicit Calendar() ;
  int32_t get_CurrentEraValue() ;
 
 /// @brief Method GetDayOfMonth addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetDayOfMonth(::System::DateTime time) ;
+ int32_t GetDayOfMonth(System::DateTime time) ;
 
 /// @brief Method GetDayOfWeek addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::DayOfWeek GetDayOfWeek(::System::DateTime time) ;
+ System::DayOfWeek GetDayOfWeek(System::DateTime time) ;
 
 /// @brief Method GetDaysInMonth addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetDaysInMonth(int32_t year, int32_t month, int32_t era) ;
@@ -261,19 +260,19 @@ explicit Calendar() ;
  int32_t GetDaysInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetEra addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetEra(::System::DateTime time) ;
+ int32_t GetEra(System::DateTime time) ;
 
 /// @brief Method get_Eras addr 0x0 size 0xffffffffffffffff virtual true final false
  ::ArrayW<int32_t> get_Eras() ;
 
 /// @brief Method GetMonth addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetMonth(::System::DateTime time) ;
+ int32_t GetMonth(System::DateTime time) ;
 
 /// @brief Method GetMonthsInYear addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetMonthsInYear(int32_t year, int32_t era) ;
 
 /// @brief Method GetYear addr 0x0 size 0xffffffffffffffff virtual true final false
- int32_t GetYear(::System::DateTime time) ;
+ int32_t GetYear(System::DateTime time) ;
 
 /// @brief Method IsLeapYear addr 0x23ee8a8 size 0x14 virtual true final false
  bool IsLeapYear(int32_t year) ;
@@ -282,13 +281,13 @@ explicit Calendar() ;
  bool IsLeapYear(int32_t year, int32_t era) ;
 
 /// @brief Method ToDateTime addr 0x23ee8bc size 0x28 virtual true final false
- ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond) ;
+ System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond) ;
 
 /// @brief Method ToDateTime addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
+ System::DateTime ToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era) ;
 
 /// @brief Method TryToDateTime addr 0x23ee8e4 size 0x160 virtual true final false
- bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<::System::DateTime> result) ;
+ bool TryToDateTime(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, int32_t era, ByRef<System::DateTime> result) ;
 
 /// @brief Method IsValidYear addr 0x23eea44 size 0x84 virtual true final false
  bool IsValidYear(int32_t year, int32_t era) ;
@@ -318,6 +317,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Globalization::Calendar);
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::Calendar, "System.Globalization", "Calendar");
+NEED_NO_BOX(System::Globalization::Calendar);
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Calendar, "System.Globalization", "Calendar");

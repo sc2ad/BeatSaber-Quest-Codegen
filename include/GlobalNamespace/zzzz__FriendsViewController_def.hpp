@@ -2,9 +2,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Toggle;
+namespace GlobalNamespace {
+class PlatformNetworkPlayerModel;
 }
 namespace GlobalNamespace {
 class INetworkConfig;
@@ -12,11 +11,11 @@ class INetworkConfig;
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
+namespace UnityEngine::UI {
+class Toggle;
+}
 namespace HMUI {
 class ToggleBinder;
-}
-namespace GlobalNamespace {
-class PlatformNetworkPlayerModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5820))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5729))
 // CS Name: FriendsViewController
-class CORDL_TYPE FriendsViewController : public ::GlobalNamespace::NetworkPlayersViewController {
+class CORDL_TYPE FriendsViewController : public GlobalNamespace::NetworkPlayersViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr FriendsViewController(FriendsViewController const& ) noexcept = defaul
 constexpr FriendsViewController(FriendsViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FriendsViewController(void* ptr) noexcept : ::GlobalNamespace::NetworkPlayersViewController(ptr) {
+constexpr explicit FriendsViewController(void* ptr) noexcept : GlobalNamespace::NetworkPlayersViewController(ptr) {
 }
 
 
@@ -64,29 +63,29 @@ constexpr explicit FriendsViewController(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__enableOpenPartyToggle, put=__set__enableOpenPartyToggle))  _enableOpenPartyToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__enableOpenPartyToggle, put=__set__enableOpenPartyToggle))  _enableOpenPartyToggle;
 
-constexpr void __set__enableOpenPartyToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__enableOpenPartyToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__enableOpenPartyToggle() const;
+constexpr UnityEngine::UI::Toggle __get__enableOpenPartyToggle() const;
 
- ::GlobalNamespace::PlatformNetworkPlayerModel __declspec(property(get=__get__networkPlayerModel, put=__set__networkPlayerModel))  _networkPlayerModel;
+ GlobalNamespace::PlatformNetworkPlayerModel __declspec(property(get=__get__networkPlayerModel, put=__set__networkPlayerModel))  _networkPlayerModel;
 
-constexpr void __set__networkPlayerModel(::GlobalNamespace::PlatformNetworkPlayerModel value) ;
+constexpr void __set__networkPlayerModel(GlobalNamespace::PlatformNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::PlatformNetworkPlayerModel __get__networkPlayerModel() const;
+constexpr GlobalNamespace::PlatformNetworkPlayerModel __get__networkPlayerModel() const;
 
- ::GlobalNamespace::INetworkConfig __declspec(property(get=__get__networkConfig, put=__set__networkConfig))  _networkConfig;
+ GlobalNamespace::INetworkConfig __declspec(property(get=__get__networkConfig, put=__set__networkConfig))  _networkConfig;
 
-constexpr void __set__networkConfig(::GlobalNamespace::INetworkConfig value) ;
+constexpr void __set__networkConfig(GlobalNamespace::INetworkConfig value) ;
 
-constexpr ::GlobalNamespace::INetworkConfig __get__networkConfig() const;
+constexpr GlobalNamespace::INetworkConfig __get__networkConfig() const;
 
- ::HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
+ HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
 
-constexpr void __set__toggleBinder(::HMUI::ToggleBinder value) ;
+constexpr void __set__toggleBinder(HMUI::ToggleBinder value) ;
 
-constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
+constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 
  bool __declspec(property(get=__get__allowAnyoneToJoin, put=__set__allowAnyoneToJoin))  _allowAnyoneToJoin;
 
@@ -101,7 +100,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
 
  ::StringW __declspec(property(get=get_otherPlayersTitle))  otherPlayersTitle;
 
- ::GlobalNamespace::INetworkPlayerModel __declspec(property(get=get_networkPlayerModel))  networkPlayerModel;
+ GlobalNamespace::INetworkPlayerModel __declspec(property(get=get_networkPlayerModel))  networkPlayerModel;
 
 
 // Methods
@@ -113,7 +112,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
  ::StringW get_otherPlayersTitle() ;
 
 /// @brief Method get_networkPlayerModel addr 0x215b6f0 size 0x8 virtual true final false
- ::GlobalNamespace::INetworkPlayerModel get_networkPlayerModel() ;
+ GlobalNamespace::INetworkPlayerModel get_networkPlayerModel() ;
 
 /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x215b6f8 size 0x10c virtual true final false
  void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy) ;
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FriendsViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FriendsViewController, "", "FriendsViewController");
+NEED_NO_BOX(GlobalNamespace::FriendsViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FriendsViewController, "", "FriendsViewController");

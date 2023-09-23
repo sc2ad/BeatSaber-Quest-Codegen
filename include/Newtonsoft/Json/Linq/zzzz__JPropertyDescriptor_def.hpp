@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -21,7 +20,7 @@ namespace Newtonsoft::Json::Linq {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8295))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11910))
 // CS Name: Newtonsoft.Json.Linq.JPropertyDescriptor
-class CORDL_TYPE JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
+class CORDL_TYPE JPropertyDescriptor : public System::ComponentModel::PropertyDescriptor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr JPropertyDescriptor(JPropertyDescriptor const& ) noexcept = default;
 constexpr JPropertyDescriptor(JPropertyDescriptor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JPropertyDescriptor(void* ptr) noexcept : ::System::ComponentModel::PropertyDescriptor(ptr) {
+constexpr explicit JPropertyDescriptor(void* ptr) noexcept : System::ComponentModel::PropertyDescriptor(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit JPropertyDescriptor(void* ptr) noexcept : ::System::Component
 
 // Properties
 
- ::System::Type __declspec(property(get=get_ComponentType))  ComponentType;
+ System::Type __declspec(property(get=get_ComponentType))  ComponentType;
 
  bool __declspec(property(get=get_IsReadOnly))  IsReadOnly;
 
- ::System::Type __declspec(property(get=get_PropertyType))  PropertyType;
+ System::Type __declspec(property(get=get_PropertyType))  PropertyType;
 
  int32_t __declspec(property(get=get_NameHashCode))  NameHashCode;
 
@@ -75,7 +74,7 @@ explicit JPropertyDescriptor(::StringW name) ;
  void _ctor(::StringW name) ;
 
 /// @brief Method CastInstance addr 0x2517934 size 0x7c virtual false final false
-static ::Newtonsoft::Json::Linq::JObject CastInstance(::bs_hook::Il2CppWrapperType instance) ;
+static Newtonsoft::Json::Linq::JObject CastInstance(::bs_hook::Il2CppWrapperType instance) ;
 
 /// @brief Method CanResetValue addr 0x25179b0 size 0x8 virtual true final false
  bool CanResetValue(::bs_hook::Il2CppWrapperType component) ;
@@ -93,13 +92,13 @@ static ::Newtonsoft::Json::Linq::JObject CastInstance(::bs_hook::Il2CppWrapperTy
  bool ShouldSerializeValue(::bs_hook::Il2CppWrapperType component) ;
 
 /// @brief Method get_ComponentType addr 0x2517c50 size 0x6c virtual true final false
- ::System::Type get_ComponentType() ;
+ System::Type get_ComponentType() ;
 
 /// @brief Method get_IsReadOnly addr 0x2517cbc size 0x8 virtual true final false
  bool get_IsReadOnly() ;
 
 /// @brief Method get_PropertyType addr 0x2517cc4 size 0x6c virtual true final false
- ::System::Type get_PropertyType() ;
+ System::Type get_PropertyType() ;
 
 /// @brief Method get_NameHashCode addr 0x2517d30 size 0x8 virtual true final false
  int32_t get_NameHashCode() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Linq::JPropertyDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Linq::JPropertyDescriptor, "Newtonsoft.Json.Linq", "JPropertyDescriptor");
+NEED_NO_BOX(Newtonsoft::Json::Linq::JPropertyDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Linq::JPropertyDescriptor, "Newtonsoft.Json.Linq", "JPropertyDescriptor");

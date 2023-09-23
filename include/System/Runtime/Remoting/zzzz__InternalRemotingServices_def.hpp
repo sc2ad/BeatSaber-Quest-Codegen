@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Runtime::Remoting::Metadata {
 class SoapAttribute;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -54,22 +53,21 @@ constexpr explicit InternalRemotingServices(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
-static ::System::Collections::Hashtable __declspec(property(get=__get__soapAttributes, put=__set__soapAttributes))  _soapAttributes;
+static System::Collections::Hashtable __declspec(property(get=__get__soapAttributes, put=__set__soapAttributes))  _soapAttributes;
 
-static void __set__soapAttributes(::System::Collections::Hashtable value) ;
+static void __set__soapAttributes(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get__soapAttributes() ;
+static System::Collections::Hashtable __get__soapAttributes() ;
 
 
 // Methods
 
 /// @brief Method GetCachedSoapAttribute addr 0x231a230 size 0x550 virtual false final false
-static ::System::Runtime::Remoting::Metadata::SoapAttribute GetCachedSoapAttribute(::bs_hook::Il2CppWrapperType reflectionObject) ;
+static System::Runtime::Remoting::Metadata::SoapAttribute GetCachedSoapAttribute(::bs_hook::Il2CppWrapperType reflectionObject) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::InternalRemotingServices);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::InternalRemotingServices, "System.Runtime.Remoting", "InternalRemotingServices");
+NEED_NO_BOX(System::Runtime::Remoting::InternalRemotingServices);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::InternalRemotingServices, "System.Runtime.Remoting", "InternalRemotingServices");

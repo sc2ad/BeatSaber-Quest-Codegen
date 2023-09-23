@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct IndexFormat;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Local offset 0
-static ::UnityEngine::ProBuilder::IndexFormat const Local;
+static UnityEngine::ProBuilder::IndexFormat const Local;
 
 /// @brief Field Common offset 0
-static ::UnityEngine::ProBuilder::IndexFormat const Common;
+static UnityEngine::ProBuilder::IndexFormat const Common;
 
 /// @brief Field Both offset 0
-static ::UnityEngine::ProBuilder::IndexFormat const Both;
+static UnityEngine::ProBuilder::IndexFormat const Both;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IndexFormat, "UnityEngine.ProBuilder", "IndexFormat");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IndexFormat, "UnityEngine.ProBuilder", "IndexFormat");

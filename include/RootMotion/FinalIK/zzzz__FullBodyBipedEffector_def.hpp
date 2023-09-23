@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Body offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const Body;
+static RootMotion::FinalIK::FullBodyBipedEffector const Body;
 
 /// @brief Field LeftShoulder offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftShoulder;
+static RootMotion::FinalIK::FullBodyBipedEffector const LeftShoulder;
 
 /// @brief Field RightShoulder offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const RightShoulder;
+static RootMotion::FinalIK::FullBodyBipedEffector const RightShoulder;
 
 /// @brief Field LeftThigh offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftThigh;
+static RootMotion::FinalIK::FullBodyBipedEffector const LeftThigh;
 
 /// @brief Field RightThigh offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const RightThigh;
+static RootMotion::FinalIK::FullBodyBipedEffector const RightThigh;
 
 /// @brief Field LeftHand offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftHand;
+static RootMotion::FinalIK::FullBodyBipedEffector const LeftHand;
 
 /// @brief Field RightHand offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const RightHand;
+static RootMotion::FinalIK::FullBodyBipedEffector const RightHand;
 
 /// @brief Field LeftFoot offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const LeftFoot;
+static RootMotion::FinalIK::FullBodyBipedEffector const LeftFoot;
 
 /// @brief Field RightFoot offset 0
-static ::RootMotion::FinalIK::FullBodyBipedEffector const RightFoot;
+static RootMotion::FinalIK::FullBodyBipedEffector const RightFoot;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FullBodyBipedEffector, "RootMotion.FinalIK", "FullBodyBipedEffector");
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedEffector, "RootMotion.FinalIK", "FullBodyBipedEffector");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Runtime::ExceptionServices {
 class HandleProcessCorruptedStateExceptionsAttribute;
@@ -12,7 +11,7 @@ namespace System::Runtime::ExceptionServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3341))
 // CS Name: System.Runtime.ExceptionServices.HandleProcessCorruptedStateExceptionsAttribute
-class CORDL_TYPE HandleProcessCorruptedStateExceptionsAttribute : public ::System::Attribute {
+class CORDL_TYPE HandleProcessCorruptedStateExceptionsAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr HandleProcessCorruptedStateExceptionsAttribute(HandleProcessCorruptedS
 constexpr HandleProcessCorruptedStateExceptionsAttribute(HandleProcessCorruptedStateExceptionsAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HandleProcessCorruptedStateExceptionsAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit HandleProcessCorruptedStateExceptionsAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::ExceptionServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");
+NEED_NO_BOX(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::HandleProcessCorruptedStateExceptionsAttribute, "System.Runtime.ExceptionServices", "HandleProcessCorruptedStateExceptionsAttribute");

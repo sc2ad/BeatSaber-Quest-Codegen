@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::InteropServices {
 struct GCHandleType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Weak offset 0
-static ::System::Runtime::InteropServices::GCHandleType const Weak;
+static System::Runtime::InteropServices::GCHandleType const Weak;
 
 /// @brief Field WeakTrackResurrection offset 0
-static ::System::Runtime::InteropServices::GCHandleType const WeakTrackResurrection;
+static System::Runtime::InteropServices::GCHandleType const WeakTrackResurrection;
 
 /// @brief Field Normal offset 0
-static ::System::Runtime::InteropServices::GCHandleType const Normal;
+static System::Runtime::InteropServices::GCHandleType const Normal;
 
 /// @brief Field Pinned offset 0
-static ::System::Runtime::InteropServices::GCHandleType const Pinned;
+static System::Runtime::InteropServices::GCHandleType const Pinned;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::GCHandleType, "System.Runtime.InteropServices", "GCHandleType");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GCHandleType, "System.Runtime.InteropServices", "GCHandleType");

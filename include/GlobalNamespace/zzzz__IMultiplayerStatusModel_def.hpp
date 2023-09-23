@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
-namespace System::Threading::Tasks {
-template<typename TResult>
-class Task_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template<typename TResult>
+class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,12 +33,11 @@ constexpr explicit IMultiplayerStatusModel(void* ptr) noexcept : ::cordl_interna
 // Methods
 
 /// @brief Method GetMultiplayerStatusAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData> GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::MultiplayerStatusData> GetMultiplayerStatusAsync(System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IMultiplayerStatusModel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IMultiplayerStatusModel, "", "IMultiplayerStatusModel");
+NEED_NO_BOX(GlobalNamespace::IMultiplayerStatusModel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerStatusModel, "", "IMultiplayerStatusModel");

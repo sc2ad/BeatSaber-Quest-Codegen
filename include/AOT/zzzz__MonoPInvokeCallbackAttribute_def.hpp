@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace AOT {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9902))
 // CS Name: AOT.MonoPInvokeCallbackAttribute
-class CORDL_TYPE MonoPInvokeCallbackAttribute : public ::System::Attribute {
+class CORDL_TYPE MonoPInvokeCallbackAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute const& ) noe
 constexpr MonoPInvokeCallbackAttribute(MonoPInvokeCallbackAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,16 +50,15 @@ constexpr explicit MonoPInvokeCallbackAttribute(void* ptr) noexcept : ::System::
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit MonoPInvokeCallbackAttribute(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit MonoPInvokeCallbackAttribute(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2b279c4 size 0x8 virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def AOT
-} // end anonymous namespace
-NEED_NO_BOX(::AOT::MonoPInvokeCallbackAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::AOT::MonoPInvokeCallbackAttribute, "AOT", "MonoPInvokeCallbackAttribute");
+NEED_NO_BOX(AOT::MonoPInvokeCallbackAttribute);
+DEFINE_IL2CPP_ARG_TYPE(AOT::MonoPInvokeCallbackAttribute, "AOT", "MonoPInvokeCallbackAttribute");

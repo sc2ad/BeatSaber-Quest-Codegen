@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -20,8 +19,8 @@ namespace Newtonsoft::Json::Serialization {
 struct CORDL_TYPE ResolverContractKey : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "_resolverType", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "_contractType", ty: "::System::Type", modifiers: "", def_value: None }]
-constexpr ResolverContractKey(::System::Type _resolverType, ::System::Type _contractType) noexcept;
+// Ctor Parameters [CppParam { name: "_resolverType", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "_contractType", ty: "System::Type", modifiers: "", def_value: None }]
+constexpr ResolverContractKey(System::Type _resolverType, System::Type _contractType) noexcept;
 
 
                     constexpr ResolverContractKey(ResolverContractKey const&) = default;
@@ -54,23 +53,23 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Type __declspec(property(get=__get__resolverType, put=__set__resolverType))  _resolverType;
+ System::Type __declspec(property(get=__get__resolverType, put=__set__resolverType))  _resolverType;
 
-constexpr void __set__resolverType(::System::Type value) ;
+constexpr void __set__resolverType(System::Type value) ;
 
-constexpr ::System::Type __get__resolverType() const;
+constexpr System::Type __get__resolverType() const;
 
- ::System::Type __declspec(property(get=__get__contractType, put=__set__contractType))  _contractType;
+ System::Type __declspec(property(get=__get__contractType, put=__set__contractType))  _contractType;
 
-constexpr void __set__contractType(::System::Type value) ;
+constexpr void __set__contractType(System::Type value) ;
 
-constexpr ::System::Type __get__contractType() const;
+constexpr System::Type __get__contractType() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x24f6c84 size 0x8 virtual false final false
- void _ctor(::System::Type resolverType, ::System::Type contractType) ;
+ void _ctor(System::Type resolverType, System::Type contractType) ;
 
 /// @brief Method GetHashCode addr 0x24f6c8c size 0x48 virtual true final false
  int32_t GetHashCode() ;
@@ -79,11 +78,10 @@ constexpr ::System::Type __get__contractType() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x24f6d5c size 0x24 virtual false final false
- bool Equals(::Newtonsoft::Json::Serialization::ResolverContractKey other) ;
+ bool Equals(Newtonsoft::Json::Serialization::ResolverContractKey other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ResolverContractKey, "Newtonsoft.Json.Serialization", "ResolverContractKey");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ResolverContractKey, "Newtonsoft.Json.Serialization", "ResolverContractKey");

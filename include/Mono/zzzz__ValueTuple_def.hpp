@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace Mono {
 struct ValueTuple;
@@ -47,5 +46,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::ValueTuple, "Mono", "ValueTuple");
+DEFINE_IL2CPP_ARG_TYPE(Mono::ValueTuple, "Mono", "ValueTuple");

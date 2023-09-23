@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class SpawnRotationBeatmapEventData;
-}
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class SpawnRotationBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5083))
 // CS Name: EnvironmentSpawnRotation
-class CORDL_TYPE EnvironmentSpawnRotation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnvironmentSpawnRotation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr EnvironmentSpawnRotation(EnvironmentSpawnRotation const& ) noexcept = 
 constexpr EnvironmentSpawnRotation(EnvironmentSpawnRotation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnvironmentSpawnRotation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnvironmentSpawnRotation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -71,11 +70,11 @@ constexpr void __set__smooth(float_t value) ;
 
 constexpr float_t __get__smooth() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
 static int32_t __declspec(property(get=__get__spawnRotationID, put=__set__spawnRotationID))  _spawnRotationID;
 
@@ -83,11 +82,11 @@ static void __set__spawnRotationID(int32_t value) ;
 
 static int32_t __get__spawnRotationID() ;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
  float_t __declspec(property(get=__get__currentRotation, put=__set__currentRotation))  _currentRotation;
 
@@ -137,7 +136,7 @@ static int32_t __get__numberOfActiveEnvironmentSpawnRotationObjects() ;
  void OnDestroy() ;
 
 /// @brief Method HandleSpawnRotationBeatmapEvent addr 0x2268e78 size 0x104 virtual false final false
- void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
+ void HandleSpawnRotationBeatmapEvent(GlobalNamespace::SpawnRotationBeatmapEventData beatmapEventData) ;
 
 /// @brief Method FixedUpdate addr 0x2268f7c size 0x90 virtual false final false
  void FixedUpdate() ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnvironmentSpawnRotation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentSpawnRotation, "", "EnvironmentSpawnRotation");
+NEED_NO_BOX(GlobalNamespace::EnvironmentSpawnRotation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation, "", "EnvironmentSpawnRotation");

@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -30,8 +29,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE HMac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -72,11 +71,11 @@ static constexpr uint8_t  IPAD{54u};
 /// @brief Field OPAD offset 0
 static constexpr uint8_t  OPAD{92u};
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_digest, put=__set_digest))  digest;
 
-constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_digest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_digest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_digest() const;
 
  int32_t __declspec(property(get=__get_digestSize, put=__set_digestSize))  digestSize;
 
@@ -90,17 +89,17 @@ constexpr void __set_blockLength(int32_t value) ;
 
 constexpr int32_t __get_blockLength() const;
 
- ::Org::BouncyCastle::Utilities::IMemoable __declspec(property(get=__get_ipadState, put=__set_ipadState))  ipadState;
+ Org::BouncyCastle::Utilities::IMemoable __declspec(property(get=__get_ipadState, put=__set_ipadState))  ipadState;
 
-constexpr void __set_ipadState(::Org::BouncyCastle::Utilities::IMemoable value) ;
+constexpr void __set_ipadState(Org::BouncyCastle::Utilities::IMemoable value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::IMemoable __get_ipadState() const;
+constexpr Org::BouncyCastle::Utilities::IMemoable __get_ipadState() const;
 
- ::Org::BouncyCastle::Utilities::IMemoable __declspec(property(get=__get_opadState, put=__set_opadState))  opadState;
+ Org::BouncyCastle::Utilities::IMemoable __declspec(property(get=__get_opadState, put=__set_opadState))  opadState;
 
-constexpr void __set_opadState(::Org::BouncyCastle::Utilities::IMemoable value) ;
+constexpr void __set_opadState(Org::BouncyCastle::Utilities::IMemoable value) ;
 
-constexpr ::Org::BouncyCastle::Utilities::IMemoable __get_opadState() const;
+constexpr Org::BouncyCastle::Utilities::IMemoable __get_opadState() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_inputPad, put=__set_inputPad))  inputPad;
 
@@ -122,20 +121,20 @@ constexpr ::ArrayW<uint8_t> __get_outputBuf() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit HMac(::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit HMac(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xe81b40 size 0x15c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method get_AlgorithmName addr 0xe81c9c size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method GetUnderlyingDigest addr 0xe81d5c size 0x8 virtual true final false
- ::Org::BouncyCastle::Crypto::IDigest GetUnderlyingDigest() ;
+ Org::BouncyCastle::Crypto::IDigest GetUnderlyingDigest() ;
 
 /// @brief Method Init addr 0xe81d64 size 0x528 virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetMacSize addr 0xe822dc size 0x8 virtual true final false
  int32_t GetMacSize() ;
@@ -159,6 +158,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::HMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::HMac, "Org.BouncyCastle.Crypto.Macs", "HMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::HMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::HMac, "Org.BouncyCastle.Crypto.Macs", "HMac");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
@@ -38,12 +37,11 @@ constexpr explicit IKeyWrapper(void* ptr) noexcept : ::cordl_internals::Interfac
  ::bs_hook::Il2CppWrapperType get_AlgorithmDetails() ;
 
 /// @brief Method Wrap addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Crypto::IBlockResult Wrap(::ArrayW<uint8_t> keyData) ;
+ Org::BouncyCastle::Crypto::IBlockResult Wrap(::ArrayW<uint8_t> keyData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IKeyWrapper);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IKeyWrapper, "Org.BouncyCastle.Crypto", "IKeyWrapper");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IKeyWrapper);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IKeyWrapper, "Org.BouncyCastle.Crypto", "IKeyWrapper");

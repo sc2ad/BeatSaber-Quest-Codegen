@@ -2,25 +2,24 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class Vector3SO;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 namespace System {
 template<typename T>
 class Action_1;
 }
+namespace HMUI {
+class ButtonBinder;
+}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +31,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5699))
 // CS Name: PlayerHeightSettingsController
-class CORDL_TYPE PlayerHeightSettingsController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PlayerHeightSettingsController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr PlayerHeightSettingsController(PlayerHeightSettingsController const& )
 constexpr PlayerHeightSettingsController(PlayerHeightSettingsController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerHeightSettingsController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PlayerHeightSettingsController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -68,41 +67,41 @@ constexpr explicit PlayerHeightSettingsController(void* ptr) noexcept : ::UnityE
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__text, put=__set__text))  _text;
 
-constexpr void __set__text(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__text(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__text() const;
+constexpr TMPro::TextMeshProUGUI __get__text() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__setButton, put=__set__setButton))  _setButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__setButton, put=__set__setButton))  _setButton;
 
-constexpr void __set__setButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__setButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__setButton() const;
+constexpr UnityEngine::UI::Button __get__setButton() const;
 
- ::GlobalNamespace::Vector3SO __declspec(property(get=__get__roomCenter, put=__set__roomCenter))  _roomCenter;
+ GlobalNamespace::Vector3SO __declspec(property(get=__get__roomCenter, put=__set__roomCenter))  _roomCenter;
 
-constexpr void __set__roomCenter(::GlobalNamespace::Vector3SO value) ;
+constexpr void __set__roomCenter(GlobalNamespace::Vector3SO value) ;
 
-constexpr ::GlobalNamespace::Vector3SO __get__roomCenter() const;
+constexpr GlobalNamespace::Vector3SO __get__roomCenter() const;
 
- ::GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
+ GlobalNamespace::IVRPlatformHelper __declspec(property(get=__get__vrPlatformHelper, put=__set__vrPlatformHelper))  _vrPlatformHelper;
 
-constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper value) ;
+constexpr void __set__vrPlatformHelper(GlobalNamespace::IVRPlatformHelper value) ;
 
-constexpr ::GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
+constexpr GlobalNamespace::IVRPlatformHelper __get__vrPlatformHelper() const;
 
- ::System::Action_1<float_t> __declspec(property(get=__get_valueDidChangeEvent, put=__set_valueDidChangeEvent))  valueDidChangeEvent;
+ System::Action_1<float_t> __declspec(property(get=__get_valueDidChangeEvent, put=__set_valueDidChangeEvent))  valueDidChangeEvent;
 
-constexpr void __set_valueDidChangeEvent(::System::Action_1<float_t> value) ;
+constexpr void __set_valueDidChangeEvent(System::Action_1<float_t> value) ;
 
-constexpr ::System::Action_1<float_t> __get_valueDidChangeEvent() const;
+constexpr System::Action_1<float_t> __get_valueDidChangeEvent() const;
 
- ::HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
+ HMUI::ButtonBinder __declspec(property(get=__get__buttonBinder, put=__set__buttonBinder))  _buttonBinder;
 
-constexpr void __set__buttonBinder(::HMUI::ButtonBinder value) ;
+constexpr void __set__buttonBinder(HMUI::ButtonBinder value) ;
 
-constexpr ::HMUI::ButtonBinder __get__buttonBinder() const;
+constexpr HMUI::ButtonBinder __get__buttonBinder() const;
 
  float_t __declspec(property(get=__get__value, put=__set__value))  _value;
 
@@ -119,10 +118,10 @@ constexpr float_t __get__value() const;
 // Methods
 
 /// @brief Method add_valueDidChangeEvent addr 0x2154370 size 0xb0 virtual false final false
- void add_valueDidChangeEvent(::System::Action_1<float_t> value) ;
+ void add_valueDidChangeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method remove_valueDidChangeEvent addr 0x2154420 size 0xb0 virtual false final false
- void remove_valueDidChangeEvent(::System::Action_1<float_t> value) ;
+ void remove_valueDidChangeEvent(System::Action_1<float_t> value) ;
 
 /// @brief Method get_value addr 0x21544d0 size 0x8 virtual false final false
  float_t get_value() ;
@@ -149,6 +148,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayerHeightSettingsController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerHeightSettingsController, "", "PlayerHeightSettingsController");
+NEED_NO_BOX(GlobalNamespace::PlayerHeightSettingsController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeightSettingsController, "", "PlayerHeightSettingsController");

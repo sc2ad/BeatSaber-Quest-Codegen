@@ -4,15 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class NodePoseSyncStateManager;
+class AvatarPartsModel;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarData;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class MockPlayerSettings;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
 class INetworkPlayer;
@@ -22,31 +36,16 @@ template<typename T>
 class HashSet_1;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-class AvatarPartsModel;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-struct MultiplayerAvatarData;
-}
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class MockPlayerFiniteStateMachine;
 }
 namespace GlobalNamespace {
 struct DisconnectedReason;
 }
 namespace GlobalNamespace {
-class MockPlayerFiniteStateMachine;
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class NodePoseSyncStateManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -61,11 +60,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IConnectedPlayer
-constexpr operator  ::GlobalNamespace::IConnectedPlayer() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IConnectedPlayer
+constexpr operator  GlobalNamespace::IConnectedPlayer() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::INetworkPlayer
-constexpr operator  ::GlobalNamespace::INetworkPlayer() const noexcept;
+/// @brief Convert operator to GlobalNamespace::INetworkPlayer
+constexpr operator  GlobalNamespace::INetworkPlayer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xf0};
@@ -112,11 +111,11 @@ constexpr void __set__isConnected_k__BackingField(bool value) ;
 
 constexpr bool __get__isConnected_k__BackingField() const;
 
- ::GlobalNamespace::MultiplayerAvatarData __declspec(property(get=__get__multiplayerAvatarData_k__BackingField, put=__set__multiplayerAvatarData_k__BackingField))  _multiplayerAvatarData_k__BackingField;
+ GlobalNamespace::MultiplayerAvatarData __declspec(property(get=__get__multiplayerAvatarData_k__BackingField, put=__set__multiplayerAvatarData_k__BackingField))  _multiplayerAvatarData_k__BackingField;
 
-constexpr void __set__multiplayerAvatarData_k__BackingField(::GlobalNamespace::MultiplayerAvatarData value) ;
+constexpr void __set__multiplayerAvatarData_k__BackingField(GlobalNamespace::MultiplayerAvatarData value) ;
 
-constexpr ::GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_k__BackingField() const;
+constexpr GlobalNamespace::MultiplayerAvatarData __get__multiplayerAvatarData_k__BackingField() const;
 
  bool __declspec(property(get=__get__isConnectionOwner_k__BackingField, put=__set__isConnectionOwner_k__BackingField))  _isConnectionOwner_k__BackingField;
 
@@ -136,17 +135,17 @@ constexpr void __set__currentPartySize_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__currentPartySize_k__BackingField() const;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get__selectionMask_k__BackingField, put=__set__selectionMask_k__BackingField))  _selectionMask_k__BackingField;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=__get__selectionMask_k__BackingField, put=__set__selectionMask_k__BackingField))  _selectionMask_k__BackingField;
 
-constexpr void __set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+constexpr void __set__selectionMask_k__BackingField(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSelectionMask __get__selectionMask_k__BackingField() const;
+constexpr GlobalNamespace::BeatmapLevelSelectionMask __get__selectionMask_k__BackingField() const;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get__configuration_k__BackingField, put=__set__configuration_k__BackingField))  _configuration_k__BackingField;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=__get__configuration_k__BackingField, put=__set__configuration_k__BackingField))  _configuration_k__BackingField;
 
-constexpr void __set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value) ;
+constexpr void __set__configuration_k__BackingField(GlobalNamespace::GameplayServerConfiguration value) ;
 
-constexpr ::GlobalNamespace::GameplayServerConfiguration __get__configuration_k__BackingField() const;
+constexpr GlobalNamespace::GameplayServerConfiguration __get__configuration_k__BackingField() const;
 
  bool __declspec(property(get=__get__isMyPartyOwner_k__BackingField, put=__set__isMyPartyOwner_k__BackingField))  _isMyPartyOwner_k__BackingField;
 
@@ -208,29 +207,29 @@ constexpr void __set__isReady(bool value) ;
 
 constexpr bool __get__isReady() const;
 
- ::System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__playerState, put=__set__playerState))  _playerState;
+ System::Collections::Generic::HashSet_1<::StringW> __declspec(property(get=__get__playerState, put=__set__playerState))  _playerState;
 
-constexpr void __set__playerState(::System::Collections::Generic::HashSet_1<::StringW> value) ;
+constexpr void __set__playerState(System::Collections::Generic::HashSet_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::HashSet_1<::StringW> __get__playerState() const;
+constexpr System::Collections::Generic::HashSet_1<::StringW> __get__playerState() const;
 
- ::GlobalNamespace::MockPlayerSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
+ GlobalNamespace::MockPlayerSettings __declspec(property(get=__get__settings, put=__set__settings))  _settings;
 
-constexpr void __set__settings(::GlobalNamespace::MockPlayerSettings value) ;
+constexpr void __set__settings(GlobalNamespace::MockPlayerSettings value) ;
 
-constexpr ::GlobalNamespace::MockPlayerSettings __get__settings() const;
+constexpr GlobalNamespace::MockPlayerSettings __get__settings() const;
 
- ::GlobalNamespace::MockPlayerFiniteStateMachine __declspec(property(get=__get__fsm, put=__set__fsm))  _fsm;
+ GlobalNamespace::MockPlayerFiniteStateMachine __declspec(property(get=__get__fsm, put=__set__fsm))  _fsm;
 
-constexpr void __set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine value) ;
+constexpr void __set__fsm(GlobalNamespace::MockPlayerFiniteStateMachine value) ;
 
-constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine __get__fsm() const;
+constexpr GlobalNamespace::MockPlayerFiniteStateMachine __get__fsm() const;
 
- ::GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
+ GlobalNamespace::IGameplayRpcManager __declspec(property(get=__get__gameplayRpcManager, put=__set__gameplayRpcManager))  _gameplayRpcManager;
 
-constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager value) ;
+constexpr void __set__gameplayRpcManager(GlobalNamespace::IGameplayRpcManager value) ;
 
-constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
+constexpr GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() const;
 
 
 // Properties
@@ -251,11 +250,11 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
 
  bool __declspec(property(get=get_isConnected, put=set_isConnected))  isConnected;
 
- ::GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData, put=set_multiplayerAvatarData))  multiplayerAvatarData;
+ GlobalNamespace::MultiplayerAvatarData __declspec(property(get=get_multiplayerAvatarData, put=set_multiplayerAvatarData))  multiplayerAvatarData;
 
  bool __declspec(property(get=get_isConnectionOwner, put=set_isConnectionOwner))  isConnectionOwner;
 
- ::GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
+ GlobalNamespace::DisconnectedReason __declspec(property(get=get_disconnectedReason))  disconnectedReason;
 
  float_t __declspec(property(get=get_offsetSyncTime))  offsetSyncTime;
 
@@ -267,13 +266,13 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
 
  int32_t __declspec(property(get=get_currentPartySize, put=set_currentPartySize))  currentPartySize;
 
- ::GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_selectionMask, put=set_selectionMask))  selectionMask;
+ GlobalNamespace::BeatmapLevelSelectionMask __declspec(property(get=get_selectionMask, put=set_selectionMask))  selectionMask;
 
- ::GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration, put=set_configuration))  configuration;
+ GlobalNamespace::GameplayServerConfiguration __declspec(property(get=get_configuration, put=set_configuration))  configuration;
 
  bool __declspec(property(get=get_isMyPartyOwner, put=set_isMyPartyOwner))  isMyPartyOwner;
 
- ::GlobalNamespace::IConnectedPlayer __declspec(property(get=get_connectedPlayer))  connectedPlayer;
+ GlobalNamespace::IConnectedPlayer __declspec(property(get=get_connectedPlayer))  connectedPlayer;
 
  bool __declspec(property(get=get_canJoin))  canJoin;
 
@@ -341,10 +340,10 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
  void set_isConnected(bool value) ;
 
 /// @brief Method get_multiplayerAvatarData addr 0x20eb620 size 0x10 virtual true final true
- ::GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
+ GlobalNamespace::MultiplayerAvatarData get_multiplayerAvatarData() ;
 
 /// @brief Method set_multiplayerAvatarData addr 0x20eb630 size 0x18 virtual false final false
- void set_multiplayerAvatarData(::GlobalNamespace::MultiplayerAvatarData value) ;
+ void set_multiplayerAvatarData(GlobalNamespace::MultiplayerAvatarData value) ;
 
 /// @brief Method get_isConnectionOwner addr 0x20eb648 size 0x8 virtual true final true
  bool get_isConnectionOwner() ;
@@ -353,7 +352,7 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
  void set_isConnectionOwner(bool value) ;
 
 /// @brief Method get_disconnectedReason addr 0x20eb65c size 0x8 virtual true final true
- ::GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
+ GlobalNamespace::DisconnectedReason get_disconnectedReason() ;
 
 /// @brief Method get_offsetSyncTime addr 0x20eb664 size 0x4c virtual true final true
  float_t get_offsetSyncTime() ;
@@ -377,16 +376,16 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
  void set_currentPartySize(int32_t value) ;
 
 /// @brief Method get_selectionMask addr 0x20eb710 size 0x14 virtual true final true
- ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() ;
+ GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask() ;
 
 /// @brief Method set_selectionMask addr 0x20eb724 size 0x14 virtual false final false
- void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) ;
+ void set_selectionMask(GlobalNamespace::BeatmapLevelSelectionMask value) ;
 
 /// @brief Method get_configuration addr 0x20eb738 size 0x14 virtual true final true
- ::GlobalNamespace::GameplayServerConfiguration get_configuration() ;
+ GlobalNamespace::GameplayServerConfiguration get_configuration() ;
 
 /// @brief Method set_configuration addr 0x20eb74c size 0x14 virtual false final false
- void set_configuration(::GlobalNamespace::GameplayServerConfiguration value) ;
+ void set_configuration(GlobalNamespace::GameplayServerConfiguration value) ;
 
 /// @brief Method get_isMyPartyOwner addr 0x20eb760 size 0x8 virtual true final true
  bool get_isMyPartyOwner() ;
@@ -395,7 +394,7 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
  void set_isMyPartyOwner(bool value) ;
 
 /// @brief Method get_connectedPlayer addr 0x20eb774 size 0x4 virtual true final true
- ::GlobalNamespace::IConnectedPlayer get_connectedPlayer() ;
+ GlobalNamespace::IConnectedPlayer get_connectedPlayer() ;
 
 /// @brief Method get_canJoin addr 0x20eb778 size 0x8 virtual true final false
  bool get_canJoin() ;
@@ -490,11 +489,11 @@ constexpr ::GlobalNamespace::IGameplayRpcManager __get__gameplayRpcManager() con
 /// @brief Method set_isTerminating addr 0x20ebd14 size 0x58 virtual false final false
  void set_isTerminating(bool value) ;
 
-// Ctor Parameters [CppParam { name: "settings", ty: "::GlobalNamespace::MockPlayerSettings", modifiers: "", def_value: None }, CppParam { name: "isLocalPlayer", ty: "bool", modifiers: "", def_value: None }]
-explicit MockPlayer(::GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
+// Ctor Parameters [CppParam { name: "settings", ty: "GlobalNamespace::MockPlayerSettings", modifiers: "", def_value: None }, CppParam { name: "isLocalPlayer", ty: "bool", modifiers: "", def_value: None }]
+explicit MockPlayer(GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
 
 /// @brief Method .ctor addr 0x20ebd6c size 0xb8 virtual false final false
- void _ctor(::GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
+ void _ctor(GlobalNamespace::MockPlayerSettings settings, bool isLocalPlayer) ;
 
 /// @brief Method Tick addr 0x20ebe24 size 0x14 virtual false final false
  void Tick() ;
@@ -506,7 +505,7 @@ explicit MockPlayer(::GlobalNamespace::MockPlayerSettings settings, bool isLocal
  bool HasState(::StringW state) ;
 
 /// @brief Method Connect addr 0x20ebe38 size 0x1b20 virtual true final false
- void Connect(::GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, ::GlobalNamespace::AvatarPartsModel avatarPartsModel, ::GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel, ::GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
+ void Connect(GlobalNamespace::IMultiplayerSessionManager multiplayerSessionManager, GlobalNamespace::AvatarPartsModel avatarPartsModel, GlobalNamespace::BeatmapLevelsModel beatmapLevelsModel, GlobalNamespace::NodePoseSyncStateManager nodePoseSyncStateManager) ;
 
 /// @brief Method Disconnect addr 0x20edf2c size 0x28 virtual true final false
  void Disconnect() ;
@@ -551,6 +550,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayer, "", "MockPlayer");
+NEED_NO_BOX(GlobalNamespace::MockPlayer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer, "", "MockPlayer");

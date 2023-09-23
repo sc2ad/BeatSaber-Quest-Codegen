@@ -3,7 +3,6 @@
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UI {
 class ILayoutIgnorer;
 }
@@ -20,14 +19,14 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13028))
 // CS Name: UnityEngine.UI.LayoutElement
-class CORDL_TYPE LayoutElement : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE LayoutElement : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutElement
-constexpr operator  ::UnityEngine::UI::ILayoutElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutElement
+constexpr operator  UnityEngine::UI::ILayoutElement() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutIgnorer
-constexpr operator  ::UnityEngine::UI::ILayoutIgnorer() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutIgnorer
+constexpr operator  UnityEngine::UI::ILayoutIgnorer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -41,7 +40,7 @@ constexpr LayoutElement(LayoutElement const& ) noexcept = default;
 constexpr LayoutElement(LayoutElement&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LayoutElement(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit LayoutElement(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -214,6 +213,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UI::LayoutElement);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::LayoutElement, "UnityEngine.UI", "LayoutElement");
+NEED_NO_BOX(UnityEngine::UI::LayoutElement);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement, "UnityEngine.UI", "LayoutElement");

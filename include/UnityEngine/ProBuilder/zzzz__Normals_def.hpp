@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -57,11 +56,11 @@ constexpr explicit Normals(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
-static ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_s_SmoothAvg, put=__set_s_SmoothAvg))  s_SmoothAvg;
+static ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_s_SmoothAvg, put=__set_s_SmoothAvg))  s_SmoothAvg;
 
-static void __set_s_SmoothAvg(::ArrayW<::UnityEngine::Vector3> value) ;
+static void __set_s_SmoothAvg(::ArrayW<UnityEngine::Vector3> value) ;
 
-static ::ArrayW<::UnityEngine::Vector3> __get_s_SmoothAvg() ;
+static ::ArrayW<UnityEngine::Vector3> __get_s_SmoothAvg() ;
 
 static ::ArrayW<float_t> __declspec(property(get=__get_s_SmoothAvgCount, put=__set_s_SmoothAvgCount))  s_SmoothAvgCount;
 
@@ -82,18 +81,17 @@ static ::ArrayW<int32_t> __get_s_CachedIntArray() ;
 static void ClearIntArray(int32_t count) ;
 
 /// @brief Method CalculateTangents addr 0x29c0468 size 0x4fc virtual false final false
-static void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
+static void CalculateTangents(UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
 
 /// @brief Method CalculateHardNormals addr 0x29c0964 size 0x4c8 virtual false final false
-static void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
+static void CalculateHardNormals(UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
 
 /// @brief Method CalculateNormals addr 0x29c0e2c size 0x5a8 virtual false final false
-static void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
+static void CalculateNormals(UnityEngine::ProBuilder::ProBuilderMesh mesh) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Normals);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Normals, "UnityEngine.ProBuilder", "Normals");
+NEED_NO_BOX(UnityEngine::ProBuilder::Normals);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Normals, "UnityEngine.ProBuilder", "Normals");

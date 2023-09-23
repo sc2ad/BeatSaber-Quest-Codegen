@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 // Forward declare root types
 namespace Unity::Jobs {
 class IJob;
@@ -30,6 +29,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Unity::Jobs
-} // end anonymous namespace
-NEED_NO_BOX(::Unity::Jobs::IJob);
-DEFINE_IL2CPP_ARG_TYPE(::Unity::Jobs::IJob, "Unity.Jobs", "IJob");
+NEED_NO_BOX(Unity::Jobs::IJob);
+DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::IJob, "Unity.Jobs", "IJob");

@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
 namespace UnityEngine {
 class AudioClip;
 }
 namespace UnityEngine {
 class AudioSource;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +22,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4029))
 // CS Name: AudioClipQueue
-class CORDL_TYPE AudioClipQueue : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AudioClipQueue : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr AudioClipQueue(AudioClipQueue const& ) noexcept = default;
 constexpr AudioClipQueue(AudioClipQueue&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AudioClipQueue(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AudioClipQueue(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,17 +58,17 @@ constexpr explicit AudioClipQueue(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
+ UnityEngine::AudioSource __declspec(property(get=__get__audioSource, put=__set__audioSource))  _audioSource;
 
-constexpr void __set__audioSource(::UnityEngine::AudioSource value) ;
+constexpr void __set__audioSource(UnityEngine::AudioSource value) ;
 
-constexpr ::UnityEngine::AudioSource __get__audioSource() const;
+constexpr UnityEngine::AudioSource __get__audioSource() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::AudioClip> __declspec(property(get=__get__queue, put=__set__queue))  _queue;
+ System::Collections::Generic::List_1<UnityEngine::AudioClip> __declspec(property(get=__get__queue, put=__set__queue))  _queue;
 
-constexpr void __set__queue(::System::Collections::Generic::List_1<::UnityEngine::AudioClip> value) ;
+constexpr void __set__queue(System::Collections::Generic::List_1<UnityEngine::AudioClip> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::AudioClip> __get__queue() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::AudioClip> __get__queue() const;
 
  float_t __declspec(property(get=__get__delay, put=__set__delay))  _delay;
 
@@ -87,7 +86,7 @@ constexpr float_t __get__delay() const;
  void Update() ;
 
 /// @brief Method PlayAudioClipWithDelay addr 0x20b8714 size 0xcc virtual false final false
- void PlayAudioClipWithDelay(::UnityEngine::AudioClip audioClip, float_t delay) ;
+ void PlayAudioClipWithDelay(UnityEngine::AudioClip audioClip, float_t delay) ;
 
 // Ctor Parameters []
 explicit AudioClipQueue() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AudioClipQueue);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioClipQueue, "", "AudioClipQueue");
+NEED_NO_BOX(GlobalNamespace::AudioClipQueue);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue, "", "AudioClipQueue");

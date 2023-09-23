@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Mono {
 class X509PalImpl;
 }
@@ -51,18 +50,17 @@ constexpr explicit X509Pal(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Properties
 
-static ::Mono::X509PalImpl __declspec(property(get=get_Instance))  Instance;
+static Mono::X509PalImpl __declspec(property(get=get_Instance))  Instance;
 
 
 // Methods
 
 /// @brief Method get_Instance addr 0x2685524 size 0x60 virtual false final false
-static ::Mono::X509PalImpl get_Instance() ;
+static Mono::X509PalImpl get_Instance() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::X509Pal);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::X509Pal, "Mono", "X509Pal");
+NEED_NO_BOX(Mono::X509Pal);
+DEFINE_IL2CPP_ARG_TYPE(Mono::X509Pal, "Mono", "X509Pal");

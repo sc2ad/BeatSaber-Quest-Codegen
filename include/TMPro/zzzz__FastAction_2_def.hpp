@@ -1,11 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class LinkedListNode_1;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedList_1;
@@ -18,18 +13,22 @@ namespace System {
 template<typename T1,typename T2>
 class Action_2;
 }
+namespace System::Collections::Generic {
+template<typename T>
+class LinkedListNode_1;
+}
 // Forward declare root types
 namespace TMPro {
 template<typename A,typename B>
 class FastAction_2;
 }
 namespace TMPro {
-template<::cordl_internals::il2cpp_reference_type A,::cordl_internals::il2cpp_reference_type B>
-class FastAction_2<A,B>;
-}
-namespace TMPro {
 template<::cordl_internals::il2cpp_reference_type B>
 class FastAction_2<bool,B>;
+}
+namespace TMPro {
+template<::cordl_internals::il2cpp_reference_type A,::cordl_internals::il2cpp_reference_type B>
+class FastAction_2<A,B>;
 }
 // Type: TMPro::FastAction`2
 // Type: TMPro::FastAction`2
@@ -76,26 +75,26 @@ constexpr explicit FastAction_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_2<A,B>> __declspec(property(get=__get_delegates, put=__set_delegates))  delegates;
+ System::Collections::Generic::LinkedList_1<System::Action_2<A,B>> __declspec(property(get=__get_delegates, put=__set_delegates))  delegates;
 
-constexpr void __set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_2<A,B>> value) ;
+constexpr void __set_delegates(System::Collections::Generic::LinkedList_1<System::Action_2<A,B>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_2<A,B>> __get_delegates() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_2<A,B>> __get_delegates() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::Action_2<A,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<A,B>>> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
+ System::Collections::Generic::Dictionary_2<System::Action_2<A,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<A,B>>> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
 
-constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_2<A,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<A,B>>> value) ;
+constexpr void __set_lookup(System::Collections::Generic::Dictionary_2<System::Action_2<A,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<A,B>>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_2<A,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<A,B>>> __get_lookup() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Action_2<A,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<A,B>>> __get_lookup() const;
 
 
 // Methods
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_2<A,B> rhs) ;
+ void Add(System::Action_2<A,B> rhs) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_2<A,B> rhs) ;
+ void Remove(System::Action_2<A,B> rhs) ;
 
 /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
  void Call(A a, B b) ;
@@ -154,26 +153,26 @@ constexpr explicit FastAction_2(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::System::Collections::Generic::LinkedList_1<::System::Action_2<bool,B>> __declspec(property(get=__get_delegates, put=__set_delegates))  delegates;
+ System::Collections::Generic::LinkedList_1<System::Action_2<bool,B>> __declspec(property(get=__get_delegates, put=__set_delegates))  delegates;
 
-constexpr void __set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_2<bool,B>> value) ;
+constexpr void __set_delegates(System::Collections::Generic::LinkedList_1<System::Action_2<bool,B>> value) ;
 
-constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_2<bool,B>> __get_delegates() const;
+constexpr System::Collections::Generic::LinkedList_1<System::Action_2<bool,B>> __get_delegates() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::Action_2<bool,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<bool,B>>> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
+ System::Collections::Generic::Dictionary_2<System::Action_2<bool,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<bool,B>>> __declspec(property(get=__get_lookup, put=__set_lookup))  lookup;
 
-constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_2<bool,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<bool,B>>> value) ;
+constexpr void __set_lookup(System::Collections::Generic::Dictionary_2<System::Action_2<bool,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<bool,B>>> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_2<bool,B>,::System::Collections::Generic::LinkedListNode_1<::System::Action_2<bool,B>>> __get_lookup() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Action_2<bool,B>,System::Collections::Generic::LinkedListNode_1<System::Action_2<bool,B>>> __get_lookup() const;
 
 
 // Methods
 
 /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
- void Add(::System::Action_2<bool,B> rhs) ;
+ void Add(System::Action_2<bool,B> rhs) ;
 
 /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
- void Remove(::System::Action_2<bool,B> rhs) ;
+ void Remove(System::Action_2<bool,B> rhs) ;
 
 /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
  void Call(bool a, B b) ;
@@ -188,5 +187,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::TMPro::FastAction_2, "TMPro", "FastAction`2");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::FastAction_2, "TMPro", "FastAction`2");

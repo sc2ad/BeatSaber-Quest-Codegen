@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_def.hpp"
-namespace {
+namespace UnityEngine {
+class CanvasGroup;
+}
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmap;
 }
 namespace UnityEngine::UI {
 class Button;
-}
-namespace UnityEngine {
-class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5859))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5866))
 // CS Name: EditableBeatmapSelectionView
-class CORDL_TYPE EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
+class CORDL_TYPE EditableBeatmapSelectionView : public GlobalNamespace::BeatmapSelectionView {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr EditableBeatmapSelectionView(EditableBeatmapSelectionView const& ) noe
 constexpr EditableBeatmapSelectionView(EditableBeatmapSelectionView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditableBeatmapSelectionView(void* ptr) noexcept : ::GlobalNamespace::BeatmapSelectionView(ptr) {
+constexpr explicit EditableBeatmapSelectionView(void* ptr) noexcept : GlobalNamespace::BeatmapSelectionView(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit EditableBeatmapSelectionView(void* ptr) noexcept : ::GlobalNa
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__editButton, put=__set__editButton))  _editButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__editButton, put=__set__editButton))  _editButton;
 
-constexpr void __set__editButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__editButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__editButton() const;
+constexpr UnityEngine::UI::Button __get__editButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__clearButton, put=__set__clearButton))  _clearButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__clearButton, put=__set__clearButton))  _clearButton;
 
-constexpr void __set__clearButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__clearButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__clearButton() const;
+constexpr UnityEngine::UI::Button __get__clearButton() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__levelBarCanvasGroup, put=__set__levelBarCanvasGroup))  _levelBarCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__levelBarCanvasGroup, put=__set__levelBarCanvasGroup))  _levelBarCanvasGroup;
 
-constexpr void __set__levelBarCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__levelBarCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__levelBarCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__levelBarCanvasGroup() const;
 
  bool __declspec(property(get=__get__interactable, put=__set__interactable))  _interactable;
 
@@ -90,9 +89,9 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UI::Button __declspec(property(get=get_editButton))  editButton;
+ UnityEngine::UI::Button __declspec(property(get=get_editButton))  editButton;
 
- ::UnityEngine::UI::Button __declspec(property(get=get_clearButton))  clearButton;
+ UnityEngine::UI::Button __declspec(property(get=get_clearButton))  clearButton;
 
  bool __declspec(property(get=get_interactable, put=set_interactable))  interactable;
 
@@ -102,10 +101,10 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 // Methods
 
 /// @brief Method get_editButton addr 0x2186714 size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_editButton() ;
+ UnityEngine::UI::Button get_editButton() ;
 
 /// @brief Method get_clearButton addr 0x218671c size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_clearButton() ;
+ UnityEngine::UI::Button get_clearButton() ;
 
 /// @brief Method get_interactable addr 0x2186724 size 0x8 virtual false final false
  bool get_interactable() ;
@@ -126,7 +125,7 @@ constexpr bool __get__showClearButton_k__BackingField() const;
  void Setup(bool showClearButton) ;
 
 /// @brief Method SetBeatmap addr 0x2186740 size 0x68 virtual true final false
- void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
+ void SetBeatmap(GlobalNamespace::PreviewDifficultyBeatmap beatmapLevel) ;
 
 // Ctor Parameters []
 explicit EditableBeatmapSelectionView() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EditableBeatmapSelectionView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditableBeatmapSelectionView, "", "EditableBeatmapSelectionView");
+NEED_NO_BOX(GlobalNamespace::EditableBeatmapSelectionView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableBeatmapSelectionView, "", "EditableBeatmapSelectionView");

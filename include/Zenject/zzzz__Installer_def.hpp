@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__InstallerBase_def.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -15,7 +14,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11079))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11072))
 // CS Name: Zenject.Installer
-class CORDL_TYPE Installer : public ::Zenject::InstallerBase {
+class CORDL_TYPE Installer : public Zenject::InstallerBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr Installer(Installer const& ) noexcept = default;
 constexpr Installer(Installer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Installer(void* ptr) noexcept : ::Zenject::InstallerBase(ptr) {
+constexpr explicit Installer(void* ptr) noexcept : Zenject::InstallerBase(ptr) {
 }
 
 
@@ -58,12 +57,11 @@ explicit Installer() ;
  void _ctor() ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7b514 size 0x178 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::Installer);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::Installer, "Zenject", "Installer");
+NEED_NO_BOX(Zenject::Installer);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Installer, "Zenject", "Installer");

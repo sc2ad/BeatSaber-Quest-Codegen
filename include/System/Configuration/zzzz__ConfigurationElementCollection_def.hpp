@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Configuration {
 class ConfigurationElementCollection;
@@ -12,7 +11,7 @@ namespace System::Configuration {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16072))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16076))
 // CS Name: System.Configuration.ConfigurationElementCollection
-class CORDL_TYPE ConfigurationElementCollection : public ::System::Configuration::ConfigurationElement {
+class CORDL_TYPE ConfigurationElementCollection : public System::Configuration::ConfigurationElement {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ConfigurationElementCollection(ConfigurationElementCollection const& )
 constexpr ConfigurationElementCollection(ConfigurationElementCollection&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConfigurationElementCollection(void* ptr) noexcept : ::System::Configuration::ConfigurationElement(ptr) {
+constexpr explicit ConfigurationElementCollection(void* ptr) noexcept : System::Configuration::ConfigurationElement(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Configuration::ConfigurationElementCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationElementCollection, "System.Configuration", "ConfigurationElementCollection");
+NEED_NO_BOX(System::Configuration::ConfigurationElementCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElementCollection, "System.Configuration", "ConfigurationElementCollection");

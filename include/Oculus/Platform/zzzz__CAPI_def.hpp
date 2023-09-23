@@ -8,15 +8,53 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
-struct VoipDtxState;
+struct RichPresenceExtraContext;
+}
+namespace Oculus::Platform {
+struct AbuseReportVideoMode;
+}
+namespace Oculus::Platform {
+struct LogEventName;
+}
+namespace Oculus::Platform {
+struct LaunchResult;
+}
+namespace Oculus::Platform {
+struct SystemVoipStatus;
+}
+namespace Oculus::Platform {
+struct MediaContentType;
 }
 namespace Oculus::Platform {
 struct VoipBitrate;
 }
 namespace Oculus::Platform {
-struct VoipMuteState;
+struct NetSyncVoipMicSource;
+}
+namespace Oculus::Platform {
+struct LeaderboardFilterType;
+}
+namespace Oculus::Platform {
+struct RoomJoinPolicy;
+}
+namespace Oculus::Platform {
+struct LivestreamingAudience;
+}
+namespace Oculus::Platform {
+struct CloudStorageDataStatus;
+}
+namespace Oculus::Platform {
+struct ChallengeVisibility;
+}
+namespace Oculus::Platform {
+struct Oculus__Platform__Message__MessageType;
+}
+namespace Oculus::Platform {
+struct NetSyncConnectionStatus;
+}
+namespace System {
+class Array;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -26,145 +64,106 @@ namespace Oculus::Platform {
 struct SendPolicy;
 }
 namespace Oculus::Platform {
-struct LeaderboardFilterType;
-}
-namespace Oculus::Platform {
-struct RoomMembershipLockStatus;
-}
-namespace Oculus::Platform {
-struct MediaContentType;
-}
-namespace Oculus::Platform {
-struct LaunchResult;
-}
-namespace Oculus::Platform {
-struct LivestreamingStartStatus;
-}
-namespace System::Text {
-class UTF8Encoding;
-}
-namespace Oculus::Platform {
-struct NetSyncDisconnectReason;
-}
-namespace System {
-struct DateTime;
-}
-namespace Oculus::Platform {
-struct NetSyncVoipMicSource;
-}
-namespace Oculus::Platform {
-struct LaunchType;
-}
-namespace Oculus::Platform {
-struct ChallengeCreationType;
-}
-namespace Oculus::Platform {
-struct PeerConnectionState;
-}
-namespace Oculus::Platform {
-struct ReportRequestResponse;
-}
-namespace Oculus::Platform {
-struct UserPresenceStatus;
-}
-namespace Oculus::Platform {
-struct AbuseReportVideoMode;
-}
-namespace Oculus::Platform {
-struct LivestreamingAudience;
-}
-namespace Oculus::Platform {
 struct RoomType;
-}
-namespace Oculus::Platform {
-struct RoomJoinPolicy;
-}
-namespace Oculus::Platform {
-struct RoomJoinability;
-}
-namespace Oculus::Platform {
-struct InitConfigOptions;
-}
-namespace Oculus::Platform {
-struct MatchmakingStatApproach;
-}
-namespace Oculus::Platform {
-struct PartyUpdateAction;
-}
-namespace Oculus::Platform {
-struct LogEventName;
-}
-namespace Oculus::Platform {
-struct MultiplayerErrorErrorKey;
-}
-namespace Oculus::Platform {
-struct ChallengeVisibility;
-}
-namespace Oculus::Platform {
-struct PlatformInitializeResult;
-}
-namespace Oculus::Platform {
-struct AchievementType;
-}
-namespace Oculus::Platform {
-struct CloudStorageUpdateStatus;
-}
-namespace Oculus::Platform {
-struct TimeWindow;
-}
-namespace Oculus::Platform {
-struct NetSyncVoipStreamMode;
-}
-namespace Oculus::Platform {
-struct LeaderboardStartAt;
-}
-namespace Oculus::Platform {
-struct SystemVoipStatus;
-}
-namespace Oculus::Platform {
-struct ServiceProvider;
-}
-namespace Oculus::Platform {
-struct AbuseReportType;
-}
-namespace Oculus::Platform {
-struct ShareMediaStatus;
-}
-namespace Oculus::Platform {
-struct ChallengeViewerFilter;
-}
-namespace Oculus::Platform {
-struct VoipSampleRate;
-}
-namespace Oculus::Platform {
-struct ____Oculus__Platform__Message__MessageType;
-}
-namespace Oculus::Platform {
-struct NetSyncConnectionStatus;
-}
-namespace Oculus::Platform {
-struct RichPresenceExtraContext;
-}
-namespace Oculus::Platform {
-struct LivestreamingMicrophoneStatus;
 }
 namespace Oculus::Platform {
 struct SdkAccountType;
 }
 namespace Oculus::Platform {
-struct UserOrdering;
-}
-namespace System {
-class Array;
+struct UserPresenceStatus;
 }
 namespace Oculus::Platform {
-struct CloudStorageDataStatus;
+struct VoipSampleRate;
+}
+namespace Oculus::Platform {
+struct LeaderboardStartAt;
+}
+namespace Oculus::Platform {
+struct PartyUpdateAction;
+}
+namespace Oculus::Platform {
+struct UserOrdering;
+}
+namespace Oculus::Platform {
+struct TimeWindow;
+}
+namespace Oculus::Platform {
+struct CloudStorageUpdateStatus;
+}
+namespace Oculus::Platform {
+struct RoomMembershipLockStatus;
+}
+namespace Oculus::Platform {
+struct InitConfigOptions;
+}
+namespace Oculus::Platform {
+struct AbuseReportType;
 }
 namespace System {
-class IAsyncResult;
+struct DateTime;
+}
+namespace Oculus::Platform {
+struct NetSyncVoipStreamMode;
+}
+namespace Oculus::Platform {
+struct ReportRequestResponse;
+}
+namespace Oculus::Platform {
+struct MatchmakingStatApproach;
+}
+namespace Oculus::Platform {
+struct ChallengeViewerFilter;
+}
+namespace Oculus::Platform {
+struct MultiplayerErrorErrorKey;
+}
+namespace Oculus::Platform {
+struct LivestreamingStartStatus;
+}
+namespace Oculus::Platform {
+struct RoomJoinability;
+}
+namespace Oculus::Platform {
+struct LivestreamingMicrophoneStatus;
+}
+namespace Oculus::Platform {
+struct ChallengeCreationType;
+}
+namespace Oculus::Platform {
+struct ServiceProvider;
+}
+namespace Oculus::Platform {
+struct NetSyncDisconnectReason;
+}
+namespace Oculus::Platform {
+struct VoipMuteState;
+}
+namespace Oculus::Platform {
+struct PeerConnectionState;
+}
+namespace Oculus::Platform {
+struct ShareMediaStatus;
+}
+namespace Oculus::Platform {
+struct AchievementType;
+}
+namespace System::Text {
+class UTF8Encoding;
+}
+namespace Oculus::Platform {
+struct LaunchType;
+}
+namespace Oculus::Platform {
+struct PlatformInitializeResult;
+}
+namespace Oculus::Platform {
+struct VoipDtxState;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace Oculus::Platform {
 struct KeyValuePairType;
@@ -177,22 +176,22 @@ namespace Oculus::Platform {
 class CAPI;
 }
 namespace Oculus::Platform {
-class ____Oculus__Platform__CAPI__FilterCallback;
+class Oculus__Platform__CAPI__FilterCallback;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__CAPI__OculusInitParams;
+struct Oculus__Platform__CAPI__OculusInitParams;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__CAPI__ovrKeyValuePair;
+struct Oculus__Platform__CAPI__ovrKeyValuePair;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__CAPI__ovrMatchmakingCriterion;
+struct Oculus__Platform__CAPI__ovrMatchmakingCriterion;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData;
+struct Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData;
 }
 namespace Oculus::Platform {
-struct ____Oculus__Platform__CAPI__ovrNetSyncVec3;
+struct Oculus__Platform__CAPI__ovrNetSyncVec3;
 }
 // Type: ::ovrKeyValuePair
 namespace Oculus::Platform {
@@ -200,20 +199,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13170))
 // CS Name: Oculus.Platform.CAPI::ovrKeyValuePair
-struct CORDL_TYPE ____Oculus__Platform__CAPI__ovrKeyValuePair : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__CAPI__ovrKeyValuePair : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType_", ty: "::Oculus::Platform::KeyValuePairType", modifiers: "", def_value: None }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "intValue_", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "doubleValue_", ty: "double_t", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__ovrKeyValuePair(::StringW key_, ::Oculus::Platform::KeyValuePairType valueType_, ::StringW stringValue_, int32_t intValue_, double_t doubleValue_) noexcept;
+// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "valueType_", ty: "Oculus::Platform::KeyValuePairType", modifiers: "", def_value: None }, CppParam { name: "stringValue_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "intValue_", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "doubleValue_", ty: "double_t", modifiers: "", def_value: None }]
+constexpr Oculus__Platform__CAPI__ovrKeyValuePair(::StringW key_, Oculus::Platform::KeyValuePairType valueType_, ::StringW stringValue_, int32_t intValue_, double_t doubleValue_) noexcept;
 
 
-                    constexpr ____Oculus__Platform__CAPI__ovrKeyValuePair(____Oculus__Platform__CAPI__ovrKeyValuePair const&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrKeyValuePair(____Oculus__Platform__CAPI__ovrKeyValuePair&&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrKeyValuePair& operator=(____Oculus__Platform__CAPI__ovrKeyValuePair const& o) {
+                    constexpr Oculus__Platform__CAPI__ovrKeyValuePair(Oculus__Platform__CAPI__ovrKeyValuePair const&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrKeyValuePair(Oculus__Platform__CAPI__ovrKeyValuePair&&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrKeyValuePair& operator=(Oculus__Platform__CAPI__ovrKeyValuePair const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__CAPI__ovrKeyValuePair& operator=(____Oculus__Platform__CAPI__ovrKeyValuePair&& o) noexcept {
+                    constexpr Oculus__Platform__CAPI__ovrKeyValuePair& operator=(Oculus__Platform__CAPI__ovrKeyValuePair&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -226,7 +225,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__ovrKeyValuePair(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__CAPI__ovrKeyValuePair(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -243,11 +242,11 @@ constexpr void __set_key_(::StringW value) ;
 
 constexpr ::StringW __get_key_() const;
 
- ::Oculus::Platform::KeyValuePairType __declspec(property(get=__get_valueType_, put=__set_valueType_))  valueType_;
+ Oculus::Platform::KeyValuePairType __declspec(property(get=__get_valueType_, put=__set_valueType_))  valueType_;
 
-constexpr void __set_valueType_(::Oculus::Platform::KeyValuePairType value) ;
+constexpr void __set_valueType_(Oculus::Platform::KeyValuePairType value) ;
 
-constexpr ::Oculus::Platform::KeyValuePairType __get_valueType_() const;
+constexpr Oculus::Platform::KeyValuePairType __get_valueType_() const;
 
  ::StringW __declspec(property(get=__get_stringValue_, put=__set_stringValue_))  stringValue_;
 
@@ -289,20 +288,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13171))
 // CS Name: Oculus.Platform.CAPI::ovrNetSyncVec3
-struct CORDL_TYPE ____Oculus__Platform__CAPI__ovrNetSyncVec3 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__CAPI__ovrNetSyncVec3 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__ovrNetSyncVec3(float_t x, float_t y, float_t z) noexcept;
+constexpr Oculus__Platform__CAPI__ovrNetSyncVec3(float_t x, float_t y, float_t z) noexcept;
 
 
-                    constexpr ____Oculus__Platform__CAPI__ovrNetSyncVec3(____Oculus__Platform__CAPI__ovrNetSyncVec3 const&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrNetSyncVec3(____Oculus__Platform__CAPI__ovrNetSyncVec3&&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrNetSyncVec3& operator=(____Oculus__Platform__CAPI__ovrNetSyncVec3 const& o) {
+                    constexpr Oculus__Platform__CAPI__ovrNetSyncVec3(Oculus__Platform__CAPI__ovrNetSyncVec3 const&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrNetSyncVec3(Oculus__Platform__CAPI__ovrNetSyncVec3&&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrNetSyncVec3& operator=(Oculus__Platform__CAPI__ovrNetSyncVec3 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__CAPI__ovrNetSyncVec3& operator=(____Oculus__Platform__CAPI__ovrNetSyncVec3&& o) noexcept {
+                    constexpr Oculus__Platform__CAPI__ovrNetSyncVec3& operator=(Oculus__Platform__CAPI__ovrNetSyncVec3&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -315,7 +314,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0xc};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__ovrNetSyncVec3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__CAPI__ovrNetSyncVec3(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -354,20 +353,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13172))
 // CS Name: Oculus.Platform.CAPI::ovrMatchmakingCriterion
-struct CORDL_TYPE ____Oculus__Platform__CAPI__ovrMatchmakingCriterion : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__CAPI__ovrMatchmakingCriterion : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "importance_", ty: "::Oculus::Platform::MatchmakingCriterionImportance", modifiers: "", def_value: None }, CppParam { name: "parameterArray", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "parameterArrayCount", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCriterion(::StringW key_, ::Oculus::Platform::MatchmakingCriterionImportance importance_, ::cordl_internals::intptr_t parameterArray, uint32_t parameterArrayCount) noexcept;
+// Ctor Parameters [CppParam { name: "key_", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "importance_", ty: "Oculus::Platform::MatchmakingCriterionImportance", modifiers: "", def_value: None }, CppParam { name: "parameterArray", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "parameterArrayCount", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr Oculus__Platform__CAPI__ovrMatchmakingCriterion(::StringW key_, Oculus::Platform::MatchmakingCriterionImportance importance_, ::cordl_internals::intptr_t parameterArray, uint32_t parameterArrayCount) noexcept;
 
 
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCriterion(____Oculus__Platform__CAPI__ovrMatchmakingCriterion const&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCriterion(____Oculus__Platform__CAPI__ovrMatchmakingCriterion&&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCriterion& operator=(____Oculus__Platform__CAPI__ovrMatchmakingCriterion const& o) {
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCriterion(Oculus__Platform__CAPI__ovrMatchmakingCriterion const&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCriterion(Oculus__Platform__CAPI__ovrMatchmakingCriterion&&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCriterion& operator=(Oculus__Platform__CAPI__ovrMatchmakingCriterion const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCriterion& operator=(____Oculus__Platform__CAPI__ovrMatchmakingCriterion&& o) noexcept {
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCriterion& operator=(Oculus__Platform__CAPI__ovrMatchmakingCriterion&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -380,7 +379,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__ovrMatchmakingCriterion(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__CAPI__ovrMatchmakingCriterion(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -397,11 +396,11 @@ constexpr void __set_key_(::StringW value) ;
 
 constexpr ::StringW __get_key_() const;
 
- ::Oculus::Platform::MatchmakingCriterionImportance __declspec(property(get=__get_importance_, put=__set_importance_))  importance_;
+ Oculus::Platform::MatchmakingCriterionImportance __declspec(property(get=__get_importance_, put=__set_importance_))  importance_;
 
-constexpr void __set_importance_(::Oculus::Platform::MatchmakingCriterionImportance value) ;
+constexpr void __set_importance_(Oculus::Platform::MatchmakingCriterionImportance value) ;
 
-constexpr ::Oculus::Platform::MatchmakingCriterionImportance __get_importance_() const;
+constexpr Oculus::Platform::MatchmakingCriterionImportance __get_importance_() const;
 
  ::cordl_internals::intptr_t __declspec(property(get=__get_parameterArray, put=__set_parameterArray))  parameterArray;
 
@@ -419,7 +418,7 @@ constexpr uint32_t __get_parameterArrayCount() const;
 // Methods
 
 /// @brief Method .ctor addr 0x257a390 size 0x6c virtual false final false
- void _ctor(::StringW key, ::Oculus::Platform::MatchmakingCriterionImportance importance) ;
+ void _ctor(::StringW key, Oculus::Platform::MatchmakingCriterionImportance importance) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -431,20 +430,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13173))
 // CS Name: Oculus.Platform.CAPI::ovrMatchmakingCustomQueryData
-struct CORDL_TYPE ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "dataArray", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "dataArrayCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "criterionArray", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }, CppParam { name: "criterionArrayCount", ty: "uint32_t", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(::cordl_internals::intptr_t dataArray, uint32_t dataArrayCount, ::cordl_internals::intptr_t criterionArray, uint32_t criterionArrayCount) noexcept;
+constexpr Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(::cordl_internals::intptr_t dataArray, uint32_t dataArrayCount, ::cordl_internals::intptr_t criterionArray, uint32_t criterionArrayCount) noexcept;
 
 
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData const&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData&&) = default;
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData& operator=(____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData const& o) {
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData const&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData&&) = default;
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData& operator=(Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData& operator=(____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData&& o) noexcept {
+                    constexpr Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData& operator=(Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -457,7 +456,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x20};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -502,20 +501,20 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13174))
 // CS Name: Oculus.Platform.CAPI::OculusInitParams
-struct CORDL_TYPE ____Oculus__Platform__CAPI__OculusInitParams : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE Oculus__Platform__CAPI__OculusInitParams : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "sType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "email", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "password", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "appId", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "uriPrefixOverride", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__OculusInitParams(int32_t sType, ::StringW email, ::StringW password, uint64_t appId, ::StringW uriPrefixOverride) noexcept;
+constexpr Oculus__Platform__CAPI__OculusInitParams(int32_t sType, ::StringW email, ::StringW password, uint64_t appId, ::StringW uriPrefixOverride) noexcept;
 
 
-                    constexpr ____Oculus__Platform__CAPI__OculusInitParams(____Oculus__Platform__CAPI__OculusInitParams const&) = default;
-                    constexpr ____Oculus__Platform__CAPI__OculusInitParams(____Oculus__Platform__CAPI__OculusInitParams&&) = default;
-                    constexpr ____Oculus__Platform__CAPI__OculusInitParams& operator=(____Oculus__Platform__CAPI__OculusInitParams const& o) {
+                    constexpr Oculus__Platform__CAPI__OculusInitParams(Oculus__Platform__CAPI__OculusInitParams const&) = default;
+                    constexpr Oculus__Platform__CAPI__OculusInitParams(Oculus__Platform__CAPI__OculusInitParams&&) = default;
+                    constexpr Oculus__Platform__CAPI__OculusInitParams& operator=(Oculus__Platform__CAPI__OculusInitParams const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____Oculus__Platform__CAPI__OculusInitParams& operator=(____Oculus__Platform__CAPI__OculusInitParams&& o) noexcept {
+                    constexpr Oculus__Platform__CAPI__OculusInitParams& operator=(Oculus__Platform__CAPI__OculusInitParams&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -528,7 +527,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__OculusInitParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit Oculus__Platform__CAPI__OculusInitParams(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -579,44 +578,44 @@ namespace Oculus::Platform {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13175))
 // CS Name: Oculus.Platform.CAPI::FilterCallback
-class CORDL_TYPE ____Oculus__Platform__CAPI__FilterCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE Oculus__Platform__CAPI__FilterCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____Oculus__Platform__CAPI__FilterCallback() = default;
+virtual ~Oculus__Platform__CAPI__FilterCallback() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__CAPI__FilterCallback", modifiers: " const&", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__FilterCallback(____Oculus__Platform__CAPI__FilterCallback const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__CAPI__FilterCallback", modifiers: " const&", def_value: None }]
+constexpr Oculus__Platform__CAPI__FilterCallback(Oculus__Platform__CAPI__FilterCallback const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Oculus__Platform__CAPI__FilterCallback", modifiers: "&&", def_value: None }]
-constexpr ____Oculus__Platform__CAPI__FilterCallback(____Oculus__Platform__CAPI__FilterCallback&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Oculus__Platform__CAPI__FilterCallback", modifiers: "&&", def_value: None }]
+constexpr Oculus__Platform__CAPI__FilterCallback(Oculus__Platform__CAPI__FilterCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Oculus__Platform__CAPI__FilterCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Oculus__Platform__CAPI__FilterCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____Oculus__Platform__CAPI__FilterCallback& operator=(std::nullptr_t) noexcept {
+  constexpr Oculus__Platform__CAPI__FilterCallback& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__CAPI__FilterCallback& operator=(void* o) noexcept {
+  constexpr Oculus__Platform__CAPI__FilterCallback& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Oculus__Platform__CAPI__FilterCallback& operator=(____Oculus__Platform__CAPI__FilterCallback&& o) noexcept = default;
-  constexpr ____Oculus__Platform__CAPI__FilterCallback& operator=(____Oculus__Platform__CAPI__FilterCallback const& o) noexcept = default;
+  constexpr Oculus__Platform__CAPI__FilterCallback& operator=(Oculus__Platform__CAPI__FilterCallback&& o) noexcept = default;
+  constexpr Oculus__Platform__CAPI__FilterCallback& operator=(Oculus__Platform__CAPI__FilterCallback const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____Oculus__Platform__CAPI__FilterCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit Oculus__Platform__CAPI__FilterCallback(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x257a3fc size 0xd8 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -625,10 +624,10 @@ explicit ____Oculus__Platform__CAPI__FilterCallback(::bs_hook::Il2CppWrapperType
  void Invoke(ByRef<::ArrayW<int16_t>> pcmData, ::cordl_internals::uintptr_t pcmDataLength, int32_t frequency, int32_t numChannels) ;
 
 /// @brief Method BeginInvoke addr 0x257a4e8 size 0xd4 virtual true final false
- ::System::IAsyncResult BeginInvoke(ByRef<::ArrayW<int16_t>> pcmData, ::cordl_internals::uintptr_t pcmDataLength, int32_t frequency, int32_t numChannels, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(ByRef<::ArrayW<int16_t>> pcmData, ::cordl_internals::uintptr_t pcmDataLength, int32_t frequency, int32_t numChannels, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x257a5bc size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -643,17 +642,17 @@ namespace Oculus::Platform {
 class CORDL_TYPE CAPI : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using FilterCallback = ::Oculus::Platform::____Oculus__Platform__CAPI__FilterCallback;
+using FilterCallback = Oculus::Platform::Oculus__Platform__CAPI__FilterCallback;
 
-using OculusInitParams = ::Oculus::Platform::____Oculus__Platform__CAPI__OculusInitParams;
+using OculusInitParams = Oculus::Platform::Oculus__Platform__CAPI__OculusInitParams;
 
-using ovrMatchmakingCustomQueryData = ::Oculus::Platform::____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData;
+using ovrMatchmakingCustomQueryData = Oculus::Platform::Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData;
 
-using ovrMatchmakingCriterion = ::Oculus::Platform::____Oculus__Platform__CAPI__ovrMatchmakingCriterion;
+using ovrMatchmakingCriterion = Oculus::Platform::Oculus__Platform__CAPI__ovrMatchmakingCriterion;
 
-using ovrNetSyncVec3 = ::Oculus::Platform::____Oculus__Platform__CAPI__ovrNetSyncVec3;
+using ovrNetSyncVec3 = Oculus::Platform::Oculus__Platform__CAPI__ovrNetSyncVec3;
 
-using ovrKeyValuePair = ::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair;
+using ovrKeyValuePair = Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -691,11 +690,11 @@ constexpr explicit CAPI(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) 
 /// @brief Field DLL_NAME offset 0
 static constexpr ::ConstString  DLL_NAME{u"ovrplatformloader"};
 
-static ::System::Text::UTF8Encoding __declspec(property(get=__get_nativeStringEncoding, put=__set_nativeStringEncoding))  nativeStringEncoding;
+static System::Text::UTF8Encoding __declspec(property(get=__get_nativeStringEncoding, put=__set_nativeStringEncoding))  nativeStringEncoding;
 
-static void __set_nativeStringEncoding(::System::Text::UTF8Encoding value) ;
+static void __set_nativeStringEncoding(System::Text::UTF8Encoding value) ;
 
-static ::System::Text::UTF8Encoding __get_nativeStringEncoding() ;
+static System::Text::UTF8Encoding __get_nativeStringEncoding() ;
 
 /// @brief Field VoipFilterBufferSize offset 0
 static constexpr int32_t  VoipFilterBufferSize{480};
@@ -704,19 +703,19 @@ static constexpr int32_t  VoipFilterBufferSize{480};
 // Methods
 
 /// @brief Method ArrayOfStructsToIntPtr addr 0x2554864 size 0x198 virtual false final false
-static ::cordl_internals::intptr_t ArrayOfStructsToIntPtr(::System::Array ar) ;
+static ::cordl_internals::intptr_t ArrayOfStructsToIntPtr(System::Array ar) ;
 
 /// @brief Method DictionaryToOVRKeyValuePairs addr 0x25549fc size 0x24c virtual false final false
-static ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> DictionaryToOVRKeyValuePairs(::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions,bool> dict) ;
+static ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<Oculus::Platform::InitConfigOptions,bool> dict) ;
 
 /// @brief Method DictionaryToOVRKeyValuePairs addr 0x2554c64 size 0x504 virtual false final false
-static ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> DictionaryToOVRKeyValuePairs(::System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> dict) ;
+static ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> DictionaryToOVRKeyValuePairs(System::Collections::Generic::Dictionary_2<::StringW,::bs_hook::Il2CppWrapperType> dict) ;
 
 /// @brief Method IntPtrToByteArray addr 0x255519c size 0xbc virtual false final false
 static ::ArrayW<uint8_t> IntPtrToByteArray(::cordl_internals::intptr_t data, uint64_t size) ;
 
 /// @brief Method DataStoreFromNative addr 0x2555258 size 0x158 virtual false final false
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> DataStoreFromNative(::cordl_internals::intptr_t pointer) ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> DataStoreFromNative(::cordl_internals::intptr_t pointer) ;
 
 /// @brief Method StringFromNative addr 0x2555548 size 0x134 virtual false final false
 static ::StringW StringFromNative(::cordl_internals::intptr_t pointer) ;
@@ -725,10 +724,10 @@ static ::StringW StringFromNative(::cordl_internals::intptr_t pointer) ;
 static int32_t GetNativeStringLengthNotIncludingNullTerminator(::cordl_internals::intptr_t pointer) ;
 
 /// @brief Method DateTimeFromNative addr 0x25556f0 size 0x64 virtual false final false
-static ::System::DateTime DateTimeFromNative(uint64_t seconds_since_the_one_true_epoch) ;
+static System::DateTime DateTimeFromNative(uint64_t seconds_since_the_one_true_epoch) ;
 
 /// @brief Method DateTimeToNative addr 0x2555754 size 0xe8 virtual false final false
-static uint64_t DateTimeToNative(::System::DateTime dt) ;
+static uint64_t DateTimeToNative(System::DateTime dt) ;
 
 /// @brief Method BlobFromNative addr 0x255583c size 0xd8 virtual false final false
 static ::ArrayW<uint8_t> BlobFromNative(uint32_t size, ::cordl_internals::intptr_t pointer) ;
@@ -752,13 +751,13 @@ static uint64_t ovr_UnityInitWrapperAsynchronous(::StringW appId) ;
 static bool ovr_UnityInitWrapperStandalone(::StringW accessToken, ::cordl_internals::intptr_t loggingCB) ;
 
 /// @brief Method ovr_Platform_InitializeStandaloneOculus addr 0x2555c50 size 0xe4 virtual false final false
-static uint64_t ovr_Platform_InitializeStandaloneOculus(ByRef<::Oculus::Platform::____Oculus__Platform__CAPI__OculusInitParams> init) ;
+static uint64_t ovr_Platform_InitializeStandaloneOculus(ByRef<Oculus::Platform::Oculus__Platform__CAPI__OculusInitParams> init) ;
 
 /// @brief Method ovr_PlatformInitializeWithAccessToken addr 0x2555d34 size 0xa0 virtual false final false
 static uint64_t ovr_PlatformInitializeWithAccessToken(uint64_t appId, ::StringW accessToken) ;
 
 /// @brief Method ovr_PlatformInitializeWithAccessTokenAndOptions addr 0x2555dd4 size 0x1a8 virtual false final false
-static uint64_t ovr_PlatformInitializeWithAccessTokenAndOptions(uint64_t appId, ::StringW accessToken, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> configOptions, ::cordl_internals::uintptr_t numOptions) ;
+static uint64_t ovr_PlatformInitializeWithAccessTokenAndOptions(uint64_t appId, ::StringW accessToken, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> configOptions, ::cordl_internals::uintptr_t numOptions) ;
 
 /// @brief Method ovr_UnityInitWrapperWindows addr 0x2555f7c size 0xa0 virtual false final false
 static bool ovr_UnityInitWrapperWindows(::StringW appId, ::cordl_internals::intptr_t loggingCB) ;
@@ -806,7 +805,7 @@ static void ovr_Microphone_Destroy(::cordl_internals::intptr_t obj) ;
 static void ovr_Voip_SetSystemVoipPassthrough(bool passthrough) ;
 
 /// @brief Method ovr_Voip_SetSystemVoipMicrophoneMuted addr 0x25566b0 size 0x7c virtual false final false
-static void ovr_Voip_SetSystemVoipMicrophoneMuted(::Oculus::Platform::VoipMuteState muted) ;
+static void ovr_Voip_SetSystemVoipMicrophoneMuted(Oculus::Platform::VoipMuteState muted) ;
 
 /// @brief Method ovr_UnityResetTestPlatform addr 0x255672c size 0x64 virtual false final false
 static void ovr_UnityResetTestPlatform() ;
@@ -818,16 +817,16 @@ static uint64_t ovr_HTTP_GetWithMessageType(::StringW url, int32_t messageType) 
 static void ovr_CrashApplication() ;
 
 /// @brief Method ovr_Voip_SetMicrophoneFilterCallback addr 0x2556890 size 0x80 virtual false final false
-static void ovr_Voip_SetMicrophoneFilterCallback(::Oculus::Platform::____Oculus__Platform__CAPI__FilterCallback cb) ;
+static void ovr_Voip_SetMicrophoneFilterCallback(Oculus::Platform::Oculus__Platform__CAPI__FilterCallback cb) ;
 
 /// @brief Method ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer addr 0x2556910 size 0x88 virtual false final false
-static void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(::Oculus::Platform::____Oculus__Platform__CAPI__FilterCallback cb, ::cordl_internals::uintptr_t bufferSizeElements) ;
+static void ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer(Oculus::Platform::Oculus__Platform__CAPI__FilterCallback cb, ::cordl_internals::uintptr_t bufferSizeElements) ;
 
 /// @brief Method LogNewUnifiedEvent addr 0x2556998 size 0xa8 virtual false final false
-static void LogNewUnifiedEvent(::Oculus::Platform::LogEventName eventName, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> values) ;
+static void LogNewUnifiedEvent(Oculus::Platform::LogEventName eventName, System::Collections::Generic::Dictionary_2<::StringW,::StringW> values) ;
 
 /// @brief Method LogNewEvent addr 0x2556a40 size 0x354 virtual false final false
-static void LogNewEvent(::StringW eventName, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> values) ;
+static void LogNewEvent(::StringW eventName, System::Collections::Generic::Dictionary_2<::StringW,::StringW> values) ;
 
 /// @brief Method ovr_Log_NewEvent addr 0x2556d94 size 0x9c virtual false final false
 static void ovr_Log_NewEvent(::cordl_internals::intptr_t eventName, ::ArrayW<::cordl_internals::intptr_t> values, ::cordl_internals::uintptr_t length) ;
@@ -836,16 +835,16 @@ static void ovr_Log_NewEvent(::cordl_internals::intptr_t eventName, ::ArrayW<::c
 static ::cordl_internals::intptr_t ovr_ApplicationLifecycle_GetLaunchDetails() ;
 
 /// @brief Method ovr_ApplicationLifecycle_LogDeeplinkResult addr 0x2556e98 size 0x9c virtual false final false
-static void ovr_ApplicationLifecycle_LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result) ;
+static void ovr_ApplicationLifecycle_LogDeeplinkResult(::StringW trackingID, Oculus::Platform::LaunchResult result) ;
 
 /// @brief Method ovr_ApplicationLifecycle_LogDeeplinkResult_Native addr 0x2556f34 size 0x84 virtual false final false
-static void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(::cordl_internals::intptr_t trackingID, ::Oculus::Platform::LaunchResult result) ;
+static void ovr_ApplicationLifecycle_LogDeeplinkResult_Native(::cordl_internals::intptr_t trackingID, Oculus::Platform::LaunchResult result) ;
 
 /// @brief Method ovr_HTTP_StartTransfer addr 0x2556fb8 size 0xec virtual false final false
-static uint64_t ovr_HTTP_StartTransfer(::StringW url, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> headers) ;
+static uint64_t ovr_HTTP_StartTransfer(::StringW url, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> headers) ;
 
 /// @brief Method ovr_HTTP_StartTransfer_Native addr 0x25570a4 size 0x1a4 virtual false final false
-static uint64_t ovr_HTTP_StartTransfer_Native(::cordl_internals::intptr_t url, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> headers, ::cordl_internals::uintptr_t numItems) ;
+static uint64_t ovr_HTTP_StartTransfer_Native(::cordl_internals::intptr_t url, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> headers, ::cordl_internals::uintptr_t numItems) ;
 
 /// @brief Method ovr_HTTP_Write addr 0x2557248 size 0xa4 virtual false final false
 static bool ovr_HTTP_Write(uint64_t transferId, ::ArrayW<uint8_t> bytes, ::cordl_internals::uintptr_t length) ;
@@ -872,7 +871,7 @@ static ::cordl_internals::uintptr_t ovr_NetSync_GetAmbisonicInterleavedFloatPCM(
 static ::cordl_internals::uintptr_t ovr_NetSync_GetAmbisonicInterleavedInt16PCM(int64_t connection_id, ::ArrayW<int16_t> outputBuffer, ::cordl_internals::uintptr_t outputBufferNumElements) ;
 
 /// @brief Method ovr_NetSync_GetListenerPosition addr 0x25576a8 size 0x9c virtual false final false
-static bool ovr_NetSync_GetListenerPosition(int64_t connection_id, uint64_t sessionId, ByRef<::Oculus::Platform::____Oculus__Platform__CAPI__ovrNetSyncVec3> position) ;
+static bool ovr_NetSync_GetListenerPosition(int64_t connection_id, uint64_t sessionId, ByRef<Oculus::Platform::Oculus__Platform__CAPI__ovrNetSyncVec3> position) ;
 
 /// @brief Method ovr_NetSync_GetMonostreamFloatPCM addr 0x2557744 size 0xa4 virtual false final false
 static ::cordl_internals::uintptr_t ovr_NetSync_GetMonostreamFloatPCM(int64_t connection_id, uint64_t sessionId, ::ArrayW<float_t> outputBuffer, ::cordl_internals::uintptr_t outputBufferNumElements) ;
@@ -887,7 +886,7 @@ static ::cordl_internals::uintptr_t ovr_NetSync_GetPcmBufferMaxSamples() ;
 static bool ovr_NetSync_GetVoipAmplitude(int64_t connection_id, uint64_t sessionId, ByRef<float_t> amplitude) ;
 
 /// @brief Method ovr_NetSync_SetListenerPosition addr 0x2557990 size 0x84 virtual false final false
-static void ovr_NetSync_SetListenerPosition(int64_t connection_id, ByRef<::Oculus::Platform::____Oculus__Platform__CAPI__ovrNetSyncVec3> position) ;
+static void ovr_NetSync_SetListenerPosition(int64_t connection_id, ByRef<Oculus::Platform::Oculus__Platform__CAPI__ovrNetSyncVec3> position) ;
 
 /// @brief Method ovr_Net_Accept addr 0x2557a14 size 0x7c virtual false final false
 static void ovr_Net_Accept(uint64_t peerID) ;
@@ -914,31 +913,31 @@ static uint64_t ovr_Net_Ping(uint64_t peerID) ;
 static ::cordl_internals::intptr_t ovr_Net_ReadPacket() ;
 
 /// @brief Method ovr_Net_SendPacket addr 0x2557dc4 size 0xac virtual false final false
-static bool ovr_Net_SendPacket(uint64_t userID, ::cordl_internals::uintptr_t length, ::ArrayW<uint8_t> bytes, ::Oculus::Platform::SendPolicy policy) ;
+static bool ovr_Net_SendPacket(uint64_t userID, ::cordl_internals::uintptr_t length, ::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy) ;
 
 /// @brief Method ovr_Net_SendPacketToCurrentRoom addr 0x2557e70 size 0xa4 virtual false final false
-static bool ovr_Net_SendPacketToCurrentRoom(::cordl_internals::uintptr_t length, ::ArrayW<uint8_t> bytes, ::Oculus::Platform::SendPolicy policy) ;
+static bool ovr_Net_SendPacketToCurrentRoom(::cordl_internals::uintptr_t length, ::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy) ;
 
 /// @brief Method ovr_Party_PluginGetSharedMemHandle addr 0x2557f14 size 0x68 virtual false final false
 static int32_t ovr_Party_PluginGetSharedMemHandle() ;
 
 /// @brief Method ovr_Party_PluginGetVoipMicrophoneMuted addr 0x2557f7c size 0x68 virtual false final false
-static ::Oculus::Platform::VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted() ;
+static Oculus::Platform::VoipMuteState ovr_Party_PluginGetVoipMicrophoneMuted() ;
 
 /// @brief Method ovr_Party_PluginGetVoipPassthrough addr 0x2557fe4 size 0x70 virtual false final false
 static bool ovr_Party_PluginGetVoipPassthrough() ;
 
 /// @brief Method ovr_Party_PluginGetVoipStatus addr 0x2558054 size 0x68 virtual false final false
-static ::Oculus::Platform::SystemVoipStatus ovr_Party_PluginGetVoipStatus() ;
+static Oculus::Platform::SystemVoipStatus ovr_Party_PluginGetVoipStatus() ;
 
 /// @brief Method ovr_Voip_Accept addr 0x25580bc size 0x7c virtual false final false
 static void ovr_Voip_Accept(uint64_t userID) ;
 
 /// @brief Method ovr_Voip_GetIsConnectionUsingDtx addr 0x2558138 size 0x7c virtual false final false
-static ::Oculus::Platform::VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(uint64_t peerID) ;
+static Oculus::Platform::VoipDtxState ovr_Voip_GetIsConnectionUsingDtx(uint64_t peerID) ;
 
 /// @brief Method ovr_Voip_GetLocalBitrate addr 0x25581b4 size 0x7c virtual false final false
-static ::Oculus::Platform::VoipBitrate ovr_Voip_GetLocalBitrate(uint64_t peerID) ;
+static Oculus::Platform::VoipBitrate ovr_Voip_GetLocalBitrate(uint64_t peerID) ;
 
 /// @brief Method ovr_Voip_GetOutputBufferMaxSize addr 0x2558230 size 0x68 virtual false final false
 static ::cordl_internals::uintptr_t ovr_Voip_GetOutputBufferMaxSize() ;
@@ -959,7 +958,7 @@ static ::cordl_internals::uintptr_t ovr_Voip_GetPCMWithTimestamp(uint64_t sender
 static ::cordl_internals::uintptr_t ovr_Voip_GetPCMWithTimestampFloat(uint64_t senderID, ::ArrayW<float_t> outputBuffer, ::cordl_internals::uintptr_t outputBufferNumElements, ::ArrayW<uint32_t> timestamp) ;
 
 /// @brief Method ovr_Voip_GetRemoteBitrate addr 0x25585a4 size 0x7c virtual false final false
-static ::Oculus::Platform::VoipBitrate ovr_Voip_GetRemoteBitrate(uint64_t peerID) ;
+static Oculus::Platform::VoipBitrate ovr_Voip_GetRemoteBitrate(uint64_t peerID) ;
 
 /// @brief Method ovr_Voip_GetSyncTimestamp addr 0x2558620 size 0x7c virtual false final false
 static uint32_t ovr_Voip_GetSyncTimestamp(uint64_t userID) ;
@@ -968,19 +967,19 @@ static uint32_t ovr_Voip_GetSyncTimestamp(uint64_t userID) ;
 static int64_t ovr_Voip_GetSyncTimestampDifference(uint32_t lhs, uint32_t rhs) ;
 
 /// @brief Method ovr_Voip_GetSystemVoipMicrophoneMuted addr 0x2558720 size 0x68 virtual false final false
-static ::Oculus::Platform::VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted() ;
+static Oculus::Platform::VoipMuteState ovr_Voip_GetSystemVoipMicrophoneMuted() ;
 
 /// @brief Method ovr_Voip_GetSystemVoipStatus addr 0x2558788 size 0x68 virtual false final false
-static ::Oculus::Platform::SystemVoipStatus ovr_Voip_GetSystemVoipStatus() ;
+static Oculus::Platform::SystemVoipStatus ovr_Voip_GetSystemVoipStatus() ;
 
 /// @brief Method ovr_Voip_SetMicrophoneMuted addr 0x25587f0 size 0x7c virtual false final false
-static void ovr_Voip_SetMicrophoneMuted(::Oculus::Platform::VoipMuteState state) ;
+static void ovr_Voip_SetMicrophoneMuted(Oculus::Platform::VoipMuteState state) ;
 
 /// @brief Method ovr_Voip_SetNewConnectionOptions addr 0x255886c size 0x7c virtual false final false
 static void ovr_Voip_SetNewConnectionOptions(::cordl_internals::intptr_t voipOptions) ;
 
 /// @brief Method ovr_Voip_SetOutputSampleRate addr 0x25588e8 size 0x7c virtual false final false
-static void ovr_Voip_SetOutputSampleRate(::Oculus::Platform::VoipSampleRate rate) ;
+static void ovr_Voip_SetOutputSampleRate(Oculus::Platform::VoipSampleRate rate) ;
 
 /// @brief Method ovr_Voip_Start addr 0x2558964 size 0x7c virtual false final false
 static void ovr_Voip_Start(uint64_t userID) ;
@@ -992,7 +991,7 @@ static void ovr_Voip_Stop(uint64_t userID) ;
 static uint64_t ovr_AbuseReport_LaunchAdvancedReportFlow(uint64_t content_id, ::cordl_internals::intptr_t abuse_report_options) ;
 
 /// @brief Method ovr_AbuseReport_ReportRequestHandled addr 0x2558ae0 size 0x7c virtual false final false
-static uint64_t ovr_AbuseReport_ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response) ;
+static uint64_t ovr_AbuseReport_ReportRequestHandled(Oculus::Platform::ReportRequestResponse response) ;
 
 /// @brief Method ovr_Achievements_AddCount addr 0x2558b5c size 0xac virtual false final false
 static uint64_t ovr_Achievements_AddCount(::StringW name, uint64_t count) ;
@@ -1133,13 +1132,13 @@ static uint64_t ovr_Challenges_Delete(uint64_t challengeID) ;
 static uint64_t ovr_Challenges_Get(uint64_t challengeID) ;
 
 /// @brief Method ovr_Challenges_GetEntries addr 0x255a508 size 0x9c virtual false final false
-static uint64_t ovr_Challenges_GetEntries(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter, ::Oculus::Platform::LeaderboardStartAt startAt) ;
+static uint64_t ovr_Challenges_GetEntries(uint64_t challengeID, int32_t limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt) ;
 
 /// @brief Method ovr_Challenges_GetEntriesAfterRank addr 0x255a5a4 size 0x94 virtual false final false
 static uint64_t ovr_Challenges_GetEntriesAfterRank(uint64_t challengeID, int32_t limit, uint64_t afterRank) ;
 
 /// @brief Method ovr_Challenges_GetEntriesByIds addr 0x255a638 size 0xb4 virtual false final false
-static uint64_t ovr_Challenges_GetEntriesByIds(uint64_t challengeID, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
+static uint64_t ovr_Challenges_GetEntriesByIds(uint64_t challengeID, int32_t limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
 
 /// @brief Method ovr_Challenges_GetList addr 0x255a6ec size 0x84 virtual false final false
 static uint64_t ovr_Challenges_GetList(::cordl_internals::intptr_t challengeOptions, int32_t limit) ;
@@ -1328,10 +1327,10 @@ static uint64_t ovr_HTTP_GetToFile(::StringW url, ::StringW diskFile) ;
 static uint64_t ovr_HTTP_GetToFile_Native(::cordl_internals::intptr_t url, ::cordl_internals::intptr_t diskFile) ;
 
 /// @brief Method ovr_HTTP_MultiPartPost addr 0x255ca30 size 0x154 virtual false final false
-static uint64_t ovr_HTTP_MultiPartPost(::StringW url, ::StringW filepath_param_name, ::StringW filepath, ::StringW access_token, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> post_params) ;
+static uint64_t ovr_HTTP_MultiPartPost(::StringW url, ::StringW filepath_param_name, ::StringW filepath, ::StringW access_token, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> post_params) ;
 
 /// @brief Method ovr_HTTP_MultiPartPost_Native addr 0x255cb84 size 0x1d8 virtual false final false
-static uint64_t ovr_HTTP_MultiPartPost_Native(::cordl_internals::intptr_t url, ::cordl_internals::intptr_t filepath_param_name, ::cordl_internals::intptr_t filepath, ::cordl_internals::intptr_t access_token, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> post_params, ::cordl_internals::uintptr_t numItems) ;
+static uint64_t ovr_HTTP_MultiPartPost_Native(::cordl_internals::intptr_t url, ::cordl_internals::intptr_t filepath_param_name, ::cordl_internals::intptr_t filepath, ::cordl_internals::intptr_t access_token, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> post_params, ::cordl_internals::uintptr_t numItems) ;
 
 /// @brief Method ovr_HTTP_Post addr 0x255cd5c size 0x9c virtual false final false
 static uint64_t ovr_HTTP_Post(::StringW url) ;
@@ -1376,10 +1375,10 @@ static uint64_t ovr_Leaderboard_Get(::StringW leaderboardName) ;
 static uint64_t ovr_Leaderboard_Get_Native(::cordl_internals::intptr_t leaderboardName) ;
 
 /// @brief Method ovr_Leaderboard_GetEntries addr 0x255d554 size 0xc4 virtual false final false
-static uint64_t ovr_Leaderboard_GetEntries(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter, ::Oculus::Platform::LeaderboardStartAt startAt) ;
+static uint64_t ovr_Leaderboard_GetEntries(::StringW leaderboardName, int32_t limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt) ;
 
 /// @brief Method ovr_Leaderboard_GetEntries_Native addr 0x255d618 size 0x9c virtual false final false
-static uint64_t ovr_Leaderboard_GetEntries_Native(::cordl_internals::intptr_t leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter, ::Oculus::Platform::LeaderboardStartAt startAt) ;
+static uint64_t ovr_Leaderboard_GetEntries_Native(::cordl_internals::intptr_t leaderboardName, int32_t limit, Oculus::Platform::LeaderboardFilterType filter, Oculus::Platform::LeaderboardStartAt startAt) ;
 
 /// @brief Method ovr_Leaderboard_GetEntriesAfterRank addr 0x255d6b4 size 0xb4 virtual false final false
 static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::StringW leaderboardName, int32_t limit, uint64_t afterRank) ;
@@ -1388,10 +1387,10 @@ static uint64_t ovr_Leaderboard_GetEntriesAfterRank(::StringW leaderboardName, i
 static uint64_t ovr_Leaderboard_GetEntriesAfterRank_Native(::cordl_internals::intptr_t leaderboardName, int32_t limit, uint64_t afterRank) ;
 
 /// @brief Method ovr_Leaderboard_GetEntriesByIds addr 0x255d7fc size 0xcc virtual false final false
-static uint64_t ovr_Leaderboard_GetEntriesByIds(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
+static uint64_t ovr_Leaderboard_GetEntriesByIds(::StringW leaderboardName, int32_t limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
 
 /// @brief Method ovr_Leaderboard_GetEntriesByIds_Native addr 0x255d8c8 size 0xb4 virtual false final false
-static uint64_t ovr_Leaderboard_GetEntriesByIds_Native(::cordl_internals::intptr_t leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
+static uint64_t ovr_Leaderboard_GetEntriesByIds_Native(::cordl_internals::intptr_t leaderboardName, int32_t limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs, uint32_t userIDLength) ;
 
 /// @brief Method ovr_Leaderboard_GetNextEntries addr 0x255d97c size 0x7c virtual false final false
 static uint64_t ovr_Leaderboard_GetNextEntries(::cordl_internals::intptr_t handle) ;
@@ -1421,7 +1420,7 @@ static uint64_t ovr_Livestreaming_IsAllowedForApplication_Native(::cordl_interna
 static uint64_t ovr_Livestreaming_StartPartyStream() ;
 
 /// @brief Method ovr_Livestreaming_StartStream addr 0x255df0c size 0x84 virtual false final false
-static uint64_t ovr_Livestreaming_StartStream(::Oculus::Platform::LivestreamingAudience audience, ::Oculus::Platform::LivestreamingMicrophoneStatus micStatus) ;
+static uint64_t ovr_Livestreaming_StartStream(Oculus::Platform::LivestreamingAudience audience, Oculus::Platform::LivestreamingMicrophoneStatus micStatus) ;
 
 /// @brief Method ovr_Livestreaming_StopPartyStream addr 0x255df90 size 0x68 virtual false final false
 static uint64_t ovr_Livestreaming_StopPartyStream() ;
@@ -1430,7 +1429,7 @@ static uint64_t ovr_Livestreaming_StopPartyStream() ;
 static uint64_t ovr_Livestreaming_StopStream() ;
 
 /// @brief Method ovr_Livestreaming_UpdateMicStatus addr 0x255e060 size 0x7c virtual false final false
-static uint64_t ovr_Livestreaming_UpdateMicStatus(::Oculus::Platform::LivestreamingMicrophoneStatus micStatus) ;
+static uint64_t ovr_Livestreaming_UpdateMicStatus(Oculus::Platform::LivestreamingMicrophoneStatus micStatus) ;
 
 /// @brief Method ovr_Matchmaking_Browse addr 0x255e0dc size 0xac virtual false final false
 static uint64_t ovr_Matchmaking_Browse(::StringW pool, ::cordl_internals::intptr_t customQueryData) ;
@@ -1499,28 +1498,28 @@ static uint64_t ovr_Matchmaking_EnqueueRoom2(uint64_t roomID, ::cordl_internals:
 static uint64_t ovr_Matchmaking_GetAdminSnapshot() ;
 
 /// @brief Method ovr_Matchmaking_GetStats addr 0x255edc8 size 0xb4 virtual false final false
-static uint64_t ovr_Matchmaking_GetStats(::StringW pool, uint32_t maxLevel, ::Oculus::Platform::MatchmakingStatApproach approach) ;
+static uint64_t ovr_Matchmaking_GetStats(::StringW pool, uint32_t maxLevel, Oculus::Platform::MatchmakingStatApproach approach) ;
 
 /// @brief Method ovr_Matchmaking_GetStats_Native addr 0x255ee7c size 0x94 virtual false final false
-static uint64_t ovr_Matchmaking_GetStats_Native(::cordl_internals::intptr_t pool, uint32_t maxLevel, ::Oculus::Platform::MatchmakingStatApproach approach) ;
+static uint64_t ovr_Matchmaking_GetStats_Native(::cordl_internals::intptr_t pool, uint32_t maxLevel, Oculus::Platform::MatchmakingStatApproach approach) ;
 
 /// @brief Method ovr_Matchmaking_JoinRoom addr 0x255ef10 size 0x84 virtual false final false
 static uint64_t ovr_Matchmaking_JoinRoom(uint64_t roomID, bool subscribeToUpdates) ;
 
 /// @brief Method ovr_Matchmaking_ReportResultInsecure addr 0x255ef94 size 0xa0 virtual false final false
-static uint64_t ovr_Matchmaking_ReportResultInsecure(uint64_t roomID, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> data) ;
+static uint64_t ovr_Matchmaking_ReportResultInsecure(uint64_t roomID, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> data) ;
 
 /// @brief Method ovr_Matchmaking_ReportResultInsecure_Native addr 0x255f034 size 0x1a4 virtual false final false
-static uint64_t ovr_Matchmaking_ReportResultInsecure_Native(uint64_t roomID, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> data, ::cordl_internals::uintptr_t numItems) ;
+static uint64_t ovr_Matchmaking_ReportResultInsecure_Native(uint64_t roomID, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> data, ::cordl_internals::uintptr_t numItems) ;
 
 /// @brief Method ovr_Matchmaking_StartMatch addr 0x255f1d8 size 0x7c virtual false final false
 static uint64_t ovr_Matchmaking_StartMatch(uint64_t roomID) ;
 
 /// @brief Method ovr_Media_ShareToFacebook addr 0x255f254 size 0xd0 virtual false final false
-static uint64_t ovr_Media_ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, ::Oculus::Platform::MediaContentType contentType) ;
+static uint64_t ovr_Media_ShareToFacebook(::StringW postTextSuggestion, ::StringW filePath, Oculus::Platform::MediaContentType contentType) ;
 
 /// @brief Method ovr_Media_ShareToFacebook_Native addr 0x255f324 size 0x94 virtual false final false
-static uint64_t ovr_Media_ShareToFacebook_Native(::cordl_internals::intptr_t postTextSuggestion, ::cordl_internals::intptr_t filePath, ::Oculus::Platform::MediaContentType contentType) ;
+static uint64_t ovr_Media_ShareToFacebook_Native(::cordl_internals::intptr_t postTextSuggestion, ::cordl_internals::intptr_t filePath, Oculus::Platform::MediaContentType contentType) ;
 
 /// @brief Method ovr_NetSync_Connect addr 0x255f3b8 size 0x7c virtual false final false
 static uint64_t ovr_NetSync_Connect(::cordl_internals::intptr_t connect_options) ;
@@ -1562,7 +1561,7 @@ static uint64_t ovr_NetSync_SetVoipGroup_Native(int64_t connection_id, ::cordl_i
 static uint64_t ovr_NetSync_SetVoipListentoChannels(int64_t connection_id, ::ArrayW<::StringW> listento_channels, ::cordl_internals::uintptr_t count) ;
 
 /// @brief Method ovr_NetSync_SetVoipMicSource addr 0x255fc58 size 0x84 virtual false final false
-static uint64_t ovr_NetSync_SetVoipMicSource(int64_t connection_id, ::Oculus::Platform::NetSyncVoipMicSource mic_source) ;
+static uint64_t ovr_NetSync_SetVoipMicSource(int64_t connection_id, Oculus::Platform::NetSyncVoipMicSource mic_source) ;
 
 /// @brief Method ovr_NetSync_SetVoipSessionMuted addr 0x255fcdc size 0x94 virtual false final false
 static uint64_t ovr_NetSync_SetVoipSessionMuted(int64_t connection_id, uint64_t session_id, bool muted) ;
@@ -1571,7 +1570,7 @@ static uint64_t ovr_NetSync_SetVoipSessionMuted(int64_t connection_id, uint64_t 
 static uint64_t ovr_NetSync_SetVoipSpeaktoChannels(int64_t connection_id, ::ArrayW<::StringW> speakto_channels, ::cordl_internals::uintptr_t count) ;
 
 /// @brief Method ovr_NetSync_SetVoipStreamMode addr 0x255fed0 size 0x94 virtual false final false
-static uint64_t ovr_NetSync_SetVoipStreamMode(int64_t connection_id, uint64_t sessionId, ::Oculus::Platform::NetSyncVoipStreamMode streamMode) ;
+static uint64_t ovr_NetSync_SetVoipStreamMode(int64_t connection_id, uint64_t sessionId, Oculus::Platform::NetSyncVoipStreamMode streamMode) ;
 
 /// @brief Method ovr_Notification_GetRoomInvites addr 0x255ff64 size 0x68 virtual false final false
 static uint64_t ovr_Notification_GetRoomInvites() ;
@@ -1634,10 +1633,10 @@ static uint64_t ovr_RichPresence_SetMatchSession(::StringW id) ;
 static uint64_t ovr_RichPresence_SetMatchSession_Native(::cordl_internals::intptr_t id) ;
 
 /// @brief Method ovr_Room_CreateAndJoinPrivate addr 0x256091c size 0x94 virtual false final false
-static uint64_t ovr_Room_CreateAndJoinPrivate(::Oculus::Platform::RoomJoinPolicy joinPolicy, uint32_t maxUsers, bool subscribeToUpdates) ;
+static uint64_t ovr_Room_CreateAndJoinPrivate(Oculus::Platform::RoomJoinPolicy joinPolicy, uint32_t maxUsers, bool subscribeToUpdates) ;
 
 /// @brief Method ovr_Room_CreateAndJoinPrivate2 addr 0x25609b0 size 0x94 virtual false final false
-static uint64_t ovr_Room_CreateAndJoinPrivate2(::Oculus::Platform::RoomJoinPolicy joinPolicy, uint32_t maxUsers, ::cordl_internals::intptr_t roomOptions) ;
+static uint64_t ovr_Room_CreateAndJoinPrivate2(Oculus::Platform::RoomJoinPolicy joinPolicy, uint32_t maxUsers, ::cordl_internals::intptr_t roomOptions) ;
 
 /// @brief Method ovr_Room_Get addr 0x2560a44 size 0x7c virtual false final false
 static uint64_t ovr_Room_Get(uint64_t roomID) ;
@@ -1688,19 +1687,19 @@ static uint64_t ovr_Room_SetDescription(uint64_t roomID, ::StringW description) 
 static uint64_t ovr_Room_SetDescription_Native(uint64_t roomID, ::cordl_internals::intptr_t description) ;
 
 /// @brief Method ovr_Room_UpdateDataStore addr 0x2561264 size 0xa0 virtual false final false
-static uint64_t ovr_Room_UpdateDataStore(uint64_t roomID, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> data) ;
+static uint64_t ovr_Room_UpdateDataStore(uint64_t roomID, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> data) ;
 
 /// @brief Method ovr_Room_UpdateDataStore_Native addr 0x2561304 size 0x1a0 virtual false final false
-static uint64_t ovr_Room_UpdateDataStore_Native(uint64_t roomID, ::ArrayW<::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair> data, ::cordl_internals::uintptr_t numItems) ;
+static uint64_t ovr_Room_UpdateDataStore_Native(uint64_t roomID, ::ArrayW<Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair> data, ::cordl_internals::uintptr_t numItems) ;
 
 /// @brief Method ovr_Room_UpdateMembershipLockStatus addr 0x25614a4 size 0x84 virtual false final false
-static uint64_t ovr_Room_UpdateMembershipLockStatus(uint64_t roomID, ::Oculus::Platform::RoomMembershipLockStatus membershipLockStatus) ;
+static uint64_t ovr_Room_UpdateMembershipLockStatus(uint64_t roomID, Oculus::Platform::RoomMembershipLockStatus membershipLockStatus) ;
 
 /// @brief Method ovr_Room_UpdateOwner addr 0x2561528 size 0x84 virtual false final false
 static uint64_t ovr_Room_UpdateOwner(uint64_t roomID, uint64_t userID) ;
 
 /// @brief Method ovr_Room_UpdatePrivateRoomJoinPolicy addr 0x25615ac size 0x84 virtual false final false
-static uint64_t ovr_Room_UpdatePrivateRoomJoinPolicy(uint64_t roomID, ::Oculus::Platform::RoomJoinPolicy newJoinPolicy) ;
+static uint64_t ovr_Room_UpdatePrivateRoomJoinPolicy(uint64_t roomID, Oculus::Platform::RoomJoinPolicy newJoinPolicy) ;
 
 /// @brief Method ovr_User_CancelRecordingForReportFlow addr 0x2561630 size 0x9c virtual false final false
 static uint64_t ovr_User_CancelRecordingForReportFlow(::StringW recordingUUID) ;
@@ -1862,7 +1861,7 @@ static ::cordl_internals::intptr_t ovr_AchievementDefinition_GetName_Native(::co
 static uint64_t ovr_AchievementDefinition_GetTarget(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_AchievementDefinition_GetType addr 0x2563170 size 0x7c virtual false final false
-static ::Oculus::Platform::AchievementType ovr_AchievementDefinition_GetType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::AchievementType ovr_AchievementDefinition_GetType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_AchievementDefinitionArray_GetElement addr 0x25631ec size 0x84 virtual false final false
 static ::cordl_internals::intptr_t ovr_AchievementDefinitionArray_GetElement(::cordl_internals::intptr_t obj, ::cordl_internals::uintptr_t index) ;
@@ -1898,7 +1897,7 @@ static ::StringW ovr_AchievementProgress_GetName(::cordl_internals::intptr_t obj
 static ::cordl_internals::intptr_t ovr_AchievementProgress_GetName_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_AchievementProgress_GetUnlockTime addr 0x25636ec size 0x58 virtual false final false
-static ::System::DateTime ovr_AchievementProgress_GetUnlockTime(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_AchievementProgress_GetUnlockTime(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_AchievementProgress_GetUnlockTime_Native addr 0x2563744 size 0x7c virtual false final false
 static uint64_t ovr_AchievementProgress_GetUnlockTime_Native(::cordl_internals::intptr_t obj) ;
@@ -2141,7 +2140,7 @@ static ::cordl_internals::intptr_t ovr_CalApplicationSuggestionArray_GetElement(
 static ::cordl_internals::uintptr_t ovr_CalApplicationSuggestionArray_GetSize(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetCreationType addr 0x2565bec size 0x7c virtual false final false
-static ::Oculus::Platform::ChallengeCreationType ovr_Challenge_GetCreationType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::ChallengeCreationType ovr_Challenge_GetCreationType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetDescription addr 0x2565c68 size 0x58 virtual false final false
 static ::StringW ovr_Challenge_GetDescription(::cordl_internals::intptr_t obj) ;
@@ -2150,7 +2149,7 @@ static ::StringW ovr_Challenge_GetDescription(::cordl_internals::intptr_t obj) ;
 static ::cordl_internals::intptr_t ovr_Challenge_GetDescription_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetEndDate addr 0x2565d3c size 0x58 virtual false final false
-static ::System::DateTime ovr_Challenge_GetEndDate(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_Challenge_GetEndDate(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetEndDate_Native addr 0x2565d94 size 0x7c virtual false final false
 static uint64_t ovr_Challenge_GetEndDate_Native(::cordl_internals::intptr_t obj) ;
@@ -2168,7 +2167,7 @@ static ::cordl_internals::intptr_t ovr_Challenge_GetLeaderboard(::cordl_internal
 static ::cordl_internals::intptr_t ovr_Challenge_GetParticipants(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetStartDate addr 0x2566000 size 0x58 virtual false final false
-static ::System::DateTime ovr_Challenge_GetStartDate(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_Challenge_GetStartDate(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetStartDate_Native addr 0x2566058 size 0x7c virtual false final false
 static uint64_t ovr_Challenge_GetStartDate_Native(::cordl_internals::intptr_t obj) ;
@@ -2180,7 +2179,7 @@ static ::StringW ovr_Challenge_GetTitle(::cordl_internals::intptr_t obj) ;
 static ::cordl_internals::intptr_t ovr_Challenge_GetTitle_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Challenge_GetVisibility addr 0x25661a8 size 0x7c virtual false final false
-static ::Oculus::Platform::ChallengeVisibility ovr_Challenge_GetVisibility(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::ChallengeVisibility ovr_Challenge_GetVisibility(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_ChallengeArray_GetElement addr 0x2566224 size 0x84 virtual false final false
 static ::cordl_internals::intptr_t ovr_ChallengeArray_GetElement(::cordl_internals::intptr_t obj, ::cordl_internals::uintptr_t index) ;
@@ -2234,7 +2233,7 @@ static int32_t ovr_ChallengeEntry_GetRank(::cordl_internals::intptr_t obj) ;
 static int64_t ovr_ChallengeEntry_GetScore(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_ChallengeEntry_GetTimestamp addr 0x2566a78 size 0x58 virtual false final false
-static ::System::DateTime ovr_ChallengeEntry_GetTimestamp(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_ChallengeEntry_GetTimestamp(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_ChallengeEntry_GetTimestamp_Native addr 0x2566ad0 size 0x7c virtual false final false
 static uint64_t ovr_ChallengeEntry_GetTimestamp_Native(::cordl_internals::intptr_t obj) ;
@@ -2330,7 +2329,7 @@ static ::cordl_internals::intptr_t ovr_CloudStorageMetadata_GetKey_Native(::cord
 static uint64_t ovr_CloudStorageMetadata_GetSaveTime(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_CloudStorageMetadata_GetStatus addr 0x25678bc size 0x7c virtual false final false
-static ::Oculus::Platform::CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::CloudStorageDataStatus ovr_CloudStorageMetadata_GetStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_CloudStorageMetadata_GetVersionHandle addr 0x2567938 size 0x58 virtual false final false
 static ::StringW ovr_CloudStorageMetadata_GetVersionHandle(::cordl_internals::intptr_t obj) ;
@@ -2366,7 +2365,7 @@ static ::StringW ovr_CloudStorageUpdateResponse_GetKey(::cordl_internals::intptr
 static ::cordl_internals::intptr_t ovr_CloudStorageUpdateResponse_GetKey_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_CloudStorageUpdateResponse_GetStatus addr 0x2567e0c size 0x7c virtual false final false
-static ::Oculus::Platform::CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::CloudStorageUpdateStatus ovr_CloudStorageUpdateResponse_GetStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_CloudStorageUpdateResponse_GetVersionHandle addr 0x2567e88 size 0x58 virtual false final false
 static ::StringW ovr_CloudStorageUpdateResponse_GetVersionHandle(::cordl_internals::intptr_t obj) ;
@@ -2579,7 +2578,7 @@ static ::StringW ovr_LaunchDetails_GetLaunchSource(::cordl_internals::intptr_t o
 static ::cordl_internals::intptr_t ovr_LaunchDetails_GetLaunchSource_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LaunchDetails_GetLaunchType addr 0x2569c1c size 0x7c virtual false final false
-static ::Oculus::Platform::LaunchType ovr_LaunchDetails_GetLaunchType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::LaunchType ovr_LaunchDetails_GetLaunchType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LaunchDetails_GetRoomID addr 0x2569c98 size 0x7c virtual false final false
 static uint64_t ovr_LaunchDetails_GetRoomID(::cordl_internals::intptr_t obj) ;
@@ -2669,7 +2668,7 @@ static int64_t ovr_LeaderboardEntry_GetScore(::cordl_internals::intptr_t obj) ;
 static ::cordl_internals::intptr_t ovr_LeaderboardEntry_GetSupplementaryMetric(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LeaderboardEntry_GetTimestamp addr 0x256a9c0 size 0x58 virtual false final false
-static ::System::DateTime ovr_LeaderboardEntry_GetTimestamp(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_LeaderboardEntry_GetTimestamp(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LeaderboardEntry_GetTimestamp_Native addr 0x256aa18 size 0x7c virtual false final false
 static uint64_t ovr_LeaderboardEntry_GetTimestamp_Native(::cordl_internals::intptr_t obj) ;
@@ -2720,7 +2719,7 @@ static ::StringW ovr_LinkedAccount_GetAccessToken(::cordl_internals::intptr_t ob
 static ::cordl_internals::intptr_t ovr_LinkedAccount_GetAccessToken_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LinkedAccount_GetServiceProvider addr 0x256b194 size 0x7c virtual false final false
-static ::Oculus::Platform::ServiceProvider ovr_LinkedAccount_GetServiceProvider(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::ServiceProvider ovr_LinkedAccount_GetServiceProvider(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LinkedAccount_GetUserId addr 0x256b210 size 0x58 virtual false final false
 static ::StringW ovr_LinkedAccount_GetUserId(::cordl_internals::intptr_t obj) ;
@@ -2738,7 +2737,7 @@ static ::cordl_internals::uintptr_t ovr_LinkedAccountArray_GetSize(::cordl_inter
 static bool ovr_LivestreamingApplicationStatus_GetStreamingEnabled(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LivestreamingStartResult_GetStreamingResult addr 0x256b468 size 0x7c virtual false final false
-static ::Oculus::Platform::LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::LivestreamingStartStatus ovr_LivestreamingStartResult_GetStreamingResult(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_LivestreamingStatus_GetCommentsVisible addr 0x256b4e4 size 0x84 virtual false final false
 static bool ovr_LivestreamingStatus_GetCommentsVisible(::cordl_internals::intptr_t obj) ;
@@ -3170,7 +3169,7 @@ static ::cordl_internals::intptr_t ovr_Message_GetString_Native(::cordl_internal
 static ::cordl_internals::intptr_t ovr_Message_GetSystemVoipState(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Message_GetType addr 0x256f968 size 0x7c virtual false final false
-static ::Oculus::Platform::____Oculus__Platform__Message__MessageType ovr_Message_GetType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::Oculus__Platform__Message__MessageType ovr_Message_GetType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Message_GetUser addr 0x256f9e4 size 0x7c virtual false final false
 static ::cordl_internals::intptr_t ovr_Message_GetUser(::cordl_internals::intptr_t obj) ;
@@ -3227,13 +3226,13 @@ static bool ovr_MicrophoneAvailabilityState_GetMicrophoneAvailable(::cordl_inter
 static int64_t ovr_NetSyncConnection_GetConnectionId(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_NetSyncConnection_GetDisconnectReason addr 0x2570314 size 0x7c virtual false final false
-static ::Oculus::Platform::NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::NetSyncDisconnectReason ovr_NetSyncConnection_GetDisconnectReason(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_NetSyncConnection_GetSessionId addr 0x2570390 size 0x7c virtual false final false
 static uint64_t ovr_NetSyncConnection_GetSessionId(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_NetSyncConnection_GetStatus addr 0x257040c size 0x7c virtual false final false
-static ::Oculus::Platform::NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::NetSyncConnectionStatus ovr_NetSyncConnection_GetStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_NetSyncConnection_GetZoneId addr 0x2570488 size 0x58 virtual false final false
 static ::StringW ovr_NetSyncConnection_GetZoneId(::cordl_internals::intptr_t obj) ;
@@ -3290,7 +3289,7 @@ static ::cordl_internals::uintptr_t ovr_NetSyncVoipAttenuationValueArray_GetSize
 static uint64_t ovr_NetworkingPeer_GetID(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_NetworkingPeer_GetState addr 0x2570d10 size 0x7c virtual false final false
-static ::Oculus::Platform::PeerConnectionState ovr_NetworkingPeer_GetState(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::PeerConnectionState ovr_NetworkingPeer_GetState(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_OrgScopedID_GetID addr 0x2570d8c size 0x7c virtual false final false
 static uint64_t ovr_OrgScopedID_GetID(::cordl_internals::intptr_t obj) ;
@@ -3302,7 +3301,7 @@ static void ovr_Packet_Free(::cordl_internals::intptr_t obj) ;
 static ::cordl_internals::intptr_t ovr_Packet_GetBytes(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Packet_GetSendPolicy addr 0x2570f00 size 0x7c virtual false final false
-static ::Oculus::Platform::SendPolicy ovr_Packet_GetSendPolicy(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::SendPolicy ovr_Packet_GetSendPolicy(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Packet_GetSenderID addr 0x2570f7c size 0x7c virtual false final false
 static uint64_t ovr_Packet_GetSenderID(::cordl_internals::intptr_t obj) ;
@@ -3329,7 +3328,7 @@ static ::cordl_internals::intptr_t ovr_Party_GetUsers(::cordl_internals::intptr_
 static uint64_t ovr_PartyID_GetID(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_PartyUpdateNotification_GetAction addr 0x2571354 size 0x7c virtual false final false
-static ::Oculus::Platform::PartyUpdateAction ovr_PartyUpdateNotification_GetAction(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::PartyUpdateAction ovr_PartyUpdateNotification_GetAction(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_PartyUpdateNotification_GetPartyId addr 0x25713d0 size 0x7c virtual false final false
 static uint64_t ovr_PartyUpdateNotification_GetPartyId(::cordl_internals::intptr_t obj) ;
@@ -3380,7 +3379,7 @@ static uint64_t ovr_PingResult_GetPingTimeUsec(::cordl_internals::intptr_t obj) 
 static bool ovr_PingResult_IsTimeout(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_PlatformInitialize_GetResult addr 0x2571b10 size 0x7c virtual false final false
-static ::Oculus::Platform::PlatformInitializeResult ovr_PlatformInitialize_GetResult(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::PlatformInitializeResult ovr_PlatformInitialize_GetResult(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Price_GetAmountInHundredths addr 0x2571b8c size 0x7c virtual false final false
 static uint32_t ovr_Price_GetAmountInHundredths(::cordl_internals::intptr_t obj) ;
@@ -3443,13 +3442,13 @@ static ::StringW ovr_Purchase_GetDeveloperPayload(::cordl_internals::intptr_t ob
 static ::cordl_internals::intptr_t ovr_Purchase_GetDeveloperPayload_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Purchase_GetExpirationTime addr 0x257242c size 0x58 virtual false final false
-static ::System::DateTime ovr_Purchase_GetExpirationTime(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_Purchase_GetExpirationTime(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Purchase_GetExpirationTime_Native addr 0x2572484 size 0x7c virtual false final false
 static uint64_t ovr_Purchase_GetExpirationTime_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Purchase_GetGrantTime addr 0x2572500 size 0x58 virtual false final false
-static ::System::DateTime ovr_Purchase_GetGrantTime(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_Purchase_GetGrantTime(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Purchase_GetGrantTime_Native addr 0x2572558 size 0x7c virtual false final false
 static uint64_t ovr_Purchase_GetGrantTime_Native(::cordl_internals::intptr_t obj) ;
@@ -3515,10 +3514,10 @@ static ::cordl_internals::intptr_t ovr_Room_GetInvitedUsers(::cordl_internals::i
 static bool ovr_Room_GetIsMembershipLocked(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Room_GetJoinPolicy addr 0x2572ef0 size 0x7c virtual false final false
-static ::Oculus::Platform::RoomJoinPolicy ovr_Room_GetJoinPolicy(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::RoomJoinPolicy ovr_Room_GetJoinPolicy(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Room_GetJoinability addr 0x2572f6c size 0x7c virtual false final false
-static ::Oculus::Platform::RoomJoinability ovr_Room_GetJoinability(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::RoomJoinability ovr_Room_GetJoinability(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Room_GetMatchedUsers addr 0x2572fe8 size 0x7c virtual false final false
 static ::cordl_internals::intptr_t ovr_Room_GetMatchedUsers(::cordl_internals::intptr_t obj) ;
@@ -3539,7 +3538,7 @@ static ::cordl_internals::intptr_t ovr_Room_GetOwner(::cordl_internals::intptr_t
 static ::cordl_internals::intptr_t ovr_Room_GetTeams(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Room_GetType addr 0x25732a4 size 0x7c virtual false final false
-static ::Oculus::Platform::RoomType ovr_Room_GetType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::RoomType ovr_Room_GetType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Room_GetUsers addr 0x2573320 size 0x78 virtual false final false
 static ::cordl_internals::intptr_t ovr_Room_GetUsers(::cordl_internals::intptr_t obj) ;
@@ -3572,7 +3571,7 @@ static uint64_t ovr_RoomInviteNotification_GetRoomID(::cordl_internals::intptr_t
 static uint64_t ovr_RoomInviteNotification_GetSenderID(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_RoomInviteNotification_GetSentTime addr 0x25737e0 size 0x58 virtual false final false
-static ::System::DateTime ovr_RoomInviteNotification_GetSentTime(::cordl_internals::intptr_t obj) ;
+static System::DateTime ovr_RoomInviteNotification_GetSentTime(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_RoomInviteNotification_GetSentTime_Native addr 0x2573838 size 0x7c virtual false final false
 static uint64_t ovr_RoomInviteNotification_GetSentTime_Native(::cordl_internals::intptr_t obj) ;
@@ -3593,7 +3592,7 @@ static ::cordl_internals::uintptr_t ovr_RoomInviteNotificationArray_GetSize(::co
 static bool ovr_RoomInviteNotificationArray_HasNextPage(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_SdkAccount_GetAccountType addr 0x2573b0c size 0x7c virtual false final false
-static ::Oculus::Platform::SdkAccountType ovr_SdkAccount_GetAccountType(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::SdkAccountType ovr_SdkAccount_GetAccountType(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_SdkAccount_GetUserId addr 0x2573b88 size 0x7c virtual false final false
 static uint64_t ovr_SdkAccount_GetUserId(::cordl_internals::intptr_t obj) ;
@@ -3608,7 +3607,7 @@ static ::cordl_internals::uintptr_t ovr_SdkAccountArray_GetSize(::cordl_internal
 static ::cordl_internals::intptr_t ovr_SendInvitesResult_GetInvites(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_ShareMediaResult_GetStatus addr 0x2573d80 size 0x7c virtual false final false
-static ::Oculus::Platform::ShareMediaStatus ovr_ShareMediaResult_GetStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::ShareMediaStatus ovr_ShareMediaResult_GetStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_SupplementaryMetric_GetID addr 0x2573dfc size 0x7c virtual false final false
 static uint64_t ovr_SupplementaryMetric_GetID(::cordl_internals::intptr_t obj) ;
@@ -3617,10 +3616,10 @@ static uint64_t ovr_SupplementaryMetric_GetID(::cordl_internals::intptr_t obj) ;
 static int64_t ovr_SupplementaryMetric_GetMetric(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_SystemVoipState_GetMicrophoneMuted addr 0x2573ef4 size 0x7c virtual false final false
-static ::Oculus::Platform::VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::VoipMuteState ovr_SystemVoipState_GetMicrophoneMuted(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_SystemVoipState_GetStatus addr 0x2573f70 size 0x7c virtual false final false
-static ::Oculus::Platform::SystemVoipStatus ovr_SystemVoipState_GetStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::SystemVoipStatus ovr_SystemVoipState_GetStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_Team_GetAssignedUsers addr 0x2573fec size 0x7c virtual false final false
 static ::cordl_internals::intptr_t ovr_Team_GetAssignedUsers(::cordl_internals::intptr_t obj) ;
@@ -3752,7 +3751,7 @@ static ::StringW ovr_User_GetPresenceMatchSessionId(::cordl_internals::intptr_t 
 static ::cordl_internals::intptr_t ovr_User_GetPresenceMatchSessionId_Native(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_User_GetPresenceStatus addr 0x25752d8 size 0x7c virtual false final false
-static ::Oculus::Platform::UserPresenceStatus ovr_User_GetPresenceStatus(::cordl_internals::intptr_t obj) ;
+static Oculus::Platform::UserPresenceStatus ovr_User_GetPresenceStatus(::cordl_internals::intptr_t obj) ;
 
 /// @brief Method ovr_User_GetSmallImageUrl addr 0x2575354 size 0x58 virtual false final false
 static ::StringW ovr_User_GetSmallImageUrl(::cordl_internals::intptr_t obj) ;
@@ -3872,7 +3871,7 @@ static void ovr_AbuseReportOptions_Destroy(::cordl_internals::intptr_t handle) ;
 static void ovr_AbuseReportOptions_SetPreventPeopleChooser(::cordl_internals::intptr_t handle, bool value) ;
 
 /// @brief Method ovr_AbuseReportOptions_SetReportType addr 0x2552238 size 0x84 virtual false final false
-static void ovr_AbuseReportOptions_SetReportType(::cordl_internals::intptr_t handle, ::Oculus::Platform::AbuseReportType value) ;
+static void ovr_AbuseReportOptions_SetReportType(::cordl_internals::intptr_t handle, Oculus::Platform::AbuseReportType value) ;
 
 /// @brief Method ovr_AdvancedAbuseReportOptions_Create addr 0x25524c8 size 0x68 virtual false final false
 static ::cordl_internals::intptr_t ovr_AdvancedAbuseReportOptions_Create() ;
@@ -3896,7 +3895,7 @@ static void ovr_AdvancedAbuseReportOptions_SetObjectType(::cordl_internals::intp
 static void ovr_AdvancedAbuseReportOptions_SetObjectType_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_AdvancedAbuseReportOptions_SetReportType addr 0x25528a4 size 0x84 virtual false final false
-static void ovr_AdvancedAbuseReportOptions_SetReportType(::cordl_internals::intptr_t handle, ::Oculus::Platform::AbuseReportType value) ;
+static void ovr_AdvancedAbuseReportOptions_SetReportType(::cordl_internals::intptr_t handle, Oculus::Platform::AbuseReportType value) ;
 
 /// @brief Method ovr_AdvancedAbuseReportOptions_AddSuggestedUser addr 0x2552990 size 0x84 virtual false final false
 static void ovr_AdvancedAbuseReportOptions_AddSuggestedUser(::cordl_internals::intptr_t handle, uint64_t value) ;
@@ -3905,7 +3904,7 @@ static void ovr_AdvancedAbuseReportOptions_AddSuggestedUser(::cordl_internals::i
 static void ovr_AdvancedAbuseReportOptions_ClearSuggestedUsers(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ovr_AdvancedAbuseReportOptions_SetVideoMode addr 0x2552b50 size 0x84 virtual false final false
-static void ovr_AdvancedAbuseReportOptions_SetVideoMode(::cordl_internals::intptr_t handle, ::Oculus::Platform::AbuseReportVideoMode value) ;
+static void ovr_AdvancedAbuseReportOptions_SetVideoMode(::cordl_internals::intptr_t handle, Oculus::Platform::AbuseReportVideoMode value) ;
 
 /// @brief Method ovr_ApplicationOptions_Create addr 0x25530cc size 0x68 virtual false final false
 static ::cordl_internals::intptr_t ovr_ApplicationOptions_Create() ;
@@ -3965,7 +3964,7 @@ static void ovr_ChallengeOptions_SetDescription(::cordl_internals::intptr_t hand
 static void ovr_ChallengeOptions_SetDescription_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetEndDate addr 0x2576a20 size 0x6c virtual false final false
-static void ovr_ChallengeOptions_SetEndDate(::cordl_internals::intptr_t handle, ::System::DateTime value) ;
+static void ovr_ChallengeOptions_SetEndDate(::cordl_internals::intptr_t handle, System::DateTime value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetEndDate_Native addr 0x2576a8c size 0x84 virtual false final false
 static void ovr_ChallengeOptions_SetEndDate_Native(::cordl_internals::intptr_t handle, uint64_t value) ;
@@ -3986,7 +3985,7 @@ static void ovr_ChallengeOptions_SetLeaderboardName(::cordl_internals::intptr_t 
 static void ovr_ChallengeOptions_SetLeaderboardName_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetStartDate addr 0x2576dc0 size 0x6c virtual false final false
-static void ovr_ChallengeOptions_SetStartDate(::cordl_internals::intptr_t handle, ::System::DateTime value) ;
+static void ovr_ChallengeOptions_SetStartDate(::cordl_internals::intptr_t handle, System::DateTime value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetStartDate_Native addr 0x2576e2c size 0x84 virtual false final false
 static void ovr_ChallengeOptions_SetStartDate_Native(::cordl_internals::intptr_t handle, uint64_t value) ;
@@ -3998,10 +3997,10 @@ static void ovr_ChallengeOptions_SetTitle(::cordl_internals::intptr_t handle, ::
 static void ovr_ChallengeOptions_SetTitle_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetViewerFilter addr 0x2576fd4 size 0x84 virtual false final false
-static void ovr_ChallengeOptions_SetViewerFilter(::cordl_internals::intptr_t handle, ::Oculus::Platform::ChallengeViewerFilter value) ;
+static void ovr_ChallengeOptions_SetViewerFilter(::cordl_internals::intptr_t handle, Oculus::Platform::ChallengeViewerFilter value) ;
 
 /// @brief Method ovr_ChallengeOptions_SetVisibility addr 0x2577058 size 0x84 virtual false final false
-static void ovr_ChallengeOptions_SetVisibility(::cordl_internals::intptr_t handle, ::Oculus::Platform::ChallengeVisibility value) ;
+static void ovr_ChallengeOptions_SetVisibility(::cordl_internals::intptr_t handle, Oculus::Platform::ChallengeVisibility value) ;
 
 /// @brief Method ovr_GroupPresenceOptions_Create addr 0x25770dc size 0x68 virtual false final false
 static ::cordl_internals::intptr_t ovr_GroupPresenceOptions_Create() ;
@@ -4064,7 +4063,7 @@ static void ovr_MatchmakingOptions_SetCreateRoomDataStoreString_Native(::cordl_i
 static void ovr_MatchmakingOptions_ClearCreateRoomDataStore(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ovr_MatchmakingOptions_SetCreateRoomJoinPolicy addr 0x2577b6c size 0x84 virtual false final false
-static void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(::cordl_internals::intptr_t handle, ::Oculus::Platform::RoomJoinPolicy value) ;
+static void ovr_MatchmakingOptions_SetCreateRoomJoinPolicy(::cordl_internals::intptr_t handle, Oculus::Platform::RoomJoinPolicy value) ;
 
 /// @brief Method ovr_MatchmakingOptions_SetCreateRoomMaxUsers addr 0x2577bf0 size 0x84 virtual false final false
 static void ovr_MatchmakingOptions_SetCreateRoomMaxUsers(::cordl_internals::intptr_t handle, uint32_t value) ;
@@ -4112,7 +4111,7 @@ static ::cordl_internals::intptr_t ovr_MultiplayerErrorOptions_Create() ;
 static void ovr_MultiplayerErrorOptions_Destroy(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ovr_MultiplayerErrorOptions_SetErrorKey addr 0x2578450 size 0x84 virtual false final false
-static void ovr_MultiplayerErrorOptions_SetErrorKey(::cordl_internals::intptr_t handle, ::Oculus::Platform::MultiplayerErrorErrorKey value) ;
+static void ovr_MultiplayerErrorOptions_SetErrorKey(::cordl_internals::intptr_t handle, Oculus::Platform::MultiplayerErrorErrorKey value) ;
 
 /// @brief Method ovr_NetSyncOptions_Create addr 0x25784d4 size 0x68 virtual false final false
 static ::cordl_internals::intptr_t ovr_NetSyncOptions_Create() ;
@@ -4127,7 +4126,7 @@ static void ovr_NetSyncOptions_SetVoipGroup(::cordl_internals::intptr_t handle, 
 static void ovr_NetSyncOptions_SetVoipGroup_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_NetSyncOptions_SetVoipStreamDefault addr 0x25786dc size 0x84 virtual false final false
-static void ovr_NetSyncOptions_SetVoipStreamDefault(::cordl_internals::intptr_t handle, ::Oculus::Platform::NetSyncVoipStreamMode value) ;
+static void ovr_NetSyncOptions_SetVoipStreamDefault(::cordl_internals::intptr_t handle, Oculus::Platform::NetSyncVoipStreamMode value) ;
 
 /// @brief Method ovr_NetSyncOptions_SetZoneId addr 0x2578760 size 0xa0 virtual false final false
 static void ovr_NetSyncOptions_SetZoneId(::cordl_internals::intptr_t handle, ::StringW value) ;
@@ -4166,13 +4165,13 @@ static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride(::cordl_internals
 static void ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native(::cordl_internals::intptr_t handle, ::cordl_internals::intptr_t value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetEndTime addr 0x2578e04 size 0x6c virtual false final false
-static void ovr_RichPresenceOptions_SetEndTime(::cordl_internals::intptr_t handle, ::System::DateTime value) ;
+static void ovr_RichPresenceOptions_SetEndTime(::cordl_internals::intptr_t handle, System::DateTime value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetEndTime_Native addr 0x2578e70 size 0x84 virtual false final false
 static void ovr_RichPresenceOptions_SetEndTime_Native(::cordl_internals::intptr_t handle, uint64_t value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetExtraContext addr 0x2578ef4 size 0x84 virtual false final false
-static void ovr_RichPresenceOptions_SetExtraContext(::cordl_internals::intptr_t handle, ::Oculus::Platform::RichPresenceExtraContext value) ;
+static void ovr_RichPresenceOptions_SetExtraContext(::cordl_internals::intptr_t handle, Oculus::Platform::RichPresenceExtraContext value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetInstanceId addr 0x2578f78 size 0xa0 virtual false final false
 static void ovr_RichPresenceOptions_SetInstanceId(::cordl_internals::intptr_t handle, ::StringW value) ;
@@ -4208,7 +4207,7 @@ static void ovr_RichPresenceOptions_SetMatchSessionId_Native(::cordl_internals::
 static void ovr_RichPresenceOptions_SetMaxCapacity(::cordl_internals::intptr_t handle, uint32_t value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetStartTime addr 0x2579594 size 0x6c virtual false final false
-static void ovr_RichPresenceOptions_SetStartTime(::cordl_internals::intptr_t handle, ::System::DateTime value) ;
+static void ovr_RichPresenceOptions_SetStartTime(::cordl_internals::intptr_t handle, System::DateTime value) ;
 
 /// @brief Method ovr_RichPresenceOptions_SetStartTime_Native addr 0x2579600 size 0x84 virtual false final false
 static void ovr_RichPresenceOptions_SetStartTime_Native(::cordl_internals::intptr_t handle, uint64_t value) ;
@@ -4235,10 +4234,10 @@ static void ovr_RoomOptions_SetExcludeRecentlyMet(::cordl_internals::intptr_t ha
 static void ovr_RoomOptions_SetMaxUserResults(::cordl_internals::intptr_t handle, uint32_t value) ;
 
 /// @brief Method ovr_RoomOptions_SetOrdering addr 0x2579a40 size 0x84 virtual false final false
-static void ovr_RoomOptions_SetOrdering(::cordl_internals::intptr_t handle, ::Oculus::Platform::UserOrdering value) ;
+static void ovr_RoomOptions_SetOrdering(::cordl_internals::intptr_t handle, Oculus::Platform::UserOrdering value) ;
 
 /// @brief Method ovr_RoomOptions_SetRecentlyMetTimeWindow addr 0x2579ac4 size 0x84 virtual false final false
-static void ovr_RoomOptions_SetRecentlyMetTimeWindow(::cordl_internals::intptr_t handle, ::Oculus::Platform::TimeWindow value) ;
+static void ovr_RoomOptions_SetRecentlyMetTimeWindow(::cordl_internals::intptr_t handle, Oculus::Platform::TimeWindow value) ;
 
 /// @brief Method ovr_RoomOptions_SetRoomId addr 0x2579b48 size 0x84 virtual false final false
 static void ovr_RoomOptions_SetRoomId(::cordl_internals::intptr_t handle, uint64_t value) ;
@@ -4268,13 +4267,13 @@ static void ovr_UserOptions_Destroy(::cordl_internals::intptr_t handle) ;
 static void ovr_UserOptions_SetMaxUsers(::cordl_internals::intptr_t handle, uint32_t value) ;
 
 /// @brief Method ovr_UserOptions_AddServiceProvider addr 0x2579f9c size 0x84 virtual false final false
-static void ovr_UserOptions_AddServiceProvider(::cordl_internals::intptr_t handle, ::Oculus::Platform::ServiceProvider value) ;
+static void ovr_UserOptions_AddServiceProvider(::cordl_internals::intptr_t handle, Oculus::Platform::ServiceProvider value) ;
 
 /// @brief Method ovr_UserOptions_ClearServiceProviders addr 0x257a020 size 0x7c virtual false final false
 static void ovr_UserOptions_ClearServiceProviders(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ovr_UserOptions_SetTimeWindow addr 0x257a09c size 0x84 virtual false final false
-static void ovr_UserOptions_SetTimeWindow(::cordl_internals::intptr_t handle, ::Oculus::Platform::TimeWindow value) ;
+static void ovr_UserOptions_SetTimeWindow(::cordl_internals::intptr_t handle, Oculus::Platform::TimeWindow value) ;
 
 /// @brief Method ovr_VoipOptions_Create addr 0x257a120 size 0x68 virtual false final false
 static ::cordl_internals::intptr_t ovr_VoipOptions_Create() ;
@@ -4283,10 +4282,10 @@ static ::cordl_internals::intptr_t ovr_VoipOptions_Create() ;
 static void ovr_VoipOptions_Destroy(::cordl_internals::intptr_t handle) ;
 
 /// @brief Method ovr_VoipOptions_SetBitrateForNewConnections addr 0x257a204 size 0x84 virtual false final false
-static void ovr_VoipOptions_SetBitrateForNewConnections(::cordl_internals::intptr_t handle, ::Oculus::Platform::VoipBitrate value) ;
+static void ovr_VoipOptions_SetBitrateForNewConnections(::cordl_internals::intptr_t handle, Oculus::Platform::VoipBitrate value) ;
 
 /// @brief Method ovr_VoipOptions_SetCreateNewConnectionUseDtx addr 0x257a288 size 0x84 virtual false final false
-static void ovr_VoipOptions_SetCreateNewConnectionUseDtx(::cordl_internals::intptr_t handle, ::Oculus::Platform::VoipDtxState value) ;
+static void ovr_VoipOptions_SetCreateNewConnectionUseDtx(::cordl_internals::intptr_t handle, Oculus::Platform::VoipDtxState value) ;
 
 // Ctor Parameters []
 explicit CAPI() ;
@@ -4298,13 +4297,12 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::CAPI);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::CAPI, "Oculus.Platform", "CAPI");
-NEED_NO_BOX(::Oculus::Platform::____Oculus__Platform__CAPI__FilterCallback);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__FilterCallback, "Oculus.Platform", "CAPI/FilterCallback");
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::____Oculus__Platform__CAPI__ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");
+NEED_NO_BOX(Oculus::Platform::CAPI);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI, "Oculus.Platform", "CAPI");
+NEED_NO_BOX(Oculus::Platform::Oculus__Platform__CAPI__FilterCallback);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__FilterCallback, "Oculus.Platform", "CAPI/FilterCallback");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__OculusInitParams, "Oculus.Platform", "CAPI/OculusInitParams");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__ovrMatchmakingCriterion, "Oculus.Platform", "CAPI/ovrMatchmakingCriterion");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__ovrMatchmakingCustomQueryData, "Oculus.Platform", "CAPI/ovrMatchmakingCustomQueryData");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Oculus__Platform__CAPI__ovrNetSyncVec3, "Oculus.Platform", "CAPI/ovrNetSyncVec3");

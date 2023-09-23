@@ -3,15 +3,14 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
 namespace System::Net::Security {
 struct SslPolicyErrors;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 // Forward declare root types
 namespace System::Net::Security {
@@ -23,7 +22,7 @@ namespace System::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8219))
 // CS Name: System.Net.Security.RemoteCertificateValidationCallback
-class CORDL_TYPE RemoteCertificateValidationCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE RemoteCertificateValidationCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr RemoteCertificateValidationCallback(RemoteCertificateValidationCallbac
 constexpr RemoteCertificateValidationCallback(RemoteCertificateValidationCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RemoteCertificateValidationCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit RemoteCertificateValidationCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -66,12 +65,11 @@ explicit RemoteCertificateValidationCallback(::bs_hook::Il2CppWrapperType object
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x276d2f0 size 0x14 virtual true final false
- bool Invoke(::bs_hook::Il2CppWrapperType sender, ::System::Security::Cryptography::X509Certificates::X509Certificate certificate, ::System::Security::Cryptography::X509Certificates::X509Chain chain, ::System::Net::Security::SslPolicyErrors sslPolicyErrors) ;
+ bool Invoke(::bs_hook::Il2CppWrapperType sender, System::Security::Cryptography::X509Certificates::X509Certificate certificate, System::Security::Cryptography::X509Certificates::X509Chain chain, System::Net::Security::SslPolicyErrors sslPolicyErrors) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::RemoteCertificateValidationCallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::RemoteCertificateValidationCallback, "System.Net.Security", "RemoteCertificateValidationCallback");
+NEED_NO_BOX(System::Net::Security::RemoteCertificateValidationCallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::RemoteCertificateValidationCallback, "System.Net.Security", "RemoteCertificateValidationCallback");

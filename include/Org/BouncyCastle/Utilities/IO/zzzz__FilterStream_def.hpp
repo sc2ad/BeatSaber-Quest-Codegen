@@ -3,12 +3,11 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::IO {
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Utilities::IO {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(452))
 // CS Name: Org.BouncyCastle.Utilities.IO.FilterStream
-class CORDL_TYPE FilterStream : public ::System::IO::Stream {
+class CORDL_TYPE FilterStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr FilterStream(FilterStream const& ) noexcept = default;
 constexpr FilterStream(FilterStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FilterStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit FilterStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit FilterStream(void* ptr) noexcept : ::System::IO::Stream(ptr) 
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get_s, put=__set_s))  s;
+ System::IO::Stream __declspec(property(get=__get_s, put=__set_s))  s;
 
-constexpr void __set_s(::System::IO::Stream value) ;
+constexpr void __set_s(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_s() const;
+constexpr System::IO::Stream __get_s() const;
 
 
 // Properties
@@ -78,11 +77,11 @@ constexpr ::System::IO::Stream __get_s() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "s", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit FilterStream(::System::IO::Stream s) ;
+// Ctor Parameters [CppParam { name: "s", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit FilterStream(System::IO::Stream s) ;
 
 /// @brief Method .ctor addr 0x1128bf8 size 0x6c virtual false final false
- void _ctor(::System::IO::Stream s) ;
+ void _ctor(System::IO::Stream s) ;
 
 /// @brief Method get_CanRead addr 0x1128c64 size 0x20 virtual true final false
  bool get_CanRead() ;
@@ -109,7 +108,7 @@ explicit FilterStream(::System::IO::Stream s) ;
  void Flush() ;
 
 /// @brief Method Seek addr 0x1128db4 size 0x24 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x1128dd8 size 0x24 virtual true final false
  void SetLength(int64_t value) ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::IO
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::FilterStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::FilterStream, "Org.BouncyCastle.Utilities.IO", "FilterStream");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::IO::FilterStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::FilterStream, "Org.BouncyCastle.Utilities.IO", "FilterStream");

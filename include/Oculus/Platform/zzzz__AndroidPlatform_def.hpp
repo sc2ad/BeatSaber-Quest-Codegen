@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
@@ -60,7 +59,7 @@ constexpr explicit AndroidPlatform(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
  bool Initialize(::StringW appId) ;
 
 /// @brief Method AsyncInitialize addr 0x2552ec4 size 0x108 virtual false final false
- ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
+ Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize> AsyncInitialize(::StringW appId) ;
 
 // Ctor Parameters []
 explicit AndroidPlatform() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::AndroidPlatform);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::AndroidPlatform, "Oculus.Platform", "AndroidPlatform");
+NEED_NO_BOX(Oculus::Platform::AndroidPlatform);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AndroidPlatform, "Oculus.Platform", "AndroidPlatform");

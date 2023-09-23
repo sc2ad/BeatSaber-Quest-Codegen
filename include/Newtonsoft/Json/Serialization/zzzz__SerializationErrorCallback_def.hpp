@@ -3,10 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace Newtonsoft::Json::Serialization {
 class ErrorContext;
 }
@@ -15,6 +11,9 @@ class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -26,7 +25,7 @@ namespace Newtonsoft::Json::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11880))
 // CS Name: Newtonsoft.Json.Serialization.SerializationErrorCallback
-class CORDL_TYPE SerializationErrorCallback : public ::System::MulticastDelegate {
+class CORDL_TYPE SerializationErrorCallback : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr SerializationErrorCallback(SerializationErrorCallback const& ) noexcep
 constexpr SerializationErrorCallback(SerializationErrorCallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SerializationErrorCallback(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit SerializationErrorCallback(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -69,18 +68,17 @@ explicit SerializationErrorCallback(::bs_hook::Il2CppWrapperType object, ::cordl
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x2500390 size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
+ void Invoke(::bs_hook::Il2CppWrapperType o, System::Runtime::Serialization::StreamingContext context, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
 
 /// @brief Method BeginInvoke addr 0x25003a4 size 0x98 virtual true final false
- ::System::IAsyncResult BeginInvoke(::bs_hook::Il2CppWrapperType o, ::System::Runtime::Serialization::StreamingContext context, ::Newtonsoft::Json::Serialization::ErrorContext errorContext, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::bs_hook::Il2CppWrapperType o, System::Runtime::Serialization::StreamingContext context, Newtonsoft::Json::Serialization::ErrorContext errorContext, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x250043c size 0xc virtual true final false
- void EndInvoke(::System::IAsyncResult result) ;
+ void EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::SerializationErrorCallback);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::SerializationErrorCallback, "Newtonsoft.Json.Serialization", "SerializationErrorCallback");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::SerializationErrorCallback);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::SerializationErrorCallback, "Newtonsoft.Json.Serialization", "SerializationErrorCallback");

@@ -4,16 +4,15 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template<typename TObject>
+struct AsyncOperationHandle_1;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class IInitializableObject;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template<typename TObject>
-struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
@@ -27,61 +26,61 @@ namespace UnityEngine::AddressableAssets::Initialization {
 class CacheInitialization;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp;
+class UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp;
 }
 namespace UnityEngine::AddressableAssets::Initialization {
-class ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0;
+class UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0;
 }
 // Type: ::CacheInitOp
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14313), inst: 99 }), TypeDefinitionIndex(TypeDefinitionIndex(14313))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14398))
 // CS Name: UnityEngine.AddressableAssets.Initialization.CacheInitialization::CacheInitOp
-class CORDL_TYPE ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
+class CORDL_TYPE UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::IUpdateReceiver
-constexpr operator  ::UnityEngine::ResourceManagement::IUpdateReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::IUpdateReceiver
+constexpr operator  UnityEngine::ResourceManagement::IUpdateReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
 
-virtual ~____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp() = default;
+virtual ~UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(void* ptr) noexcept : ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(ptr) {
+constexpr explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp(void* ptr) noexcept : UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(void* o) noexcept {
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp&& o) noexcept = default;
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp const& o) noexcept = default;
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp&& o) noexcept = default;
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp& operator=(UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Func_1<bool> __declspec(property(get=__get_m_Callback, put=__set_m_Callback))  m_Callback;
+ System::Func_1<bool> __declspec(property(get=__get_m_Callback, put=__set_m_Callback))  m_Callback;
 
-constexpr void __set_m_Callback(::System::Func_1<bool> value) ;
+constexpr void __set_m_Callback(System::Func_1<bool> value) ;
 
-constexpr ::System::Func_1<bool> __get_m_Callback() const;
+constexpr System::Func_1<bool> __get_m_Callback() const;
 
  bool __declspec(property(get=__get_m_UpdateRequired, put=__set_m_UpdateRequired))  m_UpdateRequired;
 
@@ -93,7 +92,7 @@ constexpr bool __get_m_UpdateRequired() const;
 // Methods
 
 /// @brief Method Init addr 0x289ed84 size 0x8 virtual false final false
- void Init(::System::Func_1<bool> callback) ;
+ void Init(System::Func_1<bool> callback) ;
 
 /// @brief Method InvokeWaitForCompletion addr 0x289ed8c size 0x94 virtual true final false
  bool InvokeWaitForCompletion() ;
@@ -105,7 +104,7 @@ constexpr bool __get_m_UpdateRequired() const;
  void Execute() ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp() ;
+explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp() ;
 
 /// @brief Method .ctor addr 0x289ecb4 size 0x50 virtual false final false
  void _ctor() ;
@@ -120,47 +119,47 @@ namespace UnityEngine::AddressableAssets::Initialization {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14399))
 // CS Name: UnityEngine.AddressableAssets.Initialization.CacheInitialization::<>c__DisplayClass1_0
-class CORDL_TYPE ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0() = default;
+virtual ~UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(void* o) noexcept {
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0&& o) noexcept = default;
-  constexpr ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 const& o) noexcept = default;
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0&& o) noexcept = default;
+  constexpr UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0& operator=(UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0 const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::AddressableAssets::Initialization::CacheInitialization __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ UnityEngine::AddressableAssets::Initialization::CacheInitialization __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::UnityEngine::AddressableAssets::Initialization::CacheInitialization value) ;
+constexpr void __set___4__this(UnityEngine::AddressableAssets::Initialization::CacheInitialization value) ;
 
-constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization __get___4__this() const;
+constexpr UnityEngine::AddressableAssets::Initialization::CacheInitialization __get___4__this() const;
 
  ::StringW __declspec(property(get=__get_id, put=__set_id))  id;
 
@@ -178,7 +177,7 @@ constexpr ::StringW __get_data() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0() ;
+explicit UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0() ;
 
 /// @brief Method .ctor addr 0x289ecac size 0x8 virtual false final false
  void _ctor() ;
@@ -199,12 +198,12 @@ namespace UnityEngine::AddressableAssets::Initialization {
 class CORDL_TYPE CacheInitialization : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c__DisplayClass1_0 = ::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0;
+using __c__DisplayClass1_0 = UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0;
 
-using CacheInitOp = ::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp;
+using CacheInitOp = UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp;
 
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::Util::IInitializableObject
-constexpr operator  ::UnityEngine::ResourceManagement::Util::IInitializableObject() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::Util::IInitializableObject
+constexpr operator  UnityEngine::ResourceManagement::Util::IInitializableObject() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -248,7 +247,7 @@ static ::StringW __declspec(property(get=get_RootPath))  RootPath;
  bool Initialize(::StringW id, ::StringW dataStr) ;
 
 /// @brief Method InitializeAsync addr 0x289eb58 size 0x154 virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(::UnityEngine::ResourceManagement::ResourceManager rm, ::StringW id, ::StringW data) ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> InitializeAsync(UnityEngine::ResourceManagement::ResourceManager rm, ::StringW id, ::StringW data) ;
 
 /// @brief Method get_RootPath addr 0x289ed04 size 0x78 virtual false final false
 static ::StringW get_RootPath() ;
@@ -263,10 +262,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::Initialization
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::CacheInitialization);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::CacheInitialization, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization");
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/CacheInitOp");
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::____UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::CacheInitialization);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization__CacheInitOp, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/CacheInitOp");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::UnityEngine__AddressableAssets__Initialization__CacheInitialization____c__DisplayClass1_0, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization/<>c__DisplayClass1_0");

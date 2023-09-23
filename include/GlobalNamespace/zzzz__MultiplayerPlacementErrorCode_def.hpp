@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct MultiplayerPlacementErrorCode;
@@ -73,32 +72,31 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Success offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const Success;
+static GlobalNamespace::MultiplayerPlacementErrorCode const Success;
 
 /// @brief Field Unknown offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
+static GlobalNamespace::MultiplayerPlacementErrorCode const Unknown;
 
 /// @brief Field ConnectionCanceled offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
+static GlobalNamespace::MultiplayerPlacementErrorCode const ConnectionCanceled;
 
 /// @brief Field ServerDoesNotExist offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
+static GlobalNamespace::MultiplayerPlacementErrorCode const ServerDoesNotExist;
 
 /// @brief Field ServerAtCapacity offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const ServerAtCapacity;
+static GlobalNamespace::MultiplayerPlacementErrorCode const ServerAtCapacity;
 
 /// @brief Field AuthenticationFailed offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const AuthenticationFailed;
+static GlobalNamespace::MultiplayerPlacementErrorCode const AuthenticationFailed;
 
 /// @brief Field RequestTimeout offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
+static GlobalNamespace::MultiplayerPlacementErrorCode const RequestTimeout;
 
 /// @brief Field MatchmakingTimeout offset 0
-static ::GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
+static GlobalNamespace::MultiplayerPlacementErrorCode const MatchmakingTimeout;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlacementErrorCode, "", "MultiplayerPlacementErrorCode");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlacementErrorCode, "", "MultiplayerPlacementErrorCode");

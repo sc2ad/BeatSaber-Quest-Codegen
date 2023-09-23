@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_CurveType;
 }
@@ -19,8 +18,8 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_CurveInfo : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "curveType", ty: "::HoudiniEngineUnity::HAPI_CurveType", modifiers: "", def_value: None }, CppParam { name: "curveCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "knotCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isPeriodic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRational", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasKnots", ty: "bool", modifiers: "", def_value: None }]
-constexpr HAPI_CurveInfo(::HoudiniEngineUnity::HAPI_CurveType curveType, int32_t curveCount, int32_t vertexCount, int32_t knotCount, bool isPeriodic, bool isRational, int32_t order, bool hasKnots) noexcept;
+// Ctor Parameters [CppParam { name: "curveType", ty: "HoudiniEngineUnity::HAPI_CurveType", modifiers: "", def_value: None }, CppParam { name: "curveCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "knotCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isPeriodic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isRational", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "hasKnots", ty: "bool", modifiers: "", def_value: None }]
+constexpr HAPI_CurveInfo(HoudiniEngineUnity::HAPI_CurveType curveType, int32_t curveCount, int32_t vertexCount, int32_t knotCount, bool isPeriodic, bool isRational, int32_t order, bool hasKnots) noexcept;
 
 
                     constexpr HAPI_CurveInfo(HAPI_CurveInfo const&) = default;
@@ -53,11 +52,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::HoudiniEngineUnity::HAPI_CurveType __declspec(property(get=__get_curveType, put=__set_curveType))  curveType;
+ HoudiniEngineUnity::HAPI_CurveType __declspec(property(get=__get_curveType, put=__set_curveType))  curveType;
 
-constexpr void __set_curveType(::HoudiniEngineUnity::HAPI_CurveType value) ;
+constexpr void __set_curveType(HoudiniEngineUnity::HAPI_CurveType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_CurveType __get_curveType() const;
+constexpr HoudiniEngineUnity::HAPI_CurveType __get_curveType() const;
 
  int32_t __declspec(property(get=__get_curveCount, put=__set_curveCount))  curveCount;
 
@@ -105,5 +104,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_CurveInfo, "HoudiniEngineUnity", "HAPI_CurveInfo");

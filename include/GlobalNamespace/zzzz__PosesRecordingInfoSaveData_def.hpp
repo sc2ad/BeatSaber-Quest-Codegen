@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-class PosesRecordingInfoSaveData;
+class GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
+class PosesRecordingInfoSaveData;
 }
 // Type: ::ExternalCameraCalibrationSaveData
 namespace GlobalNamespace {
@@ -18,37 +17,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6028))
 // CS Name: PosesRecordingInfoSaveData::ExternalCameraCalibrationSaveData
-class CORDL_TYPE ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData() = default;
+virtual ~GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData&& o) noexcept = default;
-  constexpr ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData const& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData&& o) noexcept = default;
+  constexpr GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData& operator=(GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData const& o) noexcept = default;
                 
 
 
@@ -116,7 +115,7 @@ constexpr float_t __get__nearOffset() const;
  float_t get_nearOffset() ;
 
 // Ctor Parameters [CppParam { name: "fieldOfVision", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "farClip", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "hmdOffset", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "nearOffset", ty: "float_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
+explicit GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
 
 /// @brief Method .ctor addr 0x21a6fa8 size 0x50 virtual false final false
  void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset) ;
@@ -134,7 +133,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE PosesRecordingInfoSaveData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ExternalCameraCalibrationSaveData = ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
+using ExternalCameraCalibrationSaveData = GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -181,11 +180,11 @@ constexpr void __set__objectIds(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get__objectIds() const;
 
- ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=__get__externalCameraCalibration, put=__set__externalCameraCalibration))  _externalCameraCalibration;
+ GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=__get__externalCameraCalibration, put=__set__externalCameraCalibration))  _externalCameraCalibration;
 
-constexpr void __set__externalCameraCalibration(::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData value) ;
+constexpr void __set__externalCameraCalibration(GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __get__externalCameraCalibration() const;
+constexpr GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __get__externalCameraCalibration() const;
 
  ::StringW __declspec(property(get=__get__dataFileName, put=__set__dataFileName))  _dataFileName;
 
@@ -203,7 +202,7 @@ static constexpr ::ConstString  kCurrentVersion{u"1.0.0"};
 
  ::ArrayW<::StringW> __declspec(property(get=get_objectIds))  objectIds;
 
- ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=get_externalCameraCalibration))  externalCameraCalibration;
+ GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData __declspec(property(get=get_externalCameraCalibration))  externalCameraCalibration;
 
  ::StringW __declspec(property(get=get_dataFileName))  dataFileName;
 
@@ -217,23 +216,22 @@ static constexpr ::ConstString  kCurrentVersion{u"1.0.0"};
  ::ArrayW<::StringW> get_objectIds() ;
 
 /// @brief Method get_externalCameraCalibration addr 0x21a6efc size 0x8 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData get_externalCameraCalibration() ;
+ GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData get_externalCameraCalibration() ;
 
 /// @brief Method get_dataFileName addr 0x21a6f04 size 0x8 virtual false final false
  ::StringW get_dataFileName() ;
 
-// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "", def_value: None }, CppParam { name: "dataFileName", ty: "::StringW", modifiers: "", def_value: None }]
-explicit PosesRecordingInfoSaveData(::ArrayW<::StringW> objectIds, ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration, ::StringW dataFileName) ;
+// Ctor Parameters [CppParam { name: "objectIds", ty: "::ArrayW<::StringW>", modifiers: "", def_value: None }, CppParam { name: "externalCameraCalibration", ty: "GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData", modifiers: "", def_value: None }, CppParam { name: "dataFileName", ty: "::StringW", modifiers: "", def_value: None }]
+explicit PosesRecordingInfoSaveData(::ArrayW<::StringW> objectIds, GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration, ::StringW dataFileName) ;
 
 /// @brief Method .ctor addr 0x21a6f0c size 0x74 virtual false final false
- void _ctor(::ArrayW<::StringW> objectIds, ::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration, ::StringW dataFileName) ;
+ void _ctor(::ArrayW<::StringW> objectIds, GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData externalCameraCalibration, ::StringW dataFileName) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PosesRecordingInfoSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PosesRecordingInfoSaveData, "", "PosesRecordingInfoSaveData");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, "", "PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PosesRecordingInfoSaveData__ExternalCameraCalibrationSaveData, "", "PosesRecordingInfoSaveData/ExternalCameraCalibrationSaveData");
+NEED_NO_BOX(GlobalNamespace::PosesRecordingInfoSaveData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosesRecordingInfoSaveData, "", "PosesRecordingInfoSaveData");

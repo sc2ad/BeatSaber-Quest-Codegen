@@ -3,10 +3,9 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
-struct ____UnityEngine__GraphicsBuffer__Target;
+struct UnityEngine__GraphicsBuffer__Target;
 }
 namespace UnityEngine {
 class GraphicsBuffer;
@@ -17,20 +16,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10068))
 // CS Name: UnityEngine.GraphicsBuffer::Target
-struct CORDL_TYPE ____UnityEngine__GraphicsBuffer__Target : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__GraphicsBuffer__Target : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__GraphicsBuffer__Target(int32_t value__) noexcept;
+constexpr UnityEngine__GraphicsBuffer__Target(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__GraphicsBuffer__Target(____UnityEngine__GraphicsBuffer__Target const&) = default;
-                    constexpr ____UnityEngine__GraphicsBuffer__Target(____UnityEngine__GraphicsBuffer__Target&&) = default;
-                    constexpr ____UnityEngine__GraphicsBuffer__Target& operator=(____UnityEngine__GraphicsBuffer__Target const& o) {
+                    constexpr UnityEngine__GraphicsBuffer__Target(UnityEngine__GraphicsBuffer__Target const&) = default;
+                    constexpr UnityEngine__GraphicsBuffer__Target(UnityEngine__GraphicsBuffer__Target&&) = default;
+                    constexpr UnityEngine__GraphicsBuffer__Target& operator=(UnityEngine__GraphicsBuffer__Target const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__GraphicsBuffer__Target& operator=(____UnityEngine__GraphicsBuffer__Target&& o) noexcept {
+                    constexpr UnityEngine__GraphicsBuffer__Target& operator=(UnityEngine__GraphicsBuffer__Target&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -43,7 +42,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__GraphicsBuffer__Target(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__GraphicsBuffer__Target(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -51,7 +50,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__GraphicsBuffer__Target_Unwrapped : int32_t {
+enum class __UnityEngine__GraphicsBuffer__Target_Unwrapped : int32_t {
 __Vertex = 1,
 __Index = 2,
 __CopySource = 4,
@@ -65,8 +64,8 @@ __Constant = 512,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__GraphicsBuffer__Target_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__GraphicsBuffer__Target_Unwrapped>(__instance);
+constexpr operator __UnityEngine__GraphicsBuffer__Target_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__GraphicsBuffer__Target_Unwrapped>(__instance);
 }
 
 
@@ -79,34 +78,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Vertex offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Vertex;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Vertex;
 
 /// @brief Field Index offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Index;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Index;
 
 /// @brief Field CopySource offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const CopySource;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const CopySource;
 
 /// @brief Field CopyDestination offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const CopyDestination;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const CopyDestination;
 
 /// @brief Field Structured offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Structured;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Structured;
 
 /// @brief Field Raw offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Raw;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Raw;
 
 /// @brief Field Append offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Append;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Append;
 
 /// @brief Field Counter offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Counter;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Counter;
 
 /// @brief Field IndirectArguments offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const IndirectArguments;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const IndirectArguments;
 
 /// @brief Field Constant offset 0
-static ::UnityEngine::____UnityEngine__GraphicsBuffer__Target const Constant;
+static UnityEngine::UnityEngine__GraphicsBuffer__Target const Constant;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -121,7 +120,7 @@ namespace UnityEngine {
 class CORDL_TYPE GraphicsBuffer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Target = ::UnityEngine::____UnityEngine__GraphicsBuffer__Target;
+using Target = UnityEngine::UnityEngine__GraphicsBuffer__Target;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -166,7 +165,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__GraphicsBuffer__Target, "UnityEngine", "GraphicsBuffer/Target");
-NEED_NO_BOX(::UnityEngine::GraphicsBuffer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::GraphicsBuffer, "UnityEngine", "GraphicsBuffer");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__GraphicsBuffer__Target, "UnityEngine", "GraphicsBuffer/Target");
+NEED_NO_BOX(UnityEngine::GraphicsBuffer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GraphicsBuffer, "UnityEngine", "GraphicsBuffer");

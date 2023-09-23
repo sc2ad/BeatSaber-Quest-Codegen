@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct OVRTextureData;
 }
@@ -64,7 +63,7 @@ static constexpr uint32_t  KTX_TTF_ASTC_4x4_RGBA{10u};
 // Methods
 
 /// @brief Method Load addr 0x25c3d18 size 0x250 virtual false final false
-static bool Load(::ArrayW<uint8_t> data, ByRef<::GlobalNamespace::OVRTextureData> ktxData) ;
+static bool Load(::ArrayW<uint8_t> data, ByRef<GlobalNamespace::OVRTextureData> ktxData) ;
 
 // Ctor Parameters []
 explicit OVRKtxTexture() ;
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRKtxTexture);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRKtxTexture, "", "OVRKtxTexture");
+NEED_NO_BOX(GlobalNamespace::OVRKtxTexture);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRKtxTexture, "", "OVRKtxTexture");

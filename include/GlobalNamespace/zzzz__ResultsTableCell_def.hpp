@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-class IConnectedPlayer;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13556))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5898))
 // CS Name: ResultsTableCell
-class CORDL_TYPE ResultsTableCell : public ::GlobalNamespace::TableCellWithSeparator {
+class CORDL_TYPE ResultsTableCell : public GlobalNamespace::TableCellWithSeparator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr ResultsTableCell(ResultsTableCell const& ) noexcept = default;
 constexpr ResultsTableCell(ResultsTableCell&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResultsTableCell(void* ptr) noexcept : ::GlobalNamespace::TableCellWithSeparator(ptr) {
+constexpr explicit ResultsTableCell(void* ptr) noexcept : GlobalNamespace::TableCellWithSeparator(ptr) {
 }
 
 
@@ -61,41 +60,41 @@ constexpr explicit ResultsTableCell(void* ptr) noexcept : ::GlobalNamespace::Tab
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__border, put=__set__border))  _border;
+ UnityEngine::GameObject __declspec(property(get=__get__border, put=__set__border))  _border;
 
-constexpr void __set__border(::UnityEngine::GameObject value) ;
+constexpr void __set__border(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__border() const;
+constexpr UnityEngine::GameObject __get__border() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__orderText, put=__set__orderText))  _orderText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__orderText, put=__set__orderText))  _orderText;
 
-constexpr void __set__orderText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__orderText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__orderText() const;
+constexpr TMPro::TextMeshProUGUI __get__orderText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__nameText, put=__set__nameText))  _nameText;
 
-constexpr void __set__nameText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__nameText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__nameText() const;
+constexpr TMPro::TextMeshProUGUI __get__nameText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__scoreText, put=__set__scoreText))  _scoreText;
 
-constexpr void __set__scoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__scoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__scoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__scoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__rankText, put=__set__rankText))  _rankText;
 
-constexpr void __set__rankText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__rankText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__rankText() const;
+constexpr TMPro::TextMeshProUGUI __get__rankText() const;
 
 
 // Methods
 
 /// @brief Method SetData addr 0x218edf0 size 0x38c virtual false final false
- void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer connectedPlayer, ::GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
+ void SetData(int32_t order, GlobalNamespace::IConnectedPlayer connectedPlayer, GlobalNamespace::LevelCompletionResults levelCompletionResults) ;
 
 // Ctor Parameters []
 explicit ResultsTableCell() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResultsTableCell);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultsTableCell, "", "ResultsTableCell");
+NEED_NO_BOX(GlobalNamespace::ResultsTableCell);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell, "", "ResultsTableCell");

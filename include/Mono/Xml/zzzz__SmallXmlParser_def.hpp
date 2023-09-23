@@ -4,7 +4,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace System::Collections {
+class Stack;
+}
 namespace System {
 class Exception;
 }
@@ -14,25 +20,18 @@ class TextReader;
 namespace System::Text {
 class StringBuilder;
 }
-namespace System::Collections {
-class Stack;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
-}
 // Forward declare root types
 namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__AttrListImpl;
+}
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IAttrList;
+}
+namespace Mono::Xml {
+class Mono__Xml__SmallXmlParser__IContentHandler;
+}
+namespace Mono::Xml {
 class SmallXmlParser;
-}
-namespace Mono::Xml {
-class ____Mono__Xml__SmallXmlParser__AttrListImpl;
-}
-namespace Mono::Xml {
-class ____Mono__Xml__SmallXmlParser__IAttrList;
-}
-namespace Mono::Xml {
-class ____Mono__Xml__SmallXmlParser__IContentHandler;
 }
 // Type: ::IContentHandler
 namespace Mono::Xml {
@@ -40,26 +39,26 @@ namespace Mono::Xml {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2251))
 // CS Name: Mono.Xml.SmallXmlParser::IContentHandler
-class CORDL_TYPE ____Mono__Xml__SmallXmlParser__IContentHandler : public ::cordl_internals::InterfaceW {
+class CORDL_TYPE Mono__Xml__SmallXmlParser__IContentHandler : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-~____Mono__Xml__SmallXmlParser__IContentHandler() = default;
+~Mono__Xml__SmallXmlParser__IContentHandler() = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Xml__SmallXmlParser__IContentHandler(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
+constexpr explicit Mono__Xml__SmallXmlParser__IContentHandler(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
 }
 
 
 // Methods
 
 /// @brief Method OnStartParsing addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnStartParsing(::Mono::Xml::SmallXmlParser parser) ;
+ void OnStartParsing(Mono::Xml::SmallXmlParser parser) ;
 
 /// @brief Method OnEndParsing addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnEndParsing(::Mono::Xml::SmallXmlParser parser) ;
+ void OnEndParsing(Mono::Xml::SmallXmlParser parser) ;
 
 /// @brief Method OnStartElement addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnStartElement(::StringW name, ::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList attrs) ;
+ void OnStartElement(::StringW name, Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList attrs) ;
 
 /// @brief Method OnEndElement addr 0x0 size 0xffffffffffffffff virtual true final false
  void OnEndElement(::StringW name) ;
@@ -83,13 +82,13 @@ namespace Mono::Xml {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2252))
 // CS Name: Mono.Xml.SmallXmlParser::IAttrList
-class CORDL_TYPE ____Mono__Xml__SmallXmlParser__IAttrList : public ::cordl_internals::InterfaceW {
+class CORDL_TYPE Mono__Xml__SmallXmlParser__IAttrList : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-~____Mono__Xml__SmallXmlParser__IAttrList() = default;
+~Mono__Xml__SmallXmlParser__IAttrList() = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Xml__SmallXmlParser__IAttrList(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
+constexpr explicit Mono__Xml__SmallXmlParser__IAttrList(void* ptr) noexcept : ::cordl_internals::InterfaceW(ptr) {
 }
 
 
@@ -132,56 +131,56 @@ namespace Mono::Xml {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2253))
 // CS Name: Mono.Xml.SmallXmlParser::AttrListImpl
-class CORDL_TYPE ____Mono__Xml__SmallXmlParser__AttrListImpl : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Mono__Xml__SmallXmlParser__AttrListImpl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList
-constexpr operator  ::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList() const noexcept;
+/// @brief Convert operator to Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList
+constexpr operator  Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Mono__Xml__SmallXmlParser__AttrListImpl() = default;
+virtual ~Mono__Xml__SmallXmlParser__AttrListImpl() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Xml__SmallXmlParser__AttrListImpl", modifiers: " const&", def_value: None }]
-constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl(____Mono__Xml__SmallXmlParser__AttrListImpl const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Xml__SmallXmlParser__AttrListImpl", modifiers: " const&", def_value: None }]
+constexpr Mono__Xml__SmallXmlParser__AttrListImpl(Mono__Xml__SmallXmlParser__AttrListImpl const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Mono__Xml__SmallXmlParser__AttrListImpl", modifiers: "&&", def_value: None }]
-constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl(____Mono__Xml__SmallXmlParser__AttrListImpl&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Mono__Xml__SmallXmlParser__AttrListImpl", modifiers: "&&", def_value: None }]
+constexpr Mono__Xml__SmallXmlParser__AttrListImpl(Mono__Xml__SmallXmlParser__AttrListImpl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Mono__Xml__SmallXmlParser__AttrListImpl(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Mono__Xml__SmallXmlParser__AttrListImpl(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl& operator=(std::nullptr_t) noexcept {
+  constexpr Mono__Xml__SmallXmlParser__AttrListImpl& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl& operator=(void* o) noexcept {
+  constexpr Mono__Xml__SmallXmlParser__AttrListImpl& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl& operator=(____Mono__Xml__SmallXmlParser__AttrListImpl&& o) noexcept = default;
-  constexpr ____Mono__Xml__SmallXmlParser__AttrListImpl& operator=(____Mono__Xml__SmallXmlParser__AttrListImpl const& o) noexcept = default;
+  constexpr Mono__Xml__SmallXmlParser__AttrListImpl& operator=(Mono__Xml__SmallXmlParser__AttrListImpl&& o) noexcept = default;
+  constexpr Mono__Xml__SmallXmlParser__AttrListImpl& operator=(Mono__Xml__SmallXmlParser__AttrListImpl const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_attrNames, put=__set_attrNames))  attrNames;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_attrNames, put=__set_attrNames))  attrNames;
 
-constexpr void __set_attrNames(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_attrNames(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_attrNames() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_attrNames() const;
 
- ::System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_attrValues, put=__set_attrValues))  attrValues;
+ System::Collections::Generic::List_1<::StringW> __declspec(property(get=__get_attrValues, put=__set_attrValues))  attrValues;
 
-constexpr void __set_attrValues(::System::Collections::Generic::List_1<::StringW> value) ;
+constexpr void __set_attrValues(System::Collections::Generic::List_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::StringW> __get_attrValues() const;
+constexpr System::Collections::Generic::List_1<::StringW> __get_attrValues() const;
 
 
 // Properties
@@ -220,7 +219,7 @@ constexpr ::System::Collections::Generic::List_1<::StringW> __get_attrValues() c
  void Add(::StringW name, ::StringW value) ;
 
 // Ctor Parameters []
-explicit ____Mono__Xml__SmallXmlParser__AttrListImpl() ;
+explicit Mono__Xml__SmallXmlParser__AttrListImpl() ;
 
 /// @brief Method .ctor addr 0x22a60f0 size 0xa0 virtual false final false
  void _ctor() ;
@@ -238,11 +237,11 @@ namespace Mono::Xml {
 class CORDL_TYPE SmallXmlParser : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using AttrListImpl = ::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl;
+using AttrListImpl = Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl;
 
-using IAttrList = ::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList;
+using IAttrList = Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList;
 
-using IContentHandler = ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler;
+using IContentHandler = Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -277,29 +276,29 @@ constexpr explicit SmallXmlParser(void* ptr) noexcept : ::bs_hook::Il2CppWrapper
 
 // Fields
 
- ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler __declspec(property(get=__get_handler, put=__set_handler))  handler;
+ Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler __declspec(property(get=__get_handler, put=__set_handler))  handler;
 
-constexpr void __set_handler(::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler value) ;
+constexpr void __set_handler(Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler value) ;
 
-constexpr ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler __get_handler() const;
+constexpr Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler __get_handler() const;
 
- ::System::IO::TextReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
+ System::IO::TextReader __declspec(property(get=__get_reader, put=__set_reader))  reader;
 
-constexpr void __set_reader(::System::IO::TextReader value) ;
+constexpr void __set_reader(System::IO::TextReader value) ;
 
-constexpr ::System::IO::TextReader __get_reader() const;
+constexpr System::IO::TextReader __get_reader() const;
 
- ::System::Collections::Stack __declspec(property(get=__get_elementNames, put=__set_elementNames))  elementNames;
+ System::Collections::Stack __declspec(property(get=__get_elementNames, put=__set_elementNames))  elementNames;
 
-constexpr void __set_elementNames(::System::Collections::Stack value) ;
+constexpr void __set_elementNames(System::Collections::Stack value) ;
 
-constexpr ::System::Collections::Stack __get_elementNames() const;
+constexpr System::Collections::Stack __get_elementNames() const;
 
- ::System::Collections::Stack __declspec(property(get=__get_xmlSpaces, put=__set_xmlSpaces))  xmlSpaces;
+ System::Collections::Stack __declspec(property(get=__get_xmlSpaces, put=__set_xmlSpaces))  xmlSpaces;
 
-constexpr void __set_xmlSpaces(::System::Collections::Stack value) ;
+constexpr void __set_xmlSpaces(System::Collections::Stack value) ;
 
-constexpr ::System::Collections::Stack __get_xmlSpaces() const;
+constexpr System::Collections::Stack __get_xmlSpaces() const;
 
  ::StringW __declspec(property(get=__get_xmlSpace, put=__set_xmlSpace))  xmlSpace;
 
@@ -307,11 +306,11 @@ constexpr void __set_xmlSpace(::StringW value) ;
 
 constexpr ::StringW __get_xmlSpace() const;
 
- ::System::Text::StringBuilder __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
+ System::Text::StringBuilder __declspec(property(get=__get_buffer, put=__set_buffer))  buffer;
 
-constexpr void __set_buffer(::System::Text::StringBuilder value) ;
+constexpr void __set_buffer(System::Text::StringBuilder value) ;
 
-constexpr ::System::Text::StringBuilder __get_buffer() const;
+constexpr System::Text::StringBuilder __get_buffer() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get_nameBuffer, put=__set_nameBuffer))  nameBuffer;
 
@@ -325,11 +324,11 @@ constexpr void __set_isWhitespace(bool value) ;
 
 constexpr bool __get_isWhitespace() const;
 
- ::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
+ Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl __declspec(property(get=__get_attributes, put=__set_attributes))  attributes;
 
-constexpr void __set_attributes(::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl value) ;
+constexpr void __set_attributes(Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl value) ;
 
-constexpr ::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl __get_attributes() const;
+constexpr Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl __get_attributes() const;
 
  int32_t __declspec(property(get=__get_line, put=__set_line))  line;
 
@@ -359,10 +358,10 @@ explicit SmallXmlParser() ;
  void _ctor() ;
 
 /// @brief Method Error addr 0x22a6190 size 0x78 virtual false final false
- ::System::Exception Error(::StringW msg) ;
+ System::Exception Error(::StringW msg) ;
 
 /// @brief Method UnexpectedEndError addr 0x22a62d4 size 0xec virtual false final false
- ::System::Exception UnexpectedEndError() ;
+ System::Exception UnexpectedEndError() ;
 
 /// @brief Method IsNameChar addr 0x22a63c0 size 0xfc virtual false final false
  bool IsNameChar(char16_t c, bool start) ;
@@ -395,7 +394,7 @@ explicit SmallXmlParser() ;
  ::StringW ReadName() ;
 
 /// @brief Method Parse addr 0x22a5b8c size 0x1c8 virtual false final false
- void Parse(::System::IO::TextReader input, ::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler handler) ;
+ void Parse(System::IO::TextReader input, Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler handler) ;
 
 /// @brief Method Cleanup addr 0x22a73ec size 0x7c virtual false final false
  void Cleanup() ;
@@ -416,7 +415,7 @@ explicit SmallXmlParser() ;
  int32_t ReadCharacterReference() ;
 
 /// @brief Method ReadAttribute addr 0x22a768c size 0x164 virtual false final false
- void ReadAttribute(::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl a) ;
+ void ReadAttribute(Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl a) ;
 
 /// @brief Method ReadCDATASection addr 0x22a7504 size 0x100 virtual false final false
  void ReadCDATASection() ;
@@ -428,12 +427,11 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Xml::SmallXmlParser);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::SmallXmlParser, "Mono.Xml", "SmallXmlParser");
-NEED_NO_BOX(::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::____Mono__Xml__SmallXmlParser__AttrListImpl, "Mono.Xml", "SmallXmlParser/AttrListImpl");
-NEED_NO_BOX(::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::____Mono__Xml__SmallXmlParser__IAttrList, "Mono.Xml", "SmallXmlParser/IAttrList");
-NEED_NO_BOX(::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Xml::____Mono__Xml__SmallXmlParser__IContentHandler, "Mono.Xml", "SmallXmlParser/IContentHandler");
+NEED_NO_BOX(Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::Mono__Xml__SmallXmlParser__AttrListImpl, "Mono.Xml", "SmallXmlParser/AttrListImpl");
+NEED_NO_BOX(Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::Mono__Xml__SmallXmlParser__IAttrList, "Mono.Xml", "SmallXmlParser/IAttrList");
+NEED_NO_BOX(Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::Mono__Xml__SmallXmlParser__IContentHandler, "Mono.Xml", "SmallXmlParser/IContentHandler");
+NEED_NO_BOX(Mono::Xml::SmallXmlParser);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser, "Mono.Xml", "SmallXmlParser");

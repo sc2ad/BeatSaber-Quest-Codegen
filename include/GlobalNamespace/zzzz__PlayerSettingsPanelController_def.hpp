@@ -4,48 +4,26 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace HMUI {
-class ToggleBinder;
+namespace GlobalNamespace {
+class ArcVisibilityTypeSettingsDropdown;
+}
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
 }
 namespace GlobalNamespace {
 class FormattedFloatListSettingsController;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class EventBinder;
-}
-namespace GlobalNamespace {
-struct ArcVisibilityType;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace GlobalNamespace {
-class NoteJumpStartBeatOffsetDropdown;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace GlobalNamespace {
 class PlayerHeightSettingsController;
 }
 namespace GlobalNamespace {
-class EnvironmentEffectsFilterPresetDropdown;
+class NoteJumpStartBeatOffsetDropdown;
 }
 namespace GlobalNamespace {
-class ArcVisibilityTypeSettingsDropdown;
+class EventBinder;
 }
-namespace UnityEngine {
-class CanvasGroup;
+namespace GlobalNamespace {
+class EnvironmentEffectsFilterPresetDropdown;
 }
 namespace GlobalNamespace {
 class NoteJumpDurationTypeSettingsDropdown;
@@ -53,12 +31,33 @@ class NoteJumpDurationTypeSettingsDropdown;
 namespace GlobalNamespace {
 struct EnvironmentEffectsFilterPreset;
 }
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace UnityEngine {
+class GameObject;
+}
 namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
+class IRefreshable;
+}
+namespace GlobalNamespace {
+struct ArcVisibilityType;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+struct GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 }
 namespace GlobalNamespace {
 class PlayerSettingsPanelController;
@@ -69,20 +68,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5736))
 // CS Name: PlayerSettingsPanelController::PlayerSettingsPanelLayout
-struct CORDL_TYPE ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(int32_t value__) noexcept;
+constexpr GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const&) = default;
-                    constexpr ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout&&) = default;
-                    constexpr ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout& operator=(____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const& o) {
+                    constexpr GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const&) = default;
+                    constexpr GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout&&) = default;
+                    constexpr GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout& operator=(GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout& operator=(____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout&& o) noexcept {
+                    constexpr GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout& operator=(GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -95,7 +94,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -103,15 +102,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped : int32_t {
+enum class __GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped : int32_t {
 __All = 0,
 __Singleplayer = 1,
 __Multiplayer = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout_Unwrapped>(__instance);
 }
 
 
@@ -124,13 +123,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field All offset 0
-static ::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const All;
+static GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const All;
 
 /// @brief Field Singleplayer offset 0
-static ::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Singleplayer;
+static GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Singleplayer;
 
 /// @brief Field Multiplayer offset 0
-static ::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Multiplayer;
+static GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout const Multiplayer;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -142,13 +141,13 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5737))
 // CS Name: PlayerSettingsPanelController
-class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE PlayerSettingsPanelController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using PlayerSettingsPanelLayout = ::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+using PlayerSettingsPanelLayout = GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 
-/// @brief Convert operator to ::GlobalNamespace::IRefreshable
-constexpr operator  ::GlobalNamespace::IRefreshable() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IRefreshable
+constexpr operator  GlobalNamespace::IRefreshable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x108};
@@ -162,7 +161,7 @@ constexpr PlayerSettingsPanelController(PlayerSettingsPanelController const& ) n
 constexpr PlayerSettingsPanelController(PlayerSettingsPanelController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PlayerSettingsPanelController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit PlayerSettingsPanelController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -183,176 +182,176 @@ constexpr explicit PlayerSettingsPanelController(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__leftHandedToggle, put=__set__leftHandedToggle))  _leftHandedToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__leftHandedToggle, put=__set__leftHandedToggle))  _leftHandedToggle;
 
-constexpr void __set__leftHandedToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__leftHandedToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__leftHandedToggle() const;
+constexpr UnityEngine::UI::Toggle __get__leftHandedToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__reduceDebrisToggle, put=__set__reduceDebrisToggle))  _reduceDebrisToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__reduceDebrisToggle, put=__set__reduceDebrisToggle))  _reduceDebrisToggle;
 
-constexpr void __set__reduceDebrisToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__reduceDebrisToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__reduceDebrisToggle() const;
+constexpr UnityEngine::UI::Toggle __get__reduceDebrisToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__noTextsAndHudsToggle, put=__set__noTextsAndHudsToggle))  _noTextsAndHudsToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__noTextsAndHudsToggle, put=__set__noTextsAndHudsToggle))  _noTextsAndHudsToggle;
 
-constexpr void __set__noTextsAndHudsToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__noTextsAndHudsToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__noTextsAndHudsToggle() const;
+constexpr UnityEngine::UI::Toggle __get__noTextsAndHudsToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__advanceHudToggle, put=__set__advanceHudToggle))  _advanceHudToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__advanceHudToggle, put=__set__advanceHudToggle))  _advanceHudToggle;
 
-constexpr void __set__advanceHudToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__advanceHudToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__advanceHudToggle() const;
+constexpr UnityEngine::UI::Toggle __get__advanceHudToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__autoRestartToggle, put=__set__autoRestartToggle))  _autoRestartToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__autoRestartToggle, put=__set__autoRestartToggle))  _autoRestartToggle;
 
-constexpr void __set__autoRestartToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__autoRestartToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__autoRestartToggle() const;
+constexpr UnityEngine::UI::Toggle __get__autoRestartToggle() const;
 
- ::GlobalNamespace::PlayerHeightSettingsController __declspec(property(get=__get__playerHeightSettingsController, put=__set__playerHeightSettingsController))  _playerHeightSettingsController;
+ GlobalNamespace::PlayerHeightSettingsController __declspec(property(get=__get__playerHeightSettingsController, put=__set__playerHeightSettingsController))  _playerHeightSettingsController;
 
-constexpr void __set__playerHeightSettingsController(::GlobalNamespace::PlayerHeightSettingsController value) ;
+constexpr void __set__playerHeightSettingsController(GlobalNamespace::PlayerHeightSettingsController value) ;
 
-constexpr ::GlobalNamespace::PlayerHeightSettingsController __get__playerHeightSettingsController() const;
+constexpr GlobalNamespace::PlayerHeightSettingsController __get__playerHeightSettingsController() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__playerHeightSettingsCanvasGroup, put=__set__playerHeightSettingsCanvasGroup))  _playerHeightSettingsCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__playerHeightSettingsCanvasGroup, put=__set__playerHeightSettingsCanvasGroup))  _playerHeightSettingsCanvasGroup;
 
-constexpr void __set__playerHeightSettingsCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__playerHeightSettingsCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__playerHeightSettingsCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__playerHeightSettingsCanvasGroup() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__automaticPlayerHeightToggle, put=__set__automaticPlayerHeightToggle))  _automaticPlayerHeightToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__automaticPlayerHeightToggle, put=__set__automaticPlayerHeightToggle))  _automaticPlayerHeightToggle;
 
-constexpr void __set__automaticPlayerHeightToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__automaticPlayerHeightToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__automaticPlayerHeightToggle() const;
+constexpr UnityEngine::UI::Toggle __get__automaticPlayerHeightToggle() const;
 
- ::GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__sfxVolumeSettingsController, put=__set__sfxVolumeSettingsController))  _sfxVolumeSettingsController;
+ GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__sfxVolumeSettingsController, put=__set__sfxVolumeSettingsController))  _sfxVolumeSettingsController;
 
-constexpr void __set__sfxVolumeSettingsController(::GlobalNamespace::FormattedFloatListSettingsController value) ;
+constexpr void __set__sfxVolumeSettingsController(GlobalNamespace::FormattedFloatListSettingsController value) ;
 
-constexpr ::GlobalNamespace::FormattedFloatListSettingsController __get__sfxVolumeSettingsController() const;
+constexpr GlobalNamespace::FormattedFloatListSettingsController __get__sfxVolumeSettingsController() const;
 
- ::GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__saberTrailIntensitySettingsController, put=__set__saberTrailIntensitySettingsController))  _saberTrailIntensitySettingsController;
+ GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__saberTrailIntensitySettingsController, put=__set__saberTrailIntensitySettingsController))  _saberTrailIntensitySettingsController;
 
-constexpr void __set__saberTrailIntensitySettingsController(::GlobalNamespace::FormattedFloatListSettingsController value) ;
+constexpr void __set__saberTrailIntensitySettingsController(GlobalNamespace::FormattedFloatListSettingsController value) ;
 
-constexpr ::GlobalNamespace::FormattedFloatListSettingsController __get__saberTrailIntensitySettingsController() const;
+constexpr GlobalNamespace::FormattedFloatListSettingsController __get__saberTrailIntensitySettingsController() const;
 
- ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown __declspec(property(get=__get__noteJumpDurationTypeSettingsDropdown, put=__set__noteJumpDurationTypeSettingsDropdown))  _noteJumpDurationTypeSettingsDropdown;
+ GlobalNamespace::NoteJumpDurationTypeSettingsDropdown __declspec(property(get=__get__noteJumpDurationTypeSettingsDropdown, put=__set__noteJumpDurationTypeSettingsDropdown))  _noteJumpDurationTypeSettingsDropdown;
 
-constexpr void __set__noteJumpDurationTypeSettingsDropdown(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown value) ;
+constexpr void __set__noteJumpDurationTypeSettingsDropdown(GlobalNamespace::NoteJumpDurationTypeSettingsDropdown value) ;
 
-constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown __get__noteJumpDurationTypeSettingsDropdown() const;
+constexpr GlobalNamespace::NoteJumpDurationTypeSettingsDropdown __get__noteJumpDurationTypeSettingsDropdown() const;
 
- ::GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__noteJumpFixedDurationSettingsController, put=__set__noteJumpFixedDurationSettingsController))  _noteJumpFixedDurationSettingsController;
+ GlobalNamespace::FormattedFloatListSettingsController __declspec(property(get=__get__noteJumpFixedDurationSettingsController, put=__set__noteJumpFixedDurationSettingsController))  _noteJumpFixedDurationSettingsController;
 
-constexpr void __set__noteJumpFixedDurationSettingsController(::GlobalNamespace::FormattedFloatListSettingsController value) ;
+constexpr void __set__noteJumpFixedDurationSettingsController(GlobalNamespace::FormattedFloatListSettingsController value) ;
 
-constexpr ::GlobalNamespace::FormattedFloatListSettingsController __get__noteJumpFixedDurationSettingsController() const;
+constexpr GlobalNamespace::FormattedFloatListSettingsController __get__noteJumpFixedDurationSettingsController() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__noteJumpFixedDurationSettingsCanvasGroup, put=__set__noteJumpFixedDurationSettingsCanvasGroup))  _noteJumpFixedDurationSettingsCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__noteJumpFixedDurationSettingsCanvasGroup, put=__set__noteJumpFixedDurationSettingsCanvasGroup))  _noteJumpFixedDurationSettingsCanvasGroup;
 
-constexpr void __set__noteJumpFixedDurationSettingsCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__noteJumpFixedDurationSettingsCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__noteJumpFixedDurationSettingsCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__noteJumpFixedDurationSettingsCanvasGroup() const;
 
- ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown __declspec(property(get=__get__noteJumpStartBeatOffsetDropdown, put=__set__noteJumpStartBeatOffsetDropdown))  _noteJumpStartBeatOffsetDropdown;
+ GlobalNamespace::NoteJumpStartBeatOffsetDropdown __declspec(property(get=__get__noteJumpStartBeatOffsetDropdown, put=__set__noteJumpStartBeatOffsetDropdown))  _noteJumpStartBeatOffsetDropdown;
 
-constexpr void __set__noteJumpStartBeatOffsetDropdown(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown value) ;
+constexpr void __set__noteJumpStartBeatOffsetDropdown(GlobalNamespace::NoteJumpStartBeatOffsetDropdown value) ;
 
-constexpr ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown __get__noteJumpStartBeatOffsetDropdown() const;
+constexpr GlobalNamespace::NoteJumpStartBeatOffsetDropdown __get__noteJumpStartBeatOffsetDropdown() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__noteJumpStartBeatOffsetCanvasGroup, put=__set__noteJumpStartBeatOffsetCanvasGroup))  _noteJumpStartBeatOffsetCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__noteJumpStartBeatOffsetCanvasGroup, put=__set__noteJumpStartBeatOffsetCanvasGroup))  _noteJumpStartBeatOffsetCanvasGroup;
 
-constexpr void __set__noteJumpStartBeatOffsetCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__noteJumpStartBeatOffsetCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__noteJumpStartBeatOffsetCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__noteJumpStartBeatOffsetCanvasGroup() const;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __declspec(property(get=__get__environmentEffectsFilterDefaultPresetDropdown, put=__set__environmentEffectsFilterDefaultPresetDropdown))  _environmentEffectsFilterDefaultPresetDropdown;
+ GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __declspec(property(get=__get__environmentEffectsFilterDefaultPresetDropdown, put=__set__environmentEffectsFilterDefaultPresetDropdown))  _environmentEffectsFilterDefaultPresetDropdown;
 
-constexpr void __set__environmentEffectsFilterDefaultPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown value) ;
+constexpr void __set__environmentEffectsFilterDefaultPresetDropdown(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown value) ;
 
-constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __get__environmentEffectsFilterDefaultPresetDropdown() const;
+constexpr GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __get__environmentEffectsFilterDefaultPresetDropdown() const;
 
- ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __declspec(property(get=__get__environmentEffectsFilterExpertPlusPresetDropdown, put=__set__environmentEffectsFilterExpertPlusPresetDropdown))  _environmentEffectsFilterExpertPlusPresetDropdown;
+ GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __declspec(property(get=__get__environmentEffectsFilterExpertPlusPresetDropdown, put=__set__environmentEffectsFilterExpertPlusPresetDropdown))  _environmentEffectsFilterExpertPlusPresetDropdown;
 
-constexpr void __set__environmentEffectsFilterExpertPlusPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown value) ;
+constexpr void __set__environmentEffectsFilterExpertPlusPresetDropdown(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown value) ;
 
-constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __get__environmentEffectsFilterExpertPlusPresetDropdown() const;
+constexpr GlobalNamespace::EnvironmentEffectsFilterPresetDropdown __get__environmentEffectsFilterExpertPlusPresetDropdown() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__hideNoteSpawnEffectToggle, put=__set__hideNoteSpawnEffectToggle))  _hideNoteSpawnEffectToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__hideNoteSpawnEffectToggle, put=__set__hideNoteSpawnEffectToggle))  _hideNoteSpawnEffectToggle;
 
-constexpr void __set__hideNoteSpawnEffectToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__hideNoteSpawnEffectToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__hideNoteSpawnEffectToggle() const;
+constexpr UnityEngine::UI::Toggle __get__hideNoteSpawnEffectToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__adaptiveSfxToggle, put=__set__adaptiveSfxToggle))  _adaptiveSfxToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__adaptiveSfxToggle, put=__set__adaptiveSfxToggle))  _adaptiveSfxToggle;
 
-constexpr void __set__adaptiveSfxToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__adaptiveSfxToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__adaptiveSfxToggle() const;
+constexpr UnityEngine::UI::Toggle __get__adaptiveSfxToggle() const;
 
- ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown __declspec(property(get=__get__arcsVisibilityTypeSettingsDropdown, put=__set__arcsVisibilityTypeSettingsDropdown))  _arcsVisibilityTypeSettingsDropdown;
+ GlobalNamespace::ArcVisibilityTypeSettingsDropdown __declspec(property(get=__get__arcsVisibilityTypeSettingsDropdown, put=__set__arcsVisibilityTypeSettingsDropdown))  _arcsVisibilityTypeSettingsDropdown;
 
-constexpr void __set__arcsVisibilityTypeSettingsDropdown(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown value) ;
+constexpr void __set__arcsVisibilityTypeSettingsDropdown(GlobalNamespace::ArcVisibilityTypeSettingsDropdown value) ;
 
-constexpr ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown __get__arcsVisibilityTypeSettingsDropdown() const;
+constexpr GlobalNamespace::ArcVisibilityTypeSettingsDropdown __get__arcsVisibilityTypeSettingsDropdown() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__arcHapticFeedbackCanvasGroup, put=__set__arcHapticFeedbackCanvasGroup))  _arcHapticFeedbackCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__arcHapticFeedbackCanvasGroup, put=__set__arcHapticFeedbackCanvasGroup))  _arcHapticFeedbackCanvasGroup;
 
-constexpr void __set__arcHapticFeedbackCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__arcHapticFeedbackCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__arcHapticFeedbackCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__arcHapticFeedbackCanvasGroup() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__arcsHapticFeedbackToggle, put=__set__arcsHapticFeedbackToggle))  _arcsHapticFeedbackToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__arcsHapticFeedbackToggle, put=__set__arcsHapticFeedbackToggle))  _arcsHapticFeedbackToggle;
 
-constexpr void __set__arcsHapticFeedbackToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__arcsHapticFeedbackToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__arcsHapticFeedbackToggle() const;
+constexpr UnityEngine::UI::Toggle __get__arcsHapticFeedbackToggle() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__singleplayerOnlyCanvasGroup, put=__set__singleplayerOnlyCanvasGroup))  _singleplayerOnlyCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__singleplayerOnlyCanvasGroup, put=__set__singleplayerOnlyCanvasGroup))  _singleplayerOnlyCanvasGroup;
 
-constexpr void __set__singleplayerOnlyCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__singleplayerOnlyCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__singleplayerOnlyCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__singleplayerOnlyCanvasGroup() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__arcVisibilityWarning, put=__set__arcVisibilityWarning))  _arcVisibilityWarning;
+ UnityEngine::GameObject __declspec(property(get=__get__arcVisibilityWarning, put=__set__arcVisibilityWarning))  _arcVisibilityWarning;
 
-constexpr void __set__arcVisibilityWarning(::UnityEngine::GameObject value) ;
+constexpr void __set__arcVisibilityWarning(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__arcVisibilityWarning() const;
+constexpr UnityEngine::GameObject __get__arcVisibilityWarning() const;
 
- ::System::Action __declspec(property(get=__get_didChangePlayerSettingsEvent, put=__set_didChangePlayerSettingsEvent))  didChangePlayerSettingsEvent;
+ System::Action __declspec(property(get=__get_didChangePlayerSettingsEvent, put=__set_didChangePlayerSettingsEvent))  didChangePlayerSettingsEvent;
 
-constexpr void __set_didChangePlayerSettingsEvent(::System::Action value) ;
+constexpr void __set_didChangePlayerSettingsEvent(System::Action value) ;
 
-constexpr ::System::Action __get_didChangePlayerSettingsEvent() const;
+constexpr System::Action __get_didChangePlayerSettingsEvent() const;
 
 /// @brief Field kDisabledSectionAlpha offset 0
 static constexpr float_t  kDisabledSectionAlpha{0.2};
 
- ::GlobalNamespace::ArcVisibilityType __declspec(property(get=__get__currentArcType, put=__set__currentArcType))  _currentArcType;
+ GlobalNamespace::ArcVisibilityType __declspec(property(get=__get__currentArcType, put=__set__currentArcType))  _currentArcType;
 
-constexpr void __set__currentArcType(::GlobalNamespace::ArcVisibilityType value) ;
+constexpr void __set__currentArcType(GlobalNamespace::ArcVisibilityType value) ;
 
-constexpr ::GlobalNamespace::ArcVisibilityType __get__currentArcType() const;
+constexpr GlobalNamespace::ArcVisibilityType __get__currentArcType() const;
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=__get__playerSpecificSettings, put=__set__playerSpecificSettings))  _playerSpecificSettings;
 
-constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings value) ;
+constexpr void __set__playerSpecificSettings(GlobalNamespace::PlayerSpecificSettings value) ;
 
-constexpr ::GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
+constexpr GlobalNamespace::PlayerSpecificSettings __get__playerSpecificSettings() const;
 
- ::HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
+ HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
 
-constexpr void __set__toggleBinder(::HMUI::ToggleBinder value) ;
+constexpr void __set__toggleBinder(HMUI::ToggleBinder value) ;
 
-constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
+constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 
  bool __declspec(property(get=__get__dirty, put=__set__dirty))  _dirty;
 
@@ -366,34 +365,34 @@ constexpr void __set__refreshed(bool value) ;
 
 constexpr bool __get__refreshed() const;
 
- ::GlobalNamespace::EventBinder __declspec(property(get=__get__eventBinder, put=__set__eventBinder))  _eventBinder;
+ GlobalNamespace::EventBinder __declspec(property(get=__get__eventBinder, put=__set__eventBinder))  _eventBinder;
 
-constexpr void __set__eventBinder(::GlobalNamespace::EventBinder value) ;
+constexpr void __set__eventBinder(GlobalNamespace::EventBinder value) ;
 
-constexpr ::GlobalNamespace::EventBinder __get__eventBinder() const;
+constexpr GlobalNamespace::EventBinder __get__eventBinder() const;
 
 
 // Properties
 
- ::GlobalNamespace::PlayerSpecificSettings __declspec(property(get=get_playerSpecificSettings))  playerSpecificSettings;
+ GlobalNamespace::PlayerSpecificSettings __declspec(property(get=get_playerSpecificSettings))  playerSpecificSettings;
 
 
 // Methods
 
 /// @brief Method add_didChangePlayerSettingsEvent addr 0x215d2b4 size 0x9c virtual false final false
- void add_didChangePlayerSettingsEvent(::System::Action value) ;
+ void add_didChangePlayerSettingsEvent(System::Action value) ;
 
 /// @brief Method remove_didChangePlayerSettingsEvent addr 0x215e0b4 size 0x9c virtual false final false
- void remove_didChangePlayerSettingsEvent(::System::Action value) ;
+ void remove_didChangePlayerSettingsEvent(System::Action value) ;
 
 /// @brief Method get_playerSpecificSettings addr 0x215c4b4 size 0x3a0 virtual false final false
- ::GlobalNamespace::PlayerSpecificSettings get_playerSpecificSettings() ;
+ GlobalNamespace::PlayerSpecificSettings get_playerSpecificSettings() ;
 
 /// @brief Method SetData addr 0x215d134 size 0xc virtual false final false
- void SetData(::GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
+ void SetData(GlobalNamespace::PlayerSpecificSettings playerSpecificSettings) ;
 
 /// @brief Method SetLayout addr 0x215c9e4 size 0x24 virtual false final false
- void SetLayout(::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout layout) ;
+ void SetLayout(GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout layout) ;
 
 /// @brief Method Awake addr 0x215e1b8 size 0x60 virtual false final false
  void Awake() ;
@@ -414,13 +413,13 @@ constexpr ::GlobalNamespace::EventBinder __get__eventBinder() const;
  void Refresh() ;
 
 /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange addr 0x215e744 size 0x24 virtual false final false
- void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController settingsController, float_t value) ;
+ void HandleSFXVolumeSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController settingsController, float_t value) ;
 
 /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx addr 0x215e78c size 0x60 virtual false final false
- void HandleArcVisibilityDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::ArcVisibilityType arcVisibilityType) ;
+ void HandleArcVisibilityDropdownDidSelectCellWithIdx(int32_t idx, GlobalNamespace::ArcVisibilityType arcVisibilityType) ;
 
 /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange addr 0x215e7ec size 0x24 virtual false final false
- void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController settingsController, float_t value) ;
+ void HandleSaberTrailIntensitySettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController settingsController, float_t value) ;
 
 /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange addr 0x215e810 size 0x24 virtual false final false
  void HandlePlayerHeightSettingsControllerValueDidChange(float_t value) ;
@@ -429,16 +428,16 @@ constexpr ::GlobalNamespace::EventBinder __get__eventBinder() const;
  void HandleNoteJumpStartBeatOffsetPositionSelected(int32_t idx, float_t startBeatOffset) ;
 
 /// @brief Method HandleLightReductionAmountSelected addr 0x215e858 size 0x24 virtual false final false
- void HandleLightReductionAmountSelected(int32_t obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset) ;
+ void HandleLightReductionAmountSelected(int32_t obj, GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset) ;
 
 /// @brief Method HandleAdvancedHudToggleChanged addr 0x215e87c size 0x50 virtual false final false
  void HandleAdvancedHudToggleChanged(bool on) ;
 
 /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx addr 0x215e8cc size 0x3c virtual false final false
- void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings) ;
+ void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int32_t idx, GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings) ;
 
 /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange addr 0x215e908 size 0x24 virtual false final false
- void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController formattedFloatListSettingsController, float_t value) ;
+ void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(GlobalNamespace::FormattedFloatListSettingsController formattedFloatListSettingsController, float_t value) ;
 
 /// @brief Method HandleNoTextsAndHudsToggleChanged addr 0x215e92c size 0x50 virtual false final false
  void HandleNoTextsAndHudsToggleChanged(bool on) ;
@@ -447,13 +446,13 @@ constexpr ::GlobalNamespace::EventBinder __get__eventBinder() const;
  void SetIsDirty() ;
 
 /// @brief Method RefreshNoteJumpUI addr 0x215e628 size 0x3c virtual false final false
- void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings) ;
+ void RefreshNoteJumpUI(GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings) ;
 
 /// @brief Method SetSectionDisabled addr 0x215e150 size 0x68 virtual false final false
- void SetSectionDisabled(::UnityEngine::CanvasGroup sectionCanvasGroup, bool disable) ;
+ void SetSectionDisabled(UnityEngine::CanvasGroup sectionCanvasGroup, bool disable) ;
 
 /// @brief Method RefreshArcsWarning addr 0x215e664 size 0xe0 virtual false final false
- void RefreshArcsWarning(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild) ;
+ void RefreshArcsWarning(GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild) ;
 
 // Ctor Parameters []
 explicit PlayerSettingsPanelController() ;
@@ -492,7 +491,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");
-NEED_NO_BOX(::GlobalNamespace::PlayerSettingsPanelController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerSettingsPanelController, "", "PlayerSettingsPanelController");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__PlayerSettingsPanelController__PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");
+NEED_NO_BOX(GlobalNamespace::PlayerSettingsPanelController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSettingsPanelController, "", "PlayerSettingsPanelController");

@@ -3,21 +3,20 @@
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Exception;
 }
 namespace Newtonsoft::Json {
 class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -29,7 +28,7 @@ namespace Newtonsoft::Json {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11746))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11771))
 // CS Name: Newtonsoft.Json.JsonReaderException
-class CORDL_TYPE JsonReaderException : public ::Newtonsoft::Json::JsonException {
+class CORDL_TYPE JsonReaderException : public Newtonsoft::Json::JsonException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr JsonReaderException(JsonReaderException const& ) noexcept = default;
 constexpr JsonReaderException(JsonReaderException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit JsonReaderException(void* ptr) noexcept : ::Newtonsoft::Json::JsonException(ptr) {
+constexpr explicit JsonReaderException(void* ptr) noexcept : Newtonsoft::Json::JsonException(ptr) {
 }
 
 
@@ -125,37 +124,36 @@ explicit JsonReaderException(::StringW message) ;
 /// @brief Method .ctor addr 0x24d3298 size 0x4 virtual false final false
  void _ctor(::StringW message) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }]
-explicit JsonReaderException(::StringW message, ::System::Exception innerException) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }]
+explicit JsonReaderException(::StringW message, System::Exception innerException) ;
 
 /// @brief Method .ctor addr 0x24d329c size 0x4 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException) ;
+ void _ctor(::StringW message, System::Exception innerException) ;
 
-// Ctor Parameters [CppParam { name: "info", ty: "::System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "::System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
-explicit JsonReaderException(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+// Ctor Parameters [CppParam { name: "info", ty: "System::Runtime::Serialization::SerializationInfo", modifiers: "", def_value: None }, CppParam { name: "context", ty: "System::Runtime::Serialization::StreamingContext", modifiers: "", def_value: None }]
+explicit JsonReaderException(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method .ctor addr 0x24d32a0 size 0x4 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
-// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "::System::Exception", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
-explicit JsonReaderException(::StringW message, ::System::Exception innerException, ::StringW path, int32_t lineNumber, int32_t linePosition) ;
+// Ctor Parameters [CppParam { name: "message", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "innerException", ty: "System::Exception", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linePosition", ty: "int32_t", modifiers: "", def_value: None }]
+explicit JsonReaderException(::StringW message, System::Exception innerException, ::StringW path, int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method .ctor addr 0x24d32a4 size 0x38 virtual false final false
- void _ctor(::StringW message, ::System::Exception innerException, ::StringW path, int32_t lineNumber, int32_t linePosition) ;
+ void _ctor(::StringW message, System::Exception innerException, ::StringW path, int32_t lineNumber, int32_t linePosition) ;
 
 /// @brief Method Create addr 0x24cb5e0 size 0x8 virtual false final false
-static ::Newtonsoft::Json::JsonReaderException Create(::Newtonsoft::Json::JsonReader reader, ::StringW message) ;
+static Newtonsoft::Json::JsonReaderException Create(Newtonsoft::Json::JsonReader reader, ::StringW message) ;
 
 /// @brief Method Create addr 0x24d062c size 0x84 virtual false final false
-static ::Newtonsoft::Json::JsonReaderException Create(::Newtonsoft::Json::JsonReader reader, ::StringW message, ::System::Exception ex) ;
+static Newtonsoft::Json::JsonReaderException Create(Newtonsoft::Json::JsonReader reader, ::StringW message, System::Exception ex) ;
 
 /// @brief Method Create addr 0x24d32dc size 0x200 virtual false final false
-static ::Newtonsoft::Json::JsonReaderException Create(::Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, ::StringW message, ::System::Exception ex) ;
+static Newtonsoft::Json::JsonReaderException Create(Newtonsoft::Json::IJsonLineInfo lineInfo, ::StringW path, ::StringW message, System::Exception ex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::JsonReaderException);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonReaderException, "Newtonsoft.Json", "JsonReaderException");
+NEED_NO_BOX(Newtonsoft::Json::JsonReaderException);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::JsonReaderException, "Newtonsoft.Json", "JsonReaderException");

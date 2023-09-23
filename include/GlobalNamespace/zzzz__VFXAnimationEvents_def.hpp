@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine {
+class ParticleSystem;
+}
 namespace UnityEngine {
 class Animation;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class VFXAnimationEvents;
+class GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent;
+class VFXAnimationEvents;
 }
 // Type: ::VFXAnimationEvent
 namespace GlobalNamespace {
@@ -27,37 +26,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13847))
 // CS Name: VFXAnimationEvents::VFXAnimationEvent
-class CORDL_TYPE ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent() = default;
+virtual ~GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent&& o) noexcept = default;
-  constexpr ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent const& o) noexcept = default;
+  constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent&& o) noexcept = default;
+  constexpr GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent& operator=(GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent const& o) noexcept = default;
                 
 
 
@@ -69,18 +68,18 @@ constexpr void __set__name(::StringW value) ;
 
 constexpr ::StringW __get__name() const;
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
 
-constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__particleSystems(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_name))  name;
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=get_particleSystems))  particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=get_particleSystems))  particleSystems;
 
 
 // Methods
@@ -89,10 +88,10 @@ constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const
  ::StringW get_name() ;
 
 /// @brief Method get_particleSystems addr 0x1f7d454 size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::ParticleSystem> get_particleSystems() ;
+ ::ArrayW<UnityEngine::ParticleSystem> get_particleSystems() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent() ;
+explicit GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent() ;
 
 /// @brief Method .ctor addr 0x1f7d45c size 0x8 virtual false final false
  void _ctor() ;
@@ -107,10 +106,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13848))
 // CS Name: VFXAnimationEvents
-class CORDL_TYPE VFXAnimationEvents : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VFXAnimationEvents : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using VFXAnimationEvent = ::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent;
+using VFXAnimationEvent = GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -124,7 +123,7 @@ constexpr VFXAnimationEvents(VFXAnimationEvents const& ) noexcept = default;
 constexpr VFXAnimationEvents(VFXAnimationEvents&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VFXAnimationEvents(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VFXAnimationEvents(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -145,56 +144,56 @@ constexpr explicit VFXAnimationEvents(void* ptr) noexcept : ::UnityEngine::MonoB
 
 // Fields
 
- ::UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
+ UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
 
-constexpr void __set__animation(::UnityEngine::Animation value) ;
+constexpr void __set__animation(UnityEngine::Animation value) ;
 
-constexpr ::UnityEngine::Animation __get__animation() const;
+constexpr UnityEngine::Animation __get__animation() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> __declspec(property(get=__get__animationEvents, put=__set__animationEvents))  _animationEvents;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> __declspec(property(get=__get__animationEvents, put=__set__animationEvents))  _animationEvents;
 
-constexpr void __set__animationEvents(::ArrayW<::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> value) ;
+constexpr void __set__animationEvents(::ArrayW<GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> __get__animationEvents() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent> __get__animationEvents() const;
 
- ::System::Action __declspec(property(get=__get_animationDidPauseEvent, put=__set_animationDidPauseEvent))  animationDidPauseEvent;
+ System::Action __declspec(property(get=__get_animationDidPauseEvent, put=__set_animationDidPauseEvent))  animationDidPauseEvent;
 
-constexpr void __set_animationDidPauseEvent(::System::Action value) ;
+constexpr void __set_animationDidPauseEvent(System::Action value) ;
 
-constexpr ::System::Action __get_animationDidPauseEvent() const;
+constexpr System::Action __get_animationDidPauseEvent() const;
 
- ::System::Action __declspec(property(get=__get_spawnCharacterEvent, put=__set_spawnCharacterEvent))  spawnCharacterEvent;
+ System::Action __declspec(property(get=__get_spawnCharacterEvent, put=__set_spawnCharacterEvent))  spawnCharacterEvent;
 
-constexpr void __set_spawnCharacterEvent(::System::Action value) ;
+constexpr void __set_spawnCharacterEvent(System::Action value) ;
 
-constexpr ::System::Action __get_spawnCharacterEvent() const;
+constexpr System::Action __get_spawnCharacterEvent() const;
 
- ::System::Action __declspec(property(get=__get_despawnCharacterEvent, put=__set_despawnCharacterEvent))  despawnCharacterEvent;
+ System::Action __declspec(property(get=__get_despawnCharacterEvent, put=__set_despawnCharacterEvent))  despawnCharacterEvent;
 
-constexpr void __set_despawnCharacterEvent(::System::Action value) ;
+constexpr void __set_despawnCharacterEvent(System::Action value) ;
 
-constexpr ::System::Action __get_despawnCharacterEvent() const;
+constexpr System::Action __get_despawnCharacterEvent() const;
 
 
 // Methods
 
 /// @brief Method add_animationDidPauseEvent addr 0x1f7ca18 size 0x9c virtual false final false
- void add_animationDidPauseEvent(::System::Action value) ;
+ void add_animationDidPauseEvent(System::Action value) ;
 
 /// @brief Method remove_animationDidPauseEvent addr 0x1f7cab4 size 0x9c virtual false final false
- void remove_animationDidPauseEvent(::System::Action value) ;
+ void remove_animationDidPauseEvent(System::Action value) ;
 
 /// @brief Method add_spawnCharacterEvent addr 0x1f7cb50 size 0x9c virtual false final false
- void add_spawnCharacterEvent(::System::Action value) ;
+ void add_spawnCharacterEvent(System::Action value) ;
 
 /// @brief Method remove_spawnCharacterEvent addr 0x1f7cbec size 0x9c virtual false final false
- void remove_spawnCharacterEvent(::System::Action value) ;
+ void remove_spawnCharacterEvent(System::Action value) ;
 
 /// @brief Method add_despawnCharacterEvent addr 0x1f7cc88 size 0x9c virtual false final false
- void add_despawnCharacterEvent(::System::Action value) ;
+ void add_despawnCharacterEvent(System::Action value) ;
 
 /// @brief Method remove_despawnCharacterEvent addr 0x1f7cd24 size 0x9c virtual false final false
- void remove_despawnCharacterEvent(::System::Action value) ;
+ void remove_despawnCharacterEvent(System::Action value) ;
 
 /// @brief Method PlayEvent addr 0x1f7cdc0 size 0xc4 virtual false final false
  void PlayEvent(::StringW eventName) ;
@@ -221,8 +220,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VFXAnimationEvents);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VFXAnimationEvents, "", "VFXAnimationEvents");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent, "", "VFXAnimationEvents/VFXAnimationEvent");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__VFXAnimationEvents__VFXAnimationEvent, "", "VFXAnimationEvents/VFXAnimationEvent");
+NEED_NO_BOX(GlobalNamespace::VFXAnimationEvents);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents, "", "VFXAnimationEvents");

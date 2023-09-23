@@ -3,25 +3,24 @@
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
-namespace {
-namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
 namespace System::Xml::Schema {
 class Positions;
+}
+namespace System::Xml::Schema {
+class BitSet;
 }
 namespace System::Xml::Schema {
 class InteriorNode;
 }
 namespace System::Xml::Schema {
-class BitSet;
+class SymbolsDictionary;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
 class SequenceNode;
 }
 namespace System::Xml::Schema {
-struct ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext;
+struct System__Xml__Schema__SequenceNode__SequenceConstructPosContext;
 }
 // Type: ::SequenceConstructPosContext
 namespace System::Xml::Schema {
@@ -29,20 +28,20 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11545))
 // CS Name: System.Xml.Schema.SequenceNode::SequenceConstructPosContext
-struct CORDL_TYPE ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Xml__Schema__SequenceNode__SequenceConstructPosContext : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "this_", ty: "::System::Xml::Schema::SequenceNode", modifiers: "", def_value: None }, CppParam { name: "firstpos", ty: "::System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "lastpos", ty: "::System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "lastposLeft", ty: "::System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "firstposRight", ty: "::System::Xml::Schema::BitSet", modifiers: "", def_value: None }]
-constexpr ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext(::System::Xml::Schema::SequenceNode this_, ::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::System::Xml::Schema::BitSet lastposLeft, ::System::Xml::Schema::BitSet firstposRight) noexcept;
+// Ctor Parameters [CppParam { name: "this_", ty: "System::Xml::Schema::SequenceNode", modifiers: "", def_value: None }, CppParam { name: "firstpos", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "lastpos", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "lastposLeft", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }, CppParam { name: "firstposRight", ty: "System::Xml::Schema::BitSet", modifiers: "", def_value: None }]
+constexpr System__Xml__Schema__SequenceNode__SequenceConstructPosContext(System::Xml::Schema::SequenceNode this_, System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, System::Xml::Schema::BitSet lastposLeft, System::Xml::Schema::BitSet firstposRight) noexcept;
 
 
-                    constexpr ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext(____System__Xml__Schema__SequenceNode__SequenceConstructPosContext const&) = default;
-                    constexpr ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext(____System__Xml__Schema__SequenceNode__SequenceConstructPosContext&&) = default;
-                    constexpr ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext& operator=(____System__Xml__Schema__SequenceNode__SequenceConstructPosContext const& o) {
+                    constexpr System__Xml__Schema__SequenceNode__SequenceConstructPosContext(System__Xml__Schema__SequenceNode__SequenceConstructPosContext const&) = default;
+                    constexpr System__Xml__Schema__SequenceNode__SequenceConstructPosContext(System__Xml__Schema__SequenceNode__SequenceConstructPosContext&&) = default;
+                    constexpr System__Xml__Schema__SequenceNode__SequenceConstructPosContext& operator=(System__Xml__Schema__SequenceNode__SequenceConstructPosContext const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext& operator=(____System__Xml__Schema__SequenceNode__SequenceConstructPosContext&& o) noexcept {
+                    constexpr System__Xml__Schema__SequenceNode__SequenceConstructPosContext& operator=(System__Xml__Schema__SequenceNode__SequenceConstructPosContext&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -55,7 +54,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x28};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__SequenceNode__SequenceConstructPosContext(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__Schema__SequenceNode__SequenceConstructPosContext(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -66,41 +65,41 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::System::Xml::Schema::SequenceNode __declspec(property(get=__get_this_, put=__set_this_))  this_;
+ System::Xml::Schema::SequenceNode __declspec(property(get=__get_this_, put=__set_this_))  this_;
 
-constexpr void __set_this_(::System::Xml::Schema::SequenceNode value) ;
+constexpr void __set_this_(System::Xml::Schema::SequenceNode value) ;
 
-constexpr ::System::Xml::Schema::SequenceNode __get_this_() const;
+constexpr System::Xml::Schema::SequenceNode __get_this_() const;
 
- ::System::Xml::Schema::BitSet __declspec(property(get=__get_firstpos, put=__set_firstpos))  firstpos;
+ System::Xml::Schema::BitSet __declspec(property(get=__get_firstpos, put=__set_firstpos))  firstpos;
 
-constexpr void __set_firstpos(::System::Xml::Schema::BitSet value) ;
+constexpr void __set_firstpos(System::Xml::Schema::BitSet value) ;
 
-constexpr ::System::Xml::Schema::BitSet __get_firstpos() const;
+constexpr System::Xml::Schema::BitSet __get_firstpos() const;
 
- ::System::Xml::Schema::BitSet __declspec(property(get=__get_lastpos, put=__set_lastpos))  lastpos;
+ System::Xml::Schema::BitSet __declspec(property(get=__get_lastpos, put=__set_lastpos))  lastpos;
 
-constexpr void __set_lastpos(::System::Xml::Schema::BitSet value) ;
+constexpr void __set_lastpos(System::Xml::Schema::BitSet value) ;
 
-constexpr ::System::Xml::Schema::BitSet __get_lastpos() const;
+constexpr System::Xml::Schema::BitSet __get_lastpos() const;
 
- ::System::Xml::Schema::BitSet __declspec(property(get=__get_lastposLeft, put=__set_lastposLeft))  lastposLeft;
+ System::Xml::Schema::BitSet __declspec(property(get=__get_lastposLeft, put=__set_lastposLeft))  lastposLeft;
 
-constexpr void __set_lastposLeft(::System::Xml::Schema::BitSet value) ;
+constexpr void __set_lastposLeft(System::Xml::Schema::BitSet value) ;
 
-constexpr ::System::Xml::Schema::BitSet __get_lastposLeft() const;
+constexpr System::Xml::Schema::BitSet __get_lastposLeft() const;
 
- ::System::Xml::Schema::BitSet __declspec(property(get=__get_firstposRight, put=__set_firstposRight))  firstposRight;
+ System::Xml::Schema::BitSet __declspec(property(get=__get_firstposRight, put=__set_firstposRight))  firstposRight;
 
-constexpr void __set_firstposRight(::System::Xml::Schema::BitSet value) ;
+constexpr void __set_firstposRight(System::Xml::Schema::BitSet value) ;
 
-constexpr ::System::Xml::Schema::BitSet __get_firstposRight() const;
+constexpr System::Xml::Schema::BitSet __get_firstposRight() const;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x271adf4 size 0x10 virtual false final false
- void _ctor(::System::Xml::Schema::SequenceNode node, ::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos) ;
+ void _ctor(System::Xml::Schema::SequenceNode node, System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -112,10 +111,10 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11544))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11546))
 // CS Name: System.Xml.Schema.SequenceNode
-class CORDL_TYPE SequenceNode : public ::System::Xml::Schema::InteriorNode {
+class CORDL_TYPE SequenceNode : public System::Xml::Schema::InteriorNode {
 public:
 // Declarations
-using SequenceConstructPosContext = ::System::Xml::Schema::____System__Xml__Schema__SequenceNode__SequenceConstructPosContext;
+using SequenceConstructPosContext = System::Xml::Schema::System__Xml__Schema__SequenceNode__SequenceConstructPosContext;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -129,7 +128,7 @@ constexpr SequenceNode(SequenceNode const& ) noexcept = default;
 constexpr SequenceNode(SequenceNode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SequenceNode(void* ptr) noexcept : ::System::Xml::Schema::InteriorNode(ptr) {
+constexpr explicit SequenceNode(void* ptr) noexcept : System::Xml::Schema::InteriorNode(ptr) {
 }
 
 
@@ -156,13 +155,13 @@ constexpr explicit SequenceNode(void* ptr) noexcept : ::System::Xml::Schema::Int
 // Methods
 
 /// @brief Method ConstructPos addr 0x271aaac size 0x348 virtual true final false
- void ConstructPos(::System::Xml::Schema::BitSet firstpos, ::System::Xml::Schema::BitSet lastpos, ::ArrayW<::System::Xml::Schema::BitSet> followpos) ;
+ void ConstructPos(System::Xml::Schema::BitSet firstpos, System::Xml::Schema::BitSet lastpos, ::ArrayW<System::Xml::Schema::BitSet> followpos) ;
 
 /// @brief Method get_IsNullable addr 0x271ae04 size 0x15c virtual true final false
  bool get_IsNullable() ;
 
 /// @brief Method ExpandTree addr 0x271af60 size 0x4 virtual true final false
- void ExpandTree(::System::Xml::Schema::InteriorNode parent, ::System::Xml::Schema::SymbolsDictionary symbols, ::System::Xml::Schema::Positions positions) ;
+ void ExpandTree(System::Xml::Schema::InteriorNode parent, System::Xml::Schema::SymbolsDictionary symbols, System::Xml::Schema::Positions positions) ;
 
 // Ctor Parameters []
 explicit SequenceNode() ;
@@ -174,7 +173,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Schema::SequenceNode);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SequenceNode, "System.Xml.Schema", "SequenceNode");
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__SequenceNode__SequenceConstructPosContext, "System.Xml.Schema", "SequenceNode/SequenceConstructPosContext");
+NEED_NO_BOX(System::Xml::Schema::SequenceNode);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SequenceNode, "System.Xml.Schema", "SequenceNode");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__SequenceNode__SequenceConstructPosContext, "System.Xml.Schema", "SequenceNode/SequenceConstructPosContext");

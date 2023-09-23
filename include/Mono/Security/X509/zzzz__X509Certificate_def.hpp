@@ -4,15 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Security::Cryptography {
-class DSA;
-}
 namespace System {
 struct DateTime;
 }
-namespace System::Security::Cryptography {
-class RSA;
+namespace Mono::Security {
+class ASN1;
 }
 namespace System::Security::Cryptography {
 class AsymmetricAlgorithm;
@@ -20,17 +16,20 @@ class AsymmetricAlgorithm;
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Security::Cryptography {
+class RSA;
+}
 namespace Mono::Security::X509 {
 class X509ExtensionCollection;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace Mono::Security {
-class ASN1;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Security::Cryptography {
+class DSA;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -45,8 +44,8 @@ namespace Mono::Security::X509 {
 class CORDL_TYPE X509Certificate : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xc0};
@@ -81,11 +80,11 @@ constexpr explicit X509Certificate(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::Mono::Security::ASN1 __declspec(property(get=__get_decoder, put=__set_decoder))  decoder;
+ Mono::Security::ASN1 __declspec(property(get=__get_decoder, put=__set_decoder))  decoder;
 
-constexpr void __set_decoder(::Mono::Security::ASN1 value) ;
+constexpr void __set_decoder(Mono::Security::ASN1 value) ;
 
-constexpr ::Mono::Security::ASN1 __get_decoder() const;
+constexpr Mono::Security::ASN1 __get_decoder() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_m_encodedcert, put=__set_m_encodedcert))  m_encodedcert;
 
@@ -93,23 +92,23 @@ constexpr void __set_m_encodedcert(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_m_encodedcert() const;
 
- ::System::DateTime __declspec(property(get=__get_m_from, put=__set_m_from))  m_from;
+ System::DateTime __declspec(property(get=__get_m_from, put=__set_m_from))  m_from;
 
-constexpr void __set_m_from(::System::DateTime value) ;
+constexpr void __set_m_from(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_m_from() const;
+constexpr System::DateTime __get_m_from() const;
 
- ::System::DateTime __declspec(property(get=__get_m_until, put=__set_m_until))  m_until;
+ System::DateTime __declspec(property(get=__get_m_until, put=__set_m_until))  m_until;
 
-constexpr void __set_m_until(::System::DateTime value) ;
+constexpr void __set_m_until(System::DateTime value) ;
 
-constexpr ::System::DateTime __get_m_until() const;
+constexpr System::DateTime __get_m_until() const;
 
- ::Mono::Security::ASN1 __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
+ Mono::Security::ASN1 __declspec(property(get=__get_issuer, put=__set_issuer))  issuer;
 
-constexpr void __set_issuer(::Mono::Security::ASN1 value) ;
+constexpr void __set_issuer(Mono::Security::ASN1 value) ;
 
-constexpr ::Mono::Security::ASN1 __get_issuer() const;
+constexpr Mono::Security::ASN1 __get_issuer() const;
 
  ::StringW __declspec(property(get=__get_m_issuername, put=__set_m_issuername))  m_issuername;
 
@@ -129,11 +128,11 @@ constexpr void __set_m_keyalgoparams(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_m_keyalgoparams() const;
 
- ::Mono::Security::ASN1 __declspec(property(get=__get_subject, put=__set_subject))  subject;
+ Mono::Security::ASN1 __declspec(property(get=__get_subject, put=__set_subject))  subject;
 
-constexpr void __set_subject(::Mono::Security::ASN1 value) ;
+constexpr void __set_subject(Mono::Security::ASN1 value) ;
 
-constexpr ::Mono::Security::ASN1 __get_subject() const;
+constexpr Mono::Security::ASN1 __get_subject() const;
 
  ::StringW __declspec(property(get=__get_m_subject, put=__set_m_subject))  m_subject;
 
@@ -171,17 +170,17 @@ constexpr void __set_certhash(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_certhash() const;
 
- ::System::Security::Cryptography::RSA __declspec(property(get=__get__rsa, put=__set__rsa))  _rsa;
+ System::Security::Cryptography::RSA __declspec(property(get=__get__rsa, put=__set__rsa))  _rsa;
 
-constexpr void __set__rsa(::System::Security::Cryptography::RSA value) ;
+constexpr void __set__rsa(System::Security::Cryptography::RSA value) ;
 
-constexpr ::System::Security::Cryptography::RSA __get__rsa() const;
+constexpr System::Security::Cryptography::RSA __get__rsa() const;
 
- ::System::Security::Cryptography::DSA __declspec(property(get=__get__dsa, put=__set__dsa))  _dsa;
+ System::Security::Cryptography::DSA __declspec(property(get=__get__dsa, put=__set__dsa))  _dsa;
 
-constexpr void __set__dsa(::System::Security::Cryptography::DSA value) ;
+constexpr void __set__dsa(System::Security::Cryptography::DSA value) ;
 
-constexpr ::System::Security::Cryptography::DSA __get__dsa() const;
+constexpr System::Security::Cryptography::DSA __get__dsa() const;
 
  int32_t __declspec(property(get=__get_version, put=__set_version))  version;
 
@@ -207,11 +206,11 @@ constexpr void __set_subjectUniqueID(::ArrayW<uint8_t> value) ;
 
 constexpr ::ArrayW<uint8_t> __get_subjectUniqueID() const;
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=__get_extensions, put=__set_extensions))  extensions;
 
-constexpr void __set_extensions(::Mono::Security::X509::X509ExtensionCollection value) ;
+constexpr void __set_extensions(Mono::Security::X509::X509ExtensionCollection value) ;
 
-constexpr ::Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
+constexpr Mono::Security::X509::X509ExtensionCollection __get_extensions() const;
 
 static ::StringW __declspec(property(get=__get_encoding_error, put=__set_encoding_error))  encoding_error;
 
@@ -222,9 +221,9 @@ static ::StringW __get_encoding_error() ;
 
 // Properties
 
- ::System::Security::Cryptography::DSA __declspec(property(get=get_DSA, put=set_DSA))  DSA;
+ System::Security::Cryptography::DSA __declspec(property(get=get_DSA, put=set_DSA))  DSA;
 
- ::Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
+ Mono::Security::X509::X509ExtensionCollection __declspec(property(get=get_Extensions))  Extensions;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_Hash))  Hash;
 
@@ -236,7 +235,7 @@ static ::StringW __get_encoding_error() ;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_PublicKey))  PublicKey;
 
- ::System::Security::Cryptography::RSA __declspec(property(get=get_RSA, put=set_RSA))  RSA;
+ System::Security::Cryptography::RSA __declspec(property(get=get_RSA, put=set_RSA))  RSA;
 
  ::ArrayW<uint8_t> __declspec(property(get=get_RawData))  RawData;
 
@@ -246,9 +245,9 @@ static ::StringW __get_encoding_error() ;
 
  ::StringW __declspec(property(get=get_SubjectName))  SubjectName;
 
- ::System::DateTime __declspec(property(get=get_ValidFrom))  ValidFrom;
+ System::DateTime __declspec(property(get=get_ValidFrom))  ValidFrom;
 
- ::System::DateTime __declspec(property(get=get_ValidUntil))  ValidUntil;
+ System::DateTime __declspec(property(get=get_ValidUntil))  ValidUntil;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
@@ -272,13 +271,13 @@ explicit X509Certificate(::ArrayW<uint8_t> data) ;
  ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer) ;
 
 /// @brief Method get_DSA addr 0x2285e64 size 0x29c virtual false final false
- ::System::Security::Cryptography::DSA get_DSA() ;
+ System::Security::Cryptography::DSA get_DSA() ;
 
 /// @brief Method set_DSA addr 0x228d134 size 0x10 virtual false final false
- void set_DSA(::System::Security::Cryptography::DSA value) ;
+ void set_DSA(System::Security::Cryptography::DSA value) ;
 
 /// @brief Method get_Extensions addr 0x228d144 size 0x8 virtual false final false
- ::Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
+ Mono::Security::X509::X509ExtensionCollection get_Extensions() ;
 
 /// @brief Method get_Hash addr 0x228d14c size 0x294 virtual false final false
  ::ArrayW<uint8_t> get_Hash() ;
@@ -299,10 +298,10 @@ explicit X509Certificate(::ArrayW<uint8_t> data) ;
  ::ArrayW<uint8_t> get_PublicKey() ;
 
 /// @brief Method get_RSA addr 0x228d4e0 size 0x18c virtual true final false
- ::System::Security::Cryptography::RSA get_RSA() ;
+ System::Security::Cryptography::RSA get_RSA() ;
 
 /// @brief Method set_RSA addr 0x228d66c size 0x10 virtual true final false
- void set_RSA(::System::Security::Cryptography::RSA value) ;
+ void set_RSA(System::Security::Cryptography::RSA value) ;
 
 /// @brief Method get_RawData addr 0x228d67c size 0x74 virtual true final false
  ::ArrayW<uint8_t> get_RawData() ;
@@ -317,10 +316,10 @@ explicit X509Certificate(::ArrayW<uint8_t> data) ;
  ::StringW get_SubjectName() ;
 
 /// @brief Method get_ValidFrom addr 0x228dba8 size 0x8 virtual true final false
- ::System::DateTime get_ValidFrom() ;
+ System::DateTime get_ValidFrom() ;
 
 /// @brief Method get_ValidUntil addr 0x228dbb0 size 0x8 virtual true final false
- ::System::DateTime get_ValidUntil() ;
+ System::DateTime get_ValidUntil() ;
 
 /// @brief Method get_Version addr 0x228dbb8 size 0x8 virtual false final false
  int32_t get_Version() ;
@@ -329,22 +328,22 @@ explicit X509Certificate(::ArrayW<uint8_t> data) ;
  bool get_IsCurrent() ;
 
 /// @brief Method WasCurrent addr 0x228dc20 size 0xd8 virtual false final false
- bool WasCurrent(::System::DateTime instant) ;
+ bool WasCurrent(System::DateTime instant) ;
 
 /// @brief Method VerifySignature addr 0x228dcf8 size 0xc8 virtual false final false
- bool VerifySignature(::System::Security::Cryptography::DSA dsa) ;
+ bool VerifySignature(System::Security::Cryptography::DSA dsa) ;
 
 /// @brief Method VerifySignature addr 0x228ddc0 size 0x128 virtual false final false
- bool VerifySignature(::System::Security::Cryptography::RSA rsa) ;
+ bool VerifySignature(System::Security::Cryptography::RSA rsa) ;
 
 /// @brief Method VerifySignature addr 0x228dee8 size 0x18c virtual false final false
- bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm aa) ;
+ bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm aa) ;
 
 /// @brief Method get_IsSelfSigned addr 0x228e074 size 0x108 virtual false final false
  bool get_IsSelfSigned() ;
 
 /// @brief Method GetObjectData addr 0x228e17c size 0x5c virtual true final false
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method PEM addr 0x228cf6c size 0x134 virtual false final false
 static ::ArrayW<uint8_t> PEM(::StringW type, ::ArrayW<uint8_t> data) ;
@@ -353,6 +352,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::X509
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::X509::X509Certificate);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Certificate, "Mono.Security.X509", "X509Certificate");
+NEED_NO_BOX(Mono::Security::X509::X509Certificate);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Certificate, "Mono.Security.X509", "X509Certificate");

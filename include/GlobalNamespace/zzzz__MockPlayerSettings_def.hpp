@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace GlobalNamespace {
-struct MockPlayerMovementType;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+struct MockPlayerMovementType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -93,11 +92,11 @@ constexpr void __set__inactiveByDefault(bool value) ;
 
 constexpr bool __get__inactiveByDefault() const;
 
- ::GlobalNamespace::MockPlayerMovementType __declspec(property(get=__get__movementType, put=__set__movementType))  _movementType;
+ GlobalNamespace::MockPlayerMovementType __declspec(property(get=__get__movementType, put=__set__movementType))  _movementType;
 
-constexpr void __set__movementType(::GlobalNamespace::MockPlayerMovementType value) ;
+constexpr void __set__movementType(GlobalNamespace::MockPlayerMovementType value) ;
 
-constexpr ::GlobalNamespace::MockPlayerMovementType __get__movementType() const;
+constexpr GlobalNamespace::MockPlayerMovementType __get__movementType() const;
 
  ::StringW __declspec(property(get=__get__recodingFile, put=__set__recodingFile))  _recodingFile;
 
@@ -117,23 +116,23 @@ constexpr void __set__leftHanded(bool value) ;
 
 constexpr bool __get__leftHanded() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__saberAColor, put=__set__saberAColor))  _saberAColor;
+ UnityEngine::Color __declspec(property(get=__get__saberAColor, put=__set__saberAColor))  _saberAColor;
 
-constexpr void __set__saberAColor(::UnityEngine::Color value) ;
+constexpr void __set__saberAColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__saberAColor() const;
+constexpr UnityEngine::Color __get__saberAColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__saberBColor, put=__set__saberBColor))  _saberBColor;
+ UnityEngine::Color __declspec(property(get=__get__saberBColor, put=__set__saberBColor))  _saberBColor;
 
-constexpr void __set__saberBColor(::UnityEngine::Color value) ;
+constexpr void __set__saberBColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__saberBColor() const;
+constexpr UnityEngine::Color __get__saberBColor() const;
 
- ::UnityEngine::Color __declspec(property(get=__get__obstaclesColor, put=__set__obstaclesColor))  _obstaclesColor;
+ UnityEngine::Color __declspec(property(get=__get__obstaclesColor, put=__set__obstaclesColor))  _obstaclesColor;
 
-constexpr void __set__obstaclesColor(::UnityEngine::Color value) ;
+constexpr void __set__obstaclesColor(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__obstaclesColor() const;
+constexpr UnityEngine::Color __get__obstaclesColor() const;
 
 
 // Properties
@@ -150,7 +149,7 @@ constexpr ::UnityEngine::Color __get__obstaclesColor() const;
 
  bool __declspec(property(get=get_inactiveByDefault, put=set_inactiveByDefault))  inactiveByDefault;
 
- ::GlobalNamespace::MockPlayerMovementType __declspec(property(get=get_movementType, put=set_movementType))  movementType;
+ GlobalNamespace::MockPlayerMovementType __declspec(property(get=get_movementType, put=set_movementType))  movementType;
 
  ::StringW __declspec(property(get=get_recodingFile, put=set_recodingFile))  recodingFile;
 
@@ -158,11 +157,11 @@ constexpr ::UnityEngine::Color __get__obstaclesColor() const;
 
  bool __declspec(property(get=get_leftHanded, put=set_leftHanded))  leftHanded;
 
- ::UnityEngine::Color __declspec(property(get=get_saberAColor, put=set_saberAColor))  saberAColor;
+ UnityEngine::Color __declspec(property(get=get_saberAColor, put=set_saberAColor))  saberAColor;
 
- ::UnityEngine::Color __declspec(property(get=get_saberBColor, put=set_saberBColor))  saberBColor;
+ UnityEngine::Color __declspec(property(get=get_saberBColor, put=set_saberBColor))  saberBColor;
 
- ::UnityEngine::Color __declspec(property(get=get_obstaclesColor, put=set_obstaclesColor))  obstaclesColor;
+ UnityEngine::Color __declspec(property(get=get_obstaclesColor, put=set_obstaclesColor))  obstaclesColor;
 
 
 // Methods
@@ -204,10 +203,10 @@ constexpr ::UnityEngine::Color __get__obstaclesColor() const;
  void set_inactiveByDefault(bool value) ;
 
 /// @brief Method get_movementType addr 0x20ef970 size 0x8 virtual false final false
- ::GlobalNamespace::MockPlayerMovementType get_movementType() ;
+ GlobalNamespace::MockPlayerMovementType get_movementType() ;
 
 /// @brief Method set_movementType addr 0x20ef978 size 0x8 virtual false final false
- void set_movementType(::GlobalNamespace::MockPlayerMovementType value) ;
+ void set_movementType(GlobalNamespace::MockPlayerMovementType value) ;
 
 /// @brief Method get_recodingFile addr 0x20ef980 size 0x8 virtual false final false
  ::StringW get_recodingFile() ;
@@ -228,22 +227,22 @@ constexpr ::UnityEngine::Color __get__obstaclesColor() const;
  void set_leftHanded(bool value) ;
 
 /// @brief Method get_saberAColor addr 0x20ef9b4 size 0xc virtual false final false
- ::UnityEngine::Color get_saberAColor() ;
+ UnityEngine::Color get_saberAColor() ;
 
 /// @brief Method set_saberAColor addr 0x20ef9c0 size 0xc virtual false final false
- void set_saberAColor(::UnityEngine::Color value) ;
+ void set_saberAColor(UnityEngine::Color value) ;
 
 /// @brief Method get_saberBColor addr 0x20ef9cc size 0xc virtual false final false
- ::UnityEngine::Color get_saberBColor() ;
+ UnityEngine::Color get_saberBColor() ;
 
 /// @brief Method set_saberBColor addr 0x20ef9d8 size 0xc virtual false final false
- void set_saberBColor(::UnityEngine::Color value) ;
+ void set_saberBColor(UnityEngine::Color value) ;
 
 /// @brief Method get_obstaclesColor addr 0x20ef9e4 size 0xc virtual false final false
- ::UnityEngine::Color get_obstaclesColor() ;
+ UnityEngine::Color get_obstaclesColor() ;
 
 /// @brief Method set_obstaclesColor addr 0x20ef9f0 size 0xc virtual false final false
- void set_obstaclesColor(::UnityEngine::Color value) ;
+ void set_obstaclesColor(UnityEngine::Color value) ;
 
 // Ctor Parameters []
 explicit MockPlayerSettings() ;
@@ -255,6 +254,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MockPlayerSettings);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlayerSettings, "", "MockPlayerSettings");
+NEED_NO_BOX(GlobalNamespace::MockPlayerSettings);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerSettings, "", "MockPlayerSettings");

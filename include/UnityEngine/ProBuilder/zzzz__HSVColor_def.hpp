@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -87,18 +86,17 @@ explicit HSVColor(float_t h, float_t s, float_t v, float_t sv_modifier) ;
  void _ctor(float_t h, float_t s, float_t v, float_t sv_modifier) ;
 
 /// @brief Method FromRGB addr 0x29a9928 size 0x7c virtual false final false
-static ::UnityEngine::ProBuilder::HSVColor FromRGB(::UnityEngine::Color col) ;
+static UnityEngine::ProBuilder::HSVColor FromRGB(UnityEngine::Color col) ;
 
 /// @brief Method ToString addr 0x29a9bc4 size 0xc4 virtual true final false
  ::StringW ToString() ;
 
 /// @brief Method SqrDistance addr 0x29a9c88 size 0x48 virtual false final false
- float_t SqrDistance(::UnityEngine::ProBuilder::HSVColor InColor) ;
+ float_t SqrDistance(UnityEngine::ProBuilder::HSVColor InColor) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::HSVColor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::HSVColor, "UnityEngine.ProBuilder", "HSVColor");
+NEED_NO_BOX(UnityEngine::ProBuilder::HSVColor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor, "UnityEngine.ProBuilder", "HSVColor");

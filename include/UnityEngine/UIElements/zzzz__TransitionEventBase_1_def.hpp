@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::UIElements {
-struct StylePropertyName;
-}
 namespace UnityEngine::UIElements {
 struct StylePropertyNameCollection;
+}
+namespace UnityEngine::UIElements {
+struct StylePropertyName;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,10 +23,10 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1636 }), TypeDefinitionIndex(TypeDefinitionIndex(7287))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1636 }), TypeDefinitionIndex(TypeDefinitionIndex(7287)), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7287), inst: 2 })
 // CS Name: UnityEngine.UIElements.TransitionEventBase`1
-class CORDL_TYPE TransitionEventBase_1<T> : public ::UnityEngine::UIElements::EventBase_1<T> {
+class CORDL_TYPE TransitionEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr TransitionEventBase_1(TransitionEventBase_1 const& ) noexcept = defaul
 constexpr TransitionEventBase_1(TransitionEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TransitionEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<T>(ptr) {
+constexpr explicit TransitionEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<T>(ptr) {
 }
 
 
@@ -63,11 +62,11 @@ constexpr explicit TransitionEventBase_1(void* ptr) noexcept : ::UnityEngine::UI
 
 // Fields
 
- ::UnityEngine::UIElements::StylePropertyNameCollection __declspec(property(get=__get__stylePropertyNames_k__BackingField, put=__set__stylePropertyNames_k__BackingField))  _stylePropertyNames_k__BackingField;
+ UnityEngine::UIElements::StylePropertyNameCollection __declspec(property(get=__get__stylePropertyNames_k__BackingField, put=__set__stylePropertyNames_k__BackingField))  _stylePropertyNames_k__BackingField;
 
-constexpr void __set__stylePropertyNames_k__BackingField(::UnityEngine::UIElements::StylePropertyNameCollection value) ;
+constexpr void __set__stylePropertyNames_k__BackingField(UnityEngine::UIElements::StylePropertyNameCollection value) ;
 
-constexpr ::UnityEngine::UIElements::StylePropertyNameCollection __get__stylePropertyNames_k__BackingField() const;
+constexpr UnityEngine::UIElements::StylePropertyNameCollection __get__stylePropertyNames_k__BackingField() const;
 
  double_t __declspec(property(get=__get__elapsedTime_k__BackingField, put=__set__elapsedTime_k__BackingField))  _elapsedTime_k__BackingField;
 
@@ -78,7 +77,7 @@ constexpr double_t __get__elapsedTime_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UIElements::StylePropertyNameCollection __declspec(property(get=get_stylePropertyNames))  stylePropertyNames;
+ UnityEngine::UIElements::StylePropertyNameCollection __declspec(property(get=get_stylePropertyNames))  stylePropertyNames;
 
  double_t __declspec(property(put=set_elapsedTime))  elapsedTime;
 
@@ -86,7 +85,7 @@ constexpr double_t __get__elapsedTime_k__BackingField() const;
 // Methods
 
 /// @brief Method get_stylePropertyNames addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::UIElements::StylePropertyNameCollection get_stylePropertyNames() ;
+ UnityEngine::UIElements::StylePropertyNameCollection get_stylePropertyNames() ;
 
 /// @brief Method set_elapsedTime addr 0x0 size 0xffffffffffffffff virtual false final false
  void set_elapsedTime(double_t value) ;
@@ -104,11 +103,10 @@ explicit TransitionEventBase_1() ;
  void LocalInit() ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::StylePropertyName stylePropertyName, double_t elapsedTime) ;
+static T GetPooled(UnityEngine::UIElements::StylePropertyName stylePropertyName, double_t elapsedTime) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::TransitionEventBase_1, "UnityEngine.UIElements", "TransitionEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::TransitionEventBase_1, "UnityEngine.UIElements", "TransitionEventBase`1");

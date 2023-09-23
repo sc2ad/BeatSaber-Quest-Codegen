@@ -1,21 +1,20 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
+class INodePoseSyncStateManager;
 }
 namespace GlobalNamespace {
 class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
-}
-namespace GlobalNamespace {
 class ILobbyGameStateController;
 }
 namespace GlobalNamespace {
-class INodePoseSyncStateManager;
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class ILobbyPlayersDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,35 +62,35 @@ constexpr explicit LobbyDataModelsManager(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
+ GlobalNamespace::ILobbyStateDataModel __declspec(property(get=__get__lobbyStateDataModel, put=__set__lobbyStateDataModel))  _lobbyStateDataModel;
 
-constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel value) ;
+constexpr void __set__lobbyStateDataModel(GlobalNamespace::ILobbyStateDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
+constexpr GlobalNamespace::ILobbyStateDataModel __get__lobbyStateDataModel() const;
 
- ::GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
+ GlobalNamespace::ILobbyPlayersDataModel __declspec(property(get=__get__lobbyPlayersDataModel, put=__set__lobbyPlayersDataModel))  _lobbyPlayersDataModel;
 
-constexpr void __set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel value) ;
+constexpr void __set__lobbyPlayersDataModel(GlobalNamespace::ILobbyPlayersDataModel value) ;
 
-constexpr ::GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
+constexpr GlobalNamespace::ILobbyPlayersDataModel __get__lobbyPlayersDataModel() const;
 
- ::GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
+ GlobalNamespace::ILobbyGameStateController __declspec(property(get=__get__lobbyGameStateController, put=__set__lobbyGameStateController))  _lobbyGameStateController;
 
-constexpr void __set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController value) ;
+constexpr void __set__lobbyGameStateController(GlobalNamespace::ILobbyGameStateController value) ;
 
-constexpr ::GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
+constexpr GlobalNamespace::ILobbyGameStateController __get__lobbyGameStateController() const;
 
- ::GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
+ GlobalNamespace::INodePoseSyncStateManager __declspec(property(get=__get__nodePoseSyncStateManager, put=__set__nodePoseSyncStateManager))  _nodePoseSyncStateManager;
 
-constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager value) ;
+constexpr void __set__nodePoseSyncStateManager(GlobalNamespace::INodePoseSyncStateManager value) ;
 
-constexpr ::GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
+constexpr GlobalNamespace::INodePoseSyncStateManager __get__nodePoseSyncStateManager() const;
 
- ::GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
+ GlobalNamespace::LobbyPlayerPermissionsModel __declspec(property(get=__get__lobbyPlayerPermissionsModel, put=__set__lobbyPlayerPermissionsModel))  _lobbyPlayerPermissionsModel;
 
-constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel value) ;
+constexpr void __set__lobbyPlayerPermissionsModel(GlobalNamespace::LobbyPlayerPermissionsModel value) ;
 
-constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
+constexpr GlobalNamespace::LobbyPlayerPermissionsModel __get__lobbyPlayerPermissionsModel() const;
 
 
 // Methods
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LobbyDataModelsManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LobbyDataModelsManager, "", "LobbyDataModelsManager");
+NEED_NO_BOX(GlobalNamespace::LobbyDataModelsManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyDataModelsManager, "", "LobbyDataModelsManager");

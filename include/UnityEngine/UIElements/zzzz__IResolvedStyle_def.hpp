@@ -2,27 +2,26 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector3;
+}
 namespace UnityEngine::UIElements {
-struct Visibility;
+struct WhiteSpace;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
 }
 namespace UnityEngine::UIElements {
 struct StyleFloat;
 }
 namespace UnityEngine::UIElements {
-struct WhiteSpace;
+struct DisplayStyle;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine::UIElements {
-struct DisplayStyle;
-}
-namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Visibility;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,9 +45,9 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_backgroundColor))  backgroundColor;
+ UnityEngine::Color __declspec(property(get=get_backgroundColor))  backgroundColor;
 
- ::UnityEngine::Color __declspec(property(get=get_borderBottomColor))  borderBottomColor;
+ UnityEngine::Color __declspec(property(get=get_borderBottomColor))  borderBottomColor;
 
  float_t __declspec(property(get=get_borderBottomLeftRadius))  borderBottomLeftRadius;
 
@@ -56,15 +55,15 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 
  float_t __declspec(property(get=get_borderBottomWidth))  borderBottomWidth;
 
- ::UnityEngine::Color __declspec(property(get=get_borderLeftColor))  borderLeftColor;
+ UnityEngine::Color __declspec(property(get=get_borderLeftColor))  borderLeftColor;
 
  float_t __declspec(property(get=get_borderLeftWidth))  borderLeftWidth;
 
- ::UnityEngine::Color __declspec(property(get=get_borderRightColor))  borderRightColor;
+ UnityEngine::Color __declspec(property(get=get_borderRightColor))  borderRightColor;
 
  float_t __declspec(property(get=get_borderRightWidth))  borderRightWidth;
 
- ::UnityEngine::Color __declspec(property(get=get_borderTopColor))  borderTopColor;
+ UnityEngine::Color __declspec(property(get=get_borderTopColor))  borderTopColor;
 
  float_t __declspec(property(get=get_borderTopLeftRadius))  borderTopLeftRadius;
 
@@ -74,9 +73,9 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 
  float_t __declspec(property(get=get_bottom))  bottom;
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
- ::UnityEngine::UIElements::DisplayStyle __declspec(property(get=get_display))  display;
+ UnityEngine::UIElements::DisplayStyle __declspec(property(get=get_display))  display;
 
  float_t __declspec(property(get=get_flexGrow))  flexGrow;
 
@@ -94,9 +93,9 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 
  float_t __declspec(property(get=get_marginTop))  marginTop;
 
- ::UnityEngine::UIElements::StyleFloat __declspec(property(get=get_minHeight))  minHeight;
+ UnityEngine::UIElements::StyleFloat __declspec(property(get=get_minHeight))  minHeight;
 
- ::UnityEngine::UIElements::StyleFloat __declspec(property(get=get_minWidth))  minWidth;
+ UnityEngine::UIElements::StyleFloat __declspec(property(get=get_minWidth))  minWidth;
 
  float_t __declspec(property(get=get_opacity))  opacity;
 
@@ -110,27 +109,27 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 
  float_t __declspec(property(get=get_right))  right;
 
- ::UnityEngine::UIElements::Scale __declspec(property(get=get_scale))  scale;
+ UnityEngine::UIElements::Scale __declspec(property(get=get_scale))  scale;
 
  float_t __declspec(property(get=get_top))  top;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_transformOrigin))  transformOrigin;
+ UnityEngine::Vector3 __declspec(property(get=get_transformOrigin))  transformOrigin;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_translate))  translate;
+ UnityEngine::Vector3 __declspec(property(get=get_translate))  translate;
 
- ::UnityEngine::Color __declspec(property(get=get_unityBackgroundImageTintColor))  unityBackgroundImageTintColor;
+ UnityEngine::Color __declspec(property(get=get_unityBackgroundImageTintColor))  unityBackgroundImageTintColor;
 
  int32_t __declspec(property(get=get_unitySliceLeft))  unitySliceLeft;
 
  int32_t __declspec(property(get=get_unitySliceRight))  unitySliceRight;
 
- ::UnityEngine::Color __declspec(property(get=get_unityTextOutlineColor))  unityTextOutlineColor;
+ UnityEngine::Color __declspec(property(get=get_unityTextOutlineColor))  unityTextOutlineColor;
 
  float_t __declspec(property(get=get_unityTextOutlineWidth))  unityTextOutlineWidth;
 
- ::UnityEngine::UIElements::Visibility __declspec(property(get=get_visibility))  visibility;
+ UnityEngine::UIElements::Visibility __declspec(property(get=get_visibility))  visibility;
 
- ::UnityEngine::UIElements::WhiteSpace __declspec(property(get=get_whiteSpace))  whiteSpace;
+ UnityEngine::UIElements::WhiteSpace __declspec(property(get=get_whiteSpace))  whiteSpace;
 
  float_t __declspec(property(get=get_width))  width;
 
@@ -138,10 +137,10 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
 // Methods
 
 /// @brief Method get_backgroundColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_backgroundColor() ;
+ UnityEngine::Color get_backgroundColor() ;
 
 /// @brief Method get_borderBottomColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_borderBottomColor() ;
+ UnityEngine::Color get_borderBottomColor() ;
 
 /// @brief Method get_borderBottomLeftRadius addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_borderBottomLeftRadius() ;
@@ -153,19 +152,19 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
  float_t get_borderBottomWidth() ;
 
 /// @brief Method get_borderLeftColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_borderLeftColor() ;
+ UnityEngine::Color get_borderLeftColor() ;
 
 /// @brief Method get_borderLeftWidth addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_borderLeftWidth() ;
 
 /// @brief Method get_borderRightColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_borderRightColor() ;
+ UnityEngine::Color get_borderRightColor() ;
 
 /// @brief Method get_borderRightWidth addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_borderRightWidth() ;
 
 /// @brief Method get_borderTopColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_borderTopColor() ;
+ UnityEngine::Color get_borderTopColor() ;
 
 /// @brief Method get_borderTopLeftRadius addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_borderTopLeftRadius() ;
@@ -180,10 +179,10 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
  float_t get_bottom() ;
 
 /// @brief Method get_color addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method get_display addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::DisplayStyle get_display() ;
+ UnityEngine::UIElements::DisplayStyle get_display() ;
 
 /// @brief Method get_flexGrow addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_flexGrow() ;
@@ -210,10 +209,10 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
  float_t get_marginTop() ;
 
 /// @brief Method get_minHeight addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::StyleFloat get_minHeight() ;
+ UnityEngine::UIElements::StyleFloat get_minHeight() ;
 
 /// @brief Method get_minWidth addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::StyleFloat get_minWidth() ;
+ UnityEngine::UIElements::StyleFloat get_minWidth() ;
 
 /// @brief Method get_opacity addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_opacity() ;
@@ -234,19 +233,19 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
  float_t get_right() ;
 
 /// @brief Method get_scale addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::Scale get_scale() ;
+ UnityEngine::UIElements::Scale get_scale() ;
 
 /// @brief Method get_top addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_top() ;
 
 /// @brief Method get_transformOrigin addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 get_transformOrigin() ;
+ UnityEngine::Vector3 get_transformOrigin() ;
 
 /// @brief Method get_translate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Vector3 get_translate() ;
+ UnityEngine::Vector3 get_translate() ;
 
 /// @brief Method get_unityBackgroundImageTintColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_unityBackgroundImageTintColor() ;
+ UnityEngine::Color get_unityBackgroundImageTintColor() ;
 
 /// @brief Method get_unitySliceLeft addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_unitySliceLeft() ;
@@ -255,16 +254,16 @@ constexpr explicit IResolvedStyle(void* ptr) noexcept : ::cordl_internals::Inter
  int32_t get_unitySliceRight() ;
 
 /// @brief Method get_unityTextOutlineColor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Color get_unityTextOutlineColor() ;
+ UnityEngine::Color get_unityTextOutlineColor() ;
 
 /// @brief Method get_unityTextOutlineWidth addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_unityTextOutlineWidth() ;
 
 /// @brief Method get_visibility addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::Visibility get_visibility() ;
+ UnityEngine::UIElements::Visibility get_visibility() ;
 
 /// @brief Method get_whiteSpace addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::WhiteSpace get_whiteSpace() ;
+ UnityEngine::UIElements::WhiteSpace get_whiteSpace() ;
 
 /// @brief Method get_width addr 0x0 size 0xffffffffffffffff virtual true final false
  float_t get_width() ;
@@ -273,6 +272,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IResolvedStyle);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IResolvedStyle, "UnityEngine.UIElements", "IResolvedStyle");
+NEED_NO_BOX(UnityEngine::UIElements::IResolvedStyle);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IResolvedStyle, "UnityEngine.UIElements", "IResolvedStyle");

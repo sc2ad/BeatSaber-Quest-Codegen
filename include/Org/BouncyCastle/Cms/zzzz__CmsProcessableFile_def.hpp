@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Cms {
-class CmsProcessable;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
 }
 namespace System::IO {
 class Stream;
@@ -28,11 +27,11 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsProcessableFile : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Cms::CmsProcessable
-constexpr operator  ::Org::BouncyCastle::Cms::CmsProcessable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Cms::CmsProcessable
+constexpr operator  Org::BouncyCastle::Cms::CmsProcessable() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Cms::CmsReadable
-constexpr operator  ::Org::BouncyCastle::Cms::CmsReadable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Cms::CmsReadable
+constexpr operator  Org::BouncyCastle::Cms::CmsReadable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -70,11 +69,11 @@ constexpr explicit CmsProcessableFile(void* ptr) noexcept : ::bs_hook::Il2CppWra
 /// @brief Field DefaultBufSize offset 0
 static constexpr int32_t  DefaultBufSize{32768};
 
- ::System::IO::FileInfo __declspec(property(get=__get__file, put=__set__file))  _file;
+ System::IO::FileInfo __declspec(property(get=__get__file, put=__set__file))  _file;
 
-constexpr void __set__file(::System::IO::FileInfo value) ;
+constexpr void __set__file(System::IO::FileInfo value) ;
 
-constexpr ::System::IO::FileInfo __get__file() const;
+constexpr System::IO::FileInfo __get__file() const;
 
  int32_t __declspec(property(get=__get__bufSize, put=__set__bufSize))  _bufSize;
 
@@ -85,23 +84,23 @@ constexpr int32_t __get__bufSize() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "file", ty: "::System::IO::FileInfo", modifiers: "", def_value: None }]
-explicit CmsProcessableFile(::System::IO::FileInfo file) ;
+// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }]
+explicit CmsProcessableFile(System::IO::FileInfo file) ;
 
 /// @brief Method .ctor addr 0x1159fdc size 0x30 virtual false final false
- void _ctor(::System::IO::FileInfo file) ;
+ void _ctor(System::IO::FileInfo file) ;
 
-// Ctor Parameters [CppParam { name: "file", ty: "::System::IO::FileInfo", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CmsProcessableFile(::System::IO::FileInfo file, int32_t bufSize) ;
+// Ctor Parameters [CppParam { name: "file", ty: "System::IO::FileInfo", modifiers: "", def_value: None }, CppParam { name: "bufSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit CmsProcessableFile(System::IO::FileInfo file, int32_t bufSize) ;
 
 /// @brief Method .ctor addr 0x115a00c size 0x30 virtual false final false
- void _ctor(::System::IO::FileInfo file, int32_t bufSize) ;
+ void _ctor(System::IO::FileInfo file, int32_t bufSize) ;
 
 /// @brief Method GetInputStream addr 0x115a03c size 0x94 virtual true final false
- ::System::IO::Stream GetInputStream() ;
+ System::IO::Stream GetInputStream() ;
 
 /// @brief Method Write addr 0x115a0d0 size 0x84 virtual true final false
- void Write(::System::IO::Stream zOut) ;
+ void Write(System::IO::Stream zOut) ;
 
 /// @brief Method GetContent addr 0x115a154 size 0x8 virtual true final false
  ::bs_hook::Il2CppWrapperType GetContent() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsProcessableFile);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsProcessableFile, "Org.BouncyCastle.Cms", "CmsProcessableFile");
+NEED_NO_BOX(Org::BouncyCastle::Cms::CmsProcessableFile);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::CmsProcessableFile, "Org.BouncyCastle.Cms", "CmsProcessableFile");

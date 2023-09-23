@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class IAsyncResult;
 }
@@ -26,10 +25,10 @@ namespace Newtonsoft::Json::Serialization {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11907)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(11907))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11907), inst: 2 })
 // CS Name: Newtonsoft.Json.Serialization.ObjectConstructor`1
-class CORDL_TYPE ObjectConstructor_1<T> : public ::System::MulticastDelegate {
+class CORDL_TYPE ObjectConstructor_1<T> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr ObjectConstructor_1(ObjectConstructor_1 const& ) noexcept = default;
 constexpr ObjectConstructor_1(ObjectConstructor_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObjectConstructor_1(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ObjectConstructor_1(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -75,14 +74,13 @@ explicit ObjectConstructor_1(::bs_hook::Il2CppWrapperType object, ::cordl_intern
  ::bs_hook::Il2CppWrapperType Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::IAsyncResult BeginInvoke(::ArrayW<::bs_hook::Il2CppWrapperType> args, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(::ArrayW<::bs_hook::Il2CppWrapperType> args, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType EndInvoke(::System::IAsyncResult result) ;
+ ::bs_hook::Il2CppWrapperType EndInvoke(System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Newtonsoft::Json::Serialization::ObjectConstructor_1, "Newtonsoft.Json.Serialization", "ObjectConstructor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Newtonsoft::Json::Serialization::ObjectConstructor_1, "Newtonsoft.Json.Serialization", "ObjectConstructor`1");

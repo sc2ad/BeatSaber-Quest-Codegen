@@ -3,7 +3,6 @@
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
@@ -18,7 +17,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15860))
 // CS Name: UnityEngine.AssetFileNameExtensionAttribute
-class CORDL_TYPE AssetFileNameExtensionAttribute : public ::System::Attribute {
+class CORDL_TYPE AssetFileNameExtensionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr AssetFileNameExtensionAttribute(AssetFileNameExtensionAttribute const&
 constexpr AssetFileNameExtensionAttribute(AssetFileNameExtensionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetFileNameExtensionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AssetFileNameExtensionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr void __set__preferredExtension_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__preferredExtension_k__BackingField() const;
 
- ::System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=__get__otherExtensions_k__BackingField, put=__set__otherExtensions_k__BackingField))  _otherExtensions_k__BackingField;
+ System::Collections::Generic::IEnumerable_1<::StringW> __declspec(property(get=__get__otherExtensions_k__BackingField, put=__set__otherExtensions_k__BackingField))  _otherExtensions_k__BackingField;
 
-constexpr void __set__otherExtensions_k__BackingField(::System::Collections::Generic::IEnumerable_1<::StringW> value) ;
+constexpr void __set__otherExtensions_k__BackingField(System::Collections::Generic::IEnumerable_1<::StringW> value) ;
 
-constexpr ::System::Collections::Generic::IEnumerable_1<::StringW> __get__otherExtensions_k__BackingField() const;
+constexpr System::Collections::Generic::IEnumerable_1<::StringW> __get__otherExtensions_k__BackingField() const;
 
 
 // Methods
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AssetFileNameExtensionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetFileNameExtensionAttribute, "UnityEngine", "AssetFileNameExtensionAttribute");
+NEED_NO_BOX(UnityEngine::AssetFileNameExtensionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetFileNameExtensionAttribute, "UnityEngine", "AssetFileNameExtensionAttribute");

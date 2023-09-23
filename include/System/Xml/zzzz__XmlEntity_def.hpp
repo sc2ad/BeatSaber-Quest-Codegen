@@ -2,15 +2,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System::Xml {
+class XmlLinkedNode;
+}
 namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlNode;
-}
-namespace System::Xml {
-class XmlLinkedNode;
 }
 namespace System::Xml {
 class XmlDocument;
@@ -25,7 +24,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11462))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11451))
 // CS Name: System.Xml.XmlEntity
-class CORDL_TYPE XmlEntity : public ::System::Xml::XmlNode {
+class CORDL_TYPE XmlEntity : public System::Xml::XmlNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr XmlEntity(XmlEntity const& ) noexcept = default;
 constexpr XmlEntity(XmlEntity&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlEntity(void* ptr) noexcept : ::System::Xml::XmlNode(ptr) {
+constexpr explicit XmlEntity(void* ptr) noexcept : System::Xml::XmlNode(ptr) {
 }
 
 
@@ -97,11 +96,11 @@ constexpr void __set_baseURI(::StringW value) ;
 
 constexpr ::StringW __get_baseURI() const;
 
- ::System::Xml::XmlLinkedNode __declspec(property(get=__get_lastChild, put=__set_lastChild))  lastChild;
+ System::Xml::XmlLinkedNode __declspec(property(get=__get_lastChild, put=__set_lastChild))  lastChild;
 
-constexpr void __set_lastChild(::System::Xml::XmlLinkedNode value) ;
+constexpr void __set_lastChild(System::Xml::XmlLinkedNode value) ;
 
-constexpr ::System::Xml::XmlLinkedNode __get_lastChild() const;
+constexpr System::Xml::XmlLinkedNode __get_lastChild() const;
 
  bool __declspec(property(get=__get_childrenFoliating, put=__set_childrenFoliating))  childrenFoliating;
 
@@ -122,9 +121,9 @@ constexpr bool __get_childrenFoliating() const;
 
  bool __declspec(property(get=get_IsContainer))  IsContainer;
 
- ::System::Xml::XmlLinkedNode __declspec(property(get=get_LastNode, put=set_LastNode))  LastNode;
+ System::Xml::XmlLinkedNode __declspec(property(get=get_LastNode, put=set_LastNode))  LastNode;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_SystemId))  SystemId;
 
@@ -135,14 +134,14 @@ constexpr bool __get_childrenFoliating() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strdata", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlEntity(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "strdata", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "publicId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "systemId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "notationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlEntity(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f5a4c size 0x80 virtual false final false
- void _ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, System::Xml::XmlDocument doc) ;
 
 /// @brief Method CloneNode addr 0x26f5b50 size 0x60 virtual true final false
- ::System::Xml::XmlNode CloneNode(bool deep) ;
+ System::Xml::XmlNode CloneNode(bool deep) ;
 
 /// @brief Method get_IsReadOnly addr 0x26f5bb0 size 0x8 virtual true final false
  bool get_IsReadOnly() ;
@@ -163,16 +162,16 @@ explicit XmlEntity(::StringW name, ::StringW strdata, ::StringW publicId, ::Stri
  bool get_IsContainer() ;
 
 /// @brief Method get_LastNode addr 0x26f5c34 size 0x8c virtual true final false
- ::System::Xml::XmlLinkedNode get_LastNode() ;
+ System::Xml::XmlLinkedNode get_LastNode() ;
 
 /// @brief Method set_LastNode addr 0x26f5d0c size 0x8 virtual true final false
- void set_LastNode(::System::Xml::XmlLinkedNode value) ;
+ void set_LastNode(System::Xml::XmlLinkedNode value) ;
 
 /// @brief Method IsValidChildType addr 0x26f5d14 size 0x3c virtual true final false
- bool IsValidChildType(::System::Xml::XmlNodeType type) ;
+ bool IsValidChildType(System::Xml::XmlNodeType type) ;
 
 /// @brief Method get_NodeType addr 0x26f5d50 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_SystemId addr 0x26f5d58 size 0x8 virtual false final false
  ::StringW get_SystemId() ;
@@ -190,6 +189,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlEntity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlEntity, "System.Xml", "XmlEntity");
+NEED_NO_BOX(System::Xml::XmlEntity);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEntity, "System.Xml", "XmlEntity");

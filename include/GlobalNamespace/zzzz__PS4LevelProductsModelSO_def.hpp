@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SonyLevelProductsModelSO_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class PS4LevelProductsModelSO;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4679))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4638))
 // CS Name: PS4LevelProductsModelSO
-class CORDL_TYPE PS4LevelProductsModelSO : public ::GlobalNamespace::SonyLevelProductsModelSO {
+class CORDL_TYPE PS4LevelProductsModelSO : public GlobalNamespace::SonyLevelProductsModelSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PS4LevelProductsModelSO(PS4LevelProductsModelSO const& ) noexcept = de
 constexpr PS4LevelProductsModelSO(PS4LevelProductsModelSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PS4LevelProductsModelSO(void* ptr) noexcept : ::GlobalNamespace::SonyLevelProductsModelSO(ptr) {
+constexpr explicit PS4LevelProductsModelSO(void* ptr) noexcept : GlobalNamespace::SonyLevelProductsModelSO(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PS4LevelProductsModelSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PS4LevelProductsModelSO, "", "PS4LevelProductsModelSO");
+NEED_NO_BOX(GlobalNamespace::PS4LevelProductsModelSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LevelProductsModelSO, "", "PS4LevelProductsModelSO");

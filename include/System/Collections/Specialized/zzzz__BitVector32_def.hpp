@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Collections::Specialized {
 struct BitVector32;
@@ -85,7 +84,7 @@ static int32_t CreateMask(int32_t previous) ;
  int32_t GetHashCode() ;
 
 /// @brief Method ToString addr 0x27a8cec size 0xd0 virtual false final false
-static ::StringW ToString(::System::Collections::Specialized::BitVector32 value) ;
+static ::StringW ToString(System::Collections::Specialized::BitVector32 value) ;
 
 /// @brief Method ToString addr 0x27a8dbc size 0x8 virtual true final false
  ::StringW ToString() ;
@@ -94,5 +93,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Collections::Specialized
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::BitVector32, "System.Collections.Specialized", "BitVector32");
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::BitVector32, "System.Collections.Specialized", "BitVector32");

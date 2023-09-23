@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,12 +36,11 @@ constexpr explicit ISubContainerCreator(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method CreateSubContainer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Zenject::DiContainer CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ::Zenject::InjectContext context) ;
+ Zenject::DiContainer CreateSubContainer(System::Collections::Generic::List_1<Zenject::TypeValuePair> args, Zenject::InjectContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ISubContainerCreator);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ISubContainerCreator, "Zenject", "ISubContainerCreator");
+NEED_NO_BOX(Zenject::ISubContainerCreator);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ISubContainerCreator, "Zenject", "ISubContainerCreator");

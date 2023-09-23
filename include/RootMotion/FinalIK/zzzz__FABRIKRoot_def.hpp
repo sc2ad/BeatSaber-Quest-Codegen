@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "RootMotion/FinalIK/zzzz__IK_def.hpp"
-namespace {
 namespace RootMotion::FinalIK {
 class IKSolverFABRIKRoot;
 }
@@ -18,7 +17,7 @@ namespace RootMotion::FinalIK {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12478))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12476))
 // CS Name: RootMotion.FinalIK.FABRIKRoot
-class CORDL_TYPE FABRIKRoot : public ::RootMotion::FinalIK::IK {
+class CORDL_TYPE FABRIKRoot : public RootMotion::FinalIK::IK {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr FABRIKRoot(FABRIKRoot const& ) noexcept = default;
 constexpr FABRIKRoot(FABRIKRoot&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FABRIKRoot(void* ptr) noexcept : ::RootMotion::FinalIK::IK(ptr) {
+constexpr explicit FABRIKRoot(void* ptr) noexcept : RootMotion::FinalIK::IK(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit FABRIKRoot(void* ptr) noexcept : ::RootMotion::FinalIK::IK(pt
 
 // Fields
 
- ::RootMotion::FinalIK::IKSolverFABRIKRoot __declspec(property(get=__get_solver, put=__set_solver))  solver;
+ RootMotion::FinalIK::IKSolverFABRIKRoot __declspec(property(get=__get_solver, put=__set_solver))  solver;
 
-constexpr void __set_solver(::RootMotion::FinalIK::IKSolverFABRIKRoot value) ;
+constexpr void __set_solver(RootMotion::FinalIK::IKSolverFABRIKRoot value) ;
 
-constexpr ::RootMotion::FinalIK::IKSolverFABRIKRoot __get_solver() const;
+constexpr RootMotion::FinalIK::IKSolverFABRIKRoot __get_solver() const;
 
 
 // Methods
@@ -76,7 +75,7 @@ constexpr ::RootMotion::FinalIK::IKSolverFABRIKRoot __get_solver() const;
  void ASThread() ;
 
 /// @brief Method GetIKSolver addr 0x11c4454 size 0x8 virtual true final false
- ::RootMotion::FinalIK::IKSolver GetIKSolver() ;
+ RootMotion::FinalIK::IKSolver GetIKSolver() ;
 
 // Ctor Parameters []
 explicit FABRIKRoot() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion::FinalIK
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::FinalIK::FABRIKRoot);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::FinalIK::FABRIKRoot, "RootMotion.FinalIK", "FABRIKRoot");
+NEED_NO_BOX(RootMotion::FinalIK::FABRIKRoot);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKRoot, "RootMotion.FinalIK", "FABRIKRoot");

@@ -2,21 +2,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace HMUI {
-class HoverTextController;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
 }
+namespace HMUI {
+class HoverTextController;
+}
 namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace HMUI {
@@ -28,17 +27,17 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13597))
 // CS Name: HMUI.HoverTextSetter
-class CORDL_TYPE HoverTextSetter : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE HoverTextSetter : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerEnterHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerEnterHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerEnterHandler
+constexpr operator  UnityEngine::EventSystems::IPointerEnterHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerExitHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerExitHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerExitHandler
+constexpr operator  UnityEngine::EventSystems::IPointerExitHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -52,7 +51,7 @@ constexpr HoverTextSetter(HoverTextSetter const& ) noexcept = default;
 constexpr HoverTextSetter(HoverTextSetter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HoverTextSetter(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit HoverTextSetter(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -73,11 +72,11 @@ constexpr explicit HoverTextSetter(void* ptr) noexcept : ::UnityEngine::MonoBeha
 
 // Fields
 
- ::HMUI::HoverTextController __declspec(property(get=__get__hoverTextController, put=__set__hoverTextController))  _hoverTextController;
+ HMUI::HoverTextController __declspec(property(get=__get__hoverTextController, put=__set__hoverTextController))  _hoverTextController;
 
-constexpr void __set__hoverTextController(::HMUI::HoverTextController value) ;
+constexpr void __set__hoverTextController(HMUI::HoverTextController value) ;
 
-constexpr ::HMUI::HoverTextController __get__hoverTextController() const;
+constexpr HMUI::HoverTextController __get__hoverTextController() const;
 
  ::StringW __declspec(property(get=__get__text, put=__set__text))  _text;
 
@@ -100,10 +99,10 @@ constexpr ::StringW __get__text() const;
  void set_text(::StringW value) ;
 
 /// @brief Method OnPointerEnter addr 0x1fabb0c size 0x20 virtual true final true
- void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerEnter(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerExit addr 0x1fabb2c size 0x18 virtual true final true
- void OnPointerExit(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerExit(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDisable addr 0x1fabb44 size 0x18 virtual false final false
  void OnDisable() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::HoverTextSetter);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::HoverTextSetter, "HMUI", "HoverTextSetter");
+NEED_NO_BOX(HMUI::HoverTextSetter);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextSetter, "HMUI", "HoverTextSetter");

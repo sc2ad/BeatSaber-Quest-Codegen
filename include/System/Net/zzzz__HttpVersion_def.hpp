@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Version;
 }
@@ -51,29 +50,29 @@ constexpr explicit HttpVersion(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
-static ::System::Version __declspec(property(get=__get_Unknown, put=__set_Unknown))  Unknown;
+static System::Version __declspec(property(get=__get_Unknown, put=__set_Unknown))  Unknown;
 
-static void __set_Unknown(::System::Version value) ;
+static void __set_Unknown(System::Version value) ;
 
-static ::System::Version __get_Unknown() ;
+static System::Version __get_Unknown() ;
 
-static ::System::Version __declspec(property(get=__get_Version10, put=__set_Version10))  Version10;
+static System::Version __declspec(property(get=__get_Version10, put=__set_Version10))  Version10;
 
-static void __set_Version10(::System::Version value) ;
+static void __set_Version10(System::Version value) ;
 
-static ::System::Version __get_Version10() ;
+static System::Version __get_Version10() ;
 
-static ::System::Version __declspec(property(get=__get_Version11, put=__set_Version11))  Version11;
+static System::Version __declspec(property(get=__get_Version11, put=__set_Version11))  Version11;
 
-static void __set_Version11(::System::Version value) ;
+static void __set_Version11(System::Version value) ;
 
-static ::System::Version __get_Version11() ;
+static System::Version __get_Version11() ;
 
-static ::System::Version __declspec(property(get=__get_Version20, put=__set_Version20))  Version20;
+static System::Version __declspec(property(get=__get_Version20, put=__set_Version20))  Version20;
 
-static void __set_Version20(::System::Version value) ;
+static void __set_Version20(System::Version value) ;
 
-static ::System::Version __get_Version20() ;
+static System::Version __get_Version20() ;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::HttpVersion);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpVersion, "System.Net", "HttpVersion");
+NEED_NO_BOX(System::Net::HttpVersion);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpVersion, "System.Net", "HttpVersion");

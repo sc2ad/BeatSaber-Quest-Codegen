@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Reflection {
 class MethodInfo;
 }
-namespace UnityEngine::Events {
-class BaseInvokableCall;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Events {
+class BaseInvokableCall;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -29,10 +28,10 @@ namespace UnityEngine::Events {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T0,::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10405)), TypeDefinitionIndex(TypeDefinitionIndex(10397))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10397)), TypeDefinitionIndex(TypeDefinitionIndex(10405))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10405), inst: 5937 })
 // CS Name: UnityEngine.Events.UnityEvent`4
-class CORDL_TYPE UnityEvent_4<T0,T1,T2,T3> : public ::UnityEngine::Events::UnityEventBase {
+class CORDL_TYPE UnityEvent_4<T0,T1,T2,T3> : public UnityEngine::Events::UnityEventBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -47,7 +46,7 @@ constexpr UnityEvent_4(UnityEvent_4 const& ) noexcept = default;
 constexpr UnityEvent_4(UnityEvent_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityEvent_4(void* ptr) noexcept : ::UnityEngine::Events::UnityEventBase(ptr) {
+constexpr explicit UnityEvent_4(void* ptr) noexcept : UnityEngine::Events::UnityEventBase(ptr) {
 }
 
 
@@ -84,14 +83,13 @@ explicit UnityEvent_4() ;
  void _ctor() ;
 
 /// @brief Method FindMethod_Impl addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Reflection::MethodInfo FindMethod_Impl(::StringW name, ::System::Type targetObjType) ;
+ System::Reflection::MethodInfo FindMethod_Impl(::StringW name, System::Type targetObjType) ;
 
 /// @brief Method GetDelegate addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo theFunction) ;
+ UnityEngine::Events::BaseInvokableCall GetDelegate(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo theFunction) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Events::UnityEvent_4, "UnityEngine.Events", "UnityEvent`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::Events::UnityEvent_4, "UnityEngine.Events", "UnityEvent`4");

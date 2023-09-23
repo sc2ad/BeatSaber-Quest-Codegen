@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
-class XmlWriterSettings;
+struct XmlStandalone;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Xml {
-struct XmlStandalone;
+class XmlWriterSettings;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,7 +23,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11417))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11386))
 // CS Name: System.Xml.TextUtf8RawTextWriter
-class CORDL_TYPE TextUtf8RawTextWriter : public ::System::Xml::XmlUtf8RawTextWriter {
+class CORDL_TYPE TextUtf8RawTextWriter : public System::Xml::XmlUtf8RawTextWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr TextUtf8RawTextWriter(TextUtf8RawTextWriter const& ) noexcept = defaul
 constexpr TextUtf8RawTextWriter(TextUtf8RawTextWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextUtf8RawTextWriter(void* ptr) noexcept : ::System::Xml::XmlUtf8RawTextWriter(ptr) {
+constexpr explicit TextUtf8RawTextWriter(void* ptr) noexcept : System::Xml::XmlUtf8RawTextWriter(ptr) {
 }
 
 
@@ -65,14 +64,14 @@ constexpr explicit TextUtf8RawTextWriter(void* ptr) noexcept : ::System::Xml::Xm
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "stream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit TextUtf8RawTextWriter(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "stream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit TextUtf8RawTextWriter(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c2230 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream stream, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::IO::Stream stream, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c2238 size 0x4 virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c223c size 0x4 virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::TextUtf8RawTextWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::TextUtf8RawTextWriter, "System.Xml", "TextUtf8RawTextWriter");
+NEED_NO_BOX(System::Xml::TextUtf8RawTextWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::TextUtf8RawTextWriter, "System.Xml", "TextUtf8RawTextWriter");

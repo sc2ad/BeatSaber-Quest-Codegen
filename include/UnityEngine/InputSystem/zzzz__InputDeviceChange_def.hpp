@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Added offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Added;
+static UnityEngine::InputSystem::InputDeviceChange const Added;
 
 /// @brief Field Removed offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Removed;
+static UnityEngine::InputSystem::InputDeviceChange const Removed;
 
 /// @brief Field Disconnected offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Disconnected;
+static UnityEngine::InputSystem::InputDeviceChange const Disconnected;
 
 /// @brief Field Reconnected offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Reconnected;
+static UnityEngine::InputSystem::InputDeviceChange const Reconnected;
 
 /// @brief Field Enabled offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Enabled;
+static UnityEngine::InputSystem::InputDeviceChange const Enabled;
 
 /// @brief Field Disabled offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Disabled;
+static UnityEngine::InputSystem::InputDeviceChange const Disabled;
 
 /// @brief Field UsageChanged offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const UsageChanged;
+static UnityEngine::InputSystem::InputDeviceChange const UsageChanged;
 
 /// @brief Field ConfigurationChanged offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const ConfigurationChanged;
+static UnityEngine::InputSystem::InputDeviceChange const ConfigurationChanged;
 
 /// @brief Field SoftReset offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const SoftReset;
+static UnityEngine::InputSystem::InputDeviceChange const SoftReset;
 
 /// @brief Field HardReset offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const HardReset;
+static UnityEngine::InputSystem::InputDeviceChange const HardReset;
 
 /// @brief Field Destroyed offset 0
-static ::UnityEngine::InputSystem::InputDeviceChange const Destroyed;
+static UnityEngine::InputSystem::InputDeviceChange const Destroyed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputDeviceChange, "UnityEngine.InputSystem", "InputDeviceChange");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputDeviceChange, "UnityEngine.InputSystem", "InputDeviceChange");

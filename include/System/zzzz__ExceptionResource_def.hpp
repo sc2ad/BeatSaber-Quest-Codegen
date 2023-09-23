@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct ExceptionResource;
@@ -116,161 +115,160 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Argument_ImplementIComparable offset 0
-static ::System::ExceptionResource const Argument_ImplementIComparable;
+static System::ExceptionResource const Argument_ImplementIComparable;
 
 /// @brief Field Argument_InvalidType offset 0
-static ::System::ExceptionResource const Argument_InvalidType;
+static System::ExceptionResource const Argument_InvalidType;
 
 /// @brief Field Argument_InvalidArgumentForComparison offset 0
-static ::System::ExceptionResource const Argument_InvalidArgumentForComparison;
+static System::ExceptionResource const Argument_InvalidArgumentForComparison;
 
 /// @brief Field Argument_InvalidRegistryKeyPermissionCheck offset 0
-static ::System::ExceptionResource const Argument_InvalidRegistryKeyPermissionCheck;
+static System::ExceptionResource const Argument_InvalidRegistryKeyPermissionCheck;
 
 /// @brief Field ArgumentOutOfRange_NeedNonNegNum offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_NeedNonNegNum;
+static System::ExceptionResource const ArgumentOutOfRange_NeedNonNegNum;
 
 /// @brief Field Arg_ArrayPlusOffTooSmall offset 0
-static ::System::ExceptionResource const Arg_ArrayPlusOffTooSmall;
+static System::ExceptionResource const Arg_ArrayPlusOffTooSmall;
 
 /// @brief Field Arg_NonZeroLowerBound offset 0
-static ::System::ExceptionResource const Arg_NonZeroLowerBound;
+static System::ExceptionResource const Arg_NonZeroLowerBound;
 
 /// @brief Field Arg_RankMultiDimNotSupported offset 0
-static ::System::ExceptionResource const Arg_RankMultiDimNotSupported;
+static System::ExceptionResource const Arg_RankMultiDimNotSupported;
 
 /// @brief Field Arg_RegKeyDelHive offset 0
-static ::System::ExceptionResource const Arg_RegKeyDelHive;
+static System::ExceptionResource const Arg_RegKeyDelHive;
 
 /// @brief Field Arg_RegKeyStrLenBug offset 0
-static ::System::ExceptionResource const Arg_RegKeyStrLenBug;
+static System::ExceptionResource const Arg_RegKeyStrLenBug;
 
 /// @brief Field Arg_RegSetStrArrNull offset 0
-static ::System::ExceptionResource const Arg_RegSetStrArrNull;
+static System::ExceptionResource const Arg_RegSetStrArrNull;
 
 /// @brief Field Arg_RegSetMismatchedKind offset 0
-static ::System::ExceptionResource const Arg_RegSetMismatchedKind;
+static System::ExceptionResource const Arg_RegSetMismatchedKind;
 
 /// @brief Field Arg_RegSubKeyAbsent offset 0
-static ::System::ExceptionResource const Arg_RegSubKeyAbsent;
+static System::ExceptionResource const Arg_RegSubKeyAbsent;
 
 /// @brief Field Arg_RegSubKeyValueAbsent offset 0
-static ::System::ExceptionResource const Arg_RegSubKeyValueAbsent;
+static System::ExceptionResource const Arg_RegSubKeyValueAbsent;
 
 /// @brief Field Argument_AddingDuplicate offset 0
-static ::System::ExceptionResource const Argument_AddingDuplicate;
+static System::ExceptionResource const Argument_AddingDuplicate;
 
 /// @brief Field Serialization_InvalidOnDeser offset 0
-static ::System::ExceptionResource const Serialization_InvalidOnDeser;
+static System::ExceptionResource const Serialization_InvalidOnDeser;
 
 /// @brief Field Serialization_MissingKeys offset 0
-static ::System::ExceptionResource const Serialization_MissingKeys;
+static System::ExceptionResource const Serialization_MissingKeys;
 
 /// @brief Field Serialization_NullKey offset 0
-static ::System::ExceptionResource const Serialization_NullKey;
+static System::ExceptionResource const Serialization_NullKey;
 
 /// @brief Field Argument_InvalidArrayType offset 0
-static ::System::ExceptionResource const Argument_InvalidArrayType;
+static System::ExceptionResource const Argument_InvalidArrayType;
 
 /// @brief Field NotSupported_KeyCollectionSet offset 0
-static ::System::ExceptionResource const NotSupported_KeyCollectionSet;
+static System::ExceptionResource const NotSupported_KeyCollectionSet;
 
 /// @brief Field NotSupported_ValueCollectionSet offset 0
-static ::System::ExceptionResource const NotSupported_ValueCollectionSet;
+static System::ExceptionResource const NotSupported_ValueCollectionSet;
 
 /// @brief Field ArgumentOutOfRange_SmallCapacity offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_SmallCapacity;
+static System::ExceptionResource const ArgumentOutOfRange_SmallCapacity;
 
 /// @brief Field ArgumentOutOfRange_Index offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_Index;
+static System::ExceptionResource const ArgumentOutOfRange_Index;
 
 /// @brief Field Argument_InvalidOffLen offset 0
-static ::System::ExceptionResource const Argument_InvalidOffLen;
+static System::ExceptionResource const Argument_InvalidOffLen;
 
 /// @brief Field Argument_ItemNotExist offset 0
-static ::System::ExceptionResource const Argument_ItemNotExist;
+static System::ExceptionResource const Argument_ItemNotExist;
 
 /// @brief Field ArgumentOutOfRange_Count offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_Count;
+static System::ExceptionResource const ArgumentOutOfRange_Count;
 
 /// @brief Field ArgumentOutOfRange_InvalidThreshold offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_InvalidThreshold;
+static System::ExceptionResource const ArgumentOutOfRange_InvalidThreshold;
 
 /// @brief Field ArgumentOutOfRange_ListInsert offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_ListInsert;
+static System::ExceptionResource const ArgumentOutOfRange_ListInsert;
 
 /// @brief Field NotSupported_ReadOnlyCollection offset 0
-static ::System::ExceptionResource const NotSupported_ReadOnlyCollection;
+static System::ExceptionResource const NotSupported_ReadOnlyCollection;
 
 /// @brief Field InvalidOperation_CannotRemoveFromStackOrQueue offset 0
-static ::System::ExceptionResource const InvalidOperation_CannotRemoveFromStackOrQueue;
+static System::ExceptionResource const InvalidOperation_CannotRemoveFromStackOrQueue;
 
 /// @brief Field InvalidOperation_EmptyQueue offset 0
-static ::System::ExceptionResource const InvalidOperation_EmptyQueue;
+static System::ExceptionResource const InvalidOperation_EmptyQueue;
 
 /// @brief Field InvalidOperation_EnumOpCantHappen offset 0
-static ::System::ExceptionResource const InvalidOperation_EnumOpCantHappen;
+static System::ExceptionResource const InvalidOperation_EnumOpCantHappen;
 
 /// @brief Field InvalidOperation_EnumFailedVersion offset 0
-static ::System::ExceptionResource const InvalidOperation_EnumFailedVersion;
+static System::ExceptionResource const InvalidOperation_EnumFailedVersion;
 
 /// @brief Field InvalidOperation_EmptyStack offset 0
-static ::System::ExceptionResource const InvalidOperation_EmptyStack;
+static System::ExceptionResource const InvalidOperation_EmptyStack;
 
 /// @brief Field ArgumentOutOfRange_BiggerThanCollection offset 0
-static ::System::ExceptionResource const ArgumentOutOfRange_BiggerThanCollection;
+static System::ExceptionResource const ArgumentOutOfRange_BiggerThanCollection;
 
 /// @brief Field InvalidOperation_EnumNotStarted offset 0
-static ::System::ExceptionResource const InvalidOperation_EnumNotStarted;
+static System::ExceptionResource const InvalidOperation_EnumNotStarted;
 
 /// @brief Field InvalidOperation_EnumEnded offset 0
-static ::System::ExceptionResource const InvalidOperation_EnumEnded;
+static System::ExceptionResource const InvalidOperation_EnumEnded;
 
 /// @brief Field NotSupported_SortedListNestedWrite offset 0
-static ::System::ExceptionResource const NotSupported_SortedListNestedWrite;
+static System::ExceptionResource const NotSupported_SortedListNestedWrite;
 
 /// @brief Field InvalidOperation_NoValue offset 0
-static ::System::ExceptionResource const InvalidOperation_NoValue;
+static System::ExceptionResource const InvalidOperation_NoValue;
 
 /// @brief Field InvalidOperation_RegRemoveSubKey offset 0
-static ::System::ExceptionResource const InvalidOperation_RegRemoveSubKey;
+static System::ExceptionResource const InvalidOperation_RegRemoveSubKey;
 
 /// @brief Field Security_RegistryPermission offset 0
-static ::System::ExceptionResource const Security_RegistryPermission;
+static System::ExceptionResource const Security_RegistryPermission;
 
 /// @brief Field UnauthorizedAccess_RegistryNoWrite offset 0
-static ::System::ExceptionResource const UnauthorizedAccess_RegistryNoWrite;
+static System::ExceptionResource const UnauthorizedAccess_RegistryNoWrite;
 
 /// @brief Field ObjectDisposed_RegKeyClosed offset 0
-static ::System::ExceptionResource const ObjectDisposed_RegKeyClosed;
+static System::ExceptionResource const ObjectDisposed_RegKeyClosed;
 
 /// @brief Field NotSupported_InComparableType offset 0
-static ::System::ExceptionResource const NotSupported_InComparableType;
+static System::ExceptionResource const NotSupported_InComparableType;
 
 /// @brief Field Argument_InvalidRegistryOptionsCheck offset 0
-static ::System::ExceptionResource const Argument_InvalidRegistryOptionsCheck;
+static System::ExceptionResource const Argument_InvalidRegistryOptionsCheck;
 
 /// @brief Field Argument_InvalidRegistryViewCheck offset 0
-static ::System::ExceptionResource const Argument_InvalidRegistryViewCheck;
+static System::ExceptionResource const Argument_InvalidRegistryViewCheck;
 
 /// @brief Field TaskT_TransitionToFinal_AlreadyCompleted offset 0
-static ::System::ExceptionResource const TaskT_TransitionToFinal_AlreadyCompleted;
+static System::ExceptionResource const TaskT_TransitionToFinal_AlreadyCompleted;
 
 /// @brief Field TaskCompletionSourceT_TrySetException_NullException offset 0
-static ::System::ExceptionResource const TaskCompletionSourceT_TrySetException_NullException;
+static System::ExceptionResource const TaskCompletionSourceT_TrySetException_NullException;
 
 /// @brief Field TaskCompletionSourceT_TrySetException_NoExceptions offset 0
-static ::System::ExceptionResource const TaskCompletionSourceT_TrySetException_NoExceptions;
+static System::ExceptionResource const TaskCompletionSourceT_TrySetException_NoExceptions;
 
 /// @brief Field NotSupported_StringComparison offset 0
-static ::System::ExceptionResource const NotSupported_StringComparison;
+static System::ExceptionResource const NotSupported_StringComparison;
 
 /// @brief Field InvalidOperation_NullArray offset 0
-static ::System::ExceptionResource const InvalidOperation_NullArray;
+static System::ExceptionResource const InvalidOperation_NullArray;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::ExceptionResource, "System", "ExceptionResource");
+DEFINE_IL2CPP_ARG_TYPE(System::ExceptionResource, "System", "ExceptionResource");

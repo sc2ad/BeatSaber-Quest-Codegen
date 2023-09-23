@@ -5,19 +5,18 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-class AsyncCallback;
-}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 namespace GlobalNamespace {
 struct NetworkStatisticsDelta;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+class GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 }
 namespace GlobalNamespace {
 struct NetworkStatisticsState;
@@ -28,56 +27,56 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12839))
 // CS Name: NetworkStatisticsState::NetworkStatisticsUpdateDelegate
-class CORDL_TYPE ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate() = default;
+virtual ~GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&& o) noexcept = default;
-  constexpr ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const& o) noexcept = default;
+  constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate&& o) noexcept = default;
+  constexpr GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate& operator=(GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0xdbffa8 size 0xd4 virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0xdc007c size 0x14 virtual true final false
- void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState) ;
+ void Invoke(ByRef<GlobalNamespace::NetworkStatisticsState> statisticsState) ;
 
 /// @brief Method BeginInvoke addr 0xdc0090 size 0x8c virtual true final false
- ::System::IAsyncResult BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
+ System::IAsyncResult BeginInvoke(ByRef<GlobalNamespace::NetworkStatisticsState> statisticsState, System::AsyncCallback callback, ::bs_hook::Il2CppWrapperType object) ;
 
 /// @brief Method EndInvoke addr 0xdc011c size 0xc virtual true final false
- void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult result) ;
+ void EndInvoke(ByRef<GlobalNamespace::NetworkStatisticsState> statisticsState, System::IAsyncResult result) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -92,7 +91,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE NetworkStatisticsState : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
+using NetworkStatisticsUpdateDelegate = GlobalNamespace::GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 
 // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "bytesReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsLost", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentEncrypted", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentPlaintext", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsSentRejected", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedEncrypted", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedPlaintext", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceivedRejected", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "encryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "decryptionProcessingTime", ty: "int64_t", modifiers: "", def_value: None }]
 constexpr NetworkStatisticsState(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) noexcept;
@@ -213,13 +212,12 @@ constexpr int64_t __get_decryptionProcessingTime() const;
  void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext, int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime, int64_t decryptionProcessingTime) ;
 
 /// @brief Method op_Subtraction addr 0xdbff30 size 0x50 virtual false final false
-static ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<::GlobalNamespace::NetworkStatisticsState> a, ByRef<::GlobalNamespace::NetworkStatisticsState> b) ;
+static GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<GlobalNamespace::NetworkStatisticsState> a, ByRef<GlobalNamespace::NetworkStatisticsState> b) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate, "", "NetworkStatisticsState/NetworkStatisticsUpdateDelegate");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NetworkStatisticsState, "", "NetworkStatisticsState");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__NetworkStatisticsState__NetworkStatisticsUpdateDelegate, "", "NetworkStatisticsState/NetworkStatisticsUpdateDelegate");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkStatisticsState, "", "NetworkStatisticsState");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct LogLevel;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::ProBuilder::LogLevel const None;
+static UnityEngine::ProBuilder::LogLevel const None;
 
 /// @brief Field Error offset 0
-static ::UnityEngine::ProBuilder::LogLevel const Error;
+static UnityEngine::ProBuilder::LogLevel const Error;
 
 /// @brief Field Warning offset 0
-static ::UnityEngine::ProBuilder::LogLevel const Warning;
+static UnityEngine::ProBuilder::LogLevel const Warning;
 
 /// @brief Field Info offset 0
-static ::UnityEngine::ProBuilder::LogLevel const Info;
+static UnityEngine::ProBuilder::LogLevel const Info;
 
 /// @brief Field Default offset 0
-static ::UnityEngine::ProBuilder::LogLevel const Default;
+static UnityEngine::ProBuilder::LogLevel const Default;
 
 /// @brief Field All offset 0
-static ::UnityEngine::ProBuilder::LogLevel const All;
+static UnityEngine::ProBuilder::LogLevel const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::LogLevel, "UnityEngine.ProBuilder", "LogLevel");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::LogLevel, "UnityEngine.ProBuilder", "LogLevel");

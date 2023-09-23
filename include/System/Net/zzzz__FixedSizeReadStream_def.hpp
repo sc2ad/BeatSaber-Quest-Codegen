@@ -4,26 +4,25 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Net {
-class WebOperation;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Net {
+class WebOperation;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
-struct ____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template<typename TResult>
@@ -34,7 +33,7 @@ namespace System::Net {
 class FixedSizeReadStream;
 }
 namespace System::Net {
-struct ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5;
+struct System__Net__FixedSizeReadStream___ProcessReadAsync_d__5;
 }
 // Type: ::<ProcessReadAsync>d__5
 namespace System::Net {
@@ -42,23 +41,23 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8017))
 // CS Name: System.Net.FixedSizeReadStream::<ProcessReadAsync>d__5
-struct CORDL_TYPE ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::CompilerServices::IAsyncStateMachine
-constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine() const;
+/// @brief Convert operator to System::Runtime::CompilerServices::IAsyncStateMachine
+constexpr operator  System::Runtime::CompilerServices::IAsyncStateMachine() const;
 
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::FixedSizeReadStream", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
-constexpr ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, ::System::Threading::CancellationToken cancellationToken, ::System::Net::FixedSizeReadStream __4__this, int32_t size, ::ArrayW<uint8_t> buffer, int32_t offset, ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "System::Net::FixedSizeReadStream", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t>", modifiers: "", def_value: None }]
+constexpr System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(int32_t __1__state, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __t__builder, System::Threading::CancellationToken cancellationToken, System::Net::FixedSizeReadStream __4__this, int32_t size, ::ArrayW<uint8_t> buffer, int32_t offset, System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
 
-                    constexpr ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 const&) = default;
-                    constexpr ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5&&) = default;
-                    constexpr ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5& operator=(____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 const& o) {
+                    constexpr System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 const&) = default;
+                    constexpr System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(System__Net__FixedSizeReadStream___ProcessReadAsync_d__5&&) = default;
+                    constexpr System__Net__FixedSizeReadStream___ProcessReadAsync_d__5& operator=(System__Net__FixedSizeReadStream___ProcessReadAsync_d__5 const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5& operator=(____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5&& o) noexcept {
+                    constexpr System__Net__FixedSizeReadStream___ProcessReadAsync_d__5& operator=(System__Net__FixedSizeReadStream___ProcessReadAsync_d__5&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -71,7 +70,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x58};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Net__FixedSizeReadStream___ProcessReadAsync_d__5(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -88,23 +87,23 @@ constexpr void __set___1__state(int32_t value) ;
 
 constexpr int32_t __get___1__state() const;
 
- ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
+ System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __declspec(property(get=__get___t__builder, put=__set___t__builder))  __t__builder;
 
-constexpr void __set___t__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
+constexpr void __set___t__builder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> value) ;
 
-constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get___t__builder() const;
+constexpr System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int32_t> __get___t__builder() const;
 
- ::System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
+ System::Threading::CancellationToken __declspec(property(get=__get_cancellationToken, put=__set_cancellationToken))  cancellationToken;
 
-constexpr void __set_cancellationToken(::System::Threading::CancellationToken value) ;
+constexpr void __set_cancellationToken(System::Threading::CancellationToken value) ;
 
-constexpr ::System::Threading::CancellationToken __get_cancellationToken() const;
+constexpr System::Threading::CancellationToken __get_cancellationToken() const;
 
- ::System::Net::FixedSizeReadStream __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ System::Net::FixedSizeReadStream __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::System::Net::FixedSizeReadStream value) ;
+constexpr void __set___4__this(System::Net::FixedSizeReadStream value) ;
 
-constexpr ::System::Net::FixedSizeReadStream __get___4__this() const;
+constexpr System::Net::FixedSizeReadStream __get___4__this() const;
 
  int32_t __declspec(property(get=__get_size, put=__set_size))  size;
 
@@ -124,11 +123,11 @@ constexpr void __set_offset(int32_t value) ;
 
 constexpr int32_t __get_offset() const;
 
- ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
+ System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __declspec(property(get=__get___u__1, put=__set___u__1))  __u__1;
 
-constexpr void __set___u__1(::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value) ;
+constexpr void __set___u__1(System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> value) ;
 
-constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __get___u__1() const;
+constexpr System::Runtime::CompilerServices::System__Runtime__CompilerServices__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<int32_t> __get___u__1() const;
 
 
 // Methods
@@ -137,7 +136,7 @@ constexpr ::System::Runtime::CompilerServices::____System__Runtime__CompilerServ
  void MoveNext() ;
 
 /// @brief Method SetStateMachine addr 0x28326bc size 0x58 virtual true final true
- void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
+ void SetStateMachine(System::Runtime::CompilerServices::IAsyncStateMachine stateMachine) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -149,10 +148,10 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8018))
 // CS Name: System.Net.FixedSizeReadStream
-class CORDL_TYPE FixedSizeReadStream : public ::System::Net::WebReadStream {
+class CORDL_TYPE FixedSizeReadStream : public System::Net::WebReadStream {
 public:
 // Declarations
-using _ProcessReadAsync_d__5 = ::System::Net::____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5;
+using _ProcessReadAsync_d__5 = System::Net::System__Net__FixedSizeReadStream___ProcessReadAsync_d__5;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -166,7 +165,7 @@ constexpr FixedSizeReadStream(FixedSizeReadStream const& ) noexcept = default;
 constexpr FixedSizeReadStream(FixedSizeReadStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FixedSizeReadStream(void* ptr) noexcept : ::System::Net::WebReadStream(ptr) {
+constexpr explicit FixedSizeReadStream(void* ptr) noexcept : System::Net::WebReadStream(ptr) {
 }
 
 
@@ -210,20 +209,19 @@ constexpr int64_t __get_position() const;
 /// @brief Method get_ContentLength addr 0x28322b4 size 0x8 virtual false final false
  int64_t get_ContentLength() ;
 
-// Ctor Parameters [CppParam { name: "operation", ty: "::System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }]
-explicit FixedSizeReadStream(::System::Net::WebOperation operation, ::System::IO::Stream innerStream, int64_t contentLength) ;
+// Ctor Parameters [CppParam { name: "operation", ty: "System::Net::WebOperation", modifiers: "", def_value: None }, CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "contentLength", ty: "int64_t", modifiers: "", def_value: None }]
+explicit FixedSizeReadStream(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength) ;
 
 /// @brief Method .ctor addr 0x28322bc size 0x28 virtual false final false
- void _ctor(::System::Net::WebOperation operation, ::System::IO::Stream innerStream, int64_t contentLength) ;
+ void _ctor(System::Net::WebOperation operation, System::IO::Stream innerStream, int64_t contentLength) ;
 
 /// @brief Method ProcessReadAsync addr 0x28322e4 size 0x128 virtual true final false
- ::System::Threading::Tasks::Task_1<int32_t> ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken) ;
+ System::Threading::Tasks::Task_1<int32_t> ProcessReadAsync(::ArrayW<uint8_t> buffer, int32_t offset, int32_t size, System::Threading::CancellationToken cancellationToken) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::FixedSizeReadStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::FixedSizeReadStream, "System.Net", "FixedSizeReadStream");
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__FixedSizeReadStream___ProcessReadAsync_d__5, "System.Net", "FixedSizeReadStream/<ProcessReadAsync>d__5");
+NEED_NO_BOX(System::Net::FixedSizeReadStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::FixedSizeReadStream, "System.Net", "FixedSizeReadStream");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__FixedSizeReadStream___ProcessReadAsync_d__5, "System.Net", "FixedSizeReadStream/<ProcessReadAsync>d__5");

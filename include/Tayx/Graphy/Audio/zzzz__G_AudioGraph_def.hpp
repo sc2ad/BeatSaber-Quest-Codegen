@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine {
-class Shader;
-}
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace Tayx::Graphy {
 class G_GraphShader;
+}
+namespace UnityEngine::UI {
+class Image;
+}
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -30,7 +29,7 @@ namespace Tayx::Graphy::Audio {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15202))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15208))
 // CS Name: Tayx.Graphy.Audio.G_AudioGraph
-class CORDL_TYPE G_AudioGraph : public ::Tayx::Graphy::Graph::G_Graph {
+class CORDL_TYPE G_AudioGraph : public Tayx::Graphy::Graph::G_Graph {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr G_AudioGraph(G_AudioGraph const& ) noexcept = default;
 constexpr G_AudioGraph(G_AudioGraph&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_AudioGraph(void* ptr) noexcept : ::Tayx::Graphy::Graph::G_Graph(ptr) {
+constexpr explicit G_AudioGraph(void* ptr) noexcept : Tayx::Graphy::Graph::G_Graph(ptr) {
 }
 
 
@@ -66,29 +65,29 @@ constexpr explicit G_AudioGraph(void* ptr) noexcept : ::Tayx::Graphy::Graph::G_G
 
 // Fields
 
- ::UnityEngine::UI::Image __declspec(property(get=__get_m_imageGraph, put=__set_m_imageGraph))  m_imageGraph;
+ UnityEngine::UI::Image __declspec(property(get=__get_m_imageGraph, put=__set_m_imageGraph))  m_imageGraph;
 
-constexpr void __set_m_imageGraph(::UnityEngine::UI::Image value) ;
+constexpr void __set_m_imageGraph(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get_m_imageGraph() const;
+constexpr UnityEngine::UI::Image __get_m_imageGraph() const;
 
- ::UnityEngine::UI::Image __declspec(property(get=__get_m_imageGraphHighestValues, put=__set_m_imageGraphHighestValues))  m_imageGraphHighestValues;
+ UnityEngine::UI::Image __declspec(property(get=__get_m_imageGraphHighestValues, put=__set_m_imageGraphHighestValues))  m_imageGraphHighestValues;
 
-constexpr void __set_m_imageGraphHighestValues(::UnityEngine::UI::Image value) ;
+constexpr void __set_m_imageGraphHighestValues(UnityEngine::UI::Image value) ;
 
-constexpr ::UnityEngine::UI::Image __get_m_imageGraphHighestValues() const;
+constexpr UnityEngine::UI::Image __get_m_imageGraphHighestValues() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get_ShaderFull, put=__set_ShaderFull))  ShaderFull;
+ UnityEngine::Shader __declspec(property(get=__get_ShaderFull, put=__set_ShaderFull))  ShaderFull;
 
-constexpr void __set_ShaderFull(::UnityEngine::Shader value) ;
+constexpr void __set_ShaderFull(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get_ShaderFull() const;
+constexpr UnityEngine::Shader __get_ShaderFull() const;
 
- ::UnityEngine::Shader __declspec(property(get=__get_ShaderLight, put=__set_ShaderLight))  ShaderLight;
+ UnityEngine::Shader __declspec(property(get=__get_ShaderLight, put=__set_ShaderLight))  ShaderLight;
 
-constexpr void __set_ShaderLight(::UnityEngine::Shader value) ;
+constexpr void __set_ShaderLight(UnityEngine::Shader value) ;
 
-constexpr ::UnityEngine::Shader __get_ShaderLight() const;
+constexpr UnityEngine::Shader __get_ShaderLight() const;
 
  bool __declspec(property(get=__get_m_isInitialized, put=__set_m_isInitialized))  m_isInitialized;
 
@@ -96,17 +95,17 @@ constexpr void __set_m_isInitialized(bool value) ;
 
 constexpr bool __get_m_isInitialized() const;
 
- ::Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
+ Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
 
-constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager value) ;
+constexpr void __set_m_graphyManager(Tayx::Graphy::GraphyManager value) ;
 
-constexpr ::Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
+constexpr Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
 
- ::Tayx::Graphy::Audio::G_AudioMonitor __declspec(property(get=__get_m_audioMonitor, put=__set_m_audioMonitor))  m_audioMonitor;
+ Tayx::Graphy::Audio::G_AudioMonitor __declspec(property(get=__get_m_audioMonitor, put=__set_m_audioMonitor))  m_audioMonitor;
 
-constexpr void __set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor value) ;
+constexpr void __set_m_audioMonitor(Tayx::Graphy::Audio::G_AudioMonitor value) ;
 
-constexpr ::Tayx::Graphy::Audio::G_AudioMonitor __get_m_audioMonitor() const;
+constexpr Tayx::Graphy::Audio::G_AudioMonitor __get_m_audioMonitor() const;
 
  int32_t __declspec(property(get=__get_m_resolution, put=__set_m_resolution))  m_resolution;
 
@@ -114,17 +113,17 @@ constexpr void __set_m_resolution(int32_t value) ;
 
 constexpr int32_t __get_m_resolution() const;
 
- ::Tayx::Graphy::G_GraphShader __declspec(property(get=__get_m_shaderGraph, put=__set_m_shaderGraph))  m_shaderGraph;
+ Tayx::Graphy::G_GraphShader __declspec(property(get=__get_m_shaderGraph, put=__set_m_shaderGraph))  m_shaderGraph;
 
-constexpr void __set_m_shaderGraph(::Tayx::Graphy::G_GraphShader value) ;
+constexpr void __set_m_shaderGraph(Tayx::Graphy::G_GraphShader value) ;
 
-constexpr ::Tayx::Graphy::G_GraphShader __get_m_shaderGraph() const;
+constexpr Tayx::Graphy::G_GraphShader __get_m_shaderGraph() const;
 
- ::Tayx::Graphy::G_GraphShader __declspec(property(get=__get_m_shaderGraphHighestValues, put=__set_m_shaderGraphHighestValues))  m_shaderGraphHighestValues;
+ Tayx::Graphy::G_GraphShader __declspec(property(get=__get_m_shaderGraphHighestValues, put=__set_m_shaderGraphHighestValues))  m_shaderGraphHighestValues;
 
-constexpr void __set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader value) ;
+constexpr void __set_m_shaderGraphHighestValues(Tayx::Graphy::G_GraphShader value) ;
 
-constexpr ::Tayx::Graphy::G_GraphShader __get_m_shaderGraphHighestValues() const;
+constexpr Tayx::Graphy::G_GraphShader __get_m_shaderGraphHighestValues() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get_m_graphArray, put=__set_m_graphArray))  m_graphArray;
 
@@ -169,6 +168,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Audio
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioGraph);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Audio::G_AudioGraph, "Tayx.Graphy.Audio", "G_AudioGraph");
+NEED_NO_BOX(Tayx::Graphy::Audio::G_AudioGraph);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Audio::G_AudioGraph, "Tayx.Graphy.Audio", "G_AudioGraph");

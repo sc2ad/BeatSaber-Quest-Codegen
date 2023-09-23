@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
@@ -55,12 +54,11 @@ constexpr explicit MultiplayerPlacementErrorCodeMethods(void* ptr) noexcept : ::
 // Methods
 
 /// @brief Method ToConnectionFailedReason addr 0xdac3d4 size 0x20 virtual false final false
-static ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode) ;
+static GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(GlobalNamespace::MultiplayerPlacementErrorCode errorCode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerPlacementErrorCodeMethods, "", "MultiplayerPlacementErrorCodeMethods");
+NEED_NO_BOX(GlobalNamespace::MultiplayerPlacementErrorCodeMethods);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlacementErrorCodeMethods, "", "MultiplayerPlacementErrorCodeMethods");

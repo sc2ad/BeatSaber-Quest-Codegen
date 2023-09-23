@@ -3,28 +3,27 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerable_1;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
+class X509CertificateImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
+struct X509NameType;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X500DistinguishedName;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateImpl;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Extension;
-}
-namespace System::Text {
-class StringBuilder;
 }
 namespace System::Security::Cryptography {
 class RSA;
@@ -32,8 +31,8 @@ class RSA;
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImplCollection;
 }
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -45,7 +44,7 @@ namespace System::Security::Cryptography::X509Certificates {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2988))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7847))
 // CS Name: System.Security.Cryptography.X509Certificates.X509Certificate2Impl
-class CORDL_TYPE X509Certificate2Impl : public ::System::Security::Cryptography::X509Certificates::X509CertificateImpl {
+class CORDL_TYPE X509Certificate2Impl : public System::Security::Cryptography::X509Certificates::X509CertificateImpl {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -60,7 +59,7 @@ constexpr X509Certificate2Impl(X509Certificate2Impl const& ) noexcept = default;
 constexpr X509Certificate2Impl(X509Certificate2Impl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit X509Certificate2Impl(void* ptr) noexcept : ::System::Security::Cryptography::X509Certificates::X509CertificateImpl(ptr) {
+constexpr explicit X509Certificate2Impl(void* ptr) noexcept : System::Security::Cryptography::X509Certificates::X509CertificateImpl(ptr) {
 }
 
 
@@ -81,58 +80,58 @@ constexpr explicit X509Certificate2Impl(void* ptr) noexcept : ::System::Security
 
 // Properties
 
- ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension> __declspec(property(get=get_Extensions))  Extensions;
+ System::Collections::Generic::IEnumerable_1<System::Security::Cryptography::X509Certificates::X509Extension> __declspec(property(get=get_Extensions))  Extensions;
 
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_IssuerName))  IssuerName;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_IssuerName))  IssuerName;
 
- ::System::Security::Cryptography::AsymmetricAlgorithm __declspec(property(get=get_PrivateKey, put=set_PrivateKey))  PrivateKey;
+ System::Security::Cryptography::AsymmetricAlgorithm __declspec(property(get=get_PrivateKey, put=set_PrivateKey))  PrivateKey;
 
  ::StringW __declspec(property(get=get_SignatureAlgorithm))  SignatureAlgorithm;
 
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_SubjectName))  SubjectName;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName __declspec(property(get=get_SubjectName))  SubjectName;
 
  int32_t __declspec(property(get=get_Version))  Version;
 
- ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection __declspec(property(get=get_IntermediateCertificates))  IntermediateCertificates;
+ System::Security::Cryptography::X509Certificates::X509CertificateImplCollection __declspec(property(get=get_IntermediateCertificates))  IntermediateCertificates;
 
 
 // Methods
 
 /// @brief Method get_Extensions addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Collections::Generic::IEnumerable_1<::System::Security::Cryptography::X509Certificates::X509Extension> get_Extensions() ;
+ System::Collections::Generic::IEnumerable_1<System::Security::Cryptography::X509Certificates::X509Extension> get_Extensions() ;
 
 /// @brief Method get_IssuerName addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName get_IssuerName() ;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName get_IssuerName() ;
 
 /// @brief Method get_PrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::AsymmetricAlgorithm get_PrivateKey() ;
+ System::Security::Cryptography::AsymmetricAlgorithm get_PrivateKey() ;
 
 /// @brief Method set_PrivateKey addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm value) ;
+ void set_PrivateKey(System::Security::Cryptography::AsymmetricAlgorithm value) ;
 
 /// @brief Method get_SignatureAlgorithm addr 0x0 size 0xffffffffffffffff virtual true final false
  ::StringW get_SignatureAlgorithm() ;
 
 /// @brief Method get_SubjectName addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X500DistinguishedName get_SubjectName() ;
+ System::Security::Cryptography::X509Certificates::X500DistinguishedName get_SubjectName() ;
 
 /// @brief Method get_Version addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Version() ;
 
 /// @brief Method get_IntermediateCertificates addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection get_IntermediateCertificates() ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImplCollection get_IntermediateCertificates() ;
 
 /// @brief Method GetNameInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer) ;
+ ::StringW GetNameInfo(System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer) ;
 
 /// @brief Method Verify addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2 thisCertificate) ;
+ bool Verify(System::Security::Cryptography::X509Certificates::X509Certificate2 thisCertificate) ;
 
 /// @brief Method AppendPrivateKeyInfo addr 0x0 size 0xffffffffffffffff virtual true final false
- void AppendPrivateKeyInfo(::System::Text::StringBuilder sb) ;
+ void AppendPrivateKeyInfo(System::Text::StringBuilder sb) ;
 
 /// @brief Method CopyWithPrivateKey addr 0x27eab68 size 0xac virtual true final true
- ::System::Security::Cryptography::X509Certificates::X509CertificateImpl CopyWithPrivateKey(::System::Security::Cryptography::RSA privateKey) ;
+ System::Security::Cryptography::X509Certificates::X509CertificateImpl CopyWithPrivateKey(System::Security::Cryptography::RSA privateKey) ;
 
 // Ctor Parameters []
 explicit X509Certificate2Impl() ;
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Certificate2Impl);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Certificate2Impl, "System.Security.Cryptography.X509Certificates", "X509Certificate2Impl");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Certificate2Impl);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2Impl, "System.Security.Cryptography.X509Certificates", "X509Certificate2Impl");

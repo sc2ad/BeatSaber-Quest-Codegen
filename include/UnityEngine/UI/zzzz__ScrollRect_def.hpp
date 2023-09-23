@@ -8,36 +8,50 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
-namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-class Transform;
+class Scrollbar;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine::EventSystems {
-class IScrollHandler;
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::UI {
+class ILayoutGroup;
+}
+namespace UnityEngine::UI {
+class ILayoutController;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine::EventSystems {
 class IEndDragHandler;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine {
+struct Matrix4x4;
 }
 namespace UnityEngine::UI {
 class ILayoutElement;
 }
 namespace UnityEngine {
-class RectTransform;
+struct Vector2;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 namespace UnityEngine {
 struct DrivenRectTransformTracker;
@@ -48,39 +62,24 @@ class ICanvasElement;
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
+namespace UnityEngine::EventSystems {
+class IScrollHandler;
+}
 namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
-}
-namespace UnityEngine::UI {
-class ILayoutController;
-}
-namespace UnityEngine::EventSystems {
-class IInitializePotentialDragHandler;
-}
-namespace UnityEngine::UI {
-class Scrollbar;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-class ILayoutGroup;
+struct Bounds;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__ScrollRect__MovementType;
+struct UnityEngine__UI__ScrollRect__MovementType;
 }
 namespace UnityEngine::UI {
-struct ____UnityEngine__UI__ScrollRect__ScrollbarVisibility;
+struct UnityEngine__UI__ScrollRect__ScrollbarVisibility;
 }
 namespace UnityEngine::UI {
 class ScrollRect;
 }
 namespace UnityEngine::UI {
-class ____UnityEngine__UI__ScrollRect__ScrollRectEvent;
+class UnityEngine__UI__ScrollRect__ScrollRectEvent;
 }
 // Type: ::MovementType
 namespace UnityEngine::UI {
@@ -88,20 +87,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13052))
 // CS Name: UnityEngine.UI.ScrollRect::MovementType
-struct CORDL_TYPE ____UnityEngine__UI__ScrollRect__MovementType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__ScrollRect__MovementType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__ScrollRect__MovementType(int32_t value__) noexcept;
+constexpr UnityEngine__UI__ScrollRect__MovementType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__ScrollRect__MovementType(____UnityEngine__UI__ScrollRect__MovementType const&) = default;
-                    constexpr ____UnityEngine__UI__ScrollRect__MovementType(____UnityEngine__UI__ScrollRect__MovementType&&) = default;
-                    constexpr ____UnityEngine__UI__ScrollRect__MovementType& operator=(____UnityEngine__UI__ScrollRect__MovementType const& o) {
+                    constexpr UnityEngine__UI__ScrollRect__MovementType(UnityEngine__UI__ScrollRect__MovementType const&) = default;
+                    constexpr UnityEngine__UI__ScrollRect__MovementType(UnityEngine__UI__ScrollRect__MovementType&&) = default;
+                    constexpr UnityEngine__UI__ScrollRect__MovementType& operator=(UnityEngine__UI__ScrollRect__MovementType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__ScrollRect__MovementType& operator=(____UnityEngine__UI__ScrollRect__MovementType&& o) noexcept {
+                    constexpr UnityEngine__UI__ScrollRect__MovementType& operator=(UnityEngine__UI__ScrollRect__MovementType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -114,7 +113,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__ScrollRect__MovementType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__ScrollRect__MovementType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -122,15 +121,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__ScrollRect__MovementType_Unwrapped : int32_t {
+enum class __UnityEngine__UI__ScrollRect__MovementType_Unwrapped : int32_t {
 __Unrestricted = 0,
 __Elastic = 1,
 __Clamped = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__ScrollRect__MovementType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__ScrollRect__MovementType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__ScrollRect__MovementType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__ScrollRect__MovementType_Unwrapped>(__instance);
 }
 
 
@@ -143,13 +142,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unrestricted offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType const Unrestricted;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType const Unrestricted;
 
 /// @brief Field Elastic offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType const Elastic;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType const Elastic;
 
 /// @brief Field Clamped offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType const Clamped;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType const Clamped;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -161,20 +160,20 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13053))
 // CS Name: UnityEngine.UI.ScrollRect::ScrollbarVisibility
-struct CORDL_TYPE ____UnityEngine__UI__ScrollRect__ScrollbarVisibility : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__UI__ScrollRect__ScrollbarVisibility : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__UI__ScrollRect__ScrollbarVisibility(int32_t value__) noexcept;
+constexpr UnityEngine__UI__ScrollRect__ScrollbarVisibility(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__UI__ScrollRect__ScrollbarVisibility(____UnityEngine__UI__ScrollRect__ScrollbarVisibility const&) = default;
-                    constexpr ____UnityEngine__UI__ScrollRect__ScrollbarVisibility(____UnityEngine__UI__ScrollRect__ScrollbarVisibility&&) = default;
-                    constexpr ____UnityEngine__UI__ScrollRect__ScrollbarVisibility& operator=(____UnityEngine__UI__ScrollRect__ScrollbarVisibility const& o) {
+                    constexpr UnityEngine__UI__ScrollRect__ScrollbarVisibility(UnityEngine__UI__ScrollRect__ScrollbarVisibility const&) = default;
+                    constexpr UnityEngine__UI__ScrollRect__ScrollbarVisibility(UnityEngine__UI__ScrollRect__ScrollbarVisibility&&) = default;
+                    constexpr UnityEngine__UI__ScrollRect__ScrollbarVisibility& operator=(UnityEngine__UI__ScrollRect__ScrollbarVisibility const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__UI__ScrollRect__ScrollbarVisibility& operator=(____UnityEngine__UI__ScrollRect__ScrollbarVisibility&& o) noexcept {
+                    constexpr UnityEngine__UI__ScrollRect__ScrollbarVisibility& operator=(UnityEngine__UI__ScrollRect__ScrollbarVisibility&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -187,7 +186,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__ScrollRect__ScrollbarVisibility(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__UI__ScrollRect__ScrollbarVisibility(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -195,15 +194,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped : int32_t {
+enum class __UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped : int32_t {
 __Permanent = 0,
 __AutoHide = 1,
 __AutoHideAndExpandViewport = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped>(__instance);
+constexpr operator __UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__UI__ScrollRect__ScrollbarVisibility_Unwrapped>(__instance);
 }
 
 
@@ -216,13 +215,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Permanent offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility const Permanent;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility const Permanent;
 
 /// @brief Field AutoHide offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility const AutoHide;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility const AutoHide;
 
 /// @brief Field AutoHideAndExpandViewport offset 0
-static ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility const AutoHideAndExpandViewport;
+static UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility const AutoHideAndExpandViewport;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -234,44 +233,44 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10401), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(10184))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
 // CS Name: UnityEngine.UI.ScrollRect::ScrollRectEvent
-class CORDL_TYPE ____UnityEngine__UI__ScrollRect__ScrollRectEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2> {
+class CORDL_TYPE UnityEngine__UI__ScrollRect__ScrollRectEvent : public UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____UnityEngine__UI__ScrollRect__ScrollRectEvent() = default;
+virtual ~UnityEngine__UI__ScrollRect__ScrollRectEvent() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__ScrollRect__ScrollRectEvent", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent(____UnityEngine__UI__ScrollRect__ScrollRectEvent const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__ScrollRect__ScrollRectEvent", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent(UnityEngine__UI__ScrollRect__ScrollRectEvent const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UI__ScrollRect__ScrollRectEvent", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent(____UnityEngine__UI__ScrollRect__ScrollRectEvent&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UI__ScrollRect__ScrollRectEvent", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent(UnityEngine__UI__ScrollRect__ScrollRectEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UI__ScrollRect__ScrollRectEvent(void* ptr) noexcept : ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Vector2>(ptr) {
+constexpr explicit UnityEngine__UI__ScrollRect__ScrollRectEvent(void* ptr) noexcept : UnityEngine::Events::UnityEvent_1<UnityEngine::Vector2>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(void* o) noexcept {
+  constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(____UnityEngine__UI__ScrollRect__ScrollRectEvent&& o) noexcept = default;
-  constexpr ____UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(____UnityEngine__UI__ScrollRect__ScrollRectEvent const& o) noexcept = default;
+  constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(UnityEngine__UI__ScrollRect__ScrollRectEvent&& o) noexcept = default;
+  constexpr UnityEngine__UI__ScrollRect__ScrollRectEvent& operator=(UnityEngine__UI__ScrollRect__ScrollRectEvent const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UI__ScrollRect__ScrollRectEvent() ;
+explicit UnityEngine__UI__ScrollRect__ScrollRectEvent() ;
 
 /// @brief Method .ctor addr 0x2c0a380 size 0x48 virtual false final false
  void _ctor() ;
@@ -286,44 +285,44 @@ namespace UnityEngine::UI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: UnityEngine.UI.ScrollRect
-class CORDL_TYPE ScrollRect : public ::UnityEngine::EventSystems::UIBehaviour {
+class CORDL_TYPE ScrollRect : public UnityEngine::EventSystems::UIBehaviour {
 public:
 // Declarations
-using ScrollRectEvent = ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent;
+using ScrollRectEvent = UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent;
 
-using ScrollbarVisibility = ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility;
+using ScrollbarVisibility = UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility;
 
-using MovementType = ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType;
+using MovementType = UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IInitializePotentialDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IInitializePotentialDragHandler
+constexpr operator  UnityEngine::EventSystems::IInitializePotentialDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IBeginDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IBeginDragHandler
+constexpr operator  UnityEngine::EventSystems::IBeginDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEndDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IEndDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEndDragHandler
+constexpr operator  UnityEngine::EventSystems::IEndDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IDragHandler
-constexpr operator  ::UnityEngine::EventSystems::IDragHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IDragHandler
+constexpr operator  UnityEngine::EventSystems::IDragHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IScrollHandler
-constexpr operator  ::UnityEngine::EventSystems::IScrollHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IScrollHandler
+constexpr operator  UnityEngine::EventSystems::IScrollHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ICanvasElement
-constexpr operator  ::UnityEngine::UI::ICanvasElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ICanvasElement
+constexpr operator  UnityEngine::UI::ICanvasElement() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutElement
-constexpr operator  ::UnityEngine::UI::ILayoutElement() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutElement
+constexpr operator  UnityEngine::UI::ILayoutElement() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutGroup
-constexpr operator  ::UnityEngine::UI::ILayoutGroup() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutGroup
+constexpr operator  UnityEngine::UI::ILayoutGroup() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UI::ILayoutController
-constexpr operator  ::UnityEngine::UI::ILayoutController() const noexcept;
+/// @brief Convert operator to UnityEngine::UI::ILayoutController
+constexpr operator  UnityEngine::UI::ILayoutController() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x128};
@@ -337,7 +336,7 @@ constexpr ScrollRect(ScrollRect const& ) noexcept = default;
 constexpr ScrollRect(ScrollRect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScrollRect(void* ptr) noexcept : ::UnityEngine::EventSystems::UIBehaviour(ptr) {
+constexpr explicit ScrollRect(void* ptr) noexcept : UnityEngine::EventSystems::UIBehaviour(ptr) {
 }
 
 
@@ -358,11 +357,11 @@ constexpr explicit ScrollRect(void* ptr) noexcept : ::UnityEngine::EventSystems:
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_Content, put=__set_m_Content))  m_Content;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_Content, put=__set_m_Content))  m_Content;
 
-constexpr void __set_m_Content(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_Content(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_Content() const;
+constexpr UnityEngine::RectTransform __get_m_Content() const;
 
  bool __declspec(property(get=__get_m_Horizontal, put=__set_m_Horizontal))  m_Horizontal;
 
@@ -376,11 +375,11 @@ constexpr void __set_m_Vertical(bool value) ;
 
 constexpr bool __get_m_Vertical() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType __declspec(property(get=__get_m_MovementType, put=__set_m_MovementType))  m_MovementType;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType __declspec(property(get=__get_m_MovementType, put=__set_m_MovementType))  m_MovementType;
 
-constexpr void __set_m_MovementType(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType value) ;
+constexpr void __set_m_MovementType(UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType __get_m_MovementType() const;
+constexpr UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType __get_m_MovementType() const;
 
  float_t __declspec(property(get=__get_m_Elasticity, put=__set_m_Elasticity))  m_Elasticity;
 
@@ -406,35 +405,35 @@ constexpr void __set_m_ScrollSensitivity(float_t value) ;
 
 constexpr float_t __get_m_ScrollSensitivity() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_Viewport, put=__set_m_Viewport))  m_Viewport;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_Viewport, put=__set_m_Viewport))  m_Viewport;
 
-constexpr void __set_m_Viewport(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_Viewport(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_Viewport() const;
+constexpr UnityEngine::RectTransform __get_m_Viewport() const;
 
- ::UnityEngine::UI::Scrollbar __declspec(property(get=__get_m_HorizontalScrollbar, put=__set_m_HorizontalScrollbar))  m_HorizontalScrollbar;
+ UnityEngine::UI::Scrollbar __declspec(property(get=__get_m_HorizontalScrollbar, put=__set_m_HorizontalScrollbar))  m_HorizontalScrollbar;
 
-constexpr void __set_m_HorizontalScrollbar(::UnityEngine::UI::Scrollbar value) ;
+constexpr void __set_m_HorizontalScrollbar(UnityEngine::UI::Scrollbar value) ;
 
-constexpr ::UnityEngine::UI::Scrollbar __get_m_HorizontalScrollbar() const;
+constexpr UnityEngine::UI::Scrollbar __get_m_HorizontalScrollbar() const;
 
- ::UnityEngine::UI::Scrollbar __declspec(property(get=__get_m_VerticalScrollbar, put=__set_m_VerticalScrollbar))  m_VerticalScrollbar;
+ UnityEngine::UI::Scrollbar __declspec(property(get=__get_m_VerticalScrollbar, put=__set_m_VerticalScrollbar))  m_VerticalScrollbar;
 
-constexpr void __set_m_VerticalScrollbar(::UnityEngine::UI::Scrollbar value) ;
+constexpr void __set_m_VerticalScrollbar(UnityEngine::UI::Scrollbar value) ;
 
-constexpr ::UnityEngine::UI::Scrollbar __get_m_VerticalScrollbar() const;
+constexpr UnityEngine::UI::Scrollbar __get_m_VerticalScrollbar() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=__get_m_HorizontalScrollbarVisibility, put=__set_m_HorizontalScrollbarVisibility))  m_HorizontalScrollbarVisibility;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=__get_m_HorizontalScrollbarVisibility, put=__set_m_HorizontalScrollbarVisibility))  m_HorizontalScrollbarVisibility;
 
-constexpr void __set_m_HorizontalScrollbarVisibility(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
+constexpr void __set_m_HorizontalScrollbarVisibility(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __get_m_HorizontalScrollbarVisibility() const;
+constexpr UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __get_m_HorizontalScrollbarVisibility() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=__get_m_VerticalScrollbarVisibility, put=__set_m_VerticalScrollbarVisibility))  m_VerticalScrollbarVisibility;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=__get_m_VerticalScrollbarVisibility, put=__set_m_VerticalScrollbarVisibility))  m_VerticalScrollbarVisibility;
 
-constexpr void __set_m_VerticalScrollbarVisibility(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
+constexpr void __set_m_VerticalScrollbarVisibility(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __get_m_VerticalScrollbarVisibility() const;
+constexpr UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __get_m_VerticalScrollbarVisibility() const;
 
  float_t __declspec(property(get=__get_m_HorizontalScrollbarSpacing, put=__set_m_HorizontalScrollbarSpacing))  m_HorizontalScrollbarSpacing;
 
@@ -448,47 +447,47 @@ constexpr void __set_m_VerticalScrollbarSpacing(float_t value) ;
 
 constexpr float_t __get_m_VerticalScrollbarSpacing() const;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent __declspec(property(get=__get_m_OnValueChanged, put=__set_m_OnValueChanged))  m_OnValueChanged;
 
-constexpr void __set_m_OnValueChanged(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent value) ;
+constexpr void __set_m_OnValueChanged(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent value) ;
 
-constexpr ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent __get_m_OnValueChanged() const;
+constexpr UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent __get_m_OnValueChanged() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_PointerStartLocalCursor, put=__set_m_PointerStartLocalCursor))  m_PointerStartLocalCursor;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_PointerStartLocalCursor, put=__set_m_PointerStartLocalCursor))  m_PointerStartLocalCursor;
 
-constexpr void __set_m_PointerStartLocalCursor(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_PointerStartLocalCursor(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_PointerStartLocalCursor() const;
+constexpr UnityEngine::Vector2 __get_m_PointerStartLocalCursor() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_ContentStartPosition, put=__set_m_ContentStartPosition))  m_ContentStartPosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_ContentStartPosition, put=__set_m_ContentStartPosition))  m_ContentStartPosition;
 
-constexpr void __set_m_ContentStartPosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_ContentStartPosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_ContentStartPosition() const;
+constexpr UnityEngine::Vector2 __get_m_ContentStartPosition() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_ViewRect, put=__set_m_ViewRect))  m_ViewRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_ViewRect, put=__set_m_ViewRect))  m_ViewRect;
 
-constexpr void __set_m_ViewRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_ViewRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_ViewRect() const;
+constexpr UnityEngine::RectTransform __get_m_ViewRect() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get_m_ContentBounds, put=__set_m_ContentBounds))  m_ContentBounds;
+ UnityEngine::Bounds __declspec(property(get=__get_m_ContentBounds, put=__set_m_ContentBounds))  m_ContentBounds;
 
-constexpr void __set_m_ContentBounds(::UnityEngine::Bounds value) ;
+constexpr void __set_m_ContentBounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get_m_ContentBounds() const;
+constexpr UnityEngine::Bounds __get_m_ContentBounds() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get_m_ViewBounds, put=__set_m_ViewBounds))  m_ViewBounds;
+ UnityEngine::Bounds __declspec(property(get=__get_m_ViewBounds, put=__set_m_ViewBounds))  m_ViewBounds;
 
-constexpr void __set_m_ViewBounds(::UnityEngine::Bounds value) ;
+constexpr void __set_m_ViewBounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get_m_ViewBounds() const;
+constexpr UnityEngine::Bounds __get_m_ViewBounds() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_Velocity, put=__set_m_Velocity))  m_Velocity;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_Velocity, put=__set_m_Velocity))  m_Velocity;
 
-constexpr void __set_m_Velocity(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_Velocity(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_Velocity() const;
+constexpr UnityEngine::Vector2 __get_m_Velocity() const;
 
  bool __declspec(property(get=__get_m_Dragging, put=__set_m_Dragging))  m_Dragging;
 
@@ -502,23 +501,23 @@ constexpr void __set_m_Scrolling(bool value) ;
 
 constexpr bool __get_m_Scrolling() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_m_PrevPosition, put=__set_m_PrevPosition))  m_PrevPosition;
+ UnityEngine::Vector2 __declspec(property(get=__get_m_PrevPosition, put=__set_m_PrevPosition))  m_PrevPosition;
 
-constexpr void __set_m_PrevPosition(::UnityEngine::Vector2 value) ;
+constexpr void __set_m_PrevPosition(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_m_PrevPosition() const;
+constexpr UnityEngine::Vector2 __get_m_PrevPosition() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get_m_PrevContentBounds, put=__set_m_PrevContentBounds))  m_PrevContentBounds;
+ UnityEngine::Bounds __declspec(property(get=__get_m_PrevContentBounds, put=__set_m_PrevContentBounds))  m_PrevContentBounds;
 
-constexpr void __set_m_PrevContentBounds(::UnityEngine::Bounds value) ;
+constexpr void __set_m_PrevContentBounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get_m_PrevContentBounds() const;
+constexpr UnityEngine::Bounds __get_m_PrevContentBounds() const;
 
- ::UnityEngine::Bounds __declspec(property(get=__get_m_PrevViewBounds, put=__set_m_PrevViewBounds))  m_PrevViewBounds;
+ UnityEngine::Bounds __declspec(property(get=__get_m_PrevViewBounds, put=__set_m_PrevViewBounds))  m_PrevViewBounds;
 
-constexpr void __set_m_PrevViewBounds(::UnityEngine::Bounds value) ;
+constexpr void __set_m_PrevViewBounds(UnityEngine::Bounds value) ;
 
-constexpr ::UnityEngine::Bounds __get_m_PrevViewBounds() const;
+constexpr UnityEngine::Bounds __get_m_PrevViewBounds() const;
 
  bool __declspec(property(get=__get_m_HasRebuiltLayout, put=__set_m_HasRebuiltLayout))  m_HasRebuiltLayout;
 
@@ -550,46 +549,46 @@ constexpr void __set_m_VSliderWidth(float_t value) ;
 
 constexpr float_t __get_m_VSliderWidth() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_Rect, put=__set_m_Rect))  m_Rect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_Rect, put=__set_m_Rect))  m_Rect;
 
-constexpr void __set_m_Rect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_Rect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_Rect() const;
+constexpr UnityEngine::RectTransform __get_m_Rect() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_HorizontalScrollbarRect, put=__set_m_HorizontalScrollbarRect))  m_HorizontalScrollbarRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_HorizontalScrollbarRect, put=__set_m_HorizontalScrollbarRect))  m_HorizontalScrollbarRect;
 
-constexpr void __set_m_HorizontalScrollbarRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_HorizontalScrollbarRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_HorizontalScrollbarRect() const;
+constexpr UnityEngine::RectTransform __get_m_HorizontalScrollbarRect() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get_m_VerticalScrollbarRect, put=__set_m_VerticalScrollbarRect))  m_VerticalScrollbarRect;
+ UnityEngine::RectTransform __declspec(property(get=__get_m_VerticalScrollbarRect, put=__set_m_VerticalScrollbarRect))  m_VerticalScrollbarRect;
 
-constexpr void __set_m_VerticalScrollbarRect(::UnityEngine::RectTransform value) ;
+constexpr void __set_m_VerticalScrollbarRect(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get_m_VerticalScrollbarRect() const;
+constexpr UnityEngine::RectTransform __get_m_VerticalScrollbarRect() const;
 
- ::UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
+ UnityEngine::DrivenRectTransformTracker __declspec(property(get=__get_m_Tracker, put=__set_m_Tracker))  m_Tracker;
 
-constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value) ;
+constexpr void __set_m_Tracker(UnityEngine::DrivenRectTransformTracker value) ;
 
-constexpr ::UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
+constexpr UnityEngine::DrivenRectTransformTracker __get_m_Tracker() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get_m_Corners, put=__set_m_Corners))  m_Corners;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get_m_Corners, put=__set_m_Corners))  m_Corners;
 
-constexpr void __set_m_Corners(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set_m_Corners(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get_m_Corners() const;
 
 
 // Properties
 
- ::UnityEngine::RectTransform __declspec(property(get=get_content, put=set_content))  content;
+ UnityEngine::RectTransform __declspec(property(get=get_content, put=set_content))  content;
 
  bool __declspec(property(get=get_horizontal, put=set_horizontal))  horizontal;
 
  bool __declspec(property(get=get_vertical, put=set_vertical))  vertical;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType __declspec(property(get=get_movementType, put=set_movementType))  movementType;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType __declspec(property(get=get_movementType, put=set_movementType))  movementType;
 
  float_t __declspec(property(get=get_elasticity, put=set_elasticity))  elasticity;
 
@@ -599,29 +598,29 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
 
  float_t __declspec(property(get=get_scrollSensitivity, put=set_scrollSensitivity))  scrollSensitivity;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_viewport, put=set_viewport))  viewport;
+ UnityEngine::RectTransform __declspec(property(get=get_viewport, put=set_viewport))  viewport;
 
- ::UnityEngine::UI::Scrollbar __declspec(property(get=get_horizontalScrollbar, put=set_horizontalScrollbar))  horizontalScrollbar;
+ UnityEngine::UI::Scrollbar __declspec(property(get=get_horizontalScrollbar, put=set_horizontalScrollbar))  horizontalScrollbar;
 
- ::UnityEngine::UI::Scrollbar __declspec(property(get=get_verticalScrollbar, put=set_verticalScrollbar))  verticalScrollbar;
+ UnityEngine::UI::Scrollbar __declspec(property(get=get_verticalScrollbar, put=set_verticalScrollbar))  verticalScrollbar;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=get_horizontalScrollbarVisibility, put=set_horizontalScrollbarVisibility))  horizontalScrollbarVisibility;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=get_horizontalScrollbarVisibility, put=set_horizontalScrollbarVisibility))  horizontalScrollbarVisibility;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=get_verticalScrollbarVisibility, put=set_verticalScrollbarVisibility))  verticalScrollbarVisibility;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility __declspec(property(get=get_verticalScrollbarVisibility, put=set_verticalScrollbarVisibility))  verticalScrollbarVisibility;
 
  float_t __declspec(property(get=get_horizontalScrollbarSpacing, put=set_horizontalScrollbarSpacing))  horizontalScrollbarSpacing;
 
  float_t __declspec(property(get=get_verticalScrollbarSpacing, put=set_verticalScrollbarSpacing))  verticalScrollbarSpacing;
 
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent __declspec(property(get=get_onValueChanged, put=set_onValueChanged))  onValueChanged;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_viewRect))  viewRect;
+ UnityEngine::RectTransform __declspec(property(get=get_viewRect))  viewRect;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_velocity, put=set_velocity))  velocity;
+ UnityEngine::Vector2 __declspec(property(get=get_velocity, put=set_velocity))  velocity;
 
- ::UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
+ UnityEngine::RectTransform __declspec(property(get=get_rectTransform))  rectTransform;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_normalizedPosition, put=set_normalizedPosition))  normalizedPosition;
+ UnityEngine::Vector2 __declspec(property(get=get_normalizedPosition, put=set_normalizedPosition))  normalizedPosition;
 
  float_t __declspec(property(get=get_horizontalNormalizedPosition, put=set_horizontalNormalizedPosition))  horizontalNormalizedPosition;
 
@@ -649,10 +648,10 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
 // Methods
 
 /// @brief Method get_content addr 0x2c09bc8 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_content() ;
+ UnityEngine::RectTransform get_content() ;
 
 /// @brief Method set_content addr 0x2c09bd0 size 0x8 virtual false final false
- void set_content(::UnityEngine::RectTransform value) ;
+ void set_content(UnityEngine::RectTransform value) ;
 
 /// @brief Method get_horizontal addr 0x2c09bd8 size 0x8 virtual false final false
  bool get_horizontal() ;
@@ -667,10 +666,10 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
  void set_vertical(bool value) ;
 
 /// @brief Method get_movementType addr 0x2c09c00 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType get_movementType() ;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType get_movementType() ;
 
 /// @brief Method set_movementType addr 0x2c09c08 size 0x8 virtual false final false
- void set_movementType(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType value) ;
+ void set_movementType(UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType value) ;
 
 /// @brief Method get_elasticity addr 0x2c09c10 size 0x8 virtual false final false
  float_t get_elasticity() ;
@@ -697,34 +696,34 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
  void set_scrollSensitivity(float_t value) ;
 
 /// @brief Method get_viewport addr 0x2c09c54 size 0x8 virtual false final false
- ::UnityEngine::RectTransform get_viewport() ;
+ UnityEngine::RectTransform get_viewport() ;
 
 /// @brief Method set_viewport addr 0x2c09c5c size 0x8 virtual false final false
- void set_viewport(::UnityEngine::RectTransform value) ;
+ void set_viewport(UnityEngine::RectTransform value) ;
 
 /// @brief Method get_horizontalScrollbar addr 0x2c09d18 size 0x8 virtual false final false
- ::UnityEngine::UI::Scrollbar get_horizontalScrollbar() ;
+ UnityEngine::UI::Scrollbar get_horizontalScrollbar() ;
 
 /// @brief Method set_horizontalScrollbar addr 0x2c09d20 size 0x174 virtual false final false
- void set_horizontalScrollbar(::UnityEngine::UI::Scrollbar value) ;
+ void set_horizontalScrollbar(UnityEngine::UI::Scrollbar value) ;
 
 /// @brief Method get_verticalScrollbar addr 0x2c09e94 size 0x8 virtual false final false
- ::UnityEngine::UI::Scrollbar get_verticalScrollbar() ;
+ UnityEngine::UI::Scrollbar get_verticalScrollbar() ;
 
 /// @brief Method set_verticalScrollbar addr 0x2c09e9c size 0x174 virtual false final false
- void set_verticalScrollbar(::UnityEngine::UI::Scrollbar value) ;
+ void set_verticalScrollbar(UnityEngine::UI::Scrollbar value) ;
 
 /// @brief Method get_horizontalScrollbarVisibility addr 0x2c0a010 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility get_horizontalScrollbarVisibility() ;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility get_horizontalScrollbarVisibility() ;
 
 /// @brief Method set_horizontalScrollbarVisibility addr 0x2c0a018 size 0x8 virtual false final false
- void set_horizontalScrollbarVisibility(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
+ void set_horizontalScrollbarVisibility(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
 
 /// @brief Method get_verticalScrollbarVisibility addr 0x2c0a020 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility get_verticalScrollbarVisibility() ;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility get_verticalScrollbarVisibility() ;
 
 /// @brief Method set_verticalScrollbarVisibility addr 0x2c0a028 size 0x8 virtual false final false
- void set_verticalScrollbarVisibility(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
+ void set_verticalScrollbarVisibility(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility value) ;
 
 /// @brief Method get_horizontalScrollbarSpacing addr 0x2c0a030 size 0x8 virtual false final false
  float_t get_horizontalScrollbarSpacing() ;
@@ -739,22 +738,22 @@ constexpr ::ArrayW<::UnityEngine::Vector3> __get_m_Corners() const;
  void set_verticalScrollbarSpacing(float_t value) ;
 
 /// @brief Method get_onValueChanged addr 0x2c0a0d8 size 0x8 virtual false final false
- ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent get_onValueChanged() ;
+ UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent get_onValueChanged() ;
 
 /// @brief Method set_onValueChanged addr 0x2c0a0e0 size 0x8 virtual false final false
- void set_onValueChanged(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent value) ;
+ void set_onValueChanged(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent value) ;
 
 /// @brief Method get_viewRect addr 0x2c0a0e8 size 0xf0 virtual false final false
- ::UnityEngine::RectTransform get_viewRect() ;
+ UnityEngine::RectTransform get_viewRect() ;
 
 /// @brief Method get_velocity addr 0x2c0a1d8 size 0x8 virtual false final false
- ::UnityEngine::Vector2 get_velocity() ;
+ UnityEngine::Vector2 get_velocity() ;
 
 /// @brief Method set_velocity addr 0x2c0a1e0 size 0x8 virtual false final false
- void set_velocity(::UnityEngine::Vector2 value) ;
+ void set_velocity(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_rectTransform addr 0x2c0a1e8 size 0x94 virtual false final false
- ::UnityEngine::RectTransform get_rectTransform() ;
+ UnityEngine::RectTransform get_rectTransform() ;
 
 // Ctor Parameters []
 explicit ScrollRect() ;
@@ -763,7 +762,7 @@ explicit ScrollRect() ;
  void _ctor() ;
 
 /// @brief Method Rebuild addr 0x2c0a3c8 size 0x88 virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate executing) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate executing) ;
 
 /// @brief Method LayoutComplete addr 0x2c0af30 size 0x4 virtual true final false
  void LayoutComplete() ;
@@ -790,22 +789,22 @@ explicit ScrollRect() ;
  void StopMovement() ;
 
 /// @brief Method OnScroll addr 0x2c0b458 size 0x178 virtual true final false
- void OnScroll(::UnityEngine::EventSystems::PointerEventData data) ;
+ void OnScroll(UnityEngine::EventSystems::PointerEventData data) ;
 
 /// @brief Method OnInitializePotentialDrag addr 0x2c0b600 size 0x60 virtual true final false
- void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnInitializePotentialDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnBeginDrag addr 0x2c0b660 size 0x128 virtual true final false
- void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnBeginDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnEndDrag addr 0x2c0b788 size 0x20 virtual true final false
- void OnEndDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnEndDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnDrag addr 0x2c0b7a8 size 0x220 virtual true final false
- void OnDrag(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnDrag(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method SetContentAnchoredPosition addr 0x2c0ba04 size 0xb4 virtual true final false
- void SetContentAnchoredPosition(::UnityEngine::Vector2 position) ;
+ void SetContentAnchoredPosition(UnityEngine::Vector2 position) ;
 
 /// @brief Method LateUpdate addr 0x2c0bab8 size 0x594 virtual true final false
  void LateUpdate() ;
@@ -814,13 +813,13 @@ explicit ScrollRect() ;
  void UpdatePrevData() ;
 
 /// @brief Method UpdateScrollbars addr 0x2c0ac7c size 0x1d8 virtual false final false
- void UpdateScrollbars(::UnityEngine::Vector2 offset) ;
+ void UpdateScrollbars(UnityEngine::Vector2 offset) ;
 
 /// @brief Method get_normalizedPosition addr 0x2c0c04c size 0x30 virtual false final false
- ::UnityEngine::Vector2 get_normalizedPosition() ;
+ UnityEngine::Vector2 get_normalizedPosition() ;
 
 /// @brief Method set_normalizedPosition addr 0x2c0c374 size 0x48 virtual false final false
- void set_normalizedPosition(::UnityEngine::Vector2 value) ;
+ void set_normalizedPosition(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_horizontalNormalizedPosition addr 0x2c0c0bc size 0x15c virtual false final false
  float_t get_horizontalNormalizedPosition() ;
@@ -892,7 +891,7 @@ static float_t RubberDelta(float_t overStretching, float_t viewSize) ;
  void UpdateScrollbarVisibility() ;
 
 /// @brief Method UpdateOneScrollbarVisibility addr 0x2c0d184 size 0xf4 virtual false final false
-static void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnabled, ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility scrollbarVisibility, ::UnityEngine::UI::Scrollbar scrollbar) ;
+static void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnabled, UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility scrollbarVisibility, UnityEngine::UI::Scrollbar scrollbar) ;
 
 /// @brief Method UpdateScrollbarLayout addr 0x2c0cf30 size 0x254 virtual false final false
  void UpdateScrollbarLayout() ;
@@ -901,19 +900,19 @@ static void UpdateOneScrollbarVisibility(bool xScrollingNeeded, bool xAxisEnable
  void UpdateBounds() ;
 
 /// @brief Method AdjustBounds addr 0x2c0d278 size 0xac virtual false final false
-static void AdjustBounds(ByRef<::UnityEngine::Bounds> viewBounds, ByRef<::UnityEngine::Vector2> contentPivot, ByRef<::UnityEngine::Vector3> contentSize, ByRef<::UnityEngine::Vector3> contentPos) ;
+static void AdjustBounds(ByRef<UnityEngine::Bounds> viewBounds, ByRef<UnityEngine::Vector2> contentPivot, ByRef<UnityEngine::Vector3> contentSize, ByRef<UnityEngine::Vector3> contentPos) ;
 
 /// @brief Method GetBounds addr 0x2c0cd58 size 0xfc virtual false final false
- ::UnityEngine::Bounds GetBounds() ;
+ UnityEngine::Bounds GetBounds() ;
 
 /// @brief Method InternalGetBounds addr 0x2c0d324 size 0x158 virtual false final false
-static ::UnityEngine::Bounds InternalGetBounds(::ArrayW<::UnityEngine::Vector3> corners, ByRef<::UnityEngine::Matrix4x4> viewWorldToLocalMatrix) ;
+static UnityEngine::Bounds InternalGetBounds(::ArrayW<UnityEngine::Vector3> corners, ByRef<UnityEngine::Matrix4x4> viewWorldToLocalMatrix) ;
 
 /// @brief Method CalculateOffset addr 0x2c0b5d0 size 0x30 virtual false final false
- ::UnityEngine::Vector2 CalculateOffset(::UnityEngine::Vector2 delta) ;
+ UnityEngine::Vector2 CalculateOffset(UnityEngine::Vector2 delta) ;
 
 /// @brief Method InternalCalculateOffset addr 0x2c0d47c size 0x184 virtual false final false
-static ::UnityEngine::Vector2 InternalCalculateOffset(ByRef<::UnityEngine::Bounds> viewBounds, ByRef<::UnityEngine::Bounds> contentBounds, bool horizontal, bool vertical, ::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType movementType, ByRef<::UnityEngine::Vector2> delta) ;
+static UnityEngine::Vector2 InternalCalculateOffset(ByRef<UnityEngine::Bounds> viewBounds, ByRef<UnityEngine::Bounds> contentBounds, bool horizontal, bool vertical, UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType movementType, ByRef<UnityEngine::Vector2> delta) ;
 
 /// @brief Method SetDirty addr 0x2c0a040 size 0x88 virtual false final false
  void SetDirty() ;
@@ -922,16 +921,15 @@ static ::UnityEngine::Vector2 InternalCalculateOffset(ByRef<::UnityEngine::Bound
  void SetDirtyCaching() ;
 
 /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x2c0d600 size 0x8 virtual true final true
- ::UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
+ UnityEngine::Transform UnityEngine_UI_ICanvasElement_get_transform() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UI
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
-NEED_NO_BOX(::UnityEngine::UI::ScrollRect);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::ScrollRect, "UnityEngine.UI", "ScrollRect");
-NEED_NO_BOX(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::____UnityEngine__UI__ScrollRect__ScrollRectEvent, "UnityEngine.UI", "ScrollRect/ScrollRectEvent");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__ScrollRect__MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
+NEED_NO_BOX(UnityEngine::UI::ScrollRect);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect, "UnityEngine.UI", "ScrollRect");
+NEED_NO_BOX(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::UnityEngine__UI__ScrollRect__ScrollRectEvent, "UnityEngine.UI", "ScrollRect/ScrollRectEvent");

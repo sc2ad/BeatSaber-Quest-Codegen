@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14703))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14720))
 // CS Name: UnityLightWithId
-class CORDL_TYPE UnityLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
+class CORDL_TYPE UnityLightWithId : public GlobalNamespace::LightWithIdMonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr UnityLightWithId(UnityLightWithId const& ) noexcept = default;
 constexpr UnityLightWithId(UnityLightWithId&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityLightWithId(void* ptr) noexcept : ::GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
+constexpr explicit UnityLightWithId(void* ptr) noexcept : GlobalNamespace::LightWithIdMonoBehaviour(ptr) {
 }
 
 
@@ -55,11 +54,11 @@ constexpr explicit UnityLightWithId(void* ptr) noexcept : ::GlobalNamespace::Lig
 
 // Fields
 
- ::UnityEngine::Light __declspec(property(get=__get__light, put=__set__light))  _light;
+ UnityEngine::Light __declspec(property(get=__get__light, put=__set__light))  _light;
 
-constexpr void __set__light(::UnityEngine::Light value) ;
+constexpr void __set__light(UnityEngine::Light value) ;
 
-constexpr ::UnityEngine::Light __get__light() const;
+constexpr UnityEngine::Light __get__light() const;
 
  float_t __declspec(property(get=__get__intensity, put=__set__intensity))  _intensity;
 
@@ -76,16 +75,16 @@ constexpr float_t __get__minAlpha() const;
 
 // Properties
 
- ::UnityEngine::Color __declspec(property(get=get_color))  color;
+ UnityEngine::Color __declspec(property(get=get_color))  color;
 
 
 // Methods
 
 /// @brief Method get_color addr 0x1fa1764 size 0x1c virtual false final false
- ::UnityEngine::Color get_color() ;
+ UnityEngine::Color get_color() ;
 
 /// @brief Method ColorWasSet addr 0x1fa1780 size 0x4c virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit UnityLightWithId() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::UnityLightWithId);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityLightWithId, "", "UnityLightWithId");
+NEED_NO_BOX(GlobalNamespace::UnityLightWithId);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityLightWithId, "", "UnityLightWithId");

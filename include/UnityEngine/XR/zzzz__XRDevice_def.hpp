@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace UnityEngine::XR {
+struct TrackingSpaceType;
+}
 namespace UnityEngine {
 class Camera;
 }
 namespace System {
 template<typename T>
 class Action_1;
-}
-namespace UnityEngine::XR {
-struct TrackingSpaceType;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -59,20 +58,20 @@ constexpr explicit XRDevice(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::System::Action_1<::StringW> __declspec(property(get=__get_deviceLoaded, put=__set_deviceLoaded))  deviceLoaded;
+static System::Action_1<::StringW> __declspec(property(get=__get_deviceLoaded, put=__set_deviceLoaded))  deviceLoaded;
 
-static void __set_deviceLoaded(::System::Action_1<::StringW> value) ;
+static void __set_deviceLoaded(System::Action_1<::StringW> value) ;
 
-static ::System::Action_1<::StringW> __get_deviceLoaded() ;
+static System::Action_1<::StringW> __get_deviceLoaded() ;
 
 
 // Methods
 
 /// @brief Method SetTrackingSpaceType addr 0x2d389fc size 0x3c virtual false final false
-static bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType) ;
+static bool SetTrackingSpaceType(UnityEngine::XR::TrackingSpaceType trackingSpaceType) ;
 
 /// @brief Method DisableAutoXRCameraTracking addr 0x2d38a38 size 0x44 virtual false final false
-static void DisableAutoXRCameraTracking(::UnityEngine::Camera camera, bool disabled) ;
+static void DisableAutoXRCameraTracking(UnityEngine::Camera camera, bool disabled) ;
 
 /// @brief Method InvokeDeviceLoaded addr 0x2d38a7c size 0x6c virtual false final false
 static void InvokeDeviceLoaded(::StringW loadedDeviceName) ;
@@ -81,6 +80,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::XRDevice);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRDevice, "UnityEngine.XR", "XRDevice");
+NEED_NO_BOX(UnityEngine::XR::XRDevice);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDevice, "UnityEngine.XR", "XRDevice");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class ExecuteInEditMode;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10159))
 // CS Name: UnityEngine.ExecuteInEditMode
-class CORDL_TYPE ExecuteInEditMode : public ::System::Attribute {
+class CORDL_TYPE ExecuteInEditMode : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExecuteInEditMode(ExecuteInEditMode const& ) noexcept = default;
 constexpr ExecuteInEditMode(ExecuteInEditMode&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExecuteInEditMode(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ExecuteInEditMode(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ExecuteInEditMode);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ExecuteInEditMode, "UnityEngine", "ExecuteInEditMode");
+NEED_NO_BOX(UnityEngine::ExecuteInEditMode);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ExecuteInEditMode, "UnityEngine", "ExecuteInEditMode");

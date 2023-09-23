@@ -2,7 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class InjectContext;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -10,20 +18,11 @@ class List_1;
 namespace Zenject {
 class IPrefabInstantiator;
 }
-namespace Zenject {
-class IProvider;
+namespace System {
+class Action;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace Zenject {
-class InjectContext;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +37,8 @@ namespace Zenject {
 class CORDL_TYPE PrefabGameObjectProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IProvider
-constexpr operator  ::Zenject::IProvider() const noexcept;
+/// @brief Convert operator to Zenject::IProvider
+constexpr operator  Zenject::IProvider() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -74,11 +73,11 @@ constexpr explicit PrefabGameObjectProvider(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Zenject::IPrefabInstantiator __declspec(property(get=__get__prefabCreator, put=__set__prefabCreator))  _prefabCreator;
+ Zenject::IPrefabInstantiator __declspec(property(get=__get__prefabCreator, put=__set__prefabCreator))  _prefabCreator;
 
-constexpr void __set__prefabCreator(::Zenject::IPrefabInstantiator value) ;
+constexpr void __set__prefabCreator(Zenject::IPrefabInstantiator value) ;
 
-constexpr ::Zenject::IPrefabInstantiator __get__prefabCreator() const;
+constexpr Zenject::IPrefabInstantiator __get__prefabCreator() const;
 
 
 // Properties
@@ -90,11 +89,11 @@ constexpr ::Zenject::IPrefabInstantiator __get__prefabCreator() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prefabCreator", ty: "::Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
-explicit PrefabGameObjectProvider(::Zenject::IPrefabInstantiator prefabCreator) ;
+// Ctor Parameters [CppParam { name: "prefabCreator", ty: "Zenject::IPrefabInstantiator", modifiers: "", def_value: None }]
+explicit PrefabGameObjectProvider(Zenject::IPrefabInstantiator prefabCreator) ;
 
 /// @brief Method .ctor addr 0x2d8e258 size 0x28 virtual false final false
- void _ctor(::Zenject::IPrefabInstantiator prefabCreator) ;
+ void _ctor(Zenject::IPrefabInstantiator prefabCreator) ;
 
 /// @brief Method get_IsCached addr 0x2d8e280 size 0x8 virtual true final true
  bool get_IsCached() ;
@@ -103,15 +102,14 @@ explicit PrefabGameObjectProvider(::Zenject::IPrefabInstantiator prefabCreator) 
  bool get_TypeVariesBasedOnMemberType() ;
 
 /// @brief Method GetInstanceType addr 0x2d8e290 size 0x6c virtual true final true
- ::System::Type GetInstanceType(::Zenject::InjectContext context) ;
+ System::Type GetInstanceType(Zenject::InjectContext context) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d8e2fc size 0x150 virtual true final true
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::PrefabGameObjectProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::PrefabGameObjectProvider, "Zenject", "PrefabGameObjectProvider");
+NEED_NO_BOX(Zenject::PrefabGameObjectProvider);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabGameObjectProvider, "Zenject", "PrefabGameObjectProvider");

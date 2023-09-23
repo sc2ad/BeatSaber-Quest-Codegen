@@ -3,7 +3,6 @@
 #include "Mono/Security/Cryptography/zzzz__MD2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Cryptography {
 class MD2Managed;
@@ -11,10 +10,10 @@ class MD2Managed;
 // Type: Mono.Security.Cryptography::MD2Managed
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2277))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14001))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14002))
 // CS Name: Mono.Security.Cryptography.MD2Managed
-class CORDL_TYPE MD2Managed : public ::Mono::Security::Cryptography::MD2 {
+class CORDL_TYPE MD2Managed : public Mono::Security::Cryptography::MD2 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr MD2Managed(MD2Managed const& ) noexcept = default;
 constexpr MD2Managed(MD2Managed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MD2Managed(void* ptr) noexcept : ::Mono::Security::Cryptography::MD2(ptr) {
+constexpr explicit MD2Managed(void* ptr) noexcept : Mono::Security::Cryptography::MD2(ptr) {
 }
 
 
@@ -89,31 +88,30 @@ static ::ArrayW<uint8_t> __get_PI_SUBST() ;
 
 // Methods
 
-/// @brief Method Padding addr 0x22b3320 size 0x9c virtual false final false
+/// @brief Method Padding addr 0x2297314 size 0x9c virtual false final false
  ::ArrayW<uint8_t> Padding(int32_t nLength) ;
 
 // Ctor Parameters []
 explicit MD2Managed() ;
 
-/// @brief Method .ctor addr 0x22b327c size 0xa4 virtual false final false
+/// @brief Method .ctor addr 0x2297270 size 0xa4 virtual false final false
  void _ctor() ;
 
-/// @brief Method Initialize addr 0x22b33bc size 0x60 virtual true final false
+/// @brief Method Initialize addr 0x22973b0 size 0x60 virtual true final false
  void Initialize() ;
 
-/// @brief Method HashCore addr 0x22b341c size 0xdc virtual true final false
+/// @brief Method HashCore addr 0x2297410 size 0xdc virtual true final false
  void HashCore(::ArrayW<uint8_t> array, int32_t ibStart, int32_t cbSize) ;
 
-/// @brief Method HashFinal addr 0x22b3750 size 0xf0 virtual true final false
+/// @brief Method HashFinal addr 0x2297744 size 0xf0 virtual true final false
  ::ArrayW<uint8_t> HashFinal() ;
 
-/// @brief Method MD2Transform addr 0x22b34f8 size 0x258 virtual false final false
+/// @brief Method MD2Transform addr 0x22974ec size 0x258 virtual false final false
  void MD2Transform(::ArrayW<uint8_t> state, ::ArrayW<uint8_t> checksum, ::ArrayW<uint8_t> block, int32_t index) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Cryptography::MD2Managed);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::MD2Managed, "Mono.Security.Cryptography", "MD2Managed");
+NEED_NO_BOX(Mono::Security::Cryptography::MD2Managed);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2Managed, "Mono.Security.Cryptography", "MD2Managed");

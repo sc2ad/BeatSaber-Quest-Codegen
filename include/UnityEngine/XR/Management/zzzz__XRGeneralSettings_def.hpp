@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::XR::Management {
 class XRManagerSettings;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::XR::Management {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15890))
 // CS Name: UnityEngine.XR.Management.XRGeneralSettings
-class CORDL_TYPE XRGeneralSettings : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE XRGeneralSettings : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr XRGeneralSettings(XRGeneralSettings const& ) noexcept = default;
 constexpr XRGeneralSettings(XRGeneralSettings&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRGeneralSettings(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit XRGeneralSettings(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ static void __set_k_SettingsKey(::StringW value) ;
 
 static ::StringW __get_k_SettingsKey() ;
 
-static ::UnityEngine::XR::Management::XRGeneralSettings __declspec(property(get=__get_s_RuntimeSettingsInstance, put=__set_s_RuntimeSettingsInstance))  s_RuntimeSettingsInstance;
+static UnityEngine::XR::Management::XRGeneralSettings __declspec(property(get=__get_s_RuntimeSettingsInstance, put=__set_s_RuntimeSettingsInstance))  s_RuntimeSettingsInstance;
 
-static void __set_s_RuntimeSettingsInstance(::UnityEngine::XR::Management::XRGeneralSettings value) ;
+static void __set_s_RuntimeSettingsInstance(UnityEngine::XR::Management::XRGeneralSettings value) ;
 
-static ::UnityEngine::XR::Management::XRGeneralSettings __get_s_RuntimeSettingsInstance() ;
+static UnityEngine::XR::Management::XRGeneralSettings __get_s_RuntimeSettingsInstance() ;
 
- ::UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get_m_LoaderManagerInstance, put=__set_m_LoaderManagerInstance))  m_LoaderManagerInstance;
+ UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get_m_LoaderManagerInstance, put=__set_m_LoaderManagerInstance))  m_LoaderManagerInstance;
 
-constexpr void __set_m_LoaderManagerInstance(::UnityEngine::XR::Management::XRManagerSettings value) ;
+constexpr void __set_m_LoaderManagerInstance(UnityEngine::XR::Management::XRManagerSettings value) ;
 
-constexpr ::UnityEngine::XR::Management::XRManagerSettings __get_m_LoaderManagerInstance() const;
+constexpr UnityEngine::XR::Management::XRManagerSettings __get_m_LoaderManagerInstance() const;
 
  bool __declspec(property(get=__get_m_InitManagerOnStart, put=__set_m_InitManagerOnStart))  m_InitManagerOnStart;
 
@@ -76,11 +75,11 @@ constexpr void __set_m_InitManagerOnStart(bool value) ;
 
 constexpr bool __get_m_InitManagerOnStart() const;
 
- ::UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get_m_XRManager, put=__set_m_XRManager))  m_XRManager;
+ UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=__get_m_XRManager, put=__set_m_XRManager))  m_XRManager;
 
-constexpr void __set_m_XRManager(::UnityEngine::XR::Management::XRManagerSettings value) ;
+constexpr void __set_m_XRManager(UnityEngine::XR::Management::XRManagerSettings value) ;
 
-constexpr ::UnityEngine::XR::Management::XRManagerSettings __get_m_XRManager() const;
+constexpr UnityEngine::XR::Management::XRManagerSettings __get_m_XRManager() const;
 
  bool __declspec(property(get=__get_m_ProviderIntialized, put=__set_m_ProviderIntialized))  m_ProviderIntialized;
 
@@ -97,11 +96,11 @@ constexpr bool __get_m_ProviderStarted() const;
 
 // Properties
 
- ::UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=get_Manager, put=set_Manager))  Manager;
+ UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=get_Manager, put=set_Manager))  Manager;
 
-static ::UnityEngine::XR::Management::XRGeneralSettings __declspec(property(get=get_Instance))  Instance;
+static UnityEngine::XR::Management::XRGeneralSettings __declspec(property(get=get_Instance))  Instance;
 
- ::UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=get_AssignedSettings))  AssignedSettings;
+ UnityEngine::XR::Management::XRManagerSettings __declspec(property(get=get_AssignedSettings))  AssignedSettings;
 
  bool __declspec(property(get=get_InitManagerOnStart))  InitManagerOnStart;
 
@@ -109,16 +108,16 @@ static ::UnityEngine::XR::Management::XRGeneralSettings __declspec(property(get=
 // Methods
 
 /// @brief Method get_Manager addr 0x2adccd4 size 0x8 virtual false final false
- ::UnityEngine::XR::Management::XRManagerSettings get_Manager() ;
+ UnityEngine::XR::Management::XRManagerSettings get_Manager() ;
 
 /// @brief Method set_Manager addr 0x2adccdc size 0x8 virtual false final false
- void set_Manager(::UnityEngine::XR::Management::XRManagerSettings value) ;
+ void set_Manager(UnityEngine::XR::Management::XRManagerSettings value) ;
 
 /// @brief Method get_Instance addr 0x2adcce4 size 0x58 virtual false final false
-static ::UnityEngine::XR::Management::XRGeneralSettings get_Instance() ;
+static UnityEngine::XR::Management::XRGeneralSettings get_Instance() ;
 
 /// @brief Method get_AssignedSettings addr 0x2adcd3c size 0x8 virtual false final false
- ::UnityEngine::XR::Management::XRManagerSettings get_AssignedSettings() ;
+ UnityEngine::XR::Management::XRManagerSettings get_AssignedSettings() ;
 
 /// @brief Method get_InitManagerOnStart addr 0x2adcd44 size 0x8 virtual false final false
  bool get_InitManagerOnStart() ;
@@ -163,6 +162,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::Management
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::Management::XRGeneralSettings);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::Management::XRGeneralSettings, "UnityEngine.XR.Management", "XRGeneralSettings");
+NEED_NO_BOX(UnityEngine::XR::Management::XRGeneralSettings);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::Management::XRGeneralSettings, "UnityEngine.XR.Management", "XRGeneralSettings");

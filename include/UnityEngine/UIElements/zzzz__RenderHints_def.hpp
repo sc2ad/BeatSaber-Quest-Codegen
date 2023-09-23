@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct RenderHints;
@@ -77,44 +76,43 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::UIElements::RenderHints const None;
+static UnityEngine::UIElements::RenderHints const None;
 
 /// @brief Field GroupTransform offset 0
-static ::UnityEngine::UIElements::RenderHints const GroupTransform;
+static UnityEngine::UIElements::RenderHints const GroupTransform;
 
 /// @brief Field BoneTransform offset 0
-static ::UnityEngine::UIElements::RenderHints const BoneTransform;
+static UnityEngine::UIElements::RenderHints const BoneTransform;
 
 /// @brief Field ClipWithScissors offset 0
-static ::UnityEngine::UIElements::RenderHints const ClipWithScissors;
+static UnityEngine::UIElements::RenderHints const ClipWithScissors;
 
 /// @brief Field MaskContainer offset 0
-static ::UnityEngine::UIElements::RenderHints const MaskContainer;
+static UnityEngine::UIElements::RenderHints const MaskContainer;
 
 /// @brief Field DynamicColor offset 0
-static ::UnityEngine::UIElements::RenderHints const DynamicColor;
+static UnityEngine::UIElements::RenderHints const DynamicColor;
 
 /// @brief Field DirtyOffset offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyOffset;
+static UnityEngine::UIElements::RenderHints const DirtyOffset;
 
 /// @brief Field DirtyGroupTransform offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
+static UnityEngine::UIElements::RenderHints const DirtyGroupTransform;
 
 /// @brief Field DirtyBoneTransform offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyBoneTransform;
+static UnityEngine::UIElements::RenderHints const DirtyBoneTransform;
 
 /// @brief Field DirtyClipWithScissors offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
+static UnityEngine::UIElements::RenderHints const DirtyClipWithScissors;
 
 /// @brief Field DirtyMaskContainer offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyMaskContainer;
+static UnityEngine::UIElements::RenderHints const DirtyMaskContainer;
 
 /// @brief Field DirtyAll offset 0
-static ::UnityEngine::UIElements::RenderHints const DirtyAll;
+static UnityEngine::UIElements::RenderHints const DirtyAll;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::RenderHints, "UnityEngine.UIElements", "RenderHints");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::RenderHints, "UnityEngine.UIElements", "RenderHints");

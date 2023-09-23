@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -159,40 +158,40 @@ constexpr float_t __get_m33() const;
 
 // Properties
 
-static ::LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=get_identity))  identity;
+static LIV::SDK::Unity::SDKMatrix4x4 __declspec(property(get=get_identity))  identity;
 
 
 // Methods
 
 /// @brief Method get_identity addr 0x20a1afc size 0x2c virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 get_identity() ;
+static LIV::SDK::Unity::SDKMatrix4x4 get_identity() ;
 
 /// @brief Method op_Implicit addr 0x209f8dc size 0x44 virtual false final false
-static ::UnityEngine::Matrix4x4 op_Implicit___UnityEngine__Matrix4x4(::LIV::SDK::Unity::SDKMatrix4x4 v) ;
+static UnityEngine::Matrix4x4 op_Implicit_UnityEngine__Matrix4x4(LIV::SDK::Unity::SDKMatrix4x4 v) ;
 
 /// @brief Method op_Implicit addr 0x20a0be8 size 0x44 virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 op_Implicit___LIV__SDK__Unity__SDKMatrix4x4(::UnityEngine::Matrix4x4 v) ;
+static LIV::SDK::Unity::SDKMatrix4x4 op_Implicit_LIV__SDK__Unity__SDKMatrix4x4(UnityEngine::Matrix4x4 v) ;
 
 /// @brief Method Perspective addr 0x20a1b28 size 0xac virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float_t vFov, float_t aspect, float_t zNear, float_t zFar) ;
+static LIV::SDK::Unity::SDKMatrix4x4 Perspective(float_t vFov, float_t aspect, float_t zNear, float_t zFar) ;
 
 /// @brief Method op_Multiply addr 0x20a1bd4 size 0x10c virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKMatrix4x4 rhs) ;
+static LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(LIV::SDK::Unity::SDKMatrix4x4 lhs, LIV::SDK::Unity::SDKMatrix4x4 rhs) ;
 
 /// @brief Method op_Multiply addr 0x20a1ce0 size 0x58 virtual false final false
-static ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKVector3 rhs) ;
+static LIV::SDK::Unity::SDKVector3 op_Multiply(LIV::SDK::Unity::SDKMatrix4x4 lhs, LIV::SDK::Unity::SDKVector3 rhs) ;
 
 /// @brief Method Translate addr 0x20a1d38 size 0x3c virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value) ;
+static LIV::SDK::Unity::SDKMatrix4x4 Translate(LIV::SDK::Unity::SDKVector3 value) ;
 
 /// @brief Method Rotate addr 0x20a1d74 size 0x94 virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value) ;
+static LIV::SDK::Unity::SDKMatrix4x4 Rotate(LIV::SDK::Unity::SDKQuaternion value) ;
 
 /// @brief Method Scale addr 0x20a1e08 size 0x2c virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value) ;
+static LIV::SDK::Unity::SDKMatrix4x4 Scale(LIV::SDK::Unity::SDKVector3 value) ;
 
 /// @brief Method TRS addr 0x20a1e34 size 0xe4 virtual false final false
-static ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale) ;
+static LIV::SDK::Unity::SDKMatrix4x4 TRS(LIV::SDK::Unity::SDKVector3 translation, LIV::SDK::Unity::SDKQuaternion rotation, LIV::SDK::Unity::SDKVector3 scale) ;
 
 /// @brief Method ToString addr 0x20a1f18 size 0x4ac virtual true final false
  ::StringW ToString() ;
@@ -201,5 +200,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKMatrix4x4, "LIV.SDK.Unity", "SDKMatrix4x4");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKMatrix4x4, "LIV.SDK.Unity", "SDKMatrix4x4");

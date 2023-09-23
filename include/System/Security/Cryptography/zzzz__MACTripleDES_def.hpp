@@ -3,7 +3,9 @@
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Security::Cryptography {
+class TailStream;
+}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
@@ -12,9 +14,6 @@ class TripleDES;
 }
 namespace System::Security::Cryptography {
 class CryptoStream;
-}
-namespace System::Security::Cryptography {
-class TailStream;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -26,7 +25,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2938))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2939))
 // CS Name: System.Security.Cryptography.MACTripleDES
-class CORDL_TYPE MACTripleDES : public ::System::Security::Cryptography::KeyedHashAlgorithm {
+class CORDL_TYPE MACTripleDES : public System::Security::Cryptography::KeyedHashAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr MACTripleDES(MACTripleDES const& ) noexcept = default;
 constexpr MACTripleDES(MACTripleDES&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MACTripleDES(void* ptr) noexcept : ::System::Security::Cryptography::KeyedHashAlgorithm(ptr) {
+constexpr explicit MACTripleDES(void* ptr) noexcept : System::Security::Cryptography::KeyedHashAlgorithm(ptr) {
 }
 
 
@@ -62,23 +61,23 @@ constexpr explicit MACTripleDES(void* ptr) noexcept : ::System::Security::Crypto
 
 // Fields
 
- ::System::Security::Cryptography::ICryptoTransform __declspec(property(get=__get_m_encryptor, put=__set_m_encryptor))  m_encryptor;
+ System::Security::Cryptography::ICryptoTransform __declspec(property(get=__get_m_encryptor, put=__set_m_encryptor))  m_encryptor;
 
-constexpr void __set_m_encryptor(::System::Security::Cryptography::ICryptoTransform value) ;
+constexpr void __set_m_encryptor(System::Security::Cryptography::ICryptoTransform value) ;
 
-constexpr ::System::Security::Cryptography::ICryptoTransform __get_m_encryptor() const;
+constexpr System::Security::Cryptography::ICryptoTransform __get_m_encryptor() const;
 
- ::System::Security::Cryptography::CryptoStream __declspec(property(get=__get__cs, put=__set__cs))  _cs;
+ System::Security::Cryptography::CryptoStream __declspec(property(get=__get__cs, put=__set__cs))  _cs;
 
-constexpr void __set__cs(::System::Security::Cryptography::CryptoStream value) ;
+constexpr void __set__cs(System::Security::Cryptography::CryptoStream value) ;
 
-constexpr ::System::Security::Cryptography::CryptoStream __get__cs() const;
+constexpr System::Security::Cryptography::CryptoStream __get__cs() const;
 
- ::System::Security::Cryptography::TailStream __declspec(property(get=__get__ts, put=__set__ts))  _ts;
+ System::Security::Cryptography::TailStream __declspec(property(get=__get__ts, put=__set__ts))  _ts;
 
-constexpr void __set__ts(::System::Security::Cryptography::TailStream value) ;
+constexpr void __set__ts(System::Security::Cryptography::TailStream value) ;
 
-constexpr ::System::Security::Cryptography::TailStream __get__ts() const;
+constexpr System::Security::Cryptography::TailStream __get__ts() const;
 
  int32_t __declspec(property(get=__get_m_bytesPerBlock, put=__set_m_bytesPerBlock))  m_bytesPerBlock;
 
@@ -86,11 +85,11 @@ constexpr void __set_m_bytesPerBlock(int32_t value) ;
 
 constexpr int32_t __get_m_bytesPerBlock() const;
 
- ::System::Security::Cryptography::TripleDES __declspec(property(get=__get_des, put=__set_des))  des;
+ System::Security::Cryptography::TripleDES __declspec(property(get=__get_des, put=__set_des))  des;
 
-constexpr void __set_des(::System::Security::Cryptography::TripleDES value) ;
+constexpr void __set_des(System::Security::Cryptography::TripleDES value) ;
 
-constexpr ::System::Security::Cryptography::TripleDES __get_des() const;
+constexpr System::Security::Cryptography::TripleDES __get_des() const;
 
 
 // Methods
@@ -117,6 +116,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::MACTripleDES);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::MACTripleDES, "System.Security.Cryptography", "MACTripleDES");
+NEED_NO_BOX(System::Security::Cryptography::MACTripleDES);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MACTripleDES, "System.Security.Cryptography", "MACTripleDES");

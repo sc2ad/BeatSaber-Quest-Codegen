@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::Tilemaps {
 struct CORDL_TYPE TileAnimationData : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_AnimatedSprites", ty: "::ArrayW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "m_AnimationSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AnimationStartTime", ty: "float_t", modifiers: "", def_value: None }]
-constexpr TileAnimationData(::ArrayW<::UnityEngine::Sprite> m_AnimatedSprites, float_t m_AnimationSpeed, float_t m_AnimationStartTime) noexcept;
+// Ctor Parameters [CppParam { name: "m_AnimatedSprites", ty: "::ArrayW<UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "m_AnimationSpeed", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_AnimationStartTime", ty: "float_t", modifiers: "", def_value: None }]
+constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite> m_AnimatedSprites, float_t m_AnimationSpeed, float_t m_AnimationStartTime) noexcept;
 
 
                     constexpr TileAnimationData(TileAnimationData const&) = default;
@@ -54,11 +53,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ArrayW<::UnityEngine::Sprite> __declspec(property(get=__get_m_AnimatedSprites, put=__set_m_AnimatedSprites))  m_AnimatedSprites;
+ ::ArrayW<UnityEngine::Sprite> __declspec(property(get=__get_m_AnimatedSprites, put=__set_m_AnimatedSprites))  m_AnimatedSprites;
 
-constexpr void __set_m_AnimatedSprites(::ArrayW<::UnityEngine::Sprite> value) ;
+constexpr void __set_m_AnimatedSprites(::ArrayW<UnityEngine::Sprite> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Sprite> __get_m_AnimatedSprites() const;
+constexpr ::ArrayW<UnityEngine::Sprite> __get_m_AnimatedSprites() const;
 
  float_t __declspec(property(get=__get_m_AnimationSpeed, put=__set_m_AnimationSpeed))  m_AnimationSpeed;
 
@@ -76,5 +75,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Tilemaps
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Tilemaps::TileAnimationData, "UnityEngine.Tilemaps", "TileAnimationData");

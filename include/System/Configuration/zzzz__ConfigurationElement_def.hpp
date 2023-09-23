@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Configuration {
 class ConfigurationPropertyCollection;
 }
@@ -51,19 +50,19 @@ constexpr explicit ConfigurationElement(void* ptr) noexcept : ::bs_hook::Il2CppW
 
 // Properties
 
- ::System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
+ System::Configuration::ConfigurationPropertyCollection __declspec(property(get=get_Properties))  Properties;
 
 
 // Methods
 
 /// @brief Method get_Properties addr 0x267b3b8 size 0x38 virtual true final false
- ::System::Configuration::ConfigurationPropertyCollection get_Properties() ;
+ System::Configuration::ConfigurationPropertyCollection get_Properties() ;
 
 /// @brief Method IsModified addr 0x267b3f0 size 0x38 virtual true final false
  bool IsModified() ;
 
 /// @brief Method Reset addr 0x267b428 size 0x38 virtual true final false
- void Reset(::System::Configuration::ConfigurationElement parentElement) ;
+ void Reset(System::Configuration::ConfigurationElement parentElement) ;
 
 /// @brief Method ResetModified addr 0x267b460 size 0x38 virtual true final false
  void ResetModified() ;
@@ -72,6 +71,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Configuration
-} // end anonymous namespace
-NEED_NO_BOX(::System::Configuration::ConfigurationElement);
-DEFINE_IL2CPP_ARG_TYPE(::System::Configuration::ConfigurationElement, "System.Configuration", "ConfigurationElement");
+NEED_NO_BOX(System::Configuration::ConfigurationElement);
+DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationElement, "System.Configuration", "ConfigurationElement");

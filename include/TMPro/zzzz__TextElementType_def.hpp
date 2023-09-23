@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 struct TextElementType;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Character offset 0
-static ::TMPro::TextElementType const Character;
+static TMPro::TextElementType const Character;
 
 /// @brief Field Sprite offset 0
-static ::TMPro::TextElementType const Sprite;
+static TMPro::TextElementType const Sprite;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::TextElementType, "TMPro", "TextElementType");
+DEFINE_IL2CPP_ARG_TYPE(TMPro::TextElementType, "TMPro", "TextElementType");

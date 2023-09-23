@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 struct PivotPoint;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Center offset 0
-static ::UnityEngine::ProBuilder::PivotPoint const Center;
+static UnityEngine::ProBuilder::PivotPoint const Center;
 
 /// @brief Field IndividualOrigins offset 0
-static ::UnityEngine::ProBuilder::PivotPoint const IndividualOrigins;
+static UnityEngine::ProBuilder::PivotPoint const IndividualOrigins;
 
 /// @brief Field ActiveElement offset 0
-static ::UnityEngine::ProBuilder::PivotPoint const ActiveElement;
+static UnityEngine::ProBuilder::PivotPoint const ActiveElement;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::PivotPoint, "UnityEngine.ProBuilder", "PivotPoint");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PivotPoint, "UnityEngine.ProBuilder", "PivotPoint");

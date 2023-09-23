@@ -1,9 +1,8 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwap_def.hpp"
-namespace {
 namespace HMUI {
-struct ____HMUI__NoTransitionsButton__SelectionState;
+struct HMUI__NoTransitionsButton__SelectionState;
 }
 // Forward declare root types
 namespace HMUI {
@@ -15,7 +14,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13670))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13671))
 // CS Name: HMUI.ButtonSpriteSwapToggle
-class CORDL_TYPE ButtonSpriteSwapToggle : public ::HMUI::ButtonSpriteSwap {
+class CORDL_TYPE ButtonSpriteSwapToggle : public HMUI::ButtonSpriteSwap {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ButtonSpriteSwapToggle(ButtonSpriteSwapToggle const& ) noexcept = defa
 constexpr ButtonSpriteSwapToggle(ButtonSpriteSwapToggle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ButtonSpriteSwapToggle(void* ptr) noexcept : ::HMUI::ButtonSpriteSwap(ptr) {
+constexpr explicit ButtonSpriteSwapToggle(void* ptr) noexcept : HMUI::ButtonSpriteSwap(ptr) {
 }
 
 
@@ -87,7 +86,7 @@ constexpr bool __get__isToggled() const;
  void OnEnable() ;
 
 /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fbce68 size 0x14c virtual true final false
- void HandleButtonSelectionStateDidChange(::HMUI::____HMUI__NoTransitionsButton__SelectionState state) ;
+ void HandleButtonSelectionStateDidChange(HMUI::HMUI__NoTransitionsButton__SelectionState state) ;
 
 // Ctor Parameters []
 explicit ButtonSpriteSwapToggle() ;
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ButtonSpriteSwapToggle);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ButtonSpriteSwapToggle, "HMUI", "ButtonSpriteSwapToggle");
+NEED_NO_BOX(HMUI::ButtonSpriteSwapToggle);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwapToggle, "HMUI", "ButtonSpriteSwapToggle");

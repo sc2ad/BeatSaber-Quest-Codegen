@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace GlobalNamespace {
 class Saber;
 }
 namespace UnityEngine {
-struct Vector3;
+class SphereCollider;
 }
 namespace UnityEngine {
-class SphereCollider;
+struct Quaternion;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
 // CS Name: SphereCuttableBySaber
-class CORDL_TYPE SphereCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
+class CORDL_TYPE SphereCuttableBySaber : public GlobalNamespace::CuttableBySaber {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr SphereCuttableBySaber(SphereCuttableBySaber const& ) noexcept = defaul
 constexpr SphereCuttableBySaber(SphereCuttableBySaber&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SphereCuttableBySaber(void* ptr) noexcept : ::GlobalNamespace::CuttableBySaber(ptr) {
+constexpr explicit SphereCuttableBySaber(void* ptr) noexcept : GlobalNamespace::CuttableBySaber(ptr) {
 }
 
 
@@ -61,11 +60,11 @@ constexpr explicit SphereCuttableBySaber(void* ptr) noexcept : ::GlobalNamespace
 
 // Fields
 
- ::UnityEngine::SphereCollider __declspec(property(get=__get__collider, put=__set__collider))  _collider;
+ UnityEngine::SphereCollider __declspec(property(get=__get__collider, put=__set__collider))  _collider;
 
-constexpr void __set__collider(::UnityEngine::SphereCollider value) ;
+constexpr void __set__collider(UnityEngine::SphereCollider value) ;
 
-constexpr ::UnityEngine::SphereCollider __get__collider() const;
+constexpr UnityEngine::SphereCollider __get__collider() const;
 
  bool __declspec(property(get=__get__canBeCut, put=__set__canBeCut))  _canBeCut;
 
@@ -96,7 +95,7 @@ constexpr bool __get__canBeCut() const;
  void Awake() ;
 
 /// @brief Method Cut addr 0x210cf5c size 0x34 virtual true final false
- void Cut(::GlobalNamespace::Saber saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec) ;
+ void Cut(GlobalNamespace::Saber saber, UnityEngine::Vector3 cutPoint, UnityEngine::Quaternion orientation, UnityEngine::Vector3 cutDirVec) ;
 
 // Ctor Parameters []
 explicit SphereCuttableBySaber() ;
@@ -108,6 +107,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SphereCuttableBySaber);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SphereCuttableBySaber, "", "SphereCuttableBySaber");
+NEED_NO_BOX(GlobalNamespace::SphereCuttableBySaber);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SphereCuttableBySaber, "", "SphereCuttableBySaber");

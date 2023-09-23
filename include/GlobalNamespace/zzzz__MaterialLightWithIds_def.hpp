@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class MeshRenderer;
-}
 namespace UnityEngine {
 class MaterialPropertyBlock;
 }
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14713))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14707))
 // CS Name: MaterialLightWithIds
-class CORDL_TYPE MaterialLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
+class CORDL_TYPE MaterialLightWithIds : public GlobalNamespace::RuntimeLightWithIds {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr MaterialLightWithIds(MaterialLightWithIds const& ) noexcept = default;
 constexpr MaterialLightWithIds(MaterialLightWithIds&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialLightWithIds(void* ptr) noexcept : ::GlobalNamespace::RuntimeLightWithIds(ptr) {
+constexpr explicit MaterialLightWithIds(void* ptr) noexcept : GlobalNamespace::RuntimeLightWithIds(ptr) {
 }
 
 
@@ -60,11 +59,11 @@ constexpr explicit MaterialLightWithIds(void* ptr) noexcept : ::GlobalNamespace:
 
 // Fields
 
- ::UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
+ UnityEngine::MeshRenderer __declspec(property(get=__get__meshRenderer, put=__set__meshRenderer))  _meshRenderer;
 
-constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer value) ;
+constexpr void __set__meshRenderer(UnityEngine::MeshRenderer value) ;
 
-constexpr ::UnityEngine::MeshRenderer __get__meshRenderer() const;
+constexpr UnityEngine::MeshRenderer __get__meshRenderer() const;
 
  bool __declspec(property(get=__get__setAlphaOnly, put=__set__setAlphaOnly))  _setAlphaOnly;
 
@@ -90,17 +89,17 @@ constexpr void __set__colorProperty(::StringW value) ;
 
 constexpr ::StringW __get__colorProperty() const;
 
-static ::UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
+static UnityEngine::MaterialPropertyBlock __declspec(property(get=__get__materialPropertyBlock, put=__set__materialPropertyBlock))  _materialPropertyBlock;
 
-static void __set__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock value) ;
+static void __set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock value) ;
 
-static ::UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
+static UnityEngine::MaterialPropertyBlock __get__materialPropertyBlock() ;
 
- ::UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
+ UnityEngine::Color __declspec(property(get=__get__color, put=__set__color))  _color;
 
-constexpr void __set__color(::UnityEngine::Color value) ;
+constexpr void __set__color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get__color() const;
+constexpr UnityEngine::Color __get__color() const;
 
  float_t __declspec(property(get=__get__alpha, put=__set__alpha))  _alpha;
 
@@ -121,7 +120,7 @@ constexpr int32_t __get__propertyId() const;
  void Awake() ;
 
 /// @brief Method ColorWasSet addr 0x1f9f3c8 size 0x140 virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 // Ctor Parameters []
 explicit MaterialLightWithIds() ;
@@ -133,6 +132,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialLightWithIds);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialLightWithIds, "", "MaterialLightWithIds");
+NEED_NO_BOX(GlobalNamespace::MaterialLightWithIds);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithIds, "", "MaterialLightWithIds");

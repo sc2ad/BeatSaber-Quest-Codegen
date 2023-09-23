@@ -2,19 +2,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine {
-class Camera;
+struct UnityEngine__Camera__RenderRequest;
 }
 namespace UnityEngine::Rendering {
 struct ScriptableRenderContext;
 }
-namespace UnityEngine {
-struct ____UnityEngine__Camera__RenderRequest;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -77,19 +76,19 @@ constexpr bool __get__disposed_k__BackingField() const;
 // Methods
 
 /// @brief Method Render addr 0x0 size 0xffffffffffffffff virtual true final false
- void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<::UnityEngine::Camera> cameras) ;
+ void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<UnityEngine::Camera> cameras) ;
 
 /// @brief Method ProcessRenderRequests addr 0x2b75ccc size 0x4 virtual true final false
- void ProcessRenderRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera camera, ::System::Collections::Generic::List_1<::UnityEngine::____UnityEngine__Camera__RenderRequest> renderRequests) ;
+ void ProcessRenderRequests(UnityEngine::Rendering::ScriptableRenderContext context, UnityEngine::Camera camera, System::Collections::Generic::List_1<UnityEngine::UnityEngine__Camera__RenderRequest> renderRequests) ;
 
 /// @brief Method Render addr 0x2b75cd0 size 0x78 virtual true final false
- void Render(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera> cameras) ;
+ void Render(UnityEngine::Rendering::ScriptableRenderContext context, System::Collections::Generic::List_1<UnityEngine::Camera> cameras) ;
 
 /// @brief Method InternalRender addr 0x2b7535c size 0x88 virtual false final false
- void InternalRender(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera> cameras) ;
+ void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, System::Collections::Generic::List_1<UnityEngine::Camera> cameras) ;
 
 /// @brief Method InternalRenderWithRequests addr 0x2b753e4 size 0x100 virtual false final false
- void InternalRenderWithRequests(::UnityEngine::Rendering::ScriptableRenderContext context, ::System::Collections::Generic::List_1<::UnityEngine::Camera> cameras, ::System::Collections::Generic::List_1<::UnityEngine::____UnityEngine__Camera__RenderRequest> renderRequests) ;
+ void InternalRenderWithRequests(UnityEngine::Rendering::ScriptableRenderContext context, System::Collections::Generic::List_1<UnityEngine::Camera> cameras, System::Collections::Generic::List_1<UnityEngine::UnityEngine__Camera__RenderRequest> renderRequests) ;
 
 /// @brief Method get_disposed addr 0x2b75d48 size 0x8 virtual false final false
  bool get_disposed() ;
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Rendering::RenderPipeline);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderPipeline, "UnityEngine.Rendering", "RenderPipeline");
+NEED_NO_BOX(UnityEngine::Rendering::RenderPipeline);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipeline, "UnityEngine.Rendering", "RenderPipeline");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System::ComponentModel::Design {
 class IDictionaryService;
@@ -34,6 +33,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel::Design
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::Design::IDictionaryService);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::Design::IDictionaryService, "System.ComponentModel.Design", "IDictionaryService");
+NEED_NO_BOX(System::ComponentModel::Design::IDictionaryService);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::IDictionaryService, "System.ComponentModel.Design", "IDictionaryService");

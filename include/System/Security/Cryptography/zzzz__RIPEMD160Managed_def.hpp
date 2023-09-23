@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__RIPEMD160_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RIPEMD160Managed;
@@ -14,7 +13,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2949))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2950))
 // CS Name: System.Security.Cryptography.RIPEMD160Managed
-class CORDL_TYPE RIPEMD160Managed : public ::System::Security::Cryptography::RIPEMD160 {
+class CORDL_TYPE RIPEMD160Managed : public System::Security::Cryptography::RIPEMD160 {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr RIPEMD160Managed(RIPEMD160Managed const& ) noexcept = default;
 constexpr RIPEMD160Managed(RIPEMD160Managed&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RIPEMD160Managed(void* ptr) noexcept : ::System::Security::Cryptography::RIPEMD160(ptr) {
+constexpr explicit RIPEMD160Managed(void* ptr) noexcept : System::Security::Cryptography::RIPEMD160(ptr) {
 }
 
 
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RIPEMD160Managed);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RIPEMD160Managed, "System.Security.Cryptography", "RIPEMD160Managed");
+NEED_NO_BOX(System::Security::Cryptography::RIPEMD160Managed);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160Managed, "System.Security.Cryptography", "RIPEMD160Managed");

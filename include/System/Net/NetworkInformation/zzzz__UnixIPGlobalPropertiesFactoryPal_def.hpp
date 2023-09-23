@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Net::NetworkInformation {
 class IPGlobalProperties;
 }
@@ -69,12 +68,11 @@ static bool __declspec(property(get=get_PlatformNeedsLibCWorkaround))  PlatformN
 static bool get_PlatformNeedsLibCWorkaround() ;
 
 /// @brief Method Create addr 0x285b2f4 size 0xac virtual false final false
-static ::System::Net::NetworkInformation::IPGlobalProperties Create() ;
+static System::Net::NetworkInformation::IPGlobalProperties Create() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal, "System.Net.NetworkInformation", "UnixIPGlobalPropertiesFactoryPal");
+NEED_NO_BOX(System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal, "System.Net.NetworkInformation", "UnixIPGlobalPropertiesFactoryPal");

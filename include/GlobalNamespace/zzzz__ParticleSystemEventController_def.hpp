@@ -3,16 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-class ParticleSystemEventController;
+class GlobalNamespace__ParticleSystemEventController__Pool;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__ParticleSystemEventController__Pool;
+class ParticleSystemEventController;
 }
 // Type: ::ParticleSystemEventController
 namespace GlobalNamespace {
@@ -20,10 +19,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5066))
 // CS Name: ParticleSystemEventController
-class CORDL_TYPE ParticleSystemEventController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ParticleSystemEventController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using Pool = ::GlobalNamespace::____GlobalNamespace__ParticleSystemEventController__Pool;
+using Pool = GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -37,7 +36,7 @@ constexpr ParticleSystemEventController(ParticleSystemEventController const& ) n
 constexpr ParticleSystemEventController(ParticleSystemEventController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ParticleSystemEventController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ParticleSystemEventController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,11 +57,11 @@ constexpr explicit ParticleSystemEventController(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
+ UnityEngine::ParticleSystem __declspec(property(get=__get__particleSystem, put=__set__particleSystem))  _particleSystem;
 
-constexpr void __set__particleSystem(::UnityEngine::ParticleSystem value) ;
+constexpr void __set__particleSystem(UnityEngine::ParticleSystem value) ;
 
-constexpr ::UnityEngine::ParticleSystem __get__particleSystem() const;
+constexpr UnityEngine::ParticleSystem __get__particleSystem() const;
 
  float_t __declspec(property(get=__get__particleSystemFullDuration, put=__set__particleSystemFullDuration))  _particleSystemFullDuration;
 
@@ -132,44 +131,44 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10992)), TypeDefinitionIndex(TypeDefinitionIndex(5066)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10992), inst: 2721 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5065))
 // CS Name: ParticleSystemEventController::Pool
-class CORDL_TYPE ____GlobalNamespace__ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController> {
+class CORDL_TYPE GlobalNamespace__ParticleSystemEventController__Pool : public Zenject::MonoMemoryPool_1<GlobalNamespace::ParticleSystemEventController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
 
-virtual ~____GlobalNamespace__ParticleSystemEventController__Pool() = default;
+virtual ~GlobalNamespace__ParticleSystemEventController__Pool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ParticleSystemEventController__Pool", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__ParticleSystemEventController__Pool(____GlobalNamespace__ParticleSystemEventController__Pool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ParticleSystemEventController__Pool", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__ParticleSystemEventController__Pool(GlobalNamespace__ParticleSystemEventController__Pool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__ParticleSystemEventController__Pool", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__ParticleSystemEventController__Pool(____GlobalNamespace__ParticleSystemEventController__Pool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__ParticleSystemEventController__Pool", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__ParticleSystemEventController__Pool(GlobalNamespace__ParticleSystemEventController__Pool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ParticleSystemEventController__Pool(void* ptr) noexcept : ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController>(ptr) {
+constexpr explicit GlobalNamespace__ParticleSystemEventController__Pool(void* ptr) noexcept : Zenject::MonoMemoryPool_1<GlobalNamespace::ParticleSystemEventController>(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__ParticleSystemEventController__Pool& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__ParticleSystemEventController__Pool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ParticleSystemEventController__Pool& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__ParticleSystemEventController__Pool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__ParticleSystemEventController__Pool& operator=(____GlobalNamespace__ParticleSystemEventController__Pool&& o) noexcept = default;
-  constexpr ____GlobalNamespace__ParticleSystemEventController__Pool& operator=(____GlobalNamespace__ParticleSystemEventController__Pool const& o) noexcept = default;
+  constexpr GlobalNamespace__ParticleSystemEventController__Pool& operator=(GlobalNamespace__ParticleSystemEventController__Pool&& o) noexcept = default;
+  constexpr GlobalNamespace__ParticleSystemEventController__Pool& operator=(GlobalNamespace__ParticleSystemEventController__Pool const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__ParticleSystemEventController__Pool() ;
+explicit GlobalNamespace__ParticleSystemEventController__Pool() ;
 
 /// @brief Method .ctor addr 0x2266300 size 0x48 virtual false final false
  void _ctor() ;
@@ -178,8 +177,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ParticleSystemEventController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemEventController, "", "ParticleSystemEventController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__ParticleSystemEventController__Pool);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ParticleSystemEventController__Pool, "", "ParticleSystemEventController/Pool");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ParticleSystemEventController__Pool, "", "ParticleSystemEventController/Pool");
+NEED_NO_BOX(GlobalNamespace::ParticleSystemEventController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemEventController, "", "ParticleSystemEventController");

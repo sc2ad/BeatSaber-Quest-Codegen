@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Mono {
-class ISystemCertificateProvider;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
@@ -18,6 +14,9 @@ class Exception;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
+}
+namespace Mono {
+class ISystemCertificateProvider;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct X509KeyStorageFlags;
@@ -68,39 +67,38 @@ constexpr explicit X509Helper(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Properties
 
-static ::Mono::ISystemCertificateProvider __declspec(property(get=get_CertificateProvider))  CertificateProvider;
+static Mono::ISystemCertificateProvider __declspec(property(get=get_CertificateProvider))  CertificateProvider;
 
 
 // Methods
 
 /// @brief Method get_CertificateProvider addr 0x230afb8 size 0xc8 virtual false final false
-static ::Mono::ISystemCertificateProvider get_CertificateProvider() ;
+static Mono::ISystemCertificateProvider get_CertificateProvider() ;
 
 /// @brief Method InitFromCertificate addr 0x230b080 size 0xb0 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImpl InitFromCertificate(System::Security::Cryptography::X509Certificates::X509Certificate cert) ;
 
 /// @brief Method InitFromCertificate addr 0x230b130 size 0x14 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl InitFromCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImpl InitFromCertificate(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method IsValid addr 0x230b144 size 0x14 virtual false final false
-static bool IsValid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+static bool IsValid(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method ThrowIfContextInvalid addr 0x230b158 size 0x40 virtual false final false
-static void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
+static void ThrowIfContextInvalid(System::Security::Cryptography::X509Certificates::X509CertificateImpl impl) ;
 
 /// @brief Method GetInvalidContextException addr 0x230ac00 size 0x88 virtual false final false
-static ::System::Exception GetInvalidContextException() ;
+static System::Exception GetInvalidContextException() ;
 
 /// @brief Method Import addr 0x230b198 size 0xac virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> rawData) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> rawData) ;
 
 /// @brief Method Import addr 0x230b244 size 0xc8 virtual false final false
-static ::System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
+static System::Security::Cryptography::X509Certificates::X509CertificateImpl Import(::ArrayW<uint8_t> rawData, Microsoft::Win32::SafeHandles::SafePasswordHandle password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography::X509Certificates
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::X509Helper);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::X509Helper, "System.Security.Cryptography.X509Certificates", "X509Helper");
+NEED_NO_BOX(System::Security::Cryptography::X509Certificates::X509Helper);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Helper, "System.Security.Cryptography.X509Certificates", "X509Helper");

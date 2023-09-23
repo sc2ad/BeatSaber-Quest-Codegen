@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class ContextStaticAttribute;
@@ -12,7 +11,7 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2549))
 // CS Name: System.ContextStaticAttribute
-class CORDL_TYPE ContextStaticAttribute : public ::System::Attribute {
+class CORDL_TYPE ContextStaticAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ContextStaticAttribute(ContextStaticAttribute const& ) noexcept = defa
 constexpr ContextStaticAttribute(ContextStaticAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ContextStaticAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit ContextStaticAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::ContextStaticAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::ContextStaticAttribute, "System", "ContextStaticAttribute");
+NEED_NO_BOX(System::ContextStaticAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::ContextStaticAttribute, "System", "ContextStaticAttribute");

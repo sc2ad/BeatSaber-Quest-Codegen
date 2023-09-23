@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Diagnostics {
 class TraceListenerCollection;
 }
@@ -59,11 +58,11 @@ static void __set_appName(::StringW value) ;
 
 static ::StringW __get_appName() ;
 
-static ::System::Diagnostics::TraceListenerCollection __declspec(property(get=__get_listeners, put=__set_listeners))  listeners;
+static System::Diagnostics::TraceListenerCollection __declspec(property(get=__get_listeners, put=__set_listeners))  listeners;
 
-static void __set_listeners(::System::Diagnostics::TraceListenerCollection value) ;
+static void __set_listeners(System::Diagnostics::TraceListenerCollection value) ;
 
-static ::System::Diagnostics::TraceListenerCollection __get_listeners() ;
+static System::Diagnostics::TraceListenerCollection __get_listeners() ;
 
 static bool __declspec(property(get=__get_autoFlush, put=__set_autoFlush))  autoFlush;
 
@@ -92,7 +91,7 @@ static ::bs_hook::Il2CppWrapperType __get_critSec() ;
 
 // Properties
 
-static ::System::Diagnostics::TraceListenerCollection __declspec(property(get=get_Listeners))  Listeners;
+static System::Diagnostics::TraceListenerCollection __declspec(property(get=get_Listeners))  Listeners;
 
 static bool __declspec(property(get=get_AutoFlush))  AutoFlush;
 
@@ -104,7 +103,7 @@ static int32_t __declspec(property(get=get_IndentSize))  IndentSize;
 // Methods
 
 /// @brief Method get_Listeners addr 0x27da410 size 0x254 virtual false final false
-static ::System::Diagnostics::TraceListenerCollection get_Listeners() ;
+static System::Diagnostics::TraceListenerCollection get_Listeners() ;
 
 /// @brief Method get_AutoFlush addr 0x27da6b0 size 0x60 virtual false final false
 static bool get_AutoFlush() ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Diagnostics
-} // end anonymous namespace
-NEED_NO_BOX(::System::Diagnostics::TraceInternal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceInternal, "System.Diagnostics", "TraceInternal");
+NEED_NO_BOX(System::Diagnostics::TraceInternal);
+DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal, "System.Diagnostics", "TraceInternal");

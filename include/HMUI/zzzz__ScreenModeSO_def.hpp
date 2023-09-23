@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-namespace {
 namespace HMUI {
 class ScreenModeData;
 }
@@ -15,7 +14,7 @@ namespace HMUI {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13643))
 // CS Name: HMUI.ScreenModeSO
-class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE ScreenModeSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ScreenModeSO(ScreenModeSO const& ) noexcept = default;
 constexpr ScreenModeSO(ScreenModeSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ScreenModeSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit ScreenModeSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -51,22 +50,22 @@ constexpr explicit ScreenModeSO(void* ptr) noexcept : ::UnityEngine::ScriptableO
 
 // Fields
 
- ::HMUI::ScreenModeData __declspec(property(get=__get__data, put=__set__data))  _data;
+ HMUI::ScreenModeData __declspec(property(get=__get__data, put=__set__data))  _data;
 
-constexpr void __set__data(::HMUI::ScreenModeData value) ;
+constexpr void __set__data(HMUI::ScreenModeData value) ;
 
-constexpr ::HMUI::ScreenModeData __get__data() const;
+constexpr HMUI::ScreenModeData __get__data() const;
 
 
 // Properties
 
- ::HMUI::ScreenModeData __declspec(property(get=get_data))  data;
+ HMUI::ScreenModeData __declspec(property(get=get_data))  data;
 
 
 // Methods
 
 /// @brief Method get_data addr 0x1fb8d5c size 0x8 virtual false final false
- ::HMUI::ScreenModeData get_data() ;
+ HMUI::ScreenModeData get_data() ;
 
 // Ctor Parameters []
 explicit ScreenModeSO() ;
@@ -78,6 +77,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HMUI
-} // end anonymous namespace
-NEED_NO_BOX(::HMUI::ScreenModeSO);
-DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScreenModeSO, "HMUI", "ScreenModeSO");
+NEED_NO_BOX(HMUI::ScreenModeSO);
+DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO, "HMUI", "ScreenModeSO");

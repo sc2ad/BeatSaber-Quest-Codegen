@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System {
+class LazyHelper;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace System::Threading {
 struct LazyThreadSafetyMode;
-}
-namespace System {
-class LazyHelper;
 }
 // Forward declare root types
 namespace System {
@@ -67,17 +66,17 @@ constexpr explicit Lazy_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 
 // Fields
 
- ::System::LazyHelper __declspec(property(get=__get__state, put=__set__state))  _state;
+ System::LazyHelper __declspec(property(get=__get__state, put=__set__state))  _state;
 
-constexpr void __set__state(::System::LazyHelper value) ;
+constexpr void __set__state(System::LazyHelper value) ;
 
-constexpr ::System::LazyHelper __get__state() const;
+constexpr System::LazyHelper __get__state() const;
 
- ::System::Func_1<T> __declspec(property(get=__get__factory, put=__set__factory))  _factory;
+ System::Func_1<T> __declspec(property(get=__get__factory, put=__set__factory))  _factory;
 
-constexpr void __set__factory(::System::Func_1<T> value) ;
+constexpr void __set__factory(System::Func_1<T> value) ;
 
-constexpr ::System::Func_1<T> __get__factory() const;
+constexpr System::Func_1<T> __get__factory() const;
 
  T __declspec(property(get=__get__value, put=__set__value))  _value;
 
@@ -104,35 +103,35 @@ explicit Lazy_1() ;
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "valueFactory", ty: "::System::Func_1<T>", modifiers: "", def_value: None }]
-explicit Lazy_1(::System::Func_1<T> valueFactory) ;
+// Ctor Parameters [CppParam { name: "valueFactory", ty: "System::Func_1<T>", modifiers: "", def_value: None }]
+explicit Lazy_1(System::Func_1<T> valueFactory) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_1<T> valueFactory) ;
+ void _ctor(System::Func_1<T> valueFactory) ;
 
-// Ctor Parameters [CppParam { name: "valueFactory", ty: "::System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::System::Threading::LazyThreadSafetyMode", modifiers: "", def_value: None }, CppParam { name: "useDefaultConstructor", ty: "bool", modifiers: "", def_value: None }]
-explicit Lazy_1(::System::Func_1<T> valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
+// Ctor Parameters [CppParam { name: "valueFactory", ty: "System::Func_1<T>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::LazyThreadSafetyMode", modifiers: "", def_value: None }, CppParam { name: "useDefaultConstructor", ty: "bool", modifiers: "", def_value: None }]
+explicit Lazy_1(System::Func_1<T> valueFactory, System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::System::Func_1<T> valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
+ void _ctor(System::Func_1<T> valueFactory, System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor) ;
 
 /// @brief Method ViaConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
  void ViaConstructor() ;
 
 /// @brief Method ViaFactory addr 0x0 size 0xffffffffffffffff virtual false final false
- void ViaFactory(::System::Threading::LazyThreadSafetyMode mode) ;
+ void ViaFactory(System::Threading::LazyThreadSafetyMode mode) ;
 
 /// @brief Method ExecutionAndPublication addr 0x0 size 0xffffffffffffffff virtual false final false
- void ExecutionAndPublication(::System::LazyHelper executionAndPublication, bool useDefaultConstructor) ;
+ void ExecutionAndPublication(System::LazyHelper executionAndPublication, bool useDefaultConstructor) ;
 
 /// @brief Method PublicationOnly addr 0x0 size 0xffffffffffffffff virtual false final false
- void PublicationOnly(::System::LazyHelper publicationOnly, T possibleValue) ;
+ void PublicationOnly(System::LazyHelper publicationOnly, T possibleValue) ;
 
 /// @brief Method PublicationOnlyViaConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
- void PublicationOnlyViaConstructor(::System::LazyHelper initializer) ;
+ void PublicationOnlyViaConstructor(System::LazyHelper initializer) ;
 
 /// @brief Method PublicationOnlyViaFactory addr 0x0 size 0xffffffffffffffff virtual false final false
- void PublicationOnlyViaFactory(::System::LazyHelper initializer) ;
+ void PublicationOnlyViaFactory(System::LazyHelper initializer) ;
 
 /// @brief Method PublicationOnlyWaitForOtherThreadToPublish addr 0x0 size 0xffffffffffffffff virtual false final false
  void PublicationOnlyWaitForOtherThreadToPublish() ;
@@ -153,5 +152,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Lazy_1, "System", "Lazy`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Lazy_1, "System", "Lazy`1");

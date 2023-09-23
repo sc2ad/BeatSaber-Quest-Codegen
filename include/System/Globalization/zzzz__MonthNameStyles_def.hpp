@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Globalization {
 struct MonthNameStyles;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Regular offset 0
-static ::System::Globalization::MonthNameStyles const Regular;
+static System::Globalization::MonthNameStyles const Regular;
 
 /// @brief Field Genitive offset 0
-static ::System::Globalization::MonthNameStyles const Genitive;
+static System::Globalization::MonthNameStyles const Genitive;
 
 /// @brief Field LeapYear offset 0
-static ::System::Globalization::MonthNameStyles const LeapYear;
+static System::Globalization::MonthNameStyles const LeapYear;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Globalization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");
+DEFINE_IL2CPP_ARG_TYPE(System::Globalization::MonthNameStyles, "System.Globalization", "MonthNameStyles");

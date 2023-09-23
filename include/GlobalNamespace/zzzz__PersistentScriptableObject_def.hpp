@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class PersistentScriptableObject;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13816))
 // CS Name: PersistentScriptableObject
-class CORDL_TYPE PersistentScriptableObject : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE PersistentScriptableObject : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr PersistentScriptableObject(PersistentScriptableObject const& ) noexcep
 constexpr PersistentScriptableObject(PersistentScriptableObject&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PersistentScriptableObject(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit PersistentScriptableObject(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PersistentScriptableObject);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PersistentScriptableObject, "", "PersistentScriptableObject");
+NEED_NO_BOX(GlobalNamespace::PersistentScriptableObject);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PersistentScriptableObject, "", "PersistentScriptableObject");

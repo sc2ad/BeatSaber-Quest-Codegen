@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -59,35 +58,35 @@ constexpr explicit ControllerColliderHit(void* ptr) noexcept : ::bs_hook::Il2Cpp
 
 // Fields
 
- ::UnityEngine::CharacterController __declspec(property(get=__get_m_Controller, put=__set_m_Controller))  m_Controller;
+ UnityEngine::CharacterController __declspec(property(get=__get_m_Controller, put=__set_m_Controller))  m_Controller;
 
-constexpr void __set_m_Controller(::UnityEngine::CharacterController value) ;
+constexpr void __set_m_Controller(UnityEngine::CharacterController value) ;
 
-constexpr ::UnityEngine::CharacterController __get_m_Controller() const;
+constexpr UnityEngine::CharacterController __get_m_Controller() const;
 
- ::UnityEngine::Collider __declspec(property(get=__get_m_Collider, put=__set_m_Collider))  m_Collider;
+ UnityEngine::Collider __declspec(property(get=__get_m_Collider, put=__set_m_Collider))  m_Collider;
 
-constexpr void __set_m_Collider(::UnityEngine::Collider value) ;
+constexpr void __set_m_Collider(UnityEngine::Collider value) ;
 
-constexpr ::UnityEngine::Collider __get_m_Collider() const;
+constexpr UnityEngine::Collider __get_m_Collider() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Point, put=__set_m_Point))  m_Point;
 
-constexpr void __set_m_Point(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Point(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Point() const;
+constexpr UnityEngine::Vector3 __get_m_Point() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_Normal, put=__set_m_Normal))  m_Normal;
 
-constexpr void __set_m_Normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_Normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_Normal() const;
+constexpr UnityEngine::Vector3 __get_m_Normal() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_m_MoveDirection, put=__set_m_MoveDirection))  m_MoveDirection;
+ UnityEngine::Vector3 __declspec(property(get=__get_m_MoveDirection, put=__set_m_MoveDirection))  m_MoveDirection;
 
-constexpr void __set_m_MoveDirection(::UnityEngine::Vector3 value) ;
+constexpr void __set_m_MoveDirection(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_m_MoveDirection() const;
+constexpr UnityEngine::Vector3 __get_m_MoveDirection() const;
 
  float_t __declspec(property(get=__get_m_MoveLength, put=__set_m_MoveLength))  m_MoveLength;
 
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ControllerColliderHit);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ControllerColliderHit, "UnityEngine", "ControllerColliderHit");
+NEED_NO_BOX(UnityEngine::ControllerColliderHit);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ControllerColliderHit, "UnityEngine", "ControllerColliderHit");

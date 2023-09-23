@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-struct SignatureSubpacketTag;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SignatureSubpacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -56,11 +55,11 @@ constexpr explicit SignatureSubpacket(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag __declspec(property(get=__get_type, put=__set_type))  type;
+ Org::BouncyCastle::Bcpg::SignatureSubpacketTag __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value) ;
+constexpr void __set_type(Org::BouncyCastle::Bcpg::SignatureSubpacketTag value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag __get_type() const;
+constexpr Org::BouncyCastle::Bcpg::SignatureSubpacketTag __get_type() const;
 
  bool __declspec(property(get=__get_critical, put=__set_critical))  critical;
 
@@ -83,19 +82,19 @@ constexpr ::ArrayW<uint8_t> __get_data() const;
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag __declspec(property(get=get_SubpacketType))  SubpacketType;
+ Org::BouncyCastle::Bcpg::SignatureSubpacketTag __declspec(property(get=get_SubpacketType))  SubpacketType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::Org::BouncyCastle::Bcpg::SignatureSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SignatureSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+// Ctor Parameters [CppParam { name: "type", ty: "Org::BouncyCastle::Bcpg::SignatureSubpacketTag", modifiers: "", def_value: None }, CppParam { name: "critical", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isLongLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "data", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit SignatureSubpacket(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method .ctor addr 0x113d048 size 0x48 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
+ void _ctor(Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t> data) ;
 
 /// @brief Method get_SubpacketType addr 0x113d090 size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType() ;
+ Org::BouncyCastle::Bcpg::SignatureSubpacketTag get_SubpacketType() ;
 
 /// @brief Method IsCritical addr 0x113d098 size 0x8 virtual false final false
  bool IsCritical() ;
@@ -107,12 +106,11 @@ explicit SignatureSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag typ
  ::ArrayW<uint8_t> GetData() ;
 
 /// @brief Method Encode addr 0x113d120 size 0x144 virtual false final false
- void Encode(::System::IO::Stream os) ;
+ void Encode(System::IO::Stream os) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SignatureSubpacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SignatureSubpacket, "Org.BouncyCastle.Bcpg", "SignatureSubpacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::SignatureSubpacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SignatureSubpacket, "Org.BouncyCastle.Bcpg", "SignatureSubpacket");

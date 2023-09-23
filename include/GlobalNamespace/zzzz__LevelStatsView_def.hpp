@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class PlayerData;
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5881))
 // CS Name: LevelStatsView
-class CORDL_TYPE LevelStatsView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LevelStatsView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr LevelStatsView(LevelStatsView const& ) noexcept = default;
 constexpr LevelStatsView(LevelStatsView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelStatsView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LevelStatsView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit LevelStatsView(void* ptr) noexcept : ::UnityEngine::MonoBehav
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__highScoreText, put=__set__highScoreText))  _highScoreText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__highScoreText, put=__set__highScoreText))  _highScoreText;
 
-constexpr void __set__highScoreText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__highScoreText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__highScoreText() const;
+constexpr TMPro::TextMeshProUGUI __get__highScoreText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__maxComboText, put=__set__maxComboText))  _maxComboText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__maxComboText, put=__set__maxComboText))  _maxComboText;
 
-constexpr void __set__maxComboText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__maxComboText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__maxComboText() const;
+constexpr TMPro::TextMeshProUGUI __get__maxComboText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__maxRankText, put=__set__maxRankText))  _maxRankText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__maxRankText, put=__set__maxRankText))  _maxRankText;
 
-constexpr void __set__maxRankText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__maxRankText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__maxRankText() const;
+constexpr TMPro::TextMeshProUGUI __get__maxRankText() const;
 
 
 // Methods
@@ -82,7 +81,7 @@ constexpr ::TMPro::TextMeshProUGUI __get__maxRankText() const;
  void Hide() ;
 
 /// @brief Method ShowStats addr 0x218c0b4 size 0x3b4 virtual false final false
- void ShowStats(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, ::GlobalNamespace::PlayerData playerData) ;
+ void ShowStats(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap, GlobalNamespace::PlayerData playerData) ;
 
 // Ctor Parameters []
 explicit LevelStatsView() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelStatsView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelStatsView, "", "LevelStatsView");
+NEED_NO_BOX(GlobalNamespace::LevelStatsView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView, "", "LevelStatsView");

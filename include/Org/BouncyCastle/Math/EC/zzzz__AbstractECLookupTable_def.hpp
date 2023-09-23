@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -22,8 +21,8 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE AbstractECLookupTable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::EC::ECLookupTable
-constexpr operator  ::Org::BouncyCastle::Math::EC::ECLookupTable() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::EC::ECLookupTable
+constexpr operator  Org::BouncyCastle::Math::EC::ECLookupTable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -64,13 +63,13 @@ constexpr explicit AbstractECLookupTable(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method Lookup addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint Lookup(int32_t index) ;
+ Org::BouncyCastle::Math::EC::ECPoint Lookup(int32_t index) ;
 
 /// @brief Method get_Size addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Size() ;
 
 /// @brief Method LookupVar addr 0xf3eaf0 size 0xc virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint LookupVar(int32_t index) ;
+ Org::BouncyCastle::Math::EC::ECPoint LookupVar(int32_t index) ;
 
 // Ctor Parameters []
 explicit AbstractECLookupTable() ;
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::AbstractECLookupTable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::AbstractECLookupTable, "Org.BouncyCastle.Math.EC", "AbstractECLookupTable");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::AbstractECLookupTable);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractECLookupTable, "Org.BouncyCastle.Math.EC", "AbstractECLookupTable");

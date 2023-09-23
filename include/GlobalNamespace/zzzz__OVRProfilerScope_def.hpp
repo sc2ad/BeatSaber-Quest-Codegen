@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -19,8 +18,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE OVRProfilerScope : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const;
 
 
                     constexpr OVRProfilerScope(OVRProfilerScope const&) = default;
@@ -63,5 +62,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRProfilerScope, "", "OVRProfilerScope");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfilerScope, "", "OVRProfilerScope");

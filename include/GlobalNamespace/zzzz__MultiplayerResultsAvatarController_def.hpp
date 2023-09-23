@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
 class MultiplayerAvatarPoseController;
 }
 namespace GlobalNamespace {
-class AvatarVisualController;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class AvatarVisualController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5331))
 // CS Name: MultiplayerResultsAvatarController
-class CORDL_TYPE MultiplayerResultsAvatarController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MultiplayerResultsAvatarController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MultiplayerResultsAvatarController(MultiplayerResultsAvatarController 
 constexpr MultiplayerResultsAvatarController(MultiplayerResultsAvatarController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerResultsAvatarController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MultiplayerResultsAvatarController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,17 +57,17 @@ constexpr explicit MultiplayerResultsAvatarController(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::GlobalNamespace::AvatarVisualController __declspec(property(get=__get__avatarVisualController, put=__set__avatarVisualController))  _avatarVisualController;
+ GlobalNamespace::AvatarVisualController __declspec(property(get=__get__avatarVisualController, put=__set__avatarVisualController))  _avatarVisualController;
 
-constexpr void __set__avatarVisualController(::GlobalNamespace::AvatarVisualController value) ;
+constexpr void __set__avatarVisualController(GlobalNamespace::AvatarVisualController value) ;
 
-constexpr ::GlobalNamespace::AvatarVisualController __get__avatarVisualController() const;
+constexpr GlobalNamespace::AvatarVisualController __get__avatarVisualController() const;
 
- ::GlobalNamespace::MultiplayerAvatarPoseController __declspec(property(get=__get__multiplayerAvatarPoseController, put=__set__multiplayerAvatarPoseController))  _multiplayerAvatarPoseController;
+ GlobalNamespace::MultiplayerAvatarPoseController __declspec(property(get=__get__multiplayerAvatarPoseController, put=__set__multiplayerAvatarPoseController))  _multiplayerAvatarPoseController;
 
-constexpr void __set__multiplayerAvatarPoseController(::GlobalNamespace::MultiplayerAvatarPoseController value) ;
+constexpr void __set__multiplayerAvatarPoseController(GlobalNamespace::MultiplayerAvatarPoseController value) ;
 
-constexpr ::GlobalNamespace::MultiplayerAvatarPoseController __get__multiplayerAvatarPoseController() const;
+constexpr GlobalNamespace::MultiplayerAvatarPoseController __get__multiplayerAvatarPoseController() const;
 
 
 // Methods
@@ -77,7 +76,7 @@ constexpr ::GlobalNamespace::MultiplayerAvatarPoseController __get__multiplayerA
  void SetScale(float_t scale) ;
 
 /// @brief Method Setup addr 0x2100df0 size 0x134 virtual false final false
- void Setup(::GlobalNamespace::IConnectedPlayer connectedPlayer) ;
+ void Setup(GlobalNamespace::IConnectedPlayer connectedPlayer) ;
 
 // Ctor Parameters []
 explicit MultiplayerResultsAvatarController() ;
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsAvatarController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerResultsAvatarController, "", "MultiplayerResultsAvatarController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerResultsAvatarController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsAvatarController, "", "MultiplayerResultsAvatarController");

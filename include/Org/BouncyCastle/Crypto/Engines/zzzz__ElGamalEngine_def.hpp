@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ElGamalKeyParameters;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -30,8 +29,8 @@ namespace Org::BouncyCastle::Crypto::Engines {
 class CORDL_TYPE ElGamalEngine : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
+constexpr operator  Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -66,17 +65,17 @@ constexpr explicit ElGamalEngine(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
+ Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters __declspec(property(get=__get_key, put=__set_key))  key;
 
-constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters value) ;
+constexpr void __set_key(Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters __get_key() const;
+constexpr Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters __get_key() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
  bool __declspec(property(get=__get_forEncryption, put=__set_forEncryption))  forEncryption;
 
@@ -102,7 +101,7 @@ constexpr int32_t __get_bitSize() const;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xe44180 size 0x2b4 virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetInputBlockSize addr 0xe44434 size 0x40 virtual true final false
  int32_t GetInputBlockSize() ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Engines
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::ElGamalEngine);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::ElGamalEngine, "Org.BouncyCastle.Crypto.Engines", "ElGamalEngine");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Engines::ElGamalEngine);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ElGamalEngine, "Org.BouncyCastle.Crypto.Engines", "ElGamalEngine");

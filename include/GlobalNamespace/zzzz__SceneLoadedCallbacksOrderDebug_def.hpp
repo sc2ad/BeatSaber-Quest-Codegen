@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
 // CS Name: SceneLoadedCallbacksOrderDebug
-class CORDL_TYPE SceneLoadedCallbacksOrderDebug : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SceneLoadedCallbacksOrderDebug : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SceneLoadedCallbacksOrderDebug(SceneLoadedCallbacksOrderDebug const& )
 constexpr SceneLoadedCallbacksOrderDebug(SceneLoadedCallbacksOrderDebug&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SceneLoadedCallbacksOrderDebug(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SceneLoadedCallbacksOrderDebug(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,7 +60,7 @@ constexpr explicit SceneLoadedCallbacksOrderDebug(void* ptr) noexcept : ::UnityE
  void OnEnable() ;
 
 /// @brief Method OnSceneLoaded addr 0x1f7a3bc size 0xd0 virtual false final false
- void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode) ;
+ void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
 /// @brief Method Start addr 0x1f7a48c size 0x68 virtual false final false
  void Start() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SceneLoadedCallbacksOrderDebug);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SceneLoadedCallbacksOrderDebug, "", "SceneLoadedCallbacksOrderDebug");
+NEED_NO_BOX(GlobalNamespace::SceneLoadedCallbacksOrderDebug);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneLoadedCallbacksOrderDebug, "", "SceneLoadedCallbacksOrderDebug");

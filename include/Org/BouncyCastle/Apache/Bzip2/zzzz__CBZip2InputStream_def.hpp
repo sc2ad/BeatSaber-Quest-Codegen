@@ -3,15 +3,14 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Apache::Bzip2 {
+class CRC;
+}
 namespace System::IO {
 class Stream;
 }
 namespace System::IO {
 struct SeekOrigin;
-}
-namespace Org::BouncyCastle::Apache::Bzip2 {
-class CRC;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Apache::Bzip2 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1877))
 // CS Name: Org.BouncyCastle.Apache.Bzip2.CBZip2InputStream
-class CORDL_TYPE CBZip2InputStream : public ::System::IO::Stream {
+class CORDL_TYPE CBZip2InputStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr CBZip2InputStream(CBZip2InputStream const& ) noexcept = default;
 constexpr CBZip2InputStream(CBZip2InputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CBZip2InputStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit CBZip2InputStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -116,11 +115,11 @@ constexpr void __set_bsLive(int32_t value) ;
 
 constexpr int32_t __get_bsLive() const;
 
- ::Org::BouncyCastle::Apache::Bzip2::CRC __declspec(property(get=__get_mCrc, put=__set_mCrc))  mCrc;
+ Org::BouncyCastle::Apache::Bzip2::CRC __declspec(property(get=__get_mCrc, put=__set_mCrc))  mCrc;
 
-constexpr void __set_mCrc(::Org::BouncyCastle::Apache::Bzip2::CRC value) ;
+constexpr void __set_mCrc(Org::BouncyCastle::Apache::Bzip2::CRC value) ;
 
-constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC __get_mCrc() const;
+constexpr Org::BouncyCastle::Apache::Bzip2::CRC __get_mCrc() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_inUse, put=__set_inUse))  inUse;
 
@@ -200,11 +199,11 @@ constexpr void __set_minLens(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_minLens() const;
 
- ::System::IO::Stream __declspec(property(get=__get_bsStream, put=__set_bsStream))  bsStream;
+ System::IO::Stream __declspec(property(get=__get_bsStream, put=__set_bsStream))  bsStream;
 
-constexpr void __set_bsStream(::System::IO::Stream value) ;
+constexpr void __set_bsStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_bsStream() const;
+constexpr System::IO::Stream __get_bsStream() const;
 
  bool __declspec(property(get=__get_streamEnd, put=__set_streamEnd))  streamEnd;
 
@@ -333,11 +332,11 @@ static void CompressedStreamEOF() ;
 /// @brief Method MakeMaps addr 0x10fd508 size 0x8c virtual false final false
  void MakeMaps() ;
 
-// Ctor Parameters [CppParam { name: "zStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CBZip2InputStream(::System::IO::Stream zStream) ;
+// Ctor Parameters [CppParam { name: "zStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CBZip2InputStream(System::IO::Stream zStream) ;
 
 /// @brief Method .ctor addr 0x10fd594 size 0x1bc virtual false final false
- void _ctor(::System::IO::Stream zStream) ;
+ void _ctor(System::IO::Stream zStream) ;
 
 /// @brief Method InitIntArray addr 0x10fd770 size 0xec virtual false final false
 static ::ArrayW<::ArrayW<int32_t>> InitIntArray(int32_t n1, int32_t n2) ;
@@ -373,7 +372,7 @@ static void CrcError() ;
  void BsFinishedWithStream() ;
 
 /// @brief Method BsSetStream addr 0x10fd85c size 0xc virtual false final false
- void BsSetStream(::System::IO::Stream f) ;
+ void BsSetStream(System::IO::Stream f) ;
 
 /// @brief Method BsR addr 0x10fe250 size 0x108 virtual false final false
  int32_t BsR(int32_t n) ;
@@ -430,7 +429,7 @@ static void CrcError() ;
  int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Seek addr 0x10ff744 size 0x8 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x10ff74c size 0x4 virtual true final false
  void SetLength(int64_t value) ;
@@ -460,6 +459,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Apache::Bzip2
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, "Org.BouncyCastle.Apache.Bzip2", "CBZip2InputStream");
+NEED_NO_BOX(Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Apache::Bzip2::CBZip2InputStream, "Org.BouncyCastle.Apache.Bzip2", "CBZip2InputStream");

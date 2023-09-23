@@ -1,24 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathBuilderResult;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
-}
-namespace System {
-class Exception;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixBuilderParameters;
 }
 namespace System::Collections {
 class IList;
 }
+namespace System {
+class Exception;
+}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixBuilderParameters;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathBuilderResult;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -66,20 +65,20 @@ constexpr explicit PkixAttrCertPathBuilder(void* ptr) noexcept : ::bs_hook::Il2C
 
 // Fields
 
- ::System::Exception __declspec(property(get=__get_certPathException, put=__set_certPathException))  certPathException;
+ System::Exception __declspec(property(get=__get_certPathException, put=__set_certPathException))  certPathException;
 
-constexpr void __set_certPathException(::System::Exception value) ;
+constexpr void __set_certPathException(System::Exception value) ;
 
-constexpr ::System::Exception __get_certPathException() const;
+constexpr System::Exception __get_certPathException() const;
 
 
 // Methods
 
 /// @brief Method Build addr 0x105c5c0 size 0xee0 virtual true final false
- ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams) ;
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams) ;
 
 /// @brief Method Build addr 0x105e4b8 size 0xc40 virtual false final false
- ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(::Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, ::Org::BouncyCastle::X509::X509Certificate tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams, ::System::Collections::IList tbvPath) ;
+ Org::BouncyCastle::Pkix::PkixCertPathBuilderResult Build(Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, Org::BouncyCastle::X509::X509Certificate tbvCert, Org::BouncyCastle::Pkix::PkixBuilderParameters pkixParams, System::Collections::IList tbvPath) ;
 
 // Ctor Parameters []
 explicit PkixAttrCertPathBuilder() ;
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder, "Org.BouncyCastle.Pkix", "PkixAttrCertPathBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixAttrCertPathBuilder, "Org.BouncyCastle.Pkix", "PkixAttrCertPathBuilder");

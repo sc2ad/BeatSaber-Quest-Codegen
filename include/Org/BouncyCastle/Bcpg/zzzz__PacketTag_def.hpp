@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
@@ -87,74 +86,73 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Reserved offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Reserved;
+static Org::BouncyCastle::Bcpg::PacketTag const Reserved;
 
 /// @brief Field PublicKeyEncryptedSession offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKeyEncryptedSession;
+static Org::BouncyCastle::Bcpg::PacketTag const PublicKeyEncryptedSession;
 
 /// @brief Field Signature offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Signature;
+static Org::BouncyCastle::Bcpg::PacketTag const Signature;
 
 /// @brief Field SymmetricKeyEncryptedSessionKey offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncryptedSessionKey;
+static Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncryptedSessionKey;
 
 /// @brief Field OnePassSignature offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const OnePassSignature;
+static Org::BouncyCastle::Bcpg::PacketTag const OnePassSignature;
 
 /// @brief Field SecretKey offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const SecretKey;
+static Org::BouncyCastle::Bcpg::PacketTag const SecretKey;
 
 /// @brief Field PublicKey offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const PublicKey;
+static Org::BouncyCastle::Bcpg::PacketTag const PublicKey;
 
 /// @brief Field SecretSubkey offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const SecretSubkey;
+static Org::BouncyCastle::Bcpg::PacketTag const SecretSubkey;
 
 /// @brief Field CompressedData offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const CompressedData;
+static Org::BouncyCastle::Bcpg::PacketTag const CompressedData;
 
 /// @brief Field SymmetricKeyEncrypted offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncrypted;
+static Org::BouncyCastle::Bcpg::PacketTag const SymmetricKeyEncrypted;
 
 /// @brief Field Marker offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Marker;
+static Org::BouncyCastle::Bcpg::PacketTag const Marker;
 
 /// @brief Field LiteralData offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const LiteralData;
+static Org::BouncyCastle::Bcpg::PacketTag const LiteralData;
 
 /// @brief Field Trust offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Trust;
+static Org::BouncyCastle::Bcpg::PacketTag const Trust;
 
 /// @brief Field UserId offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const UserId;
+static Org::BouncyCastle::Bcpg::PacketTag const UserId;
 
 /// @brief Field PublicSubkey offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const PublicSubkey;
+static Org::BouncyCastle::Bcpg::PacketTag const PublicSubkey;
 
 /// @brief Field UserAttribute offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const UserAttribute;
+static Org::BouncyCastle::Bcpg::PacketTag const UserAttribute;
 
 /// @brief Field SymmetricEncryptedIntegrityProtected offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const SymmetricEncryptedIntegrityProtected;
+static Org::BouncyCastle::Bcpg::PacketTag const SymmetricEncryptedIntegrityProtected;
 
 /// @brief Field ModificationDetectionCode offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const ModificationDetectionCode;
+static Org::BouncyCastle::Bcpg::PacketTag const ModificationDetectionCode;
 
 /// @brief Field Experimental1 offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental1;
+static Org::BouncyCastle::Bcpg::PacketTag const Experimental1;
 
 /// @brief Field Experimental2 offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental2;
+static Org::BouncyCastle::Bcpg::PacketTag const Experimental2;
 
 /// @brief Field Experimental3 offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental3;
+static Org::BouncyCastle::Bcpg::PacketTag const Experimental3;
 
 /// @brief Field Experimental4 offset 0
-static ::Org::BouncyCastle::Bcpg::PacketTag const Experimental4;
+static Org::BouncyCastle::Bcpg::PacketTag const Experimental4;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::PacketTag, "Org.BouncyCastle.Bcpg", "PacketTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::PacketTag, "Org.BouncyCastle.Bcpg", "PacketTag");

@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
 class G_RamMonitor;
@@ -13,7 +12,7 @@ namespace Tayx::Graphy::Ram {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15200))
 // CS Name: Tayx.Graphy.Ram.G_RamMonitor
-class CORDL_TYPE G_RamMonitor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_RamMonitor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr G_RamMonitor(G_RamMonitor const& ) noexcept = default;
 constexpr G_RamMonitor(G_RamMonitor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_RamMonitor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_RamMonitor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Ram
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Ram::G_RamMonitor);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Ram::G_RamMonitor, "Tayx.Graphy.Ram", "G_RamMonitor");
+NEED_NO_BOX(Tayx::Graphy::Ram::G_RamMonitor);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Ram::G_RamMonitor, "Tayx.Graphy.Ram", "G_RamMonitor");

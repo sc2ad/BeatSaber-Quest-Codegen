@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Xml::Linq {
 class XName;
 }
@@ -51,11 +50,11 @@ constexpr explicit XStreamingElement(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
- ::System::Xml::Linq::XName __declspec(property(get=__get_name, put=__set_name))  name;
+ System::Xml::Linq::XName __declspec(property(get=__get_name, put=__set_name))  name;
 
-constexpr void __set_name(::System::Xml::Linq::XName value) ;
+constexpr void __set_name(System::Xml::Linq::XName value) ;
 
-constexpr ::System::Xml::Linq::XName __get_name() const;
+constexpr System::Xml::Linq::XName __get_name() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_content, put=__set_content))  content;
 
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Linq::XStreamingElement);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XStreamingElement, "System.Xml.Linq", "XStreamingElement");
+NEED_NO_BOX(System::Xml::Linq::XStreamingElement);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XStreamingElement, "System.Xml.Linq", "XStreamingElement");

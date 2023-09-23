@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class WaitForFixedUpdate;
@@ -12,7 +11,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10133))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10172))
 // CS Name: UnityEngine.WaitForFixedUpdate
-class CORDL_TYPE WaitForFixedUpdate : public ::UnityEngine::YieldInstruction {
+class CORDL_TYPE WaitForFixedUpdate : public UnityEngine::YieldInstruction {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr WaitForFixedUpdate(WaitForFixedUpdate const& ) noexcept = default;
 constexpr WaitForFixedUpdate(WaitForFixedUpdate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaitForFixedUpdate(void* ptr) noexcept : ::UnityEngine::YieldInstruction(ptr) {
+constexpr explicit WaitForFixedUpdate(void* ptr) noexcept : UnityEngine::YieldInstruction(ptr) {
 }
 
 
@@ -49,6 +48,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::WaitForFixedUpdate);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WaitForFixedUpdate, "UnityEngine", "WaitForFixedUpdate");
+NEED_NO_BOX(UnityEngine::WaitForFixedUpdate);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitForFixedUpdate, "UnityEngine", "WaitForFixedUpdate");

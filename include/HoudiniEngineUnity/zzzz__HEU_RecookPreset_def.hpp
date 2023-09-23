@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
-}
 namespace HoudiniEngineUnity {
 class HEU_InputPreset;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -58,17 +57,17 @@ constexpr explicit HEU_RecookPreset(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> __declspec(property(get=__get__volumeCachePresets, put=__set__volumeCachePresets))  _volumeCachePresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> __declspec(property(get=__get__volumeCachePresets, put=__set__volumeCachePresets))  _volumeCachePresets;
 
-constexpr void __set__volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> value) ;
+constexpr void __set__volumeCachePresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset> __get__volumeCachePresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset> __get__volumeCachePresets() const;
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> __declspec(property(get=__get__inputPresets, put=__set__inputPresets))  _inputPresets;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> __declspec(property(get=__get__inputPresets, put=__set__inputPresets))  _inputPresets;
 
-constexpr void __set__inputPresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> value) ;
+constexpr void __set__inputPresets(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset> __get__inputPresets() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset> __get__inputPresets() const;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_RecookPreset);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_RecookPreset, "HoudiniEngineUnity", "HEU_RecookPreset");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_RecookPreset);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_RecookPreset, "HoudiniEngineUnity", "HEU_RecookPreset");

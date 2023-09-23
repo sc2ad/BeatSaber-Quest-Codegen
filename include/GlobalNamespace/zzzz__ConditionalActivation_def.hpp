@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class BoolSO;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5443))
 // CS Name: ConditionalActivation
-class CORDL_TYPE ConditionalActivation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ConditionalActivation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr ConditionalActivation(ConditionalActivation const& ) noexcept = defaul
 constexpr ConditionalActivation(ConditionalActivation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ConditionalActivation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ConditionalActivation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit ConditionalActivation(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::BoolSO __declspec(property(get=__get__value, put=__set__value))  _value;
+ GlobalNamespace::BoolSO __declspec(property(get=__get__value, put=__set__value))  _value;
 
-constexpr void __set__value(::GlobalNamespace::BoolSO value) ;
+constexpr void __set__value(GlobalNamespace::BoolSO value) ;
 
-constexpr ::GlobalNamespace::BoolSO __get__value() const;
+constexpr GlobalNamespace::BoolSO __get__value() const;
 
  bool __declspec(property(get=__get__activateOnFalse, put=__set__activateOnFalse))  _activateOnFalse;
 
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ConditionalActivation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConditionalActivation, "", "ConditionalActivation");
+NEED_NO_BOX(GlobalNamespace::ConditionalActivation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalActivation, "", "ConditionalActivation");

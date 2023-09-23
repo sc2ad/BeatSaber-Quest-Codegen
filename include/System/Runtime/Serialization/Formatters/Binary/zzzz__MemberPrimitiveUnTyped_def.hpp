@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+struct InternalPrimitiveTypeE;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -57,11 +56,11 @@ constexpr explicit MemberPrimitiveUnTyped(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_typeInformation, put=__set_typeInformation))  typeInformation;
+ System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __declspec(property(get=__get_typeInformation, put=__set_typeInformation))  typeInformation;
 
-constexpr void __set_typeInformation(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
+constexpr void __set_typeInformation(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value) ;
 
-constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_typeInformation() const;
+constexpr System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE __get_typeInformation() const;
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_value, put=__set_value))  value;
 
@@ -79,16 +78,16 @@ explicit MemberPrimitiveUnTyped() ;
  void _ctor() ;
 
 /// @brief Method Set addr 0x23570c4 size 0xc virtual false final false
- void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::bs_hook::Il2CppWrapperType value) ;
+ void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method Set addr 0x23570d0 size 0x8 virtual false final false
- void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation) ;
+ void Set(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE typeInformation) ;
 
 /// @brief Method Write addr 0x23570d8 size 0x24 virtual true final true
- void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+ void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method Read addr 0x23570fc size 0x30 virtual true final true
- void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
+ void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser input) ;
 
 /// @brief Method Dump addr 0x235712c size 0x4 virtual false final false
  void Dump() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveUnTyped");

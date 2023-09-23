@@ -3,15 +3,14 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CmpCertificate;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CmpCertificate;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertResponse;
@@ -26,7 +25,7 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15))
 // CS Name: Org.BouncyCastle.Asn1.Cmp.CertRepMessage
-class CORDL_TYPE CertRepMessage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE CertRepMessage : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr CertRepMessage(CertRepMessage const& ) noexcept = default;
 constexpr CertRepMessage(CertRepMessage&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CertRepMessage(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit CertRepMessage(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -62,49 +61,48 @@ constexpr explicit CertRepMessage(void* ptr) noexcept : ::Org::BouncyCastle::Asn
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_caPubs, put=__set_caPubs))  caPubs;
+ Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_caPubs, put=__set_caPubs))  caPubs;
 
-constexpr void __set_caPubs(::Org::BouncyCastle::Asn1::Asn1Sequence value) ;
+constexpr void __set_caPubs(Org::BouncyCastle::Asn1::Asn1Sequence value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence __get_caPubs() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_caPubs() const;
 
- ::Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_response, put=__set_response))  response;
+ Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_response, put=__set_response))  response;
 
-constexpr void __set_response(::Org::BouncyCastle::Asn1::Asn1Sequence value) ;
+constexpr void __set_response(Org::BouncyCastle::Asn1::Asn1Sequence value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence __get_response() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_response() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit CertRepMessage(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit CertRepMessage(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xdd7f14 size 0xf8 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method GetInstance addr 0xdd800c size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Cmp::CertRepMessage GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "caPubs", ty: "::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate>", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse>", modifiers: "", def_value: None }]
-explicit CertRepMessage(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
+// Ctor Parameters [CppParam { name: "caPubs", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate>", modifiers: "", def_value: None }, CppParam { name: "response", ty: "::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse>", modifiers: "", def_value: None }]
+explicit CertRepMessage(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
 
 /// @brief Method .ctor addr 0xdd8194 size 0xf4 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> caPubs, ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> response) ;
 
 /// @brief Method GetCAPubs addr 0xdd8288 size 0xfc virtual true final false
- ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate> GetCAPubs() ;
+ ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CmpCertificate> GetCAPubs() ;
 
 /// @brief Method GetResponse addr 0xdd8384 size 0xf4 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertResponse> GetResponse() ;
+ ::ArrayW<Org::BouncyCastle::Asn1::Cmp::CertResponse> GetResponse() ;
 
 /// @brief Method ToAsn1Object addr 0xdd8600 size 0xb8 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Cmp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage, "Org.BouncyCastle.Asn1.Cmp", "CertRepMessage");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Cmp::CertRepMessage);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Cmp::CertRepMessage, "Org.BouncyCastle.Asn1.Cmp", "CertRepMessage");

@@ -2,16 +2,15 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine::Events {
+class InvokableCallList;
 }
 namespace UnityEngine::Events {
 class PersistentCall;
 }
-namespace UnityEngine::Events {
-class InvokableCallList;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::Events {
 class UnityEventBase;
@@ -62,11 +61,11 @@ constexpr explicit PersistentCallGroup(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall> __declspec(property(get=__get_m_Calls, put=__set_m_Calls))  m_Calls;
+ System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall> __declspec(property(get=__get_m_Calls, put=__set_m_Calls))  m_Calls;
 
-constexpr void __set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall> value) ;
+constexpr void __set_m_Calls(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall> __get_m_Calls() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall> __get_m_Calls() const;
 
 
 // Properties
@@ -86,12 +85,11 @@ explicit PersistentCallGroup() ;
  int32_t get_Count() ;
 
 /// @brief Method Initialize addr 0x2b802d4 size 0x190 virtual false final false
- void Initialize(::UnityEngine::Events::InvokableCallList invokableList, ::UnityEngine::Events::UnityEventBase unityEventBase) ;
+ void Initialize(UnityEngine::Events::InvokableCallList invokableList, UnityEngine::Events::UnityEventBase unityEventBase) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::PersistentCallGroup);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::PersistentCallGroup, "UnityEngine.Events", "PersistentCallGroup");
+NEED_NO_BOX(UnityEngine::Events::PersistentCallGroup);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCallGroup, "UnityEngine.Events", "PersistentCallGroup");

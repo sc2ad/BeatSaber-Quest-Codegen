@@ -3,15 +3,14 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
 namespace Org::BouncyCastle::Bcpg {
 struct PacketTag;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -23,7 +22,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(571))
 // CS Name: Org.BouncyCastle.Bcpg.ExperimentalPacket
-class CORDL_TYPE ExperimentalPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
+class CORDL_TYPE ExperimentalPacket : public Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr ExperimentalPacket(ExperimentalPacket const& ) noexcept = default;
 constexpr ExperimentalPacket(ExperimentalPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExperimentalPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
+constexpr explicit ExperimentalPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::ContainedPacket(ptr) {
 }
 
 
@@ -59,11 +58,11 @@ constexpr explicit ExperimentalPacket(void* ptr) noexcept : ::Org::BouncyCastle:
 
 // Fields
 
- ::Org::BouncyCastle::Bcpg::PacketTag __declspec(property(get=__get_tag, put=__set_tag))  tag;
+ Org::BouncyCastle::Bcpg::PacketTag __declspec(property(get=__get_tag, put=__set_tag))  tag;
 
-constexpr void __set_tag(::Org::BouncyCastle::Bcpg::PacketTag value) ;
+constexpr void __set_tag(Org::BouncyCastle::Bcpg::PacketTag value) ;
 
-constexpr ::Org::BouncyCastle::Bcpg::PacketTag __get_tag() const;
+constexpr Org::BouncyCastle::Bcpg::PacketTag __get_tag() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_contents, put=__set_contents))  contents;
 
@@ -74,30 +73,29 @@ constexpr ::ArrayW<uint8_t> __get_contents() const;
 
 // Properties
 
- ::Org::BouncyCastle::Bcpg::PacketTag __declspec(property(get=get_Tag))  Tag;
+ Org::BouncyCastle::Bcpg::PacketTag __declspec(property(get=get_Tag))  Tag;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "tag", ty: "::Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit ExperimentalPacket(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit ExperimentalPacket(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11450e4 size 0x44 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::PacketTag tag, Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method get_Tag addr 0x1147a30 size 0x8 virtual false final false
- ::Org::BouncyCastle::Bcpg::PacketTag get_Tag() ;
+ Org::BouncyCastle::Bcpg::PacketTag get_Tag() ;
 
 /// @brief Method GetContents addr 0x1147a38 size 0x78 virtual false final false
  ::ArrayW<uint8_t> GetContents() ;
 
 /// @brief Method Encode addr 0x1147ab0 size 0x28 virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ExperimentalPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::ExperimentalPacket, "Org.BouncyCastle.Bcpg", "ExperimentalPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::ExperimentalPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::ExperimentalPacket, "Org.BouncyCastle.Bcpg", "ExperimentalPacket");

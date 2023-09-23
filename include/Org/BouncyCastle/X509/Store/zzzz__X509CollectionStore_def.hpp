@@ -1,15 +1,14 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE X509CollectionStore : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::X509::Store::IX509Store
-constexpr operator  ::Org::BouncyCastle::X509::Store::IX509Store() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::X509::Store::IX509Store
+constexpr operator  Org::BouncyCastle::X509::Store::IX509Store() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -60,28 +59,27 @@ constexpr explicit X509CollectionStore(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Collections::ICollection __declspec(property(get=__get__local, put=__set__local))  _local;
+ System::Collections::ICollection __declspec(property(get=__get__local, put=__set__local))  _local;
 
-constexpr void __set__local(::System::Collections::ICollection value) ;
+constexpr void __set__local(System::Collections::ICollection value) ;
 
-constexpr ::System::Collections::ICollection __get__local() const;
+constexpr System::Collections::ICollection __get__local() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "collection", ty: "::System::Collections::ICollection", modifiers: "", def_value: None }]
-explicit X509CollectionStore(::System::Collections::ICollection collection) ;
+// Ctor Parameters [CppParam { name: "collection", ty: "System::Collections::ICollection", modifiers: "", def_value: None }]
+explicit X509CollectionStore(System::Collections::ICollection collection) ;
 
 /// @brief Method .ctor addr 0x10e64a4 size 0x74 virtual false final false
- void _ctor(::System::Collections::ICollection collection) ;
+ void _ctor(System::Collections::ICollection collection) ;
 
 /// @brief Method GetMatches addr 0x10e6518 size 0x448 virtual true final true
- ::System::Collections::ICollection GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector selector) ;
+ System::Collections::ICollection GetMatches(Org::BouncyCastle::X509::Store::IX509Selector selector) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::X509::Store
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509CollectionStore);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509CollectionStore, "Org.BouncyCastle.X509.Store", "X509CollectionStore");
+NEED_NO_BOX(Org::BouncyCastle::X509::Store::X509CollectionStore);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Store::X509CollectionStore, "Org.BouncyCastle.X509.Store", "X509CollectionStore");

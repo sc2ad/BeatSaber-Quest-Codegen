@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct NetSyncVoipStreamMode;
 }
@@ -72,13 +71,13 @@ explicit NetSyncOptions() ;
  void SetVoipGroup(::StringW value) ;
 
 /// @brief Method SetVoipStreamDefault addr 0x2584d84 size 0x68 virtual false final false
- void SetVoipStreamDefault(::Oculus::Platform::NetSyncVoipStreamMode value) ;
+ void SetVoipStreamDefault(Oculus::Platform::NetSyncVoipStreamMode value) ;
 
 /// @brief Method SetZoneId addr 0x2584dec size 0x68 virtual false final false
  void SetZoneId(::StringW value) ;
 
 /// @brief Method op_Explicit addr 0x2584e54 size 0x58 virtual false final false
-static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(::Oculus::Platform::NetSyncOptions options) ;
+static ::cordl_internals::intptr_t op_Explicit___cordl_internals__intptr_t(Oculus::Platform::NetSyncOptions options) ;
 
 /// @brief Method Finalize addr 0x2584eac size 0xd4 virtual true final false
  void Finalize() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::NetSyncOptions);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::NetSyncOptions, "Oculus.Platform", "NetSyncOptions");
+NEED_NO_BOX(Oculus::Platform::NetSyncOptions);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::NetSyncOptions, "Oculus.Platform", "NetSyncOptions");

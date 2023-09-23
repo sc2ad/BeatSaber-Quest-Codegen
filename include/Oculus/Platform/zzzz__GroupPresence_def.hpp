@@ -4,53 +4,52 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Oculus::Platform::Models {
-class ApplicationInviteList;
-}
-namespace Oculus::Platform::Models {
-class InvitePanelResultInfo;
-}
-namespace Oculus::Platform {
-class InviteOptions;
-}
-namespace Oculus::Platform {
-template<typename T>
-class ____Oculus__Platform__Message_1__Callback;
-}
-namespace Oculus::Platform {
-class Request;
-}
 namespace Oculus::Platform::Models {
 class GroupPresenceJoinIntent;
 }
-namespace Oculus::Platform::Models {
-class SendInvitesResult;
-}
 namespace Oculus::Platform {
-class MultiplayerErrorOptions;
-}
-namespace Oculus::Platform::Models {
-class RejoinDialogResult;
-}
-namespace Oculus::Platform::Models {
-class GroupPresenceLeaveIntent;
+class Request;
 }
 namespace Oculus::Platform {
 class GroupPresenceOptions;
 }
 namespace Oculus::Platform::Models {
-class LaunchInvitePanelFlowResult;
-}
-namespace Oculus::Platform {
-template<typename T>
-class Request_1;
+class GroupPresenceLeaveIntent;
 }
 namespace Oculus::Platform {
 class RosterOptions;
 }
 namespace Oculus::Platform::Models {
+class InvitePanelResultInfo;
+}
+namespace Oculus::Platform::Models {
+class ApplicationInviteList;
+}
+namespace Oculus::Platform::Models {
+class LaunchInvitePanelFlowResult;
+}
+namespace Oculus::Platform {
+class MultiplayerErrorOptions;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Oculus__Platform__Message_1__Callback;
+}
+namespace Oculus::Platform::Models {
+class SendInvitesResult;
+}
+namespace Oculus::Platform {
+class InviteOptions;
+}
+namespace Oculus::Platform::Models {
 class UserList;
+}
+namespace Oculus::Platform::Models {
+class RejoinDialogResult;
+}
+namespace Oculus::Platform {
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -99,63 +98,62 @@ constexpr explicit GroupPresence(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 // Methods
 
 /// @brief Method Clear addr 0x2593de8 size 0x148 virtual false final false
-static ::Oculus::Platform::Request Clear() ;
+static Oculus::Platform::Request Clear() ;
 
 /// @brief Method GetInvitableUsers addr 0x2593f30 size 0x178 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList> GetInvitableUsers(::Oculus::Platform::InviteOptions options) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::UserList> GetInvitableUsers(Oculus::Platform::InviteOptions options) ;
 
 /// @brief Method GetSentInvites addr 0x25940a8 size 0x15c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationInviteList> GetSentInvites() ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationInviteList> GetSentInvites() ;
 
 /// @brief Method LaunchInvitePanel addr 0x2594204 size 0x178 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::InvitePanelResultInfo> LaunchInvitePanel(::Oculus::Platform::InviteOptions options) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::InvitePanelResultInfo> LaunchInvitePanel(Oculus::Platform::InviteOptions options) ;
 
 /// @brief Method LaunchMultiplayerErrorDialog addr 0x259437c size 0x164 virtual false final false
-static ::Oculus::Platform::Request LaunchMultiplayerErrorDialog(::Oculus::Platform::MultiplayerErrorOptions options) ;
+static Oculus::Platform::Request LaunchMultiplayerErrorDialog(Oculus::Platform::MultiplayerErrorOptions options) ;
 
 /// @brief Method LaunchRejoinDialog addr 0x25944e0 size 0x17c virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::RejoinDialogResult> LaunchRejoinDialog(::StringW lobby_session_id, ::StringW match_session_id, ::StringW destination_api_name) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::RejoinDialogResult> LaunchRejoinDialog(::StringW lobby_session_id, ::StringW match_session_id, ::StringW destination_api_name) ;
 
 /// @brief Method LaunchRosterPanel addr 0x259465c size 0x190 virtual false final false
-static ::Oculus::Platform::Request LaunchRosterPanel(::Oculus::Platform::RosterOptions options) ;
+static Oculus::Platform::Request LaunchRosterPanel(Oculus::Platform::RosterOptions options) ;
 
 /// @brief Method SendInvites addr 0x2594844 size 0x178 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SendInvitesResult> SendInvites(::ArrayW<uint64_t> userIDs) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::SendInvitesResult> SendInvites(::ArrayW<uint64_t> userIDs) ;
 
 /// @brief Method Set addr 0x25949bc size 0x164 virtual false final false
-static ::Oculus::Platform::Request Set(::Oculus::Platform::GroupPresenceOptions groupPresenceOptions) ;
+static Oculus::Platform::Request Set(Oculus::Platform::GroupPresenceOptions groupPresenceOptions) ;
 
 /// @brief Method SetDeeplinkMessageOverride addr 0x2594b20 size 0x150 virtual false final false
-static ::Oculus::Platform::Request SetDeeplinkMessageOverride(::StringW deeplink_message) ;
+static Oculus::Platform::Request SetDeeplinkMessageOverride(::StringW deeplink_message) ;
 
 /// @brief Method SetDestination addr 0x2594c70 size 0x150 virtual false final false
-static ::Oculus::Platform::Request SetDestination(::StringW api_name) ;
+static Oculus::Platform::Request SetDestination(::StringW api_name) ;
 
 /// @brief Method SetIsJoinable addr 0x2594dc0 size 0x150 virtual false final false
-static ::Oculus::Platform::Request SetIsJoinable(bool is_joinable) ;
+static Oculus::Platform::Request SetIsJoinable(bool is_joinable) ;
 
 /// @brief Method SetLobbySession addr 0x2594f10 size 0x150 virtual false final false
-static ::Oculus::Platform::Request SetLobbySession(::StringW id) ;
+static Oculus::Platform::Request SetLobbySession(::StringW id) ;
 
 /// @brief Method SetMatchSession addr 0x2595060 size 0x150 virtual false final false
-static ::Oculus::Platform::Request SetMatchSession(::StringW id) ;
+static Oculus::Platform::Request SetMatchSession(::StringW id) ;
 
 /// @brief Method SetInvitationsSentNotificationCallback addr 0x25951b0 size 0x74 virtual false final false
-static void SetInvitationsSentNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::LaunchInvitePanelFlowResult> callback) ;
+static void SetInvitationsSentNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::LaunchInvitePanelFlowResult> callback) ;
 
 /// @brief Method SetJoinIntentReceivedNotificationCallback addr 0x2595224 size 0x74 virtual false final false
-static void SetJoinIntentReceivedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::GroupPresenceJoinIntent> callback) ;
+static void SetJoinIntentReceivedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::GroupPresenceJoinIntent> callback) ;
 
 /// @brief Method SetLeaveIntentReceivedNotificationCallback addr 0x2595298 size 0x74 virtual false final false
-static void SetLeaveIntentReceivedNotificationCallback(::Oculus::Platform::____Oculus__Platform__Message_1__Callback<::Oculus::Platform::Models::GroupPresenceLeaveIntent> callback) ;
+static void SetLeaveIntentReceivedNotificationCallback(Oculus::Platform::Oculus__Platform__Message_1__Callback<Oculus::Platform::Models::GroupPresenceLeaveIntent> callback) ;
 
 /// @brief Method GetNextApplicationInviteListPage addr 0x259530c size 0x1e0 virtual false final false
-static ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationInviteList> GetNextApplicationInviteListPage(::Oculus::Platform::Models::ApplicationInviteList list) ;
+static Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationInviteList> GetNextApplicationInviteListPage(Oculus::Platform::Models::ApplicationInviteList list) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::GroupPresence);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::GroupPresence, "Oculus.Platform", "GroupPresence");
+NEED_NO_BOX(Oculus::Platform::GroupPresence);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::GroupPresence, "Oculus.Platform", "GroupPresence");

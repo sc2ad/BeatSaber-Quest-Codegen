@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct StyleValueFunction;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::UIElements::StyleValueFunction const Unknown;
+static UnityEngine::UIElements::StyleValueFunction const Unknown;
 
 /// @brief Field Var offset 0
-static ::UnityEngine::UIElements::StyleValueFunction const Var;
+static UnityEngine::UIElements::StyleValueFunction const Var;
 
 /// @brief Field Env offset 0
-static ::UnityEngine::UIElements::StyleValueFunction const Env;
+static UnityEngine::UIElements::StyleValueFunction const Env;
 
 /// @brief Field LinearGradient offset 0
-static ::UnityEngine::UIElements::StyleValueFunction const LinearGradient;
+static UnityEngine::UIElements::StyleValueFunction const LinearGradient;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueFunction, "UnityEngine.UIElements", "StyleValueFunction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleValueFunction, "UnityEngine.UIElements", "StyleValueFunction");

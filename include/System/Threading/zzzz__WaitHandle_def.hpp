@@ -3,18 +3,17 @@
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct TimeSpan;
-}
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Runtime::InteropServices {
 class SafeHandle;
+}
+namespace System {
+struct TimeSpan;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -26,11 +25,11 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2739))
 // CS Name: System.Threading.WaitHandle
-class CORDL_TYPE WaitHandle : public ::System::MarshalByRefObject {
+class CORDL_TYPE WaitHandle : public System::MarshalByRefObject {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -44,7 +43,7 @@ constexpr WaitHandle(WaitHandle const& ) noexcept = default;
 constexpr WaitHandle(WaitHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WaitHandle(void* ptr) noexcept : ::System::MarshalByRefObject(ptr) {
+constexpr explicit WaitHandle(void* ptr) noexcept : System::MarshalByRefObject(ptr) {
 }
 
 
@@ -77,11 +76,11 @@ constexpr void __set_waitHandle(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_waitHandle() const;
 
- ::Microsoft::Win32::SafeHandles::SafeWaitHandle __declspec(property(get=__get_safeWaitHandle, put=__set_safeWaitHandle))  safeWaitHandle;
+ Microsoft::Win32::SafeHandles::SafeWaitHandle __declspec(property(get=__get_safeWaitHandle, put=__set_safeWaitHandle))  safeWaitHandle;
 
-constexpr void __set_safeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle value) ;
+constexpr void __set_safeWaitHandle(Microsoft::Win32::SafeHandles::SafeWaitHandle value) ;
 
-constexpr ::Microsoft::Win32::SafeHandles::SafeWaitHandle __get_safeWaitHandle() const;
+constexpr Microsoft::Win32::SafeHandles::SafeWaitHandle __get_safeWaitHandle() const;
 
  bool __declspec(property(get=__get_hasThreadAffinity, put=__set_hasThreadAffinity))  hasThreadAffinity;
 
@@ -118,7 +117,7 @@ static constexpr int32_t  MaxWaitHandles{64};
 
  ::cordl_internals::intptr_t __declspec(property(put=set_Handle))  Handle;
 
- ::Microsoft::Win32::SafeHandles::SafeWaitHandle __declspec(property(get=get_SafeWaitHandle, put=set_SafeWaitHandle))  SafeWaitHandle;
+ Microsoft::Win32::SafeHandles::SafeWaitHandle __declspec(property(get=get_SafeWaitHandle, put=set_SafeWaitHandle))  SafeWaitHandle;
 
 
 // Methods
@@ -136,19 +135,19 @@ explicit WaitHandle() ;
  void set_Handle(::cordl_internals::intptr_t value) ;
 
 /// @brief Method get_SafeWaitHandle addr 0x24af9b8 size 0xb8 virtual false final false
- ::Microsoft::Win32::SafeHandles::SafeWaitHandle get_SafeWaitHandle() ;
+ Microsoft::Win32::SafeHandles::SafeWaitHandle get_SafeWaitHandle() ;
 
 /// @brief Method set_SafeWaitHandle addr 0x24afa70 size 0x88 virtual false final false
- void set_SafeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle value) ;
+ void set_SafeWaitHandle(Microsoft::Win32::SafeHandles::SafeWaitHandle value) ;
 
 /// @brief Method SetHandleInternal addr 0x24afaf8 size 0x34 virtual false final false
- void SetHandleInternal(::Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
+ void SetHandleInternal(Microsoft::Win32::SafeHandles::SafeWaitHandle handle) ;
 
 /// @brief Method WaitOne addr 0x24afb2c size 0x84 virtual true final false
  bool WaitOne(int32_t millisecondsTimeout, bool exitContext) ;
 
 /// @brief Method WaitOne addr 0x24afc30 size 0xcc virtual true final false
- bool WaitOne(::System::TimeSpan timeout, bool exitContext) ;
+ bool WaitOne(System::TimeSpan timeout, bool exitContext) ;
 
 /// @brief Method WaitOne addr 0x24afcfc size 0x14 virtual true final false
  bool WaitOne() ;
@@ -157,25 +156,25 @@ explicit WaitHandle() ;
  bool WaitOne(int32_t millisecondsTimeout) ;
 
 /// @brief Method WaitOne addr 0x24afd20 size 0x10 virtual true final false
- bool WaitOne(::System::TimeSpan timeout) ;
+ bool WaitOne(System::TimeSpan timeout) ;
 
 /// @brief Method WaitOne addr 0x24afbb0 size 0x80 virtual false final false
  bool WaitOne(int64_t timeout, bool exitContext) ;
 
 /// @brief Method InternalWaitOne addr 0x24afd30 size 0xf4 virtual false final false
-static bool InternalWaitOne(::System::Runtime::InteropServices::SafeHandle waitableSafeHandle, int64_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext) ;
+static bool InternalWaitOne(System::Runtime::InteropServices::SafeHandle waitableSafeHandle, int64_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext) ;
 
 /// @brief Method WaitAny addr 0x24b0028 size 0x308 virtual false final false
-static int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle> waitHandles, int32_t millisecondsTimeout, bool exitContext) ;
+static int32_t WaitAny(::ArrayW<System::Threading::WaitHandle> waitHandles, int32_t millisecondsTimeout, bool exitContext) ;
 
 /// @brief Method WaitAny addr 0x24b0754 size 0x10c virtual false final false
-static int32_t WaitAny(::ArrayW<::System::Threading::WaitHandle> waitHandles, ::System::TimeSpan timeout, bool exitContext) ;
+static int32_t WaitAny(::ArrayW<System::Threading::WaitHandle> waitHandles, System::TimeSpan timeout, bool exitContext) ;
 
 /// @brief Method ThrowAbandonedMutexException addr 0x24affe8 size 0x40 virtual false final false
 static void ThrowAbandonedMutexException() ;
 
 /// @brief Method ThrowAbandonedMutexException addr 0x24b0700 size 0x54 virtual false final false
-static void ThrowAbandonedMutexException(int32_t location, ::System::Threading::WaitHandle handle) ;
+static void ThrowAbandonedMutexException(int32_t location, System::Threading::WaitHandle handle) ;
 
 /// @brief Method Close addr 0x24b0860 size 0x70 virtual true final false
  void Close() ;
@@ -187,10 +186,10 @@ static void ThrowAbandonedMutexException(int32_t location, ::System::Threading::
  void Dispose() ;
 
 /// @brief Method WaitOneNative addr 0x24afe24 size 0x1c4 virtual false final false
-static int32_t WaitOneNative(::System::Runtime::InteropServices::SafeHandle waitableSafeHandle, uint32_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext) ;
+static int32_t WaitOneNative(System::Runtime::InteropServices::SafeHandle waitableSafeHandle, uint32_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext) ;
 
 /// @brief Method WaitMultiple addr 0x24b0330 size 0x3d0 virtual false final false
-static int32_t WaitMultiple(::ArrayW<::System::Threading::WaitHandle> waitHandles, int32_t millisecondsTimeout, bool exitContext, bool WaitAll) ;
+static int32_t WaitMultiple(::ArrayW<System::Threading::WaitHandle> waitHandles, int32_t millisecondsTimeout, bool exitContext, bool WaitAll) ;
 
 /// @brief Method Wait_internal addr 0x24b0988 size 0x8 virtual false final false
 static int32_t Wait_internal(void* handles, int32_t numHandles, bool waitAll, int32_t ms) ;
@@ -199,6 +198,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::WaitHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::WaitHandle, "System.Threading", "WaitHandle");
+NEED_NO_BOX(System::Threading::WaitHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle, "System.Threading", "WaitHandle");

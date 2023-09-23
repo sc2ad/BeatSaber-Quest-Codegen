@@ -1,6 +1,5 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -31,14 +30,13 @@ constexpr explicit ISortedListItemProcessor_1(void* ptr) noexcept : ::cordl_inte
 // Methods
 
 /// @brief Method ProcessInsertedData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T> insertedNode) ;
+ void ProcessInsertedData(System::Collections::Generic::LinkedListNode_1<T> insertedNode) ;
 
 /// @brief Method ProcessBeforeDeleteData addr 0x0 size 0xffffffffffffffff virtual true final false
- void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<T> nodeToDelete) ;
+ void ProcessBeforeDeleteData(System::Collections::Generic::LinkedListNode_1<T> nodeToDelete) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::ISortedListItemProcessor_1, "", "ISortedListItemProcessor`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::ISortedListItemProcessor_1, "", "ISortedListItemProcessor`1");

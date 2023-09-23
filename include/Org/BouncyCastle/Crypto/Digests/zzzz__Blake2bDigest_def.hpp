@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
@@ -21,8 +20,8 @@ namespace Org::BouncyCastle::Crypto::Digests {
 class CORDL_TYPE Blake2bDigest : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDigest
-constexpr operator  ::Org::BouncyCastle::Crypto::IDigest() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDigest
+constexpr operator  Org::BouncyCastle::Crypto::IDigest() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x68};
@@ -161,11 +160,11 @@ explicit Blake2bDigest() ;
 /// @brief Method .ctor addr 0x11922fc size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::Digests::Blake2bDigest", modifiers: "", def_value: None }]
-explicit Blake2bDigest(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
+// Ctor Parameters [CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::Digests::Blake2bDigest", modifiers: "", def_value: None }]
+explicit Blake2bDigest(Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
 
 /// @brief Method .ctor addr 0x1192420 size 0x134 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Blake2bDigest digest) ;
 
 // Ctor Parameters [CppParam { name: "digestSize", ty: "int32_t", modifiers: "", def_value: None }]
 explicit Blake2bDigest(int32_t digestSize) ;
@@ -231,6 +230,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Blake2bDigest, "Org.BouncyCastle.Crypto.Digests", "Blake2bDigest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Blake2bDigest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Blake2bDigest, "Org.BouncyCastle.Crypto.Digests", "Blake2bDigest");

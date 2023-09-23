@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
@@ -61,11 +60,11 @@ constexpr explicit UndoRedoBuffer_1(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
- ::System::Collections::Generic::List_1<T> __declspec(property(get=__get__data, put=__set__data))  _data;
+ System::Collections::Generic::List_1<T> __declspec(property(get=__get__data, put=__set__data))  _data;
 
-constexpr void __set__data(::System::Collections::Generic::List_1<T> value) ;
+constexpr void __set__data(System::Collections::Generic::List_1<T> value) ;
 
-constexpr ::System::Collections::Generic::List_1<T> __get__data() const;
+constexpr System::Collections::Generic::List_1<T> __get__data() const;
 
  int32_t __declspec(property(get=__get__capacity, put=__set__capacity))  _capacity;
 
@@ -104,5 +103,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::UndoRedoBuffer_1, "", "UndoRedoBuffer`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::UndoRedoBuffer_1, "", "UndoRedoBuffer`1");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net {
 struct HttpStatusCode;
@@ -131,206 +130,205 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Continue offset 0
-static ::System::Net::HttpStatusCode const Continue;
+static System::Net::HttpStatusCode const Continue;
 
 /// @brief Field SwitchingProtocols offset 0
-static ::System::Net::HttpStatusCode const SwitchingProtocols;
+static System::Net::HttpStatusCode const SwitchingProtocols;
 
 /// @brief Field Processing offset 0
-static ::System::Net::HttpStatusCode const Processing;
+static System::Net::HttpStatusCode const Processing;
 
 /// @brief Field EarlyHints offset 0
-static ::System::Net::HttpStatusCode const EarlyHints;
+static System::Net::HttpStatusCode const EarlyHints;
 
 /// @brief Field OK offset 0
-static ::System::Net::HttpStatusCode const OK;
+static System::Net::HttpStatusCode const OK;
 
 /// @brief Field Created offset 0
-static ::System::Net::HttpStatusCode const Created;
+static System::Net::HttpStatusCode const Created;
 
 /// @brief Field Accepted offset 0
-static ::System::Net::HttpStatusCode const Accepted;
+static System::Net::HttpStatusCode const Accepted;
 
 /// @brief Field NonAuthoritativeInformation offset 0
-static ::System::Net::HttpStatusCode const NonAuthoritativeInformation;
+static System::Net::HttpStatusCode const NonAuthoritativeInformation;
 
 /// @brief Field NoContent offset 0
-static ::System::Net::HttpStatusCode const NoContent;
+static System::Net::HttpStatusCode const NoContent;
 
 /// @brief Field ResetContent offset 0
-static ::System::Net::HttpStatusCode const ResetContent;
+static System::Net::HttpStatusCode const ResetContent;
 
 /// @brief Field PartialContent offset 0
-static ::System::Net::HttpStatusCode const PartialContent;
+static System::Net::HttpStatusCode const PartialContent;
 
 /// @brief Field MultiStatus offset 0
-static ::System::Net::HttpStatusCode const MultiStatus;
+static System::Net::HttpStatusCode const MultiStatus;
 
 /// @brief Field AlreadyReported offset 0
-static ::System::Net::HttpStatusCode const AlreadyReported;
+static System::Net::HttpStatusCode const AlreadyReported;
 
 /// @brief Field IMUsed offset 0
-static ::System::Net::HttpStatusCode const IMUsed;
+static System::Net::HttpStatusCode const IMUsed;
 
 /// @brief Field MultipleChoices offset 0
-static ::System::Net::HttpStatusCode const MultipleChoices;
+static System::Net::HttpStatusCode const MultipleChoices;
 
 /// @brief Field Ambiguous offset 0
-static ::System::Net::HttpStatusCode const Ambiguous;
+static System::Net::HttpStatusCode const Ambiguous;
 
 /// @brief Field MovedPermanently offset 0
-static ::System::Net::HttpStatusCode const MovedPermanently;
+static System::Net::HttpStatusCode const MovedPermanently;
 
 /// @brief Field Moved offset 0
-static ::System::Net::HttpStatusCode const Moved;
+static System::Net::HttpStatusCode const Moved;
 
 /// @brief Field Found offset 0
-static ::System::Net::HttpStatusCode const Found;
+static System::Net::HttpStatusCode const Found;
 
 /// @brief Field Redirect offset 0
-static ::System::Net::HttpStatusCode const Redirect;
+static System::Net::HttpStatusCode const Redirect;
 
 /// @brief Field SeeOther offset 0
-static ::System::Net::HttpStatusCode const SeeOther;
+static System::Net::HttpStatusCode const SeeOther;
 
 /// @brief Field RedirectMethod offset 0
-static ::System::Net::HttpStatusCode const RedirectMethod;
+static System::Net::HttpStatusCode const RedirectMethod;
 
 /// @brief Field NotModified offset 0
-static ::System::Net::HttpStatusCode const NotModified;
+static System::Net::HttpStatusCode const NotModified;
 
 /// @brief Field UseProxy offset 0
-static ::System::Net::HttpStatusCode const UseProxy;
+static System::Net::HttpStatusCode const UseProxy;
 
 /// @brief Field Unused offset 0
-static ::System::Net::HttpStatusCode const Unused;
+static System::Net::HttpStatusCode const Unused;
 
 /// @brief Field TemporaryRedirect offset 0
-static ::System::Net::HttpStatusCode const TemporaryRedirect;
+static System::Net::HttpStatusCode const TemporaryRedirect;
 
 /// @brief Field RedirectKeepVerb offset 0
-static ::System::Net::HttpStatusCode const RedirectKeepVerb;
+static System::Net::HttpStatusCode const RedirectKeepVerb;
 
 /// @brief Field PermanentRedirect offset 0
-static ::System::Net::HttpStatusCode const PermanentRedirect;
+static System::Net::HttpStatusCode const PermanentRedirect;
 
 /// @brief Field BadRequest offset 0
-static ::System::Net::HttpStatusCode const BadRequest;
+static System::Net::HttpStatusCode const BadRequest;
 
 /// @brief Field Unauthorized offset 0
-static ::System::Net::HttpStatusCode const Unauthorized;
+static System::Net::HttpStatusCode const Unauthorized;
 
 /// @brief Field PaymentRequired offset 0
-static ::System::Net::HttpStatusCode const PaymentRequired;
+static System::Net::HttpStatusCode const PaymentRequired;
 
 /// @brief Field Forbidden offset 0
-static ::System::Net::HttpStatusCode const Forbidden;
+static System::Net::HttpStatusCode const Forbidden;
 
 /// @brief Field NotFound offset 0
-static ::System::Net::HttpStatusCode const NotFound;
+static System::Net::HttpStatusCode const NotFound;
 
 /// @brief Field MethodNotAllowed offset 0
-static ::System::Net::HttpStatusCode const MethodNotAllowed;
+static System::Net::HttpStatusCode const MethodNotAllowed;
 
 /// @brief Field NotAcceptable offset 0
-static ::System::Net::HttpStatusCode const NotAcceptable;
+static System::Net::HttpStatusCode const NotAcceptable;
 
 /// @brief Field ProxyAuthenticationRequired offset 0
-static ::System::Net::HttpStatusCode const ProxyAuthenticationRequired;
+static System::Net::HttpStatusCode const ProxyAuthenticationRequired;
 
 /// @brief Field RequestTimeout offset 0
-static ::System::Net::HttpStatusCode const RequestTimeout;
+static System::Net::HttpStatusCode const RequestTimeout;
 
 /// @brief Field Conflict offset 0
-static ::System::Net::HttpStatusCode const Conflict;
+static System::Net::HttpStatusCode const Conflict;
 
 /// @brief Field Gone offset 0
-static ::System::Net::HttpStatusCode const Gone;
+static System::Net::HttpStatusCode const Gone;
 
 /// @brief Field LengthRequired offset 0
-static ::System::Net::HttpStatusCode const LengthRequired;
+static System::Net::HttpStatusCode const LengthRequired;
 
 /// @brief Field PreconditionFailed offset 0
-static ::System::Net::HttpStatusCode const PreconditionFailed;
+static System::Net::HttpStatusCode const PreconditionFailed;
 
 /// @brief Field RequestEntityTooLarge offset 0
-static ::System::Net::HttpStatusCode const RequestEntityTooLarge;
+static System::Net::HttpStatusCode const RequestEntityTooLarge;
 
 /// @brief Field RequestUriTooLong offset 0
-static ::System::Net::HttpStatusCode const RequestUriTooLong;
+static System::Net::HttpStatusCode const RequestUriTooLong;
 
 /// @brief Field UnsupportedMediaType offset 0
-static ::System::Net::HttpStatusCode const UnsupportedMediaType;
+static System::Net::HttpStatusCode const UnsupportedMediaType;
 
 /// @brief Field RequestedRangeNotSatisfiable offset 0
-static ::System::Net::HttpStatusCode const RequestedRangeNotSatisfiable;
+static System::Net::HttpStatusCode const RequestedRangeNotSatisfiable;
 
 /// @brief Field ExpectationFailed offset 0
-static ::System::Net::HttpStatusCode const ExpectationFailed;
+static System::Net::HttpStatusCode const ExpectationFailed;
 
 /// @brief Field MisdirectedRequest offset 0
-static ::System::Net::HttpStatusCode const MisdirectedRequest;
+static System::Net::HttpStatusCode const MisdirectedRequest;
 
 /// @brief Field UnprocessableEntity offset 0
-static ::System::Net::HttpStatusCode const UnprocessableEntity;
+static System::Net::HttpStatusCode const UnprocessableEntity;
 
 /// @brief Field Locked offset 0
-static ::System::Net::HttpStatusCode const Locked;
+static System::Net::HttpStatusCode const Locked;
 
 /// @brief Field FailedDependency offset 0
-static ::System::Net::HttpStatusCode const FailedDependency;
+static System::Net::HttpStatusCode const FailedDependency;
 
 /// @brief Field UpgradeRequired offset 0
-static ::System::Net::HttpStatusCode const UpgradeRequired;
+static System::Net::HttpStatusCode const UpgradeRequired;
 
 /// @brief Field PreconditionRequired offset 0
-static ::System::Net::HttpStatusCode const PreconditionRequired;
+static System::Net::HttpStatusCode const PreconditionRequired;
 
 /// @brief Field TooManyRequests offset 0
-static ::System::Net::HttpStatusCode const TooManyRequests;
+static System::Net::HttpStatusCode const TooManyRequests;
 
 /// @brief Field RequestHeaderFieldsTooLarge offset 0
-static ::System::Net::HttpStatusCode const RequestHeaderFieldsTooLarge;
+static System::Net::HttpStatusCode const RequestHeaderFieldsTooLarge;
 
 /// @brief Field UnavailableForLegalReasons offset 0
-static ::System::Net::HttpStatusCode const UnavailableForLegalReasons;
+static System::Net::HttpStatusCode const UnavailableForLegalReasons;
 
 /// @brief Field InternalServerError offset 0
-static ::System::Net::HttpStatusCode const InternalServerError;
+static System::Net::HttpStatusCode const InternalServerError;
 
 /// @brief Field NotImplemented offset 0
-static ::System::Net::HttpStatusCode const NotImplemented;
+static System::Net::HttpStatusCode const NotImplemented;
 
 /// @brief Field BadGateway offset 0
-static ::System::Net::HttpStatusCode const BadGateway;
+static System::Net::HttpStatusCode const BadGateway;
 
 /// @brief Field ServiceUnavailable offset 0
-static ::System::Net::HttpStatusCode const ServiceUnavailable;
+static System::Net::HttpStatusCode const ServiceUnavailable;
 
 /// @brief Field GatewayTimeout offset 0
-static ::System::Net::HttpStatusCode const GatewayTimeout;
+static System::Net::HttpStatusCode const GatewayTimeout;
 
 /// @brief Field HttpVersionNotSupported offset 0
-static ::System::Net::HttpStatusCode const HttpVersionNotSupported;
+static System::Net::HttpStatusCode const HttpVersionNotSupported;
 
 /// @brief Field VariantAlsoNegotiates offset 0
-static ::System::Net::HttpStatusCode const VariantAlsoNegotiates;
+static System::Net::HttpStatusCode const VariantAlsoNegotiates;
 
 /// @brief Field InsufficientStorage offset 0
-static ::System::Net::HttpStatusCode const InsufficientStorage;
+static System::Net::HttpStatusCode const InsufficientStorage;
 
 /// @brief Field LoopDetected offset 0
-static ::System::Net::HttpStatusCode const LoopDetected;
+static System::Net::HttpStatusCode const LoopDetected;
 
 /// @brief Field NotExtended offset 0
-static ::System::Net::HttpStatusCode const NotExtended;
+static System::Net::HttpStatusCode const NotExtended;
 
 /// @brief Field NetworkAuthenticationRequired offset 0
-static ::System::Net::HttpStatusCode const NetworkAuthenticationRequired;
+static System::Net::HttpStatusCode const NetworkAuthenticationRequired;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusCode, "System.Net", "HttpStatusCode");

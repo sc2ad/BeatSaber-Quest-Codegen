@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace Oculus::Platform {
 struct LivestreamingStartStatus;
 }
@@ -52,11 +51,11 @@ constexpr explicit LivestreamingStartResult(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::Oculus::Platform::LivestreamingStartStatus __declspec(property(get=__get_StreamingResult, put=__set_StreamingResult))  StreamingResult;
+ Oculus::Platform::LivestreamingStartStatus __declspec(property(get=__get_StreamingResult, put=__set_StreamingResult))  StreamingResult;
 
-constexpr void __set_StreamingResult(::Oculus::Platform::LivestreamingStartStatus value) ;
+constexpr void __set_StreamingResult(Oculus::Platform::LivestreamingStartStatus value) ;
 
-constexpr ::Oculus::Platform::LivestreamingStartStatus __get_StreamingResult() const;
+constexpr Oculus::Platform::LivestreamingStartStatus __get_StreamingResult() const;
 
 
 // Methods
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::LivestreamingStartResult);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LivestreamingStartResult, "Oculus.Platform.Models", "LivestreamingStartResult");
+NEED_NO_BOX(Oculus::Platform::Models::LivestreamingStartResult);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LivestreamingStartResult, "Oculus.Platform.Models", "LivestreamingStartResult");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace TMPro {
 class FaceInfo_Legacy;
@@ -190,6 +189,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::FaceInfo_Legacy);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::FaceInfo_Legacy, "TMPro", "FaceInfo_Legacy");
+NEED_NO_BOX(TMPro::FaceInfo_Legacy);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy, "TMPro", "FaceInfo_Legacy");

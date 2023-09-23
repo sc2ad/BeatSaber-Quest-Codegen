@@ -5,25 +5,24 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace System::Xml {
+class IDtdDefaultAttributeInfo;
+}
+namespace System::Xml {
+class IValidationEventHandling;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
+}
 namespace System::Xml {
 class IDtdAttributeInfo;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
-namespace System::Xml {
-class IDtdDefaultAttributeInfo;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
-}
-namespace System::Xml {
-class IValidationEventHandling;
-}
 // Forward declare root types
 namespace System::Xml::Schema {
-struct ____System__Xml__Schema__SchemaAttDef__Reserve;
+struct System__Xml__Schema__SchemaAttDef__Reserve;
 }
 namespace System::Xml::Schema {
 class SchemaAttDef;
@@ -34,20 +33,20 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11642))
 // CS Name: System.Xml.Schema.SchemaAttDef::Reserve
-struct CORDL_TYPE ____System__Xml__Schema__SchemaAttDef__Reserve : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE System__Xml__Schema__SchemaAttDef__Reserve : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____System__Xml__Schema__SchemaAttDef__Reserve(int32_t value__) noexcept;
+constexpr System__Xml__Schema__SchemaAttDef__Reserve(int32_t value__) noexcept;
 
 
-                    constexpr ____System__Xml__Schema__SchemaAttDef__Reserve(____System__Xml__Schema__SchemaAttDef__Reserve const&) = default;
-                    constexpr ____System__Xml__Schema__SchemaAttDef__Reserve(____System__Xml__Schema__SchemaAttDef__Reserve&&) = default;
-                    constexpr ____System__Xml__Schema__SchemaAttDef__Reserve& operator=(____System__Xml__Schema__SchemaAttDef__Reserve const& o) {
+                    constexpr System__Xml__Schema__SchemaAttDef__Reserve(System__Xml__Schema__SchemaAttDef__Reserve const&) = default;
+                    constexpr System__Xml__Schema__SchemaAttDef__Reserve(System__Xml__Schema__SchemaAttDef__Reserve&&) = default;
+                    constexpr System__Xml__Schema__SchemaAttDef__Reserve& operator=(System__Xml__Schema__SchemaAttDef__Reserve const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____System__Xml__Schema__SchemaAttDef__Reserve& operator=(____System__Xml__Schema__SchemaAttDef__Reserve&& o) noexcept {
+                    constexpr System__Xml__Schema__SchemaAttDef__Reserve& operator=(System__Xml__Schema__SchemaAttDef__Reserve&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -60,7 +59,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____System__Xml__Schema__SchemaAttDef__Reserve(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit System__Xml__Schema__SchemaAttDef__Reserve(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -68,15 +67,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped : int32_t {
+enum class __System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped : int32_t {
 __None = 0,
 __XmlSpace = 1,
 __XmlLang = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped () const noexcept {
-return std::bit_cast<______System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped>(__instance);
+constexpr operator __System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped () const noexcept {
+return std::bit_cast<__System__Xml__Schema__SchemaAttDef__Reserve_Unwrapped>(__instance);
 }
 
 
@@ -89,13 +88,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve const None;
+static System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve const None;
 
 /// @brief Field XmlSpace offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve const XmlSpace;
+static System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve const XmlSpace;
 
 /// @brief Field XmlLang offset 0
-static ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve const XmlLang;
+static System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve const XmlLang;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -107,16 +106,16 @@ namespace System::Xml::Schema {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11645))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11643))
 // CS Name: System.Xml.Schema.SchemaAttDef
-class CORDL_TYPE SchemaAttDef : public ::System::Xml::Schema::SchemaDeclBase {
+class CORDL_TYPE SchemaAttDef : public System::Xml::Schema::SchemaDeclBase {
 public:
 // Declarations
-using Reserve = ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve;
+using Reserve = System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve;
 
-/// @brief Convert operator to ::System::Xml::IDtdDefaultAttributeInfo
-constexpr operator  ::System::Xml::IDtdDefaultAttributeInfo() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdDefaultAttributeInfo
+constexpr operator  System::Xml::IDtdDefaultAttributeInfo() const noexcept;
 
-/// @brief Convert operator to ::System::Xml::IDtdAttributeInfo
-constexpr operator  ::System::Xml::IDtdAttributeInfo() const noexcept;
+/// @brief Convert operator to System::Xml::IDtdAttributeInfo
+constexpr operator  System::Xml::IDtdAttributeInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -130,7 +129,7 @@ constexpr SchemaAttDef(SchemaAttDef const& ) noexcept = default;
 constexpr SchemaAttDef(SchemaAttDef&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SchemaAttDef(void* ptr) noexcept : ::System::Xml::Schema::SchemaDeclBase(ptr) {
+constexpr explicit SchemaAttDef(void* ptr) noexcept : System::Xml::Schema::SchemaDeclBase(ptr) {
 }
 
 
@@ -181,17 +180,17 @@ constexpr void __set_valueLinePos(int32_t value) ;
 
 constexpr int32_t __get_valueLinePos() const;
 
- ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve __declspec(property(get=__get_reserved, put=__set_reserved))  reserved;
+ System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve __declspec(property(get=__get_reserved, put=__set_reserved))  reserved;
 
-constexpr void __set_reserved(::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve value) ;
+constexpr void __set_reserved(System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve value) ;
 
-constexpr ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve __get_reserved() const;
+constexpr System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve __get_reserved() const;
 
-static ::System::Xml::Schema::SchemaAttDef __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::Xml::Schema::SchemaAttDef __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::Xml::Schema::SchemaAttDef value) ;
+static void __set_Empty(System::Xml::Schema::SchemaAttDef value) ;
 
-static ::System::Xml::Schema::SchemaAttDef __get_Empty() ;
+static System::Xml::Schema::SchemaAttDef __get_Empty() ;
 
 
 // Properties
@@ -228,18 +227,18 @@ static ::System::Xml::Schema::SchemaAttDef __get_Empty() ;
 
  ::StringW __declspec(property(get=get_DefaultValueExpanded, put=set_DefaultValueExpanded))  DefaultValueExpanded;
 
- ::System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType, put=set_TokenizedType))  TokenizedType;
+ System::Xml::XmlTokenizedType __declspec(property(get=get_TokenizedType, put=set_TokenizedType))  TokenizedType;
 
- ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve __declspec(property(get=get_Reserved, put=set_Reserved))  Reserved;
+ System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve __declspec(property(get=get_Reserved, put=set_Reserved))  Reserved;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "name", ty: "::System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
-explicit SchemaAttDef(::System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+// Ctor Parameters [CppParam { name: "name", ty: "System::Xml::XmlQualifiedName", modifiers: "", def_value: None }, CppParam { name: "prefix", ty: "::StringW", modifiers: "", def_value: None }]
+explicit SchemaAttDef(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 /// @brief Method .ctor addr 0x27309ec size 0x4 virtual false final false
- void _ctor(::System::Xml::XmlQualifiedName name, ::StringW prefix) ;
+ void _ctor(System::Xml::XmlQualifiedName name, ::StringW prefix) ;
 
 // Ctor Parameters []
 explicit SchemaAttDef() ;
@@ -311,25 +310,24 @@ explicit SchemaAttDef() ;
  void set_DefaultValueExpanded(::StringW value) ;
 
 /// @brief Method get_TokenizedType addr 0x2730be4 size 0x20 virtual false final false
- ::System::Xml::XmlTokenizedType get_TokenizedType() ;
+ System::Xml::XmlTokenizedType get_TokenizedType() ;
 
 /// @brief Method set_TokenizedType addr 0x2730cd0 size 0x1c virtual false final false
- void set_TokenizedType(::System::Xml::XmlTokenizedType value) ;
+ void set_TokenizedType(System::Xml::XmlTokenizedType value) ;
 
 /// @brief Method get_Reserved addr 0x2730d44 size 0x8 virtual false final false
- ::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve get_Reserved() ;
+ System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve get_Reserved() ;
 
 /// @brief Method set_Reserved addr 0x2730d4c size 0x8 virtual false final false
- void set_Reserved(::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve value) ;
+ void set_Reserved(System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve value) ;
 
 /// @brief Method CheckXmlSpace addr 0x2730d54 size 0x264 virtual false final false
- void CheckXmlSpace(::System::Xml::IValidationEventHandling validationEventHandling) ;
+ void CheckXmlSpace(System::Xml::IValidationEventHandling validationEventHandling) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Schema
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::____System__Xml__Schema__SchemaAttDef__Reserve, "System.Xml.Schema", "SchemaAttDef/Reserve");
-NEED_NO_BOX(::System::Xml::Schema::SchemaAttDef);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SchemaAttDef, "System.Xml.Schema", "SchemaAttDef");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::System__Xml__Schema__SchemaAttDef__Reserve, "System.Xml.Schema", "SchemaAttDef/Reserve");
+NEED_NO_BOX(System::Xml::Schema::SchemaAttDef);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Schema::SchemaAttDef, "System.Xml.Schema", "SchemaAttDef");

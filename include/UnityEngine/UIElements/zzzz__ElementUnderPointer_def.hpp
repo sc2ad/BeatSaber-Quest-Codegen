@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
-class EventDispatcher;
+class VisualElement;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
 namespace UnityEngine::UIElements {
-class IMouseEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IMouseEvent;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+class EventDispatcher;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -72,35 +71,35 @@ constexpr explicit ElementUnderPointer(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::ArrayW<::UnityEngine::UIElements::VisualElement> __declspec(property(get=__get_m_PendingTopElementUnderPointer, put=__set_m_PendingTopElementUnderPointer))  m_PendingTopElementUnderPointer;
+ ::ArrayW<UnityEngine::UIElements::VisualElement> __declspec(property(get=__get_m_PendingTopElementUnderPointer, put=__set_m_PendingTopElementUnderPointer))  m_PendingTopElementUnderPointer;
 
-constexpr void __set_m_PendingTopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement> value) ;
+constexpr void __set_m_PendingTopElementUnderPointer(::ArrayW<UnityEngine::UIElements::VisualElement> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement> __get_m_PendingTopElementUnderPointer() const;
+constexpr ::ArrayW<UnityEngine::UIElements::VisualElement> __get_m_PendingTopElementUnderPointer() const;
 
- ::ArrayW<::UnityEngine::UIElements::VisualElement> __declspec(property(get=__get_m_TopElementUnderPointer, put=__set_m_TopElementUnderPointer))  m_TopElementUnderPointer;
+ ::ArrayW<UnityEngine::UIElements::VisualElement> __declspec(property(get=__get_m_TopElementUnderPointer, put=__set_m_TopElementUnderPointer))  m_TopElementUnderPointer;
 
-constexpr void __set_m_TopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement> value) ;
+constexpr void __set_m_TopElementUnderPointer(::ArrayW<UnityEngine::UIElements::VisualElement> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement> __get_m_TopElementUnderPointer() const;
+constexpr ::ArrayW<UnityEngine::UIElements::VisualElement> __get_m_TopElementUnderPointer() const;
 
- ::ArrayW<::UnityEngine::UIElements::IPointerEvent> __declspec(property(get=__get_m_TriggerPointerEvent, put=__set_m_TriggerPointerEvent))  m_TriggerPointerEvent;
+ ::ArrayW<UnityEngine::UIElements::IPointerEvent> __declspec(property(get=__get_m_TriggerPointerEvent, put=__set_m_TriggerPointerEvent))  m_TriggerPointerEvent;
 
-constexpr void __set_m_TriggerPointerEvent(::ArrayW<::UnityEngine::UIElements::IPointerEvent> value) ;
+constexpr void __set_m_TriggerPointerEvent(::ArrayW<UnityEngine::UIElements::IPointerEvent> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent> __get_m_TriggerPointerEvent() const;
+constexpr ::ArrayW<UnityEngine::UIElements::IPointerEvent> __get_m_TriggerPointerEvent() const;
 
- ::ArrayW<::UnityEngine::UIElements::IMouseEvent> __declspec(property(get=__get_m_TriggerMouseEvent, put=__set_m_TriggerMouseEvent))  m_TriggerMouseEvent;
+ ::ArrayW<UnityEngine::UIElements::IMouseEvent> __declspec(property(get=__get_m_TriggerMouseEvent, put=__set_m_TriggerMouseEvent))  m_TriggerMouseEvent;
 
-constexpr void __set_m_TriggerMouseEvent(::ArrayW<::UnityEngine::UIElements::IMouseEvent> value) ;
+constexpr void __set_m_TriggerMouseEvent(::ArrayW<UnityEngine::UIElements::IMouseEvent> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent> __get_m_TriggerMouseEvent() const;
+constexpr ::ArrayW<UnityEngine::UIElements::IMouseEvent> __get_m_TriggerMouseEvent() const;
 
- ::ArrayW<::UnityEngine::Vector2> __declspec(property(get=__get_m_PickingPointerPositions, put=__set_m_PickingPointerPositions))  m_PickingPointerPositions;
+ ::ArrayW<UnityEngine::Vector2> __declspec(property(get=__get_m_PickingPointerPositions, put=__set_m_PickingPointerPositions))  m_PickingPointerPositions;
 
-constexpr void __set_m_PickingPointerPositions(::ArrayW<::UnityEngine::Vector2> value) ;
+constexpr void __set_m_PickingPointerPositions(::ArrayW<UnityEngine::Vector2> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector2> __get_m_PickingPointerPositions() const;
+constexpr ::ArrayW<UnityEngine::Vector2> __get_m_PickingPointerPositions() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_m_IsPickingPointerTemporaries, put=__set_m_IsPickingPointerTemporaries))  m_IsPickingPointerTemporaries;
 
@@ -112,28 +111,28 @@ constexpr ::ArrayW<bool> __get_m_IsPickingPointerTemporaries() const;
 // Methods
 
 /// @brief Method GetTopElementUnderPointer addr 0x2cd0bb4 size 0x74 virtual false final false
- ::UnityEngine::UIElements::VisualElement GetTopElementUnderPointer(int32_t pointerId, ByRef<::UnityEngine::Vector2> pickPosition, ByRef<bool> isTemporary) ;
+ UnityEngine::UIElements::VisualElement GetTopElementUnderPointer(int32_t pointerId, ByRef<UnityEngine::Vector2> pickPosition, ByRef<bool> isTemporary) ;
 
 /// @brief Method GetTopElementUnderPointer addr 0x2cd0c28 size 0x30 virtual false final false
- ::UnityEngine::UIElements::VisualElement GetTopElementUnderPointer(int32_t pointerId) ;
+ UnityEngine::UIElements::VisualElement GetTopElementUnderPointer(int32_t pointerId) ;
 
 /// @brief Method SetElementUnderPointer addr 0x2cd0c58 size 0x160 virtual false final false
- void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, ::UnityEngine::Vector2 pointerPos) ;
+ void SetElementUnderPointer(UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, UnityEngine::Vector2 pointerPos) ;
 
 /// @brief Method GetEventPointerPosition addr 0x2cd0db8 size 0x1b8 virtual false final false
- ::UnityEngine::Vector2 GetEventPointerPosition(::UnityEngine::UIElements::EventBase triggerEvent) ;
+ UnityEngine::Vector2 GetEventPointerPosition(UnityEngine::UIElements::EventBase triggerEvent) ;
 
 /// @brief Method SetTemporaryElementUnderPointer addr 0x2cd0f70 size 0x8 virtual false final false
- void SetTemporaryElementUnderPointer(::UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase triggerEvent) ;
+ void SetTemporaryElementUnderPointer(UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, UnityEngine::UIElements::EventBase triggerEvent) ;
 
 /// @brief Method SetElementUnderPointer addr 0x2cd11c4 size 0x8 virtual false final false
- void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase triggerEvent) ;
+ void SetElementUnderPointer(UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, UnityEngine::UIElements::EventBase triggerEvent) ;
 
 /// @brief Method SetElementUnderPointer addr 0x2cd0f78 size 0x24c virtual false final false
- void SetElementUnderPointer(::UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, ::UnityEngine::UIElements::EventBase triggerEvent, bool temporary) ;
+ void SetElementUnderPointer(UnityEngine::UIElements::VisualElement newElementUnderPointer, int32_t pointerId, UnityEngine::UIElements::EventBase triggerEvent, bool temporary) ;
 
 /// @brief Method CommitElementUnderPointers addr 0x2cd11cc size 0xc54 virtual false final false
- void CommitElementUnderPointers(::UnityEngine::UIElements::EventDispatcher dispatcher, ::UnityEngine::UIElements::ContextType contextType) ;
+ void CommitElementUnderPointers(UnityEngine::UIElements::EventDispatcher dispatcher, UnityEngine::UIElements::ContextType contextType) ;
 
 // Ctor Parameters []
 explicit ElementUnderPointer() ;
@@ -145,6 +144,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ElementUnderPointer);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ElementUnderPointer, "UnityEngine.UIElements", "ElementUnderPointer");
+NEED_NO_BOX(UnityEngine::UIElements::ElementUnderPointer);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ElementUnderPointer, "UnityEngine.UIElements", "ElementUnderPointer");

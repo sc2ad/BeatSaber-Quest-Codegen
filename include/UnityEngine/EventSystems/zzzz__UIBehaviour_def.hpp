@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::EventSystems {
 class UIBehaviour;
@@ -12,7 +11,7 @@ namespace UnityEngine::EventSystems {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13153))
 // CS Name: UnityEngine.EventSystems.UIBehaviour
-class CORDL_TYPE UIBehaviour : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE UIBehaviour : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr UIBehaviour(UIBehaviour const& ) noexcept = default;
 constexpr UIBehaviour(UIBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UIBehaviour(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit UIBehaviour(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::EventSystems::UIBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::UIBehaviour, "UnityEngine.EventSystems", "UIBehaviour");
+NEED_NO_BOX(UnityEngine::EventSystems::UIBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour, "UnityEngine.EventSystems", "UIBehaviour");

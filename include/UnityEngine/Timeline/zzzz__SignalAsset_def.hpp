@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
@@ -16,7 +15,7 @@ namespace UnityEngine::Timeline {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14103))
 // CS Name: UnityEngine.Timeline.SignalAsset
-class CORDL_TYPE SignalAsset : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE SignalAsset : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr SignalAsset(SignalAsset const& ) noexcept = default;
 constexpr SignalAsset(SignalAsset&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignalAsset(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit SignalAsset(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -52,20 +51,20 @@ constexpr explicit SignalAsset(void* ptr) noexcept : ::UnityEngine::ScriptableOb
 
 // Fields
 
-static ::System::Action_1<::UnityEngine::Timeline::SignalAsset> __declspec(property(get=__get_OnEnableCallback, put=__set_OnEnableCallback))  OnEnableCallback;
+static System::Action_1<UnityEngine::Timeline::SignalAsset> __declspec(property(get=__get_OnEnableCallback, put=__set_OnEnableCallback))  OnEnableCallback;
 
-static void __set_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset> value) ;
+static void __set_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset> value) ;
 
-static ::System::Action_1<::UnityEngine::Timeline::SignalAsset> __get_OnEnableCallback() ;
+static System::Action_1<UnityEngine::Timeline::SignalAsset> __get_OnEnableCallback() ;
 
 
 // Methods
 
 /// @brief Method add_OnEnableCallback addr 0x2ad0408 size 0xcc virtual false final false
-static void add_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset> value) ;
+static void add_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset> value) ;
 
 /// @brief Method remove_OnEnableCallback addr 0x2ad04d4 size 0xcc virtual false final false
-static void remove_OnEnableCallback(::System::Action_1<::UnityEngine::Timeline::SignalAsset> value) ;
+static void remove_OnEnableCallback(System::Action_1<UnityEngine::Timeline::SignalAsset> value) ;
 
 /// @brief Method OnEnable addr 0x2ad05a0 size 0x6c virtual false final false
  void OnEnable() ;
@@ -80,6 +79,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::SignalAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::SignalAsset, "UnityEngine.Timeline", "SignalAsset");
+NEED_NO_BOX(UnityEngine::Timeline::SignalAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalAsset, "UnityEngine.Timeline", "SignalAsset");

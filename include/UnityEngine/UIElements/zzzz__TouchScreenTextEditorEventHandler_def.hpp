@@ -1,12 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
-class ITextInputField;
+class EventBase;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class ITextInputField;
 }
 namespace UnityEngine::UIElements {
 class TextEditorEngine;
@@ -14,11 +16,8 @@ class TextEditorEngine;
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
 namespace UnityEngine::UIElements {
-class EventBase;
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,7 +29,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7192))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7230))
 // CS Name: UnityEngine.UIElements.TouchScreenTextEditorEventHandler
-class CORDL_TYPE TouchScreenTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
+class CORDL_TYPE TouchScreenTextEditorEventHandler : public UnityEngine::UIElements::TextEditorEventHandler {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler co
 constexpr TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TouchScreenTextEditorEventHandler(void* ptr) noexcept : ::UnityEngine::UIElements::TextEditorEventHandler(ptr) {
+constexpr explicit TouchScreenTextEditorEventHandler(void* ptr) noexcept : UnityEngine::UIElements::TextEditorEventHandler(ptr) {
 }
 
 
@@ -66,32 +65,32 @@ constexpr explicit TouchScreenTextEditorEventHandler(void* ptr) noexcept : ::Uni
 
 // Fields
 
- ::UnityEngine::UIElements::IVisualElementScheduledItem __declspec(property(get=__get_m_TouchKeyboardPoller, put=__set_m_TouchKeyboardPoller))  m_TouchKeyboardPoller;
+ UnityEngine::UIElements::IVisualElementScheduledItem __declspec(property(get=__get_m_TouchKeyboardPoller, put=__set_m_TouchKeyboardPoller))  m_TouchKeyboardPoller;
 
-constexpr void __set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem value) ;
+constexpr void __set_m_TouchKeyboardPoller(UnityEngine::UIElements::IVisualElementScheduledItem value) ;
 
-constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem __get_m_TouchKeyboardPoller() const;
+constexpr UnityEngine::UIElements::IVisualElementScheduledItem __get_m_TouchKeyboardPoller() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_LastPointerDownTarget, put=__set_m_LastPointerDownTarget))  m_LastPointerDownTarget;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_LastPointerDownTarget, put=__set_m_LastPointerDownTarget))  m_LastPointerDownTarget;
 
-constexpr void __set_m_LastPointerDownTarget(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_LastPointerDownTarget(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_LastPointerDownTarget() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_LastPointerDownTarget() const;
 
-static ::UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_s_KeyboardOnScreen, put=__set_s_KeyboardOnScreen))  s_KeyboardOnScreen;
+static UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_s_KeyboardOnScreen, put=__set_s_KeyboardOnScreen))  s_KeyboardOnScreen;
 
-static void __set_s_KeyboardOnScreen(::UnityEngine::TouchScreenKeyboard value) ;
+static void __set_s_KeyboardOnScreen(UnityEngine::TouchScreenKeyboard value) ;
 
-static ::UnityEngine::TouchScreenKeyboard __get_s_KeyboardOnScreen() ;
+static UnityEngine::TouchScreenKeyboard __get_s_KeyboardOnScreen() ;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "editorEngine", ty: "::UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "::UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
-explicit TouchScreenTextEditorEventHandler(::UnityEngine::UIElements::TextEditorEngine editorEngine, ::UnityEngine::UIElements::ITextInputField textInputField) ;
+// Ctor Parameters [CppParam { name: "editorEngine", ty: "UnityEngine::UIElements::TextEditorEngine", modifiers: "", def_value: None }, CppParam { name: "textInputField", ty: "UnityEngine::UIElements::ITextInputField", modifiers: "", def_value: None }]
+explicit TouchScreenTextEditorEventHandler(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
 
 /// @brief Method .ctor addr 0x2cc45f0 size 0x8 virtual false final false
- void _ctor(::UnityEngine::UIElements::TextEditorEngine editorEngine, ::UnityEngine::UIElements::ITextInputField textInputField) ;
+ void _ctor(UnityEngine::UIElements::TextEditorEngine editorEngine, UnityEngine::UIElements::ITextInputField textInputField) ;
 
 /// @brief Method PollTouchScreenKeyboard addr 0x2cc45f8 size 0x25c virtual false final false
  void PollTouchScreenKeyboard() ;
@@ -100,12 +99,11 @@ explicit TouchScreenTextEditorEventHandler(::UnityEngine::UIElements::TextEditor
  void DoPollTouchScreenKeyboard() ;
 
 /// @brief Method ExecuteDefaultActionAtTarget addr 0x2cc4f7c size 0x550 virtual true final false
- void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase evt) ;
+ void ExecuteDefaultActionAtTarget(UnityEngine::UIElements::EventBase evt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, "UnityEngine.UIElements", "TouchScreenTextEditorEventHandler");
+NEED_NO_BOX(UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TouchScreenTextEditorEventHandler, "UnityEngine.UIElements", "TouchScreenTextEditorEventHandler");

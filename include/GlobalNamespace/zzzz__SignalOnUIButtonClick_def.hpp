@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class Signal;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13885))
 // CS Name: SignalOnUIButtonClick
-class CORDL_TYPE SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SignalOnUIButtonClick : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr SignalOnUIButtonClick(SignalOnUIButtonClick const& ) noexcept = defaul
 constexpr SignalOnUIButtonClick(SignalOnUIButtonClick&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignalOnUIButtonClick(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SignalOnUIButtonClick(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit SignalOnUIButtonClick(void* ptr) noexcept : ::UnityEngine::Mo
 
 // Fields
 
- ::GlobalNamespace::Signal __declspec(property(get=__get__buttonClickedSignal, put=__set__buttonClickedSignal))  _buttonClickedSignal;
+ GlobalNamespace::Signal __declspec(property(get=__get__buttonClickedSignal, put=__set__buttonClickedSignal))  _buttonClickedSignal;
 
-constexpr void __set__buttonClickedSignal(::GlobalNamespace::Signal value) ;
+constexpr void __set__buttonClickedSignal(GlobalNamespace::Signal value) ;
 
-constexpr ::GlobalNamespace::Signal __get__buttonClickedSignal() const;
+constexpr GlobalNamespace::Signal __get__buttonClickedSignal() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
+ UnityEngine::UI::Button __declspec(property(get=__get__button, put=__set__button))  _button;
 
-constexpr void __set__button(::UnityEngine::UI::Button value) ;
+constexpr void __set__button(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__button() const;
+constexpr UnityEngine::UI::Button __get__button() const;
 
 
 // Methods
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SignalOnUIButtonClick);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SignalOnUIButtonClick, "", "SignalOnUIButtonClick");
+NEED_NO_BOX(GlobalNamespace::SignalOnUIButtonClick);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnUIButtonClick, "", "SignalOnUIButtonClick");

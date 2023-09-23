@@ -1,13 +1,12 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace UnityEngine::UIElements {
+class IDragAndDrop;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace UnityEngine::UIElements {
-class IDragAndDrop;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -55,33 +54,32 @@ constexpr explicit DragAndDropUtility(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop> __declspec(property(get=__get_s_MakeClientFunc, put=__set_s_MakeClientFunc))  s_MakeClientFunc;
+static System::Func_1<UnityEngine::UIElements::IDragAndDrop> __declspec(property(get=__get_s_MakeClientFunc, put=__set_s_MakeClientFunc))  s_MakeClientFunc;
 
-static void __set_s_MakeClientFunc(::System::Func_1<::UnityEngine::UIElements::IDragAndDrop> value) ;
+static void __set_s_MakeClientFunc(System::Func_1<UnityEngine::UIElements::IDragAndDrop> value) ;
 
-static ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop> __get_s_MakeClientFunc() ;
+static System::Func_1<UnityEngine::UIElements::IDragAndDrop> __get_s_MakeClientFunc() ;
 
-static ::UnityEngine::UIElements::IDragAndDrop __declspec(property(get=__get_s_DragAndDrop, put=__set_s_DragAndDrop))  s_DragAndDrop;
+static UnityEngine::UIElements::IDragAndDrop __declspec(property(get=__get_s_DragAndDrop, put=__set_s_DragAndDrop))  s_DragAndDrop;
 
-static void __set_s_DragAndDrop(::UnityEngine::UIElements::IDragAndDrop value) ;
+static void __set_s_DragAndDrop(UnityEngine::UIElements::IDragAndDrop value) ;
 
-static ::UnityEngine::UIElements::IDragAndDrop __get_s_DragAndDrop() ;
+static UnityEngine::UIElements::IDragAndDrop __get_s_DragAndDrop() ;
 
 
 // Properties
 
-static ::UnityEngine::UIElements::IDragAndDrop __declspec(property(get=get_dragAndDrop))  dragAndDrop;
+static UnityEngine::UIElements::IDragAndDrop __declspec(property(get=get_dragAndDrop))  dragAndDrop;
 
 
 // Methods
 
 /// @brief Method get_dragAndDrop addr 0x2c92d48 size 0xac virtual false final false
-static ::UnityEngine::UIElements::IDragAndDrop get_dragAndDrop() ;
+static UnityEngine::UIElements::IDragAndDrop get_dragAndDrop() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::DragAndDropUtility);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::DragAndDropUtility, "UnityEngine.UIElements", "DragAndDropUtility");
+NEED_NO_BOX(UnityEngine::UIElements::DragAndDropUtility);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::DragAndDropUtility, "UnityEngine.UIElements", "DragAndDropUtility");

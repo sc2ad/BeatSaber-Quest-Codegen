@@ -4,7 +4,6 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 class IEquatable_1;
@@ -22,8 +21,8 @@ namespace UnityEngine::TextCore {
 struct CORDL_TYPE GlyphMetrics : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>
+constexpr operator  System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>() const;
 
 // Ctor Parameters [CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_HorizontalBearingX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_HorizontalBearingY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_HorizontalAdvance", ty: "float_t", modifiers: "", def_value: None }]
 constexpr GlyphMetrics(float_t m_Width, float_t m_Height, float_t m_HorizontalBearingX, float_t m_HorizontalBearingY, float_t m_HorizontalAdvance) noexcept;
@@ -130,11 +129,10 @@ constexpr float_t __get_m_HorizontalAdvance() const;
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Equals addr 0x2baa758 size 0xa4 virtual true final true
- bool Equals(::UnityEngine::TextCore::GlyphMetrics other) ;
+ bool Equals(UnityEngine::TextCore::GlyphMetrics other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::GlyphMetrics, "UnityEngine.TextCore", "GlyphMetrics");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::EventSystems {
 struct EventTriggerType;
@@ -82,59 +81,58 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PointerEnter offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const PointerEnter;
+static UnityEngine::EventSystems::EventTriggerType const PointerEnter;
 
 /// @brief Field PointerExit offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const PointerExit;
+static UnityEngine::EventSystems::EventTriggerType const PointerExit;
 
 /// @brief Field PointerDown offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const PointerDown;
+static UnityEngine::EventSystems::EventTriggerType const PointerDown;
 
 /// @brief Field PointerUp offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const PointerUp;
+static UnityEngine::EventSystems::EventTriggerType const PointerUp;
 
 /// @brief Field PointerClick offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const PointerClick;
+static UnityEngine::EventSystems::EventTriggerType const PointerClick;
 
 /// @brief Field Drag offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Drag;
+static UnityEngine::EventSystems::EventTriggerType const Drag;
 
 /// @brief Field Drop offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Drop;
+static UnityEngine::EventSystems::EventTriggerType const Drop;
 
 /// @brief Field Scroll offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Scroll;
+static UnityEngine::EventSystems::EventTriggerType const Scroll;
 
 /// @brief Field UpdateSelected offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const UpdateSelected;
+static UnityEngine::EventSystems::EventTriggerType const UpdateSelected;
 
 /// @brief Field Select offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Select;
+static UnityEngine::EventSystems::EventTriggerType const Select;
 
 /// @brief Field Deselect offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Deselect;
+static UnityEngine::EventSystems::EventTriggerType const Deselect;
 
 /// @brief Field Move offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Move;
+static UnityEngine::EventSystems::EventTriggerType const Move;
 
 /// @brief Field InitializePotentialDrag offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const InitializePotentialDrag;
+static UnityEngine::EventSystems::EventTriggerType const InitializePotentialDrag;
 
 /// @brief Field BeginDrag offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const BeginDrag;
+static UnityEngine::EventSystems::EventTriggerType const BeginDrag;
 
 /// @brief Field EndDrag offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const EndDrag;
+static UnityEngine::EventSystems::EventTriggerType const EndDrag;
 
 /// @brief Field Submit offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Submit;
+static UnityEngine::EventSystems::EventTriggerType const Submit;
 
 /// @brief Field Cancel offset 0
-static ::UnityEngine::EventSystems::EventTriggerType const Cancel;
+static UnityEngine::EventSystems::EventTriggerType const Cancel;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::EventSystems
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::EventTriggerType, "UnityEngine.EventSystems", "EventTriggerType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTriggerType, "UnityEngine.EventSystems", "EventTriggerType");

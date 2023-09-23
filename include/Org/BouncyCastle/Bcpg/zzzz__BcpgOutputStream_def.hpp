@@ -3,18 +3,17 @@
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Bcpg {
-class ContainedPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct PacketTag;
-}
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgObject;
+}
+namespace Org::BouncyCastle::Bcpg {
+class ContainedPacket;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct PacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +25,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(555))
 // CS Name: Org.BouncyCastle.Bcpg.BcpgOutputStream
-class CORDL_TYPE BcpgOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
+class CORDL_TYPE BcpgOutputStream : public Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr BcpgOutputStream(BcpgOutputStream const& ) noexcept = default;
 constexpr BcpgOutputStream(BcpgOutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BcpgOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
+constexpr explicit BcpgOutputStream(void* ptr) noexcept : Org::BouncyCastle::Utilities::IO::BaseOutputStream(ptr) {
 }
 
 
@@ -65,11 +64,11 @@ constexpr explicit BcpgOutputStream(void* ptr) noexcept : ::Org::BouncyCastle::U
 /// @brief Field BufferSizePower offset 0
 static constexpr int32_t  BufferSizePower{16};
 
- ::System::IO::Stream __declspec(property(get=__get_outStr, put=__set_outStr))  outStr;
+ System::IO::Stream __declspec(property(get=__get_outStr, put=__set_outStr))  outStr;
 
-constexpr void __set_outStr(::System::IO::Stream value) ;
+constexpr void __set_outStr(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_outStr() const;
+constexpr System::IO::Stream __get_outStr() const;
 
  ::ArrayW<uint8_t> __declspec(property(get=__get_partialBuffer, put=__set_partialBuffer))  partialBuffer;
 
@@ -99,43 +98,43 @@ constexpr int32_t __get_partialOffset() const;
 // Methods
 
 /// @brief Method Wrap addr 0x11455a4 size 0x90 virtual false final false
-static ::Org::BouncyCastle::Bcpg::BcpgOutputStream Wrap(::System::IO::Stream outStr) ;
+static Org::BouncyCastle::Bcpg::BcpgOutputStream Wrap(System::IO::Stream outStr) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(::System::IO::Stream outStr) ;
+// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BcpgOutputStream(System::IO::Stream outStr) ;
 
 /// @brief Method .ctor addr 0x11454fc size 0x78 virtual false final false
- void _ctor(::System::IO::Stream outStr) ;
+ void _ctor(System::IO::Stream outStr) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "::Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag) ;
+// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }]
+explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag) ;
 
 /// @brief Method .ctor addr 0x1145634 size 0x90 virtual false final false
- void _ctor(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag) ;
+ void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "::Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
+// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "oldFormat", ty: "bool", modifiers: "", def_value: None }]
+explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
 
 /// @brief Method .ctor addr 0x1145838 size 0x130 virtual false final false
- void _ctor(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
+ void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length, bool oldFormat) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "::Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
+// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "length", ty: "int64_t", modifiers: "", def_value: None }]
+explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
 
 /// @brief Method .ctor addr 0x1145968 size 0x9c virtual false final false
- void _ctor(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
+ void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, int64_t length) ;
 
-// Ctor Parameters [CppParam { name: "outStr", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "::Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit BcpgOutputStream(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
+// Ctor Parameters [CppParam { name: "outStr", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tag", ty: "Org::BouncyCastle::Bcpg::PacketTag", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit BcpgOutputStream(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method .ctor addr 0x1145a04 size 0x128 virtual false final false
- void _ctor(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
+ void _ctor(System::IO::Stream outStr, Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> buffer) ;
 
 /// @brief Method WriteNewPacketLength addr 0x1145b2c size 0xe0 virtual false final false
  void WriteNewPacketLength(int64_t bodyLen) ;
 
 /// @brief Method WriteHeader addr 0x11456c4 size 0x174 virtual false final false
- void WriteHeader(::Org::BouncyCastle::Bcpg::PacketTag tag, bool oldPackets, bool partial, int64_t bodyLen) ;
+ void WriteHeader(Org::BouncyCastle::Bcpg::PacketTag tag, bool oldPackets, bool partial, int64_t bodyLen) ;
 
 /// @brief Method PartialFlush addr 0x1145c0c size 0x80 virtual false final false
  void PartialFlush(bool isLast) ;
@@ -162,16 +161,16 @@ explicit BcpgOutputStream(::System::IO::Stream outStr, ::Org::BouncyCastle::Bcpg
  void WriteLong(int64_t n) ;
 
 /// @brief Method WritePacket addr 0x1146084 size 0x28 virtual false final false
- void WritePacket(::Org::BouncyCastle::Bcpg::ContainedPacket p) ;
+ void WritePacket(Org::BouncyCastle::Bcpg::ContainedPacket p) ;
 
 /// @brief Method WritePacket addr 0x11460ac size 0x48 virtual false final false
- void WritePacket(::Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> body, bool oldFormat) ;
+ void WritePacket(Org::BouncyCastle::Bcpg::PacketTag tag, ::ArrayW<uint8_t> body, bool oldFormat) ;
 
 /// @brief Method WriteObject addr 0x1145574 size 0x28 virtual false final false
- void WriteObject(::Org::BouncyCastle::Bcpg::BcpgObject bcpgObject) ;
+ void WriteObject(Org::BouncyCastle::Bcpg::BcpgObject bcpgObject) ;
 
 /// @brief Method WriteObjects addr 0x11460f4 size 0x6c virtual false final false
- void WriteObjects(::ArrayW<::Org::BouncyCastle::Bcpg::BcpgObject> v) ;
+ void WriteObjects(::ArrayW<Org::BouncyCastle::Bcpg::BcpgObject> v) ;
 
 /// @brief Method Flush addr 0x1146160 size 0x24 virtual true final false
  void Flush() ;
@@ -186,6 +185,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::BcpgOutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::BcpgOutputStream, "Org.BouncyCastle.Bcpg", "BcpgOutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::BcpgOutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::BcpgOutputStream, "Org.BouncyCastle.Bcpg", "BcpgOutputStream");

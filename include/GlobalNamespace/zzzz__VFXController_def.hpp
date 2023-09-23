@@ -5,29 +5,28 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
-class Animation;
-}
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+class Animation;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-class VFXController;
+class GlobalNamespace__VFXController___MainCoroutine_d__9;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__VFXController___MainCoroutine_d__9;
+class VFXController;
 }
 // Type: ::<MainCoroutine>d__9
 namespace GlobalNamespace {
@@ -35,46 +34,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13849))
 // CS Name: VFXController::<MainCoroutine>d__9
-class CORDL_TYPE ____GlobalNamespace__VFXController___MainCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__VFXController___MainCoroutine_d__9 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____GlobalNamespace__VFXController___MainCoroutine_d__9() = default;
+virtual ~GlobalNamespace__VFXController___MainCoroutine_d__9() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__VFXController___MainCoroutine_d__9", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9(____GlobalNamespace__VFXController___MainCoroutine_d__9 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__VFXController___MainCoroutine_d__9", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__VFXController___MainCoroutine_d__9(GlobalNamespace__VFXController___MainCoroutine_d__9 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__VFXController___MainCoroutine_d__9", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9(____GlobalNamespace__VFXController___MainCoroutine_d__9&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__VFXController___MainCoroutine_d__9", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__VFXController___MainCoroutine_d__9(GlobalNamespace__VFXController___MainCoroutine_d__9&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__VFXController___MainCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__VFXController___MainCoroutine_d__9(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(____GlobalNamespace__VFXController___MainCoroutine_d__9&& o) noexcept = default;
-  constexpr ____GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(____GlobalNamespace__VFXController___MainCoroutine_d__9 const& o) noexcept = default;
+  constexpr GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(GlobalNamespace__VFXController___MainCoroutine_d__9&& o) noexcept = default;
+  constexpr GlobalNamespace__VFXController___MainCoroutine_d__9& operator=(GlobalNamespace__VFXController___MainCoroutine_d__9 const& o) noexcept = default;
                 
 
 
@@ -92,11 +91,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::VFXController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::VFXController __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::VFXController value) ;
+constexpr void __set___4__this(GlobalNamespace::VFXController value) ;
 
-constexpr ::GlobalNamespace::VFXController __get___4__this() const;
+constexpr GlobalNamespace::VFXController __get___4__this() const;
 
  bool __declspec(property(get=__get_deactivateAfterDuration, put=__set_deactivateAfterDuration))  deactivateAfterDuration;
 
@@ -121,7 +120,7 @@ constexpr float_t __get_duration() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__VFXController___MainCoroutine_d__9(int32_t __1__state) ;
+explicit GlobalNamespace__VFXController___MainCoroutine_d__9(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f7d634 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -151,10 +150,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13850))
 // CS Name: VFXController
-class CORDL_TYPE VFXController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE VFXController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _MainCoroutine_d__9 = ::GlobalNamespace::____GlobalNamespace__VFXController___MainCoroutine_d__9;
+using _MainCoroutine_d__9 = GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -168,7 +167,7 @@ constexpr VFXController(VFXController const& ) noexcept = default;
 constexpr VFXController(VFXController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit VFXController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit VFXController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -189,17 +188,17 @@ constexpr explicit VFXController(void* ptr) noexcept : ::UnityEngine::MonoBehavi
 
 // Fields
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=__get__particleSystems, put=__set__particleSystems))  _particleSystems;
 
-constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem> value) ;
+constexpr void __set__particleSystems(::ArrayW<UnityEngine::ParticleSystem> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ParticleSystem> __get__particleSystems() const;
+constexpr ::ArrayW<UnityEngine::ParticleSystem> __get__particleSystems() const;
 
- ::UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
+ UnityEngine::Animation __declspec(property(get=__get__animation, put=__set__animation))  _animation;
 
-constexpr void __set__animation(::UnityEngine::Animation value) ;
+constexpr void __set__animation(UnityEngine::Animation value) ;
 
-constexpr ::UnityEngine::Animation __get__animation() const;
+constexpr UnityEngine::Animation __get__animation() const;
 
  bool __declspec(property(get=__get__deactivateAfterAnimationDuration, put=__set__deactivateAfterAnimationDuration))  _deactivateAfterAnimationDuration;
 
@@ -210,18 +209,18 @@ constexpr bool __get__deactivateAfterAnimationDuration() const;
 
 // Properties
 
- ::UnityEngine::Animation __declspec(property(get=get_animation))  animation;
+ UnityEngine::Animation __declspec(property(get=get_animation))  animation;
 
- ::ArrayW<::UnityEngine::ParticleSystem> __declspec(property(get=get_particleSystems))  particleSystems;
+ ::ArrayW<UnityEngine::ParticleSystem> __declspec(property(get=get_particleSystems))  particleSystems;
 
 
 // Methods
 
 /// @brief Method get_animation addr 0x1f7d464 size 0x8 virtual false final false
- ::UnityEngine::Animation get_animation() ;
+ UnityEngine::Animation get_animation() ;
 
 /// @brief Method get_particleSystems addr 0x1f7d46c size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::ParticleSystem> get_particleSystems() ;
+ ::ArrayW<UnityEngine::ParticleSystem> get_particleSystems() ;
 
 /// @brief Method Awake addr 0x1f7d474 size 0x24 virtual false final false
  void Awake() ;
@@ -230,7 +229,7 @@ constexpr bool __get__deactivateAfterAnimationDuration() const;
  void Play() ;
 
 /// @brief Method MainCoroutine addr 0x1f7d5a8 size 0x8c virtual false final false
- ::System::Collections::IEnumerator MainCoroutine(bool deactivateAfterDuration, float_t duration) ;
+ System::Collections::IEnumerator MainCoroutine(bool deactivateAfterDuration, float_t duration) ;
 
 // Ctor Parameters []
 explicit VFXController() ;
@@ -242,8 +241,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::VFXController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VFXController, "", "VFXController");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__VFXController___MainCoroutine_d__9);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__VFXController___MainCoroutine_d__9, "", "VFXController/<MainCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__VFXController___MainCoroutine_d__9, "", "VFXController/<MainCoroutine>d__9");
+NEED_NO_BOX(GlobalNamespace::VFXController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXController, "", "VFXController");

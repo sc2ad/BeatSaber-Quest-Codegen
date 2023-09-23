@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class BinHexDecoder;
@@ -15,7 +14,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11374))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
 // CS Name: System.Xml.BinHexDecoder
-class CORDL_TYPE BinHexDecoder : public ::System::Xml::IncrementalReadDecoder {
+class CORDL_TYPE BinHexDecoder : public System::Xml::IncrementalReadDecoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr BinHexDecoder(BinHexDecoder const& ) noexcept = default;
 constexpr BinHexDecoder(BinHexDecoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BinHexDecoder(void* ptr) noexcept : ::System::Xml::IncrementalReadDecoder(ptr) {
+constexpr explicit BinHexDecoder(void* ptr) noexcept : System::Xml::IncrementalReadDecoder(ptr) {
 }
 
 
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::BinHexDecoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinHexDecoder, "System.Xml", "BinHexDecoder");
+NEED_NO_BOX(System::Xml::BinHexDecoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexDecoder, "System.Xml", "BinHexDecoder");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace OVR::OpenVR {
 struct TrackedDevicePose_t;
 }
@@ -19,8 +18,8 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE InputPoseActionData_t : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
-constexpr InputPoseActionData_t(bool bActive, uint64_t activeOrigin, ::OVR::OpenVR::TrackedDevicePose_t pose) noexcept;
+// Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "pose", ty: "OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+constexpr InputPoseActionData_t(bool bActive, uint64_t activeOrigin, OVR::OpenVR::TrackedDevicePose_t pose) noexcept;
 
 
                     constexpr InputPoseActionData_t(InputPoseActionData_t const&) = default;
@@ -65,15 +64,14 @@ constexpr void __set_activeOrigin(uint64_t value) ;
 
 constexpr uint64_t __get_activeOrigin() const;
 
- ::OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_pose, put=__set_pose))  pose;
+ OVR::OpenVR::TrackedDevicePose_t __declspec(property(get=__get_pose, put=__set_pose))  pose;
 
-constexpr void __set_pose(::OVR::OpenVR::TrackedDevicePose_t value) ;
+constexpr void __set_pose(OVR::OpenVR::TrackedDevicePose_t value) ;
 
-constexpr ::OVR::OpenVR::TrackedDevicePose_t __get_pose() const;
+constexpr OVR::OpenVR::TrackedDevicePose_t __get_pose() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputPoseActionData_t, "OVR.OpenVR", "InputPoseActionData_t");

@@ -4,7 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
@@ -19,17 +21,14 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__RankModel__Rank;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+struct GlobalNamespace__RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__LevelCompletionResults__LevelEndAction;
+struct GlobalNamespace__LevelCompletionResults__LevelEndAction;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__LevelCompletionResults__LevelEndStateType;
+struct GlobalNamespace__LevelCompletionResults__LevelEndStateType;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -40,20 +39,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15108))
 // CS Name: LevelCompletionResults::LevelEndStateType
-struct CORDL_TYPE ____GlobalNamespace__LevelCompletionResults__LevelEndStateType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__LevelCompletionResults__LevelEndStateType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndStateType(int32_t value__) noexcept;
+constexpr GlobalNamespace__LevelCompletionResults__LevelEndStateType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndStateType(____GlobalNamespace__LevelCompletionResults__LevelEndStateType const&) = default;
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndStateType(____GlobalNamespace__LevelCompletionResults__LevelEndStateType&&) = default;
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndStateType& operator=(____GlobalNamespace__LevelCompletionResults__LevelEndStateType const& o) {
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndStateType(GlobalNamespace__LevelCompletionResults__LevelEndStateType const&) = default;
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndStateType(GlobalNamespace__LevelCompletionResults__LevelEndStateType&&) = default;
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndStateType& operator=(GlobalNamespace__LevelCompletionResults__LevelEndStateType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndStateType& operator=(____GlobalNamespace__LevelCompletionResults__LevelEndStateType&& o) noexcept {
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndStateType& operator=(GlobalNamespace__LevelCompletionResults__LevelEndStateType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -66,7 +65,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LevelCompletionResults__LevelEndStateType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__LevelCompletionResults__LevelEndStateType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -74,15 +73,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped : int32_t {
+enum class __GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped : int32_t {
 __Incomplete = 0,
 __Cleared = 1,
 __Failed = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__LevelCompletionResults__LevelEndStateType_Unwrapped>(__instance);
 }
 
 
@@ -95,13 +94,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Incomplete offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType const Incomplete;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType const Incomplete;
 
 /// @brief Field Cleared offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType const Cleared;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType const Cleared;
 
 /// @brief Field Failed offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType const Failed;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType const Failed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -113,20 +112,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15109))
 // CS Name: LevelCompletionResults::LevelEndAction
-struct CORDL_TYPE ____GlobalNamespace__LevelCompletionResults__LevelEndAction : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__LevelCompletionResults__LevelEndAction : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndAction(int32_t value__) noexcept;
+constexpr GlobalNamespace__LevelCompletionResults__LevelEndAction(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndAction(____GlobalNamespace__LevelCompletionResults__LevelEndAction const&) = default;
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndAction(____GlobalNamespace__LevelCompletionResults__LevelEndAction&&) = default;
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndAction& operator=(____GlobalNamespace__LevelCompletionResults__LevelEndAction const& o) {
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndAction(GlobalNamespace__LevelCompletionResults__LevelEndAction const&) = default;
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndAction(GlobalNamespace__LevelCompletionResults__LevelEndAction&&) = default;
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndAction& operator=(GlobalNamespace__LevelCompletionResults__LevelEndAction const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__LevelCompletionResults__LevelEndAction& operator=(____GlobalNamespace__LevelCompletionResults__LevelEndAction&& o) noexcept {
+                    constexpr GlobalNamespace__LevelCompletionResults__LevelEndAction& operator=(GlobalNamespace__LevelCompletionResults__LevelEndAction&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -139,7 +138,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__LevelCompletionResults__LevelEndAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__LevelCompletionResults__LevelEndAction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -147,15 +146,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped : int32_t {
+enum class __GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped : int32_t {
 __None = 0,
 __Quit = 1,
 __Restart = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__LevelCompletionResults__LevelEndAction_Unwrapped>(__instance);
 }
 
 
@@ -168,13 +167,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction const None;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction const None;
 
 /// @brief Field Quit offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction const Quit;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction const Quit;
 
 /// @brief Field Restart offset 0
-static ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction const Restart;
+static GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction const Restart;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -189,15 +188,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCompletionResults : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using LevelEndAction = ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction;
+using LevelEndAction = GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction;
 
-using LevelEndStateType = ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType;
+using LevelEndStateType = GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType;
 
-/// @brief Convert operator to ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults>
-constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults>() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults>
+constexpr operator  LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults>() const noexcept;
 
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const noexcept;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x78};
@@ -232,11 +231,11 @@ constexpr explicit LevelCompletionResults(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::GlobalNamespace::GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
+ GlobalNamespace::GameplayModifiers __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
 
-constexpr void __set_gameplayModifiers(::GlobalNamespace::GameplayModifiers value) ;
+constexpr void __set_gameplayModifiers(GlobalNamespace::GameplayModifiers value) ;
 
-constexpr ::GlobalNamespace::GameplayModifiers __get_gameplayModifiers() const;
+constexpr GlobalNamespace::GameplayModifiers __get_gameplayModifiers() const;
 
  int32_t __declspec(property(get=__get_modifiedScore, put=__set_modifiedScore))  modifiedScore;
 
@@ -250,11 +249,11 @@ constexpr void __set_multipliedScore(int32_t value) ;
 
 constexpr int32_t __get_multipliedScore() const;
 
- ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __declspec(property(get=__get_rank, put=__set_rank))  rank;
+ GlobalNamespace::GlobalNamespace__RankModel__Rank __declspec(property(get=__get_rank, put=__set_rank))  rank;
 
-constexpr void __set_rank(::GlobalNamespace::____GlobalNamespace__RankModel__Rank value) ;
+constexpr void __set_rank(GlobalNamespace::GlobalNamespace__RankModel__Rank value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__RankModel__Rank __get_rank() const;
+constexpr GlobalNamespace::GlobalNamespace__RankModel__Rank __get_rank() const;
 
  bool __declspec(property(get=__get_fullCombo, put=__set_fullCombo))  fullCombo;
 
@@ -286,17 +285,17 @@ constexpr void __set_rightHandMovementDistance(float_t value) ;
 
 constexpr float_t __get_rightHandMovementDistance() const;
 
- ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType __declspec(property(get=__get_levelEndStateType, put=__set_levelEndStateType))  levelEndStateType;
+ GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType __declspec(property(get=__get_levelEndStateType, put=__set_levelEndStateType))  levelEndStateType;
 
-constexpr void __set_levelEndStateType(::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType value) ;
+constexpr void __set_levelEndStateType(GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType __get_levelEndStateType() const;
+constexpr GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType __get_levelEndStateType() const;
 
- ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction __declspec(property(get=__get_levelEndAction, put=__set_levelEndAction))  levelEndAction;
+ GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction __declspec(property(get=__get_levelEndAction, put=__set_levelEndAction))  levelEndAction;
 
-constexpr void __set_levelEndAction(::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction value) ;
+constexpr void __set_levelEndAction(GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction __get_levelEndAction() const;
+constexpr GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction __get_levelEndAction() const;
 
  float_t __declspec(property(get=__get_energy, put=__set_energy))  energy;
 
@@ -385,30 +384,29 @@ explicit LevelCompletionResults() ;
 /// @brief Method .ctor addr 0x1215b64 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "gameplayModifiers", ty: "::GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "modifiedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "multipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "::GlobalNamespace::____GlobalNamespace__RankModel__Rank", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "leftHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "levelEndStateType", ty: "::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType", modifiers: "", def_value: None }, CppParam { name: "levelEndAction", ty: "::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction", modifiers: "", def_value: None }, CppParam { name: "energy", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "notGoodCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "okCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCountForNotesWithFullScoreScoringType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "averageCenterDistanceCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "averageCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "endSongTime", ty: "float_t", modifiers: "", def_value: None }]
-explicit LevelCompletionResults(::GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::____GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
+// Ctor Parameters [CppParam { name: "gameplayModifiers", ty: "GlobalNamespace::GameplayModifiers", modifiers: "", def_value: None }, CppParam { name: "modifiedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "multipliedScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rank", ty: "GlobalNamespace::GlobalNamespace__RankModel__Rank", modifiers: "", def_value: None }, CppParam { name: "fullCombo", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "leftSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightSaberMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "leftHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightHandMovementDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "levelEndStateType", ty: "GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType", modifiers: "", def_value: None }, CppParam { name: "levelEndAction", ty: "GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction", modifiers: "", def_value: None }, CppParam { name: "energy", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "badCutsCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "missedCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "notGoodCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "okCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCutScore", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "goodCutsCountForNotesWithFullScoreScoringType", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "averageCenterDistanceCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "averageCutScoreForNotesWithFullScoreScoringType", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "maxCombo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "endSongTime", ty: "float_t", modifiers: "", def_value: None }]
+explicit LevelCompletionResults(GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, GlobalNamespace::GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
 
 /// @brief Method .ctor addr 0x1215b6c size 0x12c virtual false final false
- void _ctor(::GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::____GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
+ void _ctor(GlobalNamespace::GameplayModifiers gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, GlobalNamespace::GlobalNamespace__RankModel__Rank rank, bool fullCombo, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType levelEndStateType, GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy, int32_t goodCutsCount, int32_t badCutsCount, int32_t missedCount, int32_t notGoodCount, int32_t okCount, int32_t maxCutScore, int32_t totalCutScore, int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime) ;
 
 /// @brief Method CompareTo addr 0x1215c98 size 0x124 virtual true final true
  int32_t CompareTo(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method Serialize addr 0x1215dbc size 0x1d4 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData addr 0x1215fa0 size 0x8 virtual true final true
- ::GlobalNamespace::LevelCompletionResults LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader reader) ;
+ GlobalNamespace::LevelCompletionResults LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method CreateFromSerializedData addr 0x1215fa8 size 0x340 virtual false final false
-static ::GlobalNamespace::LevelCompletionResults CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader reader) ;
+static GlobalNamespace::LevelCompletionResults CreateFromSerializedData(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndAction, "", "LevelCompletionResults/LevelEndAction");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__LevelCompletionResults__LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
-NEED_NO_BOX(::GlobalNamespace::LevelCompletionResults);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCompletionResults, "", "LevelCompletionResults");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndAction, "", "LevelCompletionResults/LevelEndAction");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__LevelCompletionResults__LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
+NEED_NO_BOX(GlobalNamespace::LevelCompletionResults);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults, "", "LevelCompletionResults");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
@@ -11,7 +10,7 @@ namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDerivationFunction;
@@ -20,7 +19,7 @@ namespace Org::BouncyCastle::Crypto {
 class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
-class IMac;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -35,11 +34,11 @@ namespace Org::BouncyCastle::Crypto::Generators {
 class CORDL_TYPE KdfDoublePipelineIterationBytesGenerator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMacDerivationFunction
-constexpr operator  ::Org::BouncyCastle::Crypto::IMacDerivationFunction() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMacDerivationFunction
+constexpr operator  Org::BouncyCastle::Crypto::IMacDerivationFunction() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IDerivationFunction
-constexpr operator  ::Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IDerivationFunction
+constexpr operator  Org::BouncyCastle::Crypto::IDerivationFunction() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -74,23 +73,23 @@ constexpr explicit KdfDoublePipelineIterationBytesGenerator(void* ptr) noexcept 
 
 // Fields
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_IntegerMax, put=__set_IntegerMax))  IntegerMax;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_IntegerMax, put=__set_IntegerMax))  IntegerMax;
 
-static void __set_IntegerMax(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_IntegerMax(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_IntegerMax() ;
+static Org::BouncyCastle::Math::BigInteger __get_IntegerMax() ;
 
-static ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Two, put=__set_Two))  Two;
+static Org::BouncyCastle::Math::BigInteger __declspec(property(get=__get_Two, put=__set_Two))  Two;
 
-static void __set_Two(::Org::BouncyCastle::Math::BigInteger value) ;
+static void __set_Two(Org::BouncyCastle::Math::BigInteger value) ;
 
-static ::Org::BouncyCastle::Math::BigInteger __get_Two() ;
+static Org::BouncyCastle::Math::BigInteger __get_Two() ;
 
- ::Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_prf, put=__set_prf))  prf;
+ Org::BouncyCastle::Crypto::IMac __declspec(property(get=__get_prf, put=__set_prf))  prf;
 
-constexpr void __set_prf(::Org::BouncyCastle::Crypto::IMac value) ;
+constexpr void __set_prf(Org::BouncyCastle::Crypto::IMac value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IMac __get_prf() const;
+constexpr Org::BouncyCastle::Crypto::IMac __get_prf() const;
 
  int32_t __declspec(property(get=__get_h, put=__set_h))  h;
 
@@ -143,36 +142,35 @@ constexpr ::ArrayW<uint8_t> __get_k() const;
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=get_Digest))  Digest;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "prf", ty: "::Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
-explicit KdfDoublePipelineIterationBytesGenerator(::Org::BouncyCastle::Crypto::IMac prf) ;
+// Ctor Parameters [CppParam { name: "prf", ty: "Org::BouncyCastle::Crypto::IMac", modifiers: "", def_value: None }]
+explicit KdfDoublePipelineIterationBytesGenerator(Org::BouncyCastle::Crypto::IMac prf) ;
 
 /// @brief Method .ctor addr 0xe71bfc size 0xf0 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IMac prf) ;
+ void _ctor(Org::BouncyCastle::Crypto::IMac prf) ;
 
 /// @brief Method Init addr 0xe71cec size 0x2bc virtual true final true
- void Init(::Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::IDerivationParameters parameters) ;
 
 /// @brief Method generateNext addr 0xe71fa8 size 0x4ec virtual false final false
  void generateNext() ;
 
 /// @brief Method get_Digest addr 0xe72494 size 0x88 virtual true final true
- ::Org::BouncyCastle::Crypto::IDigest get_Digest() ;
+ Org::BouncyCastle::Crypto::IDigest get_Digest() ;
 
 /// @brief Method GenerateBytes addr 0xe7251c size 0x208 virtual true final true
  int32_t GenerateBytes(::ArrayW<uint8_t> output, int32_t outOff, int32_t length) ;
 
 /// @brief Method GetMac addr 0xe72724 size 0x8 virtual true final true
- ::Org::BouncyCastle::Crypto::IMac GetMac() ;
+ Org::BouncyCastle::Crypto::IMac GetMac() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Generators
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator, "Org.BouncyCastle.Crypto.Generators", "KdfDoublePipelineIterationBytesGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator, "Org.BouncyCastle.Crypto.Generators", "KdfDoublePipelineIterationBytesGenerator");

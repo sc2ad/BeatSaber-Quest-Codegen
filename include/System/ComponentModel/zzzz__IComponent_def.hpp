@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace System {
 class IDisposable;
 }
@@ -20,8 +19,8 @@ namespace System::ComponentModel {
 class CORDL_TYPE IComponent : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 ~IComponent() = default;
 
@@ -32,18 +31,17 @@ constexpr explicit IComponent(void* ptr) noexcept : ::cordl_internals::Interface
 
 // Properties
 
- ::System::ComponentModel::ISite __declspec(property(get=get_Site))  Site;
+ System::ComponentModel::ISite __declspec(property(get=get_Site))  Site;
 
 
 // Methods
 
 /// @brief Method get_Site addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::ComponentModel::ISite get_Site() ;
+ System::ComponentModel::ISite get_Site() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::IComponent);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::IComponent, "System.ComponentModel", "IComponent");
+NEED_NO_BOX(System::ComponentModel::IComponent);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::IComponent, "System.ComponentModel", "IComponent");

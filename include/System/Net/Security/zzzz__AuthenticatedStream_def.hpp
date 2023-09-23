@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -15,7 +14,7 @@ namespace System::Net::Security {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8215))
 // CS Name: System.Net.Security.AuthenticatedStream
-class CORDL_TYPE AuthenticatedStream : public ::System::IO::Stream {
+class CORDL_TYPE AuthenticatedStream : public System::IO::Stream {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr AuthenticatedStream(AuthenticatedStream const& ) noexcept = default;
 constexpr AuthenticatedStream(AuthenticatedStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AuthenticatedStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit AuthenticatedStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit AuthenticatedStream(void* ptr) noexcept : ::System::IO::Strea
 
 // Fields
 
- ::System::IO::Stream __declspec(property(get=__get__InnerStream, put=__set__InnerStream))  _InnerStream;
+ System::IO::Stream __declspec(property(get=__get__InnerStream, put=__set__InnerStream))  _InnerStream;
 
-constexpr void __set__InnerStream(::System::IO::Stream value) ;
+constexpr void __set__InnerStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get__InnerStream() const;
+constexpr System::IO::Stream __get__InnerStream() const;
 
  bool __declspec(property(get=__get__LeaveStreamOpen, put=__set__LeaveStreamOpen))  _LeaveStreamOpen;
 
@@ -66,21 +65,21 @@ constexpr bool __get__LeaveStreamOpen() const;
 
 // Properties
 
- ::System::IO::Stream __declspec(property(get=get_InnerStream))  InnerStream;
+ System::IO::Stream __declspec(property(get=get_InnerStream))  InnerStream;
 
  bool __declspec(property(get=get_IsAuthenticated))  IsAuthenticated;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "innerStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }]
-explicit AuthenticatedStream(::System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
+// Ctor Parameters [CppParam { name: "innerStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "leaveInnerStreamOpen", ty: "bool", modifiers: "", def_value: None }]
+explicit AuthenticatedStream(System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
 
 /// @brief Method .ctor addr 0x276cdf4 size 0x198 virtual false final false
- void _ctor(::System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
+ void _ctor(System::IO::Stream innerStream, bool leaveInnerStreamOpen) ;
 
 /// @brief Method get_InnerStream addr 0x276cf8c size 0x8 virtual false final false
- ::System::IO::Stream get_InnerStream() ;
+ System::IO::Stream get_InnerStream() ;
 
 /// @brief Method Dispose addr 0x276cf94 size 0xe8 virtual true final false
  void Dispose(bool disposing) ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Security
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Security::AuthenticatedStream);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Security::AuthenticatedStream, "System.Net.Security", "AuthenticatedStream");
+NEED_NO_BOX(System::Net::Security::AuthenticatedStream);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::AuthenticatedStream, "System.Net.Security", "AuthenticatedStream");

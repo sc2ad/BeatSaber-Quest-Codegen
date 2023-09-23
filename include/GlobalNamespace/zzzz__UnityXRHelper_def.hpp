@@ -6,42 +6,50 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine::InputSystem {
-class InputActionReference;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::XR {
 struct XRNodeState;
+}
+namespace GlobalNamespace {
+class UnityXRController;
+}
+namespace UnityEngine::InputSystem {
+class InputActionReference;
 }
 namespace UnityEngine::XR {
 class XRInputSubsystem;
 }
 namespace GlobalNamespace {
-class IVRPlatformHelper;
+class GlobalNamespace__UnityXRController__Configuration;
 }
-namespace UnityEngine::XR {
-struct XRNode;
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 namespace GlobalNamespace {
 struct VRPlatformSDK;
 }
 namespace UnityEngine {
-struct Pose;
+struct Vector2;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace GlobalNamespace {
-class UnityXRController;
+class IVerboseLogger;
+}
+namespace UnityEngine::InputSystem {
+struct UnityEngine__InputSystem__InputAction__CallbackContext;
+}
+namespace UnityEngine {
+struct Pose;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__UnityXRController__Configuration;
-}
-namespace GlobalNamespace {
-class IVerboseLogger;
+class IVRPlatformHelper;
 }
 namespace System {
 class Action;
@@ -49,18 +57,9 @@ class Action;
 namespace GlobalNamespace {
 struct EulerPose;
 }
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputAction__CallbackContext;
-}
-namespace UnityEngine {
-struct Quaternion;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
+struct GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
 }
 namespace GlobalNamespace {
 class UnityXRHelper;
@@ -71,20 +70,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13936))
 // CS Name: UnityXRHelper::VRControllerManufacturerName
-struct CORDL_TYPE ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__UnityXRHelper__VRControllerManufacturerName : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(int32_t value__) noexcept;
+constexpr GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const&) = default;
-                    constexpr ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName&&) = default;
-                    constexpr ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName& operator=(____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const& o) {
+                    constexpr GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const&) = default;
+                    constexpr GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(GlobalNamespace__UnityXRHelper__VRControllerManufacturerName&&) = default;
+                    constexpr GlobalNamespace__UnityXRHelper__VRControllerManufacturerName& operator=(GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName& operator=(____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName&& o) noexcept {
+                    constexpr GlobalNamespace__UnityXRHelper__VRControllerManufacturerName& operator=(GlobalNamespace__UnityXRHelper__VRControllerManufacturerName&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -97,7 +96,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__UnityXRHelper__VRControllerManufacturerName(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -105,7 +104,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped : int32_t {
+enum class __GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped : int32_t {
 __Undefined = 0,
 __HTC = 1,
 __Oculus = 2,
@@ -115,8 +114,8 @@ __Unknown = 5,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__UnityXRHelper__VRControllerManufacturerName_Unwrapped>(__instance);
 }
 
 
@@ -129,22 +128,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Undefined offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Undefined;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Undefined;
 
 /// @brief Field HTC offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const HTC;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const HTC;
 
 /// @brief Field Oculus offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Oculus;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Oculus;
 
 /// @brief Field Valve offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Valve;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Valve;
 
 /// @brief Field Microsoft offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Microsoft;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Microsoft;
 
 /// @brief Field Unknown offset 0
-static ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Unknown;
+static GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName const Unknown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -156,16 +155,16 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13937))
 // CS Name: UnityXRHelper
-class CORDL_TYPE UnityXRHelper : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE UnityXRHelper : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using VRControllerManufacturerName = ::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
+using VRControllerManufacturerName = GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName;
 
-/// @brief Convert operator to ::GlobalNamespace::IVRPlatformHelper
-constexpr operator  ::GlobalNamespace::IVRPlatformHelper() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IVRPlatformHelper
+constexpr operator  GlobalNamespace::IVRPlatformHelper() const noexcept;
 
-/// @brief Convert operator to ::GlobalNamespace::IVerboseLogger
-constexpr operator  ::GlobalNamespace::IVerboseLogger() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IVerboseLogger
+constexpr operator  GlobalNamespace::IVerboseLogger() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xf8};
@@ -179,7 +178,7 @@ constexpr UnityXRHelper(UnityXRHelper const& ) noexcept = default;
 constexpr UnityXRHelper(UnityXRHelper&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityXRHelper(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit UnityXRHelper(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -206,47 +205,47 @@ static constexpr ::ConstString  kSecondaryButtonLeftHand{u"OpenXRSecondaryButton
 /// @brief Field kSecondaryButtonRightHand offset 0
 static constexpr ::ConstString  kSecondaryButtonRightHand{u"OpenXRSecondaryButtonRightHand"};
 
- ::System::Action __declspec(property(get=__get_inputFocusWasCapturedEvent, put=__set_inputFocusWasCapturedEvent))  inputFocusWasCapturedEvent;
+ System::Action __declspec(property(get=__get_inputFocusWasCapturedEvent, put=__set_inputFocusWasCapturedEvent))  inputFocusWasCapturedEvent;
 
-constexpr void __set_inputFocusWasCapturedEvent(::System::Action value) ;
+constexpr void __set_inputFocusWasCapturedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_inputFocusWasCapturedEvent() const;
+constexpr System::Action __get_inputFocusWasCapturedEvent() const;
 
- ::System::Action __declspec(property(get=__get_inputFocusWasReleasedEvent, put=__set_inputFocusWasReleasedEvent))  inputFocusWasReleasedEvent;
+ System::Action __declspec(property(get=__get_inputFocusWasReleasedEvent, put=__set_inputFocusWasReleasedEvent))  inputFocusWasReleasedEvent;
 
-constexpr void __set_inputFocusWasReleasedEvent(::System::Action value) ;
+constexpr void __set_inputFocusWasReleasedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_inputFocusWasReleasedEvent() const;
+constexpr System::Action __get_inputFocusWasReleasedEvent() const;
 
- ::System::Action __declspec(property(get=__get_vrFocusWasCapturedEvent, put=__set_vrFocusWasCapturedEvent))  vrFocusWasCapturedEvent;
+ System::Action __declspec(property(get=__get_vrFocusWasCapturedEvent, put=__set_vrFocusWasCapturedEvent))  vrFocusWasCapturedEvent;
 
-constexpr void __set_vrFocusWasCapturedEvent(::System::Action value) ;
+constexpr void __set_vrFocusWasCapturedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_vrFocusWasCapturedEvent() const;
+constexpr System::Action __get_vrFocusWasCapturedEvent() const;
 
- ::System::Action __declspec(property(get=__get_vrFocusWasReleasedEvent, put=__set_vrFocusWasReleasedEvent))  vrFocusWasReleasedEvent;
+ System::Action __declspec(property(get=__get_vrFocusWasReleasedEvent, put=__set_vrFocusWasReleasedEvent))  vrFocusWasReleasedEvent;
 
-constexpr void __set_vrFocusWasReleasedEvent(::System::Action value) ;
+constexpr void __set_vrFocusWasReleasedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_vrFocusWasReleasedEvent() const;
+constexpr System::Action __get_vrFocusWasReleasedEvent() const;
 
- ::System::Action __declspec(property(get=__get_hmdUnmountedEvent, put=__set_hmdUnmountedEvent))  hmdUnmountedEvent;
+ System::Action __declspec(property(get=__get_hmdUnmountedEvent, put=__set_hmdUnmountedEvent))  hmdUnmountedEvent;
 
-constexpr void __set_hmdUnmountedEvent(::System::Action value) ;
+constexpr void __set_hmdUnmountedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_hmdUnmountedEvent() const;
+constexpr System::Action __get_hmdUnmountedEvent() const;
 
- ::System::Action __declspec(property(get=__get_hmdMountedEvent, put=__set_hmdMountedEvent))  hmdMountedEvent;
+ System::Action __declspec(property(get=__get_hmdMountedEvent, put=__set_hmdMountedEvent))  hmdMountedEvent;
 
-constexpr void __set_hmdMountedEvent(::System::Action value) ;
+constexpr void __set_hmdMountedEvent(System::Action value) ;
 
-constexpr ::System::Action __get_hmdMountedEvent() const;
+constexpr System::Action __get_hmdMountedEvent() const;
 
- ::System::Action __declspec(property(get=__get_controllersDidChangeReferenceEvent, put=__set_controllersDidChangeReferenceEvent))  controllersDidChangeReferenceEvent;
+ System::Action __declspec(property(get=__get_controllersDidChangeReferenceEvent, put=__set_controllersDidChangeReferenceEvent))  controllersDidChangeReferenceEvent;
 
-constexpr void __set_controllersDidChangeReferenceEvent(::System::Action value) ;
+constexpr void __set_controllersDidChangeReferenceEvent(System::Action value) ;
 
-constexpr ::System::Action __get_controllersDidChangeReferenceEvent() const;
+constexpr System::Action __get_controllersDidChangeReferenceEvent() const;
 
  bool __declspec(property(get=__get__hasVrFocus_k__BackingField, put=__set__hasVrFocus_k__BackingField))  _hasVrFocus_k__BackingField;
 
@@ -254,83 +253,83 @@ constexpr void __set__hasVrFocus_k__BackingField(bool value) ;
 
 constexpr bool __get__hasVrFocus_k__BackingField() const;
 
- ::GlobalNamespace::EulerPose __declspec(property(get=__get__oculusPoseOffset, put=__set__oculusPoseOffset))  _oculusPoseOffset;
+ GlobalNamespace::EulerPose __declspec(property(get=__get__oculusPoseOffset, put=__set__oculusPoseOffset))  _oculusPoseOffset;
 
-constexpr void __set__oculusPoseOffset(::GlobalNamespace::EulerPose value) ;
+constexpr void __set__oculusPoseOffset(GlobalNamespace::EulerPose value) ;
 
-constexpr ::GlobalNamespace::EulerPose __get__oculusPoseOffset() const;
+constexpr GlobalNamespace::EulerPose __get__oculusPoseOffset() const;
 
- ::GlobalNamespace::EulerPose __declspec(property(get=__get__valveIndexPoseOffset, put=__set__valveIndexPoseOffset))  _valveIndexPoseOffset;
+ GlobalNamespace::EulerPose __declspec(property(get=__get__valveIndexPoseOffset, put=__set__valveIndexPoseOffset))  _valveIndexPoseOffset;
 
-constexpr void __set__valveIndexPoseOffset(::GlobalNamespace::EulerPose value) ;
+constexpr void __set__valveIndexPoseOffset(GlobalNamespace::EulerPose value) ;
 
-constexpr ::GlobalNamespace::EulerPose __get__valveIndexPoseOffset() const;
+constexpr GlobalNamespace::EulerPose __get__valveIndexPoseOffset() const;
 
- ::GlobalNamespace::EulerPose __declspec(property(get=__get__htcVivePoseOffset, put=__set__htcVivePoseOffset))  _htcVivePoseOffset;
+ GlobalNamespace::EulerPose __declspec(property(get=__get__htcVivePoseOffset, put=__set__htcVivePoseOffset))  _htcVivePoseOffset;
 
-constexpr void __set__htcVivePoseOffset(::GlobalNamespace::EulerPose value) ;
+constexpr void __set__htcVivePoseOffset(GlobalNamespace::EulerPose value) ;
 
-constexpr ::GlobalNamespace::EulerPose __get__htcVivePoseOffset() const;
+constexpr GlobalNamespace::EulerPose __get__htcVivePoseOffset() const;
 
- ::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration __declspec(property(get=__get__leftControllerConfiguration, put=__set__leftControllerConfiguration))  _leftControllerConfiguration;
+ GlobalNamespace::GlobalNamespace__UnityXRController__Configuration __declspec(property(get=__get__leftControllerConfiguration, put=__set__leftControllerConfiguration))  _leftControllerConfiguration;
 
-constexpr void __set__leftControllerConfiguration(::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration value) ;
+constexpr void __set__leftControllerConfiguration(GlobalNamespace::GlobalNamespace__UnityXRController__Configuration value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration __get__leftControllerConfiguration() const;
+constexpr GlobalNamespace::GlobalNamespace__UnityXRController__Configuration __get__leftControllerConfiguration() const;
 
- ::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration __declspec(property(get=__get__rightControllerConfiguration, put=__set__rightControllerConfiguration))  _rightControllerConfiguration;
+ GlobalNamespace::GlobalNamespace__UnityXRController__Configuration __declspec(property(get=__get__rightControllerConfiguration, put=__set__rightControllerConfiguration))  _rightControllerConfiguration;
 
-constexpr void __set__rightControllerConfiguration(::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration value) ;
+constexpr void __set__rightControllerConfiguration(GlobalNamespace::GlobalNamespace__UnityXRController__Configuration value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__UnityXRController__Configuration __get__rightControllerConfiguration() const;
+constexpr GlobalNamespace::GlobalNamespace__UnityXRController__Configuration __get__rightControllerConfiguration() const;
 
- ::UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__userPresenceActionReference, put=__set__userPresenceActionReference))  _userPresenceActionReference;
+ UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__userPresenceActionReference, put=__set__userPresenceActionReference))  _userPresenceActionReference;
 
-constexpr void __set__userPresenceActionReference(::UnityEngine::InputSystem::InputActionReference value) ;
+constexpr void __set__userPresenceActionReference(UnityEngine::InputSystem::InputActionReference value) ;
 
-constexpr ::UnityEngine::InputSystem::InputActionReference __get__userPresenceActionReference() const;
+constexpr UnityEngine::InputSystem::InputActionReference __get__userPresenceActionReference() const;
 
- ::UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__headPositionActionReference, put=__set__headPositionActionReference))  _headPositionActionReference;
+ UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__headPositionActionReference, put=__set__headPositionActionReference))  _headPositionActionReference;
 
-constexpr void __set__headPositionActionReference(::UnityEngine::InputSystem::InputActionReference value) ;
+constexpr void __set__headPositionActionReference(UnityEngine::InputSystem::InputActionReference value) ;
 
-constexpr ::UnityEngine::InputSystem::InputActionReference __get__headPositionActionReference() const;
+constexpr UnityEngine::InputSystem::InputActionReference __get__headPositionActionReference() const;
 
- ::UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__headOrientationActionReference, put=__set__headOrientationActionReference))  _headOrientationActionReference;
+ UnityEngine::InputSystem::InputActionReference __declspec(property(get=__get__headOrientationActionReference, put=__set__headOrientationActionReference))  _headOrientationActionReference;
 
-constexpr void __set__headOrientationActionReference(::UnityEngine::InputSystem::InputActionReference value) ;
+constexpr void __set__headOrientationActionReference(UnityEngine::InputSystem::InputActionReference value) ;
 
-constexpr ::UnityEngine::InputSystem::InputActionReference __get__headOrientationActionReference() const;
+constexpr UnityEngine::InputSystem::InputActionReference __get__headOrientationActionReference() const;
 
- ::GlobalNamespace::UnityXRController __declspec(property(get=__get__leftController, put=__set__leftController))  _leftController;
+ GlobalNamespace::UnityXRController __declspec(property(get=__get__leftController, put=__set__leftController))  _leftController;
 
-constexpr void __set__leftController(::GlobalNamespace::UnityXRController value) ;
+constexpr void __set__leftController(GlobalNamespace::UnityXRController value) ;
 
-constexpr ::GlobalNamespace::UnityXRController __get__leftController() const;
+constexpr GlobalNamespace::UnityXRController __get__leftController() const;
 
- ::GlobalNamespace::UnityXRController __declspec(property(get=__get__rightController, put=__set__rightController))  _rightController;
+ GlobalNamespace::UnityXRController __declspec(property(get=__get__rightController, put=__set__rightController))  _rightController;
 
-constexpr void __set__rightController(::GlobalNamespace::UnityXRController value) ;
+constexpr void __set__rightController(GlobalNamespace::UnityXRController value) ;
 
-constexpr ::GlobalNamespace::UnityXRController __get__rightController() const;
+constexpr GlobalNamespace::UnityXRController __get__rightController() const;
 
- ::UnityEngine::InputSystem::InputAction __declspec(property(get=__get__headPositionAction, put=__set__headPositionAction))  _headPositionAction;
+ UnityEngine::InputSystem::InputAction __declspec(property(get=__get__headPositionAction, put=__set__headPositionAction))  _headPositionAction;
 
-constexpr void __set__headPositionAction(::UnityEngine::InputSystem::InputAction value) ;
+constexpr void __set__headPositionAction(UnityEngine::InputSystem::InputAction value) ;
 
-constexpr ::UnityEngine::InputSystem::InputAction __get__headPositionAction() const;
+constexpr UnityEngine::InputSystem::InputAction __get__headPositionAction() const;
 
- ::UnityEngine::InputSystem::InputAction __declspec(property(get=__get__headOrientationAction, put=__set__headOrientationAction))  _headOrientationAction;
+ UnityEngine::InputSystem::InputAction __declspec(property(get=__get__headOrientationAction, put=__set__headOrientationAction))  _headOrientationAction;
 
-constexpr void __set__headOrientationAction(::UnityEngine::InputSystem::InputAction value) ;
+constexpr void __set__headOrientationAction(UnityEngine::InputSystem::InputAction value) ;
 
-constexpr ::UnityEngine::InputSystem::InputAction __get__headOrientationAction() const;
+constexpr UnityEngine::InputSystem::InputAction __get__headOrientationAction() const;
 
- ::UnityEngine::InputSystem::InputAction __declspec(property(get=__get__userPresenceAction, put=__set__userPresenceAction))  _userPresenceAction;
+ UnityEngine::InputSystem::InputAction __declspec(property(get=__get__userPresenceAction, put=__set__userPresenceAction))  _userPresenceAction;
 
-constexpr void __set__userPresenceAction(::UnityEngine::InputSystem::InputAction value) ;
+constexpr void __set__userPresenceAction(UnityEngine::InputSystem::InputAction value) ;
 
-constexpr ::UnityEngine::InputSystem::InputAction __get__userPresenceAction() const;
+constexpr UnityEngine::InputSystem::InputAction __get__userPresenceAction() const;
 
  bool __declspec(property(get=__get__scrollingLastFrame, put=__set__scrollingLastFrame))  _scrollingLastFrame;
 
@@ -353,7 +352,7 @@ constexpr bool __get__userPresence() const;
 
  bool __declspec(property(get=get_isAlwaysWireless))  isAlwaysWireless;
 
- ::GlobalNamespace::VRPlatformSDK __declspec(property(get=get_vrPlatformSDK))  vrPlatformSDK;
+ GlobalNamespace::VRPlatformSDK __declspec(property(get=get_vrPlatformSDK))  vrPlatformSDK;
 
  ::StringW __declspec(property(get=get_loggerPrefix))  loggerPrefix;
 
@@ -363,46 +362,46 @@ constexpr bool __get__userPresence() const;
 // Methods
 
 /// @brief Method add_inputFocusWasCapturedEvent addr 0x1f8be00 size 0x9c virtual true final true
- void add_inputFocusWasCapturedEvent(::System::Action value) ;
+ void add_inputFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method remove_inputFocusWasCapturedEvent addr 0x1f8be9c size 0x9c virtual true final true
- void remove_inputFocusWasCapturedEvent(::System::Action value) ;
+ void remove_inputFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method add_inputFocusWasReleasedEvent addr 0x1f8bf38 size 0x9c virtual true final true
- void add_inputFocusWasReleasedEvent(::System::Action value) ;
+ void add_inputFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method remove_inputFocusWasReleasedEvent addr 0x1f8bfd4 size 0x9c virtual true final true
- void remove_inputFocusWasReleasedEvent(::System::Action value) ;
+ void remove_inputFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method add_vrFocusWasCapturedEvent addr 0x1f8c070 size 0x9c virtual true final true
- void add_vrFocusWasCapturedEvent(::System::Action value) ;
+ void add_vrFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method remove_vrFocusWasCapturedEvent addr 0x1f8c10c size 0x9c virtual true final true
- void remove_vrFocusWasCapturedEvent(::System::Action value) ;
+ void remove_vrFocusWasCapturedEvent(System::Action value) ;
 
 /// @brief Method add_vrFocusWasReleasedEvent addr 0x1f8c1a8 size 0x9c virtual true final true
- void add_vrFocusWasReleasedEvent(::System::Action value) ;
+ void add_vrFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method remove_vrFocusWasReleasedEvent addr 0x1f8c244 size 0x9c virtual true final true
- void remove_vrFocusWasReleasedEvent(::System::Action value) ;
+ void remove_vrFocusWasReleasedEvent(System::Action value) ;
 
 /// @brief Method add_hmdUnmountedEvent addr 0x1f8c2e0 size 0x9c virtual true final true
- void add_hmdUnmountedEvent(::System::Action value) ;
+ void add_hmdUnmountedEvent(System::Action value) ;
 
 /// @brief Method remove_hmdUnmountedEvent addr 0x1f8c37c size 0x9c virtual true final true
- void remove_hmdUnmountedEvent(::System::Action value) ;
+ void remove_hmdUnmountedEvent(System::Action value) ;
 
 /// @brief Method add_hmdMountedEvent addr 0x1f8c418 size 0x9c virtual true final true
- void add_hmdMountedEvent(::System::Action value) ;
+ void add_hmdMountedEvent(System::Action value) ;
 
 /// @brief Method remove_hmdMountedEvent addr 0x1f8c4b4 size 0x9c virtual true final true
- void remove_hmdMountedEvent(::System::Action value) ;
+ void remove_hmdMountedEvent(System::Action value) ;
 
 /// @brief Method add_controllersDidChangeReferenceEvent addr 0x1f8c550 size 0x9c virtual true final true
- void add_controllersDidChangeReferenceEvent(::System::Action value) ;
+ void add_controllersDidChangeReferenceEvent(System::Action value) ;
 
 /// @brief Method remove_controllersDidChangeReferenceEvent addr 0x1f8c5ec size 0x9c virtual true final true
- void remove_controllersDidChangeReferenceEvent(::System::Action value) ;
+ void remove_controllersDidChangeReferenceEvent(System::Action value) ;
 
 /// @brief Method get_hasInputFocus addr 0x1f8c688 size 0x8 virtual true final true
  bool get_hasInputFocus() ;
@@ -417,7 +416,7 @@ constexpr bool __get__userPresence() const;
  bool get_isAlwaysWireless() ;
 
 /// @brief Method get_vrPlatformSDK addr 0x1f8c6ac size 0x8 virtual true final true
- ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK() ;
+ GlobalNamespace::VRPlatformSDK get_vrPlatformSDK() ;
 
 /// @brief Method get_loggerPrefix addr 0x1f8c6b4 size 0x40 virtual true final true
  ::StringW get_loggerPrefix() ;
@@ -429,58 +428,58 @@ constexpr bool __get__userPresence() const;
  void Start() ;
 
 /// @brief Method OnTrackingOriginUpdated addr 0x1f8cb8c size 0x1c virtual false final false
- void OnTrackingOriginUpdated(::UnityEngine::XR::XRInputSubsystem inputSystem) ;
+ void OnTrackingOriginUpdated(UnityEngine::XR::XRInputSubsystem inputSystem) ;
 
 /// @brief Method OnboundaryChanged addr 0x1f8cbc4 size 0x1c virtual false final false
- void OnboundaryChanged(::UnityEngine::XR::XRInputSubsystem inputSystem) ;
+ void OnboundaryChanged(UnityEngine::XR::XRInputSubsystem inputSystem) ;
 
 /// @brief Method OnDestroy addr 0x1f8cbe0 size 0x184 virtual false final false
  void OnDestroy() ;
 
 /// @brief Method OnUserPresenceCanceled addr 0x1f8cd64 size 0x8 virtual false final false
- void OnUserPresenceCanceled(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext context) ;
+ void OnUserPresenceCanceled(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext context) ;
 
 /// @brief Method OnUserPresenceStarted addr 0x1f8cd6c size 0x8 virtual false final false
- void OnUserPresenceStarted(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputAction__CallbackContext context) ;
+ void OnUserPresenceStarted(UnityEngine::InputSystem::UnityEngine__InputSystem__InputAction__CallbackContext context) ;
 
 /// @brief Method OnApplicationPause addr 0x1f8cd74 size 0x34 virtual false final false
  void OnApplicationPause(bool pauseStatus) ;
 
 /// @brief Method HandleNewXRNode addr 0x1f8cda8 size 0x24 virtual false final false
- void HandleNewXRNode(::UnityEngine::XR::XRNodeState state) ;
+ void HandleNewXRNode(UnityEngine::XR::XRNodeState state) ;
 
 /// @brief Method UpdateManufacturerOnNode addr 0x1f8caf4 size 0x98 virtual false final false
- void UpdateManufacturerOnNode(::UnityEngine::XR::XRNode node) ;
+ void UpdateManufacturerOnNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method HandleRemovedXRNode addr 0x1f8cdcc size 0x44 virtual false final false
- void HandleRemovedXRNode(::UnityEngine::XR::XRNodeState state) ;
+ void HandleRemovedXRNode(UnityEngine::XR::XRNodeState state) ;
 
 /// @brief Method ControllerFromNode addr 0x1f8ce10 size 0x2c virtual false final false
- ::GlobalNamespace::UnityXRController ControllerFromNode(::UnityEngine::XR::XRNode node) ;
+ GlobalNamespace::UnityXRController ControllerFromNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method TriggerHapticPulse addr 0x1f8ce3c size 0xe0 virtual true final true
- void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency) ;
+ void TriggerHapticPulse(UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency) ;
 
 /// @brief Method StopHaptics addr 0x1f8cf1c size 0xcc virtual true final true
- void StopHaptics(::UnityEngine::XR::XRNode node) ;
+ void StopHaptics(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetPoseOffsetForNode addr 0x1f8cfe8 size 0xc4 virtual true final true
- ::UnityEngine::Pose GetPoseOffsetForNode(::UnityEngine::XR::XRNode node) ;
+ UnityEngine::Pose GetPoseOffsetForNode(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetPoseOffsetForManufacturer addr 0x1f8d0ac size 0x158 virtual false final false
- ::UnityEngine::Pose GetPoseOffsetForManufacturer(::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName manufacturerName) ;
+ UnityEngine::Pose GetPoseOffsetForManufacturer(GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName manufacturerName) ;
 
 /// @brief Method GetNodePose addr 0x1f8d204 size 0x1f4 virtual true final true
- bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot) ;
+ bool GetNodePose(UnityEngine::XR::XRNode nodeType, int32_t idx, ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot) ;
 
 /// @brief Method GetAnyJoystickMaxAxis addr 0x1f8d490 size 0x8 virtual true final true
- ::UnityEngine::Vector2 GetAnyJoystickMaxAxis() ;
+ UnityEngine::Vector2 GetAnyJoystickMaxAxis() ;
 
 /// @brief Method GetTriggerValue addr 0x1f8d498 size 0xc virtual true final true
- float_t GetTriggerValue(::UnityEngine::XR::XRNode node) ;
+ float_t GetTriggerValue(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetThumbstickValue addr 0x1f8d4a4 size 0x78 virtual true final true
- ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode node) ;
+ UnityEngine::Vector2 GetThumbstickValue(UnityEngine::XR::XRNode node) ;
 
 /// @brief Method GetMenuButton addr 0x1f8d51c size 0x74 virtual true final true
  bool GetMenuButton() ;
@@ -504,7 +503,7 @@ static bool GetButtonDown(::StringW buttonLegacyName) ;
  void RefreshControllersReference() ;
 
 /// @brief Method ReadHeadPose addr 0x1f8d3f8 size 0x98 virtual false final false
- void ReadHeadPose(ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot) ;
+ void ReadHeadPose(ByRef<UnityEngine::Vector3> pos, ByRef<UnityEngine::Quaternion> rot) ;
 
 // Ctor Parameters []
 explicit UnityXRHelper() ;
@@ -516,7 +515,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__UnityXRHelper__VRControllerManufacturerName, "", "UnityXRHelper/VRControllerManufacturerName");
-NEED_NO_BOX(::GlobalNamespace::UnityXRHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityXRHelper, "", "UnityXRHelper");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__UnityXRHelper__VRControllerManufacturerName, "", "UnityXRHelper/VRControllerManufacturerName");
+NEED_NO_BOX(GlobalNamespace::UnityXRHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityXRHelper, "", "UnityXRHelper");

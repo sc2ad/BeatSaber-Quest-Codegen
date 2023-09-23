@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Color;
 }
@@ -53,30 +52,29 @@ constexpr explicit ColorExtensions(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 // Methods
 
 /// @brief Method SaturatedColor addr 0x1f753d4 size 0x58 virtual false final false
-static ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation) ;
+static UnityEngine::Color SaturatedColor(UnityEngine::Color color, float_t saturation) ;
 
 /// @brief Method ColorWithAlpha addr 0x1f7542c size 0x8 virtual false final false
-static ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha) ;
+static UnityEngine::Color ColorWithAlpha(UnityEngine::Color color, float_t alpha) ;
 
 /// @brief Method ColorWithR addr 0x1f75434 size 0x8 virtual false final false
-static ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r) ;
+static UnityEngine::Color ColorWithR(UnityEngine::Color color, float_t r) ;
 
 /// @brief Method ColorWithG addr 0x1f7543c size 0x8 virtual false final false
-static ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g) ;
+static UnityEngine::Color ColorWithG(UnityEngine::Color color, float_t g) ;
 
 /// @brief Method ColorWithB addr 0x1f75444 size 0x8 virtual false final false
-static ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b) ;
+static UnityEngine::Color ColorWithB(UnityEngine::Color color, float_t b) ;
 
 /// @brief Method ColorWithValue addr 0x1f7544c size 0x54 virtual false final false
-static ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value) ;
+static UnityEngine::Color ColorWithValue(UnityEngine::Color color, float_t value) ;
 
 /// @brief Method LerpRGBUnclamped addr 0x1f754a0 size 0x2c virtual false final false
-static ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t) ;
+static UnityEngine::Color LerpRGBUnclamped(UnityEngine::Color a, UnityEngine::Color b, float_t t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ColorExtensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorExtensions, "", "ColorExtensions");
+NEED_NO_BOX(GlobalNamespace::ColorExtensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorExtensions, "", "ColorExtensions");

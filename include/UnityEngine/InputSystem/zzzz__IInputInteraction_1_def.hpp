@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
 }
@@ -20,8 +19,8 @@ template<typename TValue>
 class CORDL_TYPE IInputInteraction_1 : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::IInputInteraction
-constexpr operator  ::UnityEngine::InputSystem::IInputInteraction() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::IInputInteraction
+constexpr operator  UnityEngine::InputSystem::IInputInteraction() const noexcept;
 
 ~IInputInteraction_1() = default;
 
@@ -33,5 +32,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::InputSystem::IInputInteraction_1, "UnityEngine.InputSystem", "IInputInteraction`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::InputSystem::IInputInteraction_1, "UnityEngine.InputSystem", "IInputInteraction`1");

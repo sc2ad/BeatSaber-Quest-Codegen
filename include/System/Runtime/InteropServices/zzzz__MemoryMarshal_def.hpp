@@ -3,14 +3,13 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct Memory_1;
-}
 namespace System {
 template<typename T>
 struct ReadOnlyMemory_1;
+}
+namespace System {
+template<typename T>
+struct Span_1;
 }
 namespace System {
 template<typename T>
@@ -22,7 +21,7 @@ struct ArraySegment_1;
 }
 namespace System {
 template<typename T>
-struct Span_1;
+struct Memory_1;
 }
 // Forward declare root types
 namespace System::Runtime::InteropServices {
@@ -72,44 +71,43 @@ constexpr explicit MemoryMarshal(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 /// @brief Method AsBytes addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Span_1<uint8_t> AsBytes(::System::Span_1<T> span) ;
+static System::Span_1<uint8_t> AsBytes(System::Span_1<T> span) ;
 
 /// @brief Method AsBytes addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::ReadOnlySpan_1<uint8_t> AsBytes(::System::ReadOnlySpan_1<T> span) ;
+static System::ReadOnlySpan_1<uint8_t> AsBytes(System::ReadOnlySpan_1<T> span) ;
 
 /// @brief Method AsMemory addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::Memory_1<T> AsMemory(::System::ReadOnlyMemory_1<T> memory) ;
+static System::Memory_1<T> AsMemory(System::ReadOnlyMemory_1<T> memory) ;
 
 /// @brief Method GetReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ByRef<T> GetReference(::System::Span_1<T> span) ;
+static ByRef<T> GetReference(System::Span_1<T> span) ;
 
 /// @brief Method GetReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ByRef<T> GetReference(::System::ReadOnlySpan_1<T> span) ;
+static ByRef<T> GetReference(System::ReadOnlySpan_1<T> span) ;
 
 /// @brief Method GetNonNullPinnableReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ByRef<T> GetNonNullPinnableReference(::System::Span_1<T> span) ;
+static ByRef<T> GetNonNullPinnableReference(System::Span_1<T> span) ;
 
 /// @brief Method GetNonNullPinnableReference addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ByRef<T> GetNonNullPinnableReference(::System::ReadOnlySpan_1<T> span) ;
+static ByRef<T> GetNonNullPinnableReference(System::ReadOnlySpan_1<T> span) ;
 
 /// @brief Method CreateReadOnlySpan addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static ::System::ReadOnlySpan_1<T> CreateReadOnlySpan(ByRef<T> reference, int32_t length) ;
+static System::ReadOnlySpan_1<T> CreateReadOnlySpan(ByRef<T> reference, int32_t length) ;
 
 /// @brief Method TryGetArray addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool TryGetArray(::System::ReadOnlyMemory_1<T> memory, ByRef<::System::ArraySegment_1<T>> segment) ;
+static bool TryGetArray(System::ReadOnlyMemory_1<T> memory, ByRef<System::ArraySegment_1<T>> segment) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::InteropServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::InteropServices::MemoryMarshal);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::MemoryMarshal, "System.Runtime.InteropServices", "MemoryMarshal");
+NEED_NO_BOX(System::Runtime::InteropServices::MemoryMarshal);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MemoryMarshal, "System.Runtime.InteropServices", "MemoryMarshal");

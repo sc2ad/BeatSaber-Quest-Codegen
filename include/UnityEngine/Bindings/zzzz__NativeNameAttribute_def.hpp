@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Bindings {
 class NativeNameAttribute;
@@ -13,7 +12,7 @@ namespace UnityEngine::Bindings {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15871))
 // CS Name: UnityEngine.Bindings.NativeNameAttribute
-class CORDL_TYPE NativeNameAttribute : public ::System::Attribute {
+class CORDL_TYPE NativeNameAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr NativeNameAttribute(NativeNameAttribute const& ) noexcept = default;
 constexpr NativeNameAttribute(NativeNameAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NativeNameAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit NativeNameAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Bindings
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Bindings::NativeNameAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeNameAttribute, "UnityEngine.Bindings", "NativeNameAttribute");
+NEED_NO_BOX(UnityEngine::Bindings::NativeNameAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeNameAttribute, "UnityEngine.Bindings", "NativeNameAttribute");

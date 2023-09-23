@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class ISerializationCallbackReceiver;
 }
@@ -24,8 +23,8 @@ namespace UnityEngine::Events {
 class CORDL_TYPE ArgumentCache : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ISerializationCallbackReceiver
-constexpr operator  ::UnityEngine::ISerializationCallbackReceiver() const noexcept;
+/// @brief Convert operator to UnityEngine::ISerializationCallbackReceiver
+constexpr operator  UnityEngine::ISerializationCallbackReceiver() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -60,11 +59,11 @@ constexpr explicit ArgumentCache(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::UnityEngine::Object __declspec(property(get=__get_m_ObjectArgument, put=__set_m_ObjectArgument))  m_ObjectArgument;
+ UnityEngine::Object __declspec(property(get=__get_m_ObjectArgument, put=__set_m_ObjectArgument))  m_ObjectArgument;
 
-constexpr void __set_m_ObjectArgument(::UnityEngine::Object value) ;
+constexpr void __set_m_ObjectArgument(UnityEngine::Object value) ;
 
-constexpr ::UnityEngine::Object __get_m_ObjectArgument() const;
+constexpr UnityEngine::Object __get_m_ObjectArgument() const;
 
  ::StringW __declspec(property(get=__get_m_ObjectArgumentAssemblyTypeName, put=__set_m_ObjectArgumentAssemblyTypeName))  m_ObjectArgumentAssemblyTypeName;
 
@@ -99,7 +98,7 @@ constexpr bool __get_m_BoolArgument() const;
 
 // Properties
 
- ::UnityEngine::Object __declspec(property(get=get_unityObjectArgument))  unityObjectArgument;
+ UnityEngine::Object __declspec(property(get=get_unityObjectArgument))  unityObjectArgument;
 
  ::StringW __declspec(property(get=get_unityObjectArgumentAssemblyTypeName))  unityObjectArgumentAssemblyTypeName;
 
@@ -115,7 +114,7 @@ constexpr bool __get_m_BoolArgument() const;
 // Methods
 
 /// @brief Method get_unityObjectArgument addr 0x2b7f260 size 0x8 virtual false final false
- ::UnityEngine::Object get_unityObjectArgument() ;
+ UnityEngine::Object get_unityObjectArgument() ;
 
 /// @brief Method get_unityObjectArgumentAssemblyTypeName addr 0x2b7f268 size 0x8 virtual false final false
  ::StringW get_unityObjectArgumentAssemblyTypeName() ;
@@ -148,6 +147,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::ArgumentCache);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::ArgumentCache, "UnityEngine.Events", "ArgumentCache");
+NEED_NO_BOX(UnityEngine::Events::ArgumentCache);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache, "UnityEngine.Events", "ArgumentCache");

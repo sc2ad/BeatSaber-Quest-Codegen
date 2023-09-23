@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct ScreenOrientation;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::UnityEngine::ScreenOrientation const Unknown;
+static UnityEngine::ScreenOrientation const Unknown;
 
 /// @brief Field Landscape offset 0
-static ::UnityEngine::ScreenOrientation const Landscape;
+static UnityEngine::ScreenOrientation const Landscape;
 
 /// @brief Field Portrait offset 0
-static ::UnityEngine::ScreenOrientation const Portrait;
+static UnityEngine::ScreenOrientation const Portrait;
 
 /// @brief Field PortraitUpsideDown offset 0
-static ::UnityEngine::ScreenOrientation const PortraitUpsideDown;
+static UnityEngine::ScreenOrientation const PortraitUpsideDown;
 
 /// @brief Field LandscapeLeft offset 0
-static ::UnityEngine::ScreenOrientation const LandscapeLeft;
+static UnityEngine::ScreenOrientation const LandscapeLeft;
 
 /// @brief Field LandscapeRight offset 0
-static ::UnityEngine::ScreenOrientation const LandscapeRight;
+static UnityEngine::ScreenOrientation const LandscapeRight;
 
 /// @brief Field AutoRotation offset 0
-static ::UnityEngine::ScreenOrientation const AutoRotation;
+static UnityEngine::ScreenOrientation const AutoRotation;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScreenOrientation, "UnityEngine", "ScreenOrientation");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScreenOrientation, "UnityEngine", "ScreenOrientation");

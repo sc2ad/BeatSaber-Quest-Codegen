@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct UriSyntaxFlags;
@@ -94,95 +93,94 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::UriSyntaxFlags const None;
+static System::UriSyntaxFlags const None;
 
 /// @brief Field MustHaveAuthority offset 0
-static ::System::UriSyntaxFlags const MustHaveAuthority;
+static System::UriSyntaxFlags const MustHaveAuthority;
 
 /// @brief Field OptionalAuthority offset 0
-static ::System::UriSyntaxFlags const OptionalAuthority;
+static System::UriSyntaxFlags const OptionalAuthority;
 
 /// @brief Field MayHaveUserInfo offset 0
-static ::System::UriSyntaxFlags const MayHaveUserInfo;
+static System::UriSyntaxFlags const MayHaveUserInfo;
 
 /// @brief Field MayHavePort offset 0
-static ::System::UriSyntaxFlags const MayHavePort;
+static System::UriSyntaxFlags const MayHavePort;
 
 /// @brief Field MayHavePath offset 0
-static ::System::UriSyntaxFlags const MayHavePath;
+static System::UriSyntaxFlags const MayHavePath;
 
 /// @brief Field MayHaveQuery offset 0
-static ::System::UriSyntaxFlags const MayHaveQuery;
+static System::UriSyntaxFlags const MayHaveQuery;
 
 /// @brief Field MayHaveFragment offset 0
-static ::System::UriSyntaxFlags const MayHaveFragment;
+static System::UriSyntaxFlags const MayHaveFragment;
 
 /// @brief Field AllowEmptyHost offset 0
-static ::System::UriSyntaxFlags const AllowEmptyHost;
+static System::UriSyntaxFlags const AllowEmptyHost;
 
 /// @brief Field AllowUncHost offset 0
-static ::System::UriSyntaxFlags const AllowUncHost;
+static System::UriSyntaxFlags const AllowUncHost;
 
 /// @brief Field AllowDnsHost offset 0
-static ::System::UriSyntaxFlags const AllowDnsHost;
+static System::UriSyntaxFlags const AllowDnsHost;
 
 /// @brief Field AllowIPv4Host offset 0
-static ::System::UriSyntaxFlags const AllowIPv4Host;
+static System::UriSyntaxFlags const AllowIPv4Host;
 
 /// @brief Field AllowIPv6Host offset 0
-static ::System::UriSyntaxFlags const AllowIPv6Host;
+static System::UriSyntaxFlags const AllowIPv6Host;
 
 /// @brief Field AllowAnInternetHost offset 0
-static ::System::UriSyntaxFlags const AllowAnInternetHost;
+static System::UriSyntaxFlags const AllowAnInternetHost;
 
 /// @brief Field AllowAnyOtherHost offset 0
-static ::System::UriSyntaxFlags const AllowAnyOtherHost;
+static System::UriSyntaxFlags const AllowAnyOtherHost;
 
 /// @brief Field FileLikeUri offset 0
-static ::System::UriSyntaxFlags const FileLikeUri;
+static System::UriSyntaxFlags const FileLikeUri;
 
 /// @brief Field MailToLikeUri offset 0
-static ::System::UriSyntaxFlags const MailToLikeUri;
+static System::UriSyntaxFlags const MailToLikeUri;
 
 /// @brief Field V1_UnknownUri offset 0
-static ::System::UriSyntaxFlags const V1_UnknownUri;
+static System::UriSyntaxFlags const V1_UnknownUri;
 
 /// @brief Field SimpleUserSyntax offset 0
-static ::System::UriSyntaxFlags const SimpleUserSyntax;
+static System::UriSyntaxFlags const SimpleUserSyntax;
 
 /// @brief Field BuiltInSyntax offset 0
-static ::System::UriSyntaxFlags const BuiltInSyntax;
+static System::UriSyntaxFlags const BuiltInSyntax;
 
 /// @brief Field ParserSchemeOnly offset 0
-static ::System::UriSyntaxFlags const ParserSchemeOnly;
+static System::UriSyntaxFlags const ParserSchemeOnly;
 
 /// @brief Field AllowDOSPath offset 0
-static ::System::UriSyntaxFlags const AllowDOSPath;
+static System::UriSyntaxFlags const AllowDOSPath;
 
 /// @brief Field PathIsRooted offset 0
-static ::System::UriSyntaxFlags const PathIsRooted;
+static System::UriSyntaxFlags const PathIsRooted;
 
 /// @brief Field ConvertPathSlashes offset 0
-static ::System::UriSyntaxFlags const ConvertPathSlashes;
+static System::UriSyntaxFlags const ConvertPathSlashes;
 
 /// @brief Field CompressPath offset 0
-static ::System::UriSyntaxFlags const CompressPath;
+static System::UriSyntaxFlags const CompressPath;
 
 /// @brief Field CanonicalizeAsFilePath offset 0
-static ::System::UriSyntaxFlags const CanonicalizeAsFilePath;
+static System::UriSyntaxFlags const CanonicalizeAsFilePath;
 
 /// @brief Field UnEscapeDotsAndSlashes offset 0
-static ::System::UriSyntaxFlags const UnEscapeDotsAndSlashes;
+static System::UriSyntaxFlags const UnEscapeDotsAndSlashes;
 
 /// @brief Field AllowIdn offset 0
-static ::System::UriSyntaxFlags const AllowIdn;
+static System::UriSyntaxFlags const AllowIdn;
 
 /// @brief Field AllowIriParsing offset 0
-static ::System::UriSyntaxFlags const AllowIriParsing;
+static System::UriSyntaxFlags const AllowIriParsing;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::UriSyntaxFlags, "System", "UriSyntaxFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::UriSyntaxFlags, "System", "UriSyntaxFlags");

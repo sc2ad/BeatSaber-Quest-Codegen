@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace UnityEngine {
 class SubsystemDescriptor;
 }
@@ -52,12 +51,11 @@ constexpr explicit Internal_SubsystemDescriptors(void* ptr) noexcept : ::bs_hook
 // Methods
 
 /// @brief Method Internal_AddDescriptor addr 0x2ba3030 size 0x54 virtual false final false
-static void Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor descriptor) ;
+static void Internal_AddDescriptor(UnityEngine::SubsystemDescriptor descriptor) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Internal_SubsystemDescriptors);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Internal_SubsystemDescriptors, "UnityEngine", "Internal_SubsystemDescriptors");
+NEED_NO_BOX(UnityEngine::Internal_SubsystemDescriptors);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemDescriptors, "UnityEngine", "Internal_SubsystemDescriptors");

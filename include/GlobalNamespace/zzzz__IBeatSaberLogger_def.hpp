@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -47,15 +46,14 @@ constexpr explicit IBeatSaberLogger(void* ptr) noexcept : ::cordl_internals::Int
  void LogError(::StringW message, ::bs_hook::Il2CppWrapperType context) ;
 
 /// @brief Method LogException addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogException(::System::Exception exception) ;
+ void LogException(System::Exception exception) ;
 
 /// @brief Method LogException addr 0x0 size 0xffffffffffffffff virtual true final false
- void LogException(::System::Exception exception, ::bs_hook::Il2CppWrapperType context) ;
+ void LogException(System::Exception exception, ::bs_hook::Il2CppWrapperType context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::IBeatSaberLogger);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatSaberLogger, "", "IBeatSaberLogger");
+NEED_NO_BOX(GlobalNamespace::IBeatSaberLogger);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatSaberLogger, "", "IBeatSaberLogger");

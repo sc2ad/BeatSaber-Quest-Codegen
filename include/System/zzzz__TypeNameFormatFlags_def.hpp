@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct TypeNameFormatFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field FormatBasic offset 0
-static ::System::TypeNameFormatFlags const FormatBasic;
+static System::TypeNameFormatFlags const FormatBasic;
 
 /// @brief Field FormatNamespace offset 0
-static ::System::TypeNameFormatFlags const FormatNamespace;
+static System::TypeNameFormatFlags const FormatNamespace;
 
 /// @brief Field FormatFullInst offset 0
-static ::System::TypeNameFormatFlags const FormatFullInst;
+static System::TypeNameFormatFlags const FormatFullInst;
 
 /// @brief Field FormatAssembly offset 0
-static ::System::TypeNameFormatFlags const FormatAssembly;
+static System::TypeNameFormatFlags const FormatAssembly;
 
 /// @brief Field FormatSignature offset 0
-static ::System::TypeNameFormatFlags const FormatSignature;
+static System::TypeNameFormatFlags const FormatSignature;
 
 /// @brief Field FormatNoVersion offset 0
-static ::System::TypeNameFormatFlags const FormatNoVersion;
+static System::TypeNameFormatFlags const FormatNoVersion;
 
 /// @brief Field FormatAngleBrackets offset 0
-static ::System::TypeNameFormatFlags const FormatAngleBrackets;
+static System::TypeNameFormatFlags const FormatAngleBrackets;
 
 /// @brief Field FormatStubInfo offset 0
-static ::System::TypeNameFormatFlags const FormatStubInfo;
+static System::TypeNameFormatFlags const FormatStubInfo;
 
 /// @brief Field FormatGenericParam offset 0
-static ::System::TypeNameFormatFlags const FormatGenericParam;
+static System::TypeNameFormatFlags const FormatGenericParam;
 
 /// @brief Field FormatSerialization offset 0
-static ::System::TypeNameFormatFlags const FormatSerialization;
+static System::TypeNameFormatFlags const FormatSerialization;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::TypeNameFormatFlags, "System", "TypeNameFormatFlags");
+DEFINE_IL2CPP_ARG_TYPE(System::TypeNameFormatFlags, "System", "TypeNameFormatFlags");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-namespace {
 namespace UnityEngine {
 class Event;
 }
@@ -12,10 +11,10 @@ class IMGUIEvent;
 // Type: UnityEngine.UIElements::IMGUIEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1640 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1640 }), TypeDefinitionIndex(TypeDefinitionIndex(7279))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7256))
 // CS Name: UnityEngine.UIElements.IMGUIEvent
-class CORDL_TYPE IMGUIEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::IMGUIEvent> {
+class CORDL_TYPE IMGUIEvent : public UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::IMGUIEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr IMGUIEvent(IMGUIEvent const& ) noexcept = default;
 constexpr IMGUIEvent(IMGUIEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IMGUIEvent(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::IMGUIEvent>(ptr) {
+constexpr explicit IMGUIEvent(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::IMGUIEvent>(ptr) {
 }
 
 
@@ -52,7 +51,7 @@ constexpr explicit IMGUIEvent(void* ptr) noexcept : ::UnityEngine::UIElements::E
 // Methods
 
 /// @brief Method GetPooled addr 0x2cd26f0 size 0x84 virtual false final false
-static ::UnityEngine::UIElements::IMGUIEvent GetPooled(::UnityEngine::Event systemEvent) ;
+static UnityEngine::UIElements::IMGUIEvent GetPooled(UnityEngine::Event systemEvent) ;
 
 /// @brief Method Init addr 0x2cd2828 size 0x54 virtual true final false
  void Init() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IMGUIEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IMGUIEvent, "UnityEngine.UIElements", "IMGUIEvent");
+NEED_NO_BOX(UnityEngine::UIElements::IMGUIEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IMGUIEvent, "UnityEngine.UIElements", "IMGUIEvent");

@@ -4,30 +4,29 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace System {
-struct DateTime;
+struct Decimal;
 }
 namespace System {
 class Type;
 }
 namespace Newtonsoft::Json::Serialization {
-class JsonSerializerInternalReader;
+class JsonProperty;
+}
+namespace System::Runtime::Serialization {
+class IFormatterConverter;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
-struct Decimal;
-}
-namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
+struct DateTime;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonISerializableContract;
 }
-namespace System::Runtime::Serialization {
-class IFormatterConverter;
+namespace Newtonsoft::Json::Serialization {
+class JsonSerializerInternalReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -42,8 +41,8 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE JsonFormatterConverter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::IFormatterConverter
-constexpr operator  ::System::Runtime::Serialization::IFormatterConverter() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::IFormatterConverter
+constexpr operator  System::Runtime::Serialization::IFormatterConverter() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -78,42 +77,42 @@ constexpr explicit JsonFormatterConverter(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
+ Newtonsoft::Json::Serialization::JsonSerializerInternalReader __declspec(property(get=__get__reader, put=__set__reader))  _reader;
 
-constexpr void __set__reader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader value) ;
+constexpr void __set__reader(Newtonsoft::Json::Serialization::JsonSerializerInternalReader value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader __get__reader() const;
+constexpr Newtonsoft::Json::Serialization::JsonSerializerInternalReader __get__reader() const;
 
- ::Newtonsoft::Json::Serialization::JsonISerializableContract __declspec(property(get=__get__contract, put=__set__contract))  _contract;
+ Newtonsoft::Json::Serialization::JsonISerializableContract __declspec(property(get=__get__contract, put=__set__contract))  _contract;
 
-constexpr void __set__contract(::Newtonsoft::Json::Serialization::JsonISerializableContract value) ;
+constexpr void __set__contract(Newtonsoft::Json::Serialization::JsonISerializableContract value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::JsonISerializableContract __get__contract() const;
+constexpr Newtonsoft::Json::Serialization::JsonISerializableContract __get__contract() const;
 
- ::Newtonsoft::Json::Serialization::JsonProperty __declspec(property(get=__get__member, put=__set__member))  _member;
+ Newtonsoft::Json::Serialization::JsonProperty __declspec(property(get=__get__member, put=__set__member))  _member;
 
-constexpr void __set__member(::Newtonsoft::Json::Serialization::JsonProperty value) ;
+constexpr void __set__member(Newtonsoft::Json::Serialization::JsonProperty value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::JsonProperty __get__member() const;
+constexpr Newtonsoft::Json::Serialization::JsonProperty __get__member() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "reader", ty: "::Newtonsoft::Json::Serialization::JsonSerializerInternalReader", modifiers: "", def_value: None }, CppParam { name: "contract", ty: "::Newtonsoft::Json::Serialization::JsonISerializableContract", modifiers: "", def_value: None }, CppParam { name: "member", ty: "::Newtonsoft::Json::Serialization::JsonProperty", modifiers: "", def_value: None }]
-explicit JsonFormatterConverter(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract contract, ::Newtonsoft::Json::Serialization::JsonProperty member) ;
+// Ctor Parameters [CppParam { name: "reader", ty: "Newtonsoft::Json::Serialization::JsonSerializerInternalReader", modifiers: "", def_value: None }, CppParam { name: "contract", ty: "Newtonsoft::Json::Serialization::JsonISerializableContract", modifiers: "", def_value: None }, CppParam { name: "member", ty: "Newtonsoft::Json::Serialization::JsonProperty", modifiers: "", def_value: None }]
+explicit JsonFormatterConverter(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member) ;
 
 /// @brief Method .ctor addr 0x24f5858 size 0xa4 virtual false final false
- void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract contract, ::Newtonsoft::Json::Serialization::JsonProperty member) ;
+ void _ctor(Newtonsoft::Json::Serialization::JsonSerializerInternalReader reader, Newtonsoft::Json::Serialization::JsonISerializableContract contract, Newtonsoft::Json::Serialization::JsonProperty member) ;
 
 /// @brief Method GetTokenValue addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  T GetTokenValue(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method Convert addr 0x24f58fc size 0x11c virtual true final true
- ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, ::System::Type type) ;
+ ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, System::Type type) ;
 
 /// @brief Method Convert addr 0x24f5b0c size 0x10c virtual true final true
- ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, ::System::TypeCode typeCode) ;
+ ::bs_hook::Il2CppWrapperType Convert(::bs_hook::Il2CppWrapperType value, System::TypeCode typeCode) ;
 
 /// @brief Method ToBoolean addr 0x24f5c18 size 0x58 virtual true final true
  bool ToBoolean(::bs_hook::Il2CppWrapperType value) ;
@@ -125,10 +124,10 @@ template<typename T>
  char16_t ToChar(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToDateTime addr 0x24f5d20 size 0x58 virtual true final true
- ::System::DateTime ToDateTime(::bs_hook::Il2CppWrapperType value) ;
+ System::DateTime ToDateTime(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToDecimal addr 0x24f5d78 size 0x58 virtual true final true
- ::System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value) ;
+ System::Decimal ToDecimal(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ToDouble addr 0x24f5dd0 size 0x58 virtual true final true
  double_t ToDouble(::bs_hook::Il2CppWrapperType value) ;
@@ -164,6 +163,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::JsonFormatterConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::JsonFormatterConverter, "Newtonsoft.Json.Serialization", "JsonFormatterConverter");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::JsonFormatterConverter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::JsonFormatterConverter, "Newtonsoft.Json.Serialization", "JsonFormatterConverter");

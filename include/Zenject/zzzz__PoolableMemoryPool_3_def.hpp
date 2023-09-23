@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__MemoryPool_3_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -22,10 +21,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10982), inst: 3380 }), TypeDefinitionIndex(TypeDefinitionIndex(11009)), TypeDefinitionIndex(TypeDefinitionIndex(10982))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11009)), TypeDefinitionIndex(TypeDefinitionIndex(10982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10982), inst: 3380 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11009), inst: 5155 })
 // CS Name: Zenject.PoolableMemoryPool`3
-class CORDL_TYPE PoolableMemoryPool_3<TParam1,TParam2,TValue> : public ::Zenject::MemoryPool_3<TParam1,TParam2,TValue> {
+class CORDL_TYPE PoolableMemoryPool_3<TParam1,TParam2,TValue> : public Zenject::MemoryPool_3<TParam1,TParam2,TValue> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr PoolableMemoryPool_3(PoolableMemoryPool_3 const& ) noexcept = default;
 constexpr PoolableMemoryPool_3(PoolableMemoryPool_3&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PoolableMemoryPool_3(void* ptr) noexcept : ::Zenject::MemoryPool_3<TParam1,TParam2,TValue>(ptr) {
+constexpr explicit PoolableMemoryPool_3(void* ptr) noexcept : Zenject::MemoryPool_3<TParam1,TParam2,TValue>(ptr) {
 }
 
 
@@ -77,11 +76,10 @@ explicit PoolableMemoryPool_3() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::PoolableMemoryPool_3, "Zenject", "PoolableMemoryPool`3");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::PoolableMemoryPool_3, "Zenject", "PoolableMemoryPool`3");

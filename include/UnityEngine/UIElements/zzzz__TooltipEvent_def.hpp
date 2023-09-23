@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct Rect;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1642 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7273))
 // CS Name: UnityEngine.UIElements.TooltipEvent
-class CORDL_TYPE TooltipEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::TooltipEvent> {
+class CORDL_TYPE TooltipEvent : public UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::TooltipEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TooltipEvent(TooltipEvent const& ) noexcept = default;
 constexpr TooltipEvent(TooltipEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TooltipEvent(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::TooltipEvent>(ptr) {
+constexpr explicit TooltipEvent(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<UnityEngine::UIElements::TooltipEvent>(ptr) {
 }
 
 
@@ -58,18 +57,18 @@ constexpr void __set__tooltip_k__BackingField(::StringW value) ;
 
 constexpr ::StringW __get__tooltip_k__BackingField() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get__rect_k__BackingField, put=__set__rect_k__BackingField))  _rect_k__BackingField;
+ UnityEngine::Rect __declspec(property(get=__get__rect_k__BackingField, put=__set__rect_k__BackingField))  _rect_k__BackingField;
 
-constexpr void __set__rect_k__BackingField(::UnityEngine::Rect value) ;
+constexpr void __set__rect_k__BackingField(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get__rect_k__BackingField() const;
+constexpr UnityEngine::Rect __get__rect_k__BackingField() const;
 
 
 // Properties
 
  ::StringW __declspec(property(put=set_tooltip))  tooltip;
 
- ::UnityEngine::Rect __declspec(property(put=set_rect))  rect;
+ UnityEngine::Rect __declspec(property(put=set_rect))  rect;
 
 
 // Methods
@@ -78,7 +77,7 @@ constexpr ::UnityEngine::Rect __get__rect_k__BackingField() const;
  void set_tooltip(::StringW value) ;
 
 /// @brief Method set_rect addr 0x2cd5c68 size 0xc virtual false final false
- void set_rect(::UnityEngine::Rect value) ;
+ void set_rect(UnityEngine::Rect value) ;
 
 /// @brief Method Init addr 0x2cd5c74 size 0x90 virtual true final false
  void Init() ;
@@ -96,6 +95,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::TooltipEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TooltipEvent, "UnityEngine.UIElements", "TooltipEvent");
+NEED_NO_BOX(UnityEngine::UIElements::TooltipEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TooltipEvent, "UnityEngine.UIElements", "TooltipEvent");

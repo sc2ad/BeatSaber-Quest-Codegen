@@ -1,29 +1,28 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
-namespace {
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class IPrefabProvider;
-}
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace Zenject {
-class GameObjectContext;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IPrefabProvider;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
+}
+namespace Zenject {
+class GameObjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -35,7 +34,7 @@ namespace Zenject {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11216))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11219))
 // CS Name: Zenject.SubContainerCreatorByNewPrefabMethod
-class CORDL_TYPE SubContainerCreatorByNewPrefabMethod : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
+class CORDL_TYPE SubContainerCreatorByNewPrefabMethod : public Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -50,7 +49,7 @@ constexpr SubContainerCreatorByNewPrefabMethod(SubContainerCreatorByNewPrefabMet
 constexpr SubContainerCreatorByNewPrefabMethod(SubContainerCreatorByNewPrefabMethod&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SubContainerCreatorByNewPrefabMethod(void* ptr) noexcept : ::Zenject::SubContainerCreatorByNewPrefabDynamicContext(ptr) {
+constexpr explicit SubContainerCreatorByNewPrefabMethod(void* ptr) noexcept : Zenject::SubContainerCreatorByNewPrefabDynamicContext(ptr) {
 }
 
 
@@ -71,28 +70,27 @@ constexpr explicit SubContainerCreatorByNewPrefabMethod(void* ptr) noexcept : ::
 
 // Fields
 
- ::System::Action_1<::Zenject::DiContainer> __declspec(property(get=__get__installerMethod, put=__set__installerMethod))  _installerMethod;
+ System::Action_1<Zenject::DiContainer> __declspec(property(get=__get__installerMethod, put=__set__installerMethod))  _installerMethod;
 
-constexpr void __set__installerMethod(::System::Action_1<::Zenject::DiContainer> value) ;
+constexpr void __set__installerMethod(System::Action_1<Zenject::DiContainer> value) ;
 
-constexpr ::System::Action_1<::Zenject::DiContainer> __get__installerMethod() const;
+constexpr System::Action_1<Zenject::DiContainer> __get__installerMethod() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "::Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "::Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "::System::Action_1<::Zenject::DiContainer>", modifiers: "", def_value: None }]
-explicit SubContainerCreatorByNewPrefabMethod(::Zenject::DiContainer container, ::Zenject::IPrefabProvider prefabProvider, ::Zenject::GameObjectCreationParameters gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer> installerMethod) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "prefabProvider", ty: "Zenject::IPrefabProvider", modifiers: "", def_value: None }, CppParam { name: "gameObjectBindInfo", ty: "Zenject::GameObjectCreationParameters", modifiers: "", def_value: None }, CppParam { name: "installerMethod", ty: "System::Action_1<Zenject::DiContainer>", modifiers: "", def_value: None }]
+explicit SubContainerCreatorByNewPrefabMethod(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
 
 /// @brief Method .ctor addr 0x2d933ec size 0x40 virtual false final false
- void _ctor(::Zenject::DiContainer container, ::Zenject::IPrefabProvider prefabProvider, ::Zenject::GameObjectCreationParameters gameObjectBindInfo, ::System::Action_1<::Zenject::DiContainer> installerMethod) ;
+ void _ctor(Zenject::DiContainer container, Zenject::IPrefabProvider prefabProvider, Zenject::GameObjectCreationParameters gameObjectBindInfo, System::Action_1<Zenject::DiContainer> installerMethod) ;
 
 /// @brief Method AddInstallers addr 0x2d9342c size 0xb4 virtual true final false
- void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ::Zenject::GameObjectContext context) ;
+ void AddInstallers(System::Collections::Generic::List_1<Zenject::TypeValuePair> args, Zenject::GameObjectContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::SubContainerCreatorByNewPrefabMethod);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByNewPrefabMethod, "Zenject", "SubContainerCreatorByNewPrefabMethod");
+NEED_NO_BOX(Zenject::SubContainerCreatorByNewPrefabMethod);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabMethod, "Zenject", "SubContainerCreatorByNewPrefabMethod");

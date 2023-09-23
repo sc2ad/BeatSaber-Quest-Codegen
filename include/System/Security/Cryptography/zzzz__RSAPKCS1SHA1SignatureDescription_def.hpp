@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SignatureDescription_def.hpp"
-namespace {
 // Forward declare root types
 namespace System::Security::Cryptography {
 class RSAPKCS1SHA1SignatureDescription;
@@ -12,7 +11,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2963))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2964))
 // CS Name: System.Security.Cryptography.RSAPKCS1SHA1SignatureDescription
-class CORDL_TYPE RSAPKCS1SHA1SignatureDescription : public ::System::Security::Cryptography::RSAPKCS1SignatureDescription {
+class CORDL_TYPE RSAPKCS1SHA1SignatureDescription : public System::Security::Cryptography::RSAPKCS1SignatureDescription {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr RSAPKCS1SHA1SignatureDescription(RSAPKCS1SHA1SignatureDescription cons
 constexpr RSAPKCS1SHA1SignatureDescription(RSAPKCS1SHA1SignatureDescription&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RSAPKCS1SHA1SignatureDescription(void* ptr) noexcept : ::System::Security::Cryptography::RSAPKCS1SignatureDescription(ptr) {
+constexpr explicit RSAPKCS1SHA1SignatureDescription(void* ptr) noexcept : System::Security::Cryptography::RSAPKCS1SignatureDescription(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription, "System.Security.Cryptography", "RSAPKCS1SHA1SignatureDescription");
+NEED_NO_BOX(System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription, "System.Security.Cryptography", "RSAPKCS1SHA1SignatureDescription");

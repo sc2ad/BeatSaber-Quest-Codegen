@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Net::NetworkInformation {
 struct in6_addr;
@@ -61,5 +60,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::in6_addr, "System.Net.NetworkInformation", "in6_addr");

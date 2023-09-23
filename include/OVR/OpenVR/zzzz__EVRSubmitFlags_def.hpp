@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRSubmitFlags;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Submit_Default offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_Default;
+static OVR::OpenVR::EVRSubmitFlags const Submit_Default;
 
 /// @brief Field Submit_LensDistortionAlreadyApplied offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_LensDistortionAlreadyApplied;
+static OVR::OpenVR::EVRSubmitFlags const Submit_LensDistortionAlreadyApplied;
 
 /// @brief Field Submit_GlRenderBuffer offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_GlRenderBuffer;
+static OVR::OpenVR::EVRSubmitFlags const Submit_GlRenderBuffer;
 
 /// @brief Field Submit_Reserved offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_Reserved;
+static OVR::OpenVR::EVRSubmitFlags const Submit_Reserved;
 
 /// @brief Field Submit_TextureWithPose offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithPose;
+static OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithPose;
 
 /// @brief Field Submit_TextureWithDepth offset 0
-static ::OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithDepth;
+static OVR::OpenVR::EVRSubmitFlags const Submit_TextureWithDepth;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSubmitFlags, "OVR.OpenVR", "EVRSubmitFlags");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSubmitFlags, "OVR.OpenVR", "EVRSubmitFlags");

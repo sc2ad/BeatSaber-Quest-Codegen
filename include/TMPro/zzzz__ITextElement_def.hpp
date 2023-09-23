@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-struct CanvasUpdate;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::UI {
+struct CanvasUpdate;
 }
 // Forward declare root types
 namespace TMPro {
@@ -30,16 +29,16 @@ constexpr explicit ITextElement(void* ptr) noexcept : ::cordl_internals::Interfa
 
 // Properties
 
- ::UnityEngine::Material __declspec(property(get=get_sharedMaterial))  sharedMaterial;
+ UnityEngine::Material __declspec(property(get=get_sharedMaterial))  sharedMaterial;
 
 
 // Methods
 
 /// @brief Method get_sharedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Material get_sharedMaterial() ;
+ UnityEngine::Material get_sharedMaterial() ;
 
 /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual true final false
- void Rebuild(::UnityEngine::UI::CanvasUpdate update) ;
+ void Rebuild(UnityEngine::UI::CanvasUpdate update) ;
 
 /// @brief Method GetInstanceID addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetInstanceID() ;
@@ -48,6 +47,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def TMPro
-} // end anonymous namespace
-NEED_NO_BOX(::TMPro::ITextElement);
-DEFINE_IL2CPP_ARG_TYPE(::TMPro::ITextElement, "TMPro", "ITextElement");
+NEED_NO_BOX(TMPro::ITextElement);
+DEFINE_IL2CPP_ARG_TYPE(TMPro::ITextElement, "TMPro", "ITextElement");

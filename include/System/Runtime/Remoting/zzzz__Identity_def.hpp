@@ -2,21 +2,20 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting {
-class ObjRef;
-}
 namespace System::Runtime::Remoting::Contexts {
 class DynamicPropertyCollection;
 }
 namespace System {
 class Type;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Runtime::Remoting {
+class ObjRef;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -70,35 +69,35 @@ constexpr void __set__objectUri(::StringW value) ;
 
 constexpr ::StringW __get__objectUri() const;
 
- ::System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get__channelSink, put=__set__channelSink))  _channelSink;
+ System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get__channelSink, put=__set__channelSink))  _channelSink;
 
-constexpr void __set__channelSink(::System::Runtime::Remoting::Messaging::IMessageSink value) ;
+constexpr void __set__channelSink(System::Runtime::Remoting::Messaging::IMessageSink value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink __get__channelSink() const;
+constexpr System::Runtime::Remoting::Messaging::IMessageSink __get__channelSink() const;
 
- ::System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get__envoySink, put=__set__envoySink))  _envoySink;
+ System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=__get__envoySink, put=__set__envoySink))  _envoySink;
 
-constexpr void __set__envoySink(::System::Runtime::Remoting::Messaging::IMessageSink value) ;
+constexpr void __set__envoySink(System::Runtime::Remoting::Messaging::IMessageSink value) ;
 
-constexpr ::System::Runtime::Remoting::Messaging::IMessageSink __get__envoySink() const;
+constexpr System::Runtime::Remoting::Messaging::IMessageSink __get__envoySink() const;
 
- ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=__get__clientDynamicProperties, put=__set__clientDynamicProperties))  _clientDynamicProperties;
+ System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=__get__clientDynamicProperties, put=__set__clientDynamicProperties))  _clientDynamicProperties;
 
-constexpr void __set__clientDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection value) ;
+constexpr void __set__clientDynamicProperties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection value) ;
 
-constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection __get__clientDynamicProperties() const;
+constexpr System::Runtime::Remoting::Contexts::DynamicPropertyCollection __get__clientDynamicProperties() const;
 
- ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=__get__serverDynamicProperties, put=__set__serverDynamicProperties))  _serverDynamicProperties;
+ System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=__get__serverDynamicProperties, put=__set__serverDynamicProperties))  _serverDynamicProperties;
 
-constexpr void __set__serverDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection value) ;
+constexpr void __set__serverDynamicProperties(System::Runtime::Remoting::Contexts::DynamicPropertyCollection value) ;
 
-constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection __get__serverDynamicProperties() const;
+constexpr System::Runtime::Remoting::Contexts::DynamicPropertyCollection __get__serverDynamicProperties() const;
 
- ::System::Runtime::Remoting::ObjRef __declspec(property(get=__get__objRef, put=__set__objRef))  _objRef;
+ System::Runtime::Remoting::ObjRef __declspec(property(get=__get__objRef, put=__set__objRef))  _objRef;
 
-constexpr void __set__objRef(::System::Runtime::Remoting::ObjRef value) ;
+constexpr void __set__objRef(System::Runtime::Remoting::ObjRef value) ;
 
-constexpr ::System::Runtime::Remoting::ObjRef __get__objRef() const;
+constexpr System::Runtime::Remoting::ObjRef __get__objRef() const;
 
  bool __declspec(property(get=__get__disposed, put=__set__disposed))  _disposed;
 
@@ -109,9 +108,9 @@ constexpr bool __get__disposed() const;
 
 // Properties
 
- ::System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=get_ChannelSink, put=set_ChannelSink))  ChannelSink;
+ System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=get_ChannelSink, put=set_ChannelSink))  ChannelSink;
 
- ::System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=get_EnvoySink))  EnvoySink;
+ System::Runtime::Remoting::Messaging::IMessageSink __declspec(property(get=get_EnvoySink))  EnvoySink;
 
  ::StringW __declspec(property(get=get_ObjectUri, put=set_ObjectUri))  ObjectUri;
 
@@ -119,7 +118,7 @@ constexpr bool __get__disposed() const;
 
  bool __declspec(property(get=get_Disposed, put=set_Disposed))  Disposed;
 
- ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=get_ClientDynamicProperties))  ClientDynamicProperties;
+ System::Runtime::Remoting::Contexts::DynamicPropertyCollection __declspec(property(get=get_ClientDynamicProperties))  ClientDynamicProperties;
 
  bool __declspec(property(get=get_HasServerDynamicSinks))  HasServerDynamicSinks;
 
@@ -133,16 +132,16 @@ explicit Identity(::StringW objectUri) ;
  void _ctor(::StringW objectUri) ;
 
 /// @brief Method CreateObjRef addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Runtime::Remoting::ObjRef CreateObjRef(::System::Type requestedType) ;
+ System::Runtime::Remoting::ObjRef CreateObjRef(System::Type requestedType) ;
 
 /// @brief Method get_ChannelSink addr 0x2319e54 size 0x8 virtual false final false
- ::System::Runtime::Remoting::Messaging::IMessageSink get_ChannelSink() ;
+ System::Runtime::Remoting::Messaging::IMessageSink get_ChannelSink() ;
 
 /// @brief Method set_ChannelSink addr 0x2319e5c size 0x8 virtual false final false
- void set_ChannelSink(::System::Runtime::Remoting::Messaging::IMessageSink value) ;
+ void set_ChannelSink(System::Runtime::Remoting::Messaging::IMessageSink value) ;
 
 /// @brief Method get_EnvoySink addr 0x2319e64 size 0x8 virtual false final false
- ::System::Runtime::Remoting::Messaging::IMessageSink get_EnvoySink() ;
+ System::Runtime::Remoting::Messaging::IMessageSink get_EnvoySink() ;
 
 /// @brief Method get_ObjectUri addr 0x2319e6c size 0x8 virtual false final false
  ::StringW get_ObjectUri() ;
@@ -160,21 +159,20 @@ explicit Identity(::StringW objectUri) ;
  void set_Disposed(bool value) ;
 
 /// @brief Method get_ClientDynamicProperties addr 0x2319ea0 size 0x6c virtual false final false
- ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection get_ClientDynamicProperties() ;
+ System::Runtime::Remoting::Contexts::DynamicPropertyCollection get_ClientDynamicProperties() ;
 
 /// @brief Method get_HasServerDynamicSinks addr 0x2319f0c size 0x14 virtual false final false
  bool get_HasServerDynamicSinks() ;
 
 /// @brief Method NotifyClientDynamicSinks addr 0x2319f20 size 0x74 virtual false final false
- void NotifyClientDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage req_msg, bool client_site, bool async) ;
+ void NotifyClientDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage req_msg, bool client_site, bool async) ;
 
 /// @brief Method NotifyServerDynamicSinks addr 0x2319f94 size 0x74 virtual false final false
- void NotifyServerDynamicSinks(bool start, ::System::Runtime::Remoting::Messaging::IMessage req_msg, bool client_site, bool async) ;
+ void NotifyServerDynamicSinks(bool start, System::Runtime::Remoting::Messaging::IMessage req_msg, bool client_site, bool async) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Remoting::Identity);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Identity, "System.Runtime.Remoting", "Identity");
+NEED_NO_BOX(System::Runtime::Remoting::Identity);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Identity, "System.Runtime.Remoting", "Identity");

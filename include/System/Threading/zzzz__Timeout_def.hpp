@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 struct TimeSpan;
 }
@@ -51,11 +50,11 @@ constexpr explicit Timeout(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(pt
 
 // Fields
 
-static ::System::TimeSpan __declspec(property(get=__get_InfiniteTimeSpan, put=__set_InfiniteTimeSpan))  InfiniteTimeSpan;
+static System::TimeSpan __declspec(property(get=__get_InfiniteTimeSpan, put=__set_InfiniteTimeSpan))  InfiniteTimeSpan;
 
-static void __set_InfiniteTimeSpan(::System::TimeSpan value) ;
+static void __set_InfiniteTimeSpan(System::TimeSpan value) ;
 
-static ::System::TimeSpan __get_InfiniteTimeSpan() ;
+static System::TimeSpan __get_InfiniteTimeSpan() ;
 
 
 // Methods
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Timeout);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Timeout, "System.Threading", "Timeout");
+NEED_NO_BOX(System::Threading::Timeout);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timeout, "System.Threading", "Timeout");

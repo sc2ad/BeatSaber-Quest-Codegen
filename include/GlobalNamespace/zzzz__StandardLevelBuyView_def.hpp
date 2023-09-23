@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace UnityEngine::UI {
-class Button;
+namespace GlobalNamespace {
+class LevelBar;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace GlobalNamespace {
-class LevelBar;
+namespace UnityEngine::UI {
+class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5902))
 // CS Name: StandardLevelBuyView
-class CORDL_TYPE StandardLevelBuyView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE StandardLevelBuyView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr StandardLevelBuyView(StandardLevelBuyView const& ) noexcept = default;
 constexpr StandardLevelBuyView(StandardLevelBuyView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit StandardLevelBuyView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit StandardLevelBuyView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,31 +56,31 @@ constexpr explicit StandardLevelBuyView(void* ptr) noexcept : ::UnityEngine::Mon
 
 // Fields
 
- ::GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
+ GlobalNamespace::LevelBar __declspec(property(get=__get__levelBar, put=__set__levelBar))  _levelBar;
 
-constexpr void __set__levelBar(::GlobalNamespace::LevelBar value) ;
+constexpr void __set__levelBar(GlobalNamespace::LevelBar value) ;
 
-constexpr ::GlobalNamespace::LevelBar __get__levelBar() const;
+constexpr GlobalNamespace::LevelBar __get__levelBar() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__buyButton, put=__set__buyButton))  _buyButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__buyButton, put=__set__buyButton))  _buyButton;
 
-constexpr void __set__buyButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__buyButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__buyButton() const;
+constexpr UnityEngine::UI::Button __get__buyButton() const;
 
 
 // Properties
 
- ::UnityEngine::UI::Button __declspec(property(get=get_buyButton))  buyButton;
+ UnityEngine::UI::Button __declspec(property(get=get_buyButton))  buyButton;
 
 
 // Methods
 
 /// @brief Method get_buyButton addr 0x218f6ac size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_buyButton() ;
+ UnityEngine::UI::Button get_buyButton() ;
 
 /// @brief Method SetContent addr 0x218f6b4 size 0x20 virtual false final false
- void SetContent(::GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
+ void SetContent(GlobalNamespace::IPreviewBeatmapLevel previewBeatmapLevel) ;
 
 // Ctor Parameters []
 explicit StandardLevelBuyView() ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::StandardLevelBuyView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandardLevelBuyView, "", "StandardLevelBuyView");
+NEED_NO_BOX(GlobalNamespace::StandardLevelBuyView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView, "", "StandardLevelBuyView");

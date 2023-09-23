@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Net {
-class WebRequest;
-}
-namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
-class ICredentials;
+class Authorization;
 }
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Net {
-class Authorization;
+class IAuthenticationModule;
+}
+namespace System::Net {
+class WebRequest;
+}
+namespace System::Net {
+class ICredentials;
 }
 // Forward declare root types
 namespace System::Net {
@@ -32,8 +31,8 @@ namespace System::Net {
 class CORDL_TYPE DigestClient : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Net::IAuthenticationModule
-constexpr operator  ::System::Net::IAuthenticationModule() const noexcept;
+/// @brief Convert operator to System::Net::IAuthenticationModule
+constexpr operator  System::Net::IAuthenticationModule() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -68,16 +67,16 @@ constexpr explicit DigestClient(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
-static ::System::Collections::Hashtable __declspec(property(get=__get_cache, put=__set_cache))  cache;
+static System::Collections::Hashtable __declspec(property(get=__get_cache, put=__set_cache))  cache;
 
-static void __set_cache(::System::Collections::Hashtable value) ;
+static void __set_cache(System::Collections::Hashtable value) ;
 
-static ::System::Collections::Hashtable __get_cache() ;
+static System::Collections::Hashtable __get_cache() ;
 
 
 // Properties
 
-static ::System::Collections::Hashtable __declspec(property(get=get_Cache))  Cache;
+static System::Collections::Hashtable __declspec(property(get=get_Cache))  Cache;
 
  ::StringW __declspec(property(get=get_AuthenticationType))  AuthenticationType;
 
@@ -85,16 +84,16 @@ static ::System::Collections::Hashtable __declspec(property(get=get_Cache))  Cac
 // Methods
 
 /// @brief Method get_Cache addr 0x282c3e4 size 0x168 virtual false final false
-static ::System::Collections::Hashtable get_Cache() ;
+static System::Collections::Hashtable get_Cache() ;
 
 /// @brief Method CheckExpired addr 0x282c54c size 0x848 virtual false final false
 static void CheckExpired(int32_t count) ;
 
 /// @brief Method Authenticate addr 0x282cd94 size 0x2a8 virtual true final true
- ::System::Net::Authorization Authenticate(::StringW challenge, ::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization Authenticate(::StringW challenge, System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method PreAuthenticate addr 0x282d03c size 0x194 virtual true final true
- ::System::Net::Authorization PreAuthenticate(::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization PreAuthenticate(System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method get_AuthenticationType addr 0x282d1d0 size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
@@ -109,6 +108,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::DigestClient);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::DigestClient, "System.Net", "DigestClient");
+NEED_NO_BOX(System::Net::DigestClient);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestClient, "System.Net", "DigestClient");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 struct ReadState;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Initial offset 0
-static ::System::Xml::ReadState const Initial;
+static System::Xml::ReadState const Initial;
 
 /// @brief Field Interactive offset 0
-static ::System::Xml::ReadState const Interactive;
+static System::Xml::ReadState const Interactive;
 
 /// @brief Field Error offset 0
-static ::System::Xml::ReadState const Error;
+static System::Xml::ReadState const Error;
 
 /// @brief Field EndOfFile offset 0
-static ::System::Xml::ReadState const EndOfFile;
+static System::Xml::ReadState const EndOfFile;
 
 /// @brief Field Closed offset 0
-static ::System::Xml::ReadState const Closed;
+static System::Xml::ReadState const Closed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::ReadState, "System.Xml", "ReadState");
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::ReadState, "System.Xml", "ReadState");

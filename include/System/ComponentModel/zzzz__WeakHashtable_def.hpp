@@ -3,16 +3,15 @@
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections {
 class IEqualityComparer;
 }
 // Forward declare root types
 namespace System::ComponentModel {
-class WeakHashtable;
+class System__ComponentModel__WeakHashtable__WeakKeyComparer;
 }
 namespace System::ComponentModel {
-class ____System__ComponentModel__WeakHashtable__WeakKeyComparer;
+class WeakHashtable;
 }
 // Type: ::WeakKeyComparer
 namespace System::ComponentModel {
@@ -20,40 +19,40 @@ namespace System::ComponentModel {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8345))
 // CS Name: System.ComponentModel.WeakHashtable::WeakKeyComparer
-class CORDL_TYPE ____System__ComponentModel__WeakHashtable__WeakKeyComparer : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__ComponentModel__WeakHashtable__WeakKeyComparer : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::IEqualityComparer
-constexpr operator  ::System::Collections::IEqualityComparer() const noexcept;
+/// @brief Convert operator to System::Collections::IEqualityComparer
+constexpr operator  System::Collections::IEqualityComparer() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__ComponentModel__WeakHashtable__WeakKeyComparer() = default;
+virtual ~System__ComponentModel__WeakHashtable__WeakKeyComparer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__ComponentModel__WeakHashtable__WeakKeyComparer", modifiers: " const&", def_value: None }]
-constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer(____System__ComponentModel__WeakHashtable__WeakKeyComparer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__ComponentModel__WeakHashtable__WeakKeyComparer", modifiers: " const&", def_value: None }]
+constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer(System__ComponentModel__WeakHashtable__WeakKeyComparer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__ComponentModel__WeakHashtable__WeakKeyComparer", modifiers: "&&", def_value: None }]
-constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer(____System__ComponentModel__WeakHashtable__WeakKeyComparer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__ComponentModel__WeakHashtable__WeakKeyComparer", modifiers: "&&", def_value: None }]
+constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer(System__ComponentModel__WeakHashtable__WeakKeyComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__ComponentModel__WeakHashtable__WeakKeyComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__ComponentModel__WeakHashtable__WeakKeyComparer(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(std::nullptr_t) noexcept {
+  constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(void* o) noexcept {
+  constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(____System__ComponentModel__WeakHashtable__WeakKeyComparer&& o) noexcept = default;
-  constexpr ____System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(____System__ComponentModel__WeakHashtable__WeakKeyComparer const& o) noexcept = default;
+  constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(System__ComponentModel__WeakHashtable__WeakKeyComparer&& o) noexcept = default;
+  constexpr System__ComponentModel__WeakHashtable__WeakKeyComparer& operator=(System__ComponentModel__WeakHashtable__WeakKeyComparer const& o) noexcept = default;
                 
 
 
@@ -66,7 +65,7 @@ constexpr explicit ____System__ComponentModel__WeakHashtable__WeakKeyComparer(vo
  int32_t System_Collections_IEqualityComparer_GetHashCode(::bs_hook::Il2CppWrapperType obj) ;
 
 // Ctor Parameters []
-explicit ____System__ComponentModel__WeakHashtable__WeakKeyComparer() ;
+explicit System__ComponentModel__WeakHashtable__WeakKeyComparer() ;
 
 /// @brief Method .ctor addr 0x27a7ff8 size 0x8 virtual false final false
  void _ctor() ;
@@ -81,10 +80,10 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3783))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8346))
 // CS Name: System.ComponentModel.WeakHashtable
-class CORDL_TYPE WeakHashtable : public ::System::Collections::Hashtable {
+class CORDL_TYPE WeakHashtable : public System::Collections::Hashtable {
 public:
 // Declarations
-using WeakKeyComparer = ::System::ComponentModel::____System__ComponentModel__WeakHashtable__WeakKeyComparer;
+using WeakKeyComparer = System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -98,7 +97,7 @@ constexpr WeakHashtable(WeakHashtable const& ) noexcept = default;
 constexpr WeakHashtable(WeakHashtable&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit WeakHashtable(void* ptr) noexcept : ::System::Collections::Hashtable(ptr) {
+constexpr explicit WeakHashtable(void* ptr) noexcept : System::Collections::Hashtable(ptr) {
 }
 
 
@@ -119,11 +118,11 @@ constexpr explicit WeakHashtable(void* ptr) noexcept : ::System::Collections::Ha
 
 // Fields
 
-static ::System::Collections::IEqualityComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
+static System::Collections::IEqualityComparer __declspec(property(get=__get__comparer, put=__set__comparer))  _comparer;
 
-static void __set__comparer(::System::Collections::IEqualityComparer value) ;
+static void __set__comparer(System::Collections::IEqualityComparer value) ;
 
-static ::System::Collections::IEqualityComparer __get__comparer() ;
+static System::Collections::IEqualityComparer __get__comparer() ;
 
 
 // Methods
@@ -144,8 +143,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::WeakHashtable);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::WeakHashtable, "System.ComponentModel", "WeakHashtable");
-NEED_NO_BOX(::System::ComponentModel::____System__ComponentModel__WeakHashtable__WeakKeyComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::____System__ComponentModel__WeakHashtable__WeakKeyComparer, "System.ComponentModel", "WeakHashtable/WeakKeyComparer");
+NEED_NO_BOX(System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::System__ComponentModel__WeakHashtable__WeakKeyComparer, "System.ComponentModel", "WeakHashtable/WeakKeyComparer");
+NEED_NO_BOX(System::ComponentModel::WeakHashtable);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::WeakHashtable, "System.ComponentModel", "WeakHashtable");

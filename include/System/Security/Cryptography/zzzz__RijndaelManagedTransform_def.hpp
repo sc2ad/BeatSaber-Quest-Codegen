@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
-class ICryptoTransform;
+struct CipherMode;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography {
-struct CipherMode;
-}
-namespace System::Security::Cryptography {
-struct RijndaelManagedTransformMode;
+class ICryptoTransform;
 }
 namespace System::Security::Cryptography {
 struct PaddingMode;
+}
+namespace System::Security::Cryptography {
+struct RijndaelManagedTransformMode;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -33,11 +32,11 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RijndaelManagedTransform : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Security::Cryptography::ICryptoTransform
-constexpr operator  ::System::Security::Cryptography::ICryptoTransform() const noexcept;
+/// @brief Convert operator to System::Security::Cryptography::ICryptoTransform
+constexpr operator  System::Security::Cryptography::ICryptoTransform() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
@@ -72,23 +71,23 @@ constexpr explicit RijndaelManagedTransform(void* ptr) noexcept : ::bs_hook::Il2
 
 // Fields
 
- ::System::Security::Cryptography::CipherMode __declspec(property(get=__get_m_cipherMode, put=__set_m_cipherMode))  m_cipherMode;
+ System::Security::Cryptography::CipherMode __declspec(property(get=__get_m_cipherMode, put=__set_m_cipherMode))  m_cipherMode;
 
-constexpr void __set_m_cipherMode(::System::Security::Cryptography::CipherMode value) ;
+constexpr void __set_m_cipherMode(System::Security::Cryptography::CipherMode value) ;
 
-constexpr ::System::Security::Cryptography::CipherMode __get_m_cipherMode() const;
+constexpr System::Security::Cryptography::CipherMode __get_m_cipherMode() const;
 
- ::System::Security::Cryptography::PaddingMode __declspec(property(get=__get_m_paddingValue, put=__set_m_paddingValue))  m_paddingValue;
+ System::Security::Cryptography::PaddingMode __declspec(property(get=__get_m_paddingValue, put=__set_m_paddingValue))  m_paddingValue;
 
-constexpr void __set_m_paddingValue(::System::Security::Cryptography::PaddingMode value) ;
+constexpr void __set_m_paddingValue(System::Security::Cryptography::PaddingMode value) ;
 
-constexpr ::System::Security::Cryptography::PaddingMode __get_m_paddingValue() const;
+constexpr System::Security::Cryptography::PaddingMode __get_m_paddingValue() const;
 
- ::System::Security::Cryptography::RijndaelManagedTransformMode __declspec(property(get=__get_m_transformMode, put=__set_m_transformMode))  m_transformMode;
+ System::Security::Cryptography::RijndaelManagedTransformMode __declspec(property(get=__get_m_transformMode, put=__set_m_transformMode))  m_transformMode;
 
-constexpr void __set_m_transformMode(::System::Security::Cryptography::RijndaelManagedTransformMode value) ;
+constexpr void __set_m_transformMode(System::Security::Cryptography::RijndaelManagedTransformMode value) ;
 
-constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode __get_m_transformMode() const;
+constexpr System::Security::Cryptography::RijndaelManagedTransformMode __get_m_transformMode() const;
 
  int32_t __declspec(property(get=__get_m_blockSizeBits, put=__set_m_blockSizeBits))  m_blockSizeBits;
 
@@ -228,11 +227,11 @@ static ::ArrayW<int32_t> __get_s_iTF() ;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rgbKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::System::Security::Cryptography::CipherMode", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "feedbackSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PaddingValue", ty: "::System::Security::Cryptography::PaddingMode", modifiers: "", def_value: None }, CppParam { name: "transformMode", ty: "::System::Security::Cryptography::RijndaelManagedTransformMode", modifiers: "", def_value: None }]
-explicit RijndaelManagedTransform(::ArrayW<uint8_t> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
+// Ctor Parameters [CppParam { name: "rgbKey", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Security::Cryptography::CipherMode", modifiers: "", def_value: None }, CppParam { name: "rgbIV", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "blockSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "feedbackSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "PaddingValue", ty: "System::Security::Cryptography::PaddingMode", modifiers: "", def_value: None }, CppParam { name: "transformMode", ty: "System::Security::Cryptography::RijndaelManagedTransformMode", modifiers: "", def_value: None }]
+explicit RijndaelManagedTransform(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
 
 /// @brief Method .ctor addr 0x22f597c size 0x610 virtual false final false
- void _ctor(::ArrayW<uint8_t> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
+ void _ctor(::ArrayW<uint8_t> rgbKey, System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t> rgbIV, int32_t blockSize, int32_t feedbackSize, System::Security::Cryptography::PaddingMode PaddingValue, System::Security::Cryptography::RijndaelManagedTransformMode transformMode) ;
 
 /// @brief Method Dispose addr 0x22f64e8 size 0x8 virtual true final true
  void Dispose() ;
@@ -259,10 +258,10 @@ explicit RijndaelManagedTransform(::ArrayW<uint8_t> rgbKey, ::System::Security::
  void Reset() ;
 
 /// @brief Method EncryptData addr 0x22f689c size 0xbb0 virtual false final false
- int32_t EncryptData(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int32_t outputOffset, ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast) ;
+ int32_t EncryptData(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int32_t outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast) ;
 
 /// @brief Method DecryptData addr 0x22f744c size 0xa6c virtual false final false
- int32_t DecryptData(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int32_t outputOffset, ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast) ;
+ int32_t DecryptData(::ArrayW<uint8_t> inputBuffer, int32_t inputOffset, int32_t inputCount, ByRef<::ArrayW<uint8_t>> outputBuffer, int32_t outputOffset, System::Security::Cryptography::PaddingMode paddingMode, bool fLast) ;
 
 /// @brief Method Enc addr 0x22f8208 size 0x1c4 virtual false final false
  void Enc(void* encryptindex, void* encryptKeyExpansion, void* T, void* TF, void* work, void* temp) ;
@@ -292,6 +291,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::RijndaelManagedTransform);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RijndaelManagedTransform, "System.Security.Cryptography", "RijndaelManagedTransform");
+NEED_NO_BOX(System::Security::Cryptography::RijndaelManagedTransform);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManagedTransform, "System.Security.Cryptography", "RijndaelManagedTransform");

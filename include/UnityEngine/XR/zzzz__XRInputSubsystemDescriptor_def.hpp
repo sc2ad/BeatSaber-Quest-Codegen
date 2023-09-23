@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/XR/zzzz__XRInputSubsystem_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::XR {
 class XRInputSubsystemDescriptor;
@@ -13,7 +12,7 @@ namespace UnityEngine::XR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15844)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15844), inst: 398 }), TypeDefinitionIndex(TypeDefinitionIndex(15581))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15579))
 // CS Name: UnityEngine.XR.XRInputSubsystemDescriptor
-class CORDL_TYPE XRInputSubsystemDescriptor : public ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRInputSubsystem> {
+class CORDL_TYPE XRInputSubsystemDescriptor : public UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRInputSubsystem> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XRInputSubsystemDescriptor(XRInputSubsystemDescriptor const& ) noexcep
 constexpr XRInputSubsystemDescriptor(XRInputSubsystemDescriptor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XRInputSubsystemDescriptor(void* ptr) noexcept : ::UnityEngine::IntegratedSubsystemDescriptor_1<::UnityEngine::XR::XRInputSubsystem>(ptr) {
+constexpr explicit XRInputSubsystemDescriptor(void* ptr) noexcept : UnityEngine::IntegratedSubsystemDescriptor_1<UnityEngine::XR::XRInputSubsystem>(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::XRInputSubsystemDescriptor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::XRInputSubsystemDescriptor, "UnityEngine.XR", "XRInputSubsystemDescriptor");
+NEED_NO_BOX(UnityEngine::XR::XRInputSubsystemDescriptor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystemDescriptor, "UnityEngine.XR", "XRInputSubsystemDescriptor");

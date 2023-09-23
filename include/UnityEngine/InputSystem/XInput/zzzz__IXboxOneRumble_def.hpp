@@ -1,12 +1,11 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
-}
 namespace UnityEngine::InputSystem::Haptics {
 class IDualMotorRumble;
+}
+namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
@@ -21,11 +20,11 @@ namespace UnityEngine::InputSystem::XInput {
 class CORDL_TYPE IXboxOneRumble : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::InputSystem::Haptics::IDualMotorRumble
-constexpr operator  ::UnityEngine::InputSystem::Haptics::IDualMotorRumble() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::Haptics::IDualMotorRumble
+constexpr operator  UnityEngine::InputSystem::Haptics::IDualMotorRumble() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::InputSystem::Haptics::IHaptics
-constexpr operator  ::UnityEngine::InputSystem::Haptics::IHaptics() const noexcept;
+/// @brief Convert operator to UnityEngine::InputSystem::Haptics::IHaptics
+constexpr operator  UnityEngine::InputSystem::Haptics::IHaptics() const noexcept;
 
 ~IXboxOneRumble() = default;
 
@@ -43,6 +42,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XInput
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XInput::IXboxOneRumble, "UnityEngine.InputSystem.XInput", "IXboxOneRumble");
+NEED_NO_BOX(UnityEngine::InputSystem::XInput::IXboxOneRumble);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XInput::IXboxOneRumble, "UnityEngine.InputSystem.XInput", "IXboxOneRumble");

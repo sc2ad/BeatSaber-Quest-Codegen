@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct ETrackingResult;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Uninitialized offset 0
-static ::OVR::OpenVR::ETrackingResult const Uninitialized;
+static OVR::OpenVR::ETrackingResult const Uninitialized;
 
 /// @brief Field Calibrating_InProgress offset 0
-static ::OVR::OpenVR::ETrackingResult const Calibrating_InProgress;
+static OVR::OpenVR::ETrackingResult const Calibrating_InProgress;
 
 /// @brief Field Calibrating_OutOfRange offset 0
-static ::OVR::OpenVR::ETrackingResult const Calibrating_OutOfRange;
+static OVR::OpenVR::ETrackingResult const Calibrating_OutOfRange;
 
 /// @brief Field Running_OK offset 0
-static ::OVR::OpenVR::ETrackingResult const Running_OK;
+static OVR::OpenVR::ETrackingResult const Running_OK;
 
 /// @brief Field Running_OutOfRange offset 0
-static ::OVR::OpenVR::ETrackingResult const Running_OutOfRange;
+static OVR::OpenVR::ETrackingResult const Running_OutOfRange;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackingResult, "OVR.OpenVR", "ETrackingResult");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::ETrackingResult, "OVR.OpenVR", "ETrackingResult");

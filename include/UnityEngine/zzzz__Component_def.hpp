@@ -6,19 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+class GameObject;
+}
 namespace UnityEngine {
 class Transform;
-}
-namespace System {
-class Type;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class Type;
 }
 namespace UnityEngine {
 struct SendMessageOptions;
@@ -33,7 +32,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10142))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10179))
 // CS Name: UnityEngine.Component
-class CORDL_TYPE Component : public ::UnityEngine::Object {
+class CORDL_TYPE Component : public UnityEngine::Object {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -48,7 +47,7 @@ constexpr Component(Component const& ) noexcept = default;
 constexpr Component(Component&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Component(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
+constexpr explicit Component(void* ptr) noexcept : UnityEngine::Object(ptr) {
 }
 
 
@@ -69,9 +68,9 @@ constexpr explicit Component(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 
 // Properties
 
- ::UnityEngine::Transform __declspec(property(get=get_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=get_transform))  transform;
 
- ::UnityEngine::GameObject __declspec(property(get=get_gameObject))  gameObject;
+ UnityEngine::GameObject __declspec(property(get=get_gameObject))  gameObject;
 
  ::StringW __declspec(property(get=get_tag, put=set_tag))  tag;
 
@@ -79,16 +78,16 @@ constexpr explicit Component(void* ptr) noexcept : ::UnityEngine::Object(ptr) {
 // Methods
 
 /// @brief Method get_transform addr 0x2b5c7ac size 0x3c virtual false final false
- ::UnityEngine::Transform get_transform() ;
+ UnityEngine::Transform get_transform() ;
 
 /// @brief Method get_gameObject addr 0x2b5c7e8 size 0x3c virtual false final false
- ::UnityEngine::GameObject get_gameObject() ;
+ UnityEngine::GameObject get_gameObject() ;
 
 /// @brief Method GetComponent addr 0x2b5c824 size 0x78 virtual false final false
- ::UnityEngine::Component GetComponent(::System::Type type) ;
+ UnityEngine::Component GetComponent(System::Type type) ;
 
 /// @brief Method GetComponentFastPath addr 0x2b5c89c size 0x54 virtual false final false
- void GetComponentFastPath(::System::Type type, ::cordl_internals::intptr_t oneFurtherThanResultValue) ;
+ void GetComponentFastPath(System::Type type, ::cordl_internals::intptr_t oneFurtherThanResultValue) ;
 
 /// @brief Method GetComponent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -99,10 +98,10 @@ template<typename T>
  bool TryGetComponent(ByRef<T> component) ;
 
 /// @brief Method GetComponent addr 0x2b5c8f0 size 0x44 virtual false final false
- ::UnityEngine::Component GetComponent(::StringW type) ;
+ UnityEngine::Component GetComponent(::StringW type) ;
 
 /// @brief Method GetComponentInChildren addr 0x2b5c934 size 0x88 virtual false final false
- ::UnityEngine::Component GetComponentInChildren(::System::Type t, bool includeInactive) ;
+ UnityEngine::Component GetComponentInChildren(System::Type t, bool includeInactive) ;
 
 /// @brief Method GetComponentInChildren addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -113,7 +112,7 @@ template<typename T>
  T GetComponentInChildren() ;
 
 /// @brief Method GetComponentsInChildren addr 0x2b5c9bc size 0x60 virtual false final false
- ::ArrayW<::UnityEngine::Component> GetComponentsInChildren(::System::Type t, bool includeInactive) ;
+ ::ArrayW<UnityEngine::Component> GetComponentsInChildren(System::Type t, bool includeInactive) ;
 
 /// @brief Method GetComponentsInChildren addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -121,7 +120,7 @@ template<typename T>
 
 /// @brief Method GetComponentsInChildren addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- void GetComponentsInChildren(bool includeInactive, ::System::Collections::Generic::List_1<T> result) ;
+ void GetComponentsInChildren(bool includeInactive, System::Collections::Generic::List_1<T> result) ;
 
 /// @brief Method GetComponentsInChildren addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -129,17 +128,17 @@ template<typename T>
 
 /// @brief Method GetComponentsInChildren addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- void GetComponentsInChildren(::System::Collections::Generic::List_1<T> results) ;
+ void GetComponentsInChildren(System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method GetComponentInParent addr 0x2b5ca1c size 0x88 virtual false final false
- ::UnityEngine::Component GetComponentInParent(::System::Type t, bool includeInactive) ;
+ UnityEngine::Component GetComponentInParent(System::Type t, bool includeInactive) ;
 
 /// @brief Method GetComponentInParent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  T GetComponentInParent() ;
 
 /// @brief Method GetComponentsInParent addr 0x2b5caa4 size 0x60 virtual false final false
- ::ArrayW<::UnityEngine::Component> GetComponentsInParent(::System::Type t, bool includeInactive) ;
+ ::ArrayW<UnityEngine::Component> GetComponentsInParent(System::Type t, bool includeInactive) ;
 
 /// @brief Method GetComponentsInParent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
@@ -147,24 +146,24 @@ template<typename T>
 
 /// @brief Method GetComponentsInParent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- void GetComponentsInParent(bool includeInactive, ::System::Collections::Generic::List_1<T> results) ;
+ void GetComponentsInParent(bool includeInactive, System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method GetComponentsInParent addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
  ::ArrayW<T> GetComponentsInParent() ;
 
 /// @brief Method GetComponents addr 0x2b5cb04 size 0x50 virtual false final false
- ::ArrayW<::UnityEngine::Component> GetComponents(::System::Type type) ;
+ ::ArrayW<UnityEngine::Component> GetComponents(System::Type type) ;
 
 /// @brief Method GetComponentsForListInternal addr 0x2b5cb54 size 0x54 virtual false final false
- void GetComponentsForListInternal(::System::Type searchType, ::bs_hook::Il2CppWrapperType resultList) ;
+ void GetComponentsForListInternal(System::Type searchType, ::bs_hook::Il2CppWrapperType resultList) ;
 
 /// @brief Method GetComponents addr 0x2b5cba8 size 0x54 virtual false final false
- void GetComponents(::System::Type type, ::System::Collections::Generic::List_1<::UnityEngine::Component> results) ;
+ void GetComponents(System::Type type, System::Collections::Generic::List_1<UnityEngine::Component> results) ;
 
 /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- void GetComponents(::System::Collections::Generic::List_1<T> results) ;
+ void GetComponents(System::Collections::Generic::List_1<T> results) ;
 
 /// @brief Method get_tag addr 0x2b5cbfc size 0x70 virtual false final false
  ::StringW get_tag() ;
@@ -180,13 +179,13 @@ template<typename T>
  bool CompareTag(::StringW tag) ;
 
 /// @brief Method SendMessage addr 0x2b5cd5c size 0x5c virtual false final false
- void SendMessage(::StringW methodName, ::bs_hook::Il2CppWrapperType value, ::UnityEngine::SendMessageOptions options) ;
+ void SendMessage(::StringW methodName, ::bs_hook::Il2CppWrapperType value, UnityEngine::SendMessageOptions options) ;
 
 /// @brief Method SendMessage addr 0x2b5cdb8 size 0x58 virtual false final false
- void SendMessage(::StringW methodName, ::UnityEngine::SendMessageOptions options) ;
+ void SendMessage(::StringW methodName, UnityEngine::SendMessageOptions options) ;
 
 /// @brief Method BroadcastMessage addr 0x2b5ce10 size 0x5c virtual false final false
- void BroadcastMessage(::StringW methodName, ::bs_hook::Il2CppWrapperType parameter, ::UnityEngine::SendMessageOptions options) ;
+ void BroadcastMessage(::StringW methodName, ::bs_hook::Il2CppWrapperType parameter, UnityEngine::SendMessageOptions options) ;
 
 // Ctor Parameters []
 explicit Component() ;
@@ -198,6 +197,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Component);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Component, "UnityEngine", "Component");
+NEED_NO_BOX(UnityEngine::Component);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Component, "UnityEngine", "Component");

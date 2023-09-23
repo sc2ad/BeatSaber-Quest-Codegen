@@ -2,16 +2,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -26,11 +25,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13816))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4421))
 // CS Name: PreviewBeatmapLevelCollectionSO
-class CORDL_TYPE PreviewBeatmapLevelCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE PreviewBeatmapLevelCollectionSO : public GlobalNamespace::PersistentScriptableObject {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IBeatmapLevelCollection
-constexpr operator  ::GlobalNamespace::IBeatmapLevelCollection() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IBeatmapLevelCollection
+constexpr operator  GlobalNamespace::IBeatmapLevelCollection() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -44,7 +43,7 @@ constexpr PreviewBeatmapLevelCollectionSO(PreviewBeatmapLevelCollectionSO const&
 constexpr PreviewBeatmapLevelCollectionSO(PreviewBeatmapLevelCollectionSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PreviewBeatmapLevelCollectionSO(void* ptr) noexcept : ::GlobalNamespace::PersistentScriptableObject(ptr) {
+constexpr explicit PreviewBeatmapLevelCollectionSO(void* ptr) noexcept : GlobalNamespace::PersistentScriptableObject(ptr) {
 }
 
 
@@ -65,22 +64,22 @@ constexpr explicit PreviewBeatmapLevelCollectionSO(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO> __declspec(property(get=__get__beatmapLevels, put=__set__beatmapLevels))  _beatmapLevels;
+ ::ArrayW<GlobalNamespace::PreviewBeatmapLevelSO> __declspec(property(get=__get__beatmapLevels, put=__set__beatmapLevels))  _beatmapLevels;
 
-constexpr void __set__beatmapLevels(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO> value) ;
+constexpr void __set__beatmapLevels(::ArrayW<GlobalNamespace::PreviewBeatmapLevelSO> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO> __get__beatmapLevels() const;
+constexpr ::ArrayW<GlobalNamespace::PreviewBeatmapLevelSO> __get__beatmapLevels() const;
 
 
 // Properties
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=get_beatmapLevels))  beatmapLevels;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> __declspec(property(get=get_beatmapLevels))  beatmapLevels;
 
 
 // Methods
 
 /// @brief Method get_beatmapLevels addr 0x21ec6e0 size 0x8 virtual true final true
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IPreviewBeatmapLevel> get_beatmapLevels() ;
 
 // Ctor Parameters []
 explicit PreviewBeatmapLevelCollectionSO() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PreviewBeatmapLevelCollectionSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PreviewBeatmapLevelCollectionSO, "", "PreviewBeatmapLevelCollectionSO");
+NEED_NO_BOX(GlobalNamespace::PreviewBeatmapLevelCollectionSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelCollectionSO, "", "PreviewBeatmapLevelCollectionSO");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LiteNetLib::Utils {
 struct NtpMode;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Client offset 0
-static ::LiteNetLib::Utils::NtpMode const Client;
+static LiteNetLib::Utils::NtpMode const Client;
 
 /// @brief Field Server offset 0
-static ::LiteNetLib::Utils::NtpMode const Server;
+static LiteNetLib::Utils::NtpMode const Server;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::NtpMode, "LiteNetLib.Utils", "NtpMode");
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpMode, "LiteNetLib.Utils", "NtpMode");

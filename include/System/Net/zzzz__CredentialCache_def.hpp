@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Net {
 class NetworkCredential;
 }
@@ -54,23 +53,22 @@ constexpr explicit CredentialCache(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Properties
 
-static ::System::Net::ICredentials __declspec(property(get=get_DefaultCredentials))  DefaultCredentials;
+static System::Net::ICredentials __declspec(property(get=get_DefaultCredentials))  DefaultCredentials;
 
-static ::System::Net::NetworkCredential __declspec(property(get=get_DefaultNetworkCredentials))  DefaultNetworkCredentials;
+static System::Net::NetworkCredential __declspec(property(get=get_DefaultNetworkCredentials))  DefaultNetworkCredentials;
 
 
 // Methods
 
 /// @brief Method get_DefaultCredentials addr 0x2809ea0 size 0x58 virtual false final false
-static ::System::Net::ICredentials get_DefaultCredentials() ;
+static System::Net::ICredentials get_DefaultCredentials() ;
 
 /// @brief Method get_DefaultNetworkCredentials addr 0x2809ef8 size 0x58 virtual false final false
-static ::System::Net::NetworkCredential get_DefaultNetworkCredentials() ;
+static System::Net::NetworkCredential get_DefaultNetworkCredentials() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::CredentialCache);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::CredentialCache, "System.Net", "CredentialCache");
+NEED_NO_BOX(System::Net::CredentialCache);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::CredentialCache, "System.Net", "CredentialCache");

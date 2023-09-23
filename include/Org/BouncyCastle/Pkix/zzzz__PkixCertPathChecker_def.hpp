@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
 }
@@ -67,10 +66,10 @@ explicit PkixCertPathChecker() ;
  bool IsForwardCheckingSupported() ;
 
 /// @brief Method GetSupportedExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet GetSupportedExtensions() ;
+ Org::BouncyCastle::Utilities::Collections::ISet GetSupportedExtensions() ;
 
 /// @brief Method Check addr 0x0 size 0xffffffffffffffff virtual true final false
- void Check(::Org::BouncyCastle::X509::X509Certificate cert, ::Org::BouncyCastle::Utilities::Collections::ISet unresolvedCritExts) ;
+ void Check(Org::BouncyCastle::X509::X509Certificate cert, Org::BouncyCastle::Utilities::Collections::ISet unresolvedCritExts) ;
 
 /// @brief Method Clone addr 0x1068268 size 0x8 virtual true final false
  ::bs_hook::Il2CppWrapperType Clone() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCertPathChecker);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixCertPathChecker, "Org.BouncyCastle.Pkix", "PkixCertPathChecker");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixCertPathChecker);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixCertPathChecker, "Org.BouncyCastle.Pkix", "PkixCertPathChecker");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct MissingMemberHandling;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Ignore offset 0
-static ::Newtonsoft::Json::MissingMemberHandling const Ignore;
+static Newtonsoft::Json::MissingMemberHandling const Ignore;
 
 /// @brief Field Error offset 0
-static ::Newtonsoft::Json::MissingMemberHandling const Error;
+static Newtonsoft::Json::MissingMemberHandling const Error;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::MissingMemberHandling, "Newtonsoft.Json", "MissingMemberHandling");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::MissingMemberHandling, "Newtonsoft.Json", "MissingMemberHandling");

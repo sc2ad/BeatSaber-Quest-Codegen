@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct StringComparison;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field CurrentCulture offset 0
-static ::System::StringComparison const CurrentCulture;
+static System::StringComparison const CurrentCulture;
 
 /// @brief Field CurrentCultureIgnoreCase offset 0
-static ::System::StringComparison const CurrentCultureIgnoreCase;
+static System::StringComparison const CurrentCultureIgnoreCase;
 
 /// @brief Field InvariantCulture offset 0
-static ::System::StringComparison const InvariantCulture;
+static System::StringComparison const InvariantCulture;
 
 /// @brief Field InvariantCultureIgnoreCase offset 0
-static ::System::StringComparison const InvariantCultureIgnoreCase;
+static System::StringComparison const InvariantCultureIgnoreCase;
 
 /// @brief Field Ordinal offset 0
-static ::System::StringComparison const Ordinal;
+static System::StringComparison const Ordinal;
 
 /// @brief Field OrdinalIgnoreCase offset 0
-static ::System::StringComparison const OrdinalIgnoreCase;
+static System::StringComparison const OrdinalIgnoreCase;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::StringComparison, "System", "StringComparison");
+DEFINE_IL2CPP_ARG_TYPE(System::StringComparison, "System", "StringComparison");

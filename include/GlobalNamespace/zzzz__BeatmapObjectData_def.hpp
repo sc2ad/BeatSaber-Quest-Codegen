@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapObjectData;
@@ -14,7 +13,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14901))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14932))
 // CS Name: BeatmapObjectData
-class CORDL_TYPE BeatmapObjectData : public ::GlobalNamespace::BeatmapDataItem {
+class CORDL_TYPE BeatmapObjectData : public GlobalNamespace::BeatmapDataItem {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr BeatmapObjectData(BeatmapObjectData const& ) noexcept = default;
 constexpr BeatmapObjectData(BeatmapObjectData&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapObjectData(void* ptr) noexcept : ::GlobalNamespace::BeatmapDataItem(ptr) {
+constexpr explicit BeatmapObjectData(void* ptr) noexcept : GlobalNamespace::BeatmapDataItem(ptr) {
 }
 
 
@@ -63,6 +62,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapObjectData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapObjectData, "", "BeatmapObjectData");
+NEED_NO_BOX(GlobalNamespace::BeatmapObjectData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectData, "", "BeatmapObjectData");

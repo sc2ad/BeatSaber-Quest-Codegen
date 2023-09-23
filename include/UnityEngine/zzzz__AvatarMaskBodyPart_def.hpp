@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct AvatarMaskBodyPart;
@@ -79,50 +78,49 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Root offset 0
-static ::UnityEngine::AvatarMaskBodyPart const Root;
+static UnityEngine::AvatarMaskBodyPart const Root;
 
 /// @brief Field Body offset 0
-static ::UnityEngine::AvatarMaskBodyPart const Body;
+static UnityEngine::AvatarMaskBodyPart const Body;
 
 /// @brief Field Head offset 0
-static ::UnityEngine::AvatarMaskBodyPart const Head;
+static UnityEngine::AvatarMaskBodyPart const Head;
 
 /// @brief Field LeftLeg offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LeftLeg;
+static UnityEngine::AvatarMaskBodyPart const LeftLeg;
 
 /// @brief Field RightLeg offset 0
-static ::UnityEngine::AvatarMaskBodyPart const RightLeg;
+static UnityEngine::AvatarMaskBodyPart const RightLeg;
 
 /// @brief Field LeftArm offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LeftArm;
+static UnityEngine::AvatarMaskBodyPart const LeftArm;
 
 /// @brief Field RightArm offset 0
-static ::UnityEngine::AvatarMaskBodyPart const RightArm;
+static UnityEngine::AvatarMaskBodyPart const RightArm;
 
 /// @brief Field LeftFingers offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LeftFingers;
+static UnityEngine::AvatarMaskBodyPart const LeftFingers;
 
 /// @brief Field RightFingers offset 0
-static ::UnityEngine::AvatarMaskBodyPart const RightFingers;
+static UnityEngine::AvatarMaskBodyPart const RightFingers;
 
 /// @brief Field LeftFootIK offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LeftFootIK;
+static UnityEngine::AvatarMaskBodyPart const LeftFootIK;
 
 /// @brief Field RightFootIK offset 0
-static ::UnityEngine::AvatarMaskBodyPart const RightFootIK;
+static UnityEngine::AvatarMaskBodyPart const RightFootIK;
 
 /// @brief Field LeftHandIK offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LeftHandIK;
+static UnityEngine::AvatarMaskBodyPart const LeftHandIK;
 
 /// @brief Field RightHandIK offset 0
-static ::UnityEngine::AvatarMaskBodyPart const RightHandIK;
+static UnityEngine::AvatarMaskBodyPart const RightHandIK;
 
 /// @brief Field LastBodyPart offset 0
-static ::UnityEngine::AvatarMaskBodyPart const LastBodyPart;
+static UnityEngine::AvatarMaskBodyPart const LastBodyPart;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AvatarMaskBodyPart, "UnityEngine", "AvatarMaskBodyPart");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMaskBodyPart, "UnityEngine", "AvatarMaskBodyPart");

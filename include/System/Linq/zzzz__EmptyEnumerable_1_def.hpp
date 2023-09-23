@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace UnityEngine::InputSystem::Utilities {
 struct NameAndParameters;
 }
@@ -17,7 +16,7 @@ class EmptyEnumerable_1<TElement>;
 }
 namespace System::Linq {
 template<>
-class EmptyEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>;
+class EmptyEnumerable_1<UnityEngine::InputSystem::Utilities::NameAndParameters>;
 }
 // Type: System.Linq::EmptyEnumerable`1
 // Type: System.Linq::EmptyEnumerable`1
@@ -85,7 +84,7 @@ template<>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14559))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14559), inst: 3004 })
 // CS Name: System.Linq.EmptyEnumerable`1
-class CORDL_TYPE EmptyEnumerable_1<::UnityEngine::InputSystem::Utilities::NameAndParameters> : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE EmptyEnumerable_1<UnityEngine::InputSystem::Utilities::NameAndParameters> : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -121,11 +120,11 @@ constexpr explicit EmptyEnumerable_1(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 
 // Fields
 
-static ::ArrayW<::UnityEngine::InputSystem::Utilities::NameAndParameters> __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
+static ::ArrayW<UnityEngine::InputSystem::Utilities::NameAndParameters> __declspec(property(get=__get_Instance, put=__set_Instance))  Instance;
 
-static void __set_Instance(::ArrayW<::UnityEngine::InputSystem::Utilities::NameAndParameters> value) ;
+static void __set_Instance(::ArrayW<UnityEngine::InputSystem::Utilities::NameAndParameters> value) ;
 
-static ::ArrayW<::UnityEngine::InputSystem::Utilities::NameAndParameters> __get_Instance() ;
+static ::ArrayW<UnityEngine::InputSystem::Utilities::NameAndParameters> __get_Instance() ;
 
 
 // Methods
@@ -134,5 +133,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Linq
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::EmptyEnumerable_1, "System.Linq", "EmptyEnumerable`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::EmptyEnumerable_1, "System.Linq", "EmptyEnumerable`1");

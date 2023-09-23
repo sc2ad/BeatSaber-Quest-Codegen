@@ -3,7 +3,6 @@
 #include "System/Text/zzzz__EncoderFallback_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class CharEntityEncoderFallbackBuffer;
 }
@@ -20,7 +19,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2840))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11353))
 // CS Name: System.Xml.CharEntityEncoderFallback
-class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
+class CORDL_TYPE CharEntityEncoderFallback : public System::Text::EncoderFallback {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr CharEntityEncoderFallback(CharEntityEncoderFallback const& ) noexcept 
 constexpr CharEntityEncoderFallback(CharEntityEncoderFallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CharEntityEncoderFallback(void* ptr) noexcept : ::System::Text::EncoderFallback(ptr) {
+constexpr explicit CharEntityEncoderFallback(void* ptr) noexcept : System::Text::EncoderFallback(ptr) {
 }
 
 
@@ -56,11 +55,11 @@ constexpr explicit CharEntityEncoderFallback(void* ptr) noexcept : ::System::Tex
 
 // Fields
 
- ::System::Xml::CharEntityEncoderFallbackBuffer __declspec(property(get=__get_fallbackBuffer, put=__set_fallbackBuffer))  fallbackBuffer;
+ System::Xml::CharEntityEncoderFallbackBuffer __declspec(property(get=__get_fallbackBuffer, put=__set_fallbackBuffer))  fallbackBuffer;
 
-constexpr void __set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer value) ;
+constexpr void __set_fallbackBuffer(System::Xml::CharEntityEncoderFallbackBuffer value) ;
 
-constexpr ::System::Xml::CharEntityEncoderFallbackBuffer __get_fallbackBuffer() const;
+constexpr System::Xml::CharEntityEncoderFallbackBuffer __get_fallbackBuffer() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_textContentMarks, put=__set_textContentMarks))  textContentMarks;
 
@@ -103,7 +102,7 @@ explicit CharEntityEncoderFallback() ;
  void _ctor() ;
 
 /// @brief Method CreateFallbackBuffer addr 0x26bc068 size 0x6c virtual true final false
- ::System::Text::EncoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::EncoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x26bc148 size 0x8 virtual true final false
  int32_t get_MaxCharCount() ;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::CharEntityEncoderFallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::CharEntityEncoderFallback, "System.Xml", "CharEntityEncoderFallback");
+NEED_NO_BOX(System::Xml::CharEntityEncoderFallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback, "System.Xml", "CharEntityEncoderFallback");

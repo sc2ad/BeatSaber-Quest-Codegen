@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Threading {
 class ThreadPoolWorkQueue;
 }
@@ -70,11 +69,11 @@ static void __set_enableWorkerTracking(bool value) ;
 
 static bool __get_enableWorkerTracking() ;
 
-static ::System::Threading::ThreadPoolWorkQueue __declspec(property(get=__get_workQueue, put=__set_workQueue))  workQueue;
+static System::Threading::ThreadPoolWorkQueue __declspec(property(get=__get_workQueue, put=__set_workQueue))  workQueue;
 
-static void __set_workQueue(::System::Threading::ThreadPoolWorkQueue value) ;
+static void __set_workQueue(System::Threading::ThreadPoolWorkQueue value) ;
 
-static ::System::Threading::ThreadPoolWorkQueue __get_workQueue() ;
+static System::Threading::ThreadPoolWorkQueue __get_workQueue() ;
 
 
 // Methods
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::ThreadPoolGlobals);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ThreadPoolGlobals, "System.Threading", "ThreadPoolGlobals");
+NEED_NO_BOX(System::Threading::ThreadPoolGlobals);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolGlobals, "System.Threading", "ThreadPoolGlobals");

@@ -4,33 +4,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Touch;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine::UIElements {
-class IPointerEventInternal;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class IPointerEvent;
-}
 namespace UnityEngine {
 struct EventModifiers;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class IPointerEvent;
+}
+namespace UnityEngine {
+struct Touch;
+}
+namespace UnityEngine::UIElements {
+class IPointerEventInternal;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -47,17 +46,17 @@ namespace UnityEngine::UIElements {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1635 }), TypeDefinitionIndex(TypeDefinitionIndex(7279)), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7279), inst: 1635 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 2 })
 // CS Name: UnityEngine.UIElements.PointerEventBase`1
-class CORDL_TYPE PointerEventBase_1<T> : public ::UnityEngine::UIElements::EventBase_1<T> {
+class CORDL_TYPE PointerEventBase_1<T> : public UnityEngine::UIElements::EventBase_1<T> {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IPointerEvent
-constexpr operator  ::UnityEngine::UIElements::IPointerEvent() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IPointerEvent
+constexpr operator  UnityEngine::UIElements::IPointerEvent() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::IPointerEventInternal
-constexpr operator  ::UnityEngine::UIElements::IPointerEventInternal() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::IPointerEventInternal
+constexpr operator  UnityEngine::UIElements::IPointerEventInternal() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -71,7 +70,7 @@ constexpr PointerEventBase_1(PointerEventBase_1 const& ) noexcept = default;
 constexpr PointerEventBase_1(PointerEventBase_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerEventBase_1(void* ptr) noexcept : ::UnityEngine::UIElements::EventBase_1<T>(ptr) {
+constexpr explicit PointerEventBase_1(void* ptr) noexcept : UnityEngine::UIElements::EventBase_1<T>(ptr) {
 }
 
 
@@ -122,23 +121,23 @@ constexpr void __set__pressedButtons_k__BackingField(int32_t value) ;
 
 constexpr int32_t __get__pressedButtons_k__BackingField() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__position_k__BackingField, put=__set__position_k__BackingField))  _position_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__position_k__BackingField, put=__set__position_k__BackingField))  _position_k__BackingField;
 
-constexpr void __set__position_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__position_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__position_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__position_k__BackingField() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__localPosition_k__BackingField, put=__set__localPosition_k__BackingField))  _localPosition_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__localPosition_k__BackingField, put=__set__localPosition_k__BackingField))  _localPosition_k__BackingField;
 
-constexpr void __set__localPosition_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__localPosition_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__localPosition_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__localPosition_k__BackingField() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get__deltaPosition_k__BackingField, put=__set__deltaPosition_k__BackingField))  _deltaPosition_k__BackingField;
+ UnityEngine::Vector3 __declspec(property(get=__get__deltaPosition_k__BackingField, put=__set__deltaPosition_k__BackingField))  _deltaPosition_k__BackingField;
 
-constexpr void __set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value) ;
+constexpr void __set__deltaPosition_k__BackingField(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get__deltaPosition_k__BackingField() const;
+constexpr UnityEngine::Vector3 __get__deltaPosition_k__BackingField() const;
 
  float_t __declspec(property(get=__get__deltaTime_k__BackingField, put=__set__deltaTime_k__BackingField))  _deltaTime_k__BackingField;
 
@@ -182,23 +181,23 @@ constexpr void __set__twist_k__BackingField(float_t value) ;
 
 constexpr float_t __get__twist_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__radius_k__BackingField, put=__set__radius_k__BackingField))  _radius_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__radius_k__BackingField, put=__set__radius_k__BackingField))  _radius_k__BackingField;
 
-constexpr void __set__radius_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__radius_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__radius_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__radius_k__BackingField() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get__radiusVariance_k__BackingField, put=__set__radiusVariance_k__BackingField))  _radiusVariance_k__BackingField;
+ UnityEngine::Vector2 __declspec(property(get=__get__radiusVariance_k__BackingField, put=__set__radiusVariance_k__BackingField))  _radiusVariance_k__BackingField;
 
-constexpr void __set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value) ;
+constexpr void __set__radiusVariance_k__BackingField(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get__radiusVariance_k__BackingField() const;
+constexpr UnityEngine::Vector2 __get__radiusVariance_k__BackingField() const;
 
- ::UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
+ UnityEngine::EventModifiers __declspec(property(get=__get__modifiers_k__BackingField, put=__set__modifiers_k__BackingField))  _modifiers_k__BackingField;
 
-constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value) ;
+constexpr void __set__modifiers_k__BackingField(UnityEngine::EventModifiers value) ;
 
-constexpr ::UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
+constexpr UnityEngine::EventModifiers __get__modifiers_k__BackingField() const;
 
  bool __declspec(property(get=__get__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField, put=__set__UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField))  _UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField;
 
@@ -225,11 +224,11 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
 
  int32_t __declspec(property(get=get_pressedButtons, put=set_pressedButtons))  pressedButtons;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=get_position, put=set_position))  position;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_localPosition, put=set_localPosition))  localPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_localPosition, put=set_localPosition))  localPosition;
 
- ::UnityEngine::Vector3 __declspec(property(get=get_deltaPosition, put=set_deltaPosition))  deltaPosition;
+ UnityEngine::Vector3 __declspec(property(get=get_deltaPosition, put=set_deltaPosition))  deltaPosition;
 
  float_t __declspec(property(get=get_deltaTime, put=set_deltaTime))  deltaTime;
 
@@ -245,11 +244,11 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
 
  float_t __declspec(property(get=get_twist, put=set_twist))  twist;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_radius, put=set_radius))  radius;
+ UnityEngine::Vector2 __declspec(property(get=get_radius, put=set_radius))  radius;
 
- ::UnityEngine::Vector2 __declspec(property(get=get_radiusVariance, put=set_radiusVariance))  radiusVariance;
+ UnityEngine::Vector2 __declspec(property(get=get_radiusVariance, put=set_radiusVariance))  radiusVariance;
 
- ::UnityEngine::EventModifiers __declspec(property(get=get_modifiers, put=set_modifiers))  modifiers;
+ UnityEngine::EventModifiers __declspec(property(get=get_modifiers, put=set_modifiers))  modifiers;
 
  bool __declspec(property(get=get_shiftKey))  shiftKey;
 
@@ -265,7 +264,7 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
 
  bool __declspec(property(get=UnityEngine_UIElements_IPointerEventInternal_get_recomputeTopElementUnderPointer, put=UnityEngine_UIElements_IPointerEventInternal_set_recomputeTopElementUnderPointer))  UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer;
 
- ::UnityEngine::UIElements::IEventHandler __declspec(property(get=get_currentTarget, put=set_currentTarget))  currentTarget;
+ UnityEngine::UIElements::IEventHandler __declspec(property(get=get_currentTarget, put=set_currentTarget))  currentTarget;
 
 
 // Methods
@@ -301,22 +300,22 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
  void set_pressedButtons(int32_t value) ;
 
 /// @brief Method get_position addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector3 get_position() ;
+ UnityEngine::Vector3 get_position() ;
 
 /// @brief Method set_position addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_position(::UnityEngine::Vector3 value) ;
+ void set_position(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_localPosition addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector3 get_localPosition() ;
+ UnityEngine::Vector3 get_localPosition() ;
 
 /// @brief Method set_localPosition addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_localPosition(::UnityEngine::Vector3 value) ;
+ void set_localPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_deltaPosition addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector3 get_deltaPosition() ;
+ UnityEngine::Vector3 get_deltaPosition() ;
 
 /// @brief Method set_deltaPosition addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_deltaPosition(::UnityEngine::Vector3 value) ;
+ void set_deltaPosition(UnityEngine::Vector3 value) ;
 
 /// @brief Method get_deltaTime addr 0x0 size 0xffffffffffffffff virtual true final true
  float_t get_deltaTime() ;
@@ -361,22 +360,22 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
  void set_twist(float_t value) ;
 
 /// @brief Method get_radius addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector2 get_radius() ;
+ UnityEngine::Vector2 get_radius() ;
 
 /// @brief Method set_radius addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_radius(::UnityEngine::Vector2 value) ;
+ void set_radius(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_radiusVariance addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::Vector2 get_radiusVariance() ;
+ UnityEngine::Vector2 get_radiusVariance() ;
 
 /// @brief Method set_radiusVariance addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_radiusVariance(::UnityEngine::Vector2 value) ;
+ void set_radiusVariance(UnityEngine::Vector2 value) ;
 
 /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final true
- ::UnityEngine::EventModifiers get_modifiers() ;
+ UnityEngine::EventModifiers get_modifiers() ;
 
 /// @brief Method set_modifiers addr 0x0 size 0xffffffffffffffff virtual false final false
- void set_modifiers(::UnityEngine::EventModifiers value) ;
+ void set_modifiers(UnityEngine::EventModifiers value) ;
 
 /// @brief Method get_shiftKey addr 0x0 size 0xffffffffffffffff virtual true final true
  bool get_shiftKey() ;
@@ -412,31 +411,31 @@ constexpr bool __get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopE
  void LocalInit() ;
 
 /// @brief Method get_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IEventHandler get_currentTarget() ;
+ UnityEngine::UIElements::IEventHandler get_currentTarget() ;
 
 /// @brief Method set_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
- void set_currentTarget(::UnityEngine::UIElements::IEventHandler value) ;
+ void set_currentTarget(UnityEngine::UIElements::IEventHandler value) ;
 
 /// @brief Method IsMouse addr 0x0 size 0xffffffffffffffff virtual false final false
-static bool IsMouse(::UnityEngine::Event systemEvent) ;
+static bool IsMouse(UnityEngine::Event systemEvent) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::Event systemEvent) ;
+static T GetPooled(UnityEngine::Event systemEvent) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers) ;
+static T GetPooled(UnityEngine::Touch touch, UnityEngine::EventModifiers modifiers) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IPointerEvent triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) ;
+static T GetPooled(UnityEngine::UIElements::IPointerEvent triggerEvent, UnityEngine::Vector2 position, int32_t pointerId) ;
 
 /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
-static T GetPooled(::UnityEngine::UIElements::IPointerEvent triggerEvent) ;
+static T GetPooled(UnityEngine::UIElements::IPointerEvent triggerEvent) ;
 
 /// @brief Method PreDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
- void PreDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PreDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 /// @brief Method PostDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
- void PostDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 // Ctor Parameters []
 explicit PointerEventBase_1() ;
@@ -448,5 +447,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::PointerEventBase_1, "UnityEngine.UIElements", "PointerEventBase`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UIElements::PointerEventBase_1, "UnityEngine.UIElements", "PointerEventBase`1");

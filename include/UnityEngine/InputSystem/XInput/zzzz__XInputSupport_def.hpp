@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
 class XInputSupport;
@@ -55,6 +54,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::XInput
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::XInput::XInputSupport);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XInput::XInputSupport, "UnityEngine.InputSystem.XInput", "XInputSupport");
+NEED_NO_BOX(UnityEngine::InputSystem::XInput::XInputSupport);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::XInput::XInputSupport, "UnityEngine.InputSystem.XInput", "XInputSupport");

@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,21 +55,20 @@ constexpr explicit Vector3Extensions(void* ptr) noexcept : ::bs_hook::Il2CppWrap
 // Methods
 
 /// @brief Method InverseLerp addr 0x227837c size 0x54 virtual false final false
-static float_t InverseLerp(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b, ::UnityEngine::Vector3 value) ;
+static float_t InverseLerp(UnityEngine::Vector3 a, UnityEngine::Vector3 b, UnityEngine::Vector3 value) ;
 
 /// @brief Method RotatedAroundPivot addr 0x22783d0 size 0x60 virtual false final false
-static ::UnityEngine::Vector3 RotatedAroundPivot(::UnityEngine::Vector3 vector, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 pivot) ;
+static UnityEngine::Vector3 RotatedAroundPivot(UnityEngine::Vector3 vector, UnityEngine::Quaternion rotation, UnityEngine::Vector3 pivot) ;
 
 /// @brief Method MirrorOnYZPlane addr 0x2277c20 size 0x8 virtual false final false
-static ::UnityEngine::Vector3 MirrorOnYZPlane(::UnityEngine::Vector3 vector) ;
+static UnityEngine::Vector3 MirrorOnYZPlane(UnityEngine::Vector3 vector) ;
 
 /// @brief Method MirrorEulerAnglesOnYZPlane addr 0x2277c28 size 0xc virtual false final false
-static ::UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(::UnityEngine::Vector3 vector) ;
+static UnityEngine::Vector3 MirrorEulerAnglesOnYZPlane(UnityEngine::Vector3 vector) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::Vector3Extensions);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector3Extensions, "", "Vector3Extensions");
+NEED_NO_BOX(GlobalNamespace::Vector3Extensions);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Extensions, "", "Vector3Extensions");

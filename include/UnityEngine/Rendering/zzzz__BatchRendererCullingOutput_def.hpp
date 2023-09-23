@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace Unity::Jobs {
-struct JobHandle;
-}
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace Unity::Jobs {
+struct JobHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -23,8 +22,8 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE BatchRendererCullingOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "cullingJobsFence", ty: "::Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "cullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "cullingPlanes", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "batchVisibility", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "visibleIndices", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "visibleIndicesY", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "cullingPlanesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "batchVisibilityCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleIndicesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: None }]
-constexpr BatchRendererCullingOutput(::Unity::Jobs::JobHandle cullingJobsFence, ::UnityEngine::Matrix4x4 cullingMatrix, void* cullingPlanes, void* batchVisibility, void* visibleIndices, void* visibleIndicesY, int32_t cullingPlanesCount, int32_t batchVisibilityCount, int32_t visibleIndicesCount, float_t nearPlane) noexcept;
+// Ctor Parameters [CppParam { name: "cullingJobsFence", ty: "Unity::Jobs::JobHandle", modifiers: "", def_value: None }, CppParam { name: "cullingMatrix", ty: "UnityEngine::Matrix4x4", modifiers: "", def_value: None }, CppParam { name: "cullingPlanes", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "batchVisibility", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "visibleIndices", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "visibleIndicesY", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "cullingPlanesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "batchVisibilityCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleIndicesCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "nearPlane", ty: "float_t", modifiers: "", def_value: None }]
+constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence, UnityEngine::Matrix4x4 cullingMatrix, void* cullingPlanes, void* batchVisibility, void* visibleIndices, void* visibleIndicesY, int32_t cullingPlanesCount, int32_t batchVisibilityCount, int32_t visibleIndicesCount, float_t nearPlane) noexcept;
 
 
                     constexpr BatchRendererCullingOutput(BatchRendererCullingOutput const&) = default;
@@ -57,17 +56,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::Unity::Jobs::JobHandle __declspec(property(get=__get_cullingJobsFence, put=__set_cullingJobsFence))  cullingJobsFence;
+ Unity::Jobs::JobHandle __declspec(property(get=__get_cullingJobsFence, put=__set_cullingJobsFence))  cullingJobsFence;
 
-constexpr void __set_cullingJobsFence(::Unity::Jobs::JobHandle value) ;
+constexpr void __set_cullingJobsFence(Unity::Jobs::JobHandle value) ;
 
-constexpr ::Unity::Jobs::JobHandle __get_cullingJobsFence() const;
+constexpr Unity::Jobs::JobHandle __get_cullingJobsFence() const;
 
- ::UnityEngine::Matrix4x4 __declspec(property(get=__get_cullingMatrix, put=__set_cullingMatrix))  cullingMatrix;
+ UnityEngine::Matrix4x4 __declspec(property(get=__get_cullingMatrix, put=__set_cullingMatrix))  cullingMatrix;
 
-constexpr void __set_cullingMatrix(::UnityEngine::Matrix4x4 value) ;
+constexpr void __set_cullingMatrix(UnityEngine::Matrix4x4 value) ;
 
-constexpr ::UnityEngine::Matrix4x4 __get_cullingMatrix() const;
+constexpr UnityEngine::Matrix4x4 __get_cullingMatrix() const;
 
  void* __declspec(property(get=__get_cullingPlanes, put=__set_cullingPlanes))  cullingPlanes;
 
@@ -121,5 +120,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererCullingOutput, "UnityEngine.Rendering", "BatchRendererCullingOutput");

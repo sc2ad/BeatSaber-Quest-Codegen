@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class AnimationCurve;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14723))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14728))
 // CS Name: MaterialPropertyBlockFloatCurve
-class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
+class CORDL_TYPE MaterialPropertyBlockFloatCurve : public GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve const&
 constexpr MaterialPropertyBlockFloatCurve(MaterialPropertyBlockFloatCurve&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MaterialPropertyBlockFloatCurve(void* ptr) noexcept : ::GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
+constexpr explicit MaterialPropertyBlockFloatCurve(void* ptr) noexcept : GlobalNamespace::MaterialPropertyBlockAnimator(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit MaterialPropertyBlockFloatCurve(void* ptr) noexcept : ::Globa
 
 // Fields
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get__curve, put=__set__curve))  _curve;
+ UnityEngine::AnimationCurve __declspec(property(get=__get__curve, put=__set__curve))  _curve;
 
-constexpr void __set__curve(::UnityEngine::AnimationCurve value) ;
+constexpr void __set__curve(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get__curve() const;
+constexpr UnityEngine::AnimationCurve __get__curve() const;
 
  float_t __declspec(property(get=__get__valueMultiplier, put=__set__valueMultiplier))  _valueMultiplier;
 
@@ -86,6 +85,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockFloatCurve, "", "MaterialPropertyBlockFloatCurve");
+NEED_NO_BOX(GlobalNamespace::MaterialPropertyBlockFloatCurve);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockFloatCurve, "", "MaterialPropertyBlockFloatCurve");

@@ -2,20 +2,19 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
+namespace UnityEngine::UIElements {
+struct TimerState;
+}
 namespace System {
 template<typename TResult>
 class Func_1;
-}
-namespace UnityEngine::UIElements {
-struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__ScheduledItem____c;
+class UnityEngine__UIElements__ScheduledItem____c;
 }
 // Type: ::<>c
 namespace UnityEngine::UIElements {
@@ -23,53 +22,53 @@ namespace UnityEngine::UIElements {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7028))
 // CS Name: UnityEngine.UIElements.ScheduledItem::<>c
-class CORDL_TYPE ____UnityEngine__UIElements__ScheduledItem____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__UIElements__ScheduledItem____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__UIElements__ScheduledItem____c() = default;
+virtual ~UnityEngine__UIElements__ScheduledItem____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__ScheduledItem____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__ScheduledItem____c(____UnityEngine__UIElements__ScheduledItem____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__ScheduledItem____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__ScheduledItem____c(UnityEngine__UIElements__ScheduledItem____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__ScheduledItem____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__ScheduledItem____c(____UnityEngine__UIElements__ScheduledItem____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__ScheduledItem____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__ScheduledItem____c(UnityEngine__UIElements__ScheduledItem____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__ScheduledItem____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__UIElements__ScheduledItem____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__ScheduledItem____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__ScheduledItem____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__ScheduledItem____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__ScheduledItem____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__ScheduledItem____c& operator=(____UnityEngine__UIElements__ScheduledItem____c&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__ScheduledItem____c& operator=(____UnityEngine__UIElements__ScheduledItem____c const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__ScheduledItem____c& operator=(UnityEngine__UIElements__ScheduledItem____c&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__ScheduledItem____c& operator=(UnityEngine__UIElements__ScheduledItem____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c value) ;
+static void __set___9(UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c value) ;
 
-static ::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c __get___9() ;
+static UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c __get___9() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__ScheduledItem____c() ;
+explicit UnityEngine__UIElements__ScheduledItem____c() ;
 
 /// @brief Method .ctor addr 0x2c8f0ac size 0x8 virtual false final false
  void _ctor() ;
@@ -93,7 +92,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ScheduledItem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c;
+using __c = UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -128,23 +127,23 @@ constexpr explicit ScheduledItem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperT
 
 // Fields
 
- ::System::Func_1<bool> __declspec(property(get=__get_timerUpdateStopCondition, put=__set_timerUpdateStopCondition))  timerUpdateStopCondition;
+ System::Func_1<bool> __declspec(property(get=__get_timerUpdateStopCondition, put=__set_timerUpdateStopCondition))  timerUpdateStopCondition;
 
-constexpr void __set_timerUpdateStopCondition(::System::Func_1<bool> value) ;
+constexpr void __set_timerUpdateStopCondition(System::Func_1<bool> value) ;
 
-constexpr ::System::Func_1<bool> __get_timerUpdateStopCondition() const;
+constexpr System::Func_1<bool> __get_timerUpdateStopCondition() const;
 
-static ::System::Func_1<bool> __declspec(property(get=__get_OnceCondition, put=__set_OnceCondition))  OnceCondition;
+static System::Func_1<bool> __declspec(property(get=__get_OnceCondition, put=__set_OnceCondition))  OnceCondition;
 
-static void __set_OnceCondition(::System::Func_1<bool> value) ;
+static void __set_OnceCondition(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get_OnceCondition() ;
+static System::Func_1<bool> __get_OnceCondition() ;
 
-static ::System::Func_1<bool> __declspec(property(get=__get_ForeverCondition, put=__set_ForeverCondition))  ForeverCondition;
+static System::Func_1<bool> __declspec(property(get=__get_ForeverCondition, put=__set_ForeverCondition))  ForeverCondition;
 
-static void __set_ForeverCondition(::System::Func_1<bool> value) ;
+static void __set_ForeverCondition(System::Func_1<bool> value) ;
 
-static ::System::Func_1<bool> __get_ForeverCondition() ;
+static System::Func_1<bool> __get_ForeverCondition() ;
 
  int64_t __declspec(property(get=__get__startMs_k__BackingField, put=__set__startMs_k__BackingField))  _startMs_k__BackingField;
 
@@ -215,7 +214,7 @@ explicit ScheduledItem() ;
  void ResetStartTime() ;
 
 /// @brief Method PerformTimerUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
- void PerformTimerUpdate(::UnityEngine::UIElements::TimerState state) ;
+ void PerformTimerUpdate(UnityEngine::UIElements::TimerState state) ;
 
 /// @brief Method OnItemUnscheduled addr 0x2c8ef0c size 0x4 virtual true final false
  void OnItemUnscheduled() ;
@@ -227,8 +226,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ScheduledItem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ScheduledItem, "UnityEngine.UIElements", "ScheduledItem");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__ScheduledItem____c, "UnityEngine.UIElements", "ScheduledItem/<>c");
+NEED_NO_BOX(UnityEngine::UIElements::ScheduledItem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ScheduledItem, "UnityEngine.UIElements", "ScheduledItem");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__ScheduledItem____c, "UnityEngine.UIElements", "ScheduledItem/<>c");

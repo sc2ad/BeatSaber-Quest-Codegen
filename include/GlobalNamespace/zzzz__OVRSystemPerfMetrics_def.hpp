@@ -6,19 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
-class ____GlobalNamespace__OVRNetwork__OVRNetworkTcpServer;
+class GlobalNamespace__OVRNetwork__OVRNetworkTcpServer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
+class GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+}
+namespace GlobalNamespace {
+class GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics;
+}
+namespace GlobalNamespace {
 class OVRSystemPerfMetrics;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
-}
-namespace GlobalNamespace {
-class ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics;
 }
 // Type: ::PerfMetrics
 namespace GlobalNamespace {
@@ -26,37 +25,37 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8971))
 // CS Name: OVRSystemPerfMetrics::PerfMetrics
-class CORDL_TYPE ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x98};
 
-virtual ~____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics() = default;
+virtual ~GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics& operator=(GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics const& o) noexcept = default;
                 
 
 
@@ -258,7 +257,7 @@ constexpr ::ArrayW<float_t> __get_deviceCpuCoreUtilPercentage() const;
  bool LoadFromJSON(::StringW json) ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics() ;
+explicit GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics() ;
 
 /// @brief Method .ctor addr 0x2637370 size 0xb8 virtual false final false
  void _ctor() ;
@@ -273,53 +272,53 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8972))
 // CS Name: OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer
-class CORDL_TYPE ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer() = default;
+virtual ~GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer&& o) noexcept = default;
-  constexpr ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer&& o) noexcept = default;
+  constexpr GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer& operator=(GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer __declspec(property(get=__get_singleton, put=__set_singleton))  singleton;
+static GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer __declspec(property(get=__get_singleton, put=__set_singleton))  singleton;
 
-static void __set_singleton(::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer value) ;
+static void __set_singleton(GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer __get_singleton() ;
+static GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer __get_singleton() ;
 
- ::GlobalNamespace::____GlobalNamespace__OVRNetwork__OVRNetworkTcpServer __declspec(property(get=__get_tcpServer, put=__set_tcpServer))  tcpServer;
+ GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer __declspec(property(get=__get_tcpServer, put=__set_tcpServer))  tcpServer;
 
-constexpr void __set_tcpServer(::GlobalNamespace::____GlobalNamespace__OVRNetwork__OVRNetworkTcpServer value) ;
+constexpr void __set_tcpServer(GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer value) ;
 
-constexpr ::GlobalNamespace::____GlobalNamespace__OVRNetwork__OVRNetworkTcpServer __get_tcpServer() const;
+constexpr GlobalNamespace::GlobalNamespace__OVRNetwork__OVRNetworkTcpServer __get_tcpServer() const;
 
  int32_t __declspec(property(get=__get_listeningPort, put=__set_listeningPort))  listeningPort;
 
@@ -340,10 +339,10 @@ constexpr int32_t __get_listeningPort() const;
  void Update() ;
 
 /// @brief Method GatherPerfMetrics addr 0x2637650 size 0x300 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics GatherPerfMetrics() ;
+ GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics GatherPerfMetrics() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer() ;
+explicit GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer() ;
 
 /// @brief Method .ctor addr 0x2637950 size 0x6c virtual false final false
  void _ctor() ;
@@ -361,9 +360,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRSystemPerfMetrics : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OVRSystemPerfMetricsTcpServer = ::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
+using OVRSystemPerfMetricsTcpServer = GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer;
 
-using PerfMetrics = ::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics;
+using PerfMetrics = GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -423,10 +422,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::OVRSystemPerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRSystemPerfMetrics, "", "OVRSystemPerfMetrics");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics, "", "OVRSystemPerfMetrics/PerfMetrics");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer, "", "OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__OVRSystemPerfMetrics__PerfMetrics, "", "OVRSystemPerfMetrics/PerfMetrics");
+NEED_NO_BOX(GlobalNamespace::OVRSystemPerfMetrics);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics, "", "OVRSystemPerfMetrics");

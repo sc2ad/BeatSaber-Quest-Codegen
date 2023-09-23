@@ -3,21 +3,20 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace UnityEngine {
+struct Vector2;
+}
+namespace Tweening {
+class Vector2Tween;
+}
 namespace Tweening {
 class TimeTweeningManager;
 }
 namespace UnityEngine {
 class RectTransform;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 struct EaseType;
-}
-namespace Tweening {
-class Vector2Tween;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +28,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5856))
 // CS Name: AnnotatedBeatmapLevelCollectionsGridViewAnimator
-class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevel
 constexpr AnnotatedBeatmapLevelCollectionsGridViewAnimator(AnnotatedBeatmapLevelCollectionsGridViewAnimator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AnnotatedBeatmapLevelCollectionsGridViewAnimator(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit AnnotatedBeatmapLevelCollectionsGridViewAnimator(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -65,17 +64,17 @@ constexpr explicit AnnotatedBeatmapLevelCollectionsGridViewAnimator(void* ptr) n
 
 // Fields
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__viewportTransform, put=__set__viewportTransform))  _viewportTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__viewportTransform, put=__set__viewportTransform))  _viewportTransform;
 
-constexpr void __set__viewportTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__viewportTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__viewportTransform() const;
+constexpr UnityEngine::RectTransform __get__viewportTransform() const;
 
- ::UnityEngine::RectTransform __declspec(property(get=__get__contentTransform, put=__set__contentTransform))  _contentTransform;
+ UnityEngine::RectTransform __declspec(property(get=__get__contentTransform, put=__set__contentTransform))  _contentTransform;
 
-constexpr void __set__contentTransform(::UnityEngine::RectTransform value) ;
+constexpr void __set__contentTransform(UnityEngine::RectTransform value) ;
 
-constexpr ::UnityEngine::RectTransform __get__contentTransform() const;
+constexpr UnityEngine::RectTransform __get__contentTransform() const;
 
  float_t __declspec(property(get=__get__transitionDuration, put=__set__transitionDuration))  _transitionDuration;
 
@@ -83,17 +82,17 @@ constexpr void __set__transitionDuration(float_t value) ;
 
 constexpr float_t __get__transitionDuration() const;
 
- ::GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
+ GlobalNamespace::EaseType __declspec(property(get=__get__easeType, put=__set__easeType))  _easeType;
 
-constexpr void __set__easeType(::GlobalNamespace::EaseType value) ;
+constexpr void __set__easeType(GlobalNamespace::EaseType value) ;
 
-constexpr ::GlobalNamespace::EaseType __get__easeType() const;
+constexpr GlobalNamespace::EaseType __get__easeType() const;
 
- ::Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
+ Tweening::TimeTweeningManager __declspec(property(get=__get__tweeningManager, put=__set__tweeningManager))  _tweeningManager;
 
-constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager value) ;
+constexpr void __set__tweeningManager(Tweening::TimeTweeningManager value) ;
 
-constexpr ::Tweening::TimeTweeningManager __get__tweeningManager() const;
+constexpr Tweening::TimeTweeningManager __get__tweeningManager() const;
 
  float_t __declspec(property(get=__get__rowHeight, put=__set__rowHeight))  _rowHeight;
 
@@ -113,17 +112,17 @@ constexpr void __set__selectedRow(int32_t value) ;
 
 constexpr int32_t __get__selectedRow() const;
 
- ::Tweening::Vector2Tween __declspec(property(get=__get__viewportSizeTween, put=__set__viewportSizeTween))  _viewportSizeTween;
+ Tweening::Vector2Tween __declspec(property(get=__get__viewportSizeTween, put=__set__viewportSizeTween))  _viewportSizeTween;
 
-constexpr void __set__viewportSizeTween(::Tweening::Vector2Tween value) ;
+constexpr void __set__viewportSizeTween(Tweening::Vector2Tween value) ;
 
-constexpr ::Tweening::Vector2Tween __get__viewportSizeTween() const;
+constexpr Tweening::Vector2Tween __get__viewportSizeTween() const;
 
- ::Tweening::Vector2Tween __declspec(property(get=__get__contentPositionTween, put=__set__contentPositionTween))  _contentPositionTween;
+ Tweening::Vector2Tween __declspec(property(get=__get__contentPositionTween, put=__set__contentPositionTween))  _contentPositionTween;
 
-constexpr void __set__contentPositionTween(::Tweening::Vector2Tween value) ;
+constexpr void __set__contentPositionTween(Tweening::Vector2Tween value) ;
 
-constexpr ::Tweening::Vector2Tween __get__contentPositionTween() const;
+constexpr Tweening::Vector2Tween __get__contentPositionTween() const;
 
 
 // Methods
@@ -156,25 +155,25 @@ explicit AnnotatedBeatmapLevelCollectionsGridViewAnimator() ;
  void _ctor() ;
 
 /// @brief Method <AnimateOpen>b__13_0 addr 0x21846d8 size 0x1c virtual false final false
- void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size) ;
+ void _AnimateOpen_b__13_0(UnityEngine::Vector2 size) ;
 
 /// @brief Method <AnimateOpen>b__13_1 addr 0x21846f4 size 0x88 virtual false final false
  void _AnimateOpen_b__13_1() ;
 
 /// @brief Method <AnimateOpen>b__13_2 addr 0x218477c size 0x1c virtual false final false
- void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos) ;
+ void _AnimateOpen_b__13_2(UnityEngine::Vector2 pos) ;
 
 /// @brief Method <AnimateOpen>b__13_3 addr 0x2184798 size 0x88 virtual false final false
  void _AnimateOpen_b__13_3() ;
 
 /// @brief Method <AnimateClose>b__14_0 addr 0x2184820 size 0x1c virtual false final false
- void _AnimateClose_b__14_0(::UnityEngine::Vector2 size) ;
+ void _AnimateClose_b__14_0(UnityEngine::Vector2 size) ;
 
 /// @brief Method <AnimateClose>b__14_1 addr 0x218483c size 0x88 virtual false final false
  void _AnimateClose_b__14_1() ;
 
 /// @brief Method <AnimateClose>b__14_2 addr 0x21848c4 size 0x1c virtual false final false
- void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos) ;
+ void _AnimateClose_b__14_2(UnityEngine::Vector2 pos) ;
 
 /// @brief Method <AnimateClose>b__14_3 addr 0x21848e0 size 0x88 virtual false final false
  void _AnimateClose_b__14_3() ;
@@ -183,6 +182,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, "", "AnnotatedBeatmapLevelCollectionsGridViewAnimator");
+NEED_NO_BOX(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, "", "AnnotatedBeatmapLevelCollectionsGridViewAnimator");

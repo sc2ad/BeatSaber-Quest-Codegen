@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace Newtonsoft::Json {
 template<typename T>
 class IArrayPool_1;
@@ -90,22 +89,22 @@ constexpr int32_t __get__position() const;
  bool get_IsEmpty() ;
 
 /// @brief Method .ctor addr 0x24ec208 size 0x24 virtual false final false
- void _ctor(::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, int32_t initalSize) ;
+ void _ctor(Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, int32_t initalSize) ;
 
 /// @brief Method .ctor addr 0x24ec22c size 0xc virtual false final false
  void _ctor(::ArrayW<char16_t> buffer) ;
 
 /// @brief Method Append addr 0x24ec238 size 0x78 virtual false final false
- void Append(::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, char16_t value) ;
+ void Append(Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, char16_t value) ;
 
 /// @brief Method Append addr 0x24ec310 size 0x80 virtual false final false
- void Append(::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count) ;
+ void Append(Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, ::ArrayW<char16_t> buffer, int32_t startIndex, int32_t count) ;
 
 /// @brief Method Clear addr 0x24ec390 size 0x2c virtual false final false
- void Clear(::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool) ;
+ void Clear(Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool) ;
 
 /// @brief Method EnsureSize addr 0x24ec2b0 size 0x60 virtual false final false
- void EnsureSize(::Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, int32_t appendLength) ;
+ void EnsureSize(Newtonsoft::Json::IArrayPool_1<char16_t> bufferPool, int32_t appendLength) ;
 
 /// @brief Method ToString addr 0x24ec3bc size 0x18 virtual true final false
  ::StringW ToString() ;
@@ -120,5 +119,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringBuffer, "Newtonsoft.Json.Utilities", "StringBuffer");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::StringBuffer, "Newtonsoft.Json.Utilities", "StringBuffer");

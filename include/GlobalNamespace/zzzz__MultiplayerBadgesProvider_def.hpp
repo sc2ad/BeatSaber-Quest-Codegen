@@ -3,33 +3,32 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class MultiplayerPlayerResultsData;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
+class IDifficultyBeatmap;
+}
+namespace GlobalNamespace {
+class MultiplayerBadgesModelSO;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
-namespace GlobalNamespace {
-class MultiplayerBadgesModelSO;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
 // Forward declare root types
 namespace GlobalNamespace {
-class MultiplayerBadgesProvider;
+class GlobalNamespace__MultiplayerBadgesProvider____c;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__MultiplayerBadgesProvider____c;
+class MultiplayerBadgesProvider;
 }
 // Type: ::<>c
 namespace GlobalNamespace {
@@ -37,74 +36,74 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5212))
 // CS Name: MultiplayerBadgesProvider::<>c
-class CORDL_TYPE ____GlobalNamespace__MultiplayerBadgesProvider____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__MultiplayerBadgesProvider____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____GlobalNamespace__MultiplayerBadgesProvider____c() = default;
+virtual ~GlobalNamespace__MultiplayerBadgesProvider____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerBadgesProvider____c", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c(____GlobalNamespace__MultiplayerBadgesProvider____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerBadgesProvider____c", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerBadgesProvider____c(GlobalNamespace__MultiplayerBadgesProvider____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__MultiplayerBadgesProvider____c", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c(____GlobalNamespace__MultiplayerBadgesProvider____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__MultiplayerBadgesProvider____c", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__MultiplayerBadgesProvider____c(GlobalNamespace__MultiplayerBadgesProvider____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__MultiplayerBadgesProvider____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__MultiplayerBadgesProvider____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__MultiplayerBadgesProvider____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__MultiplayerBadgesProvider____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c& operator=(____GlobalNamespace__MultiplayerBadgesProvider____c&& o) noexcept = default;
-  constexpr ____GlobalNamespace__MultiplayerBadgesProvider____c& operator=(____GlobalNamespace__MultiplayerBadgesProvider____c const& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerBadgesProvider____c& operator=(GlobalNamespace__MultiplayerBadgesProvider____c&& o) noexcept = default;
+  constexpr GlobalNamespace__MultiplayerBadgesProvider____c& operator=(GlobalNamespace__MultiplayerBadgesProvider____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c value) ;
+static void __set___9(GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c value) ;
 
-static ::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c __get___9() ;
+static GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c __get___9() ;
 
-static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,bool> __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
+static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,bool> __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
 
-static void __set___9__7_0(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,bool> value) ;
+static void __set___9__7_0(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,bool> value) ;
 
-static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,bool> __get___9__7_0() ;
+static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,bool> __get___9__7_0() ;
 
-static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,int32_t> __declspec(property(get=__get___9__7_1, put=__set___9__7_1))  __9__7_1;
+static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t> __declspec(property(get=__get___9__7_1, put=__set___9__7_1))  __9__7_1;
 
-static void __set___9__7_1(::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,int32_t> value) ;
+static void __set___9__7_1(System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t> value) ;
 
-static ::System::Func_2<::GlobalNamespace::MultiplayerPlayerResultsData,int32_t> __get___9__7_1() ;
+static System::Func_2<GlobalNamespace::MultiplayerPlayerResultsData,int32_t> __get___9__7_1() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__MultiplayerBadgesProvider____c() ;
+explicit GlobalNamespace__MultiplayerBadgesProvider____c() ;
 
 /// @brief Method .ctor addr 0x20db940 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0 addr 0x20db948 size 0x20 virtual false final false
- bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData result) ;
+ bool _SelectBadgesAndPutThemIntoResults_b__7_0(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
 /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1 addr 0x20db968 size 0x28 virtual false final false
- int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData p) ;
+ int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(GlobalNamespace::MultiplayerPlayerResultsData p) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -119,7 +118,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerBadgesProvider : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c;
+using __c = GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -154,23 +153,23 @@ constexpr explicit MultiplayerBadgesProvider(void* ptr) noexcept : ::bs_hook::Il
 
 // Fields
 
- ::GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
+ GlobalNamespace::PlayerDataModel __declspec(property(get=__get__playerDataModel, put=__set__playerDataModel))  _playerDataModel;
 
-constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel value) ;
+constexpr void __set__playerDataModel(GlobalNamespace::PlayerDataModel value) ;
 
-constexpr ::GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
+constexpr GlobalNamespace::PlayerDataModel __get__playerDataModel() const;
 
- ::GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
+ GlobalNamespace::IDifficultyBeatmap __declspec(property(get=__get__difficultyBeatmap, put=__set__difficultyBeatmap))  _difficultyBeatmap;
 
-constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap value) ;
+constexpr void __set__difficultyBeatmap(GlobalNamespace::IDifficultyBeatmap value) ;
 
-constexpr ::GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
+constexpr GlobalNamespace::IDifficultyBeatmap __get__difficultyBeatmap() const;
 
- ::GlobalNamespace::MultiplayerBadgesModelSO __declspec(property(get=__get__multiplayerBadgesModel, put=__set__multiplayerBadgesModel))  _multiplayerBadgesModel;
+ GlobalNamespace::MultiplayerBadgesModelSO __declspec(property(get=__get__multiplayerBadgesModel, put=__set__multiplayerBadgesModel))  _multiplayerBadgesModel;
 
-constexpr void __set__multiplayerBadgesModel(::GlobalNamespace::MultiplayerBadgesModelSO value) ;
+constexpr void __set__multiplayerBadgesModel(GlobalNamespace::MultiplayerBadgesModelSO value) ;
 
-constexpr ::GlobalNamespace::MultiplayerBadgesModelSO __get__multiplayerBadgesModel() const;
+constexpr GlobalNamespace::MultiplayerBadgesModelSO __get__multiplayerBadgesModel() const;
 
 /// @brief Field kTargetPositiveBadgesCount offset 0
 static constexpr int32_t  kTargetPositiveBadgesCount{2};
@@ -188,7 +187,7 @@ static constexpr float_t  kMaxRandomMultiplierAmount{1.2};
 // Methods
 
 /// @brief Method SelectBadgesAndPutThemIntoResults addr 0x20da430 size 0x14a4 virtual false final false
- void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> playerResults) ;
+ void SelectBadgesAndPutThemIntoResults(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> playerResults) ;
 
 // Ctor Parameters []
 explicit MultiplayerBadgesProvider() ;
@@ -200,8 +199,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgesProvider);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgesProvider, "", "MultiplayerBadgesProvider");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__MultiplayerBadgesProvider____c, "", "MultiplayerBadgesProvider/<>c");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__MultiplayerBadgesProvider____c, "", "MultiplayerBadgesProvider/<>c");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgesProvider);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider, "", "MultiplayerBadgesProvider");

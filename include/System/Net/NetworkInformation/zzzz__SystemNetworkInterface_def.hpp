@@ -2,12 +2,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
-namespace System::Net::NetworkInformation {
-class NetworkInterface;
-}
 namespace System::Net::NetworkInformation {
 class NetworkInterfaceFactory;
+}
+namespace System::Net::NetworkInformation {
+class NetworkInterface;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -55,22 +54,21 @@ constexpr explicit SystemNetworkInterface(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
-static ::System::Net::NetworkInformation::NetworkInterfaceFactory __declspec(property(get=__get_nif, put=__set_nif))  nif;
+static System::Net::NetworkInformation::NetworkInterfaceFactory __declspec(property(get=__get_nif, put=__set_nif))  nif;
 
-static void __set_nif(::System::Net::NetworkInformation::NetworkInterfaceFactory value) ;
+static void __set_nif(System::Net::NetworkInformation::NetworkInterfaceFactory value) ;
 
-static ::System::Net::NetworkInformation::NetworkInterfaceFactory __get_nif() ;
+static System::Net::NetworkInformation::NetworkInterfaceFactory __get_nif() ;
 
 
 // Methods
 
 /// @brief Method GetNetworkInterfaces addr 0x28590f4 size 0xfc virtual false final false
-static ::ArrayW<::System::Net::NetworkInformation::NetworkInterface> GetNetworkInterfaces() ;
+static ::ArrayW<System::Net::NetworkInformation::NetworkInterface> GetNetworkInterfaces() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::SystemNetworkInterface);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::SystemNetworkInterface, "System.Net.NetworkInformation", "SystemNetworkInterface");
+NEED_NO_BOX(System::Net::NetworkInformation::SystemNetworkInterface);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::SystemNetworkInterface, "System.Net.NetworkInformation", "SystemNetworkInterface");

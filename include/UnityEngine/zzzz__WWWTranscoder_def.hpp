@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 class WWWTranscoder;
@@ -136,6 +135,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::WWWTranscoder);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::WWWTranscoder, "UnityEngine", "WWWTranscoder");
+NEED_NO_BOX(UnityEngine::WWWTranscoder);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWTranscoder, "UnityEngine", "WWWTranscoder");

@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Xml {
-class XmlNode;
-}
 namespace System::Xml {
 struct XmlNodeType;
+}
+namespace System::Xml {
+class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
@@ -22,7 +21,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11446))
 // CS Name: System.Xml.XmlDeclaration
-class CORDL_TYPE XmlDeclaration : public ::System::Xml::XmlLinkedNode {
+class CORDL_TYPE XmlDeclaration : public System::Xml::XmlLinkedNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr XmlDeclaration(XmlDeclaration const& ) noexcept = default;
 constexpr XmlDeclaration(XmlDeclaration&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlDeclaration(void* ptr) noexcept : ::System::Xml::XmlLinkedNode(ptr) {
+constexpr explicit XmlDeclaration(void* ptr) noexcept : System::Xml::XmlLinkedNode(ptr) {
 }
 
 
@@ -93,16 +92,16 @@ constexpr ::StringW __get_standalone() const;
 
  ::StringW __declspec(property(get=get_LocalName))  LocalName;
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "::System::Xml::XmlDocument", modifiers: "", def_value: None }]
-explicit XmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument doc) ;
+// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "standalone", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "doc", ty: "System::Xml::XmlDocument", modifiers: "", def_value: None }]
+explicit XmlDeclaration(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc) ;
 
 /// @brief Method .ctor addr 0x26f0780 size 0x190 virtual false final false
- void _ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument doc) ;
+ void _ctor(::StringW version, ::StringW encoding, ::StringW standalone, System::Xml::XmlDocument doc) ;
 
 /// @brief Method get_Version addr 0x26f0b40 size 0x8 virtual false final false
  ::StringW get_Version() ;
@@ -141,10 +140,10 @@ explicit XmlDeclaration(::StringW version, ::StringW encoding, ::StringW standal
  ::StringW get_LocalName() ;
 
 /// @brief Method get_NodeType addr 0x26f0ec0 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method CloneNode addr 0x26f0ec8 size 0x3c virtual true final false
- ::System::Xml::XmlNode CloneNode(bool deep) ;
+ System::Xml::XmlNode CloneNode(bool deep) ;
 
 /// @brief Method IsValidXmlVersion addr 0x26f0910 size 0x7c virtual false final false
  bool IsValidXmlVersion(::StringW ver) ;
@@ -153,6 +152,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlDeclaration);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlDeclaration, "System.Xml", "XmlDeclaration");
+NEED_NO_BOX(System::Xml::XmlDeclaration);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlDeclaration, "System.Xml", "XmlDeclaration");

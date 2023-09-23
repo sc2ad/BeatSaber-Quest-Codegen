@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Zenject {
 struct PoolExpandMethods;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OneAtATime offset 0
-static ::Zenject::PoolExpandMethods const OneAtATime;
+static Zenject::PoolExpandMethods const OneAtATime;
 
 /// @brief Field Double offset 0
-static ::Zenject::PoolExpandMethods const Double;
+static Zenject::PoolExpandMethods const Double;
 
 /// @brief Field Disabled offset 0
-static ::Zenject::PoolExpandMethods const Disabled;
+static Zenject::PoolExpandMethods const Disabled;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");
+DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolExpandMethods, "Zenject", "PoolExpandMethods");

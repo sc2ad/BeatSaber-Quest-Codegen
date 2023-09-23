@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct SDKConstants;
@@ -59,5 +58,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKConstants, "LIV.SDK.Unity", "SDKConstants");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKConstants, "LIV.SDK.Unity", "SDKConstants");

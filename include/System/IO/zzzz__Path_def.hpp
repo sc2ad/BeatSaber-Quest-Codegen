@@ -5,14 +5,13 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-template<typename T>
-struct Span_1;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
+}
+namespace System {
+template<typename T>
+struct Span_1;
 }
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename TRest>
@@ -35,7 +34,7 @@ namespace System::IO {
 class Path;
 }
 namespace System::IO {
-class ____System__IO__Path____c;
+class System__IO__Path____c;
 }
 // Type: ::<>c
 namespace System::IO {
@@ -43,74 +42,74 @@ namespace System::IO {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3618))
 // CS Name: System.IO.Path::<>c
-class CORDL_TYPE ____System__IO__Path____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__IO__Path____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__IO__Path____c() = default;
+virtual ~System__IO__Path____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Path____c", modifiers: " const&", def_value: None }]
-constexpr ____System__IO__Path____c(____System__IO__Path____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Path____c", modifiers: " const&", def_value: None }]
+constexpr System__IO__Path____c(System__IO__Path____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__IO__Path____c", modifiers: "&&", def_value: None }]
-constexpr ____System__IO__Path____c(____System__IO__Path____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__IO__Path____c", modifiers: "&&", def_value: None }]
+constexpr System__IO__Path____c(System__IO__Path____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__IO__Path____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__IO__Path____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__IO__Path____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__IO__Path____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__IO__Path____c& operator=(void* o) noexcept {
+  constexpr System__IO__Path____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__IO__Path____c& operator=(____System__IO__Path____c&& o) noexcept = default;
-  constexpr ____System__IO__Path____c& operator=(____System__IO__Path____c const& o) noexcept = default;
+  constexpr System__IO__Path____c& operator=(System__IO__Path____c&& o) noexcept = default;
+  constexpr System__IO__Path____c& operator=(System__IO__Path____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::IO::____System__IO__Path____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::IO::System__IO__Path____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::IO::____System__IO__Path____c value) ;
+static void __set___9(System::IO::System__IO__Path____c value) ;
 
-static ::System::IO::____System__IO__Path____c __get___9() ;
+static System::IO::System__IO__Path____c __get___9() ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> __declspec(property(get=__get___9__56_0, put=__set___9__56_0))  __9__56_0;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> __declspec(property(get=__get___9__56_0, put=__set___9__56_0))  __9__56_0;
 
-static void __set___9__56_0(::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> value) ;
+static void __set___9__56_0(System::Buffers::SpanAction_2<char16_t,System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> value) ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> __get___9__56_0() ;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool>> __get___9__56_0() ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>>> __declspec(property(get=__get___9__57_0, put=__set___9__57_0))  __9__57_0;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>> __declspec(property(get=__get___9__57_0, put=__set___9__57_0))  __9__57_0;
 
-static void __set___9__57_0(::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>>> value) ;
+static void __set___9__57_0(System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>> value) ;
 
-static ::System::Buffers::SpanAction_2<char16_t,::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>>> __get___9__57_0() ;
+static System::Buffers::SpanAction_2<char16_t,System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>>> __get___9__57_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__IO__Path____c() ;
+explicit System__IO__Path____c() ;
 
 /// @brief Method .ctor addr 0x23d3958 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <JoinInternal>b__56_0 addr 0x23d3960 size 0x1a0 virtual false final false
- void _JoinInternal_b__56_0(::System::Span_1<char16_t> destination, ::System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> state) ;
+ void _JoinInternal_b__56_0(System::Span_1<char16_t> destination, System::ValueTuple_5<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool> state) ;
 
 /// @brief Method <JoinInternal>b__57_0 addr 0x23d3b00 size 0x264 virtual false final false
- void _JoinInternal_b__57_0(::System::Span_1<char16_t> destination, ::System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,::System::ValueTuple_1<bool>> state) ;
+ void _JoinInternal_b__57_0(System::Span_1<char16_t> destination, System::ValueTuple_8<::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,::cordl_internals::intptr_t,int32_t,bool,System::ValueTuple_1<bool>> state) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -125,7 +124,7 @@ namespace System::IO {
 class CORDL_TYPE Path : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::System::IO::____System__IO__Path____c;
+using __c = System::IO::System__IO__Path____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -236,7 +235,7 @@ static ::StringW CleanPath(::StringW s) ;
 static ::StringW GetDirectoryName(::StringW path) ;
 
 /// @brief Method GetDirectoryName addr 0x23d1cd8 size 0xd0 virtual false final false
-static ::System::ReadOnlySpan_1<char16_t> GetDirectoryName(::System::ReadOnlySpan_1<char16_t> path) ;
+static System::ReadOnlySpan_1<char16_t> GetDirectoryName(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method GetExtension addr 0x23d1da8 size 0x12c virtual false final false
 static ::StringW GetExtension(::StringW path) ;
@@ -269,7 +268,7 @@ static ::StringW GetTempPath() ;
 static ::StringW get_temp_path() ;
 
 /// @brief Method IsPathRooted addr 0x23d2490 size 0x104 virtual false final false
-static bool IsPathRooted(::System::ReadOnlySpan_1<char16_t> path) ;
+static bool IsPathRooted(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method IsPathRooted addr 0x23d1340 size 0x128 virtual false final false
 static bool IsPathRooted(::StringW path) ;
@@ -293,29 +292,28 @@ static ::StringW Combine(::ArrayW<::StringW> paths) ;
 static ::StringW Combine(::StringW path1, ::StringW path2, ::StringW path3) ;
 
 /// @brief Method GetFileName addr 0x23d2dc8 size 0x14c virtual false final false
-static ::System::ReadOnlySpan_1<char16_t> GetFileName(::System::ReadOnlySpan_1<char16_t> path) ;
+static System::ReadOnlySpan_1<char16_t> GetFileName(System::ReadOnlySpan_1<char16_t> path) ;
 
 /// @brief Method Join addr 0x23d2f14 size 0xb8 virtual false final false
-static ::StringW Join(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2) ;
+static ::StringW Join(System::ReadOnlySpan_1<char16_t> path1, System::ReadOnlySpan_1<char16_t> path2) ;
 
 /// @brief Method Join addr 0x23d3248 size 0x110 virtual false final false
-static ::StringW Join(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2, ::System::ReadOnlySpan_1<char16_t> path3) ;
+static ::StringW Join(System::ReadOnlySpan_1<char16_t> path1, System::ReadOnlySpan_1<char16_t> path2, System::ReadOnlySpan_1<char16_t> path3) ;
 
 /// @brief Method TryJoin addr 0x23d36c0 size 0x234 virtual false final false
-static bool TryJoin(::System::ReadOnlySpan_1<char16_t> path1, ::System::ReadOnlySpan_1<char16_t> path2, ::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten) ;
+static bool TryJoin(System::ReadOnlySpan_1<char16_t> path1, System::ReadOnlySpan_1<char16_t> path2, System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten) ;
 
 /// @brief Method JoinInternal addr 0x23d2fcc size 0x27c virtual false final false
-static ::StringW JoinInternal(::System::ReadOnlySpan_1<char16_t> first, ::System::ReadOnlySpan_1<char16_t> second) ;
+static ::StringW JoinInternal(System::ReadOnlySpan_1<char16_t> first, System::ReadOnlySpan_1<char16_t> second) ;
 
 /// @brief Method JoinInternal addr 0x23d3358 size 0x368 virtual false final false
-static ::StringW JoinInternal(::System::ReadOnlySpan_1<char16_t> first, ::System::ReadOnlySpan_1<char16_t> second, ::System::ReadOnlySpan_1<char16_t> third) ;
+static ::StringW JoinInternal(System::ReadOnlySpan_1<char16_t> first, System::ReadOnlySpan_1<char16_t> second, System::ReadOnlySpan_1<char16_t> third) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::Path);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::Path, "System.IO", "Path");
-NEED_NO_BOX(::System::IO::____System__IO__Path____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::____System__IO__Path____c, "System.IO", "Path/<>c");
+NEED_NO_BOX(System::IO::Path);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::Path, "System.IO", "Path");
+NEED_NO_BOX(System::IO::System__IO__Path____c);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::System__IO__Path____c, "System.IO", "Path/<>c");

@@ -4,10 +4,9 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+struct GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 }
 namespace GlobalNamespace {
 class ScoreMultiplierCounter;
@@ -18,20 +17,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5410))
 // CS Name: ScoreMultiplierCounter::MultiplierEventType
-struct CORDL_TYPE ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept;
+constexpr GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const&) = default;
-                    constexpr ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType&&) = default;
-                    constexpr ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType& operator=(____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const& o) {
+                    constexpr GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const&) = default;
+                    constexpr GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType&&) = default;
+                    constexpr GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType& operator=(GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType& operator=(____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType&& o) noexcept {
+                    constexpr GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType& operator=(GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -44,7 +43,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -52,15 +51,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped : int32_t {
+enum class __GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped : int32_t {
 __Positive = 0,
 __Neutral = 1,
 __Negative = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType_Unwrapped>(__instance);
 }
 
 
@@ -73,13 +72,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Positive offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Positive;
+static GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Positive;
 
 /// @brief Field Neutral offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Neutral;
+static GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Neutral;
 
 /// @brief Field Negative offset 0
-static ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Negative;
+static GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType const Negative;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -94,7 +93,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ScoreMultiplierCounter : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using MultiplierEventType = ::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
+using MultiplierEventType = GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -167,7 +166,7 @@ constexpr int32_t __get__multiplierIncreaseMaxProgress() const;
  void Reset() ;
 
 /// @brief Method ProcessMultiplierEvent addr 0x210f70c size 0x9c virtual false final false
- bool ProcessMultiplierEvent(::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType multiplierEventType) ;
+ bool ProcessMultiplierEvent(GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType multiplierEventType) ;
 
 // Ctor Parameters []
 explicit ScoreMultiplierCounter() ;
@@ -179,7 +178,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType, "", "ScoreMultiplierCounter/MultiplierEventType");
-NEED_NO_BOX(::GlobalNamespace::ScoreMultiplierCounter);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScoreMultiplierCounter, "", "ScoreMultiplierCounter");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ScoreMultiplierCounter__MultiplierEventType, "", "ScoreMultiplierCounter/MultiplierEventType");
+NEED_NO_BOX(GlobalNamespace::ScoreMultiplierCounter);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreMultiplierCounter, "", "ScoreMultiplierCounter");

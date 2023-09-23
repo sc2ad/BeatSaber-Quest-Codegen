@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Net {
 class ICredentials;
 }
@@ -10,10 +9,10 @@ namespace System::Net {
 class WebRequest;
 }
 namespace System::Net {
-class Authorization;
+class IAuthenticationModule;
 }
 namespace System::Net {
-class IAuthenticationModule;
+class Authorization;
 }
 // Forward declare root types
 namespace System::Net {
@@ -28,8 +27,8 @@ namespace System::Net {
 class CORDL_TYPE NtlmClient : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Net::IAuthenticationModule
-constexpr operator  ::System::Net::IAuthenticationModule() const noexcept;
+/// @brief Convert operator to System::Net::IAuthenticationModule
+constexpr operator  System::Net::IAuthenticationModule() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -64,11 +63,11 @@ constexpr explicit NtlmClient(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::System::Net::IAuthenticationModule __declspec(property(get=__get_authObject, put=__set_authObject))  authObject;
+ System::Net::IAuthenticationModule __declspec(property(get=__get_authObject, put=__set_authObject))  authObject;
 
-constexpr void __set_authObject(::System::Net::IAuthenticationModule value) ;
+constexpr void __set_authObject(System::Net::IAuthenticationModule value) ;
 
-constexpr ::System::Net::IAuthenticationModule __get_authObject() const;
+constexpr System::Net::IAuthenticationModule __get_authObject() const;
 
 
 // Properties
@@ -85,10 +84,10 @@ explicit NtlmClient() ;
  void _ctor() ;
 
 /// @brief Method Authenticate addr 0x2842f38 size 0xd0 virtual true final true
- ::System::Net::Authorization Authenticate(::StringW challenge, ::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization Authenticate(::StringW challenge, System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method PreAuthenticate addr 0x2843008 size 0x8 virtual true final true
- ::System::Net::Authorization PreAuthenticate(::System::Net::WebRequest webRequest, ::System::Net::ICredentials credentials) ;
+ System::Net::Authorization PreAuthenticate(System::Net::WebRequest webRequest, System::Net::ICredentials credentials) ;
 
 /// @brief Method get_AuthenticationType addr 0x2843010 size 0x40 virtual true final true
  ::StringW get_AuthenticationType() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NtlmClient);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NtlmClient, "System.Net", "NtlmClient");
+NEED_NO_BOX(System::Net::NtlmClient);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient, "System.Net", "NtlmClient");

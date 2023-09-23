@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct EaseType;
@@ -97,104 +96,103 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::EaseType const None;
+static GlobalNamespace::EaseType const None;
 
 /// @brief Field Linear offset 0
-static ::GlobalNamespace::EaseType const Linear;
+static GlobalNamespace::EaseType const Linear;
 
 /// @brief Field InSine offset 0
-static ::GlobalNamespace::EaseType const InSine;
+static GlobalNamespace::EaseType const InSine;
 
 /// @brief Field OutSine offset 0
-static ::GlobalNamespace::EaseType const OutSine;
+static GlobalNamespace::EaseType const OutSine;
 
 /// @brief Field InOutSine offset 0
-static ::GlobalNamespace::EaseType const InOutSine;
+static GlobalNamespace::EaseType const InOutSine;
 
 /// @brief Field InQuad offset 0
-static ::GlobalNamespace::EaseType const InQuad;
+static GlobalNamespace::EaseType const InQuad;
 
 /// @brief Field OutQuad offset 0
-static ::GlobalNamespace::EaseType const OutQuad;
+static GlobalNamespace::EaseType const OutQuad;
 
 /// @brief Field InOutQuad offset 0
-static ::GlobalNamespace::EaseType const InOutQuad;
+static GlobalNamespace::EaseType const InOutQuad;
 
 /// @brief Field InCubic offset 0
-static ::GlobalNamespace::EaseType const InCubic;
+static GlobalNamespace::EaseType const InCubic;
 
 /// @brief Field OutCubic offset 0
-static ::GlobalNamespace::EaseType const OutCubic;
+static GlobalNamespace::EaseType const OutCubic;
 
 /// @brief Field InOutCubic offset 0
-static ::GlobalNamespace::EaseType const InOutCubic;
+static GlobalNamespace::EaseType const InOutCubic;
 
 /// @brief Field InQuart offset 0
-static ::GlobalNamespace::EaseType const InQuart;
+static GlobalNamespace::EaseType const InQuart;
 
 /// @brief Field OutQuart offset 0
-static ::GlobalNamespace::EaseType const OutQuart;
+static GlobalNamespace::EaseType const OutQuart;
 
 /// @brief Field InOutQuart offset 0
-static ::GlobalNamespace::EaseType const InOutQuart;
+static GlobalNamespace::EaseType const InOutQuart;
 
 /// @brief Field InQuint offset 0
-static ::GlobalNamespace::EaseType const InQuint;
+static GlobalNamespace::EaseType const InQuint;
 
 /// @brief Field OutQuint offset 0
-static ::GlobalNamespace::EaseType const OutQuint;
+static GlobalNamespace::EaseType const OutQuint;
 
 /// @brief Field InOutQuint offset 0
-static ::GlobalNamespace::EaseType const InOutQuint;
+static GlobalNamespace::EaseType const InOutQuint;
 
 /// @brief Field InExpo offset 0
-static ::GlobalNamespace::EaseType const InExpo;
+static GlobalNamespace::EaseType const InExpo;
 
 /// @brief Field OutExpo offset 0
-static ::GlobalNamespace::EaseType const OutExpo;
+static GlobalNamespace::EaseType const OutExpo;
 
 /// @brief Field InOutExpo offset 0
-static ::GlobalNamespace::EaseType const InOutExpo;
+static GlobalNamespace::EaseType const InOutExpo;
 
 /// @brief Field InCirc offset 0
-static ::GlobalNamespace::EaseType const InCirc;
+static GlobalNamespace::EaseType const InCirc;
 
 /// @brief Field OutCirc offset 0
-static ::GlobalNamespace::EaseType const OutCirc;
+static GlobalNamespace::EaseType const OutCirc;
 
 /// @brief Field InOutCirc offset 0
-static ::GlobalNamespace::EaseType const InOutCirc;
+static GlobalNamespace::EaseType const InOutCirc;
 
 /// @brief Field InBack offset 0
-static ::GlobalNamespace::EaseType const InBack;
+static GlobalNamespace::EaseType const InBack;
 
 /// @brief Field OutBack offset 0
-static ::GlobalNamespace::EaseType const OutBack;
+static GlobalNamespace::EaseType const OutBack;
 
 /// @brief Field InOutBack offset 0
-static ::GlobalNamespace::EaseType const InOutBack;
+static GlobalNamespace::EaseType const InOutBack;
 
 /// @brief Field InElastic offset 0
-static ::GlobalNamespace::EaseType const InElastic;
+static GlobalNamespace::EaseType const InElastic;
 
 /// @brief Field OutElastic offset 0
-static ::GlobalNamespace::EaseType const OutElastic;
+static GlobalNamespace::EaseType const OutElastic;
 
 /// @brief Field InOutElastic offset 0
-static ::GlobalNamespace::EaseType const InOutElastic;
+static GlobalNamespace::EaseType const InOutElastic;
 
 /// @brief Field InBounce offset 0
-static ::GlobalNamespace::EaseType const InBounce;
+static GlobalNamespace::EaseType const InBounce;
 
 /// @brief Field OutBounce offset 0
-static ::GlobalNamespace::EaseType const OutBounce;
+static GlobalNamespace::EaseType const OutBounce;
 
 /// @brief Field InOutBounce offset 0
-static ::GlobalNamespace::EaseType const InOutBounce;
+static GlobalNamespace::EaseType const InOutBounce;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EaseType, "", "EaseType");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EaseType, "", "EaseType");

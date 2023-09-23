@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -76,15 +75,14 @@ explicit HeartbeatExtension(uint8_t mode) ;
  uint8_t get_Mode() ;
 
 /// @brief Method Encode addr 0xf04610 size 0x6c virtual true final false
- void Encode(::System::IO::Stream output) ;
+ void Encode(System::IO::Stream output) ;
 
 /// @brief Method Parse addr 0xf0467c size 0xe4 virtual false final false
-static ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension Parse(::System::IO::Stream input) ;
+static Org::BouncyCastle::Crypto::Tls::HeartbeatExtension Parse(System::IO::Stream input) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension, "Org.BouncyCastle.Crypto.Tls", "HeartbeatExtension");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::HeartbeatExtension);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::HeartbeatExtension, "Org.BouncyCastle.Crypto.Tls", "HeartbeatExtension");

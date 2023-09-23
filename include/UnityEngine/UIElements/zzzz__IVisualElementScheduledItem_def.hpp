@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
@@ -34,15 +33,14 @@ constexpr explicit IVisualElementScheduledItem(void* ptr) noexcept : ::cordl_int
  void ExecuteLater(int64_t delayMs) ;
 
 /// @brief Method StartingIn addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IVisualElementScheduledItem StartingIn(int64_t delayMs) ;
+ UnityEngine::UIElements::IVisualElementScheduledItem StartingIn(int64_t delayMs) ;
 
 /// @brief Method Every addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::UIElements::IVisualElementScheduledItem Every(int64_t intervalMs) ;
+ UnityEngine::UIElements::IVisualElementScheduledItem Every(int64_t intervalMs) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::IVisualElementScheduledItem);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IVisualElementScheduledItem, "UnityEngine.UIElements", "IVisualElementScheduledItem");
+NEED_NO_BOX(UnityEngine::UIElements::IVisualElementScheduledItem);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::IVisualElementScheduledItem, "UnityEngine.UIElements", "IVisualElementScheduledItem");

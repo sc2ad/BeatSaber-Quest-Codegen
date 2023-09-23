@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
@@ -30,15 +29,14 @@ constexpr explicit INetSerializable(void* ptr) noexcept : ::cordl_internals::Int
 // Methods
 
 /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib::Utils
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::Utils::INetSerializable);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::INetSerializable, "LiteNetLib.Utils", "INetSerializable");
+NEED_NO_BOX(LiteNetLib::Utils::INetSerializable);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::INetSerializable, "LiteNetLib.Utils", "INetSerializable");

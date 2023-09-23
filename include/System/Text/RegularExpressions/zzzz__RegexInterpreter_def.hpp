@@ -3,7 +3,6 @@
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text::RegularExpressions {
 class RegexCode;
 }
@@ -20,7 +19,7 @@ namespace System::Text::RegularExpressions {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7780))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7773))
 // CS Name: System.Text.RegularExpressions.RegexInterpreter
-class CORDL_TYPE RegexInterpreter : public ::System::Text::RegularExpressions::RegexRunner {
+class CORDL_TYPE RegexInterpreter : public System::Text::RegularExpressions::RegexRunner {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr RegexInterpreter(RegexInterpreter const& ) noexcept = default;
 constexpr RegexInterpreter(RegexInterpreter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RegexInterpreter(void* ptr) noexcept : ::System::Text::RegularExpressions::RegexRunner(ptr) {
+constexpr explicit RegexInterpreter(void* ptr) noexcept : System::Text::RegularExpressions::RegexRunner(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit RegexInterpreter(void* ptr) noexcept : ::System::Text::Regula
 
 // Fields
 
- ::System::Text::RegularExpressions::RegexCode __declspec(property(get=__get__code, put=__set__code))  _code;
+ System::Text::RegularExpressions::RegexCode __declspec(property(get=__get__code, put=__set__code))  _code;
 
-constexpr void __set__code(::System::Text::RegularExpressions::RegexCode value) ;
+constexpr void __set__code(System::Text::RegularExpressions::RegexCode value) ;
 
-constexpr ::System::Text::RegularExpressions::RegexCode __get__code() const;
+constexpr System::Text::RegularExpressions::RegexCode __get__code() const;
 
- ::System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
+ System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
 
-constexpr void __set__culture(::System::Globalization::CultureInfo value) ;
+constexpr void __set__culture(System::Globalization::CultureInfo value) ;
 
-constexpr ::System::Globalization::CultureInfo __get__culture() const;
+constexpr System::Globalization::CultureInfo __get__culture() const;
 
  int32_t __declspec(property(get=__get__operator, put=__set__operator))  _operator;
 
@@ -95,11 +94,11 @@ constexpr bool __get__caseInsensitive() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "code", ty: "::System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "::System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexInterpreter(::System::Text::RegularExpressions::RegexCode code, ::System::Globalization::CultureInfo culture) ;
+// Ctor Parameters [CppParam { name: "code", ty: "System::Text::RegularExpressions::RegexCode", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
+explicit RegexInterpreter(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27ccde8 size 0x2c virtual false final false
- void _ctor(::System::Text::RegularExpressions::RegexCode code, ::System::Globalization::CultureInfo culture) ;
+ void _ctor(System::Text::RegularExpressions::RegexCode code, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method InitTrackCount addr 0x27cce1c size 0x20 virtual true final false
  void InitTrackCount() ;
@@ -222,6 +221,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexInterpreter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexInterpreter, "System.Text.RegularExpressions", "RegexInterpreter");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexInterpreter);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter, "System.Text.RegularExpressions", "RegexInterpreter");

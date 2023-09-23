@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 class HEU_SessionHAPI;
@@ -12,7 +11,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9722))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9726))
 // CS Name: HoudiniEngineUnity.HEU_SessionHAPI
-class CORDL_TYPE HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase {
+class CORDL_TYPE HEU_SessionHAPI : public HoudiniEngineUnity::HEU_SessionBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr HEU_SessionHAPI(HEU_SessionHAPI const& ) noexcept = default;
 constexpr HEU_SessionHAPI(HEU_SessionHAPI&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_SessionHAPI(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_SessionBase(ptr) {
+constexpr explicit HEU_SessionHAPI(void* ptr) noexcept : HoudiniEngineUnity::HEU_SessionBase(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionHAPI);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionHAPI, "HoudiniEngineUnity", "HEU_SessionHAPI");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_SessionHAPI);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_SessionHAPI, "HoudiniEngineUnity", "HEU_SessionHAPI");

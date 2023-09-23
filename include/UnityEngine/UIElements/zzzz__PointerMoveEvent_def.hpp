@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
-namespace {
 namespace UnityEngine::UIElements {
 class IPanel;
 }
@@ -12,10 +11,10 @@ class PointerMoveEvent;
 // Type: UnityEngine.UIElements::PointerMoveEvent
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7297)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 1650 })}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7297), inst: 1650 }), TypeDefinitionIndex(TypeDefinitionIndex(7297))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7299))
 // CS Name: UnityEngine.UIElements.PointerMoveEvent
-class CORDL_TYPE PointerMoveEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerMoveEvent> {
+class CORDL_TYPE PointerMoveEvent : public UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerMoveEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr PointerMoveEvent(PointerMoveEvent const& ) noexcept = default;
 constexpr PointerMoveEvent(PointerMoveEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PointerMoveEvent(void* ptr) noexcept : ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerMoveEvent>(ptr) {
+constexpr explicit PointerMoveEvent(void* ptr) noexcept : UnityEngine::UIElements::PointerEventBase_1<UnityEngine::UIElements::PointerMoveEvent>(ptr) {
 }
 
 
@@ -84,12 +83,11 @@ explicit PointerMoveEvent() ;
  void _ctor() ;
 
 /// @brief Method PostDispatch addr 0x2cd80ac size 0x608 virtual true final false
- void PostDispatch(::UnityEngine::UIElements::IPanel panel) ;
+ void PostDispatch(UnityEngine::UIElements::IPanel panel) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::PointerMoveEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerMoveEvent, "UnityEngine.UIElements", "PointerMoveEvent");
+NEED_NO_BOX(UnityEngine::UIElements::PointerMoveEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::PointerMoveEvent, "UnityEngine.UIElements", "PointerMoveEvent");

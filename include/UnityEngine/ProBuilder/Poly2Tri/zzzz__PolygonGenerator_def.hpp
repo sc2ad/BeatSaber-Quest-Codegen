@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::ProBuilder::Poly2Tri {
-class Polygon;
-}
 namespace System {
 class Random;
+}
+namespace UnityEngine::ProBuilder::Poly2Tri {
+class Polygon;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -56,11 +55,11 @@ constexpr explicit PolygonGenerator(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::System::Random __declspec(property(get=__get_RNG, put=__set_RNG))  RNG;
+static System::Random __declspec(property(get=__get_RNG, put=__set_RNG))  RNG;
 
-static void __set_RNG(::System::Random value) ;
+static void __set_RNG(System::Random value) ;
 
-static ::System::Random __get_RNG() ;
+static System::Random __get_RNG() ;
 
 static double_t __declspec(property(get=__get_PI_2, put=__set_PI_2))  PI_2;
 
@@ -72,10 +71,10 @@ static double_t __get_PI_2() ;
 // Methods
 
 /// @brief Method RandomCircleSweep addr 0x29a2374 size 0x2f0 virtual false final false
-static ::UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep(double_t scale, int32_t vertexCount) ;
+static UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep(double_t scale, int32_t vertexCount) ;
 
 /// @brief Method RandomCircleSweep2 addr 0x29a2664 size 0x25c virtual false final false
-static ::UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep2(double_t scale, int32_t vertexCount) ;
+static UnityEngine::ProBuilder::Poly2Tri::Polygon RandomCircleSweep2(double_t scale, int32_t vertexCount) ;
 
 // Ctor Parameters []
 explicit PolygonGenerator() ;
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Poly2Tri
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator, "UnityEngine.ProBuilder.Poly2Tri", "PolygonGenerator");
+NEED_NO_BOX(UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator, "UnityEngine.ProBuilder.Poly2Tri", "PolygonGenerator");

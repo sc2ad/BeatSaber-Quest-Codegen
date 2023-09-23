@@ -6,28 +6,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Sprite;
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelPack;
+class PreviewBeatmapLevelPackSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class DlcPromoPanelDataSO;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
+class GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
 }
 // Type: ::MusicPackPromoInfo
 namespace GlobalNamespace {
@@ -35,59 +34,59 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5918))
 // CS Name: DlcPromoPanelDataSO::MusicPackPromoInfo
-class CORDL_TYPE ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo() = default;
+virtual ~GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo&& o) noexcept = default;
-  constexpr ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo const& o) noexcept = default;
+  constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo&& o) noexcept = default;
+  constexpr GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo& operator=(GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::GlobalNamespace::PreviewBeatmapLevelPackSO __declspec(property(get=__get__beatmapLevelPack, put=__set__beatmapLevelPack))  _beatmapLevelPack;
+ GlobalNamespace::PreviewBeatmapLevelPackSO __declspec(property(get=__get__beatmapLevelPack, put=__set__beatmapLevelPack))  _beatmapLevelPack;
 
-constexpr void __set__beatmapLevelPack(::GlobalNamespace::PreviewBeatmapLevelPackSO value) ;
+constexpr void __set__beatmapLevelPack(GlobalNamespace::PreviewBeatmapLevelPackSO value) ;
 
-constexpr ::GlobalNamespace::PreviewBeatmapLevelPackSO __get__beatmapLevelPack() const;
+constexpr GlobalNamespace::PreviewBeatmapLevelPackSO __get__beatmapLevelPack() const;
 
- ::GlobalNamespace::BeatmapLevelSO __declspec(property(get=__get__beatmapLevel, put=__set__beatmapLevel))  _beatmapLevel;
+ GlobalNamespace::BeatmapLevelSO __declspec(property(get=__get__beatmapLevel, put=__set__beatmapLevel))  _beatmapLevel;
 
-constexpr void __set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO value) ;
+constexpr void __set__beatmapLevel(GlobalNamespace::BeatmapLevelSO value) ;
 
-constexpr ::GlobalNamespace::BeatmapLevelSO __get__beatmapLevel() const;
+constexpr GlobalNamespace::BeatmapLevelSO __get__beatmapLevel() const;
 
- ::UnityEngine::Sprite __declspec(property(get=__get__bannerImage, put=__set__bannerImage))  _bannerImage;
+ UnityEngine::Sprite __declspec(property(get=__get__bannerImage, put=__set__bannerImage))  _bannerImage;
 
-constexpr void __set__bannerImage(::UnityEngine::Sprite value) ;
+constexpr void __set__bannerImage(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get__bannerImage() const;
+constexpr UnityEngine::Sprite __get__bannerImage() const;
 
  ::StringW __declspec(property(get=__get__bannerPromoText, put=__set__bannerPromoText))  _bannerPromoText;
 
@@ -104,11 +103,11 @@ constexpr float_t __get__bannerPromoTextPosition() const;
 
 // Properties
 
- ::GlobalNamespace::IBeatmapLevelPack __declspec(property(get=get_previewBeatmapLevelPack))  previewBeatmapLevelPack;
+ GlobalNamespace::IBeatmapLevelPack __declspec(property(get=get_previewBeatmapLevelPack))  previewBeatmapLevelPack;
 
- ::GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=get_previewBeatmapLevel))  previewBeatmapLevel;
+ GlobalNamespace::IPreviewBeatmapLevel __declspec(property(get=get_previewBeatmapLevel))  previewBeatmapLevel;
 
- ::UnityEngine::Sprite __declspec(property(get=get_bannerImage))  bannerImage;
+ UnityEngine::Sprite __declspec(property(get=get_bannerImage))  bannerImage;
 
  ::StringW __declspec(property(get=get_bannerPromoText))  bannerPromoText;
 
@@ -118,13 +117,13 @@ constexpr float_t __get__bannerPromoTextPosition() const;
 // Methods
 
 /// @brief Method get_previewBeatmapLevelPack addr 0x21923c4 size 0x8 virtual false final false
- ::GlobalNamespace::IBeatmapLevelPack get_previewBeatmapLevelPack() ;
+ GlobalNamespace::IBeatmapLevelPack get_previewBeatmapLevelPack() ;
 
 /// @brief Method get_previewBeatmapLevel addr 0x21923cc size 0x8 virtual false final false
- ::GlobalNamespace::IPreviewBeatmapLevel get_previewBeatmapLevel() ;
+ GlobalNamespace::IPreviewBeatmapLevel get_previewBeatmapLevel() ;
 
 /// @brief Method get_bannerImage addr 0x21923d4 size 0x8 virtual false final false
- ::UnityEngine::Sprite get_bannerImage() ;
+ UnityEngine::Sprite get_bannerImage() ;
 
 /// @brief Method get_bannerPromoText addr 0x21923dc size 0x8 virtual false final false
  ::StringW get_bannerPromoText() ;
@@ -133,7 +132,7 @@ constexpr float_t __get__bannerPromoTextPosition() const;
  float_t get_bannerPromoTextPosition() ;
 
 // Ctor Parameters []
-explicit ____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo() ;
+explicit GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo() ;
 
 /// @brief Method .ctor addr 0x21923ec size 0x8 virtual false final false
  void _ctor() ;
@@ -148,10 +147,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
 // CS Name: DlcPromoPanelDataSO
-class CORDL_TYPE DlcPromoPanelDataSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE DlcPromoPanelDataSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
-using MusicPackPromoInfo = ::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
+using MusicPackPromoInfo = GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -165,7 +164,7 @@ constexpr DlcPromoPanelDataSO(DlcPromoPanelDataSO const& ) noexcept = default;
 constexpr DlcPromoPanelDataSO(DlcPromoPanelDataSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DlcPromoPanelDataSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit DlcPromoPanelDataSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -192,11 +191,11 @@ constexpr void __set__defaultMusicPackPromoIndex(int32_t value) ;
 
 constexpr int32_t __get__defaultMusicPackPromoIndex() const;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __declspec(property(get=__get__musicPackPromoInfos, put=__set__musicPackPromoInfos))  _musicPackPromoInfos;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __declspec(property(get=__get__musicPackPromoInfos, put=__set__musicPackPromoInfos))  _musicPackPromoInfos;
 
-constexpr void __set__musicPackPromoInfos(::ArrayW<::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> value) ;
+constexpr void __set__musicPackPromoInfos(::ArrayW<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __get__musicPackPromoInfos() const;
+constexpr ::ArrayW<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __get__musicPackPromoInfos() const;
 
  int32_t __declspec(property(get=__get__cutOffTest, put=__set__cutOffTest))  _cutOffTest;
 
@@ -217,9 +216,9 @@ constexpr int32_t __get__minNumberOfNotOwnedPacks() const;
 
  int32_t __declspec(property(get=get_minNumberOfNotOwnedPacks))  minNumberOfNotOwnedPacks;
 
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __declspec(property(get=get_musicPackPromoInfos))  musicPackPromoInfos;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> __declspec(property(get=get_musicPackPromoInfos))  musicPackPromoInfos;
 
- ::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo __declspec(property(get=get_defaultMusicPackPromo))  defaultMusicPackPromo;
+ GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo __declspec(property(get=get_defaultMusicPackPromo))  defaultMusicPackPromo;
 
 
 // Methods
@@ -231,10 +230,10 @@ constexpr int32_t __get__minNumberOfNotOwnedPacks() const;
  int32_t get_minNumberOfNotOwnedPacks() ;
 
 /// @brief Method get_musicPackPromoInfos addr 0x2192378 size 0x8 virtual false final false
- ::ArrayW<::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> get_musicPackPromoInfos() ;
+ ::ArrayW<GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo> get_musicPackPromoInfos() ;
 
 /// @brief Method get_defaultMusicPackPromo addr 0x2192380 size 0x34 virtual false final false
- ::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo get_defaultMusicPackPromo() ;
+ GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo get_defaultMusicPackPromo() ;
 
 // Ctor Parameters []
 explicit DlcPromoPanelDataSO() ;
@@ -246,8 +245,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DlcPromoPanelDataSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DlcPromoPanelDataSO, "", "DlcPromoPanelDataSO");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo, "", "DlcPromoPanelDataSO/MusicPackPromoInfo");
+NEED_NO_BOX(GlobalNamespace::DlcPromoPanelDataSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoPanelDataSO, "", "DlcPromoPanelDataSO");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__DlcPromoPanelDataSO__MusicPackPromoInfo, "", "DlcPromoPanelDataSO/MusicPackPromoInfo");

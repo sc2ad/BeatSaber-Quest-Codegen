@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {
 struct NtlmFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NegotiateUnicode offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateUnicode;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateUnicode;
 
 /// @brief Field NegotiateOem offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateOem;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateOem;
 
 /// @brief Field RequestTarget offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const RequestTarget;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const RequestTarget;
 
 /// @brief Field NegotiateNtlm offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateNtlm;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateNtlm;
 
 /// @brief Field NegotiateDomainSupplied offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateDomainSupplied;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateDomainSupplied;
 
 /// @brief Field NegotiateWorkstationSupplied offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateWorkstationSupplied;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateWorkstationSupplied;
 
 /// @brief Field NegotiateAlwaysSign offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateAlwaysSign;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateAlwaysSign;
 
 /// @brief Field NegotiateNtlm2Key offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateNtlm2Key;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const NegotiateNtlm2Key;
 
 /// @brief Field Negotiate128 offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const Negotiate128;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const Negotiate128;
 
 /// @brief Field Negotiate56 offset 0
-static ::Mono::Security::Protocol::Ntlm::NtlmFlags const Negotiate56;
+static Mono::Security::Protocol::Ntlm::NtlmFlags const Negotiate56;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmFlags, "Mono.Security.Protocol.Ntlm", "NtlmFlags");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::NtlmFlags, "Mono.Security.Protocol.Ntlm", "NtlmFlags");

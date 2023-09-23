@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Mono::Security::Protocol::Ntlm {
 struct NtlmFlags;
 }
@@ -65,16 +64,16 @@ constexpr void __set__type(int32_t value) ;
 
 constexpr int32_t __get__type() const;
 
- ::Mono::Security::Protocol::Ntlm::NtlmFlags __declspec(property(get=__get__flags, put=__set__flags))  _flags;
+ Mono::Security::Protocol::Ntlm::NtlmFlags __declspec(property(get=__get__flags, put=__set__flags))  _flags;
 
-constexpr void __set__flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value) ;
+constexpr void __set__flags(Mono::Security::Protocol::Ntlm::NtlmFlags value) ;
 
-constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags __get__flags() const;
+constexpr Mono::Security::Protocol::Ntlm::NtlmFlags __get__flags() const;
 
 
 // Properties
 
- ::Mono::Security::Protocol::Ntlm::NtlmFlags __declspec(property(get=get_Flags, put=set_Flags))  Flags;
+ Mono::Security::Protocol::Ntlm::NtlmFlags __declspec(property(get=get_Flags, put=set_Flags))  Flags;
 
  int32_t __declspec(property(get=get_Type))  Type;
 
@@ -88,10 +87,10 @@ explicit MessageBase(int32_t messageType) ;
  void _ctor(int32_t messageType) ;
 
 /// @brief Method get_Flags addr 0x22938e8 size 0x8 virtual false final false
- ::Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags() ;
+ Mono::Security::Protocol::Ntlm::NtlmFlags get_Flags() ;
 
 /// @brief Method set_Flags addr 0x22938f0 size 0x8 virtual false final false
- void set_Flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value) ;
+ void set_Flags(Mono::Security::Protocol::Ntlm::NtlmFlags value) ;
 
 /// @brief Method get_Type addr 0x22938f8 size 0x8 virtual false final false
  int32_t get_Type() ;
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Security::Protocol::Ntlm
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::MessageBase);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::MessageBase, "Mono.Security.Protocol.Ntlm", "MessageBase");
+NEED_NO_BOX(Mono::Security::Protocol::Ntlm::MessageBase);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase, "Mono.Security.Protocol.Ntlm", "MessageBase");

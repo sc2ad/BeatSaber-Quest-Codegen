@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform {
 struct LogEventParameter;
@@ -96,101 +95,100 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::Oculus::Platform::LogEventParameter const Unknown;
+static Oculus::Platform::LogEventParameter const Unknown;
 
 /// @brief Field VrCurrency offset 0
-static ::Oculus::Platform::LogEventParameter const VrCurrency;
+static Oculus::Platform::LogEventParameter const VrCurrency;
 
 /// @brief Field VrRegistrationMethod offset 0
-static ::Oculus::Platform::LogEventParameter const VrRegistrationMethod;
+static Oculus::Platform::LogEventParameter const VrRegistrationMethod;
 
 /// @brief Field VrContentType offset 0
-static ::Oculus::Platform::LogEventParameter const VrContentType;
+static Oculus::Platform::LogEventParameter const VrContentType;
 
 /// @brief Field VrContent offset 0
-static ::Oculus::Platform::LogEventParameter const VrContent;
+static Oculus::Platform::LogEventParameter const VrContent;
 
 /// @brief Field VrContentId offset 0
-static ::Oculus::Platform::LogEventParameter const VrContentId;
+static Oculus::Platform::LogEventParameter const VrContentId;
 
 /// @brief Field VrSearchString offset 0
-static ::Oculus::Platform::LogEventParameter const VrSearchString;
+static Oculus::Platform::LogEventParameter const VrSearchString;
 
 /// @brief Field VrSuccess offset 0
-static ::Oculus::Platform::LogEventParameter const VrSuccess;
+static Oculus::Platform::LogEventParameter const VrSuccess;
 
 /// @brief Field VrMaxRatingValue offset 0
-static ::Oculus::Platform::LogEventParameter const VrMaxRatingValue;
+static Oculus::Platform::LogEventParameter const VrMaxRatingValue;
 
 /// @brief Field VrPaymentInfoAvailable offset 0
-static ::Oculus::Platform::LogEventParameter const VrPaymentInfoAvailable;
+static Oculus::Platform::LogEventParameter const VrPaymentInfoAvailable;
 
 /// @brief Field VrNumItems offset 0
-static ::Oculus::Platform::LogEventParameter const VrNumItems;
+static Oculus::Platform::LogEventParameter const VrNumItems;
 
 /// @brief Field VrLevel offset 0
-static ::Oculus::Platform::LogEventParameter const VrLevel;
+static Oculus::Platform::LogEventParameter const VrLevel;
 
 /// @brief Field VrDescription offset 0
-static ::Oculus::Platform::LogEventParameter const VrDescription;
+static Oculus::Platform::LogEventParameter const VrDescription;
 
 /// @brief Field AdType offset 0
-static ::Oculus::Platform::LogEventParameter const AdType;
+static Oculus::Platform::LogEventParameter const AdType;
 
 /// @brief Field VrOrderId offset 0
-static ::Oculus::Platform::LogEventParameter const VrOrderId;
+static Oculus::Platform::LogEventParameter const VrOrderId;
 
 /// @brief Field EventName offset 0
-static ::Oculus::Platform::LogEventParameter const EventName;
+static Oculus::Platform::LogEventParameter const EventName;
 
 /// @brief Field LogTime offset 0
-static ::Oculus::Platform::LogEventParameter const LogTime;
+static Oculus::Platform::LogEventParameter const LogTime;
 
 /// @brief Field ImplicitlyLogged offset 0
-static ::Oculus::Platform::LogEventParameter const ImplicitlyLogged;
+static Oculus::Platform::LogEventParameter const ImplicitlyLogged;
 
 /// @brief Field InBackground offset 0
-static ::Oculus::Platform::LogEventParameter const InBackground;
+static Oculus::Platform::LogEventParameter const InBackground;
 
 /// @brief Field VrPushCampaign offset 0
-static ::Oculus::Platform::LogEventParameter const VrPushCampaign;
+static Oculus::Platform::LogEventParameter const VrPushCampaign;
 
 /// @brief Field VrPushAction offset 0
-static ::Oculus::Platform::LogEventParameter const VrPushAction;
+static Oculus::Platform::LogEventParameter const VrPushAction;
 
 /// @brief Field VrIapProductType offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapProductType;
+static Oculus::Platform::LogEventParameter const VrIapProductType;
 
 /// @brief Field VrContentTitle offset 0
-static ::Oculus::Platform::LogEventParameter const VrContentTitle;
+static Oculus::Platform::LogEventParameter const VrContentTitle;
 
 /// @brief Field VrTransactionId offset 0
-static ::Oculus::Platform::LogEventParameter const VrTransactionId;
+static Oculus::Platform::LogEventParameter const VrTransactionId;
 
 /// @brief Field VrTransactionDate offset 0
-static ::Oculus::Platform::LogEventParameter const VrTransactionDate;
+static Oculus::Platform::LogEventParameter const VrTransactionDate;
 
 /// @brief Field VrIapSubsPeriod offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapSubsPeriod;
+static Oculus::Platform::LogEventParameter const VrIapSubsPeriod;
 
 /// @brief Field VrIapIsStartTrial offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapIsStartTrial;
+static Oculus::Platform::LogEventParameter const VrIapIsStartTrial;
 
 /// @brief Field VrIapHasFreeTrial offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapHasFreeTrial;
+static Oculus::Platform::LogEventParameter const VrIapHasFreeTrial;
 
 /// @brief Field VrIapTrialPeriod offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapTrialPeriod;
+static Oculus::Platform::LogEventParameter const VrIapTrialPeriod;
 
 /// @brief Field VrIapTrialPrice offset 0
-static ::Oculus::Platform::LogEventParameter const VrIapTrialPrice;
+static Oculus::Platform::LogEventParameter const VrIapTrialPrice;
 
 /// @brief Field SessionId offset 0
-static ::Oculus::Platform::LogEventParameter const SessionId;
+static Oculus::Platform::LogEventParameter const SessionId;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::LogEventParameter, "Oculus.Platform", "LogEventParameter");
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LogEventParameter, "Oculus.Platform", "LogEventParameter");

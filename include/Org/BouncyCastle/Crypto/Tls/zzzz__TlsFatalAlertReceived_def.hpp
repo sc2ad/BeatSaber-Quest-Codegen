@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsException_def.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsFatalAlertReceived;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1307))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1310))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsFatalAlertReceived
-class CORDL_TYPE TlsFatalAlertReceived : public ::Org::BouncyCastle::Crypto::Tls::TlsException {
+class CORDL_TYPE TlsFatalAlertReceived : public Org::BouncyCastle::Crypto::Tls::TlsException {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr TlsFatalAlertReceived(TlsFatalAlertReceived const& ) noexcept = defaul
 constexpr TlsFatalAlertReceived(TlsFatalAlertReceived&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsFatalAlertReceived(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Tls::TlsException(ptr) {
+constexpr explicit TlsFatalAlertReceived(void* ptr) noexcept : Org::BouncyCastle::Crypto::Tls::TlsException(ptr) {
 }
 
 
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived, "Org.BouncyCastle.Crypto.Tls", "TlsFatalAlertReceived");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived, "Org.BouncyCastle.Crypto.Tls", "TlsFatalAlertReceived");

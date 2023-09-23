@@ -4,12 +4,9 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Color32;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace HoudiniEngineUnity {
 template<typename T>
@@ -18,9 +15,11 @@ class IEquivable_1;
 namespace HoudiniEngineUnity {
 class HEU_TreePrototypeInfo;
 }
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
+namespace UnityEngine {
+struct Color32;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -35,8 +34,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_VolumeScatterTrees : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_VolumeScatterTrees>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x58};
@@ -71,17 +70,17 @@ constexpr explicit HEU_VolumeScatterTrees(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo> __declspec(property(get=__get__treePrototypInfos, put=__set__treePrototypInfos))  _treePrototypInfos;
+ System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo> __declspec(property(get=__get__treePrototypInfos, put=__set__treePrototypInfos))  _treePrototypInfos;
 
-constexpr void __set__treePrototypInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo> value) ;
+constexpr void __set__treePrototypInfos(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TreePrototypeInfo> __get__treePrototypInfos() const;
+constexpr System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo> __get__treePrototypInfos() const;
 
- ::ArrayW<::UnityEngine::Color32> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
+ ::ArrayW<UnityEngine::Color32> __declspec(property(get=__get__colors, put=__set__colors))  _colors;
 
-constexpr void __set__colors(::ArrayW<::UnityEngine::Color32> value) ;
+constexpr void __set__colors(::ArrayW<UnityEngine::Color32> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Color32> __get__colors() const;
+constexpr ::ArrayW<UnityEngine::Color32> __get__colors() const;
 
  ::ArrayW<float_t> __declspec(property(get=__get__heightScales, put=__set__heightScales))  _heightScales;
 
@@ -89,17 +88,17 @@ constexpr void __set__heightScales(::ArrayW<float_t> value) ;
 
 constexpr ::ArrayW<float_t> __get__heightScales() const;
 
- ::ArrayW<::UnityEngine::Color32> __declspec(property(get=__get__lightmapColors, put=__set__lightmapColors))  _lightmapColors;
+ ::ArrayW<UnityEngine::Color32> __declspec(property(get=__get__lightmapColors, put=__set__lightmapColors))  _lightmapColors;
 
-constexpr void __set__lightmapColors(::ArrayW<::UnityEngine::Color32> value) ;
+constexpr void __set__lightmapColors(::ArrayW<UnityEngine::Color32> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Color32> __get__lightmapColors() const;
+constexpr ::ArrayW<UnityEngine::Color32> __get__lightmapColors() const;
 
- ::ArrayW<::UnityEngine::Vector3> __declspec(property(get=__get__positions, put=__set__positions))  _positions;
+ ::ArrayW<UnityEngine::Vector3> __declspec(property(get=__get__positions, put=__set__positions))  _positions;
 
-constexpr void __set__positions(::ArrayW<::UnityEngine::Vector3> value) ;
+constexpr void __set__positions(::ArrayW<UnityEngine::Vector3> value) ;
 
-constexpr ::ArrayW<::UnityEngine::Vector3> __get__positions() const;
+constexpr ::ArrayW<UnityEngine::Vector3> __get__positions() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get__prototypeIndices, put=__set__prototypeIndices))  _prototypeIndices;
 
@@ -129,7 +128,7 @@ constexpr ::ArrayW<int32_t> __get__terrainTiles() const;
 // Methods
 
 /// @brief Method IsEquivalentTo addr 0x20778b8 size 0x374 virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::HEU_VolumeScatterTrees other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeScatterTrees other) ;
 
 // Ctor Parameters []
 explicit HEU_VolumeScatterTrees() ;
@@ -141,6 +140,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_VolumeScatterTrees);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_VolumeScatterTrees, "HoudiniEngineUnity", "HEU_VolumeScatterTrees");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_VolumeScatterTrees);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeScatterTrees, "HoudiniEngineUnity", "HEU_VolumeScatterTrees");

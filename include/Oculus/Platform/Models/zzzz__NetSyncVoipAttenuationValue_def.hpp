@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncVoipAttenuationValue;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Oculus::Platform::Models
-} // end anonymous namespace
-NEED_NO_BOX(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
-DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::NetSyncVoipAttenuationValue, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");
+NEED_NO_BOX(Oculus::Platform::Models::NetSyncVoipAttenuationValue);
+DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncVoipAttenuationValue, "Oculus.Platform.Models", "NetSyncVoipAttenuationValue");

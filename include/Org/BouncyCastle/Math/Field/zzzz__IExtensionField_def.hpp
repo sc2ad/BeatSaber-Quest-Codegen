@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
@@ -18,8 +17,8 @@ namespace Org::BouncyCastle::Math::Field {
 class CORDL_TYPE IExtensionField : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::Field::IFiniteField
-constexpr operator  ::Org::BouncyCastle::Math::Field::IFiniteField() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::Field::IFiniteField
+constexpr operator  Org::BouncyCastle::Math::Field::IFiniteField() const noexcept;
 
 ~IExtensionField() = default;
 
@@ -30,7 +29,7 @@ constexpr explicit IExtensionField(void* ptr) noexcept : ::cordl_internals::Inte
 
 // Properties
 
- ::Org::BouncyCastle::Math::Field::IFiniteField __declspec(property(get=get_Subfield))  Subfield;
+ Org::BouncyCastle::Math::Field::IFiniteField __declspec(property(get=get_Subfield))  Subfield;
 
  int32_t __declspec(property(get=get_Degree))  Degree;
 
@@ -38,7 +37,7 @@ constexpr explicit IExtensionField(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method get_Subfield addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::Field::IFiniteField get_Subfield() ;
+ Org::BouncyCastle::Math::Field::IFiniteField get_Subfield() ;
 
 /// @brief Method get_Degree addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Degree() ;
@@ -47,6 +46,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Field
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Field::IExtensionField);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::IExtensionField, "Org.BouncyCastle.Math.Field", "IExtensionField");
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::IExtensionField);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IExtensionField, "Org.BouncyCastle.Math.Field", "IExtensionField");

@@ -3,12 +3,11 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -23,8 +22,8 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE VertexPickerEntry : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "mesh", ty: "::UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "worldPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-constexpr VertexPickerEntry(::UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex, float_t screenDistance, ::UnityEngine::Vector3 worldPosition) noexcept;
+// Ctor Parameters [CppParam { name: "mesh", ty: "UnityEngine::ProBuilder::ProBuilderMesh", modifiers: "", def_value: None }, CppParam { name: "vertex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "screenDistance", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "worldPosition", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }]
+constexpr VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh mesh, int32_t vertex, float_t screenDistance, UnityEngine::Vector3 worldPosition) noexcept;
 
 
                     constexpr VertexPickerEntry(VertexPickerEntry const&) = default;
@@ -57,11 +56,11 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_mesh, put=__set_mesh))  mesh;
+ UnityEngine::ProBuilder::ProBuilderMesh __declspec(property(get=__get_mesh, put=__set_mesh))  mesh;
 
-constexpr void __set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh value) ;
+constexpr void __set_mesh(UnityEngine::ProBuilder::ProBuilderMesh value) ;
 
-constexpr ::UnityEngine::ProBuilder::ProBuilderMesh __get_mesh() const;
+constexpr UnityEngine::ProBuilder::ProBuilderMesh __get_mesh() const;
 
  int32_t __declspec(property(get=__get_vertex, put=__set_vertex))  vertex;
 
@@ -75,15 +74,14 @@ constexpr void __set_screenDistance(float_t value) ;
 
 constexpr float_t __get_screenDistance() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_worldPosition, put=__set_worldPosition))  worldPosition;
+ UnityEngine::Vector3 __declspec(property(get=__get_worldPosition, put=__set_worldPosition))  worldPosition;
 
-constexpr void __set_worldPosition(::UnityEngine::Vector3 value) ;
+constexpr void __set_worldPosition(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_worldPosition() const;
+constexpr UnityEngine::Vector3 __get_worldPosition() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::VertexPickerEntry, "UnityEngine.ProBuilder", "VertexPickerEntry");

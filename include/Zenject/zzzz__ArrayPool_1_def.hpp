@@ -3,7 +3,6 @@
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
@@ -23,10 +22,10 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 2701 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11026)), TypeDefinitionIndex(TypeDefinitionIndex(11036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 2701 })}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11036), inst: 2 })
 // CS Name: Zenject.ArrayPool`1
-class CORDL_TYPE ArrayPool_1<T> : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T>> {
+class CORDL_TYPE ArrayPool_1<T> : public Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T>> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr ArrayPool_1(ArrayPool_1 const& ) noexcept = default;
 constexpr ArrayPool_1(ArrayPool_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ArrayPool_1(void* ptr) noexcept : ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T>>(ptr) {
+constexpr explicit ArrayPool_1(void* ptr) noexcept : Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T>>(ptr) {
 }
 
 
@@ -68,11 +67,11 @@ constexpr void __set__length(int32_t value) ;
 
 constexpr int32_t __get__length() const;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::Zenject::ArrayPool_1<T>> __declspec(property(get=__get__pools, put=__set__pools))  _pools;
+static System::Collections::Generic::Dictionary_2<int32_t,Zenject::ArrayPool_1<T>> __declspec(property(get=__get__pools, put=__set__pools))  _pools;
 
-static void __set__pools(::System::Collections::Generic::Dictionary_2<int32_t,::Zenject::ArrayPool_1<T>> value) ;
+static void __set__pools(System::Collections::Generic::Dictionary_2<int32_t,Zenject::ArrayPool_1<T>> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<int32_t,::Zenject::ArrayPool_1<T>> __get__pools() ;
+static System::Collections::Generic::Dictionary_2<int32_t,Zenject::ArrayPool_1<T>> __get__pools() ;
 
 
 // Methods
@@ -93,11 +92,10 @@ static void OnDespawned(::ArrayW<T> arr) ;
  ::ArrayW<T> Alloc() ;
 
 /// @brief Method GetPool addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::ArrayPool_1<T> GetPool(int32_t length) ;
+static Zenject::ArrayPool_1<T> GetPool(int32_t length) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::ArrayPool_1, "Zenject", "ArrayPool`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ArrayPool_1, "Zenject", "ArrayPool`1");

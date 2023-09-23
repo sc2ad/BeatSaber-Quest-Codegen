@@ -1,26 +1,25 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace GlobalNamespace {
-class AsyncComputeOperation;
+class IAsyncComputeManager;
+}
+namespace System::Threading {
+class Thread;
 }
 namespace GlobalNamespace {
 template<typename T>
 class AsyncComputeOperation_1;
 }
-namespace System::Threading {
-class Thread;
+namespace GlobalNamespace {
+class AsyncComputeOperation;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Concurrent {
 template<typename T>
 class BlockingCollection_1;
-}
-namespace GlobalNamespace {
-class IAsyncComputeManager;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Threading::Tasks {
 template<typename TResult>
@@ -39,11 +38,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE AsyncComputeManager : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IAsyncComputeManager
-constexpr operator  ::GlobalNamespace::IAsyncComputeManager() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IAsyncComputeManager
+constexpr operator  GlobalNamespace::IAsyncComputeManager() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -78,17 +77,17 @@ constexpr explicit AsyncComputeManager(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 // Fields
 
- ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation> __declspec(property(get=__get__asyncComputeRequests, put=__set__asyncComputeRequests))  _asyncComputeRequests;
+ System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation> __declspec(property(get=__get__asyncComputeRequests, put=__set__asyncComputeRequests))  _asyncComputeRequests;
 
-constexpr void __set__asyncComputeRequests(::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation> value) ;
+constexpr void __set__asyncComputeRequests(System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation> value) ;
 
-constexpr ::System::Collections::Concurrent::BlockingCollection_1<::GlobalNamespace::AsyncComputeOperation> __get__asyncComputeRequests() const;
+constexpr System::Collections::Concurrent::BlockingCollection_1<GlobalNamespace::AsyncComputeOperation> __get__asyncComputeRequests() const;
 
- ::System::Threading::Thread __declspec(property(get=__get__computeThread, put=__set__computeThread))  _computeThread;
+ System::Threading::Thread __declspec(property(get=__get__computeThread, put=__set__computeThread))  _computeThread;
 
-constexpr void __set__computeThread(::System::Threading::Thread value) ;
+constexpr void __set__computeThread(System::Threading::Thread value) ;
 
-constexpr ::System::Threading::Thread __get__computeThread() const;
+constexpr System::Threading::Thread __get__computeThread() const;
 
  bool __declspec(property(get=__get__disposed, put=__set__disposed))  _disposed;
 
@@ -109,11 +108,11 @@ explicit AsyncComputeManager() ;
  void Dispose() ;
 
 /// @brief Method BeginOperation addr 0xd9c278 size 0x58 virtual true final true
- void BeginOperation(::GlobalNamespace::AsyncComputeOperation operation) ;
+ void BeginOperation(GlobalNamespace::AsyncComputeOperation operation) ;
 
 /// @brief Method BeginOperation addr 0x0 size 0xffffffffffffffff virtual true final true
 template<typename T>
- ::System::Threading::Tasks::Task_1<T> BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T> operation) ;
+ System::Threading::Tasks::Task_1<T> BeginOperation(GlobalNamespace::AsyncComputeOperation_1<T> operation) ;
 
 /// @brief Method ComputeThreadRun addr 0xd9c2d0 size 0x160 virtual false final false
  void ComputeThreadRun() ;
@@ -122,6 +121,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::AsyncComputeManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AsyncComputeManager, "", "AsyncComputeManager");
+NEED_NO_BOX(GlobalNamespace::AsyncComputeManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncComputeManager, "", "AsyncComputeManager");

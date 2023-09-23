@@ -1,6 +1,5 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
-namespace {
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
@@ -26,18 +25,17 @@ constexpr explicit ITimelineClipAsset(void* ptr) noexcept : ::cordl_internals::I
 
 // Properties
 
- ::UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
+ UnityEngine::Timeline::ClipCaps __declspec(property(get=get_clipCaps))  clipCaps;
 
 
 // Methods
 
 /// @brief Method get_clipCaps addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
+ UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::ITimelineClipAsset);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimelineClipAsset, "UnityEngine.Timeline", "ITimelineClipAsset");
+NEED_NO_BOX(UnityEngine::Timeline::ITimelineClipAsset);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineClipAsset, "UnityEngine.Timeline", "ITimelineClipAsset");

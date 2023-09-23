@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
-struct Quaternion;
-}
-namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -30,7 +29,7 @@ namespace UnityEngine::ProBuilder::Shapes {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12175))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12181))
 // CS Name: UnityEngine.ProBuilder.Shapes.Torus
-class CORDL_TYPE Torus : public ::UnityEngine::ProBuilder::Shapes::Shape {
+class CORDL_TYPE Torus : public UnityEngine::ProBuilder::Shapes::Shape {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr Torus(Torus const& ) noexcept = default;
 constexpr Torus(Torus&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Torus(void* ptr) noexcept : ::UnityEngine::ProBuilder::Shapes::Shape(ptr) {
+constexpr explicit Torus(void* ptr) noexcept : UnityEngine::ProBuilder::Shapes::Shape(ptr) {
 }
 
 
@@ -106,19 +105,19 @@ constexpr bool __get_m_Smooth() const;
 // Methods
 
 /// @brief Method CopyShape addr 0x29fbb74 size 0x8c virtual true final false
- void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape shape) ;
+ void CopyShape(UnityEngine::ProBuilder::Shapes::Shape shape) ;
 
 /// @brief Method UpdateBounds addr 0x29fbc00 size 0x88 virtual true final false
- ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) ;
+ UnityEngine::Bounds UpdateBounds(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation, UnityEngine::Bounds bounds) ;
 
 /// @brief Method RebuildMesh addr 0x29fbc88 size 0x984 virtual true final false
- ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) ;
+ UnityEngine::Bounds RebuildMesh(UnityEngine::ProBuilder::ProBuilderMesh mesh, UnityEngine::Vector3 size, UnityEngine::Quaternion rotation) ;
 
 /// @brief Method GetCirclePoints addr 0x29fc60c size 0x34c virtual false final false
-static ::ArrayW<::UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation, float_t offset) ;
+static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, UnityEngine::Quaternion rotation, float_t offset) ;
 
 /// @brief Method GetCirclePoints addr 0x29fc958 size 0x298 virtual false final false
-static ::ArrayW<::UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 offset) ;
+static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int32_t segments, float_t radius, float_t circumference, UnityEngine::Quaternion rotation, UnityEngine::Vector3 offset) ;
 
 // Ctor Parameters []
 explicit Torus() ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder::Shapes
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Torus);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Torus, "UnityEngine.ProBuilder.Shapes", "Torus");
+NEED_NO_BOX(UnityEngine::ProBuilder::Shapes::Torus);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Shapes::Torus, "UnityEngine.ProBuilder.Shapes", "Torus");

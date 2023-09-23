@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace System {
 class EventArgs;
@@ -48,11 +47,11 @@ constexpr explicit EventArgs(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::System::EventArgs __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
+static System::EventArgs __declspec(property(get=__get_Empty, put=__set_Empty))  Empty;
 
-static void __set_Empty(::System::EventArgs value) ;
+static void __set_Empty(System::EventArgs value) ;
 
-static ::System::EventArgs __get_Empty() ;
+static System::EventArgs __get_Empty() ;
 
 
 // Methods
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::EventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::System::EventArgs, "System", "EventArgs");
+NEED_NO_BOX(System::EventArgs);
+DEFINE_IL2CPP_ARG_TYPE(System::EventArgs, "System", "EventArgs");

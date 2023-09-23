@@ -5,10 +5,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -17,12 +13,15 @@ namespace System {
 template<typename T>
 struct Span_1;
 }
+namespace System::Net::Sockets {
+struct AddressFamily;
+}
 // Forward declare root types
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Net {
-class ____System__Net__IPAddress__ReadOnlyIPAddress;
+class System__Net__IPAddress__ReadOnlyIPAddress;
 }
 // Type: System.Net::IPAddress
 namespace System::Net {
@@ -33,7 +32,7 @@ namespace System::Net {
 class CORDL_TYPE IPAddress : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using ReadOnlyIPAddress = ::System::Net::____System__Net__IPAddress__ReadOnlyIPAddress;
+using ReadOnlyIPAddress = System::Net::System__Net__IPAddress__ReadOnlyIPAddress;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -68,50 +67,50 @@ constexpr explicit IPAddress(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
-static ::System::Net::IPAddress __declspec(property(get=__get_Any, put=__set_Any))  Any;
+static System::Net::IPAddress __declspec(property(get=__get_Any, put=__set_Any))  Any;
 
-static void __set_Any(::System::Net::IPAddress value) ;
+static void __set_Any(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_Any() ;
+static System::Net::IPAddress __get_Any() ;
 
-static ::System::Net::IPAddress __declspec(property(get=__get_Loopback, put=__set_Loopback))  Loopback;
+static System::Net::IPAddress __declspec(property(get=__get_Loopback, put=__set_Loopback))  Loopback;
 
-static void __set_Loopback(::System::Net::IPAddress value) ;
+static void __set_Loopback(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_Loopback() ;
+static System::Net::IPAddress __get_Loopback() ;
 
-static ::System::Net::IPAddress __declspec(property(get=__get_Broadcast, put=__set_Broadcast))  Broadcast;
+static System::Net::IPAddress __declspec(property(get=__get_Broadcast, put=__set_Broadcast))  Broadcast;
 
-static void __set_Broadcast(::System::Net::IPAddress value) ;
+static void __set_Broadcast(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_Broadcast() ;
+static System::Net::IPAddress __get_Broadcast() ;
 
-static ::System::Net::IPAddress __declspec(property(get=__get_None, put=__set_None))  None;
+static System::Net::IPAddress __declspec(property(get=__get_None, put=__set_None))  None;
 
-static void __set_None(::System::Net::IPAddress value) ;
+static void __set_None(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_None() ;
+static System::Net::IPAddress __get_None() ;
 
 /// @brief Field LoopbackMask offset 0
 static constexpr int64_t  LoopbackMask{255};
 
-static ::System::Net::IPAddress __declspec(property(get=__get_IPv6Any, put=__set_IPv6Any))  IPv6Any;
+static System::Net::IPAddress __declspec(property(get=__get_IPv6Any, put=__set_IPv6Any))  IPv6Any;
 
-static void __set_IPv6Any(::System::Net::IPAddress value) ;
+static void __set_IPv6Any(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_IPv6Any() ;
+static System::Net::IPAddress __get_IPv6Any() ;
 
-static ::System::Net::IPAddress __declspec(property(get=__get_IPv6Loopback, put=__set_IPv6Loopback))  IPv6Loopback;
+static System::Net::IPAddress __declspec(property(get=__get_IPv6Loopback, put=__set_IPv6Loopback))  IPv6Loopback;
 
-static void __set_IPv6Loopback(::System::Net::IPAddress value) ;
+static void __set_IPv6Loopback(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_IPv6Loopback() ;
+static System::Net::IPAddress __get_IPv6Loopback() ;
 
-static ::System::Net::IPAddress __declspec(property(get=__get_IPv6None, put=__set_IPv6None))  IPv6None;
+static System::Net::IPAddress __declspec(property(get=__get_IPv6None, put=__set_IPv6None))  IPv6None;
 
-static void __set_IPv6None(::System::Net::IPAddress value) ;
+static void __set_IPv6None(System::Net::IPAddress value) ;
 
-static ::System::Net::IPAddress __get_IPv6None() ;
+static System::Net::IPAddress __get_IPv6None() ;
 
  uint32_t __declspec(property(get=__get__addressOrScopeId, put=__set__addressOrScopeId))  _addressOrScopeId;
 
@@ -151,7 +150,7 @@ static constexpr int32_t  NumberOfLabels{8};
 
  uint32_t __declspec(property(get=get_PrivateScopeId, put=set_PrivateScopeId))  PrivateScopeId;
 
- ::System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
+ System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
 
  int64_t __declspec(property(get=get_ScopeId))  ScopeId;
 
@@ -190,11 +189,11 @@ explicit IPAddress(::ArrayW<uint8_t> address, int64_t scopeid) ;
 /// @brief Method .ctor addr 0x27f9194 size 0x7c virtual false final false
  void _ctor(::ArrayW<uint8_t> address, int64_t scopeid) ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "int64_t", modifiers: "", def_value: None }]
-explicit IPAddress(::System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid) ;
+// Ctor Parameters [CppParam { name: "address", ty: "System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "int64_t", modifiers: "", def_value: None }]
+explicit IPAddress(System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid) ;
 
 /// @brief Method .ctor addr 0x27f9260 size 0x184 virtual false final false
- void _ctor(::System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid) ;
+ void _ctor(System::ReadOnlySpan_1<uint8_t> address, int64_t scopeid) ;
 
 // Ctor Parameters [CppParam { name: "numbers", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "numbersLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scopeid", ty: "uint32_t", modifiers: "", def_value: None }]
 explicit IPAddress(void* numbers, int32_t numbersLength, uint32_t scopeid) ;
@@ -214,32 +213,32 @@ explicit IPAddress(::ArrayW<uint8_t> address) ;
 /// @brief Method .ctor addr 0x27f94d0 size 0x6c virtual false final false
  void _ctor(::ArrayW<uint8_t> address) ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }]
-explicit IPAddress(::System::ReadOnlySpan_1<uint8_t> address) ;
+// Ctor Parameters [CppParam { name: "address", ty: "System::ReadOnlySpan_1<uint8_t>", modifiers: "", def_value: None }]
+explicit IPAddress(System::ReadOnlySpan_1<uint8_t> address) ;
 
 /// @brief Method .ctor addr 0x27f953c size 0x150 virtual false final false
- void _ctor(::System::ReadOnlySpan_1<uint8_t> address) ;
+ void _ctor(System::ReadOnlySpan_1<uint8_t> address) ;
 
 /// @brief Method TryParse addr 0x27f968c size 0x6c virtual false final false
-static bool TryParse(::StringW ipString, ByRef<::System::Net::IPAddress> address) ;
+static bool TryParse(::StringW ipString, ByRef<System::Net::IPAddress> address) ;
 
 /// @brief Method Parse addr 0x27f98f4 size 0x9c virtual false final false
-static ::System::Net::IPAddress Parse(::StringW ipString) ;
+static System::Net::IPAddress Parse(::StringW ipString) ;
 
 /// @brief Method TryWriteBytes addr 0x27f9990 size 0x118 virtual false final false
- bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten) ;
+ bool TryWriteBytes(System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten) ;
 
 /// @brief Method WriteIPv6Bytes addr 0x27f9aa8 size 0x8c virtual false final false
- void WriteIPv6Bytes(::System::Span_1<uint8_t> destination) ;
+ void WriteIPv6Bytes(System::Span_1<uint8_t> destination) ;
 
 /// @brief Method WriteIPv4Bytes addr 0x27f9b34 size 0x4c virtual false final false
- void WriteIPv4Bytes(::System::Span_1<uint8_t> destination) ;
+ void WriteIPv4Bytes(System::Span_1<uint8_t> destination) ;
 
 /// @brief Method GetAddressBytes addr 0x27f9b80 size 0x154 virtual false final false
  ::ArrayW<uint8_t> GetAddressBytes() ;
 
 /// @brief Method get_AddressFamily addr 0x27f9cd4 size 0x18 virtual false final false
- ::System::Net::Sockets::AddressFamily get_AddressFamily() ;
+ System::Net::Sockets::AddressFamily get_AddressFamily() ;
 
 /// @brief Method get_ScopeId addr 0x27f9cec size 0x58 virtual false final false
  int64_t get_ScopeId() ;
@@ -248,7 +247,7 @@ static ::System::Net::IPAddress Parse(::StringW ipString) ;
  ::StringW ToString() ;
 
 /// @brief Method IsLoopback addr 0x27f9e50 size 0xc8 virtual false final false
-static bool IsLoopback(::System::Net::IPAddress address) ;
+static bool IsLoopback(System::Net::IPAddress address) ;
 
 /// @brief Method get_IsIPv6Multicast addr 0x27f9f18 size 0x34 virtual false final false
  bool get_IsIPv6Multicast() ;
@@ -263,7 +262,7 @@ static bool IsLoopback(::System::Net::IPAddress address) ;
  int32_t GetHashCode() ;
 
 /// @brief Method MapToIPv6 addr 0x27fa4f0 size 0xe0 virtual false final false
- ::System::Net::IPAddress MapToIPv6() ;
+ System::Net::IPAddress MapToIPv6() ;
 
 /// @brief Method ThrowAddressNullException addr 0x27f9210 size 0x50 virtual false final false
 static ::ArrayW<uint8_t> ThrowAddressNullException() ;
@@ -278,44 +277,44 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7881))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7880))
 // CS Name: System.Net.IPAddress::ReadOnlyIPAddress
-class CORDL_TYPE ____System__Net__IPAddress__ReadOnlyIPAddress : public ::System::Net::IPAddress {
+class CORDL_TYPE System__Net__IPAddress__ReadOnlyIPAddress : public System::Net::IPAddress {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
 
-virtual ~____System__Net__IPAddress__ReadOnlyIPAddress() = default;
+virtual ~System__Net__IPAddress__ReadOnlyIPAddress() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__IPAddress__ReadOnlyIPAddress", modifiers: " const&", def_value: None }]
-constexpr ____System__Net__IPAddress__ReadOnlyIPAddress(____System__Net__IPAddress__ReadOnlyIPAddress const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__IPAddress__ReadOnlyIPAddress", modifiers: " const&", def_value: None }]
+constexpr System__Net__IPAddress__ReadOnlyIPAddress(System__Net__IPAddress__ReadOnlyIPAddress const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Net__IPAddress__ReadOnlyIPAddress", modifiers: "&&", def_value: None }]
-constexpr ____System__Net__IPAddress__ReadOnlyIPAddress(____System__Net__IPAddress__ReadOnlyIPAddress&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Net__IPAddress__ReadOnlyIPAddress", modifiers: "&&", def_value: None }]
+constexpr System__Net__IPAddress__ReadOnlyIPAddress(System__Net__IPAddress__ReadOnlyIPAddress&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Net__IPAddress__ReadOnlyIPAddress(void* ptr) noexcept : ::System::Net::IPAddress(ptr) {
+constexpr explicit System__Net__IPAddress__ReadOnlyIPAddress(void* ptr) noexcept : System::Net::IPAddress(ptr) {
 }
 
 
-  constexpr ____System__Net__IPAddress__ReadOnlyIPAddress& operator=(std::nullptr_t) noexcept {
+  constexpr System__Net__IPAddress__ReadOnlyIPAddress& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Net__IPAddress__ReadOnlyIPAddress& operator=(void* o) noexcept {
+  constexpr System__Net__IPAddress__ReadOnlyIPAddress& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Net__IPAddress__ReadOnlyIPAddress& operator=(____System__Net__IPAddress__ReadOnlyIPAddress&& o) noexcept = default;
-  constexpr ____System__Net__IPAddress__ReadOnlyIPAddress& operator=(____System__Net__IPAddress__ReadOnlyIPAddress const& o) noexcept = default;
+  constexpr System__Net__IPAddress__ReadOnlyIPAddress& operator=(System__Net__IPAddress__ReadOnlyIPAddress&& o) noexcept = default;
+  constexpr System__Net__IPAddress__ReadOnlyIPAddress& operator=(System__Net__IPAddress__ReadOnlyIPAddress const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "newAddress", ty: "int64_t", modifiers: "", def_value: None }]
-explicit ____System__Net__IPAddress__ReadOnlyIPAddress(int64_t newAddress) ;
+explicit System__Net__IPAddress__ReadOnlyIPAddress(int64_t newAddress) ;
 
 /// @brief Method .ctor addr 0x27fa77c size 0x64 virtual false final false
  void _ctor(int64_t newAddress) ;
@@ -324,8 +323,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::IPAddress);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::IPAddress, "System.Net", "IPAddress");
-NEED_NO_BOX(::System::Net::____System__Net__IPAddress__ReadOnlyIPAddress);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::____System__Net__IPAddress__ReadOnlyIPAddress, "System.Net", "IPAddress/ReadOnlyIPAddress");
+NEED_NO_BOX(System::Net::IPAddress);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress, "System.Net", "IPAddress");
+NEED_NO_BOX(System::Net::System__Net__IPAddress__ReadOnlyIPAddress);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::System__Net__IPAddress__ReadOnlyIPAddress, "System.Net", "IPAddress/ReadOnlyIPAddress");

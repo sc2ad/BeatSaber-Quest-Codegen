@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410ValidationParameters;
@@ -121,6 +120,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Parameters
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, "Org.BouncyCastle.Crypto.Parameters", "Gost3410ValidationParameters");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters, "Org.BouncyCastle.Crypto.Parameters", "Gost3410ValidationParameters");

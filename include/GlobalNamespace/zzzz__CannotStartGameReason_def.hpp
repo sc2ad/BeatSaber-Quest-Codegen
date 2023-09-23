@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct CannotStartGameReason;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::GlobalNamespace::CannotStartGameReason const None;
+static GlobalNamespace::CannotStartGameReason const None;
 
 /// @brief Field AllPlayersSpectating offset 0
-static ::GlobalNamespace::CannotStartGameReason const AllPlayersSpectating;
+static GlobalNamespace::CannotStartGameReason const AllPlayersSpectating;
 
 /// @brief Field NoSongSelected offset 0
-static ::GlobalNamespace::CannotStartGameReason const NoSongSelected;
+static GlobalNamespace::CannotStartGameReason const NoSongSelected;
 
 /// @brief Field AllPlayersNotInLobby offset 0
-static ::GlobalNamespace::CannotStartGameReason const AllPlayersNotInLobby;
+static GlobalNamespace::CannotStartGameReason const AllPlayersNotInLobby;
 
 /// @brief Field DoNotOwnSong offset 0
-static ::GlobalNamespace::CannotStartGameReason const DoNotOwnSong;
+static GlobalNamespace::CannotStartGameReason const DoNotOwnSong;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CannotStartGameReason, "", "CannotStartGameReason");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CannotStartGameReason, "", "CannotStartGameReason");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"
-namespace {
 namespace HMUI {
 struct UISelectionState;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5559)), TypeDefinitionIndex(TypeDefinitionIndex(13688)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5559), inst: 4809 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5561))
 // CS Name: NoTransitionToggleSelectableStateController
-class CORDL_TYPE NoTransitionToggleSelectableStateController : public ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle> {
+class CORDL_TYPE NoTransitionToggleSelectableStateController : public GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsToggle> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr NoTransitionToggleSelectableStateController(NoTransitionToggleSelectab
 constexpr NoTransitionToggleSelectableStateController(NoTransitionToggleSelectableStateController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NoTransitionToggleSelectableStateController(void* ptr) noexcept : ::GlobalNamespace::SelectableStateController_1<::HMUI::NoTransitionsToggle>(ptr) {
+constexpr explicit NoTransitionToggleSelectableStateController(void* ptr) noexcept : GlobalNamespace::SelectableStateController_1<HMUI::NoTransitionsToggle>(ptr) {
 }
 
 
@@ -59,10 +58,10 @@ constexpr explicit NoTransitionToggleSelectableStateController(void* ptr) noexce
  void OnDisable() ;
 
 /// @brief Method HandleNoTransitionToggleSelectionStateDidChange addr 0x212bc78 size 0x8 virtual false final false
- void HandleNoTransitionToggleSelectionStateDidChange(::HMUI::UISelectionState state) ;
+ void HandleNoTransitionToggleSelectionStateDidChange(HMUI::UISelectionState state) ;
 
 /// @brief Method ResolveSelectionState addr 0x212bb00 size 0xec virtual false final false
- void ResolveSelectionState(::HMUI::UISelectionState state, bool animated) ;
+ void ResolveSelectionState(HMUI::UISelectionState state, bool animated) ;
 
 // Ctor Parameters []
 explicit NoTransitionToggleSelectableStateController() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoTransitionToggleSelectableStateController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoTransitionToggleSelectableStateController, "", "NoTransitionToggleSelectableStateController");
+NEED_NO_BOX(GlobalNamespace::NoTransitionToggleSelectableStateController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionToggleSelectableStateController, "", "NoTransitionToggleSelectableStateController");

@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System::Reflection {
-class MemberInfo;
-}
 namespace System {
 class Type;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -74,11 +73,11 @@ constexpr void __set_hasTypeForwardedFrom(bool value) ;
 
 constexpr bool __get_hasTypeForwardedFrom() const;
 
- ::ArrayW<::System::Reflection::MemberInfo> __declspec(property(get=__get_memberInfos, put=__set_memberInfos))  memberInfos;
+ ::ArrayW<System::Reflection::MemberInfo> __declspec(property(get=__get_memberInfos, put=__set_memberInfos))  memberInfos;
 
-constexpr void __set_memberInfos(::ArrayW<::System::Reflection::MemberInfo> value) ;
+constexpr void __set_memberInfos(::ArrayW<System::Reflection::MemberInfo> value) ;
 
-constexpr ::ArrayW<::System::Reflection::MemberInfo> __get_memberInfos() const;
+constexpr ::ArrayW<System::Reflection::MemberInfo> __get_memberInfos() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_memberNames, put=__set_memberNames))  memberNames;
 
@@ -86,11 +85,11 @@ constexpr void __set_memberNames(::ArrayW<::StringW> value) ;
 
 constexpr ::ArrayW<::StringW> __get_memberNames() const;
 
- ::ArrayW<::System::Type> __declspec(property(get=__get_memberTypes, put=__set_memberTypes))  memberTypes;
+ ::ArrayW<System::Type> __declspec(property(get=__get_memberTypes, put=__set_memberTypes))  memberTypes;
 
-constexpr void __set_memberTypes(::ArrayW<::System::Type> value) ;
+constexpr void __set_memberTypes(::ArrayW<System::Type> value) ;
 
-constexpr ::ArrayW<::System::Type> __get_memberTypes() const;
+constexpr ::ArrayW<System::Type> __get_memberTypes() const;
 
 
 // Methods
@@ -101,16 +100,15 @@ explicit SerObjectInfoCache(::StringW typeName, ::StringW assemblyName, bool has
 /// @brief Method .ctor addr 0x235f0bc size 0x3c virtual false final false
  void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom) ;
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit SerObjectInfoCache(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit SerObjectInfoCache(System::Type type) ;
 
 /// @brief Method .ctor addr 0x235f0f8 size 0x8c virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");

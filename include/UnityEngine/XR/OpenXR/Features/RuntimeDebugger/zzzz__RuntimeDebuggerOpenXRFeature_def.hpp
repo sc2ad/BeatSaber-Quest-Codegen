@@ -3,12 +3,11 @@
 #include "UnityEngine/XR/OpenXR/Features/zzzz__OpenXRFeature_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct Guid;
-}
 namespace UnityEngine::Networking::PlayerConnection {
 class MessageEventArgs;
+}
+namespace System {
+struct Guid;
 }
 // Forward declare root types
 namespace UnityEngine::XR::OpenXR::Features::RuntimeDebugger {
@@ -20,7 +19,7 @@ namespace UnityEngine::XR::OpenXR::Features::RuntimeDebugger {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14201))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16070))
 // CS Name: UnityEngine.XR.OpenXR.Features.RuntimeDebugger.RuntimeDebuggerOpenXRFeature
-class CORDL_TYPE RuntimeDebuggerOpenXRFeature : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
+class CORDL_TYPE RuntimeDebuggerOpenXRFeature : public UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -35,7 +34,7 @@ constexpr RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeature const& ) noe
 constexpr RuntimeDebuggerOpenXRFeature(RuntimeDebuggerOpenXRFeature&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RuntimeDebuggerOpenXRFeature(void* ptr) noexcept : ::UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
+constexpr explicit RuntimeDebuggerOpenXRFeature(void* ptr) noexcept : UnityEngine::XR::OpenXR::Features::OpenXRFeature(ptr) {
 }
 
 
@@ -56,17 +55,17 @@ constexpr explicit RuntimeDebuggerOpenXRFeature(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
-static ::System::Guid __declspec(property(get=__get_kEditorToPlayerRequestDebuggerOutput, put=__set_kEditorToPlayerRequestDebuggerOutput))  kEditorToPlayerRequestDebuggerOutput;
+static System::Guid __declspec(property(get=__get_kEditorToPlayerRequestDebuggerOutput, put=__set_kEditorToPlayerRequestDebuggerOutput))  kEditorToPlayerRequestDebuggerOutput;
 
-static void __set_kEditorToPlayerRequestDebuggerOutput(::System::Guid value) ;
+static void __set_kEditorToPlayerRequestDebuggerOutput(System::Guid value) ;
 
-static ::System::Guid __get_kEditorToPlayerRequestDebuggerOutput() ;
+static System::Guid __get_kEditorToPlayerRequestDebuggerOutput() ;
 
-static ::System::Guid __declspec(property(get=__get_kPlayerToEditorSendDebuggerOutput, put=__set_kPlayerToEditorSendDebuggerOutput))  kPlayerToEditorSendDebuggerOutput;
+static System::Guid __declspec(property(get=__get_kPlayerToEditorSendDebuggerOutput, put=__set_kPlayerToEditorSendDebuggerOutput))  kPlayerToEditorSendDebuggerOutput;
 
-static void __set_kPlayerToEditorSendDebuggerOutput(::System::Guid value) ;
+static void __set_kPlayerToEditorSendDebuggerOutput(System::Guid value) ;
 
-static ::System::Guid __get_kPlayerToEditorSendDebuggerOutput() ;
+static System::Guid __get_kPlayerToEditorSendDebuggerOutput() ;
 
  uint32_t __declspec(property(get=__get_cacheSize, put=__set_cacheSize))  cacheSize;
 
@@ -96,7 +95,7 @@ static constexpr ::ConstString  Library{u"openxr_runtime_debugger"};
  ::cordl_internals::intptr_t HookGetInstanceProcAddr(::cordl_internals::intptr_t func) ;
 
 /// @brief Method RecvMsg addr 0x2b06764 size 0x210 virtual false final false
- void RecvMsg(::UnityEngine::Networking::PlayerConnection::MessageEventArgs args) ;
+ void RecvMsg(UnityEngine::Networking::PlayerConnection::MessageEventArgs args) ;
 
 /// @brief Method Native_HookGetInstanceProcAddr addr 0x2b066d0 size 0x94 virtual false final false
 static ::cordl_internals::intptr_t Native_HookGetInstanceProcAddr(::cordl_internals::intptr_t func, uint32_t cacheSize, uint32_t perThreadCacheSize) ;
@@ -123,6 +122,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::XR::OpenXR::Features::RuntimeDebugger
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature, "UnityEngine.XR.OpenXR.Features.RuntimeDebugger", "RuntimeDebuggerOpenXRFeature");
+NEED_NO_BOX(UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::OpenXR::Features::RuntimeDebugger::RuntimeDebuggerOpenXRFeature, "UnityEngine.XR.OpenXR.Features.RuntimeDebugger", "RuntimeDebuggerOpenXRFeature");

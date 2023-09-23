@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities::Encoders {
 class ITranslator;
 }
@@ -20,8 +19,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE HexTranslator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::Encoders::ITranslator
-constexpr operator  ::Org::BouncyCastle::Utilities::Encoders::ITranslator() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::Encoders::ITranslator
+constexpr operator  Org::BouncyCastle::Utilities::Encoders::ITranslator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -87,6 +86,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexTranslator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::HexTranslator, "Org.BouncyCastle.Utilities.Encoders", "HexTranslator");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::HexTranslator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexTranslator, "Org.BouncyCastle.Utilities.Encoders", "HexTranslator");

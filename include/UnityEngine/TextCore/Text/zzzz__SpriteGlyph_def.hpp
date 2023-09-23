@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_def.hpp"
-namespace {
 namespace UnityEngine {
 class Sprite;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::TextCore::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15506))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13547))
 // CS Name: UnityEngine.TextCore.Text.SpriteGlyph
-class CORDL_TYPE SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
+class CORDL_TYPE SpriteGlyph : public UnityEngine::TextCore::Glyph {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SpriteGlyph(SpriteGlyph const& ) noexcept = default;
 constexpr SpriteGlyph(SpriteGlyph&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SpriteGlyph(void* ptr) noexcept : ::UnityEngine::TextCore::Glyph(ptr) {
+constexpr explicit SpriteGlyph(void* ptr) noexcept : UnityEngine::TextCore::Glyph(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit SpriteGlyph(void* ptr) noexcept : ::UnityEngine::TextCore::Gl
 
 // Fields
 
- ::UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
+ UnityEngine::Sprite __declspec(property(get=__get_sprite, put=__set_sprite))  sprite;
 
-constexpr void __set_sprite(::UnityEngine::Sprite value) ;
+constexpr void __set_sprite(UnityEngine::Sprite value) ;
 
-constexpr ::UnityEngine::Sprite __get_sprite() const;
+constexpr UnityEngine::Sprite __get_sprite() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::TextCore::Text
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextCore::Text::SpriteGlyph);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::SpriteGlyph, "UnityEngine.TextCore.Text", "SpriteGlyph");
+NEED_NO_BOX(UnityEngine::TextCore::Text::SpriteGlyph);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::Text::SpriteGlyph, "UnityEngine.TextCore.Text", "SpriteGlyph");

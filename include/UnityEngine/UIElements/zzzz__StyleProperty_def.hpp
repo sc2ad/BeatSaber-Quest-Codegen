@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 struct StyleValueHandle;
 }
@@ -66,11 +65,11 @@ constexpr void __set_m_Line(int32_t value) ;
 
 constexpr int32_t __get_m_Line() const;
 
- ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
+ ::ArrayW<UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=__get_m_Values, put=__set_m_Values))  m_Values;
 
-constexpr void __set_m_Values(::ArrayW<::UnityEngine::UIElements::StyleValueHandle> value) ;
+constexpr void __set_m_Values(::ArrayW<UnityEngine::UIElements::StyleValueHandle> value) ;
 
-constexpr ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> __get_m_Values() const;
+constexpr ::ArrayW<UnityEngine::UIElements::StyleValueHandle> __get_m_Values() const;
 
  bool __declspec(property(get=__get_isCustomProperty, put=__set_isCustomProperty))  isCustomProperty;
 
@@ -89,7 +88,7 @@ constexpr bool __get_requireVariableResolve() const;
 
  ::StringW __declspec(property(get=get_name))  name;
 
- ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=get_values))  values;
+ ::ArrayW<UnityEngine::UIElements::StyleValueHandle> __declspec(property(get=get_values))  values;
 
 
 // Methods
@@ -98,7 +97,7 @@ constexpr bool __get_requireVariableResolve() const;
  ::StringW get_name() ;
 
 /// @brief Method get_values addr 0x2cf24bc size 0x8 virtual false final false
- ::ArrayW<::UnityEngine::UIElements::StyleValueHandle> get_values() ;
+ ::ArrayW<UnityEngine::UIElements::StyleValueHandle> get_values() ;
 
 // Ctor Parameters []
 explicit StyleProperty() ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::StyleProperty);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleProperty, "UnityEngine.UIElements", "StyleProperty");
+NEED_NO_BOX(UnityEngine::UIElements::StyleProperty);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleProperty, "UnityEngine.UIElements", "StyleProperty");

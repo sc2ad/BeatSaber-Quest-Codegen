@@ -4,31 +4,27 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Newtonsoft::Json::Converters {
-class IXmlDocument;
-}
-namespace Newtonsoft::Json::Converters {
-class IXmlNode;
-}
-namespace Newtonsoft::Json {
-class JsonSerializer;
-}
 namespace Newtonsoft::Json {
 class JsonReader;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class List_1;
 }
 namespace System::Xml {
 class XmlNamespaceManager;
 }
+namespace System {
+class Type;
+}
+namespace Newtonsoft::Json {
+class JsonSerializer;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlDocument;
+}
 namespace Newtonsoft::Json {
 class JsonWriter;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class List_1;
 }
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
@@ -36,6 +32,9 @@ class Dictionary_2;
 }
 namespace Newtonsoft::Json::Converters {
 class IXmlElement;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -47,7 +46,7 @@ namespace Newtonsoft::Json::Converters {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11772))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12010))
 // CS Name: Newtonsoft.Json.Converters.XmlNodeConverter
-class CORDL_TYPE XmlNodeConverter : public ::Newtonsoft::Json::JsonConverter {
+class CORDL_TYPE XmlNodeConverter : public Newtonsoft::Json::JsonConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -62,7 +61,7 @@ constexpr XmlNodeConverter(XmlNodeConverter const& ) noexcept = default;
 constexpr XmlNodeConverter(XmlNodeConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlNodeConverter(void* ptr) noexcept : ::Newtonsoft::Json::JsonConverter(ptr) {
+constexpr explicit XmlNodeConverter(void* ptr) noexcept : Newtonsoft::Json::JsonConverter(ptr) {
 }
 
 
@@ -153,79 +152,79 @@ constexpr bool __get__OmitRootObject_k__BackingField() const;
  void set_OmitRootObject(bool value) ;
 
 /// @brief Method WriteJson addr 0x254574c size 0x124 virtual true final false
- void WriteJson(::Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ void WriteJson(Newtonsoft::Json::JsonWriter writer, ::bs_hook::Il2CppWrapperType value, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method WrapXml addr 0x2545870 size 0x11c virtual false final false
- ::Newtonsoft::Json::Converters::IXmlNode WrapXml(::bs_hook::Il2CppWrapperType value) ;
+ Newtonsoft::Json::Converters::IXmlNode WrapXml(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method PushParentNamespaces addr 0x254598c size 0x668 virtual false final false
- void PushParentNamespaces(::Newtonsoft::Json::Converters::IXmlNode node, ::System::Xml::XmlNamespaceManager manager) ;
+ void PushParentNamespaces(Newtonsoft::Json::Converters::IXmlNode node, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method ResolveFullName addr 0x25476dc size 0x31c virtual false final false
- ::StringW ResolveFullName(::Newtonsoft::Json::Converters::IXmlNode node, ::System::Xml::XmlNamespaceManager manager) ;
+ ::StringW ResolveFullName(Newtonsoft::Json::Converters::IXmlNode node, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method GetPropertyName addr 0x25479f8 size 0x428 virtual false final false
- ::StringW GetPropertyName(::Newtonsoft::Json::Converters::IXmlNode node, ::System::Xml::XmlNamespaceManager manager) ;
+ ::StringW GetPropertyName(Newtonsoft::Json::Converters::IXmlNode node, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method IsArray addr 0x2547e20 size 0x3ec virtual false final false
- bool IsArray(::Newtonsoft::Json::Converters::IXmlNode node) ;
+ bool IsArray(Newtonsoft::Json::Converters::IXmlNode node) ;
 
 /// @brief Method SerializeGroupedNodes addr 0x254820c size 0x578 virtual false final false
- void SerializeGroupedNodes(::Newtonsoft::Json::JsonWriter writer, ::Newtonsoft::Json::Converters::IXmlNode node, ::System::Xml::XmlNamespaceManager manager, bool writePropertyName) ;
+ void SerializeGroupedNodes(Newtonsoft::Json::JsonWriter writer, Newtonsoft::Json::Converters::IXmlNode node, System::Xml::XmlNamespaceManager manager, bool writePropertyName) ;
 
 /// @brief Method SerializeNode addr 0x2545ff4 size 0x16e8 virtual false final false
- void SerializeNode(::Newtonsoft::Json::JsonWriter writer, ::Newtonsoft::Json::Converters::IXmlNode node, ::System::Xml::XmlNamespaceManager manager, bool writePropertyName) ;
+ void SerializeNode(Newtonsoft::Json::JsonWriter writer, Newtonsoft::Json::Converters::IXmlNode node, System::Xml::XmlNamespaceManager manager, bool writePropertyName) ;
 
 /// @brief Method AllSameName addr 0x2548784 size 0x2ac virtual false final false
-static bool AllSameName(::Newtonsoft::Json::Converters::IXmlNode node) ;
+static bool AllSameName(Newtonsoft::Json::Converters::IXmlNode node) ;
 
 /// @brief Method ReadJson addr 0x2548c44 size 0x658 virtual true final false
- ::bs_hook::Il2CppWrapperType ReadJson(::Newtonsoft::Json::JsonReader reader, ::System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, ::Newtonsoft::Json::JsonSerializer serializer) ;
+ ::bs_hook::Il2CppWrapperType ReadJson(Newtonsoft::Json::JsonReader reader, System::Type objectType, ::bs_hook::Il2CppWrapperType existingValue, Newtonsoft::Json::JsonSerializer serializer) ;
 
 /// @brief Method DeserializeValue addr 0x2549c38 size 0x590 virtual false final false
- void DeserializeValue(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::System::Xml::XmlNamespaceManager manager, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode currentNode) ;
+ void DeserializeValue(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, System::Xml::XmlNamespaceManager manager, ::StringW propertyName, Newtonsoft::Json::Converters::IXmlNode currentNode) ;
 
 /// @brief Method ReadElement addr 0x254929c size 0x2d8 virtual false final false
- void ReadElement(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW propertyName, ::System::Xml::XmlNamespaceManager manager) ;
+ void ReadElement(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW propertyName, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method CreateElement addr 0x254b644 size 0x680 virtual false final false
- void CreateElement(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW elementName, ::System::Xml::XmlNamespaceManager manager, ::StringW elementPrefix, ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> attributeNameValues) ;
+ void CreateElement(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW elementName, System::Xml::XmlNamespaceManager manager, ::StringW elementPrefix, System::Collections::Generic::Dictionary_2<::StringW,::StringW> attributeNameValues) ;
 
 /// @brief Method AddAttribute addr 0x254b3b8 size 0x28c virtual false final false
-static void AddAttribute(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW attributeName, ::System::Xml::XmlNamespaceManager manager, ::StringW attributePrefix) ;
+static void AddAttribute(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW attributeName, System::Xml::XmlNamespaceManager manager, ::StringW attributePrefix) ;
 
 /// @brief Method ConvertTokenToXmlValue addr 0x254be6c size 0x5d8 virtual false final false
- ::StringW ConvertTokenToXmlValue(::Newtonsoft::Json::JsonReader reader) ;
+ ::StringW ConvertTokenToXmlValue(Newtonsoft::Json::JsonReader reader) ;
 
 /// @brief Method ReadArrayElements addr 0x254a9bc size 0x38c virtual false final false
- void ReadArrayElements(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::StringW propertyName, ::Newtonsoft::Json::Converters::IXmlNode currentNode, ::System::Xml::XmlNamespaceManager manager) ;
+ void ReadArrayElements(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, ::StringW propertyName, Newtonsoft::Json::Converters::IXmlNode currentNode, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method AddJsonArrayAttribute addr 0x254c444 size 0x340 virtual false final false
- void AddJsonArrayAttribute(::Newtonsoft::Json::Converters::IXmlElement element, ::Newtonsoft::Json::Converters::IXmlDocument document) ;
+ void AddJsonArrayAttribute(Newtonsoft::Json::Converters::IXmlElement element, Newtonsoft::Json::Converters::IXmlDocument document) ;
 
 /// @brief Method ReadAttributeElements addr 0x254ad48 size 0x670 virtual false final false
- ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> ReadAttributeElements(::Newtonsoft::Json::JsonReader reader, ::System::Xml::XmlNamespaceManager manager) ;
+ System::Collections::Generic::Dictionary_2<::StringW,::StringW> ReadAttributeElements(Newtonsoft::Json::JsonReader reader, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method CreateInstruction addr 0x254a1c8 size 0x44c virtual false final false
- void CreateInstruction(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW propertyName) ;
+ void CreateInstruction(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, Newtonsoft::Json::Converters::IXmlNode currentNode, ::StringW propertyName) ;
 
 /// @brief Method CreateDocumentType addr 0x254a614 size 0x3a8 virtual false final false
- void CreateDocumentType(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::Newtonsoft::Json::Converters::IXmlNode currentNode) ;
+ void CreateDocumentType(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, Newtonsoft::Json::Converters::IXmlNode currentNode) ;
 
 /// @brief Method CreateElement addr 0x254bcc4 size 0x1a8 virtual false final false
- ::Newtonsoft::Json::Converters::IXmlElement CreateElement(::StringW elementName, ::Newtonsoft::Json::Converters::IXmlDocument document, ::StringW elementPrefix, ::System::Xml::XmlNamespaceManager manager) ;
+ Newtonsoft::Json::Converters::IXmlElement CreateElement(::StringW elementName, Newtonsoft::Json::Converters::IXmlDocument document, ::StringW elementPrefix, System::Xml::XmlNamespaceManager manager) ;
 
 /// @brief Method DeserializeNode addr 0x2549574 size 0x6c4 virtual false final false
- void DeserializeNode(::Newtonsoft::Json::JsonReader reader, ::Newtonsoft::Json::Converters::IXmlDocument document, ::System::Xml::XmlNamespaceManager manager, ::Newtonsoft::Json::Converters::IXmlNode currentNode) ;
+ void DeserializeNode(Newtonsoft::Json::JsonReader reader, Newtonsoft::Json::Converters::IXmlDocument document, System::Xml::XmlNamespaceManager manager, Newtonsoft::Json::Converters::IXmlNode currentNode) ;
 
 /// @brief Method IsNamespaceAttribute addr 0x254c784 size 0xe4 virtual false final false
  bool IsNamespaceAttribute(::StringW attributeName, ByRef<::StringW> prefix) ;
 
 /// @brief Method ValueAttributes addr 0x2548a30 size 0x214 virtual false final false
- bool ValueAttributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode> c) ;
+ bool ValueAttributes(System::Collections::Generic::List_1<Newtonsoft::Json::Converters::IXmlNode> c) ;
 
 /// @brief Method CanConvert addr 0x254c868 size 0xf8 virtual true final false
- bool CanConvert(::System::Type valueType) ;
+ bool CanConvert(System::Type valueType) ;
 
 // Ctor Parameters []
 explicit XmlNodeConverter() ;
@@ -237,6 +236,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Converters
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Converters::XmlNodeConverter);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::XmlNodeConverter, "Newtonsoft.Json.Converters", "XmlNodeConverter");
+NEED_NO_BOX(Newtonsoft::Json::Converters::XmlNodeConverter);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Converters::XmlNodeConverter, "Newtonsoft.Json.Converters", "XmlNodeConverter");

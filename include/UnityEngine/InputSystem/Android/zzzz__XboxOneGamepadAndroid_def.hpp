@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android {
 class XboxOneGamepadAndroid;
@@ -12,7 +11,7 @@ namespace UnityEngine::InputSystem::Android {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6438))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6514))
 // CS Name: UnityEngine.InputSystem.Android.XboxOneGamepadAndroid
-class CORDL_TYPE XboxOneGamepadAndroid : public ::UnityEngine::InputSystem::XInput::XInputController {
+class CORDL_TYPE XboxOneGamepadAndroid : public UnityEngine::InputSystem::XInput::XInputController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr XboxOneGamepadAndroid(XboxOneGamepadAndroid const& ) noexcept = defaul
 constexpr XboxOneGamepadAndroid(XboxOneGamepadAndroid&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XboxOneGamepadAndroid(void* ptr) noexcept : ::UnityEngine::InputSystem::XInput::XInputController(ptr) {
+constexpr explicit XboxOneGamepadAndroid(void* ptr) noexcept : UnityEngine::InputSystem::XInput::XInputController(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid, "UnityEngine.InputSystem.Android", "XboxOneGamepadAndroid");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::XboxOneGamepadAndroid, "UnityEngine.InputSystem.Android", "XboxOneGamepadAndroid");

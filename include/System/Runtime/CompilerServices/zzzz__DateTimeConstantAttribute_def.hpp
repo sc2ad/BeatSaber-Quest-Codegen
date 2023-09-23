@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CustomConstantAttribute_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 struct DateTime;
 }
@@ -16,7 +15,7 @@ namespace System::Runtime::CompilerServices {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3358))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3359))
 // CS Name: System.Runtime.CompilerServices.DateTimeConstantAttribute
-class CORDL_TYPE DateTimeConstantAttribute : public ::System::Runtime::CompilerServices::CustomConstantAttribute {
+class CORDL_TYPE DateTimeConstantAttribute : public System::Runtime::CompilerServices::CustomConstantAttribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DateTimeConstantAttribute(DateTimeConstantAttribute const& ) noexcept 
 constexpr DateTimeConstantAttribute(DateTimeConstantAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DateTimeConstantAttribute(void* ptr) noexcept : ::System::Runtime::CompilerServices::CustomConstantAttribute(ptr) {
+constexpr explicit DateTimeConstantAttribute(void* ptr) noexcept : System::Runtime::CompilerServices::CustomConstantAttribute(ptr) {
 }
 
 
@@ -52,11 +51,11 @@ constexpr explicit DateTimeConstantAttribute(void* ptr) noexcept : ::System::Run
 
 // Fields
 
- ::System::DateTime __declspec(property(get=__get__date, put=__set__date))  _date;
+ System::DateTime __declspec(property(get=__get__date, put=__set__date))  _date;
 
-constexpr void __set__date(::System::DateTime value) ;
+constexpr void __set__date(System::DateTime value) ;
 
-constexpr ::System::DateTime __get__date() const;
+constexpr System::DateTime __get__date() const;
 
 
 // Properties
@@ -73,6 +72,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::CompilerServices
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::CompilerServices::DateTimeConstantAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::DateTimeConstantAttribute, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");
+NEED_NO_BOX(System::Runtime::CompilerServices::DateTimeConstantAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DateTimeConstantAttribute, "System.Runtime.CompilerServices", "DateTimeConstantAttribute");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -27,7 +26,7 @@ constexpr explicit IFiniteField(void* ptr) noexcept : ::cordl_internals::Interfa
 
 // Properties
 
- ::Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Characteristic))  Characteristic;
+ Org::BouncyCastle::Math::BigInteger __declspec(property(get=get_Characteristic))  Characteristic;
 
  int32_t __declspec(property(get=get_Dimension))  Dimension;
 
@@ -35,7 +34,7 @@ constexpr explicit IFiniteField(void* ptr) noexcept : ::cordl_internals::Interfa
 // Methods
 
 /// @brief Method get_Characteristic addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::BigInteger get_Characteristic() ;
+ Org::BouncyCastle::Math::BigInteger get_Characteristic() ;
 
 /// @brief Method get_Dimension addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t get_Dimension() ;
@@ -44,6 +43,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::Field
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::Field::IFiniteField);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::IFiniteField, "Org.BouncyCastle.Math.Field", "IFiniteField");
+NEED_NO_BOX(Org::BouncyCastle::Math::Field::IFiniteField);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IFiniteField, "Org.BouncyCastle.Math.Field", "IFiniteField");

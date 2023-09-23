@@ -4,9 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Reflection {
 class Assembly;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class Stack_1;
 }
 namespace System {
 template<typename T,typename TResult>
@@ -15,10 +18,6 @@ class Func_2;
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Initialization {
@@ -66,17 +65,17 @@ constexpr explicit AddressablesRuntimeProperties(void* ptr) noexcept : ::bs_hook
 
 // Fields
 
-static ::System::Collections::Generic::Stack_1<::StringW> __declspec(property(get=__get_s_TokenStack, put=__set_s_TokenStack))  s_TokenStack;
+static System::Collections::Generic::Stack_1<::StringW> __declspec(property(get=__get_s_TokenStack, put=__set_s_TokenStack))  s_TokenStack;
 
-static void __set_s_TokenStack(::System::Collections::Generic::Stack_1<::StringW> value) ;
+static void __set_s_TokenStack(System::Collections::Generic::Stack_1<::StringW> value) ;
 
-static ::System::Collections::Generic::Stack_1<::StringW> __get_s_TokenStack() ;
+static System::Collections::Generic::Stack_1<::StringW> __get_s_TokenStack() ;
 
-static ::System::Collections::Generic::Stack_1<int32_t> __declspec(property(get=__get_s_TokenStartStack, put=__set_s_TokenStartStack))  s_TokenStartStack;
+static System::Collections::Generic::Stack_1<int32_t> __declspec(property(get=__get_s_TokenStartStack, put=__set_s_TokenStartStack))  s_TokenStartStack;
 
-static void __set_s_TokenStartStack(::System::Collections::Generic::Stack_1<int32_t> value) ;
+static void __set_s_TokenStartStack(System::Collections::Generic::Stack_1<int32_t> value) ;
 
-static ::System::Collections::Generic::Stack_1<int32_t> __get_s_TokenStartStack() ;
+static System::Collections::Generic::Stack_1<int32_t> __get_s_TokenStartStack() ;
 
 static bool __declspec(property(get=__get_s_StaticStacksAreInUse, put=__set_s_StaticStacksAreInUse))  s_StaticStacksAreInUse;
 
@@ -84,17 +83,17 @@ static void __set_s_StaticStacksAreInUse(bool value) ;
 
 static bool __get_s_StaticStacksAreInUse() ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_CachedValues, put=__set_s_CachedValues))  s_CachedValues;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __declspec(property(get=__get_s_CachedValues, put=__set_s_CachedValues))  s_CachedValues;
 
-static void __set_s_CachedValues(::System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
+static void __set_s_CachedValues(System::Collections::Generic::Dictionary_2<::StringW,::StringW> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_CachedValues() ;
+static System::Collections::Generic::Dictionary_2<::StringW,::StringW> __get_s_CachedValues() ;
 
 
 // Methods
 
 /// @brief Method GetAssemblies addr 0x289dd78 size 0x20 virtual false final false
-static ::ArrayW<::System::Reflection::Assembly> GetAssemblies() ;
+static ::ArrayW<System::Reflection::Assembly> GetAssemblies() ;
 
 /// @brief Method GetCachedValueCount addr 0x289dd98 size 0x78 virtual false final false
 static int32_t GetCachedValueCount() ;
@@ -112,12 +111,11 @@ static ::StringW EvaluateProperty(::StringW name) ;
 static ::StringW EvaluateString(::StringW input) ;
 
 /// @brief Method EvaluateString addr 0x289e350 size 0x58c virtual false final false
-static ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW,::StringW> varFunc) ;
+static ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, System::Func_2<::StringW,::StringW> varFunc) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets::Initialization
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties, "UnityEngine.AddressableAssets.Initialization", "AddressablesRuntimeProperties");
+NEED_NO_BOX(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties, "UnityEngine.AddressableAssets.Initialization", "AddressablesRuntimeProperties");

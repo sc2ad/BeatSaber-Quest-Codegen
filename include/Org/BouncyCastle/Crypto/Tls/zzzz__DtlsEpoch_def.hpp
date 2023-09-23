@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsReplayWindow;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCipher;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsReplayWindow;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -55,11 +54,11 @@ constexpr explicit DtlsEpoch(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 
 // Fields
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __declspec(property(get=__get_mReplayWindow, put=__set_mReplayWindow))  mReplayWindow;
+ Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __declspec(property(get=__get_mReplayWindow, put=__set_mReplayWindow))  mReplayWindow;
 
-constexpr void __set_mReplayWindow(::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow value) ;
+constexpr void __set_mReplayWindow(Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __get_mReplayWindow() const;
+constexpr Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __get_mReplayWindow() const;
 
  int32_t __declspec(property(get=__get_mEpoch, put=__set_mEpoch))  mEpoch;
 
@@ -67,11 +66,11 @@ constexpr void __set_mEpoch(int32_t value) ;
 
 constexpr int32_t __get_mEpoch() const;
 
- ::Org::BouncyCastle::Crypto::Tls::TlsCipher __declspec(property(get=__get_mCipher, put=__set_mCipher))  mCipher;
+ Org::BouncyCastle::Crypto::Tls::TlsCipher __declspec(property(get=__get_mCipher, put=__set_mCipher))  mCipher;
 
-constexpr void __set_mCipher(::Org::BouncyCastle::Crypto::Tls::TlsCipher value) ;
+constexpr void __set_mCipher(Org::BouncyCastle::Crypto::Tls::TlsCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher __get_mCipher() const;
+constexpr Org::BouncyCastle::Crypto::Tls::TlsCipher __get_mCipher() const;
 
  int64_t __declspec(property(get=__get_mSequenceNumber, put=__set_mSequenceNumber))  mSequenceNumber;
 
@@ -82,34 +81,34 @@ constexpr int64_t __get_mSequenceNumber() const;
 
 // Properties
 
- ::Org::BouncyCastle::Crypto::Tls::TlsCipher __declspec(property(get=get_Cipher))  Cipher;
+ Org::BouncyCastle::Crypto::Tls::TlsCipher __declspec(property(get=get_Cipher))  Cipher;
 
  int32_t __declspec(property(get=get_Epoch))  Epoch;
 
- ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __declspec(property(get=get_ReplayWindow))  ReplayWindow;
+ Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow __declspec(property(get=get_ReplayWindow))  ReplayWindow;
 
  int64_t __declspec(property(get=get_SequenceNumber))  SequenceNumber;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "epoch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::Tls::TlsCipher", modifiers: "", def_value: None }]
-explicit DtlsEpoch(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
+// Ctor Parameters [CppParam { name: "epoch", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::Tls::TlsCipher", modifiers: "", def_value: None }]
+explicit DtlsEpoch(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
 
 /// @brief Method .ctor addr 0xede27c size 0x134 virtual false final false
- void _ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
+ void _ctor(int32_t epoch, Org::BouncyCastle::Crypto::Tls::TlsCipher cipher) ;
 
 /// @brief Method AllocateSequenceNumber addr 0xede3c4 size 0xf4 virtual false final false
  int64_t AllocateSequenceNumber() ;
 
 /// @brief Method get_Cipher addr 0xede4b8 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::Tls::TlsCipher get_Cipher() ;
+ Org::BouncyCastle::Crypto::Tls::TlsCipher get_Cipher() ;
 
 /// @brief Method get_Epoch addr 0xede4c0 size 0x8 virtual false final false
  int32_t get_Epoch() ;
 
 /// @brief Method get_ReplayWindow addr 0xede4c8 size 0x8 virtual false final false
- ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow get_ReplayWindow() ;
+ Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow get_ReplayWindow() ;
 
 /// @brief Method get_SequenceNumber addr 0xede4d0 size 0x34 virtual false final false
  int64_t get_SequenceNumber() ;
@@ -118,6 +117,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch, "Org.BouncyCastle.Crypto.Tls", "DtlsEpoch");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::DtlsEpoch);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::DtlsEpoch, "Org.BouncyCastle.Crypto.Tls", "DtlsEpoch");

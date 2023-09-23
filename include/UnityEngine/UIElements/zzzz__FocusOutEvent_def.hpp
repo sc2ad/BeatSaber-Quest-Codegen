@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class FocusOutEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7331)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7331), inst: 1904 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7332))
 // CS Name: UnityEngine.UIElements.FocusOutEvent
-class CORDL_TYPE FocusOutEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent> {
+class CORDL_TYPE FocusOutEvent : public UnityEngine::UIElements::FocusEventBase_1<UnityEngine::UIElements::FocusOutEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr FocusOutEvent(FocusOutEvent const& ) noexcept = default;
 constexpr FocusOutEvent(FocusOutEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FocusOutEvent(void* ptr) noexcept : ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent>(ptr) {
+constexpr explicit FocusOutEvent(void* ptr) noexcept : UnityEngine::UIElements::FocusEventBase_1<UnityEngine::UIElements::FocusOutEvent>(ptr) {
 }
 
 
@@ -64,6 +63,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::FocusOutEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::FocusOutEvent, "UnityEngine.UIElements", "FocusOutEvent");
+NEED_NO_BOX(UnityEngine::UIElements::FocusOutEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::FocusOutEvent, "UnityEngine.UIElements", "FocusOutEvent");

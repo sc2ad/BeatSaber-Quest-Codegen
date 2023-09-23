@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Text {
 class EncoderFallback;
 }
@@ -66,37 +65,36 @@ static void __set_s_InternalSyncObject(::bs_hook::Il2CppWrapperType value) ;
 
 static ::bs_hook::Il2CppWrapperType __get_s_InternalSyncObject() ;
 
-static ::ArrayW<::System::Text::EncodingProvider> __declspec(property(get=__get_s_providers, put=__set_s_providers))  s_providers;
+static ::ArrayW<System::Text::EncodingProvider> __declspec(property(get=__get_s_providers, put=__set_s_providers))  s_providers;
 
-static void __set_s_providers(::ArrayW<::System::Text::EncodingProvider> value) ;
+static void __set_s_providers(::ArrayW<System::Text::EncodingProvider> value) ;
 
-static ::ArrayW<::System::Text::EncodingProvider> __get_s_providers() ;
+static ::ArrayW<System::Text::EncodingProvider> __get_s_providers() ;
 
 
 // Methods
 
 /// @brief Method GetEncoding addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Text::Encoding GetEncoding(::StringW name) ;
+ System::Text::Encoding GetEncoding(::StringW name) ;
 
 /// @brief Method GetEncoding addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Text::Encoding GetEncoding(int32_t codepage) ;
+ System::Text::Encoding GetEncoding(int32_t codepage) ;
 
 /// @brief Method GetEncoding addr 0x22cb1b8 size 0xfc virtual true final false
- ::System::Text::Encoding GetEncoding(int32_t codepage, ::System::Text::EncoderFallback encoderFallback, ::System::Text::DecoderFallback decoderFallback) ;
+ System::Text::Encoding GetEncoding(int32_t codepage, System::Text::EncoderFallback encoderFallback, System::Text::DecoderFallback decoderFallback) ;
 
 /// @brief Method GetEncodingFromProvider addr 0x22cb2b4 size 0xdc virtual false final false
-static ::System::Text::Encoding GetEncodingFromProvider(int32_t codepage) ;
+static System::Text::Encoding GetEncodingFromProvider(int32_t codepage) ;
 
 /// @brief Method GetEncodingFromProvider addr 0x22cb390 size 0xdc virtual false final false
-static ::System::Text::Encoding GetEncodingFromProvider(::StringW encodingName) ;
+static System::Text::Encoding GetEncodingFromProvider(::StringW encodingName) ;
 
 /// @brief Method GetEncodingFromProvider addr 0x22cb46c size 0xf4 virtual false final false
-static ::System::Text::Encoding GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback enc, ::System::Text::DecoderFallback dec) ;
+static System::Text::Encoding GetEncodingFromProvider(int32_t codepage, System::Text::EncoderFallback enc, System::Text::DecoderFallback dec) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::EncodingProvider);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncodingProvider, "System.Text", "EncodingProvider");
+NEED_NO_BOX(System::Text::EncodingProvider);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingProvider, "System.Text", "EncodingProvider");

@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Net {
-class EndPoint;
-}
-namespace System::Net::Sockets {
-struct AddressFamily;
-}
 namespace System::Net {
 class IPAddress;
 }
 namespace System::Net {
+class EndPoint;
+}
+namespace System::Net {
 class SocketAddress;
+}
+namespace System::Net::Sockets {
+struct AddressFamily;
 }
 // Forward declare root types
 namespace System::Net {
@@ -27,7 +26,7 @@ namespace System::Net {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7912))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7883))
 // CS Name: System.Net.IPEndPoint
-class CORDL_TYPE IPEndPoint : public ::System::Net::EndPoint {
+class CORDL_TYPE IPEndPoint : public System::Net::EndPoint {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -42,7 +41,7 @@ constexpr IPEndPoint(IPEndPoint const& ) noexcept = default;
 constexpr IPEndPoint(IPEndPoint&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IPEndPoint(void* ptr) noexcept : ::System::Net::EndPoint(ptr) {
+constexpr explicit IPEndPoint(void* ptr) noexcept : System::Net::EndPoint(ptr) {
 }
 
 
@@ -69,11 +68,11 @@ static constexpr int32_t  MinPort{0};
 /// @brief Field MaxPort offset 0
 static constexpr int32_t  MaxPort{65535};
 
- ::System::Net::IPAddress __declspec(property(get=__get__address, put=__set__address))  _address;
+ System::Net::IPAddress __declspec(property(get=__get__address, put=__set__address))  _address;
 
-constexpr void __set__address(::System::Net::IPAddress value) ;
+constexpr void __set__address(System::Net::IPAddress value) ;
 
-constexpr ::System::Net::IPAddress __get__address() const;
+constexpr System::Net::IPAddress __get__address() const;
 
  int32_t __declspec(property(get=__get__port, put=__set__port))  _port;
 
@@ -84,24 +83,24 @@ constexpr int32_t __get__port() const;
 /// @brief Field AnyPort offset 0
 static constexpr int32_t  AnyPort{0};
 
-static ::System::Net::IPEndPoint __declspec(property(get=__get_Any, put=__set_Any))  Any;
+static System::Net::IPEndPoint __declspec(property(get=__get_Any, put=__set_Any))  Any;
 
-static void __set_Any(::System::Net::IPEndPoint value) ;
+static void __set_Any(System::Net::IPEndPoint value) ;
 
-static ::System::Net::IPEndPoint __get_Any() ;
+static System::Net::IPEndPoint __get_Any() ;
 
-static ::System::Net::IPEndPoint __declspec(property(get=__get_IPv6Any, put=__set_IPv6Any))  IPv6Any;
+static System::Net::IPEndPoint __declspec(property(get=__get_IPv6Any, put=__set_IPv6Any))  IPv6Any;
 
-static void __set_IPv6Any(::System::Net::IPEndPoint value) ;
+static void __set_IPv6Any(System::Net::IPEndPoint value) ;
 
-static ::System::Net::IPEndPoint __get_IPv6Any() ;
+static System::Net::IPEndPoint __get_IPv6Any() ;
 
 
 // Properties
 
- ::System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
+ System::Net::Sockets::AddressFamily __declspec(property(get=get_AddressFamily))  AddressFamily;
 
- ::System::Net::IPAddress __declspec(property(get=get_Address))  Address;
+ System::Net::IPAddress __declspec(property(get=get_Address))  Address;
 
  int32_t __declspec(property(get=get_Port))  Port;
 
@@ -109,16 +108,16 @@ static ::System::Net::IPEndPoint __get_IPv6Any() ;
 // Methods
 
 /// @brief Method get_AddressFamily addr 0x27faf64 size 0x2c virtual true final false
- ::System::Net::Sockets::AddressFamily get_AddressFamily() ;
+ System::Net::Sockets::AddressFamily get_AddressFamily() ;
 
-// Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
-explicit IPEndPoint(::System::Net::IPAddress address, int32_t port) ;
+// Ctor Parameters [CppParam { name: "address", ty: "System::Net::IPAddress", modifiers: "", def_value: None }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: None }]
+explicit IPEndPoint(System::Net::IPAddress address, int32_t port) ;
 
 /// @brief Method .ctor addr 0x27faf90 size 0xc0 virtual false final false
- void _ctor(::System::Net::IPAddress address, int32_t port) ;
+ void _ctor(System::Net::IPAddress address, int32_t port) ;
 
 /// @brief Method get_Address addr 0x27fb058 size 0x8 virtual false final false
- ::System::Net::IPAddress get_Address() ;
+ System::Net::IPAddress get_Address() ;
 
 /// @brief Method get_Port addr 0x27fb060 size 0x8 virtual false final false
  int32_t get_Port() ;
@@ -127,10 +126,10 @@ explicit IPEndPoint(::System::Net::IPAddress address, int32_t port) ;
  ::StringW ToString() ;
 
 /// @brief Method Serialize addr 0x27fb128 size 0x70 virtual true final false
- ::System::Net::SocketAddress Serialize() ;
+ System::Net::SocketAddress Serialize() ;
 
 /// @brief Method Create addr 0x27fb198 size 0x1f4 virtual true final false
- ::System::Net::EndPoint Create(::System::Net::SocketAddress socketAddress) ;
+ System::Net::EndPoint Create(System::Net::SocketAddress socketAddress) ;
 
 /// @brief Method Equals addr 0x27fb38c size 0xb4 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType comparand) ;
@@ -142,6 +141,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::IPEndPoint);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::IPEndPoint, "System.Net", "IPEndPoint");
+NEED_NO_BOX(System::Net::IPEndPoint);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint, "System.Net", "IPEndPoint");

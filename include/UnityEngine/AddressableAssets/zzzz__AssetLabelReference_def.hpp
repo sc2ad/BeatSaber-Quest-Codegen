@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
 }
@@ -20,8 +19,8 @@ namespace UnityEngine::AddressableAssets {
 class CORDL_TYPE AssetLabelReference : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::AddressableAssets::IKeyEvaluator
-constexpr operator  ::UnityEngine::AddressableAssets::IKeyEvaluator() const noexcept;
+/// @brief Convert operator to UnityEngine::AddressableAssets::IKeyEvaluator
+constexpr operator  UnityEngine::AddressableAssets::IKeyEvaluator() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetLabelReference);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetLabelReference, "UnityEngine.AddressableAssets", "AssetLabelReference");
+NEED_NO_BOX(UnityEngine::AddressableAssets::AssetLabelReference);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference, "UnityEngine.AddressableAssets", "AssetLabelReference");

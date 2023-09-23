@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct RuntimePlatform;
@@ -112,149 +111,148 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OSXEditor offset 0
-static ::UnityEngine::RuntimePlatform const OSXEditor;
+static UnityEngine::RuntimePlatform const OSXEditor;
 
 /// @brief Field OSXPlayer offset 0
-static ::UnityEngine::RuntimePlatform const OSXPlayer;
+static UnityEngine::RuntimePlatform const OSXPlayer;
 
 /// @brief Field WindowsPlayer offset 0
-static ::UnityEngine::RuntimePlatform const WindowsPlayer;
+static UnityEngine::RuntimePlatform const WindowsPlayer;
 
 /// @brief Field OSXWebPlayer offset 0
-static ::UnityEngine::RuntimePlatform const OSXWebPlayer;
+static UnityEngine::RuntimePlatform const OSXWebPlayer;
 
 /// @brief Field OSXDashboardPlayer offset 0
-static ::UnityEngine::RuntimePlatform const OSXDashboardPlayer;
+static UnityEngine::RuntimePlatform const OSXDashboardPlayer;
 
 /// @brief Field WindowsWebPlayer offset 0
-static ::UnityEngine::RuntimePlatform const WindowsWebPlayer;
+static UnityEngine::RuntimePlatform const WindowsWebPlayer;
 
 /// @brief Field WindowsEditor offset 0
-static ::UnityEngine::RuntimePlatform const WindowsEditor;
+static UnityEngine::RuntimePlatform const WindowsEditor;
 
 /// @brief Field IPhonePlayer offset 0
-static ::UnityEngine::RuntimePlatform const IPhonePlayer;
+static UnityEngine::RuntimePlatform const IPhonePlayer;
 
 /// @brief Field XBOX360 offset 0
-static ::UnityEngine::RuntimePlatform const XBOX360;
+static UnityEngine::RuntimePlatform const XBOX360;
 
 /// @brief Field PS3 offset 0
-static ::UnityEngine::RuntimePlatform const PS3;
+static UnityEngine::RuntimePlatform const PS3;
 
 /// @brief Field Android offset 0
-static ::UnityEngine::RuntimePlatform const Android;
+static UnityEngine::RuntimePlatform const Android;
 
 /// @brief Field NaCl offset 0
-static ::UnityEngine::RuntimePlatform const NaCl;
+static UnityEngine::RuntimePlatform const NaCl;
 
 /// @brief Field FlashPlayer offset 0
-static ::UnityEngine::RuntimePlatform const FlashPlayer;
+static UnityEngine::RuntimePlatform const FlashPlayer;
 
 /// @brief Field LinuxPlayer offset 0
-static ::UnityEngine::RuntimePlatform const LinuxPlayer;
+static UnityEngine::RuntimePlatform const LinuxPlayer;
 
 /// @brief Field LinuxEditor offset 0
-static ::UnityEngine::RuntimePlatform const LinuxEditor;
+static UnityEngine::RuntimePlatform const LinuxEditor;
 
 /// @brief Field WebGLPlayer offset 0
-static ::UnityEngine::RuntimePlatform const WebGLPlayer;
+static UnityEngine::RuntimePlatform const WebGLPlayer;
 
 /// @brief Field MetroPlayerX86 offset 0
-static ::UnityEngine::RuntimePlatform const MetroPlayerX86;
+static UnityEngine::RuntimePlatform const MetroPlayerX86;
 
 /// @brief Field WSAPlayerX86 offset 0
-static ::UnityEngine::RuntimePlatform const WSAPlayerX86;
+static UnityEngine::RuntimePlatform const WSAPlayerX86;
 
 /// @brief Field MetroPlayerX64 offset 0
-static ::UnityEngine::RuntimePlatform const MetroPlayerX64;
+static UnityEngine::RuntimePlatform const MetroPlayerX64;
 
 /// @brief Field WSAPlayerX64 offset 0
-static ::UnityEngine::RuntimePlatform const WSAPlayerX64;
+static UnityEngine::RuntimePlatform const WSAPlayerX64;
 
 /// @brief Field MetroPlayerARM offset 0
-static ::UnityEngine::RuntimePlatform const MetroPlayerARM;
+static UnityEngine::RuntimePlatform const MetroPlayerARM;
 
 /// @brief Field WSAPlayerARM offset 0
-static ::UnityEngine::RuntimePlatform const WSAPlayerARM;
+static UnityEngine::RuntimePlatform const WSAPlayerARM;
 
 /// @brief Field WP8Player offset 0
-static ::UnityEngine::RuntimePlatform const WP8Player;
+static UnityEngine::RuntimePlatform const WP8Player;
 
 /// @brief Field BlackBerryPlayer offset 0
-static ::UnityEngine::RuntimePlatform const BlackBerryPlayer;
+static UnityEngine::RuntimePlatform const BlackBerryPlayer;
 
 /// @brief Field TizenPlayer offset 0
-static ::UnityEngine::RuntimePlatform const TizenPlayer;
+static UnityEngine::RuntimePlatform const TizenPlayer;
 
 /// @brief Field PSP2 offset 0
-static ::UnityEngine::RuntimePlatform const PSP2;
+static UnityEngine::RuntimePlatform const PSP2;
 
 /// @brief Field PS4 offset 0
-static ::UnityEngine::RuntimePlatform const PS4;
+static UnityEngine::RuntimePlatform const PS4;
 
 /// @brief Field PSM offset 0
-static ::UnityEngine::RuntimePlatform const PSM;
+static UnityEngine::RuntimePlatform const PSM;
 
 /// @brief Field XboxOne offset 0
-static ::UnityEngine::RuntimePlatform const XboxOne;
+static UnityEngine::RuntimePlatform const XboxOne;
 
 /// @brief Field SamsungTVPlayer offset 0
-static ::UnityEngine::RuntimePlatform const SamsungTVPlayer;
+static UnityEngine::RuntimePlatform const SamsungTVPlayer;
 
 /// @brief Field WiiU offset 0
-static ::UnityEngine::RuntimePlatform const WiiU;
+static UnityEngine::RuntimePlatform const WiiU;
 
 /// @brief Field tvOS offset 0
-static ::UnityEngine::RuntimePlatform const tvOS;
+static UnityEngine::RuntimePlatform const tvOS;
 
 /// @brief Field Switch offset 0
-static ::UnityEngine::RuntimePlatform const Switch;
+static UnityEngine::RuntimePlatform const Switch;
 
 /// @brief Field Lumin offset 0
-static ::UnityEngine::RuntimePlatform const Lumin;
+static UnityEngine::RuntimePlatform const Lumin;
 
 /// @brief Field Stadia offset 0
-static ::UnityEngine::RuntimePlatform const Stadia;
+static UnityEngine::RuntimePlatform const Stadia;
 
 /// @brief Field CloudRendering offset 0
-static ::UnityEngine::RuntimePlatform const CloudRendering;
+static UnityEngine::RuntimePlatform const CloudRendering;
 
 /// @brief Field GameCoreScarlett offset 0
-static ::UnityEngine::RuntimePlatform const GameCoreScarlett;
+static UnityEngine::RuntimePlatform const GameCoreScarlett;
 
 /// @brief Field GameCoreXboxSeries offset 0
-static ::UnityEngine::RuntimePlatform const GameCoreXboxSeries;
+static UnityEngine::RuntimePlatform const GameCoreXboxSeries;
 
 /// @brief Field GameCoreXboxOne offset 0
-static ::UnityEngine::RuntimePlatform const GameCoreXboxOne;
+static UnityEngine::RuntimePlatform const GameCoreXboxOne;
 
 /// @brief Field PS5 offset 0
-static ::UnityEngine::RuntimePlatform const PS5;
+static UnityEngine::RuntimePlatform const PS5;
 
 /// @brief Field EmbeddedLinuxArm64 offset 0
-static ::UnityEngine::RuntimePlatform const EmbeddedLinuxArm64;
+static UnityEngine::RuntimePlatform const EmbeddedLinuxArm64;
 
 /// @brief Field EmbeddedLinuxArm32 offset 0
-static ::UnityEngine::RuntimePlatform const EmbeddedLinuxArm32;
+static UnityEngine::RuntimePlatform const EmbeddedLinuxArm32;
 
 /// @brief Field EmbeddedLinuxX64 offset 0
-static ::UnityEngine::RuntimePlatform const EmbeddedLinuxX64;
+static UnityEngine::RuntimePlatform const EmbeddedLinuxX64;
 
 /// @brief Field EmbeddedLinuxX86 offset 0
-static ::UnityEngine::RuntimePlatform const EmbeddedLinuxX86;
+static UnityEngine::RuntimePlatform const EmbeddedLinuxX86;
 
 /// @brief Field LinuxServer offset 0
-static ::UnityEngine::RuntimePlatform const LinuxServer;
+static UnityEngine::RuntimePlatform const LinuxServer;
 
 /// @brief Field WindowsServer offset 0
-static ::UnityEngine::RuntimePlatform const WindowsServer;
+static UnityEngine::RuntimePlatform const WindowsServer;
 
 /// @brief Field OSXServer offset 0
-static ::UnityEngine::RuntimePlatform const OSXServer;
+static UnityEngine::RuntimePlatform const OSXServer;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimePlatform, "UnityEngine", "RuntimePlatform");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimePlatform, "UnityEngine", "RuntimePlatform");

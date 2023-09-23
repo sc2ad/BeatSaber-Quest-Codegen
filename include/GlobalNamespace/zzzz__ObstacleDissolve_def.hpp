@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class CutoutAnimateEffect;
-}
 namespace GlobalNamespace {
 class ObstacleControllerBase;
+}
+namespace GlobalNamespace {
+class CutoutAnimateEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4910))
 // CS Name: ObstacleDissolve
-class CORDL_TYPE ObstacleDissolve : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ObstacleDissolve : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr ObstacleDissolve(ObstacleDissolve const& ) noexcept = default;
 constexpr ObstacleDissolve(ObstacleDissolve&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ObstacleDissolve(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ObstacleDissolve(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit ObstacleDissolve(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::GlobalNamespace::ObstacleControllerBase __declspec(property(get=__get__obstacleController, put=__set__obstacleController))  _obstacleController;
+ GlobalNamespace::ObstacleControllerBase __declspec(property(get=__get__obstacleController, put=__set__obstacleController))  _obstacleController;
 
-constexpr void __set__obstacleController(::GlobalNamespace::ObstacleControllerBase value) ;
+constexpr void __set__obstacleController(GlobalNamespace::ObstacleControllerBase value) ;
 
-constexpr ::GlobalNamespace::ObstacleControllerBase __get__obstacleController() const;
+constexpr GlobalNamespace::ObstacleControllerBase __get__obstacleController() const;
 
- ::GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
+ GlobalNamespace::CutoutAnimateEffect __declspec(property(get=__get__cutoutAnimateEffect, put=__set__cutoutAnimateEffect))  _cutoutAnimateEffect;
 
-constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect value) ;
+constexpr void __set__cutoutAnimateEffect(GlobalNamespace::CutoutAnimateEffect value) ;
 
-constexpr ::GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
+constexpr GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() const;
 
 
 // Methods
@@ -77,10 +76,10 @@ constexpr ::GlobalNamespace::CutoutAnimateEffect __get__cutoutAnimateEffect() co
  void OnDestroy() ;
 
 /// @brief Method HandleObstacleDidInitEvent addr 0x2245e30 size 0x30 virtual false final false
- void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase obstacleController) ;
+ void HandleObstacleDidInitEvent(GlobalNamespace::ObstacleControllerBase obstacleController) ;
 
 /// @brief Method HandleObcstacleDidStartDissolvingEvent addr 0x2245e60 size 0x24 virtual false final false
- void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
+ void HandleObcstacleDidStartDissolvingEvent(GlobalNamespace::ObstacleControllerBase obstacleController, float_t duration) ;
 
 // Ctor Parameters []
 explicit ObstacleDissolve() ;
@@ -92,6 +91,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ObstacleDissolve);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ObstacleDissolve, "", "ObstacleDissolve");
+NEED_NO_BOX(GlobalNamespace::ObstacleDissolve);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleDissolve, "", "ObstacleDissolve");

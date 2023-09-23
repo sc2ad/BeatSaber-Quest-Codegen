@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
-namespace {
-namespace UnityEngine::Playables {
-class IPlayableOutput;
+namespace UnityEngine {
+class AudioSource;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
-}
-namespace UnityEngine {
-class AudioSource;
+class IPlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct PlayableOutput;
+}
+namespace UnityEngine::Playables {
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -32,11 +31,11 @@ namespace UnityEngine::Audio {
 struct CORDL_TYPE AudioPlayableOutput : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayableOutput
-constexpr operator  ::UnityEngine::Playables::IPlayableOutput() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayableOutput
+constexpr operator  UnityEngine::Playables::IPlayableOutput() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-constexpr AudioPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr AudioPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
 
 
                     constexpr AudioPlayableOutput(AudioPlayableOutput const&) = default;
@@ -69,53 +68,52 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableOutputHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableOutputHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableOutputHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableOutputHandle __get_m_Handle() const;
 
 
 // Properties
 
-static ::UnityEngine::Audio::AudioPlayableOutput __declspec(property(get=get_Null))  Null;
+static UnityEngine::Audio::AudioPlayableOutput __declspec(property(get=get_Null))  Null;
 
 
 // Methods
 
 /// @brief Method Create addr 0x2b26534 size 0xa8 virtual false final false
-static ::UnityEngine::Audio::AudioPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::AudioSource target) ;
+static UnityEngine::Audio::AudioPlayableOutput Create(UnityEngine::Playables::PlayableGraph graph, ::StringW name, UnityEngine::AudioSource target) ;
 
 /// @brief Method .ctor addr 0x2b266ac size 0xc0 virtual false final false
- void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle) ;
+ void _ctor(UnityEngine::Playables::PlayableOutputHandle handle) ;
 
 /// @brief Method get_Null addr 0x2b26630 size 0x7c virtual false final false
-static ::UnityEngine::Audio::AudioPlayableOutput get_Null() ;
+static UnityEngine::Audio::AudioPlayableOutput get_Null() ;
 
 /// @brief Method GetHandle addr 0x2b267b0 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
+ UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
 /// @brief Method op_Implicit addr 0x2b267bc size 0x30 virtual false final false
-static ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Audio::AudioPlayableOutput output) ;
+static UnityEngine::Playables::PlayableOutput op_Implicit_UnityEngine__Playables__PlayableOutput(UnityEngine::Audio::AudioPlayableOutput output) ;
 
 /// @brief Method op_Explicit addr 0x2b267ec size 0x44 virtual false final false
-static ::UnityEngine::Audio::AudioPlayableOutput op_Explicit___UnityEngine__Audio__AudioPlayableOutput(::UnityEngine::Playables::PlayableOutput output) ;
+static UnityEngine::Audio::AudioPlayableOutput op_Explicit_UnityEngine__Audio__AudioPlayableOutput(UnityEngine::Playables::PlayableOutput output) ;
 
 /// @brief Method SetTarget addr 0x2b2676c size 0x44 virtual false final false
- void SetTarget(::UnityEngine::AudioSource value) ;
+ void SetTarget(UnityEngine::AudioSource value) ;
 
 /// @brief Method SetEvaluateOnSeek addr 0x2b26874 size 0x44 virtual false final false
  void SetEvaluateOnSeek(bool value) ;
 
 /// @brief Method InternalSetTarget addr 0x2b26830 size 0x44 virtual false final false
-static void InternalSetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> output, ::UnityEngine::AudioSource target) ;
+static void InternalSetTarget(ByRef<UnityEngine::Playables::PlayableOutputHandle> output, UnityEngine::AudioSource target) ;
 
 /// @brief Method InternalSetEvaluateOnSeek addr 0x2b268b8 size 0x44 virtual false final false
-static void InternalSetEvaluateOnSeek(ByRef<::UnityEngine::Playables::PlayableOutputHandle> output, bool value) ;
+static void InternalSetEvaluateOnSeek(ByRef<UnityEngine::Playables::PlayableOutputHandle> output, bool value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Audio
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Audio", "AudioPlayableOutput");

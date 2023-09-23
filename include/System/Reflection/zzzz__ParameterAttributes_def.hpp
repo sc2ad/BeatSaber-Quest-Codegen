@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Reflection {
 struct ParameterAttributes;
@@ -76,41 +75,40 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Reflection::ParameterAttributes const None;
+static System::Reflection::ParameterAttributes const None;
 
 /// @brief Field In offset 0
-static ::System::Reflection::ParameterAttributes const In;
+static System::Reflection::ParameterAttributes const In;
 
 /// @brief Field Out offset 0
-static ::System::Reflection::ParameterAttributes const Out;
+static System::Reflection::ParameterAttributes const Out;
 
 /// @brief Field Lcid offset 0
-static ::System::Reflection::ParameterAttributes const Lcid;
+static System::Reflection::ParameterAttributes const Lcid;
 
 /// @brief Field Retval offset 0
-static ::System::Reflection::ParameterAttributes const Retval;
+static System::Reflection::ParameterAttributes const Retval;
 
 /// @brief Field Optional offset 0
-static ::System::Reflection::ParameterAttributes const Optional;
+static System::Reflection::ParameterAttributes const Optional;
 
 /// @brief Field HasDefault offset 0
-static ::System::Reflection::ParameterAttributes const HasDefault;
+static System::Reflection::ParameterAttributes const HasDefault;
 
 /// @brief Field HasFieldMarshal offset 0
-static ::System::Reflection::ParameterAttributes const HasFieldMarshal;
+static System::Reflection::ParameterAttributes const HasFieldMarshal;
 
 /// @brief Field Reserved3 offset 0
-static ::System::Reflection::ParameterAttributes const Reserved3;
+static System::Reflection::ParameterAttributes const Reserved3;
 
 /// @brief Field Reserved4 offset 0
-static ::System::Reflection::ParameterAttributes const Reserved4;
+static System::Reflection::ParameterAttributes const Reserved4;
 
 /// @brief Field ReservedMask offset 0
-static ::System::Reflection::ParameterAttributes const ReservedMask;
+static System::Reflection::ParameterAttributes const ReservedMask;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");

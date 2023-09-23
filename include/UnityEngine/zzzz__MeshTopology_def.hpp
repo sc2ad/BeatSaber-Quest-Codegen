@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine {
 struct MeshTopology;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Triangles offset 0
-static ::UnityEngine::MeshTopology const Triangles;
+static UnityEngine::MeshTopology const Triangles;
 
 /// @brief Field Quads offset 0
-static ::UnityEngine::MeshTopology const Quads;
+static UnityEngine::MeshTopology const Quads;
 
 /// @brief Field Lines offset 0
-static ::UnityEngine::MeshTopology const Lines;
+static UnityEngine::MeshTopology const Lines;
 
 /// @brief Field LineStrip offset 0
-static ::UnityEngine::MeshTopology const LineStrip;
+static UnityEngine::MeshTopology const LineStrip;
 
 /// @brief Field Points offset 0
-static ::UnityEngine::MeshTopology const Points;
+static UnityEngine::MeshTopology const Points;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshTopology, "UnityEngine", "MeshTopology");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MeshTopology, "UnityEngine", "MeshTopology");

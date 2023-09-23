@@ -3,7 +3,6 @@
 #include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Xml {
 class IncrementalReadDummyDecoder;
@@ -14,7 +13,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11374))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11375))
 // CS Name: System.Xml.IncrementalReadDummyDecoder
-class CORDL_TYPE IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder {
+class CORDL_TYPE IncrementalReadDummyDecoder : public System::Xml::IncrementalReadDecoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr IncrementalReadDummyDecoder(IncrementalReadDummyDecoder const& ) noexc
 constexpr IncrementalReadDummyDecoder(IncrementalReadDummyDecoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IncrementalReadDummyDecoder(void* ptr) noexcept : ::System::Xml::IncrementalReadDecoder(ptr) {
+constexpr explicit IncrementalReadDummyDecoder(void* ptr) noexcept : System::Xml::IncrementalReadDecoder(ptr) {
 }
 
 
@@ -71,6 +70,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::IncrementalReadDummyDecoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IncrementalReadDummyDecoder, "System.Xml", "IncrementalReadDummyDecoder");
+NEED_NO_BOX(System::Xml::IncrementalReadDummyDecoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::IncrementalReadDummyDecoder, "System.Xml", "IncrementalReadDummyDecoder");

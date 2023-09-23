@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 struct AddressMode;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Wrap offset 0
-static ::UnityEngine::UIElements::AddressMode const Wrap;
+static UnityEngine::UIElements::AddressMode const Wrap;
 
 /// @brief Field Clamp offset 0
-static ::UnityEngine::UIElements::AddressMode const Clamp;
+static UnityEngine::UIElements::AddressMode const Clamp;
 
 /// @brief Field Mirror offset 0
-static ::UnityEngine::UIElements::AddressMode const Mirror;
+static UnityEngine::UIElements::AddressMode const Mirror;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::AddressMode, "UnityEngine.UIElements", "AddressMode");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::AddressMode, "UnityEngine.UIElements", "AddressMode");

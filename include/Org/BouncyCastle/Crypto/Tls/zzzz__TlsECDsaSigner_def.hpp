@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDsaSigner_def.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class IDsa;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDsa;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -19,7 +18,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1301))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1306))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsECDsaSigner
-class CORDL_TYPE TlsECDsaSigner : public ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner {
+class CORDL_TYPE TlsECDsaSigner : public Org::BouncyCastle::Crypto::Tls::TlsDsaSigner {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr TlsECDsaSigner(TlsECDsaSigner const& ) noexcept = default;
 constexpr TlsECDsaSigner(TlsECDsaSigner&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsECDsaSigner(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner(ptr) {
+constexpr explicit TlsECDsaSigner(void* ptr) noexcept : Org::BouncyCastle::Crypto::Tls::TlsDsaSigner(ptr) {
 }
 
 
@@ -61,10 +60,10 @@ constexpr explicit TlsECDsaSigner(void* ptr) noexcept : ::Org::BouncyCastle::Cry
 // Methods
 
 /// @brief Method IsValidPublicKey addr 0xf1ead8 size 0x78 virtual true final false
- bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
+ bool IsValidPublicKey(Org::BouncyCastle::Crypto::AsymmetricKeyParameter publicKey) ;
 
 /// @brief Method CreateDsaImpl addr 0xf1eb50 size 0xc8 virtual true final false
- ::Org::BouncyCastle::Crypto::IDsa CreateDsaImpl(uint8_t hashAlgorithm) ;
+ Org::BouncyCastle::Crypto::IDsa CreateDsaImpl(uint8_t hashAlgorithm) ;
 
 /// @brief Method get_SignatureAlgorithm addr 0xf1edf0 size 0x8 virtual true final false
  uint8_t get_SignatureAlgorithm() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner, "Org.BouncyCastle.Crypto.Tls", "TlsECDsaSigner");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner, "Org.BouncyCastle.Crypto.Tls", "TlsECDsaSigner");

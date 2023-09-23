@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 class AudioClip;
 }
@@ -16,7 +15,7 @@ namespace Libraries::HM::HMLib::VR {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10151))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13942))
 // CS Name: Libraries.HM.HMLib.VR.HapticPresetSO
-class CORDL_TYPE HapticPresetSO : public ::UnityEngine::ScriptableObject {
+class CORDL_TYPE HapticPresetSO : public UnityEngine::ScriptableObject {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr HapticPresetSO(HapticPresetSO const& ) noexcept = default;
 constexpr HapticPresetSO(HapticPresetSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HapticPresetSO(void* ptr) noexcept : ::UnityEngine::ScriptableObject(ptr) {
+constexpr explicit HapticPresetSO(void* ptr) noexcept : UnityEngine::ScriptableObject(ptr) {
 }
 
 
@@ -82,17 +81,17 @@ constexpr void __set__useAdvancedHapticsOnSupportedPlatforms(bool value) ;
 
 constexpr bool __get__useAdvancedHapticsOnSupportedPlatforms() const;
 
- ::UnityEngine::AudioClip __declspec(property(get=__get__ps5HapticsClip, put=__set__ps5HapticsClip))  _ps5HapticsClip;
+ UnityEngine::AudioClip __declspec(property(get=__get__ps5HapticsClip, put=__set__ps5HapticsClip))  _ps5HapticsClip;
 
-constexpr void __set__ps5HapticsClip(::UnityEngine::AudioClip value) ;
+constexpr void __set__ps5HapticsClip(UnityEngine::AudioClip value) ;
 
-constexpr ::UnityEngine::AudioClip __get__ps5HapticsClip() const;
+constexpr UnityEngine::AudioClip __get__ps5HapticsClip() const;
 
 
 // Methods
 
 /// @brief Method CopyFrom addr 0x1f8f268 size 0x3c virtual false final false
- void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
+ void CopyFrom(Libraries::HM::HMLib::VR::HapticPresetSO hapticPreset) ;
 
 // Ctor Parameters []
 explicit HapticPresetSO() ;
@@ -104,6 +103,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Libraries::HM::HMLib::VR
-} // end anonymous namespace
-NEED_NO_BOX(::Libraries::HM::HMLib::VR::HapticPresetSO);
-DEFINE_IL2CPP_ARG_TYPE(::Libraries::HM::HMLib::VR::HapticPresetSO, "Libraries.HM.HMLib.VR", "HapticPresetSO");
+NEED_NO_BOX(Libraries::HM::HMLib::VR::HapticPresetSO);
+DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO, "Libraries.HM.HMLib.VR", "HapticPresetSO");

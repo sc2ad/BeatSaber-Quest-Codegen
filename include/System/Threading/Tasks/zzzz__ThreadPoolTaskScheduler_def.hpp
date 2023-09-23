@@ -2,19 +2,18 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Threading {
-class ParameterizedThreadStart;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
+namespace System::Threading {
+class ParameterizedThreadStart;
+}
 // Forward declare root types
 namespace System::Threading::Tasks {
-class ThreadPoolTaskScheduler;
+class System__Threading__Tasks__ThreadPoolTaskScheduler____c;
 }
 namespace System::Threading::Tasks {
-class ____System__Threading__Tasks__ThreadPoolTaskScheduler____c;
+class ThreadPoolTaskScheduler;
 }
 // Type: ::<>c
 namespace System::Threading::Tasks {
@@ -22,53 +21,53 @@ namespace System::Threading::Tasks {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2810))
 // CS Name: System.Threading.Tasks.ThreadPoolTaskScheduler::<>c
-class CORDL_TYPE ____System__Threading__Tasks__ThreadPoolTaskScheduler____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE System__Threading__Tasks__ThreadPoolTaskScheduler____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____System__Threading__Tasks__ThreadPoolTaskScheduler____c() = default;
+virtual ~System__Threading__Tasks__ThreadPoolTaskScheduler____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Tasks__ThreadPoolTaskScheduler____c", modifiers: " const&", def_value: None }]
-constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c(____System__Threading__Tasks__ThreadPoolTaskScheduler____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ThreadPoolTaskScheduler____c", modifiers: " const&", def_value: None }]
+constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c(System__Threading__Tasks__ThreadPoolTaskScheduler____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____System__Threading__Tasks__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
-constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c(____System__Threading__Tasks__ThreadPoolTaskScheduler____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "System__Threading__Tasks__ThreadPoolTaskScheduler____c", modifiers: "&&", def_value: None }]
+constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c(System__Threading__Tasks__ThreadPoolTaskScheduler____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____System__Threading__Tasks__ThreadPoolTaskScheduler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit System__Threading__Tasks__ThreadPoolTaskScheduler____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(std::nullptr_t) noexcept {
+  constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(void* o) noexcept {
+  constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(____System__Threading__Tasks__ThreadPoolTaskScheduler____c&& o) noexcept = default;
-  constexpr ____System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(____System__Threading__Tasks__ThreadPoolTaskScheduler____c const& o) noexcept = default;
+  constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(System__Threading__Tasks__ThreadPoolTaskScheduler____c&& o) noexcept = default;
+  constexpr System__Threading__Tasks__ThreadPoolTaskScheduler____c& operator=(System__Threading__Tasks__ThreadPoolTaskScheduler____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c value) ;
+static void __set___9(System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c value) ;
 
-static ::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c __get___9() ;
+static System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c __get___9() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____System__Threading__Tasks__ThreadPoolTaskScheduler____c() ;
+explicit System__Threading__Tasks__ThreadPoolTaskScheduler____c() ;
 
 /// @brief Method .ctor addr 0x24bf8c8 size 0x8 virtual false final false
  void _ctor() ;
@@ -86,10 +85,10 @@ namespace System::Threading::Tasks {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2808))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2811))
 // CS Name: System.Threading.Tasks.ThreadPoolTaskScheduler
-class CORDL_TYPE ThreadPoolTaskScheduler : public ::System::Threading::Tasks::TaskScheduler {
+class CORDL_TYPE ThreadPoolTaskScheduler : public System::Threading::Tasks::TaskScheduler {
 public:
 // Declarations
-using __c = ::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c;
+using __c = System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -103,7 +102,7 @@ constexpr ThreadPoolTaskScheduler(ThreadPoolTaskScheduler const& ) noexcept = de
 constexpr ThreadPoolTaskScheduler(ThreadPoolTaskScheduler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ThreadPoolTaskScheduler(void* ptr) noexcept : ::System::Threading::Tasks::TaskScheduler(ptr) {
+constexpr explicit ThreadPoolTaskScheduler(void* ptr) noexcept : System::Threading::Tasks::TaskScheduler(ptr) {
 }
 
 
@@ -124,11 +123,11 @@ constexpr explicit ThreadPoolTaskScheduler(void* ptr) noexcept : ::System::Threa
 
 // Fields
 
-static ::System::Threading::ParameterizedThreadStart __declspec(property(get=__get_s_longRunningThreadWork, put=__set_s_longRunningThreadWork))  s_longRunningThreadWork;
+static System::Threading::ParameterizedThreadStart __declspec(property(get=__get_s_longRunningThreadWork, put=__set_s_longRunningThreadWork))  s_longRunningThreadWork;
 
-static void __set_s_longRunningThreadWork(::System::Threading::ParameterizedThreadStart value) ;
+static void __set_s_longRunningThreadWork(System::Threading::ParameterizedThreadStart value) ;
 
-static ::System::Threading::ParameterizedThreadStart __get_s_longRunningThreadWork() ;
+static System::Threading::ParameterizedThreadStart __get_s_longRunningThreadWork() ;
 
 
 // Properties
@@ -145,13 +144,13 @@ explicit ThreadPoolTaskScheduler() ;
  void _ctor() ;
 
 /// @brief Method QueueTask addr 0x24bf4d4 size 0x1c8 virtual true final false
- void QueueTask(::System::Threading::Tasks::Task task) ;
+ void QueueTask(System::Threading::Tasks::Task task) ;
 
 /// @brief Method TryExecuteTaskInline addr 0x24bf69c size 0xe4 virtual true final false
- bool TryExecuteTaskInline(::System::Threading::Tasks::Task task, bool taskWasPreviouslyQueued) ;
+ bool TryExecuteTaskInline(System::Threading::Tasks::Task task, bool taskWasPreviouslyQueued) ;
 
 /// @brief Method TryDequeue addr 0x24bf780 size 0x8 virtual true final false
- bool TryDequeue(::System::Threading::Tasks::Task task) ;
+ bool TryDequeue(System::Threading::Tasks::Task task) ;
 
 /// @brief Method NotifyWorkItemProgress addr 0x24bf788 size 0x10 virtual true final false
  void NotifyWorkItemProgress() ;
@@ -163,8 +162,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::Tasks::ThreadPoolTaskScheduler);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::ThreadPoolTaskScheduler, "System.Threading.Tasks", "ThreadPoolTaskScheduler");
-NEED_NO_BOX(::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::____System__Threading__Tasks__ThreadPoolTaskScheduler____c, "System.Threading.Tasks", "ThreadPoolTaskScheduler/<>c");
+NEED_NO_BOX(System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::System__Threading__Tasks__ThreadPoolTaskScheduler____c, "System.Threading.Tasks", "ThreadPoolTaskScheduler/<>c");
+NEED_NO_BOX(System::Threading::Tasks::ThreadPoolTaskScheduler);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ThreadPoolTaskScheduler, "System.Threading.Tasks", "ThreadPoolTaskScheduler");

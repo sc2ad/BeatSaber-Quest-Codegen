@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace GlobalNamespace {
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +24,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5013))
 // CS Name: GameObjectSwitchEventEffect
-class CORDL_TYPE GameObjectSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE GameObjectSwitchEventEffect : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -40,7 +39,7 @@ constexpr GameObjectSwitchEventEffect(GameObjectSwitchEventEffect const& ) noexc
 constexpr GameObjectSwitchEventEffect(GameObjectSwitchEventEffect&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameObjectSwitchEventEffect(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit GameObjectSwitchEventEffect(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,29 +60,29 @@ constexpr explicit GameObjectSwitchEventEffect(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__deactivateOnBoostObjects, put=__set__deactivateOnBoostObjects))  _deactivateOnBoostObjects;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__deactivateOnBoostObjects, put=__set__deactivateOnBoostObjects))  _deactivateOnBoostObjects;
 
-constexpr void __set__deactivateOnBoostObjects(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__deactivateOnBoostObjects(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__deactivateOnBoostObjects() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__deactivateOnBoostObjects() const;
 
- ::ArrayW<::UnityEngine::GameObject> __declspec(property(get=__get__activateOnBoostObjects, put=__set__activateOnBoostObjects))  _activateOnBoostObjects;
+ ::ArrayW<UnityEngine::GameObject> __declspec(property(get=__get__activateOnBoostObjects, put=__set__activateOnBoostObjects))  _activateOnBoostObjects;
 
-constexpr void __set__activateOnBoostObjects(::ArrayW<::UnityEngine::GameObject> value) ;
+constexpr void __set__activateOnBoostObjects(::ArrayW<UnityEngine::GameObject> value) ;
 
-constexpr ::ArrayW<::UnityEngine::GameObject> __get__activateOnBoostObjects() const;
+constexpr ::ArrayW<UnityEngine::GameObject> __get__activateOnBoostObjects() const;
 
- ::GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
+ GlobalNamespace::BeatmapCallbacksController __declspec(property(get=__get__beatmapCallbacksController, put=__set__beatmapCallbacksController))  _beatmapCallbacksController;
 
-constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController value) ;
+constexpr void __set__beatmapCallbacksController(GlobalNamespace::BeatmapCallbacksController value) ;
 
-constexpr ::GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
+constexpr GlobalNamespace::BeatmapCallbacksController __get__beatmapCallbacksController() const;
 
- ::GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
+ GlobalNamespace::BeatmapDataCallbackWrapper __declspec(property(get=__get__beatmapDataCallbackWrapper, put=__set__beatmapDataCallbackWrapper))  _beatmapDataCallbackWrapper;
 
-constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper value) ;
+constexpr void __set__beatmapDataCallbackWrapper(GlobalNamespace::BeatmapDataCallbackWrapper value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
+constexpr GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallbackWrapper() const;
 
 
 // Methods
@@ -95,7 +94,7 @@ constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper __get__beatmapDataCallba
  void OnDestroy() ;
 
 /// @brief Method HandleBeatmapEvent addr 0x225c0f4 size 0x18 virtual false final false
- void HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData basicBeatmapEventData) ;
+ void HandleBeatmapEvent(GlobalNamespace::ColorBoostBeatmapEventData basicBeatmapEventData) ;
 
 /// @brief Method ToggleObjects addr 0x225c10c size 0xc4 virtual false final false
  void ToggleObjects(bool isBoostOn) ;
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameObjectSwitchEventEffect);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameObjectSwitchEventEffect, "", "GameObjectSwitchEventEffect");
+NEED_NO_BOX(GlobalNamespace::GameObjectSwitchEventEffect);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameObjectSwitchEventEffect, "", "GameObjectSwitchEventEffect");

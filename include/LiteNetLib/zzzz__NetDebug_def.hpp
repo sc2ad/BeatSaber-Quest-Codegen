@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace LiteNetLib {
 struct NetLogLevel;
 }
@@ -56,11 +55,11 @@ constexpr explicit NetDebug(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(p
 
 // Fields
 
-static ::LiteNetLib::INetLogger __declspec(property(get=__get_Logger, put=__set_Logger))  Logger;
+static LiteNetLib::INetLogger __declspec(property(get=__get_Logger, put=__set_Logger))  Logger;
 
-static void __set_Logger(::LiteNetLib::INetLogger value) ;
+static void __set_Logger(LiteNetLib::INetLogger value) ;
 
-static ::LiteNetLib::INetLogger __get_Logger() ;
+static LiteNetLib::INetLogger __get_Logger() ;
 
 static ::bs_hook::Il2CppWrapperType __declspec(property(get=__get_DebugLogLock, put=__set_DebugLogLock))  DebugLogLock;
 
@@ -72,19 +71,19 @@ static ::bs_hook::Il2CppWrapperType __get_DebugLogLock() ;
 // Methods
 
 /// @brief Method WriteLogic addr 0x2088748 size 0x220 virtual false final false
-static void WriteLogic(::LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static void WriteLogic(LiteNetLib::NetLogLevel logLevel, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method Write addr 0x2088968 size 0x68 virtual false final false
 static void Write(::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method Write addr 0x20889d0 size 0x6c virtual false final false
-static void Write(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static void Write(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method WriteForce addr 0x2088a3c size 0x68 virtual false final false
 static void WriteForce(::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method WriteForce addr 0x2088aa4 size 0x6c virtual false final false
-static void WriteForce(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
+static void WriteForce(LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
 
 /// @brief Method WriteError addr 0x2084d38 size 0x68 virtual false final false
 static void WriteError(::StringW str, ::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -93,6 +92,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LiteNetLib
-} // end anonymous namespace
-NEED_NO_BOX(::LiteNetLib::NetDebug);
-DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetDebug, "LiteNetLib", "NetDebug");
+NEED_NO_BOX(LiteNetLib::NetDebug);
+DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetDebug, "LiteNetLib", "NetDebug");

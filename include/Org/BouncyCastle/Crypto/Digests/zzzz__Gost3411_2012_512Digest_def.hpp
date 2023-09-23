@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(752))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(754))
 // CS Name: Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest
-class CORDL_TYPE Gost3411_2012_512Digest : public ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
+class CORDL_TYPE Gost3411_2012_512Digest : public Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Gost3411_2012_512Digest(Gost3411_2012_512Digest const& ) noexcept = de
 constexpr Gost3411_2012_512Digest(Gost3411_2012_512Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Gost3411_2012_512Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest(ptr) {
+constexpr explicit Gost3411_2012_512Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest(ptr) {
 }
 
 
@@ -77,22 +76,21 @@ explicit Gost3411_2012_512Digest() ;
 /// @brief Method .ctor addr 0x1199fec size 0x8c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest", modifiers: "", def_value: None }]
-explicit Gost3411_2012_512Digest(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest", modifiers: "", def_value: None }]
+explicit Gost3411_2012_512Digest(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
 
 /// @brief Method .ctor addr 0x119a078 size 0xa4 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest other) ;
 
 /// @brief Method GetDigestSize addr 0x119a11c size 0x8 virtual true final false
  int32_t GetDigestSize() ;
 
 /// @brief Method Copy addr 0x119a124 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012_512Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest, "Org.BouncyCastle.Crypto.Digests", "Gost3411_2012_512Digest");

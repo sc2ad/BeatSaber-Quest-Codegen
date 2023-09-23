@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataMinMaxIntSO_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
 }
@@ -16,7 +15,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5204))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5201))
 // CS Name: MultiplayerBadgeDataGoodCutsSO
-class CORDL_TYPE MultiplayerBadgeDataGoodCutsSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
+class CORDL_TYPE MultiplayerBadgeDataGoodCutsSO : public GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr MultiplayerBadgeDataGoodCutsSO(MultiplayerBadgeDataGoodCutsSO const& )
 constexpr MultiplayerBadgeDataGoodCutsSO(MultiplayerBadgeDataGoodCutsSO&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerBadgeDataGoodCutsSO(void* ptr) noexcept : ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO(ptr) {
+constexpr explicit MultiplayerBadgeDataGoodCutsSO(void* ptr) noexcept : GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO(ptr) {
 }
 
 
@@ -53,7 +52,7 @@ constexpr explicit MultiplayerBadgeDataGoodCutsSO(void* ptr) noexcept : ::Global
 // Methods
 
 /// @brief Method GetValue addr 0x20d864c size 0x28 virtual true final false
- int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData result) ;
+ int32_t GetValue(GlobalNamespace::MultiplayerPlayerResultsData result) ;
 
 // Ctor Parameters []
 explicit MultiplayerBadgeDataGoodCutsSO() ;
@@ -65,6 +64,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO, "", "MultiplayerBadgeDataGoodCutsSO");
+NEED_NO_BOX(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO, "", "MultiplayerBadgeDataGoodCutsSO");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityOpus {
 struct OpusSignal;
@@ -68,17 +67,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Auto offset 0
-static ::UnityOpus::OpusSignal const Auto;
+static UnityOpus::OpusSignal const Auto;
 
 /// @brief Field Voice offset 0
-static ::UnityOpus::OpusSignal const Voice;
+static UnityOpus::OpusSignal const Voice;
 
 /// @brief Field Music offset 0
-static ::UnityOpus::OpusSignal const Music;
+static UnityOpus::OpusSignal const Music;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityOpus
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityOpus::OpusSignal, "UnityOpus", "OpusSignal");
+DEFINE_IL2CPP_ARG_TYPE(UnityOpus::OpusSignal, "UnityOpus", "OpusSignal");

@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class INetworkConfig;
-}
 namespace HMUI {
 class ToggleBinder;
 }
 namespace UnityEngine::UI {
 class Toggle;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+class INetworkConfig;
 }
 namespace GlobalNamespace {
 class LocalNetworkPlayerModel;
@@ -28,7 +27,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5820))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5784))
 // CS Name: LocalNetworkPlayersViewController
-class CORDL_TYPE LocalNetworkPlayersViewController : public ::GlobalNamespace::NetworkPlayersViewController {
+class CORDL_TYPE LocalNetworkPlayersViewController : public GlobalNamespace::NetworkPlayersViewController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr LocalNetworkPlayersViewController(LocalNetworkPlayersViewController co
 constexpr LocalNetworkPlayersViewController(LocalNetworkPlayersViewController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LocalNetworkPlayersViewController(void* ptr) noexcept : ::GlobalNamespace::NetworkPlayersViewController(ptr) {
+constexpr explicit LocalNetworkPlayersViewController(void* ptr) noexcept : GlobalNamespace::NetworkPlayersViewController(ptr) {
 }
 
 
@@ -64,35 +63,35 @@ constexpr explicit LocalNetworkPlayersViewController(void* ptr) noexcept : ::Glo
 
 // Fields
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__enableNetworkingToggle, put=__set__enableNetworkingToggle))  _enableNetworkingToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__enableNetworkingToggle, put=__set__enableNetworkingToggle))  _enableNetworkingToggle;
 
-constexpr void __set__enableNetworkingToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__enableNetworkingToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__enableNetworkingToggle() const;
+constexpr UnityEngine::UI::Toggle __get__enableNetworkingToggle() const;
 
- ::UnityEngine::UI::Toggle __declspec(property(get=__get__enableOpenPartyToggle, put=__set__enableOpenPartyToggle))  _enableOpenPartyToggle;
+ UnityEngine::UI::Toggle __declspec(property(get=__get__enableOpenPartyToggle, put=__set__enableOpenPartyToggle))  _enableOpenPartyToggle;
 
-constexpr void __set__enableOpenPartyToggle(::UnityEngine::UI::Toggle value) ;
+constexpr void __set__enableOpenPartyToggle(UnityEngine::UI::Toggle value) ;
 
-constexpr ::UnityEngine::UI::Toggle __get__enableOpenPartyToggle() const;
+constexpr UnityEngine::UI::Toggle __get__enableOpenPartyToggle() const;
 
- ::GlobalNamespace::LocalNetworkPlayerModel __declspec(property(get=__get__localNetworkPlayerModel, put=__set__localNetworkPlayerModel))  _localNetworkPlayerModel;
+ GlobalNamespace::LocalNetworkPlayerModel __declspec(property(get=__get__localNetworkPlayerModel, put=__set__localNetworkPlayerModel))  _localNetworkPlayerModel;
 
-constexpr void __set__localNetworkPlayerModel(::GlobalNamespace::LocalNetworkPlayerModel value) ;
+constexpr void __set__localNetworkPlayerModel(GlobalNamespace::LocalNetworkPlayerModel value) ;
 
-constexpr ::GlobalNamespace::LocalNetworkPlayerModel __get__localNetworkPlayerModel() const;
+constexpr GlobalNamespace::LocalNetworkPlayerModel __get__localNetworkPlayerModel() const;
 
- ::GlobalNamespace::INetworkConfig __declspec(property(get=__get__networkConfig, put=__set__networkConfig))  _networkConfig;
+ GlobalNamespace::INetworkConfig __declspec(property(get=__get__networkConfig, put=__set__networkConfig))  _networkConfig;
 
-constexpr void __set__networkConfig(::GlobalNamespace::INetworkConfig value) ;
+constexpr void __set__networkConfig(GlobalNamespace::INetworkConfig value) ;
 
-constexpr ::GlobalNamespace::INetworkConfig __get__networkConfig() const;
+constexpr GlobalNamespace::INetworkConfig __get__networkConfig() const;
 
- ::HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
+ HMUI::ToggleBinder __declspec(property(get=__get__toggleBinder, put=__set__toggleBinder))  _toggleBinder;
 
-constexpr void __set__toggleBinder(::HMUI::ToggleBinder value) ;
+constexpr void __set__toggleBinder(HMUI::ToggleBinder value) ;
 
-constexpr ::HMUI::ToggleBinder __get__toggleBinder() const;
+constexpr HMUI::ToggleBinder __get__toggleBinder() const;
 
  bool __declspec(property(get=__get__enableBroadcasting, put=__set__enableBroadcasting))  _enableBroadcasting;
 
@@ -113,7 +112,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
 
  ::StringW __declspec(property(get=get_otherPlayersTitle))  otherPlayersTitle;
 
- ::GlobalNamespace::INetworkPlayerModel __declspec(property(get=get_networkPlayerModel))  networkPlayerModel;
+ GlobalNamespace::INetworkPlayerModel __declspec(property(get=get_networkPlayerModel))  networkPlayerModel;
 
 
 // Methods
@@ -125,7 +124,7 @@ constexpr bool __get__allowAnyoneToJoin() const;
  ::StringW get_otherPlayersTitle() ;
 
 /// @brief Method get_networkPlayerModel addr 0x2171a34 size 0x8 virtual true final false
- ::GlobalNamespace::INetworkPlayerModel get_networkPlayerModel() ;
+ GlobalNamespace::INetworkPlayerModel get_networkPlayerModel() ;
 
 /// @brief Method NetworkPlayersViewControllerDidActivate addr 0x2171a3c size 0x150 virtual true final false
  void NetworkPlayersViewControllerDidActivate(bool firstActivation, bool addedToHierarchy) ;
@@ -155,6 +154,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LocalNetworkPlayersViewController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalNetworkPlayersViewController, "", "LocalNetworkPlayersViewController");
+NEED_NO_BOX(GlobalNamespace::LocalNetworkPlayersViewController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayersViewController, "", "LocalNetworkPlayersViewController");

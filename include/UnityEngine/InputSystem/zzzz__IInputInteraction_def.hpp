@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
 namespace UnityEngine::InputSystem {
 struct InputInteractionContext;
 }
@@ -28,7 +27,7 @@ constexpr explicit IInputInteraction(void* ptr) noexcept : ::cordl_internals::In
 // Methods
 
 /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
- void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context) ;
+ void Process(ByRef<UnityEngine::InputSystem::InputInteractionContext> context) ;
 
 /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
  void Reset() ;
@@ -37,6 +36,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::IInputInteraction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::IInputInteraction, "UnityEngine.InputSystem", "IInputInteraction");
+NEED_NO_BOX(UnityEngine::InputSystem::IInputInteraction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::IInputInteraction, "UnityEngine.InputSystem", "IInputInteraction");

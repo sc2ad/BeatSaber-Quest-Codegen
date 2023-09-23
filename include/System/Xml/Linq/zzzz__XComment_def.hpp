@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Xml {
 struct XmlNodeType;
 }
@@ -22,7 +21,7 @@ namespace System::Xml::Linq {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15429))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15410))
 // CS Name: System.Xml.Linq.XComment
-class CORDL_TYPE XComment : public ::System::Xml::Linq::XNode {
+class CORDL_TYPE XComment : public System::Xml::Linq::XNode {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr XComment(XComment const& ) noexcept = default;
 constexpr XComment(XComment&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XComment(void* ptr) noexcept : ::System::Xml::Linq::XNode(ptr) {
+constexpr explicit XComment(void* ptr) noexcept : System::Xml::Linq::XNode(ptr) {
 }
 
 
@@ -67,7 +66,7 @@ constexpr ::StringW __get_value() const;
 
 // Properties
 
- ::System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
+ System::Xml::XmlNodeType __declspec(property(get=get_NodeType))  NodeType;
 
  ::StringW __declspec(property(get=get_Value, put=set_Value))  Value;
 
@@ -80,14 +79,14 @@ explicit XComment(::StringW value) ;
 /// @brief Method .ctor addr 0x26c9428 size 0x78 virtual false final false
  void _ctor(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::System::Xml::Linq::XComment", modifiers: "", def_value: None }]
-explicit XComment(::System::Xml::Linq::XComment other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "System::Xml::Linq::XComment", modifiers: "", def_value: None }]
+explicit XComment(System::Xml::Linq::XComment other) ;
 
 /// @brief Method .ctor addr 0x26c94a8 size 0x7c virtual false final false
- void _ctor(::System::Xml::Linq::XComment other) ;
+ void _ctor(System::Xml::Linq::XComment other) ;
 
 /// @brief Method get_NodeType addr 0x26c9524 size 0x8 virtual true final false
- ::System::Xml::XmlNodeType get_NodeType() ;
+ System::Xml::XmlNodeType get_NodeType() ;
 
 /// @brief Method get_Value addr 0x26c952c size 0x8 virtual false final false
  ::StringW get_Value() ;
@@ -96,15 +95,14 @@ explicit XComment(::System::Xml::Linq::XComment other) ;
  void set_Value(::StringW value) ;
 
 /// @brief Method WriteTo addr 0x26c9628 size 0x74 virtual true final false
- void WriteTo(::System::Xml::XmlWriter writer) ;
+ void WriteTo(System::Xml::XmlWriter writer) ;
 
 /// @brief Method CloneNode addr 0x26c969c size 0x60 virtual true final false
- ::System::Xml::Linq::XNode CloneNode() ;
+ System::Xml::Linq::XNode CloneNode() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Linq
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Linq::XComment);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XComment, "System.Xml.Linq", "XComment");
+NEED_NO_BOX(System::Xml::Linq::XComment);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Linq::XComment, "System.Xml.Linq", "XComment");

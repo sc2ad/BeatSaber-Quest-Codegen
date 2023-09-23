@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::CompilerServices {
 template<typename TKey,typename TValue>
 class ConditionalWeakTable_2;
@@ -63,16 +62,16 @@ static void __set_primes(::ArrayW<int32_t> value) ;
 
 static ::ArrayW<int32_t> __get_primes() ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,::System::Runtime::Serialization::SerializationInfo> __declspec(property(get=__get_s_serializationInfoTable, put=__set_s_serializationInfoTable))  s_serializationInfoTable;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Runtime::Serialization::SerializationInfo> __declspec(property(get=__get_s_serializationInfoTable, put=__set_s_serializationInfoTable))  s_serializationInfoTable;
 
-static void __set_s_serializationInfoTable(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,::System::Runtime::Serialization::SerializationInfo> value) ;
+static void __set_s_serializationInfoTable(System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Runtime::Serialization::SerializationInfo> value) ;
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,::System::Runtime::Serialization::SerializationInfo> __get_s_serializationInfoTable() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Runtime::Serialization::SerializationInfo> __get_s_serializationInfoTable() ;
 
 
 // Properties
 
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,::System::Runtime::Serialization::SerializationInfo> __declspec(property(get=get_SerializationInfoTable))  SerializationInfoTable;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Runtime::Serialization::SerializationInfo> __declspec(property(get=get_SerializationInfoTable))  SerializationInfoTable;
 
 
 // Methods
@@ -87,12 +86,11 @@ static int32_t GetPrime(int32_t min) ;
 static int32_t ExpandPrime(int32_t oldSize) ;
 
 /// @brief Method get_SerializationInfoTable addr 0x240eac4 size 0xe0 virtual false final false
-static ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,::System::Runtime::Serialization::SerializationInfo> get_SerializationInfoTable() ;
+static System::Runtime::CompilerServices::ConditionalWeakTable_2<::bs_hook::Il2CppWrapperType,System::Runtime::Serialization::SerializationInfo> get_SerializationInfoTable() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::HashHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::HashHelpers, "System.Collections", "HashHelpers");
+NEED_NO_BOX(System::Collections::HashHelpers);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers, "System.Collections", "HashHelpers");

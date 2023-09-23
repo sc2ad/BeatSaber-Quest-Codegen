@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_def.hpp"
 #include <cstdint>
-namespace {
 namespace System::IO {
 class Stream;
 }
@@ -16,7 +15,7 @@ namespace Org::BouncyCastle::Asn1 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(476))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(493))
 // CS Name: Org.BouncyCastle.Asn1.BerSetGenerator
-class CORDL_TYPE BerSetGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
+class CORDL_TYPE BerSetGenerator : public Org::BouncyCastle::Asn1::BerGenerator {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr BerSetGenerator(BerSetGenerator const& ) noexcept = default;
 constexpr BerSetGenerator(BerSetGenerator&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BerSetGenerator(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::BerGenerator(ptr) {
+constexpr explicit BerSetGenerator(void* ptr) noexcept : Org::BouncyCastle::Asn1::BerGenerator(ptr) {
 }
 
 
@@ -52,22 +51,21 @@ constexpr explicit BerSetGenerator(void* ptr) noexcept : ::Org::BouncyCastle::As
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit BerSetGenerator(::System::IO::Stream outStream) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit BerSetGenerator(System::IO::Stream outStream) ;
 
 /// @brief Method .ctor addr 0x1133e14 size 0x34 virtual false final false
- void _ctor(::System::IO::Stream outStream) ;
+ void _ctor(System::IO::Stream outStream) ;
 
-// Ctor Parameters [CppParam { name: "outStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
-explicit BerSetGenerator(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+// Ctor Parameters [CppParam { name: "outStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "tagNo", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isExplicit", ty: "bool", modifiers: "", def_value: None }]
+explicit BerSetGenerator(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 /// @brief Method .ctor addr 0x1133e48 size 0x54 virtual false final false
- void _ctor(::System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
+ void _ctor(System::IO::Stream outStream, int32_t tagNo, bool isExplicit) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerSetGenerator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerSetGenerator, "Org.BouncyCastle.Asn1", "BerSetGenerator");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::BerSetGenerator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerSetGenerator, "Org.BouncyCastle.Asn1", "BerSetGenerator");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 struct StreamingContextStates;
 }
@@ -20,8 +19,8 @@ namespace System::Runtime::Serialization {
 struct CORDL_TYPE StreamingContext : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "m_state", ty: "::System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
-constexpr StreamingContext(::bs_hook::Il2CppWrapperType m_additionalContext, ::System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
+// Ctor Parameters [CppParam { name: "m_additionalContext", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "m_state", ty: "System::Runtime::Serialization::StreamingContextStates", modifiers: "", def_value: None }]
+constexpr StreamingContext(::bs_hook::Il2CppWrapperType m_additionalContext, System::Runtime::Serialization::StreamingContextStates m_state) noexcept;
 
 
                     constexpr StreamingContext(StreamingContext const&) = default;
@@ -60,27 +59,27 @@ constexpr void __set_m_additionalContext(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get_m_additionalContext() const;
 
- ::System::Runtime::Serialization::StreamingContextStates __declspec(property(get=__get_m_state, put=__set_m_state))  m_state;
+ System::Runtime::Serialization::StreamingContextStates __declspec(property(get=__get_m_state, put=__set_m_state))  m_state;
 
-constexpr void __set_m_state(::System::Runtime::Serialization::StreamingContextStates value) ;
+constexpr void __set_m_state(System::Runtime::Serialization::StreamingContextStates value) ;
 
-constexpr ::System::Runtime::Serialization::StreamingContextStates __get_m_state() const;
+constexpr System::Runtime::Serialization::StreamingContextStates __get_m_state() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_Context))  Context;
 
- ::System::Runtime::Serialization::StreamingContextStates __declspec(property(get=get_State))  State;
+ System::Runtime::Serialization::StreamingContextStates __declspec(property(get=get_State))  State;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x23536b4 size 0xc virtual false final false
- void _ctor(::System::Runtime::Serialization::StreamingContextStates state) ;
+ void _ctor(System::Runtime::Serialization::StreamingContextStates state) ;
 
 /// @brief Method .ctor addr 0x23536c0 size 0xc virtual false final false
- void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::bs_hook::Il2CppWrapperType additional) ;
+ void _ctor(System::Runtime::Serialization::StreamingContextStates state, ::bs_hook::Il2CppWrapperType additional) ;
 
 /// @brief Method get_Context addr 0x23536cc size 0x8 virtual false final false
  ::bs_hook::Il2CppWrapperType get_Context() ;
@@ -92,11 +91,10 @@ constexpr ::System::Runtime::Serialization::StreamingContextStates __get_m_state
  int32_t GetHashCode() ;
 
 /// @brief Method get_State addr 0x235378c size 0x8 virtual false final false
- ::System::Runtime::Serialization::StreamingContextStates get_State() ;
+ System::Runtime::Serialization::StreamingContextStates get_State() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::StreamingContext, "System.Runtime.Serialization", "StreamingContext");

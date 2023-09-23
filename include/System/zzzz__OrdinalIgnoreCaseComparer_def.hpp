@@ -3,15 +3,14 @@
 #include "System/zzzz__OrdinalComparer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -23,11 +22,11 @@ namespace System {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2475))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2477))
 // CS Name: System.OrdinalIgnoreCaseComparer
-class CORDL_TYPE OrdinalIgnoreCaseComparer : public ::System::OrdinalComparer {
+class CORDL_TYPE OrdinalIgnoreCaseComparer : public System::OrdinalComparer {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const noexcept;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -41,7 +40,7 @@ constexpr OrdinalIgnoreCaseComparer(OrdinalIgnoreCaseComparer const& ) noexcept 
 constexpr OrdinalIgnoreCaseComparer(OrdinalIgnoreCaseComparer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OrdinalIgnoreCaseComparer(void* ptr) noexcept : ::System::OrdinalComparer(ptr) {
+constexpr explicit OrdinalIgnoreCaseComparer(void* ptr) noexcept : System::OrdinalComparer(ptr) {
 }
 
 
@@ -78,12 +77,11 @@ explicit OrdinalIgnoreCaseComparer() ;
  int32_t GetHashCode(::StringW obj) ;
 
 /// @brief Method GetObjectData addr 0x24579b0 size 0xb4 virtual true final true
- void GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-NEED_NO_BOX(::System::OrdinalIgnoreCaseComparer);
-DEFINE_IL2CPP_ARG_TYPE(::System::OrdinalIgnoreCaseComparer, "System", "OrdinalIgnoreCaseComparer");
+NEED_NO_BOX(System::OrdinalIgnoreCaseComparer);
+DEFINE_IL2CPP_ARG_TYPE(System::OrdinalIgnoreCaseComparer, "System", "OrdinalIgnoreCaseComparer");

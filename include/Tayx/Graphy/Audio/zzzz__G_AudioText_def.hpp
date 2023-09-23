@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace UnityEngine::UI {
-class Text;
-}
 namespace Tayx::Graphy {
 class GraphyManager;
 }
 namespace Tayx::Graphy::Audio {
 class G_AudioMonitor;
+}
+namespace UnityEngine::UI {
+class Text;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -23,7 +22,7 @@ namespace Tayx::Graphy::Audio {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15211))
 // CS Name: Tayx.Graphy.Audio.G_AudioText
-class CORDL_TYPE G_AudioText : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE G_AudioText : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -38,7 +37,7 @@ constexpr G_AudioText(G_AudioText const& ) noexcept = default;
 constexpr G_AudioText(G_AudioText&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit G_AudioText(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit G_AudioText(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -59,23 +58,23 @@ constexpr explicit G_AudioText(void* ptr) noexcept : ::UnityEngine::MonoBehaviou
 
 // Fields
 
- ::UnityEngine::UI::Text __declspec(property(get=__get_m_DBText, put=__set_m_DBText))  m_DBText;
+ UnityEngine::UI::Text __declspec(property(get=__get_m_DBText, put=__set_m_DBText))  m_DBText;
 
-constexpr void __set_m_DBText(::UnityEngine::UI::Text value) ;
+constexpr void __set_m_DBText(UnityEngine::UI::Text value) ;
 
-constexpr ::UnityEngine::UI::Text __get_m_DBText() const;
+constexpr UnityEngine::UI::Text __get_m_DBText() const;
 
- ::Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
+ Tayx::Graphy::GraphyManager __declspec(property(get=__get_m_graphyManager, put=__set_m_graphyManager))  m_graphyManager;
 
-constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager value) ;
+constexpr void __set_m_graphyManager(Tayx::Graphy::GraphyManager value) ;
 
-constexpr ::Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
+constexpr Tayx::Graphy::GraphyManager __get_m_graphyManager() const;
 
- ::Tayx::Graphy::Audio::G_AudioMonitor __declspec(property(get=__get_m_audioMonitor, put=__set_m_audioMonitor))  m_audioMonitor;
+ Tayx::Graphy::Audio::G_AudioMonitor __declspec(property(get=__get_m_audioMonitor, put=__set_m_audioMonitor))  m_audioMonitor;
 
-constexpr void __set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor value) ;
+constexpr void __set_m_audioMonitor(Tayx::Graphy::Audio::G_AudioMonitor value) ;
 
-constexpr ::Tayx::Graphy::Audio::G_AudioMonitor __get_m_audioMonitor() const;
+constexpr Tayx::Graphy::Audio::G_AudioMonitor __get_m_audioMonitor() const;
 
  int32_t __declspec(property(get=__get_m_updateRate, put=__set_m_updateRate))  m_updateRate;
 
@@ -114,6 +113,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Tayx::Graphy::Audio
-} // end anonymous namespace
-NEED_NO_BOX(::Tayx::Graphy::Audio::G_AudioText);
-DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Audio::G_AudioText, "Tayx.Graphy.Audio", "G_AudioText");
+NEED_NO_BOX(Tayx::Graphy::Audio::G_AudioText);
+DEFINE_IL2CPP_ARG_TYPE(Tayx::Graphy::Audio::G_AudioText, "Tayx.Graphy.Audio", "G_AudioText");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace BeatSaberAPI::DataTransferObjects {
 struct UserPlatform;
 }
@@ -55,17 +54,17 @@ constexpr explicit UserAuthenticationData(void* ptr) noexcept : ::bs_hook::Il2Cp
 
 // Fields
 
- ::BeatSaberAPI::DataTransferObjects::UserPlatform __declspec(property(get=__get_userPlatform, put=__set_userPlatform))  userPlatform;
+ BeatSaberAPI::DataTransferObjects::UserPlatform __declspec(property(get=__get_userPlatform, put=__set_userPlatform))  userPlatform;
 
-constexpr void __set_userPlatform(::BeatSaberAPI::DataTransferObjects::UserPlatform value) ;
+constexpr void __set_userPlatform(BeatSaberAPI::DataTransferObjects::UserPlatform value) ;
 
-constexpr ::BeatSaberAPI::DataTransferObjects::UserPlatform __get_userPlatform() const;
+constexpr BeatSaberAPI::DataTransferObjects::UserPlatform __get_userPlatform() const;
 
- ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment __declspec(property(get=__get_platformEnviroment, put=__set_platformEnviroment))  platformEnviroment;
+ BeatSaberAPI::DataTransferObjects::PlatformEnviroment __declspec(property(get=__get_platformEnviroment, put=__set_platformEnviroment))  platformEnviroment;
 
-constexpr void __set_platformEnviroment(::BeatSaberAPI::DataTransferObjects::PlatformEnviroment value) ;
+constexpr void __set_platformEnviroment(BeatSaberAPI::DataTransferObjects::PlatformEnviroment value) ;
 
-constexpr ::BeatSaberAPI::DataTransferObjects::PlatformEnviroment __get_platformEnviroment() const;
+constexpr BeatSaberAPI::DataTransferObjects::PlatformEnviroment __get_platformEnviroment() const;
 
  ::StringW __declspec(property(get=__get_platformUserId, put=__set_platformUserId))  platformUserId;
 
@@ -110,6 +109,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::UserAuthenticationData, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::UserAuthenticationData);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");

@@ -2,19 +2,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
+namespace Zenject {
+class DiContainer;
+}
 namespace GlobalNamespace {
-class LightTranslationGroup;
+class LightTranslationGroupEffect;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
 namespace GlobalNamespace {
-class LightTranslationGroupEffect;
-}
-namespace Zenject {
-class DiContainer;
+class LightTranslationGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +25,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
 // CS Name: LightTranslationGroupEffectManager
-class CORDL_TYPE LightTranslationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightTranslationGroupEffectManager : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr LightTranslationGroupEffectManager(LightTranslationGroupEffectManager 
 constexpr LightTranslationGroupEffectManager(LightTranslationGroupEffectManager&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightTranslationGroupEffectManager(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightTranslationGroupEffectManager(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -62,23 +61,23 @@ constexpr explicit LightTranslationGroupEffectManager(void* ptr) noexcept : ::Un
 
 // Fields
 
- ::ArrayW<::GlobalNamespace::LightTranslationGroup> __declspec(property(get=__get__lightTranslationGroups, put=__set__lightTranslationGroups))  _lightTranslationGroups;
+ ::ArrayW<GlobalNamespace::LightTranslationGroup> __declspec(property(get=__get__lightTranslationGroups, put=__set__lightTranslationGroups))  _lightTranslationGroups;
 
-constexpr void __set__lightTranslationGroups(::ArrayW<::GlobalNamespace::LightTranslationGroup> value) ;
+constexpr void __set__lightTranslationGroups(::ArrayW<GlobalNamespace::LightTranslationGroup> value) ;
 
-constexpr ::ArrayW<::GlobalNamespace::LightTranslationGroup> __get__lightTranslationGroups() const;
+constexpr ::ArrayW<GlobalNamespace::LightTranslationGroup> __get__lightTranslationGroups() const;
 
- ::Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
+ Zenject::DiContainer __declspec(property(get=__get__container, put=__set__container))  _container;
 
-constexpr void __set__container(::Zenject::DiContainer value) ;
+constexpr void __set__container(Zenject::DiContainer value) ;
 
-constexpr ::Zenject::DiContainer __get__container() const;
+constexpr Zenject::DiContainer __get__container() const;
 
- ::System::Collections::Generic::List_1<::GlobalNamespace::LightTranslationGroupEffect> __declspec(property(get=__get__lightTranslationGroupEffects, put=__set__lightTranslationGroupEffects))  _lightTranslationGroupEffects;
+ System::Collections::Generic::List_1<GlobalNamespace::LightTranslationGroupEffect> __declspec(property(get=__get__lightTranslationGroupEffects, put=__set__lightTranslationGroupEffects))  _lightTranslationGroupEffects;
 
-constexpr void __set__lightTranslationGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightTranslationGroupEffect> value) ;
+constexpr void __set__lightTranslationGroupEffects(System::Collections::Generic::List_1<GlobalNamespace::LightTranslationGroupEffect> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightTranslationGroupEffect> __get__lightTranslationGroupEffects() const;
+constexpr System::Collections::Generic::List_1<GlobalNamespace::LightTranslationGroupEffect> __get__lightTranslationGroupEffects() const;
 
 
 // Methods
@@ -99,6 +98,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightTranslationGroupEffectManager);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightTranslationGroupEffectManager, "", "LightTranslationGroupEffectManager");
+NEED_NO_BOX(GlobalNamespace::LightTranslationGroupEffectManager);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightTranslationGroupEffectManager, "", "LightTranslationGroupEffectManager");

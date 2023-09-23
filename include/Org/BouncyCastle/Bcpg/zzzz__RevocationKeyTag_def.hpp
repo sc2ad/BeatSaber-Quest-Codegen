@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
 struct RevocationKeyTag;
@@ -67,14 +66,13 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field ClassDefault offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassDefault;
+static Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassDefault;
 
 /// @brief Field ClassSensitive offset 0
-static ::Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassSensitive;
+static Org::BouncyCastle::Bcpg::RevocationKeyTag const ClassSensitive;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::RevocationKeyTag, "Org.BouncyCastle.Bcpg", "RevocationKeyTag");
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::RevocationKeyTag, "Org.BouncyCastle.Bcpg", "RevocationKeyTag");

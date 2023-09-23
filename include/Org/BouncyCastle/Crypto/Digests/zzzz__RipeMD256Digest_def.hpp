@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(764))
 // CS Name: Org.BouncyCastle.Crypto.Digests.RipeMD256Digest
-class CORDL_TYPE RipeMD256Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
+class CORDL_TYPE RipeMD256Digest : public Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr RipeMD256Digest(RipeMD256Digest const& ) noexcept = default;
 constexpr RipeMD256Digest(RipeMD256Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit RipeMD256Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
+constexpr explicit RipeMD256Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::GeneralDigest(ptr) {
 }
 
 
@@ -137,14 +136,14 @@ explicit RipeMD256Digest() ;
 /// @brief Method .ctor addr 0xe11df0 size 0x6c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest", modifiers: "", def_value: None }]
-explicit RipeMD256Digest(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::RipeMD256Digest", modifiers: "", def_value: None }]
+explicit RipeMD256Digest(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
 
 /// @brief Method .ctor addr 0xe11e5c size 0x74 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
 
 /// @brief Method CopyIn addr 0xe11ed0 size 0x64 virtual false final false
- void CopyIn(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
+ void CopyIn(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t) ;
 
 /// @brief Method ProcessWord addr 0xe11f34 size 0xbc virtual true final false
  void ProcessWord(::ArrayW<uint8_t> input, int32_t inOff) ;
@@ -204,15 +203,14 @@ explicit RipeMD256Digest(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest t
  void ProcessBlock() ;
 
 /// @brief Method Copy addr 0xe132e4 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe13344 size 0x84 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::RipeMD256Digest, "Org.BouncyCastle.Crypto.Digests", "RipeMD256Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::RipeMD256Digest, "Org.BouncyCastle.Crypto.Digests", "RipeMD256Digest");

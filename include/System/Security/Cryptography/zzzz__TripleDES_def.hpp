@@ -3,7 +3,6 @@
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Security::Cryptography {
 class KeySizes;
 }
@@ -17,7 +16,7 @@ namespace System::Security::Cryptography {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2969))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2970))
 // CS Name: System.Security.Cryptography.TripleDES
-class CORDL_TYPE TripleDES : public ::System::Security::Cryptography::SymmetricAlgorithm {
+class CORDL_TYPE TripleDES : public System::Security::Cryptography::SymmetricAlgorithm {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr TripleDES(TripleDES const& ) noexcept = default;
 constexpr TripleDES(TripleDES&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TripleDES(void* ptr) noexcept : ::System::Security::Cryptography::SymmetricAlgorithm(ptr) {
+constexpr explicit TripleDES(void* ptr) noexcept : System::Security::Cryptography::SymmetricAlgorithm(ptr) {
 }
 
 
@@ -53,17 +52,17 @@ constexpr explicit TripleDES(void* ptr) noexcept : ::System::Security::Cryptogra
 
 // Fields
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalBlockSizes, put=__set_s_legalBlockSizes))  s_legalBlockSizes;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalBlockSizes, put=__set_s_legalBlockSizes))  s_legalBlockSizes;
 
-static void __set_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+static void __set_s_legalBlockSizes(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __get_s_legalBlockSizes() ;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalBlockSizes() ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalKeySizes, put=__set_s_legalKeySizes))  s_legalKeySizes;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __declspec(property(get=__get_s_legalKeySizes, put=__set_s_legalKeySizes))  s_legalKeySizes;
 
-static void __set_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes> value) ;
+static void __set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes> value) ;
 
-static ::ArrayW<::System::Security::Cryptography::KeySizes> __get_s_legalKeySizes() ;
+static ::ArrayW<System::Security::Cryptography::KeySizes> __get_s_legalKeySizes() ;
 
 
 // Properties
@@ -86,7 +85,7 @@ explicit TripleDES() ;
  void set_Key(::ArrayW<uint8_t> value) ;
 
 /// @brief Method Create addr 0x2300030 size 0x58 virtual false final false
-static ::System::Security::Cryptography::TripleDES Create() ;
+static System::Security::Cryptography::TripleDES Create() ;
 
 /// @brief Method IsWeakKey addr 0x22ffd10 size 0x13c virtual false final false
 static bool IsWeakKey(::ArrayW<uint8_t> rgbKey) ;
@@ -101,6 +100,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::TripleDES);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::TripleDES, "System.Security.Cryptography", "TripleDES");
+NEED_NO_BOX(System::Security::Cryptography::TripleDES);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDES, "System.Security.Cryptography", "TripleDES");

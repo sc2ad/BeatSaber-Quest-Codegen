@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
-namespace {
 namespace UnityEngine {
 class GameObject;
 }
@@ -15,7 +14,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4877))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5238))
 // CS Name: MultiplayerConnectedPlayerNoteController
-class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public ::GlobalNamespace::NoteController {
+class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public GlobalNamespace::NoteController {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNot
 constexpr MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerConnectedPlayerNoteController(void* ptr) noexcept : ::GlobalNamespace::NoteController(ptr) {
+constexpr explicit MultiplayerConnectedPlayerNoteController(void* ptr) noexcept : GlobalNamespace::NoteController(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit MultiplayerConnectedPlayerNoteController(void* ptr) noexcept 
 
 // Fields
 
- ::UnityEngine::GameObject __declspec(property(get=__get__visualsWrapperGo, put=__set__visualsWrapperGo))  _visualsWrapperGo;
+ UnityEngine::GameObject __declspec(property(get=__get__visualsWrapperGo, put=__set__visualsWrapperGo))  _visualsWrapperGo;
 
-constexpr void __set__visualsWrapperGo(::UnityEngine::GameObject value) ;
+constexpr void __set__visualsWrapperGo(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__visualsWrapperGo() const;
+constexpr UnityEngine::GameObject __get__visualsWrapperGo() const;
 
 
 // Methods
@@ -76,6 +75,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerNoteController, "", "MultiplayerConnectedPlayerNoteController");
+NEED_NO_BOX(GlobalNamespace::MultiplayerConnectedPlayerNoteController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteController, "", "MultiplayerConnectedPlayerNoteController");

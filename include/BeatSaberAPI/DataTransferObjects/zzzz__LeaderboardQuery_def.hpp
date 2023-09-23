@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace BeatSaberAPI::DataTransferObjects {
-struct ____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
-}
 namespace BeatSaberAPI::DataTransferObjects {
 struct ScoresScope;
+}
+namespace BeatSaberAPI::DataTransferObjects {
+struct BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers;
 }
 // Forward declare root types
 namespace BeatSaberAPI::DataTransferObjects {
@@ -75,11 +74,11 @@ constexpr void __set_fromRank(int32_t value) ;
 
 constexpr int32_t __get_fromRank() const;
 
- ::BeatSaberAPI::DataTransferObjects::ScoresScope __declspec(property(get=__get_scope, put=__set_scope))  scope;
+ BeatSaberAPI::DataTransferObjects::ScoresScope __declspec(property(get=__get_scope, put=__set_scope))  scope;
 
-constexpr void __set_scope(::BeatSaberAPI::DataTransferObjects::ScoresScope value) ;
+constexpr void __set_scope(BeatSaberAPI::DataTransferObjects::ScoresScope value) ;
 
-constexpr ::BeatSaberAPI::DataTransferObjects::ScoresScope __get_scope() const;
+constexpr BeatSaberAPI::DataTransferObjects::ScoresScope __get_scope() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get_friendsUserIds, put=__set_friendsUserIds))  friendsUserIds;
 
@@ -93,11 +92,11 @@ constexpr void __set_onlyWithSpecificGameplayModifiers(bool value) ;
 
 constexpr bool __get_onlyWithSpecificGameplayModifiers() const;
 
- ::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
+ ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __declspec(property(get=__get_gameplayModifiers, put=__set_gameplayModifiers))  gameplayModifiers;
 
-constexpr void __set_gameplayModifiers(::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> value) ;
+constexpr void __set_gameplayModifiers(::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> value) ;
 
-constexpr ::ArrayW<::BeatSaberAPI::DataTransferObjects::____BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __get_gameplayModifiers() const;
+constexpr ::ArrayW<BeatSaberAPI::DataTransferObjects::BeatSaberAPI__DataTransferObjects__LevelScoreResult__GameplayModifiers> __get_gameplayModifiers() const;
 
 
 // Methods
@@ -112,6 +111,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def BeatSaberAPI::DataTransferObjects
-} // end anonymous namespace
-NEED_NO_BOX(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery);
-DEFINE_IL2CPP_ARG_TYPE(::BeatSaberAPI::DataTransferObjects::LeaderboardQuery, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");
+NEED_NO_BOX(BeatSaberAPI::DataTransferObjects::LeaderboardQuery);
+DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardQuery, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");

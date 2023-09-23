@@ -3,18 +3,17 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-struct ColorType;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
@@ -72,12 +71,11 @@ static constexpr float_t  kMinBladeSpeedForCut{2};
 // Methods
 
 /// @brief Method GetBasicCutInfo addr 0x1216d98 size 0x198 virtual false final false
-static void GetBasicCutInfo(::UnityEngine::Transform noteTransform, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection, ::GlobalNamespace::SaberType saberType, float_t saberBladeSpeed, ::UnityEngine::Vector3 cutDirVec, float_t cutAngleTolerance, ByRef<bool> directionOK, ByRef<bool> speedOK, ByRef<bool> saberTypeOK, ByRef<float_t> cutDirDeviation, ByRef<float_t> cutDirAngle) ;
+static void GetBasicCutInfo(UnityEngine::Transform noteTransform, GlobalNamespace::ColorType colorType, GlobalNamespace::NoteCutDirection cutDirection, GlobalNamespace::SaberType saberType, float_t saberBladeSpeed, UnityEngine::Vector3 cutDirVec, float_t cutAngleTolerance, ByRef<bool> directionOK, ByRef<bool> speedOK, ByRef<bool> saberTypeOK, ByRef<float_t> cutDirDeviation, ByRef<float_t> cutDirAngle) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoteBasicCutInfoHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteBasicCutInfoHelper, "", "NoteBasicCutInfoHelper");
+NEED_NO_BOX(GlobalNamespace::NoteBasicCutInfoHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfoHelper, "", "NoteBasicCutInfoHelper");

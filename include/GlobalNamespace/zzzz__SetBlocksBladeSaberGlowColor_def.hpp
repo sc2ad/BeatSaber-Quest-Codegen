@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class BlocksBlade;
+class SaberTypeObject;
 }
 namespace GlobalNamespace {
-class SaberTypeObject;
+class BlocksBlade;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5392))
 // CS Name: SetBlocksBladeSaberGlowColor
-class CORDL_TYPE SetBlocksBladeSaberGlowColor : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE SetBlocksBladeSaberGlowColor : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor const& ) noe
 constexpr SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SetBlocksBladeSaberGlowColor(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit SetBlocksBladeSaberGlowColor(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit SetBlocksBladeSaberGlowColor(void* ptr) noexcept : ::UnityEng
 
 // Fields
 
- ::GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saber, put=__set__saber))  _saber;
+ GlobalNamespace::SaberTypeObject __declspec(property(get=__get__saber, put=__set__saber))  _saber;
 
-constexpr void __set__saber(::GlobalNamespace::SaberTypeObject value) ;
+constexpr void __set__saber(GlobalNamespace::SaberTypeObject value) ;
 
-constexpr ::GlobalNamespace::SaberTypeObject __get__saber() const;
+constexpr GlobalNamespace::SaberTypeObject __get__saber() const;
 
- ::GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
+ GlobalNamespace::ColorManager __declspec(property(get=__get__colorManager, put=__set__colorManager))  _colorManager;
 
-constexpr void __set__colorManager(::GlobalNamespace::ColorManager value) ;
+constexpr void __set__colorManager(GlobalNamespace::ColorManager value) ;
 
-constexpr ::GlobalNamespace::ColorManager __get__colorManager() const;
+constexpr GlobalNamespace::ColorManager __get__colorManager() const;
 
- ::GlobalNamespace::BlocksBlade __declspec(property(get=__get__blocksBlade, put=__set__blocksBlade))  _blocksBlade;
+ GlobalNamespace::BlocksBlade __declspec(property(get=__get__blocksBlade, put=__set__blocksBlade))  _blocksBlade;
 
-constexpr void __set__blocksBlade(::GlobalNamespace::BlocksBlade value) ;
+constexpr void __set__blocksBlade(GlobalNamespace::BlocksBlade value) ;
 
-constexpr ::GlobalNamespace::BlocksBlade __get__blocksBlade() const;
+constexpr GlobalNamespace::BlocksBlade __get__blocksBlade() const;
 
 
 // Methods
@@ -91,6 +90,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::SetBlocksBladeSaberGlowColor);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetBlocksBladeSaberGlowColor, "", "SetBlocksBladeSaberGlowColor");
+NEED_NO_BOX(GlobalNamespace::SetBlocksBladeSaberGlowColor);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetBlocksBladeSaberGlowColor, "", "SetBlocksBladeSaberGlowColor");

@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerMenuInstaller;
@@ -12,7 +11,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5487))
 // CS Name: MultiplayerMenuInstaller
-class CORDL_TYPE MultiplayerMenuInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE MultiplayerMenuInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr MultiplayerMenuInstaller(MultiplayerMenuInstaller const& ) noexcept = 
 constexpr MultiplayerMenuInstaller(MultiplayerMenuInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MultiplayerMenuInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit MultiplayerMenuInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -61,6 +60,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MultiplayerMenuInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerMenuInstaller, "", "MultiplayerMenuInstaller");
+NEED_NO_BOX(GlobalNamespace::MultiplayerMenuInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuInstaller, "", "MultiplayerMenuInstaller");

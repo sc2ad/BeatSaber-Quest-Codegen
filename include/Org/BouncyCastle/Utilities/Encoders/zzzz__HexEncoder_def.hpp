@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Utilities::Encoders {
 class IEncoder;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE HexEncoder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Utilities::Encoders::IEncoder
-constexpr operator  ::Org::BouncyCastle::Utilities::Encoders::IEncoder() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Utilities::Encoders::IEncoder
+constexpr operator  Org::BouncyCastle::Utilities::Encoders::IEncoder() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -88,16 +87,16 @@ explicit HexEncoder() ;
  int32_t Encode(::ArrayW<uint8_t> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t> outBuf, int32_t outOff) ;
 
 /// @brief Method Encode addr 0x10d1874 size 0x110 virtual true final true
- int32_t Encode(::ArrayW<uint8_t> buf, int32_t off, int32_t len, ::System::IO::Stream outStream) ;
+ int32_t Encode(::ArrayW<uint8_t> buf, int32_t off, int32_t len, System::IO::Stream outStream) ;
 
 /// @brief Method Ignore addr 0x10d2910 size 0x38 virtual false final false
 static bool Ignore(char16_t c) ;
 
 /// @brief Method Decode addr 0x10d1b68 size 0x2e4 virtual true final true
- int32_t Decode(::ArrayW<uint8_t> data, int32_t off, int32_t length, ::System::IO::Stream outStream) ;
+ int32_t Decode(::ArrayW<uint8_t> data, int32_t off, int32_t length, System::IO::Stream outStream) ;
 
 /// @brief Method DecodeString addr 0x10d1f1c size 0x2fc virtual true final true
- int32_t DecodeString(::StringW data, ::System::IO::Stream outStream) ;
+ int32_t DecodeString(::StringW data, System::IO::Stream outStream) ;
 
 /// @brief Method DecodeStrict addr 0x10d2304 size 0x248 virtual false final false
  ::ArrayW<uint8_t> DecodeStrict(::StringW str, int32_t off, int32_t len) ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Utilities::Encoders
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexEncoder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::HexEncoder, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
+NEED_NO_BOX(Org::BouncyCastle::Utilities::Encoders::HexEncoder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");

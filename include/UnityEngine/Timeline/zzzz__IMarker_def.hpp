@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine::Timeline {
 class TrackAsset;
 }
@@ -29,7 +28,7 @@ constexpr explicit IMarker(void* ptr) noexcept : ::cordl_internals::InterfaceW(p
 
  double_t __declspec(property(get=get_time, put=set_time))  time;
 
- ::UnityEngine::Timeline::TrackAsset __declspec(property(get=get_parent))  parent;
+ UnityEngine::Timeline::TrackAsset __declspec(property(get=get_parent))  parent;
 
 
 // Methods
@@ -41,15 +40,14 @@ constexpr explicit IMarker(void* ptr) noexcept : ::cordl_internals::InterfaceW(p
  void set_time(double_t value) ;
 
 /// @brief Method get_parent addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::Timeline::TrackAsset get_parent() ;
+ UnityEngine::Timeline::TrackAsset get_parent() ;
 
 /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual true final false
- void Initialize(::UnityEngine::Timeline::TrackAsset parent) ;
+ void Initialize(UnityEngine::Timeline::TrackAsset parent) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Timeline::IMarker);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::IMarker, "UnityEngine.Timeline", "IMarker");
+NEED_NO_BOX(UnityEngine::Timeline::IMarker);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IMarker, "UnityEngine.Timeline", "IMarker");

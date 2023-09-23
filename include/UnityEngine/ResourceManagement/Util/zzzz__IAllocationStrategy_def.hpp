@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Type;
 }
@@ -29,7 +28,7 @@ constexpr explicit IAllocationStrategy(void* ptr) noexcept : ::cordl_internals::
 // Methods
 
 /// @brief Method New addr 0x0 size 0xffffffffffffffff virtual true final false
- ::bs_hook::Il2CppWrapperType New(::System::Type type, int32_t typeHash) ;
+ ::bs_hook::Il2CppWrapperType New(System::Type type, int32_t typeHash) ;
 
 /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
  void Release(int32_t typeHash, ::bs_hook::Il2CppWrapperType obj) ;
@@ -38,6 +37,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IAllocationStrategy);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IAllocationStrategy, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::IAllocationStrategy);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::IAllocationStrategy, "UnityEngine.ResourceManagement.Util", "IAllocationStrategy");

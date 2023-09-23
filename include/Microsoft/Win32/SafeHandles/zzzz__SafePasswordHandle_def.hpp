@@ -3,7 +3,6 @@
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
@@ -14,7 +13,7 @@ namespace Microsoft::Win32::SafeHandles {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2298))
 // CS Name: Microsoft.Win32.SafeHandles.SafePasswordHandle
-class CORDL_TYPE SafePasswordHandle : public ::System::Runtime::InteropServices::SafeHandle {
+class CORDL_TYPE SafePasswordHandle : public System::Runtime::InteropServices::SafeHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -29,7 +28,7 @@ constexpr SafePasswordHandle(SafePasswordHandle const& ) noexcept = default;
 constexpr SafePasswordHandle(SafePasswordHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafePasswordHandle(void* ptr) noexcept : ::System::Runtime::InteropServices::SafeHandle(ptr) {
+constexpr explicit SafePasswordHandle(void* ptr) noexcept : System::Runtime::InteropServices::SafeHandle(ptr) {
 }
 
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32::SafeHandles
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::SafeHandles::SafePasswordHandle);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::SafeHandles::SafePasswordHandle, "Microsoft.Win32.SafeHandles", "SafePasswordHandle");
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafePasswordHandle);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafePasswordHandle, "Microsoft.Win32.SafeHandles", "SafePasswordHandle");

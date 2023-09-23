@@ -5,41 +5,40 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class TouchScreenKeyboard;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
-class Event;
-}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace UnityEngine {
-class GUIStyle;
+class Event;
 }
 namespace UnityEngine {
 class GUIContent;
 }
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class TouchScreenKeyboard;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
 // Forward declare root types
 namespace UnityEngine {
-struct ____UnityEngine__TextEditor__CharacterType;
+struct UnityEngine__TextEditor__CharacterType;
 }
 namespace UnityEngine {
-struct ____UnityEngine__TextEditor__DblClickSnapping;
+struct UnityEngine__TextEditor__DblClickSnapping;
 }
 namespace UnityEngine {
-struct ____UnityEngine__TextEditor__Direction;
+struct UnityEngine__TextEditor__Direction;
 }
 namespace UnityEngine {
-struct ____UnityEngine__TextEditor__TextEditOp;
+struct UnityEngine__TextEditor__TextEditOp;
 }
 namespace UnityEngine {
 class TextEditor;
@@ -50,20 +49,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14772))
 // CS Name: UnityEngine.TextEditor::DblClickSnapping
-struct CORDL_TYPE ____UnityEngine__TextEditor__DblClickSnapping : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__TextEditor__DblClickSnapping : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__TextEditor__DblClickSnapping(uint8_t value__) noexcept;
+constexpr UnityEngine__TextEditor__DblClickSnapping(uint8_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__TextEditor__DblClickSnapping(____UnityEngine__TextEditor__DblClickSnapping const&) = default;
-                    constexpr ____UnityEngine__TextEditor__DblClickSnapping(____UnityEngine__TextEditor__DblClickSnapping&&) = default;
-                    constexpr ____UnityEngine__TextEditor__DblClickSnapping& operator=(____UnityEngine__TextEditor__DblClickSnapping const& o) {
+                    constexpr UnityEngine__TextEditor__DblClickSnapping(UnityEngine__TextEditor__DblClickSnapping const&) = default;
+                    constexpr UnityEngine__TextEditor__DblClickSnapping(UnityEngine__TextEditor__DblClickSnapping&&) = default;
+                    constexpr UnityEngine__TextEditor__DblClickSnapping& operator=(UnityEngine__TextEditor__DblClickSnapping const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__TextEditor__DblClickSnapping& operator=(____UnityEngine__TextEditor__DblClickSnapping&& o) noexcept {
+                    constexpr UnityEngine__TextEditor__DblClickSnapping& operator=(UnityEngine__TextEditor__DblClickSnapping&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -76,7 +75,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x1};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TextEditor__DblClickSnapping(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__TextEditor__DblClickSnapping(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -84,14 +83,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__TextEditor__DblClickSnapping_Unwrapped : uint8_t {
+enum class __UnityEngine__TextEditor__DblClickSnapping_Unwrapped : uint8_t {
 __WORDS = 0u,
 __PARAGRAPHS = 1u,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__TextEditor__DblClickSnapping_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__TextEditor__DblClickSnapping_Unwrapped>(__instance);
+constexpr operator __UnityEngine__TextEditor__DblClickSnapping_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__TextEditor__DblClickSnapping_Unwrapped>(__instance);
 }
 
 
@@ -104,10 +103,10 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field WORDS offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping const WORDS;
+static UnityEngine::UnityEngine__TextEditor__DblClickSnapping const WORDS;
 
 /// @brief Field PARAGRAPHS offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping const PARAGRAPHS;
+static UnityEngine::UnityEngine__TextEditor__DblClickSnapping const PARAGRAPHS;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -119,20 +118,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14773))
 // CS Name: UnityEngine.TextEditor::CharacterType
-struct CORDL_TYPE ____UnityEngine__TextEditor__CharacterType : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__TextEditor__CharacterType : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__TextEditor__CharacterType(int32_t value__) noexcept;
+constexpr UnityEngine__TextEditor__CharacterType(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__TextEditor__CharacterType(____UnityEngine__TextEditor__CharacterType const&) = default;
-                    constexpr ____UnityEngine__TextEditor__CharacterType(____UnityEngine__TextEditor__CharacterType&&) = default;
-                    constexpr ____UnityEngine__TextEditor__CharacterType& operator=(____UnityEngine__TextEditor__CharacterType const& o) {
+                    constexpr UnityEngine__TextEditor__CharacterType(UnityEngine__TextEditor__CharacterType const&) = default;
+                    constexpr UnityEngine__TextEditor__CharacterType(UnityEngine__TextEditor__CharacterType&&) = default;
+                    constexpr UnityEngine__TextEditor__CharacterType& operator=(UnityEngine__TextEditor__CharacterType const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__TextEditor__CharacterType& operator=(____UnityEngine__TextEditor__CharacterType&& o) noexcept {
+                    constexpr UnityEngine__TextEditor__CharacterType& operator=(UnityEngine__TextEditor__CharacterType&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -145,7 +144,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TextEditor__CharacterType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__TextEditor__CharacterType(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -153,7 +152,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__TextEditor__CharacterType_Unwrapped : int32_t {
+enum class __UnityEngine__TextEditor__CharacterType_Unwrapped : int32_t {
 __LetterLike = 0,
 __Symbol = 1,
 __Symbol2 = 2,
@@ -161,8 +160,8 @@ __WhiteSpace = 3,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__TextEditor__CharacterType_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__TextEditor__CharacterType_Unwrapped>(__instance);
+constexpr operator __UnityEngine__TextEditor__CharacterType_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__TextEditor__CharacterType_Unwrapped>(__instance);
 }
 
 
@@ -175,16 +174,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field LetterLike offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__CharacterType const LetterLike;
+static UnityEngine::UnityEngine__TextEditor__CharacterType const LetterLike;
 
 /// @brief Field Symbol offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__CharacterType const Symbol;
+static UnityEngine::UnityEngine__TextEditor__CharacterType const Symbol;
 
 /// @brief Field Symbol2 offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__CharacterType const Symbol2;
+static UnityEngine::UnityEngine__TextEditor__CharacterType const Symbol2;
 
 /// @brief Field WhiteSpace offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__CharacterType const WhiteSpace;
+static UnityEngine::UnityEngine__TextEditor__CharacterType const WhiteSpace;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -196,20 +195,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14774))
 // CS Name: UnityEngine.TextEditor::Direction
-struct CORDL_TYPE ____UnityEngine__TextEditor__Direction : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__TextEditor__Direction : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__TextEditor__Direction(int32_t value__) noexcept;
+constexpr UnityEngine__TextEditor__Direction(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__TextEditor__Direction(____UnityEngine__TextEditor__Direction const&) = default;
-                    constexpr ____UnityEngine__TextEditor__Direction(____UnityEngine__TextEditor__Direction&&) = default;
-                    constexpr ____UnityEngine__TextEditor__Direction& operator=(____UnityEngine__TextEditor__Direction const& o) {
+                    constexpr UnityEngine__TextEditor__Direction(UnityEngine__TextEditor__Direction const&) = default;
+                    constexpr UnityEngine__TextEditor__Direction(UnityEngine__TextEditor__Direction&&) = default;
+                    constexpr UnityEngine__TextEditor__Direction& operator=(UnityEngine__TextEditor__Direction const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__TextEditor__Direction& operator=(____UnityEngine__TextEditor__Direction&& o) noexcept {
+                    constexpr UnityEngine__TextEditor__Direction& operator=(UnityEngine__TextEditor__Direction&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -222,7 +221,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TextEditor__Direction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__TextEditor__Direction(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -230,14 +229,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__TextEditor__Direction_Unwrapped : int32_t {
+enum class __UnityEngine__TextEditor__Direction_Unwrapped : int32_t {
 __Forward = 0,
 __Backward = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__TextEditor__Direction_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__TextEditor__Direction_Unwrapped>(__instance);
+constexpr operator __UnityEngine__TextEditor__Direction_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__TextEditor__Direction_Unwrapped>(__instance);
 }
 
 
@@ -250,10 +249,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Forward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__Direction const Forward;
+static UnityEngine::UnityEngine__TextEditor__Direction const Forward;
 
 /// @brief Field Backward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__Direction const Backward;
+static UnityEngine::UnityEngine__TextEditor__Direction const Backward;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -265,20 +264,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14775))
 // CS Name: UnityEngine.TextEditor::TextEditOp
-struct CORDL_TYPE ____UnityEngine__TextEditor__TextEditOp : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__TextEditor__TextEditOp : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__TextEditor__TextEditOp(int32_t value__) noexcept;
+constexpr UnityEngine__TextEditor__TextEditOp(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__TextEditor__TextEditOp(____UnityEngine__TextEditor__TextEditOp const&) = default;
-                    constexpr ____UnityEngine__TextEditor__TextEditOp(____UnityEngine__TextEditor__TextEditOp&&) = default;
-                    constexpr ____UnityEngine__TextEditor__TextEditOp& operator=(____UnityEngine__TextEditor__TextEditOp const& o) {
+                    constexpr UnityEngine__TextEditor__TextEditOp(UnityEngine__TextEditor__TextEditOp const&) = default;
+                    constexpr UnityEngine__TextEditor__TextEditOp(UnityEngine__TextEditor__TextEditOp&&) = default;
+                    constexpr UnityEngine__TextEditor__TextEditOp& operator=(UnityEngine__TextEditor__TextEditOp const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__TextEditor__TextEditOp& operator=(____UnityEngine__TextEditor__TextEditOp&& o) noexcept {
+                    constexpr UnityEngine__TextEditor__TextEditOp& operator=(UnityEngine__TextEditor__TextEditOp&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -291,7 +290,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__TextEditor__TextEditOp(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__TextEditor__TextEditOp(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -299,7 +298,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__TextEditor__TextEditOp_Unwrapped : int32_t {
+enum class __UnityEngine__TextEditor__TextEditOp_Unwrapped : int32_t {
 __MoveLeft = 0,
 __MoveRight = 1,
 __MoveUp = 2,
@@ -353,8 +352,8 @@ __ScrollPageDown = 49,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__TextEditor__TextEditOp_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__TextEditor__TextEditOp_Unwrapped>(__instance);
+constexpr operator __UnityEngine__TextEditor__TextEditOp_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__TextEditor__TextEditOp_Unwrapped>(__instance);
 }
 
 
@@ -367,154 +366,154 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field MoveLeft offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveLeft;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveLeft;
 
 /// @brief Field MoveRight offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveRight;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveRight;
 
 /// @brief Field MoveUp offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveUp;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveUp;
 
 /// @brief Field MoveDown offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveDown;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveDown;
 
 /// @brief Field MoveLineStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveLineStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveLineStart;
 
 /// @brief Field MoveLineEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveLineEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveLineEnd;
 
 /// @brief Field MoveTextStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveTextStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveTextStart;
 
 /// @brief Field MoveTextEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveTextEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveTextEnd;
 
 /// @brief Field MovePageUp offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MovePageUp;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MovePageUp;
 
 /// @brief Field MovePageDown offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MovePageDown;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MovePageDown;
 
 /// @brief Field MoveGraphicalLineStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveGraphicalLineStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveGraphicalLineStart;
 
 /// @brief Field MoveGraphicalLineEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveGraphicalLineEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveGraphicalLineEnd;
 
 /// @brief Field MoveWordLeft offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveWordLeft;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveWordLeft;
 
 /// @brief Field MoveWordRight offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveWordRight;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveWordRight;
 
 /// @brief Field MoveParagraphForward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveParagraphForward;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveParagraphForward;
 
 /// @brief Field MoveParagraphBackward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveParagraphBackward;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveParagraphBackward;
 
 /// @brief Field MoveToStartOfNextWord offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveToStartOfNextWord;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveToStartOfNextWord;
 
 /// @brief Field MoveToEndOfPreviousWord offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const MoveToEndOfPreviousWord;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const MoveToEndOfPreviousWord;
 
 /// @brief Field SelectLeft offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectLeft;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectLeft;
 
 /// @brief Field SelectRight offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectRight;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectRight;
 
 /// @brief Field SelectUp offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectUp;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectUp;
 
 /// @brief Field SelectDown offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectDown;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectDown;
 
 /// @brief Field SelectTextStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectTextStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectTextStart;
 
 /// @brief Field SelectTextEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectTextEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectTextEnd;
 
 /// @brief Field SelectPageUp offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectPageUp;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectPageUp;
 
 /// @brief Field SelectPageDown offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectPageDown;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectPageDown;
 
 /// @brief Field ExpandSelectGraphicalLineStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ExpandSelectGraphicalLineStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ExpandSelectGraphicalLineStart;
 
 /// @brief Field ExpandSelectGraphicalLineEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ExpandSelectGraphicalLineEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ExpandSelectGraphicalLineEnd;
 
 /// @brief Field SelectGraphicalLineStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectGraphicalLineStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectGraphicalLineStart;
 
 /// @brief Field SelectGraphicalLineEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectGraphicalLineEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectGraphicalLineEnd;
 
 /// @brief Field SelectWordLeft offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectWordLeft;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectWordLeft;
 
 /// @brief Field SelectWordRight offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectWordRight;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectWordRight;
 
 /// @brief Field SelectToEndOfPreviousWord offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectToEndOfPreviousWord;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectToEndOfPreviousWord;
 
 /// @brief Field SelectToStartOfNextWord offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectToStartOfNextWord;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectToStartOfNextWord;
 
 /// @brief Field SelectParagraphBackward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectParagraphBackward;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectParagraphBackward;
 
 /// @brief Field SelectParagraphForward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectParagraphForward;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectParagraphForward;
 
 /// @brief Field Delete offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const Delete;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const Delete;
 
 /// @brief Field Backspace offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const Backspace;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const Backspace;
 
 /// @brief Field DeleteWordBack offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const DeleteWordBack;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const DeleteWordBack;
 
 /// @brief Field DeleteWordForward offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const DeleteWordForward;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const DeleteWordForward;
 
 /// @brief Field DeleteLineBack offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const DeleteLineBack;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const DeleteLineBack;
 
 /// @brief Field Cut offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const Cut;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const Cut;
 
 /// @brief Field Copy offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const Copy;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const Copy;
 
 /// @brief Field Paste offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const Paste;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const Paste;
 
 /// @brief Field SelectAll offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectAll;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectAll;
 
 /// @brief Field SelectNone offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const SelectNone;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const SelectNone;
 
 /// @brief Field ScrollStart offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ScrollStart;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ScrollStart;
 
 /// @brief Field ScrollEnd offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ScrollEnd;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ScrollEnd;
 
 /// @brief Field ScrollPageUp offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ScrollPageUp;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ScrollPageUp;
 
 /// @brief Field ScrollPageDown offset 0
-static ::UnityEngine::____UnityEngine__TextEditor__TextEditOp const ScrollPageDown;
+static UnityEngine::UnityEngine__TextEditor__TextEditOp const ScrollPageDown;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -529,13 +528,13 @@ namespace UnityEngine {
 class CORDL_TYPE TextEditor : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using TextEditOp = ::UnityEngine::____UnityEngine__TextEditor__TextEditOp;
+using TextEditOp = UnityEngine::UnityEngine__TextEditor__TextEditOp;
 
-using Direction = ::UnityEngine::____UnityEngine__TextEditor__Direction;
+using Direction = UnityEngine::UnityEngine__TextEditor__Direction;
 
-using CharacterType = ::UnityEngine::____UnityEngine__TextEditor__CharacterType;
+using CharacterType = UnityEngine::UnityEngine__TextEditor__CharacterType;
 
-using DblClickSnapping = ::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping;
+using DblClickSnapping = UnityEngine::UnityEngine__TextEditor__DblClickSnapping;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x90};
@@ -570,11 +569,11 @@ constexpr explicit TextEditor(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType
 
 // Fields
 
- ::UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_keyboardOnScreen, put=__set_keyboardOnScreen))  keyboardOnScreen;
+ UnityEngine::TouchScreenKeyboard __declspec(property(get=__get_keyboardOnScreen, put=__set_keyboardOnScreen))  keyboardOnScreen;
 
-constexpr void __set_keyboardOnScreen(::UnityEngine::TouchScreenKeyboard value) ;
+constexpr void __set_keyboardOnScreen(UnityEngine::TouchScreenKeyboard value) ;
 
-constexpr ::UnityEngine::TouchScreenKeyboard __get_keyboardOnScreen() const;
+constexpr UnityEngine::TouchScreenKeyboard __get_keyboardOnScreen() const;
 
  int32_t __declspec(property(get=__get_controlID, put=__set_controlID))  controlID;
 
@@ -582,11 +581,11 @@ constexpr void __set_controlID(int32_t value) ;
 
 constexpr int32_t __get_controlID() const;
 
- ::UnityEngine::GUIStyle __declspec(property(get=__get_style, put=__set_style))  style;
+ UnityEngine::GUIStyle __declspec(property(get=__get_style, put=__set_style))  style;
 
-constexpr void __set_style(::UnityEngine::GUIStyle value) ;
+constexpr void __set_style(UnityEngine::GUIStyle value) ;
 
-constexpr ::UnityEngine::GUIStyle __get_style() const;
+constexpr UnityEngine::GUIStyle __get_style() const;
 
  bool __declspec(property(get=__get_multiline, put=__set_multiline))  multiline;
 
@@ -612,23 +611,23 @@ constexpr void __set_m_HasFocus(bool value) ;
 
 constexpr bool __get_m_HasFocus() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_scrollOffset, put=__set_scrollOffset))  scrollOffset;
+ UnityEngine::Vector2 __declspec(property(get=__get_scrollOffset, put=__set_scrollOffset))  scrollOffset;
 
-constexpr void __set_scrollOffset(::UnityEngine::Vector2 value) ;
+constexpr void __set_scrollOffset(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_scrollOffset() const;
+constexpr UnityEngine::Vector2 __get_scrollOffset() const;
 
- ::UnityEngine::GUIContent __declspec(property(get=__get_m_Content, put=__set_m_Content))  m_Content;
+ UnityEngine::GUIContent __declspec(property(get=__get_m_Content, put=__set_m_Content))  m_Content;
 
-constexpr void __set_m_Content(::UnityEngine::GUIContent value) ;
+constexpr void __set_m_Content(UnityEngine::GUIContent value) ;
 
-constexpr ::UnityEngine::GUIContent __get_m_Content() const;
+constexpr UnityEngine::GUIContent __get_m_Content() const;
 
- ::UnityEngine::Rect __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
+ UnityEngine::Rect __declspec(property(get=__get_m_Position, put=__set_m_Position))  m_Position;
 
-constexpr void __set_m_Position(::UnityEngine::Rect value) ;
+constexpr void __set_m_Position(UnityEngine::Rect value) ;
 
-constexpr ::UnityEngine::Rect __get_m_Position() const;
+constexpr UnityEngine::Rect __get_m_Position() const;
 
  int32_t __declspec(property(get=__get_m_CursorIndex, put=__set_m_CursorIndex))  m_CursorIndex;
 
@@ -648,17 +647,17 @@ constexpr void __set_m_RevealCursor(bool value) ;
 
 constexpr bool __get_m_RevealCursor() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_graphicalCursorPos, put=__set_graphicalCursorPos))  graphicalCursorPos;
+ UnityEngine::Vector2 __declspec(property(get=__get_graphicalCursorPos, put=__set_graphicalCursorPos))  graphicalCursorPos;
 
-constexpr void __set_graphicalCursorPos(::UnityEngine::Vector2 value) ;
+constexpr void __set_graphicalCursorPos(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_graphicalCursorPos() const;
+constexpr UnityEngine::Vector2 __get_graphicalCursorPos() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_graphicalSelectCursorPos, put=__set_graphicalSelectCursorPos))  graphicalSelectCursorPos;
+ UnityEngine::Vector2 __declspec(property(get=__get_graphicalSelectCursorPos, put=__set_graphicalSelectCursorPos))  graphicalSelectCursorPos;
 
-constexpr void __set_graphicalSelectCursorPos(::UnityEngine::Vector2 value) ;
+constexpr void __set_graphicalSelectCursorPos(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_graphicalSelectCursorPos() const;
+constexpr UnityEngine::Vector2 __get_graphicalSelectCursorPos() const;
 
  bool __declspec(property(get=__get_m_MouseDragSelectsWholeWords, put=__set_m_MouseDragSelectsWholeWords))  m_MouseDragSelectsWholeWords;
 
@@ -672,11 +671,11 @@ constexpr void __set_m_DblClickInitPos(int32_t value) ;
 
 constexpr int32_t __get_m_DblClickInitPos() const;
 
- ::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping __declspec(property(get=__get_m_DblClickSnap, put=__set_m_DblClickSnap))  m_DblClickSnap;
+ UnityEngine::UnityEngine__TextEditor__DblClickSnapping __declspec(property(get=__get_m_DblClickSnap, put=__set_m_DblClickSnap))  m_DblClickSnap;
 
-constexpr void __set_m_DblClickSnap(::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping value) ;
+constexpr void __set_m_DblClickSnap(UnityEngine::UnityEngine__TextEditor__DblClickSnapping value) ;
 
-constexpr ::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping __get_m_DblClickSnap() const;
+constexpr UnityEngine::UnityEngine__TextEditor__DblClickSnapping __get_m_DblClickSnap() const;
 
  bool __declspec(property(get=__get_m_bJustSelected, put=__set_m_bJustSelected))  m_bJustSelected;
 
@@ -708,20 +707,20 @@ constexpr void __set_oldSelectPos(int32_t value) ;
 
 constexpr int32_t __get_oldSelectPos() const;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event,::UnityEngine::____UnityEngine__TextEditor__TextEditOp> __declspec(property(get=__get_s_Keyactions, put=__set_s_Keyactions))  s_Keyactions;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Event,UnityEngine::UnityEngine__TextEditor__TextEditOp> __declspec(property(get=__get_s_Keyactions, put=__set_s_Keyactions))  s_Keyactions;
 
-static void __set_s_Keyactions(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event,::UnityEngine::____UnityEngine__TextEditor__TextEditOp> value) ;
+static void __set_s_Keyactions(System::Collections::Generic::Dictionary_2<UnityEngine::Event,UnityEngine::UnityEngine__TextEditor__TextEditOp> value) ;
 
-static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event,::UnityEngine::____UnityEngine__TextEditor__TextEditOp> __get_s_Keyactions() ;
+static System::Collections::Generic::Dictionary_2<UnityEngine::Event,UnityEngine::UnityEngine__TextEditor__TextEditOp> __get_s_Keyactions() ;
 
 
 // Properties
 
  ::StringW __declspec(property(get=get_text, put=set_text))  text;
 
- ::UnityEngine::Rect __declspec(property(get=get_position, put=set_position))  position;
+ UnityEngine::Rect __declspec(property(get=get_position, put=set_position))  position;
 
- ::UnityEngine::Rect __declspec(property(get=get_localPosition))  localPosition;
+ UnityEngine::Rect __declspec(property(get=get_localPosition))  localPosition;
 
  int32_t __declspec(property(get=get_cursorIndex, put=set_cursorIndex))  cursorIndex;
 
@@ -743,13 +742,13 @@ static ::System::Collections::Generic::Dictionary_2<::UnityEngine::Event,::Unity
  void set_text(::StringW value) ;
 
 /// @brief Method get_position addr 0x2b8c898 size 0xc virtual false final false
- ::UnityEngine::Rect get_position() ;
+ UnityEngine::Rect get_position() ;
 
 /// @brief Method set_position addr 0x2b8c8a4 size 0xb8 virtual false final false
- void set_position(::UnityEngine::Rect value) ;
+ void set_position(UnityEngine::Rect value) ;
 
 /// @brief Method get_localPosition addr 0x2b8cd00 size 0xc virtual true final false
- ::UnityEngine::Rect get_localPosition() ;
+ UnityEngine::Rect get_localPosition() ;
 
 /// @brief Method get_cursorIndex addr 0x2b8cd0c size 0x8 virtual false final false
  int32_t get_cursorIndex() ;
@@ -785,7 +784,7 @@ explicit TextEditor() ;
  void GrabGraphicalCursorPos() ;
 
 /// @brief Method HandleKeyEvent addr 0x2b8d034 size 0x1b4 virtual false final false
- bool HandleKeyEvent(::UnityEngine::Event e, bool textIsReadOnly) ;
+ bool HandleKeyEvent(UnityEngine::Event e, bool textIsReadOnly) ;
 
 /// @brief Method DeleteLineBack addr 0x2b8e01c size 0xb8 virtual false final false
  bool DeleteLineBack() ;
@@ -869,13 +868,13 @@ explicit TextEditor() ;
  void MoveParagraphBackward() ;
 
 /// @brief Method MoveCursorToPosition_Internal addr 0x2b8f194 size 0x88 virtual false final false
- void MoveCursorToPosition_Internal(::UnityEngine::Vector2 cursorPosition, bool shift) ;
+ void MoveCursorToPosition_Internal(UnityEngine::Vector2 cursorPosition, bool shift) ;
 
 /// @brief Method MoveAltCursorToPosition addr 0x2b8f21c size 0x88 virtual false final false
- void MoveAltCursorToPosition(::UnityEngine::Vector2 cursorPosition) ;
+ void MoveAltCursorToPosition(UnityEngine::Vector2 cursorPosition) ;
 
 /// @brief Method SelectToPosition addr 0x2b8f2a4 size 0x1f8 virtual false final false
- void SelectToPosition(::UnityEngine::Vector2 cursorPosition) ;
+ void SelectToPosition(UnityEngine::Vector2 cursorPosition) ;
 
 /// @brief Method SelectLeft addr 0x2b8f5b0 size 0x58 virtual false final false
  void SelectLeft() ;
@@ -899,7 +898,7 @@ explicit TextEditor() ;
  void MouseDragSelectsWholeWords(bool on) ;
 
 /// @brief Method DblClickSnap addr 0x2b8f784 size 0x8 virtual false final false
- void DblClickSnap(::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping snapping) ;
+ void DblClickSnap(UnityEngine::UnityEngine__TextEditor__DblClickSnapping snapping) ;
 
 /// @brief Method GetGraphicalLineStart addr 0x2b8ee30 size 0xb0 virtual false final false
  int32_t GetGraphicalLineStart(int32_t p) ;
@@ -929,7 +928,7 @@ explicit TextEditor() ;
  void SelectToEndOfPreviousWord() ;
 
 /// @brief Method ClassifyChar addr 0x2b8f824 size 0xe8 virtual false final false
- ::UnityEngine::____UnityEngine__TextEditor__CharacterType ClassifyChar(int32_t index) ;
+ UnityEngine::UnityEngine__TextEditor__CharacterType ClassifyChar(int32_t index) ;
 
 /// @brief Method FindStartOfNextWord addr 0x2b8e3c4 size 0x1b0 virtual false final false
  int32_t FindStartOfNextWord(int32_t p) ;
@@ -968,7 +967,7 @@ explicit TextEditor() ;
  void SelectCurrentWord() ;
 
 /// @brief Method FindEndOfClassification addr 0x2b8f49c size 0x114 virtual false final false
- int32_t FindEndOfClassification(int32_t p, ::UnityEngine::____UnityEngine__TextEditor__Direction dir) ;
+ int32_t FindEndOfClassification(int32_t p, UnityEngine::UnityEngine__TextEditor__Direction dir) ;
 
 /// @brief Method SelectCurrentParagraph addr 0x2b8fef4 size 0x8c virtual false final false
  void SelectCurrentParagraph() ;
@@ -977,7 +976,7 @@ explicit TextEditor() ;
  void UpdateScrollOffset() ;
 
 /// @brief Method PerformOperation addr 0x2b8dc44 size 0x3d8 virtual false final false
- bool PerformOperation(::UnityEngine::____UnityEngine__TextEditor__TextEditOp operation, bool textIsReadOnly) ;
+ bool PerformOperation(UnityEngine::UnityEngine__TextEditor__TextEditOp operation, bool textIsReadOnly) ;
 
 /// @brief Method SaveBackup addr 0x2b900e0 size 0x24 virtual false final false
  void SaveBackup() ;
@@ -995,7 +994,7 @@ static ::StringW ReplaceNewlinesWithSpaces(::StringW value) ;
  bool Paste() ;
 
 /// @brief Method MapKey addr 0x2b90198 size 0x8c virtual false final false
-static void MapKey(::StringW key, ::UnityEngine::____UnityEngine__TextEditor__TextEditOp action) ;
+static void MapKey(::StringW key, UnityEngine::UnityEngine__TextEditor__TextEditOp action) ;
 
 /// @brief Method InitKeyActions addr 0x2b8d1e8 size 0xa5c virtual false final false
  void InitKeyActions() ;
@@ -1031,10 +1030,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__TextEditor__CharacterType, "UnityEngine", "TextEditor/CharacterType");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__TextEditor__DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__TextEditor__Direction, "UnityEngine", "TextEditor/Direction");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__TextEditor__TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
-NEED_NO_BOX(::UnityEngine::TextEditor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextEditor, "UnityEngine", "TextEditor");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__TextEditor__CharacterType, "UnityEngine", "TextEditor/CharacterType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__TextEditor__DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__TextEditor__Direction, "UnityEngine", "TextEditor/Direction");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__TextEditor__TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
+NEED_NO_BOX(UnityEngine::TextEditor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor, "UnityEngine", "TextEditor");

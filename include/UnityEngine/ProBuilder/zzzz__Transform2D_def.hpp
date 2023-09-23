@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
 namespace UnityEngine {
 struct Vector2;
 }
@@ -53,11 +52,11 @@ constexpr explicit Transform2D(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTyp
 
 // Fields
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector2 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector2 value) ;
+constexpr void __set_position(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_position() const;
+constexpr UnityEngine::Vector2 __get_position() const;
 
  float_t __declspec(property(get=__get_rotation, put=__set_rotation))  rotation;
 
@@ -65,23 +64,23 @@ constexpr void __set_rotation(float_t value) ;
 
 constexpr float_t __get_rotation() const;
 
- ::UnityEngine::Vector2 __declspec(property(get=__get_scale, put=__set_scale))  scale;
+ UnityEngine::Vector2 __declspec(property(get=__get_scale, put=__set_scale))  scale;
 
-constexpr void __set_scale(::UnityEngine::Vector2 value) ;
+constexpr void __set_scale(UnityEngine::Vector2 value) ;
 
-constexpr ::UnityEngine::Vector2 __get_scale() const;
+constexpr UnityEngine::Vector2 __get_scale() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-explicit Transform2D(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale) ;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "UnityEngine::Vector2", modifiers: "", def_value: None }]
+explicit Transform2D(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale) ;
 
 /// @brief Method .ctor addr 0x29e76c0 size 0x50 virtual false final false
- void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale) ;
+ void _ctor(UnityEngine::Vector2 position, float_t rotation, UnityEngine::Vector2 scale) ;
 
 /// @brief Method TransformPoint addr 0x29e7710 size 0x64 virtual false final false
- ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p) ;
+ UnityEngine::Vector2 TransformPoint(UnityEngine::Vector2 p) ;
 
 /// @brief Method ToString addr 0x29e7774 size 0x1f4 virtual true final false
  ::StringW ToString() ;
@@ -90,6 +89,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Transform2D);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Transform2D, "UnityEngine.ProBuilder", "Transform2D");
+NEED_NO_BOX(UnityEngine::ProBuilder::Transform2D);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Transform2D, "UnityEngine.ProBuilder", "Transform2D");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Rendering {
 struct ShaderPropertyFlags;
@@ -75,38 +74,37 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const None;
+static UnityEngine::Rendering::ShaderPropertyFlags const None;
 
 /// @brief Field HideInInspector offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const HideInInspector;
+static UnityEngine::Rendering::ShaderPropertyFlags const HideInInspector;
 
 /// @brief Field PerRendererData offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const PerRendererData;
+static UnityEngine::Rendering::ShaderPropertyFlags const PerRendererData;
 
 /// @brief Field NoScaleOffset offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const NoScaleOffset;
+static UnityEngine::Rendering::ShaderPropertyFlags const NoScaleOffset;
 
 /// @brief Field Normal offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const Normal;
+static UnityEngine::Rendering::ShaderPropertyFlags const Normal;
 
 /// @brief Field HDR offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const HDR;
+static UnityEngine::Rendering::ShaderPropertyFlags const HDR;
 
 /// @brief Field Gamma offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const Gamma;
+static UnityEngine::Rendering::ShaderPropertyFlags const Gamma;
 
 /// @brief Field NonModifiableTextureData offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const NonModifiableTextureData;
+static UnityEngine::Rendering::ShaderPropertyFlags const NonModifiableTextureData;
 
 /// @brief Field MainTexture offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const MainTexture;
+static UnityEngine::Rendering::ShaderPropertyFlags const MainTexture;
 
 /// @brief Field MainColor offset 0
-static ::UnityEngine::Rendering::ShaderPropertyFlags const MainColor;
+static UnityEngine::Rendering::ShaderPropertyFlags const MainColor;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Rendering
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShaderPropertyFlags, "UnityEngine.Rendering", "ShaderPropertyFlags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderPropertyFlags, "UnityEngine.Rendering", "ShaderPropertyFlags");

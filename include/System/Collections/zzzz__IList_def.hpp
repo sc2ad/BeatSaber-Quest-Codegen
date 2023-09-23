@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -22,11 +21,11 @@ namespace System::Collections {
 class CORDL_TYPE IList : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::ICollection
-constexpr operator  ::System::Collections::ICollection() const noexcept;
+/// @brief Convert operator to System::Collections::ICollection
+constexpr operator  System::Collections::ICollection() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 ~IList() = default;
 
@@ -83,6 +82,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Collections
-} // end anonymous namespace
-NEED_NO_BOX(::System::Collections::IList);
-DEFINE_IL2CPP_ARG_TYPE(::System::Collections::IList, "System.Collections", "IList");
+NEED_NO_BOX(System::Collections::IList);
+DEFINE_IL2CPP_ARG_TYPE(System::Collections::IList, "System.Collections", "IList");

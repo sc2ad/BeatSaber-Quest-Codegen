@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine {
 struct TextAlignment;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15788))
 // CS Name: UnityEngine.TextMesh
-class CORDL_TYPE TextMesh : public ::UnityEngine::Component {
+class CORDL_TYPE TextMesh : public UnityEngine::Component {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr TextMesh(TextMesh const& ) noexcept = default;
 constexpr TextMesh(TextMesh&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TextMesh(void* ptr) noexcept : ::UnityEngine::Component(ptr) {
+constexpr explicit TextMesh(void* ptr) noexcept : UnityEngine::Component(ptr) {
 }
 
 
@@ -54,7 +53,7 @@ constexpr explicit TextMesh(void* ptr) noexcept : ::UnityEngine::Component(ptr) 
 
  ::StringW __declspec(property(put=set_text))  text;
 
- ::UnityEngine::TextAlignment __declspec(property(get=get_alignment, put=set_alignment))  alignment;
+ UnityEngine::TextAlignment __declspec(property(get=get_alignment, put=set_alignment))  alignment;
 
 
 // Methods
@@ -63,15 +62,14 @@ constexpr explicit TextMesh(void* ptr) noexcept : ::UnityEngine::Component(ptr) 
  void set_text(::StringW value) ;
 
 /// @brief Method get_alignment addr 0x2bd6068 size 0x3c virtual false final false
- ::UnityEngine::TextAlignment get_alignment() ;
+ UnityEngine::TextAlignment get_alignment() ;
 
 /// @brief Method set_alignment addr 0x2bd60a4 size 0x44 virtual false final false
- void set_alignment(::UnityEngine::TextAlignment value) ;
+ void set_alignment(UnityEngine::TextAlignment value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::TextMesh);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextMesh, "UnityEngine", "TextMesh");
+NEED_NO_BOX(UnityEngine::TextMesh);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextMesh, "UnityEngine", "TextMesh");

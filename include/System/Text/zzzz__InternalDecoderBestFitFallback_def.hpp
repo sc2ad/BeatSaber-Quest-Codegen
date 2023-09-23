@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::Text {
-class Encoding;
-}
 namespace System::Text {
 class DecoderFallbackBuffer;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace System::Text {
@@ -21,7 +20,7 @@ namespace System::Text {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2829))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2824))
 // CS Name: System.Text.InternalDecoderBestFitFallback
-class CORDL_TYPE InternalDecoderBestFitFallback : public ::System::Text::DecoderFallback {
+class CORDL_TYPE InternalDecoderBestFitFallback : public System::Text::DecoderFallback {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr InternalDecoderBestFitFallback(InternalDecoderBestFitFallback const& )
 constexpr InternalDecoderBestFitFallback(InternalDecoderBestFitFallback&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit InternalDecoderBestFitFallback(void* ptr) noexcept : ::System::Text::DecoderFallback(ptr) {
+constexpr explicit InternalDecoderBestFitFallback(void* ptr) noexcept : System::Text::DecoderFallback(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit InternalDecoderBestFitFallback(void* ptr) noexcept : ::System
 
 // Fields
 
- ::System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
+ System::Text::Encoding __declspec(property(get=__get__encoding, put=__set__encoding))  _encoding;
 
-constexpr void __set__encoding(::System::Text::Encoding value) ;
+constexpr void __set__encoding(System::Text::Encoding value) ;
 
-constexpr ::System::Text::Encoding __get__encoding() const;
+constexpr System::Text::Encoding __get__encoding() const;
 
  ::ArrayW<char16_t> __declspec(property(get=__get__arrayBestFit, put=__set__arrayBestFit))  _arrayBestFit;
 
@@ -83,14 +82,14 @@ constexpr char16_t __get__cReplacement() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "encoding", ty: "::System::Text::Encoding", modifiers: "", def_value: None }]
-explicit InternalDecoderBestFitFallback(::System::Text::Encoding encoding) ;
+// Ctor Parameters [CppParam { name: "encoding", ty: "System::Text::Encoding", modifiers: "", def_value: None }]
+explicit InternalDecoderBestFitFallback(System::Text::Encoding encoding) ;
 
 /// @brief Method .ctor addr 0x24c25c4 size 0x30 virtual false final false
- void _ctor(::System::Text::Encoding encoding) ;
+ void _ctor(System::Text::Encoding encoding) ;
 
 /// @brief Method CreateFallbackBuffer addr 0x24c25fc size 0x60 virtual true final false
- ::System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
+ System::Text::DecoderFallbackBuffer CreateFallbackBuffer() ;
 
 /// @brief Method get_MaxCharCount addr 0x24c2784 size 0x8 virtual true final false
  int32_t get_MaxCharCount() ;
@@ -105,6 +104,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::InternalDecoderBestFitFallback);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::InternalDecoderBestFitFallback, "System.Text", "InternalDecoderBestFitFallback");
+NEED_NO_BOX(System::Text::InternalDecoderBestFitFallback);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalDecoderBestFitFallback, "System.Text", "InternalDecoderBestFitFallback");

@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRRenderModelError;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRRenderModelError const None;
+static OVR::OpenVR::EVRRenderModelError const None;
 
 /// @brief Field Loading offset 0
-static ::OVR::OpenVR::EVRRenderModelError const Loading;
+static OVR::OpenVR::EVRRenderModelError const Loading;
 
 /// @brief Field NotSupported offset 0
-static ::OVR::OpenVR::EVRRenderModelError const NotSupported;
+static OVR::OpenVR::EVRRenderModelError const NotSupported;
 
 /// @brief Field InvalidArg offset 0
-static ::OVR::OpenVR::EVRRenderModelError const InvalidArg;
+static OVR::OpenVR::EVRRenderModelError const InvalidArg;
 
 /// @brief Field InvalidModel offset 0
-static ::OVR::OpenVR::EVRRenderModelError const InvalidModel;
+static OVR::OpenVR::EVRRenderModelError const InvalidModel;
 
 /// @brief Field NoShapes offset 0
-static ::OVR::OpenVR::EVRRenderModelError const NoShapes;
+static OVR::OpenVR::EVRRenderModelError const NoShapes;
 
 /// @brief Field MultipleShapes offset 0
-static ::OVR::OpenVR::EVRRenderModelError const MultipleShapes;
+static OVR::OpenVR::EVRRenderModelError const MultipleShapes;
 
 /// @brief Field TooManyVertices offset 0
-static ::OVR::OpenVR::EVRRenderModelError const TooManyVertices;
+static OVR::OpenVR::EVRRenderModelError const TooManyVertices;
 
 /// @brief Field MultipleTextures offset 0
-static ::OVR::OpenVR::EVRRenderModelError const MultipleTextures;
+static OVR::OpenVR::EVRRenderModelError const MultipleTextures;
 
 /// @brief Field BufferTooSmall offset 0
-static ::OVR::OpenVR::EVRRenderModelError const BufferTooSmall;
+static OVR::OpenVR::EVRRenderModelError const BufferTooSmall;
 
 /// @brief Field NotEnoughNormals offset 0
-static ::OVR::OpenVR::EVRRenderModelError const NotEnoughNormals;
+static OVR::OpenVR::EVRRenderModelError const NotEnoughNormals;
 
 /// @brief Field NotEnoughTexCoords offset 0
-static ::OVR::OpenVR::EVRRenderModelError const NotEnoughTexCoords;
+static OVR::OpenVR::EVRRenderModelError const NotEnoughTexCoords;
 
 /// @brief Field InvalidTexture offset 0
-static ::OVR::OpenVR::EVRRenderModelError const InvalidTexture;
+static OVR::OpenVR::EVRRenderModelError const InvalidTexture;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRRenderModelError, "OVR.OpenVR", "EVRRenderModelError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRRenderModelError, "OVR.OpenVR", "EVRRenderModelError");

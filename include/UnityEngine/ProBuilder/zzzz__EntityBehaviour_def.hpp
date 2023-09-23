@@ -1,15 +1,14 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
 }
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -21,7 +20,7 @@ namespace UnityEngine::ProBuilder {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12065))
 // CS Name: UnityEngine.ProBuilder.EntityBehaviour
-class CORDL_TYPE EntityBehaviour : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EntityBehaviour : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr EntityBehaviour(EntityBehaviour const& ) noexcept = default;
 constexpr EntityBehaviour(EntityBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EntityBehaviour(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EntityBehaviour(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -73,10 +72,10 @@ constexpr bool __get_manageVisibility() const;
  void OnEnterPlayMode() ;
 
 /// @brief Method OnSceneLoaded addr 0x0 size 0xffffffffffffffff virtual true final false
- void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode) ;
+ void OnSceneLoaded(UnityEngine::SceneManagement::Scene scene, UnityEngine::SceneManagement::LoadSceneMode mode) ;
 
 /// @brief Method SetMaterial addr 0x29a8c00 size 0xe4 virtual false final false
- void SetMaterial(::UnityEngine::Material material) ;
+ void SetMaterial(UnityEngine::Material material) ;
 
 // Ctor Parameters []
 explicit EntityBehaviour() ;
@@ -88,6 +87,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::EntityBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::EntityBehaviour, "UnityEngine.ProBuilder", "EntityBehaviour");
+NEED_NO_BOX(UnityEngine::ProBuilder::EntityBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour, "UnityEngine.ProBuilder", "EntityBehaviour");

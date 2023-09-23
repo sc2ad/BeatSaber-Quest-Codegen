@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
 class PkixNameConstraintValidatorException;
@@ -13,7 +12,7 @@ namespace Org::BouncyCastle::Pkix {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1727))
 // CS Name: Org.BouncyCastle.Pkix.PkixNameConstraintValidatorException
-class CORDL_TYPE PkixNameConstraintValidatorException : public ::System::Exception {
+class CORDL_TYPE PkixNameConstraintValidatorException : public System::Exception {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr PkixNameConstraintValidatorException(PkixNameConstraintValidatorExcept
 constexpr PkixNameConstraintValidatorException(PkixNameConstraintValidatorException&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit PkixNameConstraintValidatorException(void* ptr) noexcept : ::System::Exception(ptr) {
+constexpr explicit PkixNameConstraintValidatorException(void* ptr) noexcept : System::Exception(ptr) {
 }
 
 
@@ -59,6 +58,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException, "Org.BouncyCastle.Pkix", "PkixNameConstraintValidatorException");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixNameConstraintValidatorException, "Org.BouncyCastle.Pkix", "PkixNameConstraintValidatorException");

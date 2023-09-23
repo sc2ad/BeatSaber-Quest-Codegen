@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace GlobalNamespace {
-class IRichPresencePlatformHandler;
-}
 namespace GlobalNamespace {
 class IRichPresenceData;
+}
+namespace GlobalNamespace {
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoRichPresencePlatformHandler : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IRichPresencePlatformHandler
-constexpr operator  ::GlobalNamespace::IRichPresencePlatformHandler() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IRichPresencePlatformHandler
+constexpr operator  GlobalNamespace::IRichPresencePlatformHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -79,7 +78,7 @@ constexpr ::StringW __get__currentPresenceApiName_k__BackingField() const;
  void set_currentPresenceApiName(::StringW value) ;
 
 /// @brief Method SetPresence addr 0x2229de8 size 0xa8 virtual true final true
- void SetPresence(::GlobalNamespace::IRichPresenceData richPresenceData) ;
+ void SetPresence(GlobalNamespace::IRichPresenceData richPresenceData) ;
 
 /// @brief Method Clear addr 0x2229e90 size 0x50 virtual true final true
  void Clear() ;
@@ -94,6 +93,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::NoRichPresencePlatformHandler);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoRichPresencePlatformHandler, "", "NoRichPresencePlatformHandler");
+NEED_NO_BOX(GlobalNamespace::NoRichPresencePlatformHandler);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoRichPresencePlatformHandler, "", "NoRichPresencePlatformHandler");

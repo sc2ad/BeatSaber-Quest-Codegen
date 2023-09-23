@@ -3,12 +3,11 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
 class MonoBehaviour;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template<typename T>
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 class EnableAfterDelay;
 }
 namespace GlobalNamespace {
-class ____GlobalNamespace__EnableAfterDelay___Start_d__1;
+class GlobalNamespace__EnableAfterDelay___Start_d__1;
 }
 // Type: ::<Start>d__1
 namespace GlobalNamespace {
@@ -30,46 +29,46 @@ namespace GlobalNamespace {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13789))
 // CS Name: EnableAfterDelay::<Start>d__1
-class CORDL_TYPE ____GlobalNamespace__EnableAfterDelay___Start_d__1 : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE GlobalNamespace__EnableAfterDelay___Start_d__1 : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
-constexpr operator  ::System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>
+constexpr operator  System::Collections::Generic::IEnumerator_1<::bs_hook::Il2CppWrapperType>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerator
-constexpr operator  ::System::Collections::IEnumerator() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerator
+constexpr operator  System::Collections::IEnumerator() const noexcept;
 
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
 
-virtual ~____GlobalNamespace__EnableAfterDelay___Start_d__1() = default;
+virtual ~GlobalNamespace__EnableAfterDelay___Start_d__1() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EnableAfterDelay___Start_d__1", modifiers: " const&", def_value: None }]
-constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1(____GlobalNamespace__EnableAfterDelay___Start_d__1 const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EnableAfterDelay___Start_d__1", modifiers: " const&", def_value: None }]
+constexpr GlobalNamespace__EnableAfterDelay___Start_d__1(GlobalNamespace__EnableAfterDelay___Start_d__1 const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____GlobalNamespace__EnableAfterDelay___Start_d__1", modifiers: "&&", def_value: None }]
-constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1(____GlobalNamespace__EnableAfterDelay___Start_d__1&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "GlobalNamespace__EnableAfterDelay___Start_d__1", modifiers: "&&", def_value: None }]
+constexpr GlobalNamespace__EnableAfterDelay___Start_d__1(GlobalNamespace__EnableAfterDelay___Start_d__1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__EnableAfterDelay___Start_d__1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit GlobalNamespace__EnableAfterDelay___Start_d__1(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(std::nullptr_t) noexcept {
+  constexpr GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(void* o) noexcept {
+  constexpr GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(____GlobalNamespace__EnableAfterDelay___Start_d__1&& o) noexcept = default;
-  constexpr ____GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(____GlobalNamespace__EnableAfterDelay___Start_d__1 const& o) noexcept = default;
+  constexpr GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(GlobalNamespace__EnableAfterDelay___Start_d__1&& o) noexcept = default;
+  constexpr GlobalNamespace__EnableAfterDelay___Start_d__1& operator=(GlobalNamespace__EnableAfterDelay___Start_d__1 const& o) noexcept = default;
                 
 
 
@@ -87,11 +86,11 @@ constexpr void __set___2__current(::bs_hook::Il2CppWrapperType value) ;
 
 constexpr ::bs_hook::Il2CppWrapperType __get___2__current() const;
 
- ::GlobalNamespace::EnableAfterDelay __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
+ GlobalNamespace::EnableAfterDelay __declspec(property(get=__get___4__this, put=__set___4__this))  __4__this;
 
-constexpr void __set___4__this(::GlobalNamespace::EnableAfterDelay value) ;
+constexpr void __set___4__this(GlobalNamespace::EnableAfterDelay value) ;
 
-constexpr ::GlobalNamespace::EnableAfterDelay __get___4__this() const;
+constexpr GlobalNamespace::EnableAfterDelay __get___4__this() const;
 
 
 // Properties
@@ -104,7 +103,7 @@ constexpr ::GlobalNamespace::EnableAfterDelay __get___4__this() const;
 // Methods
 
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }]
-explicit ____GlobalNamespace__EnableAfterDelay___Start_d__1(int32_t __1__state) ;
+explicit GlobalNamespace__EnableAfterDelay___Start_d__1(int32_t __1__state) ;
 
 /// @brief Method .ctor addr 0x1f768c8 size 0x28 virtual false final false
  void _ctor(int32_t __1__state) ;
@@ -134,10 +133,10 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13790))
 // CS Name: EnableAfterDelay
-class CORDL_TYPE EnableAfterDelay : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE EnableAfterDelay : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-using _Start_d__1 = ::GlobalNamespace::____GlobalNamespace__EnableAfterDelay___Start_d__1;
+using _Start_d__1 = GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -151,7 +150,7 @@ constexpr EnableAfterDelay(EnableAfterDelay const& ) noexcept = default;
 constexpr EnableAfterDelay(EnableAfterDelay&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnableAfterDelay(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit EnableAfterDelay(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -172,17 +171,17 @@ constexpr explicit EnableAfterDelay(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::UnityEngine::MonoBehaviour __declspec(property(get=__get__component, put=__set__component))  _component;
+ UnityEngine::MonoBehaviour __declspec(property(get=__get__component, put=__set__component))  _component;
 
-constexpr void __set__component(::UnityEngine::MonoBehaviour value) ;
+constexpr void __set__component(UnityEngine::MonoBehaviour value) ;
 
-constexpr ::UnityEngine::MonoBehaviour __get__component() const;
+constexpr UnityEngine::MonoBehaviour __get__component() const;
 
 
 // Methods
 
 /// @brief Method Start addr 0x1f76860 size 0x68 virtual false final false
- ::System::Collections::IEnumerator Start() ;
+ System::Collections::IEnumerator Start() ;
 
 // Ctor Parameters []
 explicit EnableAfterDelay() ;
@@ -194,8 +193,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EnableAfterDelay);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnableAfterDelay, "", "EnableAfterDelay");
-NEED_NO_BOX(::GlobalNamespace::____GlobalNamespace__EnableAfterDelay___Start_d__1);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__EnableAfterDelay___Start_d__1, "", "EnableAfterDelay/<Start>d__1");
+NEED_NO_BOX(GlobalNamespace::EnableAfterDelay);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableAfterDelay, "", "EnableAfterDelay");
+NEED_NO_BOX(GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__EnableAfterDelay___Start_d__1, "", "EnableAfterDelay/<Start>d__1");

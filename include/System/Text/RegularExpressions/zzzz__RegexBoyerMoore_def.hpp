@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System::Globalization {
 class CultureInfo;
 }
@@ -102,20 +101,20 @@ constexpr void __set_CaseInsensitive(bool value) ;
 
 constexpr bool __get_CaseInsensitive() const;
 
- ::System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
+ System::Globalization::CultureInfo __declspec(property(get=__get__culture, put=__set__culture))  _culture;
 
-constexpr void __set__culture(::System::Globalization::CultureInfo value) ;
+constexpr void __set__culture(System::Globalization::CultureInfo value) ;
 
-constexpr ::System::Globalization::CultureInfo __get__culture() const;
+constexpr System::Globalization::CultureInfo __get__culture() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "::System::Globalization::CultureInfo", modifiers: "", def_value: None }]
-explicit RegexBoyerMoore(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo culture) ;
+// Ctor Parameters [CppParam { name: "pattern", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "caseInsensitive", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "rightToLeft", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "System::Globalization::CultureInfo", modifiers: "", def_value: None }]
+explicit RegexBoyerMoore(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method .ctor addr 0x27c1ba8 size 0x4b4 virtual false final false
- void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, ::System::Globalization::CultureInfo culture) ;
+ void _ctor(::StringW pattern, bool caseInsensitive, bool rightToLeft, System::Globalization::CultureInfo culture) ;
 
 /// @brief Method MatchPattern addr 0x27c205c size 0x124 virtual false final false
  bool MatchPattern(::StringW text, int32_t index) ;
@@ -130,6 +129,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Text::RegularExpressions
-} // end anonymous namespace
-NEED_NO_BOX(::System::Text::RegularExpressions::RegexBoyerMoore);
-DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexBoyerMoore, "System.Text.RegularExpressions", "RegexBoyerMoore");
+NEED_NO_BOX(System::Text::RegularExpressions::RegexBoyerMoore);
+DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexBoyerMoore, "System.Text.RegularExpressions", "RegexBoyerMoore");

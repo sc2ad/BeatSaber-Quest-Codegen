@@ -3,21 +3,20 @@
 #include "Org/BouncyCastle/Bcpg/zzzz__SecretKeyPacket_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Bcpg {
-class S2k;
-}
-namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class PublicKeyPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -29,7 +28,7 @@ namespace Org::BouncyCastle::Bcpg {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(587))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(588))
 // CS Name: Org.BouncyCastle.Bcpg.SecretSubkeyPacket
-class CORDL_TYPE SecretSubkeyPacket : public ::Org::BouncyCastle::Bcpg::SecretKeyPacket {
+class CORDL_TYPE SecretSubkeyPacket : public Org::BouncyCastle::Bcpg::SecretKeyPacket {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -44,7 +43,7 @@ constexpr SecretSubkeyPacket(SecretSubkeyPacket const& ) noexcept = default;
 constexpr SecretSubkeyPacket(SecretSubkeyPacket&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SecretSubkeyPacket(void* ptr) noexcept : ::Org::BouncyCastle::Bcpg::SecretKeyPacket(ptr) {
+constexpr explicit SecretSubkeyPacket(void* ptr) noexcept : Org::BouncyCastle::Bcpg::SecretKeyPacket(ptr) {
 }
 
 
@@ -65,31 +64,30 @@ constexpr explicit SecretSubkeyPacket(void* ptr) noexcept : ::Org::BouncyCastle:
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bcpgIn", ty: "::Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
-explicit SecretSubkeyPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+// Ctor Parameters [CppParam { name: "bcpgIn", ty: "Org::BouncyCastle::Bcpg::BcpgInputStream", modifiers: "", def_value: None }]
+explicit SecretSubkeyPacket(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
 /// @brief Method .ctor addr 0x11448d8 size 0x4 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
+ void _ctor(Org::BouncyCastle::Bcpg::BcpgInputStream bcpgIn) ;
 
-// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "::Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "::Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SecretSubkeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
+// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit SecretSubkeyPacket(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method .ctor addr 0x11496ec size 0x4 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
+ void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
 
-// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "::Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2kUsage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "::Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit SecretSubkeyPacket(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
+// Ctor Parameters [CppParam { name: "pubKeyPacket", ty: "Org::BouncyCastle::Bcpg::PublicKeyPacket", modifiers: "", def_value: None }, CppParam { name: "encAlgorithm", ty: "Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag", modifiers: "", def_value: None }, CppParam { name: "s2kUsage", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "s2k", ty: "Org::BouncyCastle::Bcpg::S2k", modifiers: "", def_value: None }, CppParam { name: "iv", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "secKeyData", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit SecretSubkeyPacket(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method .ctor addr 0x11496f0 size 0x4 virtual false final false
- void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
+ void _ctor(Org::BouncyCastle::Bcpg::PublicKeyPacket pubKeyPacket, Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, Org::BouncyCastle::Bcpg::S2k s2k, ::ArrayW<uint8_t> iv, ::ArrayW<uint8_t> secKeyData) ;
 
 /// @brief Method Encode addr 0x11496f4 size 0x2c virtual true final false
- void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
+ void Encode(Org::BouncyCastle::Bcpg::BcpgOutputStream bcpgOut) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Bcpg
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Bcpg::SecretSubkeyPacket);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::SecretSubkeyPacket, "Org.BouncyCastle.Bcpg", "SecretSubkeyPacket");
+NEED_NO_BOX(Org::BouncyCastle::Bcpg::SecretSubkeyPacket);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Bcpg::SecretSubkeyPacket, "Org.BouncyCastle.Bcpg", "SecretSubkeyPacket");

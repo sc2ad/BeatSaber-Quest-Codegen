@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography {
 class ICryptoTransform;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -24,11 +23,11 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE HashAlgorithm : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IDisposable
-constexpr operator  ::System::IDisposable() const noexcept;
+/// @brief Convert operator to System::IDisposable
+constexpr operator  System::IDisposable() const noexcept;
 
-/// @brief Convert operator to ::System::Security::Cryptography::ICryptoTransform
-constexpr operator  ::System::Security::Cryptography::ICryptoTransform() const noexcept;
+/// @brief Convert operator to System::Security::Cryptography::ICryptoTransform
+constexpr operator  System::Security::Cryptography::ICryptoTransform() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x28};
@@ -110,7 +109,7 @@ explicit HashAlgorithm() ;
  void _ctor() ;
 
 /// @brief Method Create addr 0x22ef0b8 size 0x80 virtual false final false
-static ::System::Security::Cryptography::HashAlgorithm Create(::StringW hashName) ;
+static System::Security::Cryptography::HashAlgorithm Create(::StringW hashName) ;
 
 /// @brief Method get_HashSize addr 0x22ef138 size 0x8 virtual true final false
  int32_t get_HashSize() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Security::Cryptography
-} // end anonymous namespace
-NEED_NO_BOX(::System::Security::Cryptography::HashAlgorithm);
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::HashAlgorithm, "System.Security.Cryptography", "HashAlgorithm");
+NEED_NO_BOX(System::Security::Cryptography::HashAlgorithm);
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithm, "System.Security.Cryptography", "HashAlgorithm");

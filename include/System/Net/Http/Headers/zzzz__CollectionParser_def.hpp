@@ -4,7 +4,12 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Net::Http::Headers {
+class Lexer;
+}
+namespace System::Net::Http::Headers {
+struct Token;
+}
 namespace System::Net::Http::Headers {
 template<typename T>
 class ElementTryParser_1;
@@ -12,12 +17,6 @@ class ElementTryParser_1;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
-}
-namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System::Net::Http::Headers {
-class Lexer;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -67,18 +66,17 @@ constexpr explicit CollectionParser(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 /// @brief Method TryParse addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T> parser, ByRef<::System::Collections::Generic::List_1<T>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, System::Net::Http::Headers::ElementTryParser_1<T> parser, ByRef<System::Collections::Generic::List_1<T>> result) ;
 
 /// @brief Method TryParse addr 0x26a5abc size 0xb0 virtual false final false
-static bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::StringW>> result) ;
+static bool TryParse(::StringW input, int32_t minimalCount, ByRef<System::Collections::Generic::List_1<::StringW>> result) ;
 
 /// @brief Method TryParseStringElement addr 0x26a5b6c size 0xcc virtual false final false
-static bool TryParseStringElement(::System::Net::Http::Headers::Lexer lexer, ByRef<::StringW> parsedValue, ByRef<::System::Net::Http::Headers::Token> t) ;
+static bool TryParseStringElement(System::Net::Http::Headers::Lexer lexer, ByRef<::StringW> parsedValue, ByRef<System::Net::Http::Headers::Token> t) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::CollectionParser);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::CollectionParser, "System.Net.Http.Headers", "CollectionParser");
+NEED_NO_BOX(System::Net::Http::Headers::CollectionParser);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionParser, "System.Net.Http.Headers", "CollectionParser");

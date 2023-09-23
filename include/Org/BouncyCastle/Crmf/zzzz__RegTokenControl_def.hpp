@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace Org::BouncyCastle::Crmf {
-class IControl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crmf {
+class IControl;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -28,8 +27,8 @@ namespace Org::BouncyCastle::Crmf {
 class CORDL_TYPE RegTokenControl : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crmf::IControl
-constexpr operator  ::Org::BouncyCastle::Crmf::IControl() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crmf::IControl
+constexpr operator  Org::BouncyCastle::Crmf::IControl() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -64,33 +63,33 @@ constexpr explicit RegTokenControl(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_type, put=__set_type))  type;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=__get_type, put=__set_type))  type;
 
-static void __set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
+static void __set_type(Org::BouncyCastle::Asn1::DerObjectIdentifier value) ;
 
-static ::Org::BouncyCastle::Asn1::DerObjectIdentifier __get_type() ;
+static Org::BouncyCastle::Asn1::DerObjectIdentifier __get_type() ;
 
- ::Org::BouncyCastle::Asn1::DerUtf8String __declspec(property(get=__get_token, put=__set_token))  token;
+ Org::BouncyCastle::Asn1::DerUtf8String __declspec(property(get=__get_token, put=__set_token))  token;
 
-constexpr void __set_token(::Org::BouncyCastle::Asn1::DerUtf8String value) ;
+constexpr void __set_token(Org::BouncyCastle::Asn1::DerUtf8String value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::DerUtf8String __get_token() const;
+constexpr Org::BouncyCastle::Asn1::DerUtf8String __get_token() const;
 
 
 // Properties
 
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier __declspec(property(get=get_Type))  Type;
 
- ::Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Value))  Value;
+ Org::BouncyCastle::Asn1::Asn1Encodable __declspec(property(get=get_Value))  Value;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "token", ty: "::Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
-explicit RegTokenControl(::Org::BouncyCastle::Asn1::DerUtf8String token) ;
+// Ctor Parameters [CppParam { name: "token", ty: "Org::BouncyCastle::Asn1::DerUtf8String", modifiers: "", def_value: None }]
+explicit RegTokenControl(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
 /// @brief Method .ctor addr 0x11830dc size 0x28 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String token) ;
+ void _ctor(Org::BouncyCastle::Asn1::DerUtf8String token) ;
 
 // Ctor Parameters [CppParam { name: "token", ty: "::StringW", modifiers: "", def_value: None }]
 explicit RegTokenControl(::StringW token) ;
@@ -99,15 +98,14 @@ explicit RegTokenControl(::StringW token) ;
  void _ctor(::StringW token) ;
 
 /// @brief Method get_Type addr 0x1187e88 size 0x58 virtual true final true
- ::Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
+ Org::BouncyCastle::Asn1::DerObjectIdentifier get_Type() ;
 
 /// @brief Method get_Value addr 0x1187ee0 size 0x8 virtual true final true
- ::Org::BouncyCastle::Asn1::Asn1Encodable get_Value() ;
+ Org::BouncyCastle::Asn1::Asn1Encodable get_Value() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crmf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crmf::RegTokenControl);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::RegTokenControl, "Org.BouncyCastle.Crmf", "RegTokenControl");
+NEED_NO_BOX(Org::BouncyCastle::Crmf::RegTokenControl);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crmf::RegTokenControl, "Org.BouncyCastle.Crmf", "RegTokenControl");

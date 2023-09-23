@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::Android {
 class AndroidAssetPackUseMobileDataRequestResult;
@@ -67,6 +66,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Android
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult, "UnityEngine.Android", "AndroidAssetPackUseMobileDataRequestResult");
+NEED_NO_BOX(UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Android::AndroidAssetPackUseMobileDataRequestResult, "UnityEngine.Android", "AndroidAssetPackUseMobileDataRequestResult");

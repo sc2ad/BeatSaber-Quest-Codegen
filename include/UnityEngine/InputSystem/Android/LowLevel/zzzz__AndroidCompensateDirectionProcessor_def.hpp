@@ -2,12 +2,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateDirectionProcessor_def.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Android::LowLevel {
@@ -19,7 +18,7 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6665))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6541))
 // CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidCompensateDirectionProcessor
-class CORDL_TYPE AndroidCompensateDirectionProcessor : public ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor {
+class CORDL_TYPE AndroidCompensateDirectionProcessor : public UnityEngine::InputSystem::Processors::CompensateDirectionProcessor {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcesso
 constexpr AndroidCompensateDirectionProcessor(AndroidCompensateDirectionProcessor&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AndroidCompensateDirectionProcessor(void* ptr) noexcept : ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor(ptr) {
+constexpr explicit AndroidCompensateDirectionProcessor(void* ptr) noexcept : UnityEngine::InputSystem::Processors::CompensateDirectionProcessor(ptr) {
 }
 
 
@@ -65,7 +64,7 @@ static constexpr float_t  kAccelerationMultiplier{-0.10197162};
 // Methods
 
 /// @brief Method Process addr 0x29545d0 size 0x1c virtual true final false
- ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl control) ;
+ UnityEngine::Vector3 Process(UnityEngine::Vector3 vector, UnityEngine::InputSystem::InputControl control) ;
 
 // Ctor Parameters []
 explicit AndroidCompensateDirectionProcessor() ;
@@ -77,6 +76,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Android::LowLevel
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateDirectionProcessor");
+NEED_NO_BOX(UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor, "UnityEngine.InputSystem.Android.LowLevel", "AndroidCompensateDirectionProcessor");

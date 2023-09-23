@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngineInternal {
 class GenericStack;
@@ -12,7 +11,7 @@ namespace UnityEngineInternal {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3771))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9905))
 // CS Name: UnityEngineInternal.GenericStack
-class CORDL_TYPE GenericStack : public ::System::Collections::Stack {
+class CORDL_TYPE GenericStack : public System::Collections::Stack {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr GenericStack(GenericStack const& ) noexcept = default;
 constexpr GenericStack(GenericStack&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GenericStack(void* ptr) noexcept : ::System::Collections::Stack(ptr) {
+constexpr explicit GenericStack(void* ptr) noexcept : System::Collections::Stack(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngineInternal
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngineInternal::GenericStack);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::GenericStack, "UnityEngineInternal", "GenericStack");
+NEED_NO_BOX(UnityEngineInternal::GenericStack);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack, "UnityEngineInternal", "GenericStack");

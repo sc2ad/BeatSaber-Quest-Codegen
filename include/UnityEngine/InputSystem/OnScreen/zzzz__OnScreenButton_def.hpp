@@ -2,18 +2,17 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace UnityEngine::EventSystems {
-class IPointerUpHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -25,17 +24,17 @@ namespace UnityEngine::InputSystem::OnScreen {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6469))
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenButton
-class CORDL_TYPE OnScreenButton : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
+class CORDL_TYPE OnScreenButton : public UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerDownHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerDownHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerDownHandler
+constexpr operator  UnityEngine::EventSystems::IPointerDownHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IEventSystemHandler
-constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IEventSystemHandler
+constexpr operator  UnityEngine::EventSystems::IEventSystemHandler() const noexcept;
 
-/// @brief Convert operator to ::UnityEngine::EventSystems::IPointerUpHandler
-constexpr operator  ::UnityEngine::EventSystems::IPointerUpHandler() const noexcept;
+/// @brief Convert operator to UnityEngine::EventSystems::IPointerUpHandler
+constexpr operator  UnityEngine::EventSystems::IPointerUpHandler() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -49,7 +48,7 @@ constexpr OnScreenButton(OnScreenButton const& ) noexcept = default;
 constexpr OnScreenButton(OnScreenButton&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OnScreenButton(void* ptr) noexcept : ::UnityEngine::InputSystem::OnScreen::OnScreenControl(ptr) {
+constexpr explicit OnScreenButton(void* ptr) noexcept : UnityEngine::InputSystem::OnScreen::OnScreenControl(ptr) {
 }
 
 
@@ -85,10 +84,10 @@ constexpr ::StringW __get_m_ControlPath() const;
 // Methods
 
 /// @brief Method OnPointerUp addr 0x2945158 size 0x4c virtual true final true
- void OnPointerUp(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerUp(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method OnPointerDown addr 0x29451a4 size 0x4c virtual true final true
- void OnPointerDown(::UnityEngine::EventSystems::PointerEventData eventData) ;
+ void OnPointerDown(UnityEngine::EventSystems::PointerEventData eventData) ;
 
 /// @brief Method get_controlPathInternal addr 0x29451f0 size 0x8 virtual true final false
  ::StringW get_controlPathInternal() ;
@@ -106,6 +105,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::OnScreen
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenButton);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenButton, "UnityEngine.InputSystem.OnScreen", "OnScreenButton");
+NEED_NO_BOX(UnityEngine::InputSystem::OnScreen::OnScreenButton);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::OnScreen::OnScreenButton, "UnityEngine.InputSystem.OnScreen", "OnScreenButton");

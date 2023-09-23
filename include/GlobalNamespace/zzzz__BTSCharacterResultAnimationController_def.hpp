@@ -1,18 +1,17 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class MaterialPropertyBlockFloatAnimator;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
 namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace GlobalNamespace {
+class MaterialPropertyBlockFloatAnimator;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +23,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3954))
 // CS Name: BTSCharacterResultAnimationController
-class CORDL_TYPE BTSCharacterResultAnimationController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE BTSCharacterResultAnimationController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -39,7 +38,7 @@ constexpr BTSCharacterResultAnimationController(BTSCharacterResultAnimationContr
 constexpr BTSCharacterResultAnimationController(BTSCharacterResultAnimationController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BTSCharacterResultAnimationController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit BTSCharacterResultAnimationController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -60,35 +59,35 @@ constexpr explicit BTSCharacterResultAnimationController(void* ptr) noexcept : :
 
 // Fields
 
- ::GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__rimLightColorSetter, put=__set__rimLightColorSetter))  _rimLightColorSetter;
+ GlobalNamespace::MaterialPropertyBlockColorSetter __declspec(property(get=__get__rimLightColorSetter, put=__set__rimLightColorSetter))  _rimLightColorSetter;
 
-constexpr void __set__rimLightColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
+constexpr void __set__rimLightColorSetter(GlobalNamespace::MaterialPropertyBlockColorSetter value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter __get__rimLightColorSetter() const;
+constexpr GlobalNamespace::MaterialPropertyBlockColorSetter __get__rimLightColorSetter() const;
 
- ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightIntensityAnimator, put=__set__rimLightIntensityAnimator))  _rimLightIntensityAnimator;
+ GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightIntensityAnimator, put=__set__rimLightIntensityAnimator))  _rimLightIntensityAnimator;
 
-constexpr void __set__rimLightIntensityAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
+constexpr void __set__rimLightIntensityAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightIntensityAnimator() const;
+constexpr GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightIntensityAnimator() const;
 
- ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightEdgeStartAnimator, put=__set__rimLightEdgeStartAnimator))  _rimLightEdgeStartAnimator;
+ GlobalNamespace::MaterialPropertyBlockFloatAnimator __declspec(property(get=__get__rimLightEdgeStartAnimator, put=__set__rimLightEdgeStartAnimator))  _rimLightEdgeStartAnimator;
 
-constexpr void __set__rimLightEdgeStartAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
+constexpr void __set__rimLightEdgeStartAnimator(GlobalNamespace::MaterialPropertyBlockFloatAnimator value) ;
 
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightEdgeStartAnimator() const;
+constexpr GlobalNamespace::MaterialPropertyBlockFloatAnimator __get__rimLightEdgeStartAnimator() const;
 
- ::UnityEngine::GameObject __declspec(property(get=__get__collidersGameObject, put=__set__collidersGameObject))  _collidersGameObject;
+ UnityEngine::GameObject __declspec(property(get=__get__collidersGameObject, put=__set__collidersGameObject))  _collidersGameObject;
 
-constexpr void __set__collidersGameObject(::UnityEngine::GameObject value) ;
+constexpr void __set__collidersGameObject(UnityEngine::GameObject value) ;
 
-constexpr ::UnityEngine::GameObject __get__collidersGameObject() const;
+constexpr UnityEngine::GameObject __get__collidersGameObject() const;
 
 
 // Methods
 
 /// @brief Method SetCharacter addr 0x20a7324 size 0x68 virtual false final false
- void SetCharacter(::GlobalNamespace::BTSCharacter btsCharacter) ;
+ void SetCharacter(GlobalNamespace::BTSCharacter btsCharacter) ;
 
 /// @brief Method StopAnimation addr 0x20a738c size 0x20 virtual false final false
  void StopAnimation() ;
@@ -103,6 +102,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BTSCharacterResultAnimationController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BTSCharacterResultAnimationController, "", "BTSCharacterResultAnimationController");
+NEED_NO_BOX(GlobalNamespace::BTSCharacterResultAnimationController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController, "", "BTSCharacterResultAnimationController");

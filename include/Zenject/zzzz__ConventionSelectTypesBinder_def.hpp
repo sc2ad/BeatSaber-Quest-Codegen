@@ -2,29 +2,28 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Zenject {
 class ConventionFilterTypesBinder;
 }
 namespace Zenject {
 class ConventionBindInfo;
 }
-namespace System {
-class Type;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
 class ConventionSelectTypesBinder;
 }
 namespace Zenject {
-class ____Zenject__ConventionSelectTypesBinder____c;
+class Zenject__ConventionSelectTypesBinder____c;
 }
 // Type: ::<>c
 namespace Zenject {
@@ -32,98 +31,98 @@ namespace Zenject {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10641))
 // CS Name: Zenject.ConventionSelectTypesBinder::<>c
-class CORDL_TYPE ____Zenject__ConventionSelectTypesBinder____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Zenject__ConventionSelectTypesBinder____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____Zenject__ConventionSelectTypesBinder____c() = default;
+virtual ~Zenject__ConventionSelectTypesBinder____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConventionSelectTypesBinder____c", modifiers: " const&", def_value: None }]
-constexpr ____Zenject__ConventionSelectTypesBinder____c(____Zenject__ConventionSelectTypesBinder____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConventionSelectTypesBinder____c", modifiers: " const&", def_value: None }]
+constexpr Zenject__ConventionSelectTypesBinder____c(Zenject__ConventionSelectTypesBinder____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Zenject__ConventionSelectTypesBinder____c", modifiers: "&&", def_value: None }]
-constexpr ____Zenject__ConventionSelectTypesBinder____c(____Zenject__ConventionSelectTypesBinder____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Zenject__ConventionSelectTypesBinder____c", modifiers: "&&", def_value: None }]
+constexpr Zenject__ConventionSelectTypesBinder____c(Zenject__ConventionSelectTypesBinder____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Zenject__ConventionSelectTypesBinder____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Zenject__ConventionSelectTypesBinder____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Zenject__ConventionSelectTypesBinder____c& operator=(std::nullptr_t) noexcept {
+  constexpr Zenject__ConventionSelectTypesBinder____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Zenject__ConventionSelectTypesBinder____c& operator=(void* o) noexcept {
+  constexpr Zenject__ConventionSelectTypesBinder____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Zenject__ConventionSelectTypesBinder____c& operator=(____Zenject__ConventionSelectTypesBinder____c&& o) noexcept = default;
-  constexpr ____Zenject__ConventionSelectTypesBinder____c& operator=(____Zenject__ConventionSelectTypesBinder____c const& o) noexcept = default;
+  constexpr Zenject__ConventionSelectTypesBinder____c& operator=(Zenject__ConventionSelectTypesBinder____c&& o) noexcept = default;
+  constexpr Zenject__ConventionSelectTypesBinder____c& operator=(Zenject__ConventionSelectTypesBinder____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::Zenject::____Zenject__ConventionSelectTypesBinder____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static Zenject::Zenject__ConventionSelectTypesBinder____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::Zenject::____Zenject__ConventionSelectTypesBinder____c value) ;
+static void __set___9(Zenject::Zenject__ConventionSelectTypesBinder____c value) ;
 
-static ::Zenject::____Zenject__ConventionSelectTypesBinder____c __get___9() ;
+static Zenject::Zenject__ConventionSelectTypesBinder____c __get___9() ;
 
-static ::System::Func_2<::System::Type,bool> __declspec(property(get=__get___9__4_0, put=__set___9__4_0))  __9__4_0;
+static System::Func_2<System::Type,bool> __declspec(property(get=__get___9__4_0, put=__set___9__4_0))  __9__4_0;
 
-static void __set___9__4_0(::System::Func_2<::System::Type,bool> value) ;
+static void __set___9__4_0(System::Func_2<System::Type,bool> value) ;
 
-static ::System::Func_2<::System::Type,bool> __get___9__4_0() ;
+static System::Func_2<System::Type,bool> __get___9__4_0() ;
 
-static ::System::Func_2<::System::Type,bool> __declspec(property(get=__get___9__5_0, put=__set___9__5_0))  __9__5_0;
+static System::Func_2<System::Type,bool> __declspec(property(get=__get___9__5_0, put=__set___9__5_0))  __9__5_0;
 
-static void __set___9__5_0(::System::Func_2<::System::Type,bool> value) ;
+static void __set___9__5_0(System::Func_2<System::Type,bool> value) ;
 
-static ::System::Func_2<::System::Type,bool> __get___9__5_0() ;
+static System::Func_2<System::Type,bool> __get___9__5_0() ;
 
-static ::System::Func_2<::System::Type,bool> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
+static System::Func_2<System::Type,bool> __declspec(property(get=__get___9__6_0, put=__set___9__6_0))  __9__6_0;
 
-static void __set___9__6_0(::System::Func_2<::System::Type,bool> value) ;
+static void __set___9__6_0(System::Func_2<System::Type,bool> value) ;
 
-static ::System::Func_2<::System::Type,bool> __get___9__6_0() ;
+static System::Func_2<System::Type,bool> __get___9__6_0() ;
 
-static ::System::Func_2<::System::Type,bool> __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
+static System::Func_2<System::Type,bool> __declspec(property(get=__get___9__7_0, put=__set___9__7_0))  __9__7_0;
 
-static void __set___9__7_0(::System::Func_2<::System::Type,bool> value) ;
+static void __set___9__7_0(System::Func_2<System::Type,bool> value) ;
 
-static ::System::Func_2<::System::Type,bool> __get___9__7_0() ;
+static System::Func_2<System::Type,bool> __get___9__7_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____Zenject__ConventionSelectTypesBinder____c() ;
+explicit Zenject__ConventionSelectTypesBinder____c() ;
 
 /// @brief Method .ctor addr 0x2d52024 size 0x8 virtual false final false
  void _ctor() ;
 
 /// @brief Method <AllClasses>b__4_0 addr 0x2d5202c size 0x18 virtual false final false
- bool _AllClasses_b__4_0(::System::Type t) ;
+ bool _AllClasses_b__4_0(System::Type t) ;
 
 /// @brief Method <AllNonAbstractClasses>b__5_0 addr 0x2d52044 size 0x44 virtual false final false
- bool _AllNonAbstractClasses_b__5_0(::System::Type t) ;
+ bool _AllNonAbstractClasses_b__5_0(System::Type t) ;
 
 /// @brief Method <AllAbstractClasses>b__6_0 addr 0x2d52088 size 0x3c virtual false final false
- bool _AllAbstractClasses_b__6_0(::System::Type t) ;
+ bool _AllAbstractClasses_b__6_0(System::Type t) ;
 
 /// @brief Method <AllInterfaces>b__7_0 addr 0x2d520c4 size 0x18 virtual false final false
- bool _AllInterfaces_b__7_0(::System::Type t) ;
+ bool _AllInterfaces_b__7_0(System::Type t) ;
 
 /// @brief Method __zenCreate addr 0x2d520dc size 0x5c virtual false final false
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x2d52138 size 0x1c0 virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -138,7 +137,7 @@ namespace Zenject {
 class CORDL_TYPE ConventionSelectTypesBinder : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using __c = ::Zenject::____Zenject__ConventionSelectTypesBinder____c;
+using __c = Zenject::Zenject__ConventionSelectTypesBinder____c;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -173,45 +172,44 @@ constexpr explicit ConventionSelectTypesBinder(void* ptr) noexcept : ::bs_hook::
 
 // Fields
 
- ::Zenject::ConventionBindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
+ Zenject::ConventionBindInfo __declspec(property(get=__get__bindInfo, put=__set__bindInfo))  _bindInfo;
 
-constexpr void __set__bindInfo(::Zenject::ConventionBindInfo value) ;
+constexpr void __set__bindInfo(Zenject::ConventionBindInfo value) ;
 
-constexpr ::Zenject::ConventionBindInfo __get__bindInfo() const;
+constexpr Zenject::ConventionBindInfo __get__bindInfo() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "bindInfo", ty: "::Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
-explicit ConventionSelectTypesBinder(::Zenject::ConventionBindInfo bindInfo) ;
+// Ctor Parameters [CppParam { name: "bindInfo", ty: "Zenject::ConventionBindInfo", modifiers: "", def_value: None }]
+explicit ConventionSelectTypesBinder(Zenject::ConventionBindInfo bindInfo) ;
 
 /// @brief Method .ctor addr 0x2d4dc2c size 0x28 virtual false final false
- void _ctor(::Zenject::ConventionBindInfo bindInfo) ;
+ void _ctor(Zenject::ConventionBindInfo bindInfo) ;
 
 /// @brief Method CreateNextBinder addr 0x2d51b94 size 0x68 virtual false final false
- ::Zenject::ConventionFilterTypesBinder CreateNextBinder() ;
+ Zenject::ConventionFilterTypesBinder CreateNextBinder() ;
 
 /// @brief Method AllTypes addr 0x2d51bfc size 0x4 virtual false final false
- ::Zenject::ConventionFilterTypesBinder AllTypes() ;
+ Zenject::ConventionFilterTypesBinder AllTypes() ;
 
 /// @brief Method AllClasses addr 0x2d51c00 size 0xf0 virtual false final false
- ::Zenject::ConventionFilterTypesBinder AllClasses() ;
+ Zenject::ConventionFilterTypesBinder AllClasses() ;
 
 /// @brief Method AllNonAbstractClasses addr 0x2d51cf0 size 0xf0 virtual false final false
- ::Zenject::ConventionFilterTypesBinder AllNonAbstractClasses() ;
+ Zenject::ConventionFilterTypesBinder AllNonAbstractClasses() ;
 
 /// @brief Method AllAbstractClasses addr 0x2d51de0 size 0xf0 virtual false final false
- ::Zenject::ConventionFilterTypesBinder AllAbstractClasses() ;
+ Zenject::ConventionFilterTypesBinder AllAbstractClasses() ;
 
 /// @brief Method AllInterfaces addr 0x2d51ed0 size 0xf0 virtual false final false
- ::Zenject::ConventionFilterTypesBinder AllInterfaces() ;
+ Zenject::ConventionFilterTypesBinder AllInterfaces() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ConventionSelectTypesBinder);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ConventionSelectTypesBinder, "Zenject", "ConventionSelectTypesBinder");
-NEED_NO_BOX(::Zenject::____Zenject__ConventionSelectTypesBinder____c);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::____Zenject__ConventionSelectTypesBinder____c, "Zenject", "ConventionSelectTypesBinder/<>c");
+NEED_NO_BOX(Zenject::ConventionSelectTypesBinder);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionSelectTypesBinder, "Zenject", "ConventionSelectTypesBinder");
+NEED_NO_BOX(Zenject::Zenject__ConventionSelectTypesBinder____c);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::Zenject__ConventionSelectTypesBinder____c, "Zenject", "ConventionSelectTypesBinder/<>c");

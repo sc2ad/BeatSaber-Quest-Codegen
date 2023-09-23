@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class BeatLineManager;
-}
 namespace GlobalNamespace {
 class EnvironmentSpawnRotation;
+}
+namespace GlobalNamespace {
+class BeatLineManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5087))
 // CS Name: FlyingGameHUDRotation
-class CORDL_TYPE FlyingGameHUDRotation : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FlyingGameHUDRotation : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr FlyingGameHUDRotation(FlyingGameHUDRotation const& ) noexcept = defaul
 constexpr FlyingGameHUDRotation(FlyingGameHUDRotation&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FlyingGameHUDRotation(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FlyingGameHUDRotation(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -61,17 +60,17 @@ constexpr void __set__smooth(float_t value) ;
 
 constexpr float_t __get__smooth() const;
 
- ::GlobalNamespace::BeatLineManager __declspec(property(get=__get__beatLineManager, put=__set__beatLineManager))  _beatLineManager;
+ GlobalNamespace::BeatLineManager __declspec(property(get=__get__beatLineManager, put=__set__beatLineManager))  _beatLineManager;
 
-constexpr void __set__beatLineManager(::GlobalNamespace::BeatLineManager value) ;
+constexpr void __set__beatLineManager(GlobalNamespace::BeatLineManager value) ;
 
-constexpr ::GlobalNamespace::BeatLineManager __get__beatLineManager() const;
+constexpr GlobalNamespace::BeatLineManager __get__beatLineManager() const;
 
- ::GlobalNamespace::EnvironmentSpawnRotation __declspec(property(get=__get__environmentSpawnRotation, put=__set__environmentSpawnRotation))  _environmentSpawnRotation;
+ GlobalNamespace::EnvironmentSpawnRotation __declspec(property(get=__get__environmentSpawnRotation, put=__set__environmentSpawnRotation))  _environmentSpawnRotation;
 
-constexpr void __set__environmentSpawnRotation(::GlobalNamespace::EnvironmentSpawnRotation value) ;
+constexpr void __set__environmentSpawnRotation(GlobalNamespace::EnvironmentSpawnRotation value) ;
 
-constexpr ::GlobalNamespace::EnvironmentSpawnRotation __get__environmentSpawnRotation() const;
+constexpr GlobalNamespace::EnvironmentSpawnRotation __get__environmentSpawnRotation() const;
 
  float_t __declspec(property(get=__get__prevYAngle, put=__set__prevYAngle))  _prevYAngle;
 
@@ -107,6 +106,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FlyingGameHUDRotation);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FlyingGameHUDRotation, "", "FlyingGameHUDRotation");
+NEED_NO_BOX(GlobalNamespace::FlyingGameHUDRotation);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingGameHUDRotation, "", "FlyingGameHUDRotation");

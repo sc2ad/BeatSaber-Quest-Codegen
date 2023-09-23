@@ -4,18 +4,17 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 class Font;
-}
-namespace UnityEngine {
-struct FontStyle;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct TextAnchor;
+}
+namespace UnityEngine {
+struct FontStyle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,8 +29,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE TextNativeSettings : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "font", ty: "::UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scaling", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "anchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "wordWrap", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "wordWrapWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }]
-constexpr TextNativeSettings(::StringW text, ::UnityEngine::Font font, int32_t size, float_t scaling, ::UnityEngine::FontStyle style, ::UnityEngine::Color color, ::UnityEngine::TextAnchor anchor, bool wordWrap, float_t wordWrapWidth, bool richText) noexcept;
+// Ctor Parameters [CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "font", ty: "UnityEngine::Font", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "scaling", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "style", ty: "UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "anchor", ty: "UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "wordWrap", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "wordWrapWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }]
+constexpr TextNativeSettings(::StringW text, UnityEngine::Font font, int32_t size, float_t scaling, UnityEngine::FontStyle style, UnityEngine::Color color, UnityEngine::TextAnchor anchor, bool wordWrap, float_t wordWrapWidth, bool richText) noexcept;
 
 
                     constexpr TextNativeSettings(TextNativeSettings const&) = default;
@@ -70,11 +69,11 @@ constexpr void __set_text(::StringW value) ;
 
 constexpr ::StringW __get_text() const;
 
- ::UnityEngine::Font __declspec(property(get=__get_font, put=__set_font))  font;
+ UnityEngine::Font __declspec(property(get=__get_font, put=__set_font))  font;
 
-constexpr void __set_font(::UnityEngine::Font value) ;
+constexpr void __set_font(UnityEngine::Font value) ;
 
-constexpr ::UnityEngine::Font __get_font() const;
+constexpr UnityEngine::Font __get_font() const;
 
  int32_t __declspec(property(get=__get_size, put=__set_size))  size;
 
@@ -88,23 +87,23 @@ constexpr void __set_scaling(float_t value) ;
 
 constexpr float_t __get_scaling() const;
 
- ::UnityEngine::FontStyle __declspec(property(get=__get_style, put=__set_style))  style;
+ UnityEngine::FontStyle __declspec(property(get=__get_style, put=__set_style))  style;
 
-constexpr void __set_style(::UnityEngine::FontStyle value) ;
+constexpr void __set_style(UnityEngine::FontStyle value) ;
 
-constexpr ::UnityEngine::FontStyle __get_style() const;
+constexpr UnityEngine::FontStyle __get_style() const;
 
- ::UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color value) ;
+constexpr void __set_color(UnityEngine::Color value) ;
 
-constexpr ::UnityEngine::Color __get_color() const;
+constexpr UnityEngine::Color __get_color() const;
 
- ::UnityEngine::TextAnchor __declspec(property(get=__get_anchor, put=__set_anchor))  anchor;
+ UnityEngine::TextAnchor __declspec(property(get=__get_anchor, put=__set_anchor))  anchor;
 
-constexpr void __set_anchor(::UnityEngine::TextAnchor value) ;
+constexpr void __set_anchor(UnityEngine::TextAnchor value) ;
 
-constexpr ::UnityEngine::TextAnchor __get_anchor() const;
+constexpr UnityEngine::TextAnchor __get_anchor() const;
 
  bool __declspec(property(get=__get_wordWrap, put=__set_wordWrap))  wordWrap;
 
@@ -128,5 +127,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextNativeSettings, "UnityEngine.UIElements", "TextNativeSettings");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::TextNativeSettings, "UnityEngine.UIElements", "TextNativeSettings");

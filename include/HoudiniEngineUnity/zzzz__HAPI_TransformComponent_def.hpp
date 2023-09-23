@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_TransformComponent;
@@ -78,47 +77,46 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_TRANSFORM_TX offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TX;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TX;
 
 /// @brief Field HAPI_TRANSFORM_TY offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TY;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TY;
 
 /// @brief Field HAPI_TRANSFORM_TZ offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TZ;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_TZ;
 
 /// @brief Field HAPI_TRANSFORM_RX offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RX;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RX;
 
 /// @brief Field HAPI_TRANSFORM_RY offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RY;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RY;
 
 /// @brief Field HAPI_TRANSFORM_RZ offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RZ;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_RZ;
 
 /// @brief Field HAPI_TRANSFORM_QX offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QX;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QX;
 
 /// @brief Field HAPI_TRANSFORM_QY offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QY;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QY;
 
 /// @brief Field HAPI_TRANSFORM_QZ offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QZ;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QZ;
 
 /// @brief Field HAPI_TRANSFORM_QW offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QW;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_QW;
 
 /// @brief Field HAPI_TRANSFORM_SX offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SX;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SX;
 
 /// @brief Field HAPI_TRANSFORM_SY offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SY;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SY;
 
 /// @brief Field HAPI_TRANSFORM_SZ offset 0
-static ::HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SZ;
+static HoudiniEngineUnity::HAPI_TransformComponent const HAPI_TRANSFORM_SZ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_TransformComponent, "HoudiniEngineUnity", "HAPI_TransformComponent");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_TransformComponent, "HoudiniEngineUnity", "HAPI_TransformComponent");

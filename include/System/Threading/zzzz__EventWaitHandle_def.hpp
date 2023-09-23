@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Threading {
 struct EventResetMode;
 }
@@ -16,7 +15,7 @@ namespace System::Threading {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2739))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2707))
 // CS Name: System.Threading.EventWaitHandle
-class CORDL_TYPE EventWaitHandle : public ::System::Threading::WaitHandle {
+class CORDL_TYPE EventWaitHandle : public System::Threading::WaitHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr EventWaitHandle(EventWaitHandle const& ) noexcept = default;
 constexpr EventWaitHandle(EventWaitHandle&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EventWaitHandle(void* ptr) noexcept : ::System::Threading::WaitHandle(ptr) {
+constexpr explicit EventWaitHandle(void* ptr) noexcept : System::Threading::WaitHandle(ptr) {
 }
 
 
@@ -52,17 +51,17 @@ constexpr explicit EventWaitHandle(void* ptr) noexcept : ::System::Threading::Wa
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::System::Threading::EventResetMode", modifiers: "", def_value: None }]
-explicit EventWaitHandle(bool initialState, ::System::Threading::EventResetMode mode) ;
+// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }]
+explicit EventWaitHandle(bool initialState, System::Threading::EventResetMode mode) ;
 
 /// @brief Method .ctor addr 0x24a27a4 size 0xc virtual false final false
- void _ctor(bool initialState, ::System::Threading::EventResetMode mode) ;
+ void _ctor(bool initialState, System::Threading::EventResetMode mode) ;
 
-// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::System::Threading::EventResetMode", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit EventWaitHandle(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name) ;
+// Ctor Parameters [CppParam { name: "initialState", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "System::Threading::EventResetMode", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+explicit EventWaitHandle(bool initialState, System::Threading::EventResetMode mode, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x24a9480 size 0x2c0 virtual false final false
- void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name) ;
+ void _ctor(bool initialState, System::Threading::EventResetMode mode, ::StringW name) ;
 
 /// @brief Method Reset addr 0x24a77c4 size 0x64 virtual false final false
  bool Reset() ;
@@ -74,6 +73,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Threading
-} // end anonymous namespace
-NEED_NO_BOX(::System::Threading::EventWaitHandle);
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::EventWaitHandle, "System.Threading", "EventWaitHandle");
+NEED_NO_BOX(System::Threading::EventWaitHandle);
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::EventWaitHandle, "System.Threading", "EventWaitHandle");

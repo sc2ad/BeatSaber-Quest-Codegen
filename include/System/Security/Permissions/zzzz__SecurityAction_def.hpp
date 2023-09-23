@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Security::Permissions {
 struct SecurityAction;
@@ -74,35 +73,34 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Demand offset 0
-static ::System::Security::Permissions::SecurityAction const Demand;
+static System::Security::Permissions::SecurityAction const Demand;
 
 /// @brief Field Assert offset 0
-static ::System::Security::Permissions::SecurityAction const Assert;
+static System::Security::Permissions::SecurityAction const Assert;
 
 /// @brief Field Deny offset 0
-static ::System::Security::Permissions::SecurityAction const Deny;
+static System::Security::Permissions::SecurityAction const Deny;
 
 /// @brief Field PermitOnly offset 0
-static ::System::Security::Permissions::SecurityAction const PermitOnly;
+static System::Security::Permissions::SecurityAction const PermitOnly;
 
 /// @brief Field LinkDemand offset 0
-static ::System::Security::Permissions::SecurityAction const LinkDemand;
+static System::Security::Permissions::SecurityAction const LinkDemand;
 
 /// @brief Field InheritanceDemand offset 0
-static ::System::Security::Permissions::SecurityAction const InheritanceDemand;
+static System::Security::Permissions::SecurityAction const InheritanceDemand;
 
 /// @brief Field RequestMinimum offset 0
-static ::System::Security::Permissions::SecurityAction const RequestMinimum;
+static System::Security::Permissions::SecurityAction const RequestMinimum;
 
 /// @brief Field RequestOptional offset 0
-static ::System::Security::Permissions::SecurityAction const RequestOptional;
+static System::Security::Permissions::SecurityAction const RequestOptional;
 
 /// @brief Field RequestRefuse offset 0
-static ::System::Security::Permissions::SecurityAction const RequestRefuse;
+static System::Security::Permissions::SecurityAction const RequestRefuse;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Security::Permissions
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Security::Permissions::SecurityAction, "System.Security.Permissions", "SecurityAction");
+DEFINE_IL2CPP_ARG_TYPE(System::Security::Permissions::SecurityAction, "System.Security.Permissions", "SecurityAction");

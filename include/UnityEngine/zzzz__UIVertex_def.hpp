@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Color32;
 }
 namespace UnityEngine {
-struct Color32;
+struct Vector4;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,8 +23,8 @@ namespace UnityEngine {
 struct CORDL_TYPE UIVertex : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
-constexpr UIVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tangent", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv0", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv1", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv2", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "UnityEngine::Vector4", modifiers: "", def_value: None }]
+constexpr UIVertex(UnityEngine::Vector3 position, UnityEngine::Vector3 normal, UnityEngine::Vector4 tangent, UnityEngine::Color32 color, UnityEngine::Vector4 uv0, UnityEngine::Vector4 uv1, UnityEngine::Vector4 uv2, UnityEngine::Vector4 uv3) noexcept;
 
 
                     constexpr UIVertex(UIVertex const&) = default;
@@ -58,71 +57,71 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
+ UnityEngine::Vector3 __declspec(property(get=__get_position, put=__set_position))  position;
 
-constexpr void __set_position(::UnityEngine::Vector3 value) ;
+constexpr void __set_position(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_position() const;
+constexpr UnityEngine::Vector3 __get_position() const;
 
- ::UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
+ UnityEngine::Vector3 __declspec(property(get=__get_normal, put=__set_normal))  normal;
 
-constexpr void __set_normal(::UnityEngine::Vector3 value) ;
+constexpr void __set_normal(UnityEngine::Vector3 value) ;
 
-constexpr ::UnityEngine::Vector3 __get_normal() const;
+constexpr UnityEngine::Vector3 __get_normal() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_tangent, put=__set_tangent))  tangent;
+ UnityEngine::Vector4 __declspec(property(get=__get_tangent, put=__set_tangent))  tangent;
 
-constexpr void __set_tangent(::UnityEngine::Vector4 value) ;
+constexpr void __set_tangent(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_tangent() const;
+constexpr UnityEngine::Vector4 __get_tangent() const;
 
- ::UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
+ UnityEngine::Color32 __declspec(property(get=__get_color, put=__set_color))  color;
 
-constexpr void __set_color(::UnityEngine::Color32 value) ;
+constexpr void __set_color(UnityEngine::Color32 value) ;
 
-constexpr ::UnityEngine::Color32 __get_color() const;
+constexpr UnityEngine::Color32 __get_color() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_uv0, put=__set_uv0))  uv0;
+ UnityEngine::Vector4 __declspec(property(get=__get_uv0, put=__set_uv0))  uv0;
 
-constexpr void __set_uv0(::UnityEngine::Vector4 value) ;
+constexpr void __set_uv0(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_uv0() const;
+constexpr UnityEngine::Vector4 __get_uv0() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_uv1, put=__set_uv1))  uv1;
+ UnityEngine::Vector4 __declspec(property(get=__get_uv1, put=__set_uv1))  uv1;
 
-constexpr void __set_uv1(::UnityEngine::Vector4 value) ;
+constexpr void __set_uv1(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_uv1() const;
+constexpr UnityEngine::Vector4 __get_uv1() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_uv2, put=__set_uv2))  uv2;
+ UnityEngine::Vector4 __declspec(property(get=__get_uv2, put=__set_uv2))  uv2;
 
-constexpr void __set_uv2(::UnityEngine::Vector4 value) ;
+constexpr void __set_uv2(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_uv2() const;
+constexpr UnityEngine::Vector4 __get_uv2() const;
 
- ::UnityEngine::Vector4 __declspec(property(get=__get_uv3, put=__set_uv3))  uv3;
+ UnityEngine::Vector4 __declspec(property(get=__get_uv3, put=__set_uv3))  uv3;
 
-constexpr void __set_uv3(::UnityEngine::Vector4 value) ;
+constexpr void __set_uv3(UnityEngine::Vector4 value) ;
 
-constexpr ::UnityEngine::Vector4 __get_uv3() const;
+constexpr UnityEngine::Vector4 __get_uv3() const;
 
-static ::UnityEngine::Color32 __declspec(property(get=__get_s_DefaultColor, put=__set_s_DefaultColor))  s_DefaultColor;
+static UnityEngine::Color32 __declspec(property(get=__get_s_DefaultColor, put=__set_s_DefaultColor))  s_DefaultColor;
 
-static void __set_s_DefaultColor(::UnityEngine::Color32 value) ;
+static void __set_s_DefaultColor(UnityEngine::Color32 value) ;
 
-static ::UnityEngine::Color32 __get_s_DefaultColor() ;
+static UnityEngine::Color32 __get_s_DefaultColor() ;
 
-static ::UnityEngine::Vector4 __declspec(property(get=__get_s_DefaultTangent, put=__set_s_DefaultTangent))  s_DefaultTangent;
+static UnityEngine::Vector4 __declspec(property(get=__get_s_DefaultTangent, put=__set_s_DefaultTangent))  s_DefaultTangent;
 
-static void __set_s_DefaultTangent(::UnityEngine::Vector4 value) ;
+static void __set_s_DefaultTangent(UnityEngine::Vector4 value) ;
 
-static ::UnityEngine::Vector4 __get_s_DefaultTangent() ;
+static UnityEngine::Vector4 __get_s_DefaultTangent() ;
 
-static ::UnityEngine::UIVertex __declspec(property(get=__get_simpleVert, put=__set_simpleVert))  simpleVert;
+static UnityEngine::UIVertex __declspec(property(get=__get_simpleVert, put=__set_simpleVert))  simpleVert;
 
-static void __set_simpleVert(::UnityEngine::UIVertex value) ;
+static void __set_simpleVert(UnityEngine::UIVertex value) ;
 
-static ::UnityEngine::UIVertex __get_simpleVert() ;
+static UnityEngine::UIVertex __get_simpleVert() ;
 
 
 // Methods
@@ -131,5 +130,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIVertex, "UnityEngine", "UIVertex");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIVertex, "UnityEngine", "UIVertex");

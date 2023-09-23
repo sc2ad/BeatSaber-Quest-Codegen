@@ -1,13 +1,12 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
+namespace HoudiniEngineUnity {
+struct HAPI_ParmInfo;
+}
 namespace HoudiniEngineUnity {
 template<typename T>
 class IEquivable_1;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_ParmInfo;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,8 +21,8 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_ParmInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo>
-constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_ParmInfo>() const noexcept;
+/// @brief Convert operator to HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo>
+constexpr operator  HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xa0};
@@ -58,28 +57,27 @@ constexpr explicit Test_HAPI_ParmInfo(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
- ::HoudiniEngineUnity::HAPI_ParmInfo __declspec(property(get=__get_self, put=__set_self))  self;
+ HoudiniEngineUnity::HAPI_ParmInfo __declspec(property(get=__get_self, put=__set_self))  self;
 
-constexpr void __set_self(::HoudiniEngineUnity::HAPI_ParmInfo value) ;
+constexpr void __set_self(HoudiniEngineUnity::HAPI_ParmInfo value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_ParmInfo __get_self() const;
+constexpr HoudiniEngineUnity::HAPI_ParmInfo __get_self() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "self", ty: "::HoudiniEngineUnity::HAPI_ParmInfo", modifiers: "", def_value: None }]
-explicit Test_HAPI_ParmInfo(::HoudiniEngineUnity::HAPI_ParmInfo self) ;
+// Ctor Parameters [CppParam { name: "self", ty: "HoudiniEngineUnity::HAPI_ParmInfo", modifiers: "", def_value: None }]
+explicit Test_HAPI_ParmInfo(HoudiniEngineUnity::HAPI_ParmInfo self) ;
 
 /// @brief Method .ctor addr 0x2071160 size 0x34 virtual false final false
- void _ctor(::HoudiniEngineUnity::HAPI_ParmInfo self) ;
+ void _ctor(HoudiniEngineUnity::HAPI_ParmInfo self) ;
 
 /// @brief Method IsEquivalentTo addr 0x2071194 size 0x78c virtual true final true
- bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_ParmInfo other) ;
+ bool IsEquivalentTo(HoudiniEngineUnity::Test_HAPI_ParmInfo other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::Test_HAPI_ParmInfo);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_HAPI_ParmInfo, "HoudiniEngineUnity", "Test_HAPI_ParmInfo");
+NEED_NO_BOX(HoudiniEngineUnity::Test_HAPI_ParmInfo);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::Test_HAPI_ParmInfo, "HoudiniEngineUnity", "Test_HAPI_ParmInfo");

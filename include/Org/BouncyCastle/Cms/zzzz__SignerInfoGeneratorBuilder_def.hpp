@@ -3,21 +3,20 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISignatureFactory;
-}
-namespace Org::BouncyCastle::Cms {
-class SignerInfoGenerator;
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
+}
+namespace Org::BouncyCastle::Cms {
+class SignerInfoGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -71,17 +70,17 @@ constexpr void __set_directSignature(bool value) ;
 
 constexpr bool __get_directSignature() const;
 
- ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator __declspec(property(get=__get_signedGen, put=__set_signedGen))  signedGen;
+ Org::BouncyCastle::Cms::CmsAttributeTableGenerator __declspec(property(get=__get_signedGen, put=__set_signedGen))  signedGen;
 
-constexpr void __set_signedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator value) ;
+constexpr void __set_signedGen(Org::BouncyCastle::Cms::CmsAttributeTableGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator __get_signedGen() const;
+constexpr Org::BouncyCastle::Cms::CmsAttributeTableGenerator __get_signedGen() const;
 
- ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator __declspec(property(get=__get_unsignedGen, put=__set_unsignedGen))  unsignedGen;
+ Org::BouncyCastle::Cms::CmsAttributeTableGenerator __declspec(property(get=__get_unsignedGen, put=__set_unsignedGen))  unsignedGen;
 
-constexpr void __set_unsignedGen(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator value) ;
+constexpr void __set_unsignedGen(Org::BouncyCastle::Cms::CmsAttributeTableGenerator value) ;
 
-constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator __get_unsignedGen() const;
+constexpr Org::BouncyCastle::Cms::CmsAttributeTableGenerator __get_unsignedGen() const;
 
 
 // Methods
@@ -93,27 +92,26 @@ explicit SignerInfoGeneratorBuilder() ;
  void _ctor() ;
 
 /// @brief Method SetDirectSignature addr 0x117db2c size 0xc virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder SetDirectSignature(bool hasNoSignedAttributes) ;
+ Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder SetDirectSignature(bool hasNoSignedAttributes) ;
 
 /// @brief Method WithSignedAttributeGenerator addr 0x117db38 size 0x8 virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder WithSignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen) ;
+ Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder WithSignedAttributeGenerator(Org::BouncyCastle::Cms::CmsAttributeTableGenerator signedGen) ;
 
 /// @brief Method WithUnsignedAttributeGenerator addr 0x117db40 size 0x8 virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder WithUnsignedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen) ;
+ Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder WithUnsignedAttributeGenerator(Org::BouncyCastle::Cms::CmsAttributeTableGenerator unsignedGen) ;
 
 /// @brief Method Build addr 0x117db48 size 0x12c virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGenerator Build(::Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, ::Org::BouncyCastle::X509::X509Certificate certificate) ;
+ Org::BouncyCastle::Cms::SignerInfoGenerator Build(Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::X509::X509Certificate certificate) ;
 
 /// @brief Method Build addr 0x117dd84 size 0xac virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGenerator Build(::Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, ::ArrayW<uint8_t> subjectKeyIdentifier) ;
+ Org::BouncyCastle::Cms::SignerInfoGenerator Build(Org::BouncyCastle::Crypto::ISignatureFactory signerFactory, ::ArrayW<uint8_t> subjectKeyIdentifier) ;
 
 /// @brief Method CreateGenerator addr 0x117dc74 size 0x110 virtual false final false
- ::Org::BouncyCastle::Cms::SignerInfoGenerator CreateGenerator(::Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId) ;
+ Org::BouncyCastle::Cms::SignerInfoGenerator CreateGenerator(Org::BouncyCastle::Crypto::ISignatureFactory contentSigner, Org::BouncyCastle::Asn1::Cms::SignerIdentifier sigId) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Cms
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, "Org.BouncyCastle.Cms", "SignerInfoGeneratorBuilder");
+NEED_NO_BOX(Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Cms::SignerInfoGeneratorBuilder, "Org.BouncyCastle.Cms", "SignerInfoGeneratorBuilder");

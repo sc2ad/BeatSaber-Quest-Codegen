@@ -1,16 +1,15 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
-namespace {
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::Playables {
-class IPlayable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -25,14 +24,14 @@ namespace UnityEngine::Animations {
 struct CORDL_TYPE AnimationPosePlayable : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::Playables::IPlayable
-constexpr operator  ::UnityEngine::Playables::IPlayable() const;
+/// @brief Convert operator to UnityEngine::Playables::IPlayable
+constexpr operator  UnityEngine::Playables::IPlayable() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::Animations::AnimationPosePlayable>
+constexpr operator  System::IEquatable_1<UnityEngine::Animations::AnimationPosePlayable>() const;
 
-// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+constexpr AnimationPosePlayable(UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
 
                     constexpr AnimationPosePlayable(AnimationPosePlayable const&) = default;
@@ -65,33 +64,32 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
+ UnityEngine::Playables::PlayableHandle __declspec(property(get=__get_m_Handle, put=__set_m_Handle))  m_Handle;
 
-constexpr void __set_m_Handle(::UnityEngine::Playables::PlayableHandle value) ;
+constexpr void __set_m_Handle(UnityEngine::Playables::PlayableHandle value) ;
 
-constexpr ::UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
+constexpr UnityEngine::Playables::PlayableHandle __get_m_Handle() const;
 
-static ::UnityEngine::Animations::AnimationPosePlayable __declspec(property(get=__get_m_NullPlayable, put=__set_m_NullPlayable))  m_NullPlayable;
+static UnityEngine::Animations::AnimationPosePlayable __declspec(property(get=__get_m_NullPlayable, put=__set_m_NullPlayable))  m_NullPlayable;
 
-static void __set_m_NullPlayable(::UnityEngine::Animations::AnimationPosePlayable value) ;
+static void __set_m_NullPlayable(UnityEngine::Animations::AnimationPosePlayable value) ;
 
-static ::UnityEngine::Animations::AnimationPosePlayable __get_m_NullPlayable() ;
+static UnityEngine::Animations::AnimationPosePlayable __get_m_NullPlayable() ;
 
 
 // Methods
 
 /// @brief Method .ctor addr 0x2b22a30 size 0xc0 virtual false final false
- void _ctor(::UnityEngine::Playables::PlayableHandle handle) ;
+ void _ctor(UnityEngine::Playables::PlayableHandle handle) ;
 
 /// @brief Method GetHandle addr 0x2b22af0 size 0xc virtual true final true
- ::UnityEngine::Playables::PlayableHandle GetHandle() ;
+ UnityEngine::Playables::PlayableHandle GetHandle() ;
 
 /// @brief Method Equals addr 0x2b22afc size 0xac virtual true final true
- bool Equals(::UnityEngine::Animations::AnimationPosePlayable other) ;
+ bool Equals(UnityEngine::Animations::AnimationPosePlayable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Animations
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");

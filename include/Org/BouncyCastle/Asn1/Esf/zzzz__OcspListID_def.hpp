@@ -3,18 +3,17 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace Org::BouncyCastle::Asn1::Esf {
 class OcspResponsesID;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -26,7 +25,7 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(146))
 // CS Name: Org.BouncyCastle.Asn1.Esf.OcspListID
-class CORDL_TYPE OcspListID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
+class CORDL_TYPE OcspListID : public Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -41,7 +40,7 @@ constexpr OcspListID(OcspListID const& ) noexcept = default;
 constexpr OcspListID(OcspListID&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OcspListID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
+constexpr explicit OcspListID(void* ptr) noexcept : Org::BouncyCastle::Asn1::Asn1Encodable(ptr) {
 }
 
 
@@ -62,46 +61,45 @@ constexpr explicit OcspListID(void* ptr) noexcept : ::Org::BouncyCastle::Asn1::A
 
 // Fields
 
- ::Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_ocspResponses, put=__set_ocspResponses))  ocspResponses;
+ Org::BouncyCastle::Asn1::Asn1Sequence __declspec(property(get=__get_ocspResponses, put=__set_ocspResponses))  ocspResponses;
 
-constexpr void __set_ocspResponses(::Org::BouncyCastle::Asn1::Asn1Sequence value) ;
+constexpr void __set_ocspResponses(Org::BouncyCastle::Asn1::Asn1Sequence value) ;
 
-constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence __get_ocspResponses() const;
+constexpr Org::BouncyCastle::Asn1::Asn1Sequence __get_ocspResponses() const;
 
 
 // Methods
 
 /// @brief Method GetInstance addr 0xe04838 size 0x188 virtual false final false
-static ::Org::BouncyCastle::Asn1::Esf::OcspListID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
+static Org::BouncyCastle::Asn1::Esf::OcspListID GetInstance(::bs_hook::Il2CppWrapperType obj) ;
 
-// Ctor Parameters [CppParam { name: "seq", ty: "::Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
-explicit OcspListID(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+// Ctor Parameters [CppParam { name: "seq", ty: "Org::BouncyCastle::Asn1::Asn1Sequence", modifiers: "", def_value: None }]
+explicit OcspListID(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
 /// @brief Method .ctor addr 0xe0587c size 0x480 virtual false final false
- void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
+ void _ctor(Org::BouncyCastle::Asn1::Asn1Sequence seq) ;
 
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID>", modifiers: "", def_value: None }]
-explicit OcspListID(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
+// Ctor Parameters [CppParam { name: "ocspResponses", ty: "::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID>", modifiers: "", def_value: None }]
+explicit OcspListID(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
 
 /// @brief Method .ctor addr 0xe05e84 size 0xc4 virtual false final false
- void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
+ void _ctor(::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> ocspResponses) ;
 
-// Ctor Parameters [CppParam { name: "ocspResponses", ty: "::System::Collections::IEnumerable", modifiers: "", def_value: None }]
-explicit OcspListID(::System::Collections::IEnumerable ocspResponses) ;
+// Ctor Parameters [CppParam { name: "ocspResponses", ty: "System::Collections::IEnumerable", modifiers: "", def_value: None }]
+explicit OcspListID(System::Collections::IEnumerable ocspResponses) ;
 
 /// @brief Method .ctor addr 0xe05f48 size 0x1a4 virtual false final false
- void _ctor(::System::Collections::IEnumerable ocspResponses) ;
+ void _ctor(System::Collections::IEnumerable ocspResponses) ;
 
 /// @brief Method GetOcspResponses addr 0xe060ec size 0x120 virtual false final false
- ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID> GetOcspResponses() ;
+ ::ArrayW<Org::BouncyCastle::Asn1::Esf::OcspResponsesID> GetOcspResponses() ;
 
 /// @brief Method ToAsn1Object addr 0xe0620c size 0x68 virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1::Esf
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::OcspListID);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::OcspListID, "Org.BouncyCastle.Asn1.Esf", "OcspListID");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Esf::OcspListID);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Esf::OcspListID, "Org.BouncyCastle.Asn1.Esf", "OcspListID");

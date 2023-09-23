@@ -1,18 +1,17 @@
 #pragma once
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
-namespace {
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsClientContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -24,14 +23,14 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1167))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1290))
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsClientContextImpl
-class CORDL_TYPE TlsClientContextImpl : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext {
+class CORDL_TYPE TlsClientContextImpl : public Org::BouncyCastle::Crypto::Tls::AbstractTlsContext {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsClientContext
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsClientContext() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsClientContext
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsClientContext() const noexcept;
 
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::Tls::TlsContext
-constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsContext() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::Tls::TlsContext
+constexpr operator  Org::BouncyCastle::Crypto::Tls::TlsContext() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -45,7 +44,7 @@ constexpr TlsClientContextImpl(TlsClientContextImpl const& ) noexcept = default;
 constexpr TlsClientContextImpl(TlsClientContextImpl&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit TlsClientContextImpl(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext(ptr) {
+constexpr explicit TlsClientContextImpl(void* ptr) noexcept : Org::BouncyCastle::Crypto::Tls::AbstractTlsContext(ptr) {
 }
 
 
@@ -71,11 +70,11 @@ constexpr explicit TlsClientContextImpl(void* ptr) noexcept : ::Org::BouncyCastl
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "secureRandom", ty: "::Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "securityParameters", ty: "::Org::BouncyCastle::Crypto::Tls::SecurityParameters", modifiers: "", def_value: None }]
-explicit TlsClientContextImpl(::Org::BouncyCastle::Security::SecureRandom secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
+// Ctor Parameters [CppParam { name: "secureRandom", ty: "Org::BouncyCastle::Security::SecureRandom", modifiers: "", def_value: None }, CppParam { name: "securityParameters", ty: "Org::BouncyCastle::Crypto::Tls::SecurityParameters", modifiers: "", def_value: None }]
+explicit TlsClientContextImpl(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
 
 /// @brief Method .ctor addr 0xf0e5a8 size 0x70 virtual false final false
- void _ctor(::Org::BouncyCastle::Security::SecureRandom secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
+ void _ctor(Org::BouncyCastle::Security::SecureRandom secureRandom, Org::BouncyCastle::Crypto::Tls::SecurityParameters securityParameters) ;
 
 /// @brief Method get_IsServer addr 0xf0e618 size 0x8 virtual true final false
  bool get_IsServer() ;
@@ -84,6 +83,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Tls
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl, "Org.BouncyCastle.Crypto.Tls", "TlsClientContextImpl");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl, "Org.BouncyCastle.Crypto.Tls", "TlsClientContextImpl");

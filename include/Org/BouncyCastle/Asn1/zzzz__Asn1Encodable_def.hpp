@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE Asn1Encodable : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Asn1::IAsn1Convertible
-constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Asn1::IAsn1Convertible
+constexpr operator  Org::BouncyCastle::Asn1::IAsn1Convertible() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -85,7 +84,7 @@ static constexpr ::ConstString  Ber{u"BER"};
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
+ Org::BouncyCastle::Asn1::Asn1Object ToAsn1Object() ;
 
 // Ctor Parameters []
 explicit Asn1Encodable() ;
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Asn1
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1Encodable);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1Encodable, "Org.BouncyCastle.Asn1", "Asn1Encodable");
+NEED_NO_BOX(Org::BouncyCastle::Asn1::Asn1Encodable);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Encodable, "Org.BouncyCastle.Asn1", "Asn1Encodable");

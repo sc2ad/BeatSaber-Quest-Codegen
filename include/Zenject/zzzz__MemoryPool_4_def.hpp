@@ -4,27 +4,26 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-namespace {
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
-class IFactory_4;
-}
-namespace Zenject {
-class InjectTypeInfo;
+class IMemoryPool_4;
 }
 namespace Zenject {
 template<typename TValue>
 class IDespawnableMemoryPool_1;
 }
 namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
 class IMemoryPool;
 }
 namespace Zenject {
 template<typename TParam1,typename TParam2,typename TParam3,typename TValue>
-class IMemoryPool_4;
+class IFactory_4;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -45,26 +44,26 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TParam3,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10991)), TypeDefinitionIndex(TypeDefinitionIndex(10983)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2667 })}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10983)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2667 }), TypeDefinitionIndex(TypeDefinitionIndex(10991))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10983), inst: 5937 })
 // CS Name: Zenject.MemoryPool`4
-class CORDL_TYPE MemoryPool_4<TParam1,TParam2,TParam3,TValue> : public ::Zenject::MemoryPoolBase_1<TValue> {
+class CORDL_TYPE MemoryPool_4<TParam1,TParam2,TParam3,TValue> : public Zenject::MemoryPoolBase_1<TValue> {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IMemoryPool_4<TParam1,TParam2,TParam3,TValue>
-constexpr operator  ::Zenject::IMemoryPool_4<TParam1,TParam2,TParam3,TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool_4<TParam1,TParam2,TParam3,TValue>
+constexpr operator  Zenject::IMemoryPool_4<TParam1,TParam2,TParam3,TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IDespawnableMemoryPool_1<TValue>
-constexpr operator  ::Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IDespawnableMemoryPool_1<TValue>
+constexpr operator  Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IMemoryPool
-constexpr operator  ::Zenject::IMemoryPool() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool
+constexpr operator  Zenject::IMemoryPool() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory_4<TParam1,TParam2,TParam3,TValue>
-constexpr operator  ::Zenject::IFactory_4<TParam1,TParam2,TParam3,TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IFactory_4<TParam1,TParam2,TParam3,TValue>
+constexpr operator  Zenject::IFactory_4<TParam1,TParam2,TParam3,TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory
-constexpr operator  ::Zenject::IFactory() const noexcept;
+/// @brief Convert operator to Zenject::IFactory
+constexpr operator  Zenject::IFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -78,7 +77,7 @@ constexpr MemoryPool_4(MemoryPool_4 const& ) noexcept = default;
 constexpr MemoryPool_4(MemoryPool_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemoryPool_4(void* ptr) noexcept : ::Zenject::MemoryPoolBase_1<TValue>(ptr) {
+constexpr explicit MemoryPool_4(void* ptr) noexcept : Zenject::MemoryPoolBase_1<TValue>(ptr) {
 }
 
 
@@ -118,7 +117,7 @@ explicit MemoryPool_4() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -129,26 +128,26 @@ namespace Zenject {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2cpp_reference_type TParam2,::cordl_internals::il2cpp_reference_type TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2667 }), TypeDefinitionIndex(TypeDefinitionIndex(10991)), TypeDefinitionIndex(TypeDefinitionIndex(10983))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10991), inst: 2667 }), TypeDefinitionIndex(TypeDefinitionIndex(10983)), TypeDefinitionIndex(TypeDefinitionIndex(10991))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10983), inst: 7448 })
 // CS Name: Zenject.MemoryPool`4
-class CORDL_TYPE MemoryPool_4<TParam1,TParam2,float_t,TValue> : public ::Zenject::MemoryPoolBase_1<TValue> {
+class CORDL_TYPE MemoryPool_4<TParam1,TParam2,float_t,TValue> : public Zenject::MemoryPoolBase_1<TValue> {
 public:
 // Declarations
-/// @brief Convert operator to ::Zenject::IMemoryPool_4<TParam1,TParam2,float_t,TValue>
-constexpr operator  ::Zenject::IMemoryPool_4<TParam1,TParam2,float_t,TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool_4<TParam1,TParam2,float_t,TValue>
+constexpr operator  Zenject::IMemoryPool_4<TParam1,TParam2,float_t,TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IDespawnableMemoryPool_1<TValue>
-constexpr operator  ::Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IDespawnableMemoryPool_1<TValue>
+constexpr operator  Zenject::IDespawnableMemoryPool_1<TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IMemoryPool
-constexpr operator  ::Zenject::IMemoryPool() const noexcept;
+/// @brief Convert operator to Zenject::IMemoryPool
+constexpr operator  Zenject::IMemoryPool() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory_4<TParam1,TParam2,float_t,TValue>
-constexpr operator  ::Zenject::IFactory_4<TParam1,TParam2,float_t,TValue>() const noexcept;
+/// @brief Convert operator to Zenject::IFactory_4<TParam1,TParam2,float_t,TValue>
+constexpr operator  Zenject::IFactory_4<TParam1,TParam2,float_t,TValue>() const noexcept;
 
-/// @brief Convert operator to ::Zenject::IFactory
-constexpr operator  ::Zenject::IFactory() const noexcept;
+/// @brief Convert operator to Zenject::IFactory
+constexpr operator  Zenject::IFactory() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x40};
@@ -162,7 +161,7 @@ constexpr MemoryPool_4(MemoryPool_4 const& ) noexcept = default;
 constexpr MemoryPool_4(MemoryPool_4&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MemoryPool_4(void* ptr) noexcept : ::Zenject::MemoryPoolBase_1<TValue>(ptr) {
+constexpr explicit MemoryPool_4(void* ptr) noexcept : Zenject::MemoryPoolBase_1<TValue>(ptr) {
 }
 
 
@@ -202,11 +201,10 @@ explicit MemoryPool_4() ;
 static ::bs_hook::Il2CppWrapperType __zenCreate(::ArrayW<::bs_hook::Il2CppWrapperType> P_0) ;
 
 /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
-static ::Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
+static Zenject::InjectTypeInfo __zenCreateInjectTypeInfo() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::MemoryPool_4, "Zenject", "MemoryPool`4");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPool_4, "Zenject", "MemoryPool`4");

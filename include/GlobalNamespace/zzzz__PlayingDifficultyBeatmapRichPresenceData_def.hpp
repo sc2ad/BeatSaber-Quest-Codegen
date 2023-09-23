@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace GlobalNamespace {
 class IRichPresenceData;
 }
@@ -22,8 +21,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlayingDifficultyBeatmapRichPresenceData : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::IRichPresenceData
-constexpr operator  ::GlobalNamespace::IRichPresenceData() const noexcept;
+/// @brief Convert operator to GlobalNamespace::IRichPresenceData
+constexpr operator  GlobalNamespace::IRichPresenceData() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
@@ -92,19 +91,18 @@ constexpr ::StringW __get__localizedDescription_k__BackingField() const;
 /// @brief Method set_localizedDescription addr 0x222a500 size 0x8 virtual false final false
  void set_localizedDescription(::StringW value) ;
 
-// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "::GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
-explicit PlayingDifficultyBeatmapRichPresenceData(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+// Ctor Parameters [CppParam { name: "difficultyBeatmap", ty: "GlobalNamespace::IDifficultyBeatmap", modifiers: "", def_value: None }]
+explicit PlayingDifficultyBeatmapRichPresenceData(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method .ctor addr 0x222a508 size 0x40 virtual false final false
- void _ctor(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+ void _ctor(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 /// @brief Method GetDestinationLocalizedString addr 0x222a548 size 0x46c virtual false final false
-static ::StringW GetDestinationLocalizedString(::GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
+static ::StringW GetDestinationLocalizedString(GlobalNamespace::IDifficultyBeatmap difficultyBeatmap) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, "", "PlayingDifficultyBeatmapRichPresenceData");
+NEED_NO_BOX(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData, "", "PlayingDifficultyBeatmapRichPresenceData");

@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class SignatureType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -21,7 +20,7 @@ namespace System::Reflection {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3487))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3485))
 // CS Name: System.Reflection.SignatureHasElementType
-class CORDL_TYPE SignatureHasElementType : public ::System::Reflection::SignatureType {
+class CORDL_TYPE SignatureHasElementType : public System::Reflection::SignatureType {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr SignatureHasElementType(SignatureHasElementType const& ) noexcept = de
 constexpr SignatureHasElementType(SignatureHasElementType&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SignatureHasElementType(void* ptr) noexcept : ::System::Reflection::SignatureType(ptr) {
+constexpr explicit SignatureHasElementType(void* ptr) noexcept : System::Reflection::SignatureType(ptr) {
 }
 
 
@@ -57,11 +56,11 @@ constexpr explicit SignatureHasElementType(void* ptr) noexcept : ::System::Refle
 
 // Fields
 
- ::System::Reflection::SignatureType __declspec(property(get=__get__elementType, put=__set__elementType))  _elementType;
+ System::Reflection::SignatureType __declspec(property(get=__get__elementType, put=__set__elementType))  _elementType;
 
-constexpr void __set__elementType(::System::Reflection::SignatureType value) ;
+constexpr void __set__elementType(System::Reflection::SignatureType value) ;
 
-constexpr ::System::Reflection::SignatureType __get__elementType() const;
+constexpr System::Reflection::SignatureType __get__elementType() const;
 
 
 // Properties
@@ -80,9 +79,9 @@ constexpr ::System::Reflection::SignatureType __get__elementType() const;
 
  bool __declspec(property(get=get_ContainsGenericParameters))  ContainsGenericParameters;
 
- ::System::Reflection::SignatureType __declspec(property(get=get_ElementType))  ElementType;
+ System::Reflection::SignatureType __declspec(property(get=get_ElementType))  ElementType;
 
- ::ArrayW<::System::Type> __declspec(property(get=get_GenericTypeArguments))  GenericTypeArguments;
+ ::ArrayW<System::Type> __declspec(property(get=get_GenericTypeArguments))  GenericTypeArguments;
 
  int32_t __declspec(property(get=get_GenericParameterPosition))  GenericParameterPosition;
 
@@ -95,11 +94,11 @@ constexpr ::System::Reflection::SignatureType __get__elementType() const;
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "elementType", ty: "::System::Reflection::SignatureType", modifiers: "", def_value: None }]
-explicit SignatureHasElementType(::System::Reflection::SignatureType elementType) ;
+// Ctor Parameters [CppParam { name: "elementType", ty: "System::Reflection::SignatureType", modifiers: "", def_value: None }]
+explicit SignatureHasElementType(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method .ctor addr 0x237ccc0 size 0x24 virtual false final false
- void _ctor(::System::Reflection::SignatureType elementType) ;
+ void _ctor(System::Reflection::SignatureType elementType) ;
 
 /// @brief Method get_IsGenericTypeDefinition addr 0x237d424 size 0x8 virtual true final true
  bool get_IsGenericTypeDefinition() ;
@@ -135,19 +134,19 @@ explicit SignatureHasElementType(::System::Reflection::SignatureType elementType
  bool get_ContainsGenericParameters() ;
 
 /// @brief Method get_ElementType addr 0x237d470 size 0x8 virtual true final true
- ::System::Reflection::SignatureType get_ElementType() ;
+ System::Reflection::SignatureType get_ElementType() ;
 
 /// @brief Method GetArrayRank addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetArrayRank() ;
 
 /// @brief Method GetGenericTypeDefinition addr 0x237d478 size 0x50 virtual true final true
- ::System::Type GetGenericTypeDefinition() ;
+ System::Type GetGenericTypeDefinition() ;
 
 /// @brief Method GetGenericArguments addr 0x237d4c8 size 0x7c virtual true final true
- ::ArrayW<::System::Type> GetGenericArguments() ;
+ ::ArrayW<System::Type> GetGenericArguments() ;
 
 /// @brief Method get_GenericTypeArguments addr 0x237d544 size 0x7c virtual true final true
- ::ArrayW<::System::Type> get_GenericTypeArguments() ;
+ ::ArrayW<System::Type> get_GenericTypeArguments() ;
 
 /// @brief Method get_GenericParameterPosition addr 0x237d5c0 size 0x50 virtual true final true
  int32_t get_GenericParameterPosition() ;
@@ -168,6 +167,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Reflection
-} // end anonymous namespace
-NEED_NO_BOX(::System::Reflection::SignatureHasElementType);
-DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::SignatureHasElementType, "System.Reflection", "SignatureHasElementType");
+NEED_NO_BOX(System::Reflection::SignatureHasElementType);
+DEFINE_IL2CPP_ARG_TYPE(System::Reflection::SignatureHasElementType, "System.Reflection", "SignatureHasElementType");

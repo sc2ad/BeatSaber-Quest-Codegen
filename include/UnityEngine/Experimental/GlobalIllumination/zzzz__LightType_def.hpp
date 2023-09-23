@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightType;
@@ -72,29 +71,28 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Directional offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const Directional;
+static UnityEngine::Experimental::GlobalIllumination::LightType const Directional;
 
 /// @brief Field Point offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const Point;
+static UnityEngine::Experimental::GlobalIllumination::LightType const Point;
 
 /// @brief Field Spot offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const Spot;
+static UnityEngine::Experimental::GlobalIllumination::LightType const Spot;
 
 /// @brief Field Rectangle offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const Rectangle;
+static UnityEngine::Experimental::GlobalIllumination::LightType const Rectangle;
 
 /// @brief Field Disc offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const Disc;
+static UnityEngine::Experimental::GlobalIllumination::LightType const Disc;
 
 /// @brief Field SpotPyramidShape offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const SpotPyramidShape;
+static UnityEngine::Experimental::GlobalIllumination::LightType const SpotPyramidShape;
 
 /// @brief Field SpotBoxShape offset 0
-static ::UnityEngine::Experimental::GlobalIllumination::LightType const SpotBoxShape;
+static UnityEngine::Experimental::GlobalIllumination::LightType const SpotBoxShape;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Experimental::GlobalIllumination
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::LightType, "UnityEngine.Experimental.GlobalIllumination", "LightType");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightType, "UnityEngine.Experimental.GlobalIllumination", "LightType");

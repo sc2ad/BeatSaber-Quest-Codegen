@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct MessageEnum;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field NoArgs offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoArgs;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoArgs;
 
 /// @brief Field ArgsInline offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInline;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInline;
 
 /// @brief Field ArgsIsArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsIsArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsIsArray;
 
 /// @brief Field ArgsInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ArgsInArray;
 
 /// @brief Field NoContext offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoContext;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoContext;
 
 /// @brief Field ContextInline offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInline;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInline;
 
 /// @brief Field ContextInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ContextInArray;
 
 /// @brief Field MethodSignatureInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const MethodSignatureInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const MethodSignatureInArray;
 
 /// @brief Field PropertyInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const PropertyInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const PropertyInArray;
 
 /// @brief Field NoReturnValue offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoReturnValue;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const NoReturnValue;
 
 /// @brief Field ReturnValueVoid offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueVoid;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueVoid;
 
 /// @brief Field ReturnValueInline offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInline;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInline;
 
 /// @brief Field ReturnValueInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ReturnValueInArray;
 
 /// @brief Field ExceptionInArray offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const ExceptionInArray;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const ExceptionInArray;
 
 /// @brief Field GenericMethod offset 0
-static ::System::Runtime::Serialization::Formatters::Binary::MessageEnum const GenericMethod;
+static System::Runtime::Serialization::Formatters::Binary::MessageEnum const GenericMethod;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::MessageEnum, "System.Runtime.Serialization.Formatters.Binary", "MessageEnum");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MessageEnum, "System.Runtime.Serialization.Formatters.Binary", "MessageEnum");

@@ -5,12 +5,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
 namespace HoudiniEngineUnity {
 struct HAPI_StorageType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -64,17 +63,17 @@ constexpr void __set__name(::StringW value) ;
 
 constexpr ::StringW __get__name() const;
 
- ::HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get__class, put=__set__class))  _class;
+ HoudiniEngineUnity::HAPI_AttributeOwner __declspec(property(get=__get__class, put=__set__class))  _class;
 
-constexpr void __set__class(::HoudiniEngineUnity::HAPI_AttributeOwner value) ;
+constexpr void __set__class(HoudiniEngineUnity::HAPI_AttributeOwner value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner __get__class() const;
+constexpr HoudiniEngineUnity::HAPI_AttributeOwner __get__class() const;
 
- ::HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get__type, put=__set__type))  _type;
+ HoudiniEngineUnity::HAPI_StorageType __declspec(property(get=__get__type, put=__set__type))  _type;
 
-constexpr void __set__type(::HoudiniEngineUnity::HAPI_StorageType value) ;
+constexpr void __set__type(HoudiniEngineUnity::HAPI_StorageType value) ;
 
-constexpr ::HoudiniEngineUnity::HAPI_StorageType __get__type() const;
+constexpr HoudiniEngineUnity::HAPI_StorageType __get__type() const;
 
  int32_t __declspec(property(get=__get__count, put=__set__count))  _count;
 
@@ -119,6 +118,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_OutputAttribute, "HoudiniEngineUnity", "HEU_OutputAttribute");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_OutputAttribute);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_OutputAttribute, "HoudiniEngineUnity", "HEU_OutputAttribute");

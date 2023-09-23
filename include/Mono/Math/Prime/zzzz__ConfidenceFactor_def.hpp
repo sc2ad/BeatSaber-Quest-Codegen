@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Mono::Math::Prime {
 struct ConfidenceFactor;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field ExtraLow offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const ExtraLow;
+static Mono::Math::Prime::ConfidenceFactor const ExtraLow;
 
 /// @brief Field Low offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const Low;
+static Mono::Math::Prime::ConfidenceFactor const Low;
 
 /// @brief Field Medium offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const Medium;
+static Mono::Math::Prime::ConfidenceFactor const Medium;
 
 /// @brief Field High offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const High;
+static Mono::Math::Prime::ConfidenceFactor const High;
 
 /// @brief Field ExtraHigh offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const ExtraHigh;
+static Mono::Math::Prime::ConfidenceFactor const ExtraHigh;
 
 /// @brief Field Provable offset 0
-static ::Mono::Math::Prime::ConfidenceFactor const Provable;
+static Mono::Math::Prime::ConfidenceFactor const Provable;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Mono::Math::Prime
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");
+DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");

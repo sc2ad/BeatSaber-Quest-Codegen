@@ -2,12 +2,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
-namespace {
-namespace GlobalNamespace {
-class FadeInOutController;
-}
 namespace GlobalNamespace {
 class GameScenesManager;
+}
+namespace GlobalNamespace {
+class FadeInOutController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +18,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15306))
 // CS Name: FadeOutOnSceneTransitionStart
-class CORDL_TYPE FadeOutOnSceneTransitionStart : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FadeOutOnSceneTransitionStart : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -34,7 +33,7 @@ constexpr FadeOutOnSceneTransitionStart(FadeOutOnSceneTransitionStart const& ) n
 constexpr FadeOutOnSceneTransitionStart(FadeOutOnSceneTransitionStart&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FadeOutOnSceneTransitionStart(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit FadeOutOnSceneTransitionStart(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -55,17 +54,17 @@ constexpr explicit FadeOutOnSceneTransitionStart(void* ptr) noexcept : ::UnityEn
 
 // Fields
 
- ::GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOut, put=__set__fadeInOut))  _fadeInOut;
+ GlobalNamespace::FadeInOutController __declspec(property(get=__get__fadeInOut, put=__set__fadeInOut))  _fadeInOut;
 
-constexpr void __set__fadeInOut(::GlobalNamespace::FadeInOutController value) ;
+constexpr void __set__fadeInOut(GlobalNamespace::FadeInOutController value) ;
 
-constexpr ::GlobalNamespace::FadeInOutController __get__fadeInOut() const;
+constexpr GlobalNamespace::FadeInOutController __get__fadeInOut() const;
 
- ::GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
+ GlobalNamespace::GameScenesManager __declspec(property(get=__get__gameScenesManager, put=__set__gameScenesManager))  _gameScenesManager;
 
-constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager value) ;
+constexpr void __set__gameScenesManager(GlobalNamespace::GameScenesManager value) ;
 
-constexpr ::GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
+constexpr GlobalNamespace::GameScenesManager __get__gameScenesManager() const;
 
 
 // Methods
@@ -89,6 +88,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FadeOutOnSceneTransitionStart);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FadeOutOnSceneTransitionStart, "", "FadeOutOnSceneTransitionStart");
+NEED_NO_BOX(GlobalNamespace::FadeOutOnSceneTransitionStart);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutOnSceneTransitionStart, "", "FadeOutOnSceneTransitionStart");

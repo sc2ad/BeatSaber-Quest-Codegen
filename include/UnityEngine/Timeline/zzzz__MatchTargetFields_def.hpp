@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::Timeline {
 struct MatchTargetFields;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field PositionX offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const PositionX;
+static UnityEngine::Timeline::MatchTargetFields const PositionX;
 
 /// @brief Field PositionY offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const PositionY;
+static UnityEngine::Timeline::MatchTargetFields const PositionY;
 
 /// @brief Field PositionZ offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const PositionZ;
+static UnityEngine::Timeline::MatchTargetFields const PositionZ;
 
 /// @brief Field RotationX offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const RotationX;
+static UnityEngine::Timeline::MatchTargetFields const RotationX;
 
 /// @brief Field RotationY offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const RotationY;
+static UnityEngine::Timeline::MatchTargetFields const RotationY;
 
 /// @brief Field RotationZ offset 0
-static ::UnityEngine::Timeline::MatchTargetFields const RotationZ;
+static UnityEngine::Timeline::MatchTargetFields const RotationZ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Timeline
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFields, "UnityEngine.Timeline", "MatchTargetFields");

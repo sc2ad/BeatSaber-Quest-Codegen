@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cmath>
-namespace {
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
@@ -31,6 +30,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::IUpdateReceiver);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::IUpdateReceiver, "UnityEngine.ResourceManagement", "IUpdateReceiver");
+NEED_NO_BOX(UnityEngine::ResourceManagement::IUpdateReceiver);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::IUpdateReceiver, "UnityEngine.ResourceManagement", "IUpdateReceiver");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
@@ -65,26 +64,25 @@ constexpr int32_t __get_m_Position() const;
 // Methods
 
 /// @brief Method ExpectSingleChar addr 0x2983700 size 0x108 virtual false final false
- void ExpectSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c) ;
+ void ExpectSingleChar(System::ReadOnlySpan_1<char16_t> str, char16_t c) ;
 
 /// @brief Method ExpectInt addr 0x2983808 size 0x12c virtual false final false
- int32_t ExpectInt(::System::ReadOnlySpan_1<char16_t> str) ;
+ int32_t ExpectInt(System::ReadOnlySpan_1<char16_t> str) ;
 
 /// @brief Method ExpectString addr 0x2983934 size 0x234 virtual false final false
- ::System::ReadOnlySpan_1<char16_t> ExpectString(::System::ReadOnlySpan_1<char16_t> str) ;
+ System::ReadOnlySpan_1<char16_t> ExpectString(System::ReadOnlySpan_1<char16_t> str) ;
 
 /// @brief Method AcceptSingleChar addr 0x2983b68 size 0x3c virtual false final false
- bool AcceptSingleChar(::System::ReadOnlySpan_1<char16_t> str, char16_t c) ;
+ bool AcceptSingleChar(System::ReadOnlySpan_1<char16_t> str, char16_t c) ;
 
 /// @brief Method AcceptString addr 0x2983ba4 size 0x130 virtual false final false
- bool AcceptString(::System::ReadOnlySpan_1<char16_t> input, ByRef<::System::ReadOnlySpan_1<char16_t>> output) ;
+ bool AcceptString(System::ReadOnlySpan_1<char16_t> input, ByRef<System::ReadOnlySpan_1<char16_t>> output) ;
 
 /// @brief Method AcceptInt addr 0x2983cd4 size 0x5c virtual false final false
- void AcceptInt(::System::ReadOnlySpan_1<char16_t> str) ;
+ void AcceptInt(System::ReadOnlySpan_1<char16_t> str) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::PredictiveParser, "UnityEngine.InputSystem.Utilities", "PredictiveParser");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::PredictiveParser, "UnityEngine.InputSystem.Utilities", "PredictiveParser");

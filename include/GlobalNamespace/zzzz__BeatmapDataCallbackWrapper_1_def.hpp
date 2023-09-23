@@ -4,13 +4,12 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
+namespace GlobalNamespace {
+class BeatmapDataItem;
+}
 namespace GlobalNamespace {
 template<typename T>
 class BeatmapDataCallback_1;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +29,7 @@ template<::cordl_internals::il2cpp_reference_type T>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4828)), TypeDefinitionIndex(TypeDefinitionIndex(4827))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4828), inst: 2 })
 // CS Name: BeatmapDataCallbackWrapper`1
-class CORDL_TYPE BeatmapDataCallbackWrapper_1<T> : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
+class CORDL_TYPE BeatmapDataCallbackWrapper_1<T> : public GlobalNamespace::BeatmapDataCallbackWrapper {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -45,7 +44,7 @@ constexpr BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1 const& ) noe
 constexpr BeatmapDataCallbackWrapper_1(BeatmapDataCallbackWrapper_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit BeatmapDataCallbackWrapper_1(void* ptr) noexcept : ::GlobalNamespace::BeatmapDataCallbackWrapper(ptr) {
+constexpr explicit BeatmapDataCallbackWrapper_1(void* ptr) noexcept : GlobalNamespace::BeatmapDataCallbackWrapper(ptr) {
 }
 
 
@@ -66,27 +65,26 @@ constexpr explicit BeatmapDataCallbackWrapper_1(void* ptr) noexcept : ::GlobalNa
 
 // Fields
 
- ::GlobalNamespace::BeatmapDataCallback_1<T> __declspec(property(get=__get__callback, put=__set__callback))  _callback;
+ GlobalNamespace::BeatmapDataCallback_1<T> __declspec(property(get=__get__callback, put=__set__callback))  _callback;
 
-constexpr void __set__callback(::GlobalNamespace::BeatmapDataCallback_1<T> value) ;
+constexpr void __set__callback(GlobalNamespace::BeatmapDataCallback_1<T> value) ;
 
-constexpr ::GlobalNamespace::BeatmapDataCallback_1<T> __get__callback() const;
+constexpr GlobalNamespace::BeatmapDataCallback_1<T> __get__callback() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "callback", ty: "::GlobalNamespace::BeatmapDataCallback_1<T>", modifiers: "", def_value: None }, CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventSubtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
-explicit BeatmapDataCallbackWrapper_1(::GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
+// Ctor Parameters [CppParam { name: "callback", ty: "GlobalNamespace::BeatmapDataCallback_1<T>", modifiers: "", def_value: None }, CppParam { name: "aheadTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "beatmapEventSubtypeIdentifiers", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }]
+explicit BeatmapDataCallbackWrapper_1(GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
+ void _ctor(GlobalNamespace::BeatmapDataCallback_1<T> callback, float_t aheadTime, ::ArrayW<int32_t> beatmapEventSubtypeIdentifiers) ;
 
 /// @brief Method CallCallback addr 0x0 size 0xffffffffffffffff virtual true final false
- void CallCallback(::GlobalNamespace::BeatmapDataItem beatmapData) ;
+ void CallCallback(GlobalNamespace::BeatmapDataItem beatmapData) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::BeatmapDataCallbackWrapper_1, "", "BeatmapDataCallbackWrapper`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::BeatmapDataCallbackWrapper_1, "", "BeatmapDataCallbackWrapper`1");

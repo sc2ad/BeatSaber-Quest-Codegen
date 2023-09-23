@@ -3,7 +3,6 @@
 #include "System/Xml/zzzz__Base64Encoder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace System::Xml {
 class XmlRawWriter;
 }
@@ -17,7 +16,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11346))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11347))
 // CS Name: System.Xml.XmlRawWriterBase64Encoder
-class CORDL_TYPE XmlRawWriterBase64Encoder : public ::System::Xml::Base64Encoder {
+class CORDL_TYPE XmlRawWriterBase64Encoder : public System::Xml::Base64Encoder {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr XmlRawWriterBase64Encoder(XmlRawWriterBase64Encoder const& ) noexcept 
 constexpr XmlRawWriterBase64Encoder(XmlRawWriterBase64Encoder&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlRawWriterBase64Encoder(void* ptr) noexcept : ::System::Xml::Base64Encoder(ptr) {
+constexpr explicit XmlRawWriterBase64Encoder(void* ptr) noexcept : System::Xml::Base64Encoder(ptr) {
 }
 
 
@@ -53,20 +52,20 @@ constexpr explicit XmlRawWriterBase64Encoder(void* ptr) noexcept : ::System::Xml
 
 // Fields
 
- ::System::Xml::XmlRawWriter __declspec(property(get=__get_rawWriter, put=__set_rawWriter))  rawWriter;
+ System::Xml::XmlRawWriter __declspec(property(get=__get_rawWriter, put=__set_rawWriter))  rawWriter;
 
-constexpr void __set_rawWriter(::System::Xml::XmlRawWriter value) ;
+constexpr void __set_rawWriter(System::Xml::XmlRawWriter value) ;
 
-constexpr ::System::Xml::XmlRawWriter __get_rawWriter() const;
+constexpr System::Xml::XmlRawWriter __get_rawWriter() const;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "rawWriter", ty: "::System::Xml::XmlRawWriter", modifiers: "", def_value: None }]
-explicit XmlRawWriterBase64Encoder(::System::Xml::XmlRawWriter rawWriter) ;
+// Ctor Parameters [CppParam { name: "rawWriter", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }]
+explicit XmlRawWriterBase64Encoder(System::Xml::XmlRawWriter rawWriter) ;
 
 /// @brief Method .ctor addr 0x26bb260 size 0x24 virtual false final false
- void _ctor(::System::Xml::XmlRawWriter rawWriter) ;
+ void _ctor(System::Xml::XmlRawWriter rawWriter) ;
 
 /// @brief Method WriteChars addr 0x26bb284 size 0x24 virtual true final false
  void WriteChars(::ArrayW<char16_t> chars, int32_t index, int32_t count) ;
@@ -75,6 +74,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::XmlRawWriterBase64Encoder);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlRawWriterBase64Encoder, "System.Xml", "XmlRawWriterBase64Encoder");
+NEED_NO_BOX(System::Xml::XmlRawWriterBase64Encoder);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder, "System.Xml", "XmlRawWriterBase64Encoder");

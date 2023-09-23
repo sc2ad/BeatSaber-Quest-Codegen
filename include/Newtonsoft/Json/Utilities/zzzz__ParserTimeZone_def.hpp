@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
 struct ParserTimeZone;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unspecified offset 0
-static ::Newtonsoft::Json::Utilities::ParserTimeZone const Unspecified;
+static Newtonsoft::Json::Utilities::ParserTimeZone const Unspecified;
 
 /// @brief Field Utc offset 0
-static ::Newtonsoft::Json::Utilities::ParserTimeZone const Utc;
+static Newtonsoft::Json::Utilities::ParserTimeZone const Utc;
 
 /// @brief Field LocalWestOfUtc offset 0
-static ::Newtonsoft::Json::Utilities::ParserTimeZone const LocalWestOfUtc;
+static Newtonsoft::Json::Utilities::ParserTimeZone const LocalWestOfUtc;
 
 /// @brief Field LocalEastOfUtc offset 0
-static ::Newtonsoft::Json::Utilities::ParserTimeZone const LocalEastOfUtc;
+static Newtonsoft::Json::Utilities::ParserTimeZone const LocalEastOfUtc;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ParserTimeZone, "Newtonsoft.Json.Utilities", "ParserTimeZone");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ParserTimeZone, "Newtonsoft.Json.Utilities", "ParserTimeZone");

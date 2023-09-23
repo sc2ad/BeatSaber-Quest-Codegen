@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 template<typename T1,typename T2,typename T3,typename T4,typename T5,typename T6,typename T7,typename T8,typename T9,typename T10,typename T11>
@@ -19,10 +18,10 @@ namespace System {
 // cpp template
 template<::cordl_internals::il2cpp_reference_type T1,::cordl_internals::il2cpp_reference_type T2,::cordl_internals::il2cpp_reference_type T3,::cordl_internals::il2cpp_reference_type T4,::cordl_internals::il2cpp_reference_type T5,::cordl_internals::il2cpp_reference_type T6,::cordl_internals::il2cpp_reference_type T7,::cordl_internals::il2cpp_reference_type T8,::cordl_internals::il2cpp_reference_type T9,::cordl_internals::il2cpp_reference_type T10,::cordl_internals::il2cpp_reference_type T11>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610)), TypeDefinitionIndex(TypeDefinitionIndex(14529))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14529)), TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14529), inst: 5955 })
 // CS Name: System.Action`11
-class CORDL_TYPE Action_11<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11> : public ::System::MulticastDelegate {
+class CORDL_TYPE Action_11<T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11> : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr Action_11(Action_11 const& ) noexcept = default;
 constexpr Action_11(Action_11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Action_11(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit Action_11(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -71,5 +70,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Action_11, "System", "Action`11");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Action_11, "System", "Action`11");

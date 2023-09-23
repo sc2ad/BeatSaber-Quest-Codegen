@@ -4,28 +4,27 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
+namespace System::Xml {
+struct XmlStandalone;
+}
+namespace System::Xml {
+class BitStack;
+}
 namespace System::Collections::Generic {
 template<typename TKey,typename TValue>
 class Dictionary_2;
 }
 namespace System::Xml {
-class XmlRawWriter;
-}
-namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml {
-class BitStack;
+class XmlRawWriter;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlWriterSettings;
-}
-namespace System::Xml {
-struct XmlStandalone;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -37,7 +36,7 @@ namespace System::Xml {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11397))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11378))
 // CS Name: System.Xml.QueryOutputWriter
-class CORDL_TYPE QueryOutputWriter : public ::System::Xml::XmlRawWriter {
+class CORDL_TYPE QueryOutputWriter : public System::Xml::XmlRawWriter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -52,7 +51,7 @@ constexpr QueryOutputWriter(QueryOutputWriter const& ) noexcept = default;
 constexpr QueryOutputWriter(QueryOutputWriter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit QueryOutputWriter(void* ptr) noexcept : ::System::Xml::XmlRawWriter(ptr) {
+constexpr explicit QueryOutputWriter(void* ptr) noexcept : System::Xml::XmlRawWriter(ptr) {
 }
 
 
@@ -73,11 +72,11 @@ constexpr explicit QueryOutputWriter(void* ptr) noexcept : ::System::Xml::XmlRaw
 
 // Fields
 
- ::System::Xml::XmlRawWriter __declspec(property(get=__get_wrapped, put=__set_wrapped))  wrapped;
+ System::Xml::XmlRawWriter __declspec(property(get=__get_wrapped, put=__set_wrapped))  wrapped;
 
-constexpr void __set_wrapped(::System::Xml::XmlRawWriter value) ;
+constexpr void __set_wrapped(System::Xml::XmlRawWriter value) ;
 
-constexpr ::System::Xml::XmlRawWriter __get_wrapped() const;
+constexpr System::Xml::XmlRawWriter __get_wrapped() const;
 
  bool __declspec(property(get=__get_inCDataSection, put=__set_inCDataSection))  inCDataSection;
 
@@ -85,23 +84,23 @@ constexpr void __set_inCDataSection(bool value) ;
 
 constexpr bool __get_inCDataSection() const;
 
- ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName,int32_t> __declspec(property(get=__get_lookupCDataElems, put=__set_lookupCDataElems))  lookupCDataElems;
+ System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName,int32_t> __declspec(property(get=__get_lookupCDataElems, put=__set_lookupCDataElems))  lookupCDataElems;
 
-constexpr void __set_lookupCDataElems(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName,int32_t> value) ;
+constexpr void __set_lookupCDataElems(System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName,int32_t> value) ;
 
-constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName,int32_t> __get_lookupCDataElems() const;
+constexpr System::Collections::Generic::Dictionary_2<System::Xml::XmlQualifiedName,int32_t> __get_lookupCDataElems() const;
 
- ::System::Xml::BitStack __declspec(property(get=__get_bitsCData, put=__set_bitsCData))  bitsCData;
+ System::Xml::BitStack __declspec(property(get=__get_bitsCData, put=__set_bitsCData))  bitsCData;
 
-constexpr void __set_bitsCData(::System::Xml::BitStack value) ;
+constexpr void __set_bitsCData(System::Xml::BitStack value) ;
 
-constexpr ::System::Xml::BitStack __get_bitsCData() const;
+constexpr System::Xml::BitStack __get_bitsCData() const;
 
- ::System::Xml::XmlQualifiedName __declspec(property(get=__get_qnameCData, put=__set_qnameCData))  qnameCData;
+ System::Xml::XmlQualifiedName __declspec(property(get=__get_qnameCData, put=__set_qnameCData))  qnameCData;
 
-constexpr void __set_qnameCData(::System::Xml::XmlQualifiedName value) ;
+constexpr void __set_qnameCData(System::Xml::XmlQualifiedName value) ;
 
-constexpr ::System::Xml::XmlQualifiedName __get_qnameCData() const;
+constexpr System::Xml::XmlQualifiedName __get_qnameCData() const;
 
  bool __declspec(property(get=__get_outputDocType, put=__set_outputDocType))  outputDocType;
 
@@ -148,24 +147,24 @@ constexpr int32_t __get_depth() const;
 
 // Properties
 
- ::System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
+ System::Xml::IXmlNamespaceResolver __declspec(property(put=set_NamespaceResolver))  NamespaceResolver;
 
  bool __declspec(property(get=get_SupportsNamespaceDeclarationInChunks))  SupportsNamespaceDeclarationInChunks;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "writer", ty: "::System::Xml::XmlRawWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "::System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
-explicit QueryOutputWriter(::System::Xml::XmlRawWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+// Ctor Parameters [CppParam { name: "writer", ty: "System::Xml::XmlRawWriter", modifiers: "", def_value: None }, CppParam { name: "settings", ty: "System::Xml::XmlWriterSettings", modifiers: "", def_value: None }]
+explicit QueryOutputWriter(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method .ctor addr 0x26c1170 size 0x2d4 virtual false final false
- void _ctor(::System::Xml::XmlRawWriter writer, ::System::Xml::XmlWriterSettings settings) ;
+ void _ctor(System::Xml::XmlRawWriter writer, System::Xml::XmlWriterSettings settings) ;
 
 /// @brief Method set_NamespaceResolver addr 0x26c144c size 0x2c virtual true final false
- void set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver value) ;
+ void set_NamespaceResolver(System::Xml::IXmlNamespaceResolver value) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c1478 size 0x24 virtual true final false
- void WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) ;
+ void WriteXmlDeclaration(System::Xml::XmlStandalone standalone) ;
 
 /// @brief Method WriteXmlDeclaration addr 0x26c149c size 0x24 virtual true final false
  void WriteXmlDeclaration(::StringW xmldecl) ;
@@ -252,6 +251,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::QueryOutputWriter);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::QueryOutputWriter, "System.Xml", "QueryOutputWriter");
+NEED_NO_BOX(System::Xml::QueryOutputWriter);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter, "System.Xml", "QueryOutputWriter");

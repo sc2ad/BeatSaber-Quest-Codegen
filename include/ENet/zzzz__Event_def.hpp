@@ -2,18 +2,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace ENet {
-struct ENetEvent;
+struct EventType;
 }
 namespace ENet {
-struct Packet;
+struct ENetEvent;
 }
 namespace ENet {
 struct Peer;
 }
 namespace ENet {
-struct EventType;
+struct Packet;
 }
 // Forward declare root types
 namespace ENet {
@@ -28,8 +27,8 @@ namespace ENet {
 struct CORDL_TYPE Event : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "nativeEvent", ty: "::ENet::ENetEvent", modifiers: "", def_value: None }]
-constexpr Event(::ENet::ENetEvent nativeEvent) noexcept;
+// Ctor Parameters [CppParam { name: "nativeEvent", ty: "ENet::ENetEvent", modifiers: "", def_value: None }]
+constexpr Event(ENet::ENetEvent nativeEvent) noexcept;
 
 
                     constexpr Event(Event const&) = default;
@@ -62,44 +61,44 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::ENet::ENetEvent __declspec(property(get=__get_nativeEvent, put=__set_nativeEvent))  nativeEvent;
+ ENet::ENetEvent __declspec(property(get=__get_nativeEvent, put=__set_nativeEvent))  nativeEvent;
 
-constexpr void __set_nativeEvent(::ENet::ENetEvent value) ;
+constexpr void __set_nativeEvent(ENet::ENetEvent value) ;
 
-constexpr ::ENet::ENetEvent __get_nativeEvent() const;
+constexpr ENet::ENetEvent __get_nativeEvent() const;
 
 
 // Properties
 
- ::ENet::ENetEvent __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
+ ENet::ENetEvent __declspec(property(get=get_NativeData, put=set_NativeData))  NativeData;
 
- ::ENet::EventType __declspec(property(get=get_Type))  Type;
+ ENet::EventType __declspec(property(get=get_Type))  Type;
 
- ::ENet::Peer __declspec(property(get=get_Peer))  Peer;
+ ENet::Peer __declspec(property(get=get_Peer))  Peer;
 
  uint8_t __declspec(property(get=get_ChannelID))  ChannelID;
 
  uint32_t __declspec(property(get=get_Data))  Data;
 
- ::ENet::Packet __declspec(property(get=get_Packet))  Packet;
+ ENet::Packet __declspec(property(get=get_Packet))  Packet;
 
 
 // Methods
 
 /// @brief Method get_NativeData addr 0x207d4dc size 0xc virtual false final false
- ::ENet::ENetEvent get_NativeData() ;
+ ENet::ENetEvent get_NativeData() ;
 
 /// @brief Method set_NativeData addr 0x207d4e8 size 0xc virtual false final false
- void set_NativeData(::ENet::ENetEvent value) ;
+ void set_NativeData(ENet::ENetEvent value) ;
 
 /// @brief Method .ctor addr 0x207d4f4 size 0xc virtual false final false
- void _ctor(::ENet::ENetEvent event) ;
+ void _ctor(ENet::ENetEvent event) ;
 
 /// @brief Method get_Type addr 0x207d500 size 0x8 virtual false final false
- ::ENet::EventType get_Type() ;
+ ENet::EventType get_Type() ;
 
 /// @brief Method get_Peer addr 0x207d508 size 0x28 virtual false final false
- ::ENet::Peer get_Peer() ;
+ ENet::Peer get_Peer() ;
 
 /// @brief Method get_ChannelID addr 0x207d5b0 size 0x8 virtual false final false
  uint8_t get_ChannelID() ;
@@ -108,11 +107,10 @@ constexpr ::ENet::ENetEvent __get_nativeEvent() const;
  uint32_t get_Data() ;
 
 /// @brief Method get_Packet addr 0x207d5c0 size 0x8 virtual false final false
- ::ENet::Packet get_Packet() ;
+ ENet::Packet get_Packet() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def ENet
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::ENet::Event, "ENet", "Event");
+DEFINE_IL2CPP_ARG_TYPE(ENet::Event, "ENet", "Event");

@@ -3,25 +3,24 @@
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-namespace {
-namespace Zenject {
-class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-struct Guid;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
+namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+struct Guid;
+}
 namespace System {
 class Action;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,7 +40,7 @@ template<::cordl_internals::il2cpp_reference_type TParam1,::cordl_internals::il2
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11144)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11136), inst: 3345 }), TypeDefinitionIndex(TypeDefinitionIndex(11136))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11144), inst: 5955 })
 // CS Name: Zenject.IFactoryProvider`11
-class CORDL_TYPE IFactoryProvider_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> : public ::Zenject::IFactoryProviderBase_1<TContract> {
+class CORDL_TYPE IFactoryProvider_11<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> : public Zenject::IFactoryProviderBase_1<TContract> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -56,7 +55,7 @@ constexpr IFactoryProvider_11(IFactoryProvider_11 const& ) noexcept = default;
 constexpr IFactoryProvider_11(IFactoryProvider_11&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit IFactoryProvider_11(void* ptr) noexcept : ::Zenject::IFactoryProviderBase_1<TContract>(ptr) {
+constexpr explicit IFactoryProvider_11(void* ptr) noexcept : Zenject::IFactoryProviderBase_1<TContract>(ptr) {
 }
 
 
@@ -77,18 +76,17 @@ constexpr explicit IFactoryProvider_11(void* ptr) noexcept : ::Zenject::IFactory
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "container", ty: "::Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "::System::Guid", modifiers: "", def_value: None }]
-explicit IFactoryProvider_11(::Zenject::DiContainer container, ::System::Guid factoryId) ;
+// Ctor Parameters [CppParam { name: "container", ty: "Zenject::DiContainer", modifiers: "", def_value: None }, CppParam { name: "factoryId", ty: "System::Guid", modifiers: "", def_value: None }]
+explicit IFactoryProvider_11(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
- void _ctor(::Zenject::DiContainer container, ::System::Guid factoryId) ;
+ void _ctor(Zenject::DiContainer container, System::Guid factoryId) ;
 
 /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
- void GetAllInstancesWithInjectSplit(::Zenject::InjectContext context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair> args, ByRef<::System::Action> injectAction, ::System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
+ void GetAllInstancesWithInjectSplit(Zenject::InjectContext context, System::Collections::Generic::List_1<Zenject::TypeValuePair> args, ByRef<System::Action> injectAction, System::Collections::Generic::List_1<::bs_hook::Il2CppWrapperType> buffer) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::IFactoryProvider_11, "Zenject", "IFactoryProvider`11");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IFactoryProvider_11, "Zenject", "IFactoryProvider`11");

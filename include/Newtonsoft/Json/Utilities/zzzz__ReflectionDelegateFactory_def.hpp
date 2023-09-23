@@ -1,41 +1,40 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class MethodBase;
-}
-namespace System::Reflection {
-class MemberInfo;
-}
-namespace System::Reflection {
-class FieldInfo;
-}
-namespace System {
-template<typename T,typename TResult>
-class Func_2;
-}
-namespace Newtonsoft::Json::Utilities {
-template<typename T,typename TResult>
-class MethodCall_2;
-}
-namespace Newtonsoft::Json::Serialization {
-template<typename T>
-class ObjectConstructor_1;
-}
-namespace System {
-template<typename T1,typename T2>
-class Action_2;
 }
 namespace System {
 template<typename TResult>
 class Func_1;
 }
 namespace System::Reflection {
+class FieldInfo;
+}
+namespace System::Reflection {
 class PropertyInfo;
+}
+namespace Newtonsoft::Json::Serialization {
+template<typename T>
+class ObjectConstructor_1;
+}
+namespace System {
+class Type;
+}
+namespace System {
+template<typename T,typename TResult>
+class Func_2;
+}
+namespace System {
+template<typename T1,typename T2>
+class Action_2;
+}
+namespace Newtonsoft::Json::Utilities {
+template<typename T,typename TResult>
+class MethodCall_2;
+}
+namespace System::Reflection {
+class MemberInfo;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -85,38 +84,38 @@ constexpr explicit ReflectionDelegateFactory(void* ptr) noexcept : ::bs_hook::Il
 
 /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- ::System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(::System::Reflection::MemberInfo memberInfo) ;
+ System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(System::Reflection::MemberInfo memberInfo) ;
 
 /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
- ::System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(::System::Reflection::MemberInfo memberInfo) ;
+ System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::MemberInfo memberInfo) ;
 
 /// @brief Method CreateMethodCall addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::Newtonsoft::Json::Utilities::MethodCall_2<T,::bs_hook::Il2CppWrapperType> CreateMethodCall(::System::Reflection::MethodBase method) ;
+ Newtonsoft::Json::Utilities::MethodCall_2<T,::bs_hook::Il2CppWrapperType> CreateMethodCall(System::Reflection::MethodBase method) ;
 
 /// @brief Method CreateParameterizedConstructor addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> CreateParameterizedConstructor(::System::Reflection::MethodBase method) ;
+ Newtonsoft::Json::Serialization::ObjectConstructor_1<::bs_hook::Il2CppWrapperType> CreateParameterizedConstructor(System::Reflection::MethodBase method) ;
 
 /// @brief Method CreateDefaultConstructor addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_1<T> CreateDefaultConstructor(::System::Type type) ;
+ System::Func_1<T> CreateDefaultConstructor(System::Type type) ;
 
 /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(::System::Reflection::PropertyInfo propertyInfo) ;
+ System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(System::Reflection::PropertyInfo propertyInfo) ;
 
 /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(::System::Reflection::FieldInfo fieldInfo) ;
+ System::Func_2<T,::bs_hook::Il2CppWrapperType> CreateGet(System::Reflection::FieldInfo fieldInfo) ;
 
 /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(::System::Reflection::FieldInfo fieldInfo) ;
+ System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::FieldInfo fieldInfo) ;
 
 /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
 template<typename T>
- ::System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(::System::Reflection::PropertyInfo propertyInfo) ;
+ System::Action_2<T,::bs_hook::Il2CppWrapperType> CreateSet(System::Reflection::PropertyInfo propertyInfo) ;
 
 // Ctor Parameters []
 explicit ReflectionDelegateFactory() ;
@@ -128,6 +127,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::ReflectionDelegateFactory, "Newtonsoft.Json.Utilities", "ReflectionDelegateFactory");
+NEED_NO_BOX(Newtonsoft::Json::Utilities::ReflectionDelegateFactory);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Utilities::ReflectionDelegateFactory, "Newtonsoft.Json.Utilities", "ReflectionDelegateFactory");

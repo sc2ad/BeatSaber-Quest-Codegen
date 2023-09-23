@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Threading::Tasks {
 struct TaskContinuationOptions;
@@ -80,53 +79,52 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const None;
+static System::Threading::Tasks::TaskContinuationOptions const None;
 
 /// @brief Field PreferFairness offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const PreferFairness;
+static System::Threading::Tasks::TaskContinuationOptions const PreferFairness;
 
 /// @brief Field LongRunning offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const LongRunning;
+static System::Threading::Tasks::TaskContinuationOptions const LongRunning;
 
 /// @brief Field AttachedToParent offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const AttachedToParent;
+static System::Threading::Tasks::TaskContinuationOptions const AttachedToParent;
 
 /// @brief Field DenyChildAttach offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const DenyChildAttach;
+static System::Threading::Tasks::TaskContinuationOptions const DenyChildAttach;
 
 /// @brief Field HideScheduler offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const HideScheduler;
+static System::Threading::Tasks::TaskContinuationOptions const HideScheduler;
 
 /// @brief Field LazyCancellation offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const LazyCancellation;
+static System::Threading::Tasks::TaskContinuationOptions const LazyCancellation;
 
 /// @brief Field RunContinuationsAsynchronously offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const RunContinuationsAsynchronously;
+static System::Threading::Tasks::TaskContinuationOptions const RunContinuationsAsynchronously;
 
 /// @brief Field NotOnRanToCompletion offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const NotOnRanToCompletion;
+static System::Threading::Tasks::TaskContinuationOptions const NotOnRanToCompletion;
 
 /// @brief Field NotOnFaulted offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const NotOnFaulted;
+static System::Threading::Tasks::TaskContinuationOptions const NotOnFaulted;
 
 /// @brief Field NotOnCanceled offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const NotOnCanceled;
+static System::Threading::Tasks::TaskContinuationOptions const NotOnCanceled;
 
 /// @brief Field OnlyOnRanToCompletion offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnRanToCompletion;
+static System::Threading::Tasks::TaskContinuationOptions const OnlyOnRanToCompletion;
 
 /// @brief Field OnlyOnFaulted offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnFaulted;
+static System::Threading::Tasks::TaskContinuationOptions const OnlyOnFaulted;
 
 /// @brief Field OnlyOnCanceled offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const OnlyOnCanceled;
+static System::Threading::Tasks::TaskContinuationOptions const OnlyOnCanceled;
 
 /// @brief Field ExecuteSynchronously offset 0
-static ::System::Threading::Tasks::TaskContinuationOptions const ExecuteSynchronously;
+static System::Threading::Tasks::TaskContinuationOptions const ExecuteSynchronously;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Threading::Tasks
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");
+DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuationOptions, "System.Threading.Tasks", "TaskContinuationOptions");

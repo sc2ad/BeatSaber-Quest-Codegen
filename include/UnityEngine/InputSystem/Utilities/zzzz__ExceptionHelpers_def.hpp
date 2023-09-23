@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Exception;
 }
@@ -52,12 +51,11 @@ constexpr explicit ExceptionHelpers(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method IsExceptionIndicatingBugInCode addr 0x297d088 size 0xd8 virtual false final false
-static bool IsExceptionIndicatingBugInCode(::System::Exception exception) ;
+static bool IsExceptionIndicatingBugInCode(System::Exception exception) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem::Utilities
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::ExceptionHelpers);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::ExceptionHelpers, "UnityEngine.InputSystem.Utilities", "ExceptionHelpers");
+NEED_NO_BOX(UnityEngine::InputSystem::Utilities::ExceptionHelpers);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::Utilities::ExceptionHelpers, "UnityEngine.InputSystem.Utilities", "ExceptionHelpers");

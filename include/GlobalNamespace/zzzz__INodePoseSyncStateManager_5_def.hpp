@@ -2,17 +2,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 template<typename TStateTable,typename TType,typename TState>
 class LocalMultiplayerSyncState_3;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -43,7 +42,7 @@ constexpr explicit INodePoseSyncStateManager_5(void* ptr) noexcept : ::cordl_int
 
  int32_t __declspec(property(get=get_connectedPlayerCount))  connectedPlayerCount;
 
- ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable,TType,TState> __declspec(property(get=get_localState))  localState;
+ GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable,TType,TState> __declspec(property(get=get_localState))  localState;
 
 
 // Methods
@@ -55,13 +54,13 @@ constexpr explicit INodePoseSyncStateManager_5(void* ptr) noexcept : ::cordl_int
  int32_t get_connectedPlayerCount() ;
 
 /// @brief Method get_localState addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable,TType,TState> get_localState() ;
+ GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable,TType,TState> get_localState() ;
 
 /// @brief Method GetSyncStateForPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::MultiplayerSyncState_3<TStateTable,TType,TState> GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer player) ;
+ GlobalNamespace::MultiplayerSyncState_3<TStateTable,TType,TState> GetSyncStateForPlayer(GlobalNamespace::IConnectedPlayer player) ;
 
 /// @brief Method GetSyncState addr 0x0 size 0xffffffffffffffff virtual true final false
- ::GlobalNamespace::MultiplayerSyncState_3<TStateTable,TType,TState> GetSyncState(int32_t i) ;
+ GlobalNamespace::MultiplayerSyncState_3<TStateTable,TType,TState> GetSyncState(int32_t i) ;
 
 /// @brief Method ClearBufferedStates addr 0x0 size 0xffffffffffffffff virtual true final false
  void ClearBufferedStates() ;
@@ -70,5 +69,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INodePoseSyncStateManager_5, "", "INodePoseSyncStateManager`5");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::INodePoseSyncStateManager_5, "", "INodePoseSyncStateManager`5");

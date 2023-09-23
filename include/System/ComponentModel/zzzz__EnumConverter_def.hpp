@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Globalization {
-class CultureInfo;
-}
 namespace System::ComponentModel {
 class ITypeDescriptorContext;
 }
+namespace System::Collections {
+class IComparer;
+}
 namespace System::ComponentModel {
-class ____System__ComponentModel__TypeConverter__StandardValuesCollection;
+class System__ComponentModel__TypeConverter__StandardValuesCollection;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System {
 class Type;
-}
-namespace System::Collections {
-class IComparer;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -28,7 +27,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8331))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8323))
 // CS Name: System.ComponentModel.EnumConverter
-class CORDL_TYPE EnumConverter : public ::System::ComponentModel::TypeConverter {
+class CORDL_TYPE EnumConverter : public System::ComponentModel::TypeConverter {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr EnumConverter(EnumConverter const& ) noexcept = default;
 constexpr EnumConverter(EnumConverter&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EnumConverter(void* ptr) noexcept : ::System::ComponentModel::TypeConverter(ptr) {
+constexpr explicit EnumConverter(void* ptr) noexcept : System::ComponentModel::TypeConverter(ptr) {
 }
 
 
@@ -64,63 +63,62 @@ constexpr explicit EnumConverter(void* ptr) noexcept : ::System::ComponentModel:
 
 // Fields
 
- ::System::ComponentModel::____System__ComponentModel__TypeConverter__StandardValuesCollection __declspec(property(get=__get_values, put=__set_values))  values;
+ System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection __declspec(property(get=__get_values, put=__set_values))  values;
 
-constexpr void __set_values(::System::ComponentModel::____System__ComponentModel__TypeConverter__StandardValuesCollection value) ;
+constexpr void __set_values(System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection value) ;
 
-constexpr ::System::ComponentModel::____System__ComponentModel__TypeConverter__StandardValuesCollection __get_values() const;
+constexpr System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection __get_values() const;
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
 
 // Properties
 
- ::System::Collections::IComparer __declspec(property(get=get_Comparer))  Comparer;
+ System::Collections::IComparer __declspec(property(get=get_Comparer))  Comparer;
 
 
 // Methods
 
-// Ctor Parameters [CppParam { name: "type", ty: "::System::Type", modifiers: "", def_value: None }]
-explicit EnumConverter(::System::Type type) ;
+// Ctor Parameters [CppParam { name: "type", ty: "System::Type", modifiers: "", def_value: None }]
+explicit EnumConverter(System::Type type) ;
 
 /// @brief Method .ctor addr 0x2788b98 size 0x28 virtual false final false
- void _ctor(::System::Type type) ;
+ void _ctor(System::Type type) ;
 
 /// @brief Method CanConvertFrom addr 0x2788bc0 size 0xf0 virtual true final false
- bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Type sourceType) ;
+ bool CanConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Type sourceType) ;
 
 /// @brief Method CanConvertTo addr 0x2788cb0 size 0xf0 virtual true final false
- bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext context, ::System::Type destinationType) ;
+ bool CanConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Type destinationType) ;
 
 /// @brief Method get_Comparer addr 0x2788da0 size 0x58 virtual true final false
- ::System::Collections::IComparer get_Comparer() ;
+ System::Collections::IComparer get_Comparer() ;
 
 /// @brief Method ConvertFrom addr 0x2788df8 size 0x4fc virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertFrom(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
+ ::bs_hook::Il2CppWrapperType ConvertFrom(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method ConvertTo addr 0x27892f4 size 0xd90 virtual true final false
- ::bs_hook::Il2CppWrapperType ConvertTo(::System::ComponentModel::ITypeDescriptorContext context, ::System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, ::System::Type destinationType) ;
+ ::bs_hook::Il2CppWrapperType ConvertTo(System::ComponentModel::ITypeDescriptorContext context, System::Globalization::CultureInfo culture, ::bs_hook::Il2CppWrapperType value, System::Type destinationType) ;
 
 /// @brief Method GetStandardValues addr 0x278a0fc size 0x3f0 virtual true final false
- ::System::ComponentModel::____System__ComponentModel__TypeConverter__StandardValuesCollection GetStandardValues(::System::ComponentModel::ITypeDescriptorContext context) ;
+ System::ComponentModel::System__ComponentModel__TypeConverter__StandardValuesCollection GetStandardValues(System::ComponentModel::ITypeDescriptorContext context) ;
 
 /// @brief Method GetStandardValuesExclusive addr 0x278a5e0 size 0xa8 virtual true final false
- bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext context) ;
+ bool GetStandardValuesExclusive(System::ComponentModel::ITypeDescriptorContext context) ;
 
 /// @brief Method GetStandardValuesSupported addr 0x278a688 size 0x8 virtual true final false
- bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext context) ;
+ bool GetStandardValuesSupported(System::ComponentModel::ITypeDescriptorContext context) ;
 
 /// @brief Method IsValid addr 0x278a690 size 0x6c virtual true final false
- bool IsValid(::System::ComponentModel::ITypeDescriptorContext context, ::bs_hook::Il2CppWrapperType value) ;
+ bool IsValid(System::ComponentModel::ITypeDescriptorContext context, ::bs_hook::Il2CppWrapperType value) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::EnumConverter);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::EnumConverter, "System.ComponentModel", "EnumConverter");
+NEED_NO_BOX(System::ComponentModel::EnumConverter);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EnumConverter, "System.ComponentModel", "EnumConverter");

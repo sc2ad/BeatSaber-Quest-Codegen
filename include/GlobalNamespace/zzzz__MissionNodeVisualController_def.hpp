@@ -1,16 +1,15 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-namespace {
 namespace System {
 template<typename T>
 class Action_1;
 }
 namespace GlobalNamespace {
-class MissionToggle;
+class MissionNode;
 }
 namespace GlobalNamespace {
-class MissionNode;
+class MissionToggle;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5640))
 // CS Name: MissionNodeVisualController
-class CORDL_TYPE MissionNodeVisualController : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE MissionNodeVisualController : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr MissionNodeVisualController(MissionNodeVisualController const& ) noexc
 constexpr MissionNodeVisualController(MissionNodeVisualController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit MissionNodeVisualController(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit MissionNodeVisualController(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -58,29 +57,29 @@ constexpr explicit MissionNodeVisualController(void* ptr) noexcept : ::UnityEngi
 
 // Fields
 
- ::GlobalNamespace::MissionToggle __declspec(property(get=__get__missionToggle, put=__set__missionToggle))  _missionToggle;
+ GlobalNamespace::MissionToggle __declspec(property(get=__get__missionToggle, put=__set__missionToggle))  _missionToggle;
 
-constexpr void __set__missionToggle(::GlobalNamespace::MissionToggle value) ;
+constexpr void __set__missionToggle(GlobalNamespace::MissionToggle value) ;
 
-constexpr ::GlobalNamespace::MissionToggle __get__missionToggle() const;
+constexpr GlobalNamespace::MissionToggle __get__missionToggle() const;
 
- ::GlobalNamespace::MissionNode __declspec(property(get=__get__missionNode, put=__set__missionNode))  _missionNode;
+ GlobalNamespace::MissionNode __declspec(property(get=__get__missionNode, put=__set__missionNode))  _missionNode;
 
-constexpr void __set__missionNode(::GlobalNamespace::MissionNode value) ;
+constexpr void __set__missionNode(GlobalNamespace::MissionNode value) ;
 
-constexpr ::GlobalNamespace::MissionNode __get__missionNode() const;
+constexpr GlobalNamespace::MissionNode __get__missionNode() const;
 
- ::System::Action_1<::GlobalNamespace::MissionNodeVisualController> __declspec(property(get=__get_nodeWasSelectEvent, put=__set_nodeWasSelectEvent))  nodeWasSelectEvent;
+ System::Action_1<GlobalNamespace::MissionNodeVisualController> __declspec(property(get=__get_nodeWasSelectEvent, put=__set_nodeWasSelectEvent))  nodeWasSelectEvent;
 
-constexpr void __set_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+constexpr void __set_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController> __get_nodeWasSelectEvent() const;
+constexpr System::Action_1<GlobalNamespace::MissionNodeVisualController> __get_nodeWasSelectEvent() const;
 
- ::System::Action_1<::GlobalNamespace::MissionNodeVisualController> __declspec(property(get=__get_nodeWasDisplayedEvent, put=__set_nodeWasDisplayedEvent))  nodeWasDisplayedEvent;
+ System::Action_1<GlobalNamespace::MissionNodeVisualController> __declspec(property(get=__get_nodeWasDisplayedEvent, put=__set_nodeWasDisplayedEvent))  nodeWasDisplayedEvent;
 
-constexpr void __set_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+constexpr void __set_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
-constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController> __get_nodeWasDisplayedEvent() const;
+constexpr System::Action_1<GlobalNamespace::MissionNodeVisualController> __get_nodeWasDisplayedEvent() const;
 
  bool __declspec(property(get=__get__selected, put=__set__selected))  _selected;
 
@@ -109,7 +108,7 @@ constexpr bool __get__interactable() const;
 
 // Properties
 
- ::GlobalNamespace::MissionNode __declspec(property(get=get_missionNode))  missionNode;
+ GlobalNamespace::MissionNode __declspec(property(get=get_missionNode))  missionNode;
 
  bool __declspec(property(get=get_selected))  selected;
 
@@ -123,19 +122,19 @@ constexpr bool __get__interactable() const;
 // Methods
 
 /// @brief Method add_nodeWasSelectEvent addr 0x214948c size 0xb0 virtual false final false
- void add_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+ void add_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
 /// @brief Method remove_nodeWasSelectEvent addr 0x214975c size 0xb0 virtual false final false
- void remove_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+ void remove_nodeWasSelectEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
 /// @brief Method add_nodeWasDisplayedEvent addr 0x214953c size 0xb0 virtual false final false
- void add_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+ void add_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
 /// @brief Method remove_nodeWasDisplayedEvent addr 0x214980c size 0xb0 virtual false final false
- void remove_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController> value) ;
+ void remove_nodeWasDisplayedEvent(System::Action_1<GlobalNamespace::MissionNodeVisualController> value) ;
 
 /// @brief Method get_missionNode addr 0x214a63c size 0x8 virtual false final false
- ::GlobalNamespace::MissionNode get_missionNode() ;
+ GlobalNamespace::MissionNode get_missionNode() ;
 
 /// @brief Method get_selected addr 0x214a644 size 0x8 virtual false final false
  bool get_selected() ;
@@ -186,7 +185,7 @@ constexpr bool __get__interactable() const;
  void ChangeNodeSelection(bool selected) ;
 
 /// @brief Method HandleMissionToggleSelectionDidChange addr 0x214aab0 size 0x40 virtual false final false
- void HandleMissionToggleSelectionDidChange(::GlobalNamespace::MissionToggle toggle) ;
+ void HandleMissionToggleSelectionDidChange(GlobalNamespace::MissionToggle toggle) ;
 
 // Ctor Parameters []
 explicit MissionNodeVisualController() ;
@@ -198,6 +197,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::MissionNodeVisualController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNodeVisualController, "", "MissionNodeVisualController");
+NEED_NO_BOX(GlobalNamespace::MissionNodeVisualController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeVisualController, "", "MissionNodeVisualController");

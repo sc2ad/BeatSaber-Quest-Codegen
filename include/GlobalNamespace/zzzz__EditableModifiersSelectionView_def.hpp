@@ -1,15 +1,14 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_def.hpp"
-namespace {
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace UnityEngine {
 class CanvasGroup;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +20,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5884))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5867))
 // CS Name: EditableModifiersSelectionView
-class CORDL_TYPE EditableModifiersSelectionView : public ::GlobalNamespace::ModifiersSelectionView {
+class CORDL_TYPE EditableModifiersSelectionView : public GlobalNamespace::ModifiersSelectionView {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -36,7 +35,7 @@ constexpr EditableModifiersSelectionView(EditableModifiersSelectionView const& )
 constexpr EditableModifiersSelectionView(EditableModifiersSelectionView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit EditableModifiersSelectionView(void* ptr) noexcept : ::GlobalNamespace::ModifiersSelectionView(ptr) {
+constexpr explicit EditableModifiersSelectionView(void* ptr) noexcept : GlobalNamespace::ModifiersSelectionView(ptr) {
 }
 
 
@@ -57,23 +56,23 @@ constexpr explicit EditableModifiersSelectionView(void* ptr) noexcept : ::Global
 
 // Fields
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__editButton, put=__set__editButton))  _editButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__editButton, put=__set__editButton))  _editButton;
 
-constexpr void __set__editButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__editButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__editButton() const;
+constexpr UnityEngine::UI::Button __get__editButton() const;
 
- ::UnityEngine::UI::Button __declspec(property(get=__get__clearButton, put=__set__clearButton))  _clearButton;
+ UnityEngine::UI::Button __declspec(property(get=__get__clearButton, put=__set__clearButton))  _clearButton;
 
-constexpr void __set__clearButton(::UnityEngine::UI::Button value) ;
+constexpr void __set__clearButton(UnityEngine::UI::Button value) ;
 
-constexpr ::UnityEngine::UI::Button __get__clearButton() const;
+constexpr UnityEngine::UI::Button __get__clearButton() const;
 
- ::UnityEngine::CanvasGroup __declspec(property(get=__get__modifiersListCanvasGroup, put=__set__modifiersListCanvasGroup))  _modifiersListCanvasGroup;
+ UnityEngine::CanvasGroup __declspec(property(get=__get__modifiersListCanvasGroup, put=__set__modifiersListCanvasGroup))  _modifiersListCanvasGroup;
 
-constexpr void __set__modifiersListCanvasGroup(::UnityEngine::CanvasGroup value) ;
+constexpr void __set__modifiersListCanvasGroup(UnityEngine::CanvasGroup value) ;
 
-constexpr ::UnityEngine::CanvasGroup __get__modifiersListCanvasGroup() const;
+constexpr UnityEngine::CanvasGroup __get__modifiersListCanvasGroup() const;
 
  bool __declspec(property(get=__get__interactable, put=__set__interactable))  _interactable;
 
@@ -90,9 +89,9 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 
 // Properties
 
- ::UnityEngine::UI::Button __declspec(property(get=get_editButton))  editButton;
+ UnityEngine::UI::Button __declspec(property(get=get_editButton))  editButton;
 
- ::UnityEngine::UI::Button __declspec(property(get=get_clearButton))  clearButton;
+ UnityEngine::UI::Button __declspec(property(get=get_clearButton))  clearButton;
 
  bool __declspec(property(get=get_interactable, put=set_interactable))  interactable;
 
@@ -102,10 +101,10 @@ constexpr bool __get__showClearButton_k__BackingField() const;
 // Methods
 
 /// @brief Method get_editButton addr 0x21867b8 size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_editButton() ;
+ UnityEngine::UI::Button get_editButton() ;
 
 /// @brief Method get_clearButton addr 0x21867c0 size 0x8 virtual false final false
- ::UnityEngine::UI::Button get_clearButton() ;
+ UnityEngine::UI::Button get_clearButton() ;
 
 /// @brief Method get_interactable addr 0x21867c8 size 0x8 virtual false final false
  bool get_interactable() ;
@@ -126,7 +125,7 @@ constexpr bool __get__showClearButton_k__BackingField() const;
  void Setup(bool showClearButton) ;
 
 /// @brief Method SetGameplayModifiers addr 0x21867e4 size 0x64 virtual true final false
- void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers gameplayModifiers) ;
+ void SetGameplayModifiers(GlobalNamespace::GameplayModifiers gameplayModifiers) ;
 
 // Ctor Parameters []
 explicit EditableModifiersSelectionView() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::EditableModifiersSelectionView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EditableModifiersSelectionView, "", "EditableModifiersSelectionView");
+NEED_NO_BOX(GlobalNamespace::EditableModifiersSelectionView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableModifiersSelectionView, "", "EditableModifiersSelectionView");

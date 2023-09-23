@@ -6,19 +6,18 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
-namespace System::Net::Http::Headers {
-struct Token;
-}
-namespace System {
-struct TimeSpan;
-}
 namespace System {
 template<typename T>
 struct Nullable_1;
 }
 namespace System {
 struct DateTimeOffset;
+}
+namespace System::Net::Http::Headers {
+struct Token;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -117,37 +116,37 @@ explicit Lexer(::StringW stream) ;
  void set_Position(int32_t value) ;
 
 /// @brief Method GetStringValue addr 0x26a3704 size 0x24 virtual false final false
- ::StringW GetStringValue(::System::Net::Http::Headers::Token token) ;
+ ::StringW GetStringValue(System::Net::Http::Headers::Token token) ;
 
 /// @brief Method GetStringValue addr 0x26aaf24 size 0x24 virtual false final false
- ::StringW GetStringValue(::System::Net::Http::Headers::Token start, ::System::Net::Http::Headers::Token end) ;
+ ::StringW GetStringValue(System::Net::Http::Headers::Token start, System::Net::Http::Headers::Token end) ;
 
 /// @brief Method GetQuotedStringValue addr 0x26a4fd4 size 0x2c virtual false final false
- ::StringW GetQuotedStringValue(::System::Net::Http::Headers::Token start) ;
+ ::StringW GetQuotedStringValue(System::Net::Http::Headers::Token start) ;
 
 /// @brief Method GetRemainingStringValue addr 0x26a3728 size 0x34 virtual false final false
  ::StringW GetRemainingStringValue(int32_t position) ;
 
 /// @brief Method IsStarStringValue addr 0x26a6c44 size 0x44 virtual false final false
- bool IsStarStringValue(::System::Net::Http::Headers::Token token) ;
+ bool IsStarStringValue(System::Net::Http::Headers::Token token) ;
 
 /// @brief Method TryGetNumericValue addr 0x26aaf48 size 0xa0 virtual false final false
- bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int32_t> value) ;
+ bool TryGetNumericValue(System::Net::Http::Headers::Token token, ByRef<int32_t> value) ;
 
 /// @brief Method TryGetNumericValue addr 0x26a6c88 size 0xa0 virtual false final false
- bool TryGetNumericValue(::System::Net::Http::Headers::Token token, ByRef<int64_t> value) ;
+ bool TryGetNumericValue(System::Net::Http::Headers::Token token, ByRef<int64_t> value) ;
 
 /// @brief Method TryGetTimeSpanValue addr 0x26a4f0c size 0xc8 virtual false final false
- ::System::Nullable_1<::System::TimeSpan> TryGetTimeSpanValue(::System::Net::Http::Headers::Token token) ;
+ System::Nullable_1<System::TimeSpan> TryGetTimeSpanValue(System::Net::Http::Headers::Token token) ;
 
 /// @brief Method TryGetDateValue addr 0x26aafe8 size 0xdc virtual false final false
- bool TryGetDateValue(::System::Net::Http::Headers::Token token, ByRef<::System::DateTimeOffset> value) ;
+ bool TryGetDateValue(System::Net::Http::Headers::Token token, ByRef<System::DateTimeOffset> value) ;
 
 /// @brief Method TryGetDateValue addr 0x26ab0c4 size 0xdc virtual false final false
-static bool TryGetDateValue(::StringW text, ByRef<::System::DateTimeOffset> value) ;
+static bool TryGetDateValue(::StringW text, ByRef<System::DateTimeOffset> value) ;
 
 /// @brief Method TryGetDoubleValue addr 0x26ab1a0 size 0xa0 virtual false final false
- bool TryGetDoubleValue(::System::Net::Http::Headers::Token token, ByRef<double_t> value) ;
+ bool TryGetDoubleValue(System::Net::Http::Headers::Token token, ByRef<double_t> value) ;
 
 /// @brief Method IsValidToken addr 0x26ab240 size 0xb0 virtual false final false
 static bool IsValidToken(::StringW input) ;
@@ -162,15 +161,14 @@ static bool IsValidCharacter(char16_t input) ;
  int32_t PeekChar() ;
 
 /// @brief Method ScanCommentOptional addr 0x26ab3a0 size 0x150 virtual false final false
- bool ScanCommentOptional(ByRef<::StringW> value, ByRef<::System::Net::Http::Headers::Token> readToken) ;
+ bool ScanCommentOptional(ByRef<::StringW> value, ByRef<System::Net::Http::Headers::Token> readToken) ;
 
 /// @brief Method Scan addr 0x26a3410 size 0x2f4 virtual false final false
- ::System::Net::Http::Headers::Token Scan(bool recognizeDash) ;
+ System::Net::Http::Headers::Token Scan(bool recognizeDash) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::Http::Headers
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::Http::Headers::Lexer);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::Lexer, "System.Net.Http.Headers", "Lexer");
+NEED_NO_BOX(System::Net::Http::Headers::Lexer);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Lexer, "System.Net.Http.Headers", "Lexer");

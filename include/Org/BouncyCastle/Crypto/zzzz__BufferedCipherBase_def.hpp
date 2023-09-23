@@ -4,12 +4,11 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE BufferedCipherBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IBufferedCipher
-constexpr operator  ::Org::BouncyCastle::Crypto::IBufferedCipher() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IBufferedCipher
+constexpr operator  Org::BouncyCastle::Crypto::IBufferedCipher() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -78,7 +77,7 @@ static ::ArrayW<uint8_t> __get_EmptyBuffer() ;
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetBlockSize() ;
@@ -138,6 +137,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::BufferedCipherBase);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::BufferedCipherBase, "Org.BouncyCastle.Crypto", "BufferedCipherBase");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::BufferedCipherBase);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::BufferedCipherBase, "Org.BouncyCastle.Crypto", "BufferedCipherBase");

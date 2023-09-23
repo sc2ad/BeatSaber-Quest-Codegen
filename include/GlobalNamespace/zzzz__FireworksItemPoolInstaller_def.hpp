@@ -1,12 +1,11 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
-namespace {
-namespace GlobalNamespace {
-class FireworksController;
-}
 namespace GlobalNamespace {
 class FireworkItemController;
+}
+namespace GlobalNamespace {
+class FireworksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +17,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4964))
 // CS Name: FireworksItemPoolInstaller
-class CORDL_TYPE FireworksItemPoolInstaller : public ::Zenject::MonoInstaller {
+class CORDL_TYPE FireworksItemPoolInstaller : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr FireworksItemPoolInstaller(FireworksItemPoolInstaller const& ) noexcep
 constexpr FireworksItemPoolInstaller(FireworksItemPoolInstaller&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit FireworksItemPoolInstaller(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit FireworksItemPoolInstaller(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -54,17 +53,17 @@ constexpr explicit FireworksItemPoolInstaller(void* ptr) noexcept : ::Zenject::M
 
 // Fields
 
- ::GlobalNamespace::FireworksController __declspec(property(get=__get__fireworksController, put=__set__fireworksController))  _fireworksController;
+ GlobalNamespace::FireworksController __declspec(property(get=__get__fireworksController, put=__set__fireworksController))  _fireworksController;
 
-constexpr void __set__fireworksController(::GlobalNamespace::FireworksController value) ;
+constexpr void __set__fireworksController(GlobalNamespace::FireworksController value) ;
 
-constexpr ::GlobalNamespace::FireworksController __get__fireworksController() const;
+constexpr GlobalNamespace::FireworksController __get__fireworksController() const;
 
- ::GlobalNamespace::FireworkItemController __declspec(property(get=__get__fireworkItemControllerPrefab, put=__set__fireworkItemControllerPrefab))  _fireworkItemControllerPrefab;
+ GlobalNamespace::FireworkItemController __declspec(property(get=__get__fireworkItemControllerPrefab, put=__set__fireworkItemControllerPrefab))  _fireworkItemControllerPrefab;
 
-constexpr void __set__fireworkItemControllerPrefab(::GlobalNamespace::FireworkItemController value) ;
+constexpr void __set__fireworkItemControllerPrefab(GlobalNamespace::FireworkItemController value) ;
 
-constexpr ::GlobalNamespace::FireworkItemController __get__fireworkItemControllerPrefab() const;
+constexpr GlobalNamespace::FireworkItemController __get__fireworkItemControllerPrefab() const;
 
 
 // Methods
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::FireworksItemPoolInstaller);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FireworksItemPoolInstaller, "", "FireworksItemPoolInstaller");
+NEED_NO_BOX(GlobalNamespace::FireworksItemPoolInstaller);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworksItemPoolInstaller, "", "FireworksItemPoolInstaller");

@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
-struct StyleKeyword;
+struct Rotate;
 }
 namespace UnityEngine::UIElements {
 template<typename T>
 class IStyleValue_1;
 }
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
+}
 namespace System {
 template<typename T>
 class IEquatable_1;
-}
-namespace UnityEngine::UIElements {
-struct Rotate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,14 +31,14 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StyleRotate : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>
-constexpr operator  ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Rotate>() const;
+/// @brief Convert operator to UnityEngine::UIElements::IStyleValue_1<UnityEngine::UIElements::Rotate>
+constexpr operator  UnityEngine::UIElements::IStyleValue_1<UnityEngine::UIElements::Rotate>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StyleRotate>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::UIElements::StyleRotate>
+constexpr operator  System::IEquatable_1<UnityEngine::UIElements::StyleRotate>() const;
 
-// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
-constexpr StyleRotate(::UnityEngine::UIElements::Rotate m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+constexpr StyleRotate(UnityEngine::UIElements::Rotate m_Value, UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
 
                     constexpr StyleRotate(StyleRotate const&) = default;
@@ -72,48 +71,48 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::UnityEngine::UIElements::Rotate __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
+ UnityEngine::UIElements::Rotate __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
 
-constexpr void __set_m_Value(::UnityEngine::UIElements::Rotate value) ;
+constexpr void __set_m_Value(UnityEngine::UIElements::Rotate value) ;
 
-constexpr ::UnityEngine::UIElements::Rotate __get_m_Value() const;
+constexpr UnityEngine::UIElements::Rotate __get_m_Value() const;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=__get_m_Keyword, put=__set_m_Keyword))  m_Keyword;
 
-constexpr void __set_m_Keyword(::UnityEngine::UIElements::StyleKeyword value) ;
+constexpr void __set_m_Keyword(UnityEngine::UIElements::StyleKeyword value) ;
 
-constexpr ::UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
+constexpr UnityEngine::UIElements::StyleKeyword __get_m_Keyword() const;
 
 
 // Properties
 
- ::UnityEngine::UIElements::Rotate __declspec(property(get=get_value))  value;
+ UnityEngine::UIElements::Rotate __declspec(property(get=get_value))  value;
 
- ::UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
+ UnityEngine::UIElements::StyleKeyword __declspec(property(get=get_keyword))  keyword;
 
 
 // Methods
 
 /// @brief Method get_value addr 0x2cfbb74 size 0x44 virtual true final true
- ::UnityEngine::UIElements::Rotate get_value() ;
+ UnityEngine::UIElements::Rotate get_value() ;
 
 /// @brief Method get_keyword addr 0x2cfec30 size 0x8 virtual true final true
- ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
+ UnityEngine::UIElements::StyleKeyword get_keyword() ;
 
 /// @brief Method .ctor addr 0x2cfec38 size 0x10 virtual false final false
- void _ctor(::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method .ctor addr 0x2cfec48 size 0x18 virtual false final false
- void _ctor(::UnityEngine::UIElements::Rotate v, ::UnityEngine::UIElements::StyleKeyword keyword) ;
+ void _ctor(UnityEngine::UIElements::Rotate v, UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method op_Equality addr 0x2cfec60 size 0x5c virtual false final false
-static bool op_Equality(::UnityEngine::UIElements::StyleRotate lhs, ::UnityEngine::UIElements::StyleRotate rhs) ;
+static bool op_Equality(UnityEngine::UIElements::StyleRotate lhs, UnityEngine::UIElements::StyleRotate rhs) ;
 
 /// @brief Method op_Implicit addr 0x2cfbfcc size 0x10 virtual false final false
-static ::UnityEngine::UIElements::StyleRotate op_Implicit___UnityEngine__UIElements__StyleRotate(::UnityEngine::UIElements::StyleKeyword keyword) ;
+static UnityEngine::UIElements::StyleRotate op_Implicit_UnityEngine__UIElements__StyleRotate(UnityEngine::UIElements::StyleKeyword keyword) ;
 
 /// @brief Method Equals addr 0x2cfecbc size 0x7c virtual true final true
- bool Equals(::UnityEngine::UIElements::StyleRotate other) ;
+ bool Equals(UnityEngine::UIElements::StyleRotate other) ;
 
 /// @brief Method Equals addr 0x2cfed38 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -128,5 +127,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleRotate, "UnityEngine.UIElements", "StyleRotate");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::StyleRotate, "UnityEngine.UIElements", "StyleRotate");

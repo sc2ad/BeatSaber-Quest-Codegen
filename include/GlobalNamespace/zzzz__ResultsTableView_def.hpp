@@ -3,25 +3,24 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace HMUI {
-class TableView;
+class TableCell;
 }
 namespace GlobalNamespace {
 class ResultsTableCell;
+}
+namespace HMUI {
+class TableView;
 }
 namespace System::Collections::Generic {
 template<typename T>
 class IReadOnlyList_1;
 }
 namespace HMUI {
-class ____HMUI__TableView__IDataSource;
+class HMUI__TableView__IDataSource;
 }
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
-}
-namespace HMUI {
-class TableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,11 +32,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5899))
 // CS Name: ResultsTableView
-class CORDL_TYPE ResultsTableView : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE ResultsTableView : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::HMUI::____HMUI__TableView__IDataSource
-constexpr operator  ::HMUI::____HMUI__TableView__IDataSource() const noexcept;
+/// @brief Convert operator to HMUI::HMUI__TableView__IDataSource
+constexpr operator  HMUI::HMUI__TableView__IDataSource() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -51,7 +50,7 @@ constexpr ResultsTableView(ResultsTableView const& ) noexcept = default;
 constexpr ResultsTableView(ResultsTableView&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ResultsTableView(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit ResultsTableView(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -75,17 +74,17 @@ constexpr explicit ResultsTableView(void* ptr) noexcept : ::UnityEngine::MonoBeh
 /// @brief Field kCellIdentifier offset 0
 static constexpr ::ConstString  kCellIdentifier{u"Cell"};
 
- ::HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
+ HMUI::TableView __declspec(property(get=__get__tableView, put=__set__tableView))  _tableView;
 
-constexpr void __set__tableView(::HMUI::TableView value) ;
+constexpr void __set__tableView(HMUI::TableView value) ;
 
-constexpr ::HMUI::TableView __get__tableView() const;
+constexpr HMUI::TableView __get__tableView() const;
 
- ::GlobalNamespace::ResultsTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
+ GlobalNamespace::ResultsTableCell __declspec(property(get=__get__cellPrefab, put=__set__cellPrefab))  _cellPrefab;
 
-constexpr void __set__cellPrefab(::GlobalNamespace::ResultsTableCell value) ;
+constexpr void __set__cellPrefab(GlobalNamespace::ResultsTableCell value) ;
 
-constexpr ::GlobalNamespace::ResultsTableCell __get__cellPrefab() const;
+constexpr GlobalNamespace::ResultsTableCell __get__cellPrefab() const;
 
  float_t __declspec(property(get=__get__rowHeight, put=__set__rowHeight))  _rowHeight;
 
@@ -93,11 +92,11 @@ constexpr void __set__rowHeight(float_t value) ;
 
 constexpr float_t __get__rowHeight() const;
 
- ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> __declspec(property(get=__get__dataList, put=__set__dataList))  _dataList;
+ System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> __declspec(property(get=__get__dataList, put=__set__dataList))  _dataList;
 
-constexpr void __set__dataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> value) ;
+constexpr void __set__dataList(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> value) ;
 
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> __get__dataList() const;
+constexpr System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> __get__dataList() const;
 
 
 // Methods
@@ -109,10 +108,10 @@ constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::Mul
  int32_t NumberOfCells() ;
 
 /// @brief Method CellForIdx addr 0x218f22c size 0x1d0 virtual true final true
- ::HMUI::TableCell CellForIdx(::HMUI::TableView tableView, int32_t idx) ;
+ HMUI::TableCell CellForIdx(HMUI::TableView tableView, int32_t idx) ;
 
 /// @brief Method SetData addr 0x218f3fc size 0x2c virtual false final false
- void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData> dataList) ;
+ void SetData(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData> dataList) ;
 
 // Ctor Parameters []
 explicit ResultsTableView() ;
@@ -124,6 +123,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::ResultsTableView);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultsTableView, "", "ResultsTableView");
+NEED_NO_BOX(GlobalNamespace::ResultsTableView);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView, "", "ResultsTableView");

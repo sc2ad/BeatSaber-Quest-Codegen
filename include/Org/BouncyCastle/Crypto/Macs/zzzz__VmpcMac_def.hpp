@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
@@ -24,8 +23,8 @@ namespace Org::BouncyCastle::Crypto::Macs {
 class CORDL_TYPE VmpcMac : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::IMac
-constexpr operator  ::Org::BouncyCastle::Crypto::IMac() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::IMac
+constexpr operator  Org::BouncyCastle::Crypto::IMac() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
@@ -144,7 +143,7 @@ constexpr uint8_t __get_x4() const;
  int32_t GetMacSize() ;
 
 /// @brief Method Init addr 0xe857c8 size 0x1b0 virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method initKey addr 0xe85978 size 0x1fc virtual false final false
  void initKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes) ;
@@ -168,6 +167,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Macs
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Macs::VmpcMac);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Macs::VmpcMac, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Macs::VmpcMac);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::VmpcMac, "Org.BouncyCastle.Crypto.Macs", "VmpcMac");

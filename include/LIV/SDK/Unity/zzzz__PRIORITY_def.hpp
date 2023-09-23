@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 struct PRIORITY;
@@ -67,14 +66,13 @@ constexpr void __set_value__(int8_t value) ;
 constexpr int8_t __get_value__() const;
 
 /// @brief Field NONE offset 0
-static ::LIV::SDK::Unity::PRIORITY const NONE;
+static LIV::SDK::Unity::PRIORITY const NONE;
 
 /// @brief Field GAME offset 0
-static ::LIV::SDK::Unity::PRIORITY const GAME;
+static LIV::SDK::Unity::PRIORITY const GAME;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::PRIORITY, "LIV.SDK.Unity", "PRIORITY");
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::PRIORITY, "LIV.SDK.Unity", "PRIORITY");

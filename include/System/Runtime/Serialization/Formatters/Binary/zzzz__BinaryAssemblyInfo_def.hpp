@@ -2,7 +2,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Reflection {
 class Assembly;
 }
@@ -58,11 +57,11 @@ constexpr void __set_assemblyString(::StringW value) ;
 
 constexpr ::StringW __get_assemblyString() const;
 
- ::System::Reflection::Assembly __declspec(property(get=__get_assembly, put=__set_assembly))  assembly;
+ System::Reflection::Assembly __declspec(property(get=__get_assembly, put=__set_assembly))  assembly;
 
-constexpr void __set_assembly(::System::Reflection::Assembly value) ;
+constexpr void __set_assembly(System::Reflection::Assembly value) ;
 
-constexpr ::System::Reflection::Assembly __get_assembly() const;
+constexpr System::Reflection::Assembly __get_assembly() const;
 
 
 // Methods
@@ -73,19 +72,18 @@ explicit BinaryAssemblyInfo(::StringW assemblyString) ;
 /// @brief Method .ctor addr 0x2355728 size 0x28 virtual false final false
  void _ctor(::StringW assemblyString) ;
 
-// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "::System::Reflection::Assembly", modifiers: "", def_value: None }]
-explicit BinaryAssemblyInfo(::StringW assemblyString, ::System::Reflection::Assembly assembly) ;
+// Ctor Parameters [CppParam { name: "assemblyString", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "assembly", ty: "System::Reflection::Assembly", modifiers: "", def_value: None }]
+explicit BinaryAssemblyInfo(::StringW assemblyString, System::Reflection::Assembly assembly) ;
 
 /// @brief Method .ctor addr 0x2355750 size 0x2c virtual false final false
- void _ctor(::StringW assemblyString, ::System::Reflection::Assembly assembly) ;
+ void _ctor(::StringW assemblyString, System::Reflection::Assembly assembly) ;
 
 /// @brief Method GetAssembly addr 0x235577c size 0x11c virtual false final false
- ::System::Reflection::Assembly GetAssembly() ;
+ System::Reflection::Assembly GetAssembly() ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo, "System.Runtime.Serialization.Formatters.Binary", "BinaryAssemblyInfo");

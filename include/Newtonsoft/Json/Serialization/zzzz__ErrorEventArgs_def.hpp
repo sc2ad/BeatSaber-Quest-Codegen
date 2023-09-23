@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Newtonsoft::Json::Serialization {
 class ErrorContext;
 }
@@ -16,7 +15,7 @@ namespace Newtonsoft::Json::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11858))
 // CS Name: Newtonsoft.Json.Serialization.ErrorEventArgs
-class CORDL_TYPE ErrorEventArgs : public ::System::EventArgs {
+class CORDL_TYPE ErrorEventArgs : public System::EventArgs {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr ErrorEventArgs(ErrorEventArgs const& ) noexcept = default;
 constexpr ErrorEventArgs(ErrorEventArgs&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ErrorEventArgs(void* ptr) noexcept : ::System::EventArgs(ptr) {
+constexpr explicit ErrorEventArgs(void* ptr) noexcept : System::EventArgs(ptr) {
 }
 
 
@@ -58,18 +57,18 @@ constexpr void __set__CurrentObject_k__BackingField(::bs_hook::Il2CppWrapperType
 
 constexpr ::bs_hook::Il2CppWrapperType __get__CurrentObject_k__BackingField() const;
 
- ::Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=__get__ErrorContext_k__BackingField, put=__set__ErrorContext_k__BackingField))  _ErrorContext_k__BackingField;
+ Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=__get__ErrorContext_k__BackingField, put=__set__ErrorContext_k__BackingField))  _ErrorContext_k__BackingField;
 
-constexpr void __set__ErrorContext_k__BackingField(::Newtonsoft::Json::Serialization::ErrorContext value) ;
+constexpr void __set__ErrorContext_k__BackingField(Newtonsoft::Json::Serialization::ErrorContext value) ;
 
-constexpr ::Newtonsoft::Json::Serialization::ErrorContext __get__ErrorContext_k__BackingField() const;
+constexpr Newtonsoft::Json::Serialization::ErrorContext __get__ErrorContext_k__BackingField() const;
 
 
 // Properties
 
  ::bs_hook::Il2CppWrapperType __declspec(property(get=get_CurrentObject, put=set_CurrentObject))  CurrentObject;
 
- ::Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=get_ErrorContext, put=set_ErrorContext))  ErrorContext;
+ Newtonsoft::Json::Serialization::ErrorContext __declspec(property(get=get_ErrorContext, put=set_ErrorContext))  ErrorContext;
 
 
 // Methods
@@ -81,21 +80,20 @@ constexpr ::Newtonsoft::Json::Serialization::ErrorContext __get__ErrorContext_k_
  void set_CurrentObject(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method get_ErrorContext addr 0x24f6704 size 0x8 virtual false final false
- ::Newtonsoft::Json::Serialization::ErrorContext get_ErrorContext() ;
+ Newtonsoft::Json::Serialization::ErrorContext get_ErrorContext() ;
 
 /// @brief Method set_ErrorContext addr 0x24f670c size 0x8 virtual false final false
- void set_ErrorContext(::Newtonsoft::Json::Serialization::ErrorContext value) ;
+ void set_ErrorContext(Newtonsoft::Json::Serialization::ErrorContext value) ;
 
-// Ctor Parameters [CppParam { name: "currentObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "errorContext", ty: "::Newtonsoft::Json::Serialization::ErrorContext", modifiers: "", def_value: None }]
-explicit ErrorEventArgs(::bs_hook::Il2CppWrapperType currentObject, ::Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
+// Ctor Parameters [CppParam { name: "currentObject", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "errorContext", ty: "Newtonsoft::Json::Serialization::ErrorContext", modifiers: "", def_value: None }]
+explicit ErrorEventArgs(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
 
 /// @brief Method .ctor addr 0x24f6714 size 0x70 virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType currentObject, ::Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
+ void _ctor(::bs_hook::Il2CppWrapperType currentObject, Newtonsoft::Json::Serialization::ErrorContext errorContext) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::Newtonsoft::Json::Serialization::ErrorEventArgs);
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ErrorEventArgs, "Newtonsoft.Json.Serialization", "ErrorEventArgs");
+NEED_NO_BOX(Newtonsoft::Json::Serialization::ErrorEventArgs);
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::Serialization::ErrorEventArgs, "Newtonsoft.Json.Serialization", "ErrorEventArgs");

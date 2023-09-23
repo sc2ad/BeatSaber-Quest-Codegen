@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"
-namespace {
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafeHandleZeroOrMinusOneIsInvalid;
@@ -12,7 +11,7 @@ namespace Microsoft::Win32::SafeHandles {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2301))
 // CS Name: Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-class CORDL_TYPE SafeHandleZeroOrMinusOneIsInvalid : public ::System::Runtime::InteropServices::SafeHandle {
+class CORDL_TYPE SafeHandleZeroOrMinusOneIsInvalid : public System::Runtime::InteropServices::SafeHandle {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr SafeHandleZeroOrMinusOneIsInvalid(SafeHandleZeroOrMinusOneIsInvalid co
 constexpr SafeHandleZeroOrMinusOneIsInvalid(SafeHandleZeroOrMinusOneIsInvalid&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SafeHandleZeroOrMinusOneIsInvalid(void* ptr) noexcept : ::System::Runtime::InteropServices::SafeHandle(ptr) {
+constexpr explicit SafeHandleZeroOrMinusOneIsInvalid(void* ptr) noexcept : System::Runtime::InteropServices::SafeHandle(ptr) {
 }
 
 
@@ -66,6 +65,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Microsoft::Win32::SafeHandles
-} // end anonymous namespace
-NEED_NO_BOX(::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid);
-DEFINE_IL2CPP_ARG_TYPE(::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");
+NEED_NO_BOX(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid);
+DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid, "Microsoft.Win32.SafeHandles", "SafeHandleZeroOrMinusOneIsInvalid");

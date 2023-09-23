@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
-namespace {
 namespace System::Reflection {
 class MethodInfo;
 }
@@ -61,11 +60,11 @@ explicit BaseInvokableCall() ;
 /// @brief Method .ctor addr 0x2b7f2d0 size 0x8 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "function", ty: "::System::Reflection::MethodInfo", modifiers: "", def_value: None }]
-explicit BaseInvokableCall(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo function) ;
+// Ctor Parameters [CppParam { name: "target", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "function", ty: "System::Reflection::MethodInfo", modifiers: "", def_value: None }]
+explicit BaseInvokableCall(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function) ;
 
 /// @brief Method .ctor addr 0x2b7f2d8 size 0xe8 virtual false final false
- void _ctor(::bs_hook::Il2CppWrapperType target, ::System::Reflection::MethodInfo function) ;
+ void _ctor(::bs_hook::Il2CppWrapperType target, System::Reflection::MethodInfo function) ;
 
 /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
  void Invoke(::ArrayW<::bs_hook::Il2CppWrapperType> args) ;
@@ -75,15 +74,14 @@ template<typename T>
 static void ThrowOnInvalidArg(::bs_hook::Il2CppWrapperType arg) ;
 
 /// @brief Method AllowInvoke addr 0x2b7f3c0 size 0xa8 virtual false final false
-static bool AllowInvoke(::System::Delegate delegate) ;
+static bool AllowInvoke(System::Delegate delegate) ;
 
 /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual true final false
- bool Find(::bs_hook::Il2CppWrapperType targetObj, ::System::Reflection::MethodInfo method) ;
+ bool Find(::bs_hook::Il2CppWrapperType targetObj, System::Reflection::MethodInfo method) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Events
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Events::BaseInvokableCall);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::BaseInvokableCall, "UnityEngine.Events", "BaseInvokableCall");
+NEED_NO_BOX(UnityEngine::Events::BaseInvokableCall);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall, "UnityEngine.Events", "BaseInvokableCall");

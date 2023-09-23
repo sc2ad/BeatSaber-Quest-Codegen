@@ -3,26 +3,25 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Collections::Generic {
-template<typename T>
-class HashSet_1;
-}
 namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace GlobalNamespace {
-class BitMaskSparse;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace GlobalNamespace {
+class BitMaskSparse;
+}
+namespace System::Collections::Generic {
+template<typename T>
+class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,11 +36,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapLevelMask : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::LiteNetLib::Utils::INetSerializable
-constexpr operator  ::LiteNetLib::Utils::INetSerializable() const noexcept;
+/// @brief Convert operator to LiteNetLib::Utils::INetSerializable
+constexpr operator  LiteNetLib::Utils::INetSerializable() const noexcept;
 
-/// @brief Convert operator to ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask>
-constexpr operator  ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask>() const noexcept;
+/// @brief Convert operator to System::IEquatable_1<GlobalNamespace::BeatmapLevelMask>
+constexpr operator  System::IEquatable_1<GlobalNamespace::BeatmapLevelMask>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -85,11 +84,11 @@ static constexpr int32_t  kHashCount{1};
 /// @brief Field kHashBits offset 0
 static constexpr int32_t  kHashBits{14};
 
- ::GlobalNamespace::BitMaskSparse __declspec(property(get=__get__bloomFilter, put=__set__bloomFilter))  _bloomFilter;
+ GlobalNamespace::BitMaskSparse __declspec(property(get=__get__bloomFilter, put=__set__bloomFilter))  _bloomFilter;
 
-constexpr void __set__bloomFilter(::GlobalNamespace::BitMaskSparse value) ;
+constexpr void __set__bloomFilter(GlobalNamespace::BitMaskSparse value) ;
 
-constexpr ::GlobalNamespace::BitMaskSparse __get__bloomFilter() const;
+constexpr GlobalNamespace::BitMaskSparse __get__bloomFilter() const;
 
 /// @brief Field kToStringPrefix offset 0
 static constexpr ::ConstString  kToStringPrefix{u"[BeatmapLevelMask "};
@@ -112,11 +111,11 @@ explicit BeatmapLevelMask(::StringW level) ;
 /// @brief Method .ctor addr 0x121327c size 0xa0 virtual false final false
  void _ctor(::StringW level) ;
 
-// Ctor Parameters [CppParam { name: "levelSet", ty: "::System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
-explicit BeatmapLevelMask(::System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
+// Ctor Parameters [CppParam { name: "levelSet", ty: "System::Collections::Generic::HashSet_1<::StringW>", modifiers: "", def_value: None }]
+explicit BeatmapLevelMask(System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
 
 /// @brief Method .ctor addr 0x121331c size 0x198 virtual false final false
- void _ctor(::System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
+ void _ctor(System::Collections::Generic::HashSet_1<::StringW> levelSet) ;
 
 /// @brief Method Contains addr 0x12134b4 size 0x60 virtual false final false
  bool Contains(::StringW state) ;
@@ -125,10 +124,10 @@ explicit BeatmapLevelMask(::System::Collections::Generic::HashSet_1<::StringW> l
  void AddLevel(::StringW state) ;
 
 /// @brief Method Serialize addr 0x1213574 size 0x18 virtual true final true
- void Serialize(::LiteNetLib::Utils::NetDataWriter writer) ;
+ void Serialize(LiteNetLib::Utils::NetDataWriter writer) ;
 
 /// @brief Method Deserialize addr 0x1213720 size 0x18 virtual true final true
- void Deserialize(::LiteNetLib::Utils::NetDataReader reader) ;
+ void Deserialize(LiteNetLib::Utils::NetDataReader reader) ;
 
 /// @brief Method ToString addr 0x12137cc size 0x84 virtual true final false
  ::StringW ToString() ;
@@ -137,7 +136,7 @@ explicit BeatmapLevelMask(::System::Collections::Generic::HashSet_1<::StringW> l
  int32_t GetHashCode() ;
 
 /// @brief Method Equals addr 0x1213870 size 0x20 virtual true final true
- bool Equals(::GlobalNamespace::BeatmapLevelMask other) ;
+ bool Equals(GlobalNamespace::BeatmapLevelMask other) ;
 
 /// @brief Method Equals addr 0x1213890 size 0x8c virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
@@ -146,6 +145,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::BeatmapLevelMask);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelMask, "", "BeatmapLevelMask");
+NEED_NO_BOX(GlobalNamespace::BeatmapLevelMask);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelMask, "", "BeatmapLevelMask");

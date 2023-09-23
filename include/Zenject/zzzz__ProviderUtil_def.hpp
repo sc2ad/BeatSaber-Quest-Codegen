@@ -1,7 +1,6 @@
 #pragma once
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -52,12 +51,11 @@ constexpr explicit ProviderUtil(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 // Methods
 
 /// @brief Method GetTypeToInstantiate addr 0x2d907ec size 0xc4 virtual false final false
-static ::System::Type GetTypeToInstantiate(::System::Type contractType, ::System::Type concreteType) ;
+static System::Type GetTypeToInstantiate(System::Type contractType, System::Type concreteType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Zenject
-} // end anonymous namespace
-NEED_NO_BOX(::Zenject::ProviderUtil);
-DEFINE_IL2CPP_ARG_TYPE(::Zenject::ProviderUtil, "Zenject", "ProviderUtil");
+NEED_NO_BOX(Zenject::ProviderUtil);
+DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderUtil, "Zenject", "ProviderUtil");

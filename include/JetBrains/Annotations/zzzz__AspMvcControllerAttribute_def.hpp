@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace JetBrains::Annotations {
 class AspMvcControllerAttribute;
@@ -13,7 +12,7 @@ namespace JetBrains::Annotations {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15710))
 // CS Name: JetBrains.Annotations.AspMvcControllerAttribute
-class CORDL_TYPE AspMvcControllerAttribute : public ::System::Attribute {
+class CORDL_TYPE AspMvcControllerAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr AspMvcControllerAttribute(AspMvcControllerAttribute const& ) noexcept 
 constexpr AspMvcControllerAttribute(AspMvcControllerAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AspMvcControllerAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit AspMvcControllerAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def JetBrains::Annotations
-} // end anonymous namespace
-NEED_NO_BOX(::JetBrains::Annotations::AspMvcControllerAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspMvcControllerAttribute, "JetBrains.Annotations", "AspMvcControllerAttribute");
+NEED_NO_BOX(JetBrains::Annotations::AspMvcControllerAttribute);
+DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcControllerAttribute, "JetBrains.Annotations", "AspMvcControllerAttribute");

@@ -5,19 +5,15 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine {
-class Material;
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
 }
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
-}
-namespace System::Collections::Generic {
-template<typename T>
-class IEnumerable_1;
+namespace UnityEngine {
+class Material;
 }
 namespace System::Collections::ObjectModel {
 template<typename T>
@@ -26,6 +22,9 @@ class ReadOnlyCollection_1;
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
+}
+namespace UnityEngine::ProBuilder {
+struct AutoUnwrapSettings;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -85,17 +84,17 @@ constexpr void __set_m_SmoothingGroup(int32_t value) ;
 
 constexpr int32_t __get_m_SmoothingGroup() const;
 
- ::UnityEngine::ProBuilder::AutoUnwrapSettings __declspec(property(get=__get_m_Uv, put=__set_m_Uv))  m_Uv;
+ UnityEngine::ProBuilder::AutoUnwrapSettings __declspec(property(get=__get_m_Uv, put=__set_m_Uv))  m_Uv;
 
-constexpr void __set_m_Uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value) ;
+constexpr void __set_m_Uv(UnityEngine::ProBuilder::AutoUnwrapSettings value) ;
 
-constexpr ::UnityEngine::ProBuilder::AutoUnwrapSettings __get_m_Uv() const;
+constexpr UnityEngine::ProBuilder::AutoUnwrapSettings __get_m_Uv() const;
 
- ::UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
+ UnityEngine::Material __declspec(property(get=__get_m_Material, put=__set_m_Material))  m_Material;
 
-constexpr void __set_m_Material(::UnityEngine::Material value) ;
+constexpr void __set_m_Material(UnityEngine::Material value) ;
 
-constexpr ::UnityEngine::Material __get_m_Material() const;
+constexpr UnityEngine::Material __get_m_Material() const;
 
  int32_t __declspec(property(get=__get_m_SubmeshIndex, put=__set_m_SubmeshIndex))  m_SubmeshIndex;
 
@@ -127,11 +126,11 @@ constexpr void __set_m_DistinctIndexes(::ArrayW<int32_t> value) ;
 
 constexpr ::ArrayW<int32_t> __get_m_DistinctIndexes() const;
 
- ::ArrayW<::UnityEngine::ProBuilder::Edge> __declspec(property(get=__get_m_Edges, put=__set_m_Edges))  m_Edges;
+ ::ArrayW<UnityEngine::ProBuilder::Edge> __declspec(property(get=__get_m_Edges, put=__set_m_Edges))  m_Edges;
 
-constexpr void __set_m_Edges(::ArrayW<::UnityEngine::ProBuilder::Edge> value) ;
+constexpr void __set_m_Edges(::ArrayW<UnityEngine::ProBuilder::Edge> value) ;
 
-constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
+constexpr ::ArrayW<UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
 
 
 // Properties
@@ -142,23 +141,23 @@ constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
 
  ::ArrayW<int32_t> __declspec(property(get=get_indexesInternal, put=set_indexesInternal))  indexesInternal;
 
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> __declspec(property(get=get_indexes))  indexes;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> __declspec(property(get=get_indexes))  indexes;
 
  ::ArrayW<int32_t> __declspec(property(get=get_distinctIndexesInternal))  distinctIndexesInternal;
 
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> __declspec(property(get=get_distinctIndexes))  distinctIndexes;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> __declspec(property(get=get_distinctIndexes))  distinctIndexes;
 
- ::ArrayW<::UnityEngine::ProBuilder::Edge> __declspec(property(get=get_edgesInternal))  edgesInternal;
+ ::ArrayW<UnityEngine::ProBuilder::Edge> __declspec(property(get=get_edgesInternal))  edgesInternal;
 
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge> __declspec(property(get=get_edges))  edges;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge> __declspec(property(get=get_edges))  edges;
 
  int32_t __declspec(property(get=get_smoothingGroup, put=set_smoothingGroup))  smoothingGroup;
 
- ::UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
+ UnityEngine::Material __declspec(property(get=get_material, put=set_material))  material;
 
  int32_t __declspec(property(get=get_submeshIndex, put=set_submeshIndex))  submeshIndex;
 
- ::UnityEngine::ProBuilder::AutoUnwrapSettings __declspec(property(get=get_uv, put=set_uv))  uv;
+ UnityEngine::ProBuilder::AutoUnwrapSettings __declspec(property(get=get_uv, put=set_uv))  uv;
 
  int32_t __declspec(property(get=get_Item))  Item;
 
@@ -184,22 +183,22 @@ constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
  void set_indexesInternal(::ArrayW<int32_t> value) ;
 
 /// @brief Method get_indexes addr 0x29ac818 size 0x7c virtual false final false
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> get_indexes() ;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> get_indexes() ;
 
 /// @brief Method SetIndexes addr 0x29ac894 size 0x110 virtual false final false
- void SetIndexes(::System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
+ void SetIndexes(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
 
 /// @brief Method get_distinctIndexesInternal addr 0x29ac1c4 size 0x14 virtual false final false
  ::ArrayW<int32_t> get_distinctIndexesInternal() ;
 
 /// @brief Method get_distinctIndexes addr 0x29aca18 size 0x8c virtual false final false
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> get_distinctIndexes() ;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t> get_distinctIndexes() ;
 
 /// @brief Method get_edgesInternal addr 0x29ac620 size 0x14 virtual false final false
- ::ArrayW<::UnityEngine::ProBuilder::Edge> get_edgesInternal() ;
+ ::ArrayW<UnityEngine::ProBuilder::Edge> get_edgesInternal() ;
 
 /// @brief Method get_edges addr 0x29acda4 size 0x8c virtual false final false
- ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge> get_edges() ;
+ System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge> get_edges() ;
 
 /// @brief Method get_smoothingGroup addr 0x29ace30 size 0x8 virtual false final false
  int32_t get_smoothingGroup() ;
@@ -208,10 +207,10 @@ constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
  void set_smoothingGroup(int32_t value) ;
 
 /// @brief Method get_material addr 0x29ace40 size 0x8 virtual false final false
- ::UnityEngine::Material get_material() ;
+ UnityEngine::Material get_material() ;
 
 /// @brief Method set_material addr 0x29ace48 size 0x8 virtual false final false
- void set_material(::UnityEngine::Material value) ;
+ void set_material(UnityEngine::Material value) ;
 
 /// @brief Method get_submeshIndex addr 0x29ace50 size 0x8 virtual false final false
  int32_t get_submeshIndex() ;
@@ -220,10 +219,10 @@ constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge> __get_m_Edges() const;
  void set_submeshIndex(int32_t value) ;
 
 /// @brief Method get_uv addr 0x29ace60 size 0x10 virtual false final false
- ::UnityEngine::ProBuilder::AutoUnwrapSettings get_uv() ;
+ UnityEngine::ProBuilder::AutoUnwrapSettings get_uv() ;
 
 /// @brief Method set_uv addr 0x29ace70 size 0x10 virtual false final false
- void set_uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value) ;
+ void set_uv(UnityEngine::ProBuilder::AutoUnwrapSettings value) ;
 
 /// @brief Method get_Item addr 0x29ace80 size 0x30 virtual false final false
  int32_t get_Item(int32_t i) ;
@@ -234,38 +233,38 @@ explicit Face() ;
 /// @brief Method .ctor addr 0x29aceb0 size 0x1c virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "indices", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
-explicit Face(::System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
+// Ctor Parameters [CppParam { name: "indices", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }]
+explicit Face(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
 
 /// @brief Method .ctor addr 0x29acecc size 0xa4 virtual false final false
- void _ctor(::System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
+ void _ctor(System::Collections::Generic::IEnumerable_1<int32_t> indices) ;
 
-// Ctor Parameters [CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m", ty: "::UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "u", ty: "::UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
-explicit Face(::ArrayW<int32_t> triangles, ::UnityEngine::Material m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+// Ctor Parameters [CppParam { name: "triangles", ty: "::ArrayW<int32_t>", modifiers: "", def_value: None }, CppParam { name: "m", ty: "UnityEngine::Material", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
+explicit Face(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
 /// @brief Method .ctor addr 0x29acf70 size 0xc0 virtual false final false
- void _ctor(::ArrayW<int32_t> triangles, ::UnityEngine::Material m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+ void _ctor(::ArrayW<int32_t> triangles, UnityEngine::Material m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
-// Ctor Parameters [CppParam { name: "triangles", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "u", ty: "::UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
-explicit Face(::System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+// Ctor Parameters [CppParam { name: "triangles", ty: "System::Collections::Generic::IEnumerable_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "submeshIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "u", ty: "UnityEngine::ProBuilder::AutoUnwrapSettings", modifiers: "", def_value: None }, CppParam { name: "smoothing", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "element", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "manualUVs", ty: "bool", modifiers: "", def_value: None }]
+explicit Face(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
 /// @brief Method .ctor addr 0x29ad030 size 0xbc virtual false final false
- void _ctor(::System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
+ void _ctor(System::Collections::Generic::IEnumerable_1<int32_t> triangles, int32_t submeshIndex, UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element, bool manualUVs) ;
 
-// Ctor Parameters [CppParam { name: "other", ty: "::UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
-explicit Face(::UnityEngine::ProBuilder::Face other) ;
+// Ctor Parameters [CppParam { name: "other", ty: "UnityEngine::ProBuilder::Face", modifiers: "", def_value: None }]
+explicit Face(UnityEngine::ProBuilder::Face other) ;
 
 /// @brief Method .ctor addr 0x29ad0ec size 0x2c virtual false final false
- void _ctor(::UnityEngine::ProBuilder::Face other) ;
+ void _ctor(UnityEngine::ProBuilder::Face other) ;
 
 /// @brief Method CopyFrom addr 0x29ad118 size 0x13c virtual false final false
- void CopyFrom(::UnityEngine::ProBuilder::Face other) ;
+ void CopyFrom(UnityEngine::ProBuilder::Face other) ;
 
 /// @brief Method InvalidateCache addr 0x29ac810 size 0x8 virtual false final false
  void InvalidateCache() ;
 
 /// @brief Method CacheEdges addr 0x29acaa4 size 0x300 virtual false final false
- ::ArrayW<::UnityEngine::ProBuilder::Edge> CacheEdges() ;
+ ::ArrayW<UnityEngine::ProBuilder::Edge> CacheEdges() ;
 
 /// @brief Method CacheDistinctIndexes addr 0x29ac9a4 size 0x74 virtual false final false
  ::ArrayW<int32_t> CacheDistinctIndexes() ;
@@ -295,18 +294,17 @@ explicit Face(::UnityEngine::ProBuilder::Face other) ;
  void Reverse() ;
 
 /// @brief Method GetIndices addr 0x29ad9c8 size 0x3c4 virtual false final false
-static void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face> faces, ::System::Collections::Generic::List_1<int32_t> indices) ;
+static void GetIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face> faces, System::Collections::Generic::List_1<int32_t> indices) ;
 
 /// @brief Method GetDistinctIndices addr 0x29add8c size 0x3ec virtual false final false
-static void GetDistinctIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face> faces, ::System::Collections::Generic::List_1<int32_t> indices) ;
+static void GetDistinctIndices(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face> faces, System::Collections::Generic::List_1<int32_t> indices) ;
 
 /// @brief Method TryGetNextEdge addr 0x29ae178 size 0x16c virtual false final false
- bool TryGetNextEdge(::UnityEngine::ProBuilder::Edge source, int32_t index, ByRef<::UnityEngine::ProBuilder::Edge> nextEdge, ByRef<int32_t> nextIndex) ;
+ bool TryGetNextEdge(UnityEngine::ProBuilder::Edge source, int32_t index, ByRef<UnityEngine::ProBuilder::Edge> nextEdge, ByRef<int32_t> nextIndex) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ProBuilder
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ProBuilder::Face);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Face, "UnityEngine.ProBuilder", "Face");
+NEED_NO_BOX(UnityEngine::ProBuilder::Face);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face, "UnityEngine.ProBuilder", "Face");

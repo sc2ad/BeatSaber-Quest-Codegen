@@ -3,20 +3,19 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
+namespace System::Collections::Generic {
+template<typename T>
+class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template<typename T>
 class ICollection_1;
 }
-namespace System::Collections::ObjectModel {
-template<typename T>
-class Collection_1;
+namespace System::Net::NetworkInformation {
+class UnicastIPAddressInformation;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System::Net::NetworkInformation {
-class UnicastIPAddressInformation;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -25,9 +24,9 @@ namespace System::Collections::Generic {
 template<typename T>
 class IEnumerator_1;
 }
-namespace System::Collections::Generic {
+namespace System::Collections::ObjectModel {
 template<typename T>
-class IEnumerable_1;
+class Collection_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -42,14 +41,14 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE UnicastIPAddressInformationCollection : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation>
-constexpr operator  ::System::Collections::Generic::ICollection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation>
+constexpr operator  System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::UnicastIPAddressInformation>
-constexpr operator  ::System::Collections::Generic::IEnumerable_1<::System::Net::NetworkInformation::UnicastIPAddressInformation>() const noexcept;
+/// @brief Convert operator to System::Collections::Generic::IEnumerable_1<System::Net::NetworkInformation::UnicastIPAddressInformation>
+constexpr operator  System::Collections::Generic::IEnumerable_1<System::Net::NetworkInformation::UnicastIPAddressInformation>() const noexcept;
 
-/// @brief Convert operator to ::System::Collections::IEnumerable
-constexpr operator  ::System::Collections::IEnumerable() const noexcept;
+/// @brief Convert operator to System::Collections::IEnumerable
+constexpr operator  System::Collections::IEnumerable() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -84,11 +83,11 @@ constexpr explicit UnicastIPAddressInformationCollection(void* ptr) noexcept : :
 
 // Fields
 
- ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation> __declspec(property(get=__get_addresses, put=__set_addresses))  addresses;
+ System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation> __declspec(property(get=__get_addresses, put=__set_addresses))  addresses;
 
-constexpr void __set_addresses(::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation> value) ;
+constexpr void __set_addresses(System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation> value) ;
 
-constexpr ::System::Collections::ObjectModel::Collection_1<::System::Net::NetworkInformation::UnicastIPAddressInformation> __get_addresses() const;
+constexpr System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation> __get_addresses() const;
 
 
 // Properties
@@ -107,7 +106,7 @@ explicit UnicastIPAddressInformationCollection() ;
  void _ctor() ;
 
 /// @brief Method CopyTo addr 0x2859694 size 0x68 virtual true final false
- void CopyTo(::ArrayW<::System::Net::NetworkInformation::UnicastIPAddressInformation> array, int32_t offset) ;
+ void CopyTo(::ArrayW<System::Net::NetworkInformation::UnicastIPAddressInformation> array, int32_t offset) ;
 
 /// @brief Method get_Count addr 0x28596fc size 0x50 virtual true final false
  int32_t get_Count() ;
@@ -116,22 +115,22 @@ explicit UnicastIPAddressInformationCollection() ;
  bool get_IsReadOnly() ;
 
 /// @brief Method Add addr 0x2859754 size 0x60 virtual true final false
- void Add(::System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
+ void Add(System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
 
 /// @brief Method InternalAdd addr 0x28597b4 size 0x58 virtual false final false
- void InternalAdd(::System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
+ void InternalAdd(System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
 
 /// @brief Method Contains addr 0x285980c size 0x58 virtual true final false
- bool Contains(::System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
+ bool Contains(System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
 
 /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2859864 size 0x10 virtual true final true
- ::System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
+ System::Collections::IEnumerator System_Collections_IEnumerable_GetEnumerator() ;
 
 /// @brief Method GetEnumerator addr 0x2859874 size 0x50 virtual true final false
- ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::UnicastIPAddressInformation> GetEnumerator() ;
+ System::Collections::Generic::IEnumerator_1<System::Net::NetworkInformation::UnicastIPAddressInformation> GetEnumerator() ;
 
 /// @brief Method Remove addr 0x28598c4 size 0x60 virtual true final false
- bool Remove(::System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
+ bool Remove(System::Net::NetworkInformation::UnicastIPAddressInformation address) ;
 
 /// @brief Method Clear addr 0x2859924 size 0x60 virtual true final false
  void Clear() ;
@@ -140,6 +139,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Net::NetworkInformation
-} // end anonymous namespace
-NEED_NO_BOX(::System::Net::NetworkInformation::UnicastIPAddressInformationCollection);
-DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::UnicastIPAddressInformationCollection, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");
+NEED_NO_BOX(System::Net::NetworkInformation::UnicastIPAddressInformationCollection);
+DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnicastIPAddressInformationCollection, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");

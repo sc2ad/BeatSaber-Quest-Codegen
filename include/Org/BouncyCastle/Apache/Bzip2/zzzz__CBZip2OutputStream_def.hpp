@@ -4,22 +4,21 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace Org::BouncyCastle::Apache::Bzip2 {
 class CRC;
 }
 namespace System::IO {
 class Stream;
 }
+namespace System::IO {
+struct SeekOrigin;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Apache::Bzip2 {
 class CBZip2OutputStream;
 }
 namespace Org::BouncyCastle::Apache::Bzip2 {
-class ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem;
+class Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem;
 }
 // Type: ::StackElem
 namespace Org::BouncyCastle::Apache::Bzip2 {
@@ -27,37 +26,37 @@ namespace Org::BouncyCastle::Apache::Bzip2 {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1633))
 // CS Name: Org.BouncyCastle.Apache.Bzip2.CBZip2OutputStream::StackElem
-class CORDL_TYPE ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x20};
 
-virtual ~____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem() = default;
+virtual ~Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem", modifiers: " const&", def_value: None }]
-constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem", modifiers: " const&", def_value: None }]
+constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem", modifiers: "&&", def_value: None }]
-constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem", modifiers: "&&", def_value: None }]
+constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(std::nullptr_t) noexcept {
+  constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(void* o) noexcept {
+  constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem&& o) noexcept = default;
-  constexpr ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem const& o) noexcept = default;
+  constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem&& o) noexcept = default;
+  constexpr Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem& operator=(Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem const& o) noexcept = default;
                 
 
 
@@ -85,7 +84,7 @@ constexpr int32_t __get_dd() const;
 // Methods
 
 // Ctor Parameters []
-explicit ____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem() ;
+explicit Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem() ;
 
 /// @brief Method .ctor addr 0x101c938 size 0x8 virtual false final false
  void _ctor() ;
@@ -100,10 +99,10 @@ namespace Org::BouncyCastle::Apache::Bzip2 {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3604))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1634))
 // CS Name: Org.BouncyCastle.Apache.Bzip2.CBZip2OutputStream
-class CORDL_TYPE CBZip2OutputStream : public ::System::IO::Stream {
+class CORDL_TYPE CBZip2OutputStream : public System::IO::Stream {
 public:
 // Declarations
-using StackElem = ::Org::BouncyCastle::Apache::Bzip2::____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem;
+using StackElem = Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0xf8};
@@ -117,7 +116,7 @@ constexpr CBZip2OutputStream(CBZip2OutputStream const& ) noexcept = default;
 constexpr CBZip2OutputStream(CBZip2OutputStream&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit CBZip2OutputStream(void* ptr) noexcept : ::System::IO::Stream(ptr) {
+constexpr explicit CBZip2OutputStream(void* ptr) noexcept : System::IO::Stream(ptr) {
 }
 
 
@@ -207,11 +206,11 @@ constexpr void __set_bsLive(int32_t value) ;
 
 constexpr int32_t __get_bsLive() const;
 
- ::Org::BouncyCastle::Apache::Bzip2::CRC __declspec(property(get=__get_mCrc, put=__set_mCrc))  mCrc;
+ Org::BouncyCastle::Apache::Bzip2::CRC __declspec(property(get=__get_mCrc, put=__set_mCrc))  mCrc;
 
-constexpr void __set_mCrc(::Org::BouncyCastle::Apache::Bzip2::CRC value) ;
+constexpr void __set_mCrc(Org::BouncyCastle::Apache::Bzip2::CRC value) ;
 
-constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC __get_mCrc() const;
+constexpr Org::BouncyCastle::Apache::Bzip2::CRC __get_mCrc() const;
 
  ::ArrayW<bool> __declspec(property(get=__get_inUse, put=__set_inUse))  inUse;
 
@@ -357,11 +356,11 @@ constexpr void __set_allowableBlockSize(int32_t value) ;
 
 constexpr int32_t __get_allowableBlockSize() const;
 
- ::System::IO::Stream __declspec(property(get=__get_bsStream, put=__set_bsStream))  bsStream;
+ System::IO::Stream __declspec(property(get=__get_bsStream, put=__set_bsStream))  bsStream;
 
-constexpr void __set_bsStream(::System::IO::Stream value) ;
+constexpr void __set_bsStream(System::IO::Stream value) ;
 
-constexpr ::System::IO::Stream __get_bsStream() const;
+constexpr System::IO::Stream __get_bsStream() const;
 
  ::ArrayW<int32_t> __declspec(property(get=__get_incs, put=__set_incs))  incs;
 
@@ -394,17 +393,17 @@ static void Panic() ;
 /// @brief Method HbMakeCodeLengths addr 0x1019b78 size 0x62c virtual false final false
 static void HbMakeCodeLengths(::ArrayW<char16_t> len, ::ArrayW<int32_t> freq, int32_t alphaSize, int32_t maxLen) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }]
-explicit CBZip2OutputStream(::System::IO::Stream inStream) ;
+// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }]
+explicit CBZip2OutputStream(System::IO::Stream inStream) ;
 
 /// @brief Method .ctor addr 0x1019a48 size 0x8 virtual false final false
- void _ctor(::System::IO::Stream inStream) ;
+ void _ctor(System::IO::Stream inStream) ;
 
-// Ctor Parameters [CppParam { name: "inStream", ty: "::System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "inBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
-explicit CBZip2OutputStream(::System::IO::Stream inStream, int32_t inBlockSize) ;
+// Ctor Parameters [CppParam { name: "inStream", ty: "System::IO::Stream", modifiers: "", def_value: None }, CppParam { name: "inBlockSize", ty: "int32_t", modifiers: "", def_value: None }]
+explicit CBZip2OutputStream(System::IO::Stream inStream, int32_t inBlockSize) ;
 
 /// @brief Method .ctor addr 0x101a1a4 size 0x20c virtual false final false
- void _ctor(::System::IO::Stream inStream, int32_t inBlockSize) ;
+ void _ctor(System::IO::Stream inStream, int32_t inBlockSize) ;
 
 /// @brief Method WriteByte addr 0x101a550 size 0x7c virtual true final false
  void WriteByte(uint8_t bv) ;
@@ -437,7 +436,7 @@ explicit CBZip2OutputStream(::System::IO::Stream inStream, int32_t inBlockSize) 
  void HbAssignCodes(::ArrayW<int32_t> code, ::ArrayW<char16_t> length, int32_t minLen, int32_t maxLen, int32_t alphaSize) ;
 
 /// @brief Method BsSetStream addr 0x101a3b0 size 0x10 virtual false final false
- void BsSetStream(::System::IO::Stream f) ;
+ void BsSetStream(System::IO::Stream f) ;
 
 /// @brief Method BsFinishedWithStream addr 0x101ac60 size 0xec virtual false final false
  void BsFinishedWithStream() ;
@@ -494,7 +493,7 @@ explicit CBZip2OutputStream(::System::IO::Stream inStream, int32_t inBlockSize) 
  int32_t Read(::ArrayW<uint8_t> buffer, int32_t offset, int32_t count) ;
 
 /// @brief Method Seek addr 0x101d278 size 0x8 virtual true final false
- int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin) ;
+ int64_t Seek(int64_t offset, System::IO::SeekOrigin origin) ;
 
 /// @brief Method SetLength addr 0x101d280 size 0x4 virtual true final false
  void SetLength(int64_t value) ;
@@ -524,8 +523,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Apache::Bzip2
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream, "Org.BouncyCastle.Apache.Bzip2", "CBZip2OutputStream");
-NEED_NO_BOX(::Org::BouncyCastle::Apache::Bzip2::____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Apache::Bzip2::____Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem, "Org.BouncyCastle.Apache.Bzip2", "CBZip2OutputStream/StackElem");
+NEED_NO_BOX(Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream, "Org.BouncyCastle.Apache.Bzip2", "CBZip2OutputStream");
+NEED_NO_BOX(Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Apache::Bzip2::Org__BouncyCastle__Apache__Bzip2__CBZip2OutputStream__StackElem, "Org.BouncyCastle.Apache.Bzip2", "CBZip2OutputStream/StackElem");

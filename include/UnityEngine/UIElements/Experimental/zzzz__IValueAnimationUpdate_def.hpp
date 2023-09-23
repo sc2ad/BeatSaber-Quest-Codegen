@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
 class IValueAnimationUpdate;
@@ -31,6 +30,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::Experimental
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate, "UnityEngine.UIElements.Experimental", "IValueAnimationUpdate");
+NEED_NO_BOX(UnityEngine::UIElements::Experimental::IValueAnimationUpdate);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Experimental::IValueAnimationUpdate, "UnityEngine.UIElements.Experimental", "IValueAnimationUpdate");

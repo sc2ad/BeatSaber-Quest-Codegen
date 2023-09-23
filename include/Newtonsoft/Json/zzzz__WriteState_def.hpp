@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace Newtonsoft::Json {
 struct WriteState;
@@ -72,29 +71,28 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Error offset 0
-static ::Newtonsoft::Json::WriteState const Error;
+static Newtonsoft::Json::WriteState const Error;
 
 /// @brief Field Closed offset 0
-static ::Newtonsoft::Json::WriteState const Closed;
+static Newtonsoft::Json::WriteState const Closed;
 
 /// @brief Field Object offset 0
-static ::Newtonsoft::Json::WriteState const Object;
+static Newtonsoft::Json::WriteState const Object;
 
 /// @brief Field Array offset 0
-static ::Newtonsoft::Json::WriteState const Array;
+static Newtonsoft::Json::WriteState const Array;
 
 /// @brief Field Constructor offset 0
-static ::Newtonsoft::Json::WriteState const Constructor;
+static Newtonsoft::Json::WriteState const Constructor;
 
 /// @brief Field Property offset 0
-static ::Newtonsoft::Json::WriteState const Property;
+static Newtonsoft::Json::WriteState const Property;
 
 /// @brief Field Start offset 0
-static ::Newtonsoft::Json::WriteState const Start;
+static Newtonsoft::Json::WriteState const Start;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def Newtonsoft::Json
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::WriteState, "Newtonsoft.Json", "WriteState");
+DEFINE_IL2CPP_ARG_TYPE(Newtonsoft::Json::WriteState, "Newtonsoft.Json", "WriteState");

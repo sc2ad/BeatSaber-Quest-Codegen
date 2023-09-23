@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspRespStatus_def.hpp"
-namespace {
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
 class OcscpRespStatus;
@@ -12,7 +11,7 @@ namespace Org::BouncyCastle::Ocsp {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1618))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1619))
 // CS Name: Org.BouncyCastle.Ocsp.OcscpRespStatus
-class CORDL_TYPE OcscpRespStatus : public ::Org::BouncyCastle::Ocsp::OcspRespStatus {
+class CORDL_TYPE OcscpRespStatus : public Org::BouncyCastle::Ocsp::OcspRespStatus {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr OcscpRespStatus(OcscpRespStatus const& ) noexcept = default;
 constexpr OcscpRespStatus(OcscpRespStatus&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit OcscpRespStatus(void* ptr) noexcept : ::Org::BouncyCastle::Ocsp::OcspRespStatus(ptr) {
+constexpr explicit OcscpRespStatus(void* ptr) noexcept : Org::BouncyCastle::Ocsp::OcspRespStatus(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Ocsp
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Ocsp::OcscpRespStatus);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Ocsp::OcscpRespStatus, "Org.BouncyCastle.Ocsp", "OcscpRespStatus");
+NEED_NO_BOX(Org::BouncyCastle::Ocsp::OcscpRespStatus);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Ocsp::OcscpRespStatus, "Org.BouncyCastle.Ocsp", "OcscpRespStatus");

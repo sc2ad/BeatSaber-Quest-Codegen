@@ -6,7 +6,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace System {
 template<typename T,typename TResult>
 class Func_2;
@@ -15,27 +14,27 @@ namespace System {
 struct Guid;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
 class InputAction;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
+struct UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
 }
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputBinding__Flags;
+struct UnityEngine__InputSystem__InputBinding__Flags;
 }
 namespace UnityEngine::InputSystem {
-struct ____UnityEngine__InputSystem__InputBinding__MatchOptions;
+struct UnityEngine__InputSystem__InputBinding__MatchOptions;
 }
 namespace UnityEngine::InputSystem {
-class ____UnityEngine__InputSystem__InputBinding____c;
+class UnityEngine__InputSystem__InputBinding____c;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
@@ -46,20 +45,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6266))
 // CS Name: UnityEngine.InputSystem.InputBinding::DisplayStringOptions
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputBinding__DisplayStringOptions : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputBinding__DisplayStringOptions(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions(____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions(____UnityEngine__InputSystem__InputBinding__DisplayStringOptions&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions& operator=(____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const& o) {
+                    constexpr UnityEngine__InputSystem__InputBinding__DisplayStringOptions(UnityEngine__InputSystem__InputBinding__DisplayStringOptions const&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__DisplayStringOptions(UnityEngine__InputSystem__InputBinding__DisplayStringOptions&&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__DisplayStringOptions& operator=(UnityEngine__InputSystem__InputBinding__DisplayStringOptions const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions& operator=(____UnityEngine__InputSystem__InputBinding__DisplayStringOptions&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputBinding__DisplayStringOptions& operator=(UnityEngine__InputSystem__InputBinding__DisplayStringOptions&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -72,7 +71,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputBinding__DisplayStringOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputBinding__DisplayStringOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -80,7 +79,7 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped : int32_t {
 __DontUseShortDisplayNames = 1,
 __DontOmitDevice = 2,
 __DontIncludeInteractions = 4,
@@ -88,8 +87,8 @@ __IgnoreBindingOverrides = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputBinding__DisplayStringOptions_Unwrapped>(__instance);
 }
 
 
@@ -102,16 +101,16 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field DontUseShortDisplayNames offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontUseShortDisplayNames;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontUseShortDisplayNames;
 
 /// @brief Field DontOmitDevice offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontOmitDevice;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontOmitDevice;
 
 /// @brief Field DontIncludeInteractions offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontIncludeInteractions;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions const DontIncludeInteractions;
 
 /// @brief Field IgnoreBindingOverrides offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions const IgnoreBindingOverrides;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions const IgnoreBindingOverrides;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -123,20 +122,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6267))
 // CS Name: UnityEngine.InputSystem.InputBinding::MatchOptions
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputBinding__MatchOptions : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputBinding__MatchOptions : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputBinding__MatchOptions(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputBinding__MatchOptions(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputBinding__MatchOptions(____UnityEngine__InputSystem__InputBinding__MatchOptions const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__MatchOptions(____UnityEngine__InputSystem__InputBinding__MatchOptions&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__MatchOptions& operator=(____UnityEngine__InputSystem__InputBinding__MatchOptions const& o) {
+                    constexpr UnityEngine__InputSystem__InputBinding__MatchOptions(UnityEngine__InputSystem__InputBinding__MatchOptions const&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__MatchOptions(UnityEngine__InputSystem__InputBinding__MatchOptions&&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__MatchOptions& operator=(UnityEngine__InputSystem__InputBinding__MatchOptions const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputBinding__MatchOptions& operator=(____UnityEngine__InputSystem__InputBinding__MatchOptions&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputBinding__MatchOptions& operator=(UnityEngine__InputSystem__InputBinding__MatchOptions&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -149,7 +148,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputBinding__MatchOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputBinding__MatchOptions(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -157,13 +156,13 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped : int32_t {
 __EmptyGroupMatchesAny = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputBinding__MatchOptions_Unwrapped>(__instance);
 }
 
 
@@ -176,7 +175,7 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field EmptyGroupMatchesAny offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__MatchOptions const EmptyGroupMatchesAny;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__MatchOptions const EmptyGroupMatchesAny;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -188,20 +187,20 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6268))
 // CS Name: UnityEngine.InputSystem.InputBinding::Flags
-struct CORDL_TYPE ____UnityEngine__InputSystem__InputBinding__Flags : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE UnityEngine__InputSystem__InputBinding__Flags : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputBinding__Flags(int32_t value__) noexcept;
+constexpr UnityEngine__InputSystem__InputBinding__Flags(int32_t value__) noexcept;
 
 
-                    constexpr ____UnityEngine__InputSystem__InputBinding__Flags(____UnityEngine__InputSystem__InputBinding__Flags const&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__Flags(____UnityEngine__InputSystem__InputBinding__Flags&&) = default;
-                    constexpr ____UnityEngine__InputSystem__InputBinding__Flags& operator=(____UnityEngine__InputSystem__InputBinding__Flags const& o) {
+                    constexpr UnityEngine__InputSystem__InputBinding__Flags(UnityEngine__InputSystem__InputBinding__Flags const&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__Flags(UnityEngine__InputSystem__InputBinding__Flags&&) = default;
+                    constexpr UnityEngine__InputSystem__InputBinding__Flags& operator=(UnityEngine__InputSystem__InputBinding__Flags const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__InputSystem__InputBinding__Flags& operator=(____UnityEngine__InputSystem__InputBinding__Flags&& o) noexcept {
+                    constexpr UnityEngine__InputSystem__InputBinding__Flags& operator=(UnityEngine__InputSystem__InputBinding__Flags&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -214,7 +213,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputBinding__Flags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__InputSystem__InputBinding__Flags(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -222,15 +221,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______UnityEngine__InputSystem__InputBinding__Flags_Unwrapped : int32_t {
+enum class __UnityEngine__InputSystem__InputBinding__Flags_Unwrapped : int32_t {
 __None = 0,
 __Composite = 4,
 __PartOfComposite = 8,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______UnityEngine__InputSystem__InputBinding__Flags_Unwrapped () const noexcept {
-return std::bit_cast<______UnityEngine__InputSystem__InputBinding__Flags_Unwrapped>(__instance);
+constexpr operator __UnityEngine__InputSystem__InputBinding__Flags_Unwrapped () const noexcept {
+return std::bit_cast<__UnityEngine__InputSystem__InputBinding__Flags_Unwrapped>(__instance);
 }
 
 
@@ -243,13 +242,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags const None;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags const None;
 
 /// @brief Field Composite offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags const Composite;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags const Composite;
 
 /// @brief Field PartOfComposite offset 0
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags const PartOfComposite;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags const PartOfComposite;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -261,59 +260,59 @@ namespace UnityEngine::InputSystem {
 // Dependencies: {}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6269))
 // CS Name: UnityEngine.InputSystem.InputBinding::<>c
-class CORDL_TYPE ____UnityEngine__InputSystem__InputBinding____c : public ::bs_hook::Il2CppWrapperType {
+class CORDL_TYPE UnityEngine__InputSystem__InputBinding____c : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
 
-virtual ~____UnityEngine__InputSystem__InputBinding____c() = default;
+virtual ~UnityEngine__InputSystem__InputBinding____c() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__InputBinding____c", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputBinding____c(____UnityEngine__InputSystem__InputBinding____c const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__InputBinding____c", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__InputSystem__InputBinding____c(UnityEngine__InputSystem__InputBinding____c const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__InputSystem__InputBinding____c", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__InputSystem__InputBinding____c(____UnityEngine__InputSystem__InputBinding____c&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__InputSystem__InputBinding____c", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__InputSystem__InputBinding____c(UnityEngine__InputSystem__InputBinding____c&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__InputSystem__InputBinding____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
+constexpr explicit UnityEngine__InputSystem__InputBinding____c(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr) {
 }
 
 
-  constexpr ____UnityEngine__InputSystem__InputBinding____c& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__InputSystem__InputBinding____c& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__InputBinding____c& operator=(void* o) noexcept {
+  constexpr UnityEngine__InputSystem__InputBinding____c& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__InputSystem__InputBinding____c& operator=(____UnityEngine__InputSystem__InputBinding____c&& o) noexcept = default;
-  constexpr ____UnityEngine__InputSystem__InputBinding____c& operator=(____UnityEngine__InputSystem__InputBinding____c const& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__InputBinding____c& operator=(UnityEngine__InputSystem__InputBinding____c&& o) noexcept = default;
+  constexpr UnityEngine__InputSystem__InputBinding____c& operator=(UnityEngine__InputSystem__InputBinding____c const& o) noexcept = default;
                 
 
 
 // Fields
 
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c __declspec(property(get=__get___9, put=__set___9))  __9;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c __declspec(property(get=__get___9, put=__set___9))  __9;
 
-static void __set___9(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c value) ;
+static void __set___9(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c value) ;
 
-static ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c __get___9() ;
+static UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c __get___9() ;
 
-static ::System::Func_2<::StringW,bool> __declspec(property(get=__get___9__45_0, put=__set___9__45_0))  __9__45_0;
+static System::Func_2<::StringW,bool> __declspec(property(get=__get___9__45_0, put=__set___9__45_0))  __9__45_0;
 
-static void __set___9__45_0(::System::Func_2<::StringW,bool> value) ;
+static void __set___9__45_0(System::Func_2<::StringW,bool> value) ;
 
-static ::System::Func_2<::StringW,bool> __get___9__45_0() ;
+static System::Func_2<::StringW,bool> __get___9__45_0() ;
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__InputSystem__InputBinding____c() ;
+explicit UnityEngine__InputSystem__InputBinding____c() ;
 
 /// @brief Method .ctor addr 0x28c3418 size 0x8 virtual false final false
  void _ctor() ;
@@ -334,19 +333,19 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE InputBinding : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-using __c = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c;
+using __c = UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c;
 
-using Flags = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags;
+using Flags = UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags;
 
-using MatchOptions = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__MatchOptions;
+using MatchOptions = UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__MatchOptions;
 
-using DisplayStringOptions = ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
+using DisplayStringOptions = UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions;
 
-/// @brief Convert operator to ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>
-constexpr operator  ::System::IEquatable_1<::UnityEngine::InputSystem::InputBinding>() const;
+/// @brief Convert operator to System::IEquatable_1<UnityEngine::InputSystem::InputBinding>
+constexpr operator  System::IEquatable_1<UnityEngine::InputSystem::InputBinding>() const;
 
-// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Processors", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags", modifiers: "", def_value: None }, CppParam { name: "m_OverridePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_OverrideProcessors", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr InputBinding(::StringW m_Name, ::StringW m_Id, ::StringW m_Path, ::StringW m_Interactions, ::StringW m_Processors, ::StringW m_Groups, ::StringW m_Action, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags m_Flags, ::StringW m_OverridePath, ::StringW m_OverrideInteractions, ::StringW m_OverrideProcessors) noexcept;
+// Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Interactions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Processors", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Groups", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Action", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags", modifiers: "", def_value: None }, CppParam { name: "m_OverridePath", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_OverrideInteractions", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_OverrideProcessors", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr InputBinding(::StringW m_Name, ::StringW m_Id, ::StringW m_Path, ::StringW m_Interactions, ::StringW m_Processors, ::StringW m_Groups, ::StringW m_Action, UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags m_Flags, ::StringW m_OverridePath, ::StringW m_OverrideInteractions, ::StringW m_OverrideProcessors) noexcept;
 
 
                     constexpr InputBinding(InputBinding const&) = default;
@@ -427,11 +426,11 @@ constexpr void __set_m_Action(::StringW value) ;
 
 constexpr ::StringW __get_m_Action() const;
 
- ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
+ UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags __declspec(property(get=__get_m_Flags, put=__set_m_Flags))  m_Flags;
 
-constexpr void __set_m_Flags(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags value) ;
+constexpr void __set_m_Flags(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags value) ;
 
-constexpr ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags __get_m_Flags() const;
+constexpr UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags __get_m_Flags() const;
 
  ::StringW __declspec(property(get=__get_m_OverridePath, put=__set_m_OverridePath))  m_OverridePath;
 
@@ -456,7 +455,7 @@ constexpr ::StringW __get_m_OverrideProcessors() const;
 
  ::StringW __declspec(property(get=get_name, put=set_name))  name;
 
- ::System::Guid __declspec(property(get=get_id, put=set_id))  id;
+ System::Guid __declspec(property(get=get_id, put=set_id))  id;
 
  ::StringW __declspec(property(get=get_path, put=set_path))  path;
 
@@ -498,10 +497,10 @@ constexpr ::StringW __get_m_OverrideProcessors() const;
  void set_name(::StringW value) ;
 
 /// @brief Method get_id addr 0x28c2694 size 0x48 virtual false final false
- ::System::Guid get_id() ;
+ System::Guid get_id() ;
 
 /// @brief Method set_id addr 0x28c26dc size 0x2c virtual false final false
- void set_id(::System::Guid value) ;
+ void set_id(System::Guid value) ;
 
 /// @brief Method get_path addr 0x28c2708 size 0x8 virtual false final false
  ::StringW get_path() ;
@@ -579,10 +578,10 @@ constexpr ::StringW __get_m_OverrideProcessors() const;
  void RemoveOverrides() ;
 
 /// @brief Method MaskByGroup addr 0x28c2870 size 0x18 virtual false final false
-static ::UnityEngine::InputSystem::InputBinding MaskByGroup(::StringW group) ;
+static UnityEngine::InputSystem::InputBinding MaskByGroup(::StringW group) ;
 
 /// @brief Method MaskByGroups addr 0x28c2888 size 0x160 virtual false final false
-static ::UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW> groups) ;
+static UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW> groups) ;
 
 /// @brief Method get_effectivePath addr 0x28bb94c size 0x18 virtual false final false
  ::StringW get_effectivePath() ;
@@ -597,16 +596,16 @@ static ::UnityEngine::InputSystem::InputBinding MaskByGroups(::ArrayW<::StringW>
  bool get_isEmpty() ;
 
 /// @brief Method Equals addr 0x28c2a64 size 0xcc virtual true final true
- bool Equals(::UnityEngine::InputSystem::InputBinding other) ;
+ bool Equals(UnityEngine::InputSystem::InputBinding other) ;
 
 /// @brief Method Equals addr 0x28c2b30 size 0x90 virtual true final false
  bool Equals(::bs_hook::Il2CppWrapperType obj) ;
 
 /// @brief Method op_Equality addr 0x28baa68 size 0x34 virtual false final false
-static bool op_Equality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right) ;
+static bool op_Equality(UnityEngine::InputSystem::InputBinding left, UnityEngine::InputSystem::InputBinding right) ;
 
 /// @brief Method op_Inequality addr 0x28c2bc0 size 0x4c virtual false final false
-static bool op_Inequality(::UnityEngine::InputSystem::InputBinding left, ::UnityEngine::InputSystem::InputBinding right) ;
+static bool op_Inequality(UnityEngine::InputSystem::InputBinding left, UnityEngine::InputSystem::InputBinding right) ;
 
 /// @brief Method GetHashCode addr 0x28c2c0c size 0xfc virtual true final false
  int32_t GetHashCode() ;
@@ -615,28 +614,27 @@ static bool op_Inequality(::UnityEngine::InputSystem::InputBinding left, ::Unity
  ::StringW ToString() ;
 
 /// @brief Method ToDisplayString addr 0x28c2e0c size 0x2c virtual false final false
- ::StringW ToDisplayString(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl control) ;
+ ::StringW ToDisplayString(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions options, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method ToDisplayString addr 0x28c2e38 size 0x46c virtual false final false
- ::StringW ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions options, ::UnityEngine::InputSystem::InputControl control) ;
+ ::StringW ToDisplayString(ByRef<::StringW> deviceLayoutName, ByRef<::StringW> controlPath, UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions options, UnityEngine::InputSystem::InputControl control) ;
 
 /// @brief Method TriggersAction addr 0x28b9f2c size 0x58 virtual false final false
- bool TriggersAction(::UnityEngine::InputSystem::InputAction action) ;
+ bool TriggersAction(UnityEngine::InputSystem::InputAction action) ;
 
 /// @brief Method Matches addr 0x28c32a4 size 0x8 virtual false final false
- bool Matches(::UnityEngine::InputSystem::InputBinding binding) ;
+ bool Matches(UnityEngine::InputSystem::InputBinding binding) ;
 
 /// @brief Method Matches addr 0x28c32ac size 0x108 virtual false final false
- bool Matches(ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__MatchOptions options) ;
+ bool Matches(ByRef<UnityEngine::InputSystem::InputBinding> binding, UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__MatchOptions options) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__DisplayStringOptions, "UnityEngine.InputSystem", "InputBinding/DisplayStringOptions");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__Flags, "UnityEngine.InputSystem", "InputBinding/Flags");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding__MatchOptions, "UnityEngine.InputSystem", "InputBinding/MatchOptions");
-NEED_NO_BOX(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::____UnityEngine__InputSystem__InputBinding____c, "UnityEngine.InputSystem", "InputBinding/<>c");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputBinding, "UnityEngine.InputSystem", "InputBinding");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__DisplayStringOptions, "UnityEngine.InputSystem", "InputBinding/DisplayStringOptions");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__Flags, "UnityEngine.InputSystem", "InputBinding/Flags");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding__MatchOptions, "UnityEngine.InputSystem", "InputBinding/MatchOptions");
+NEED_NO_BOX(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::UnityEngine__InputSystem__InputBinding____c, "UnityEngine.InputSystem", "InputBinding/<>c");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputBinding, "UnityEngine.InputSystem", "InputBinding");

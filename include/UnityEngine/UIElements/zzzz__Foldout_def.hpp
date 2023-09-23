@@ -4,10 +4,9 @@
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements {
 template<typename T>
-class ChangeEvent_1;
+class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -16,14 +15,11 @@ namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-template<typename T>
-class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
 class Toggle;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+template<typename T>
+class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -34,15 +30,18 @@ class IUxmlAttributes;
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
+namespace UnityEngine::UIElements {
+struct CreationContext;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class Foldout;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__Foldout__UxmlFactory;
+class UnityEngine__UIElements__Foldout__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class ____UnityEngine__UIElements__Foldout__UxmlTraits;
+class UnityEngine__UIElements__Foldout__UxmlTraits;
 }
 // Type: ::UxmlTraits
 namespace UnityEngine::UIElements {
@@ -50,62 +49,62 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6885))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
 // CS Name: UnityEngine.UIElements.Foldout::UxmlTraits
-class CORDL_TYPE ____UnityEngine__UIElements__Foldout__UxmlTraits : public ::UnityEngine::UIElements::____UnityEngine__UIElements__BindableElement__UxmlTraits {
+class CORDL_TYPE UnityEngine__UIElements__Foldout__UxmlTraits : public UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x88};
 
-virtual ~____UnityEngine__UIElements__Foldout__UxmlTraits() = default;
+virtual ~UnityEngine__UIElements__Foldout__UxmlTraits() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Foldout__UxmlTraits", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits(____UnityEngine__UIElements__Foldout__UxmlTraits const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Foldout__UxmlTraits", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__Foldout__UxmlTraits(UnityEngine__UIElements__Foldout__UxmlTraits const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Foldout__UxmlTraits", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits(____UnityEngine__UIElements__Foldout__UxmlTraits&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Foldout__UxmlTraits", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__Foldout__UxmlTraits(UnityEngine__UIElements__Foldout__UxmlTraits&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__Foldout__UxmlTraits(void* ptr) noexcept : ::UnityEngine::UIElements::____UnityEngine__UIElements__BindableElement__UxmlTraits(ptr) {
+constexpr explicit UnityEngine__UIElements__Foldout__UxmlTraits(void* ptr) noexcept : UnityEngine::UIElements::UnityEngine__UIElements__BindableElement__UxmlTraits(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__Foldout__UxmlTraits& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__Foldout__UxmlTraits& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits& operator=(____UnityEngine__UIElements__Foldout__UxmlTraits&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlTraits& operator=(____UnityEngine__UIElements__Foldout__UxmlTraits const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Foldout__UxmlTraits& operator=(UnityEngine__UIElements__Foldout__UxmlTraits&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Foldout__UxmlTraits& operator=(UnityEngine__UIElements__Foldout__UxmlTraits const& o) noexcept = default;
                 
 
 
 // Fields
 
- ::UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
+ UnityEngine::UIElements::UxmlStringAttributeDescription __declspec(property(get=__get_m_Text, put=__set_m_Text))  m_Text;
 
-constexpr void __set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
+constexpr void __set_m_Text(UnityEngine::UIElements::UxmlStringAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
+constexpr UnityEngine::UIElements::UxmlStringAttributeDescription __get_m_Text() const;
 
- ::UnityEngine::UIElements::UxmlBoolAttributeDescription __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
+ UnityEngine::UIElements::UxmlBoolAttributeDescription __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
 
-constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription value) ;
+constexpr void __set_m_Value(UnityEngine::UIElements::UxmlBoolAttributeDescription value) ;
 
-constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Value() const;
+constexpr UnityEngine::UIElements::UxmlBoolAttributeDescription __get_m_Value() const;
 
 
 // Methods
 
 /// @brief Method Init addr 0x2cbcbbc size 0x130 virtual true final false
- void Init(::UnityEngine::UIElements::VisualElement ve, ::UnityEngine::UIElements::IUxmlAttributes bag, ::UnityEngine::UIElements::CreationContext cc) ;
+ void Init(UnityEngine::UIElements::VisualElement ve, UnityEngine::UIElements::IUxmlAttributes bag, UnityEngine::UIElements::CreationContext cc) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__Foldout__UxmlTraits() ;
+explicit UnityEngine__UIElements__Foldout__UxmlTraits() ;
 
 /// @brief Method .ctor addr 0x2cbccec size 0xec virtual false final false
  void _ctor() ;
@@ -120,15 +119,15 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7185))
 // CS Name: UnityEngine.UIElements.Foldout
-class CORDL_TYPE Foldout : public ::UnityEngine::UIElements::BindableElement {
+class CORDL_TYPE Foldout : public UnityEngine::UIElements::BindableElement {
 public:
 // Declarations
-using UxmlTraits = ::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlTraits;
+using UxmlTraits = UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits;
 
-using UxmlFactory = ::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlFactory;
+using UxmlFactory = UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory;
 
-/// @brief Convert operator to ::UnityEngine::UIElements::INotifyValueChanged_1<bool>
-constexpr operator  ::UnityEngine::UIElements::INotifyValueChanged_1<bool>() const noexcept;
+/// @brief Convert operator to UnityEngine::UIElements::INotifyValueChanged_1<bool>
+constexpr operator  UnityEngine::UIElements::INotifyValueChanged_1<bool>() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x3d8};
@@ -142,7 +141,7 @@ constexpr Foldout(Foldout const& ) noexcept = default;
 constexpr Foldout(Foldout&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Foldout(void* ptr) noexcept : ::UnityEngine::UIElements::BindableElement(ptr) {
+constexpr explicit Foldout(void* ptr) noexcept : UnityEngine::UIElements::BindableElement(ptr) {
 }
 
 
@@ -163,17 +162,17 @@ constexpr explicit Foldout(void* ptr) noexcept : ::UnityEngine::UIElements::Bind
 
 // Fields
 
- ::UnityEngine::UIElements::Toggle __declspec(property(get=__get_m_Toggle, put=__set_m_Toggle))  m_Toggle;
+ UnityEngine::UIElements::Toggle __declspec(property(get=__get_m_Toggle, put=__set_m_Toggle))  m_Toggle;
 
-constexpr void __set_m_Toggle(::UnityEngine::UIElements::Toggle value) ;
+constexpr void __set_m_Toggle(UnityEngine::UIElements::Toggle value) ;
 
-constexpr ::UnityEngine::UIElements::Toggle __get_m_Toggle() const;
+constexpr UnityEngine::UIElements::Toggle __get_m_Toggle() const;
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Container, put=__set_m_Container))  m_Container;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=__get_m_Container, put=__set_m_Container))  m_Container;
 
-constexpr void __set_m_Container(::UnityEngine::UIElements::VisualElement value) ;
+constexpr void __set_m_Container(UnityEngine::UIElements::VisualElement value) ;
 
-constexpr ::UnityEngine::UIElements::VisualElement __get_m_Container() const;
+constexpr UnityEngine::UIElements::VisualElement __get_m_Container() const;
 
  bool __declspec(property(get=__get_m_Value, put=__set_m_Value))  m_Value;
 
@@ -232,7 +231,7 @@ static int32_t __get_ussFoldoutMaxDepth() ;
 
 // Properties
 
- ::UnityEngine::UIElements::VisualElement __declspec(property(get=get_contentContainer))  contentContainer;
+ UnityEngine::UIElements::VisualElement __declspec(property(get=get_contentContainer))  contentContainer;
 
  ::StringW __declspec(property(get=get_text, put=set_text))  text;
 
@@ -242,7 +241,7 @@ static int32_t __get_ussFoldoutMaxDepth() ;
 // Methods
 
 /// @brief Method get_contentContainer addr 0x2cbc430 size 0x8 virtual true final false
- ::UnityEngine::UIElements::VisualElement get_contentContainer() ;
+ UnityEngine::UIElements::VisualElement get_contentContainer() ;
 
 /// @brief Method get_text addr 0x2cbc438 size 0x34 virtual false final false
  ::StringW get_text() ;
@@ -269,10 +268,10 @@ explicit Foldout() ;
  void _ctor() ;
 
 /// @brief Method OnAttachToPanel addr 0x2cbc7bc size 0x1c0 virtual false final false
- void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent evt) ;
+ void OnAttachToPanel(UnityEngine::UIElements::AttachToPanelEvent evt) ;
 
 /// @brief Method <.ctor>b__23_0 addr 0x2cbcb24 size 0x50 virtual false final false
- void __ctor_b__23_0(::UnityEngine::UIElements::ChangeEvent_1<bool> evt) ;
+ void __ctor_b__23_0(UnityEngine::UIElements::ChangeEvent_1<bool> evt) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
@@ -281,47 +280,47 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::UxmlFactory
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7184)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5087 }), TypeDefinitionIndex(TypeDefinitionIndex(7185))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7089)), TypeDefinitionIndex(TypeDefinitionIndex(7184)), TypeDefinitionIndex(TypeDefinitionIndex(7185)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7089), inst: 5087 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: UnityEngine.UIElements.Foldout::UxmlFactory
-class CORDL_TYPE ____UnityEngine__UIElements__Foldout__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Foldout,::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlTraits> {
+class CORDL_TYPE UnityEngine__UIElements__Foldout__UxmlFactory : public UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Foldout,UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
 
-virtual ~____UnityEngine__UIElements__Foldout__UxmlFactory() = default;
+virtual ~UnityEngine__UIElements__Foldout__UxmlFactory() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Foldout__UxmlFactory", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory(____UnityEngine__UIElements__Foldout__UxmlFactory const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Foldout__UxmlFactory", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__Foldout__UxmlFactory(UnityEngine__UIElements__Foldout__UxmlFactory const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__Foldout__UxmlFactory", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory(____UnityEngine__UIElements__Foldout__UxmlFactory&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__Foldout__UxmlFactory", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__Foldout__UxmlFactory(UnityEngine__UIElements__Foldout__UxmlFactory&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__Foldout__UxmlFactory(void* ptr) noexcept : ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Foldout,::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlTraits>(ptr) {
+constexpr explicit UnityEngine__UIElements__Foldout__UxmlFactory(void* ptr) noexcept : UnityEngine::UIElements::UxmlFactory_2<UnityEngine::UIElements::Foldout,UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__Foldout__UxmlFactory& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__Foldout__UxmlFactory& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory& operator=(____UnityEngine__UIElements__Foldout__UxmlFactory&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__Foldout__UxmlFactory& operator=(____UnityEngine__UIElements__Foldout__UxmlFactory const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Foldout__UxmlFactory& operator=(UnityEngine__UIElements__Foldout__UxmlFactory&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__Foldout__UxmlFactory& operator=(UnityEngine__UIElements__Foldout__UxmlFactory const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__Foldout__UxmlFactory() ;
+explicit UnityEngine__UIElements__Foldout__UxmlFactory() ;
 
 /// @brief Method .ctor addr 0x2cbcb74 size 0x48 virtual false final false
  void _ctor() ;
@@ -330,10 +329,9 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::Foldout);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Foldout, "UnityEngine.UIElements", "Foldout");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlFactory);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlFactory, "UnityEngine.UIElements", "Foldout/UxmlFactory");
-NEED_NO_BOX(::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlTraits);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::____UnityEngine__UIElements__Foldout__UxmlTraits, "UnityEngine.UIElements", "Foldout/UxmlTraits");
+NEED_NO_BOX(UnityEngine::UIElements::Foldout);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::Foldout, "UnityEngine.UIElements", "Foldout");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlFactory, "UnityEngine.UIElements", "Foldout/UxmlFactory");
+NEED_NO_BOX(UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UnityEngine__UIElements__Foldout__UxmlTraits, "UnityEngine.UIElements", "Foldout/UxmlTraits");

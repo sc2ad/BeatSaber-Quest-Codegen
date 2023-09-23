@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"
 #include "GlobalNamespace/zzzz__GameNoteController_def.hpp"
-namespace {
 namespace GlobalNamespace {
 class GameNoteController;
 }
@@ -13,10 +12,10 @@ class DisappearingArrowController;
 // Type: ::DisappearingArrowController
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4860)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 297 }), TypeDefinitionIndex(TypeDefinitionIndex(4858))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4858)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4858), inst: 297 }), TypeDefinitionIndex(TypeDefinitionIndex(4860))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4857))
 // CS Name: DisappearingArrowController
-class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::GameNoteController> {
+class CORDL_TYPE DisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::GameNoteController> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -31,7 +30,7 @@ constexpr DisappearingArrowController(DisappearingArrowController const& ) noexc
 constexpr DisappearingArrowController(DisappearingArrowController&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit DisappearingArrowController(void* ptr) noexcept : ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::GameNoteController>(ptr) {
+constexpr explicit DisappearingArrowController(void* ptr) noexcept : GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::GameNoteController>(ptr) {
 }
 
 
@@ -52,22 +51,22 @@ constexpr explicit DisappearingArrowController(void* ptr) noexcept : ::GlobalNam
 
 // Fields
 
- ::GlobalNamespace::GameNoteController __declspec(property(get=__get__gameNoteController, put=__set__gameNoteController))  _gameNoteController;
+ GlobalNamespace::GameNoteController __declspec(property(get=__get__gameNoteController, put=__set__gameNoteController))  _gameNoteController;
 
-constexpr void __set__gameNoteController(::GlobalNamespace::GameNoteController value) ;
+constexpr void __set__gameNoteController(GlobalNamespace::GameNoteController value) ;
 
-constexpr ::GlobalNamespace::GameNoteController __get__gameNoteController() const;
+constexpr GlobalNamespace::GameNoteController __get__gameNoteController() const;
 
 
 // Properties
 
- ::GlobalNamespace::GameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
+ GlobalNamespace::GameNoteController __declspec(property(get=get_gameNoteController))  gameNoteController;
 
 
 // Methods
 
 /// @brief Method get_gameNoteController addr 0x223b86c size 0x8 virtual true final false
- ::GlobalNamespace::GameNoteController get_gameNoteController() ;
+ GlobalNamespace::GameNoteController get_gameNoteController() ;
 
 // Ctor Parameters []
 explicit DisappearingArrowController() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::DisappearingArrowController);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisappearingArrowController, "", "DisappearingArrowController");
+NEED_NO_BOX(GlobalNamespace::DisappearingArrowController);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisappearingArrowController, "", "DisappearingArrowController");

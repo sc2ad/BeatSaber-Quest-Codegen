@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVR::OpenVR {
 struct IVRResources;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -56,11 +55,11 @@ constexpr explicit CVRResources(void* ptr) noexcept : ::bs_hook::Il2CppWrapperTy
 
 // Fields
 
- ::OVR::OpenVR::IVRResources __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
+ OVR::OpenVR::IVRResources __declspec(property(get=__get_FnTable, put=__set_FnTable))  FnTable;
 
-constexpr void __set_FnTable(::OVR::OpenVR::IVRResources value) ;
+constexpr void __set_FnTable(OVR::OpenVR::IVRResources value) ;
 
-constexpr ::OVR::OpenVR::IVRResources __get_FnTable() const;
+constexpr OVR::OpenVR::IVRResources __get_FnTable() const;
 
 
 // Methods
@@ -75,12 +74,11 @@ explicit CVRResources(::cordl_internals::intptr_t pInterface) ;
  uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen) ;
 
 /// @brief Method GetResourceFullPath addr 0x2668054 size 0x24 virtual false final false
- uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen) ;
+ uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, System::Text::StringBuilder pchPathBuffer, uint32_t unBufferLen) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-NEED_NO_BOX(::OVR::OpenVR::CVRResources);
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRResources, "OVR.OpenVR", "CVRResources");
+NEED_NO_BOX(OVR::OpenVR::CVRResources);
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources, "OVR.OpenVR", "CVRResources");

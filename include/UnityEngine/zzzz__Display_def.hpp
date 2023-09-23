@@ -5,7 +5,6 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine {
 struct Vector3;
 }
@@ -14,7 +13,7 @@ namespace UnityEngine {
 class Display;
 }
 namespace UnityEngine {
-class ____UnityEngine__Display__DisplaysUpdatedDelegate;
+class UnityEngine__Display__DisplaysUpdatedDelegate;
 }
 // Type: ::DisplaysUpdatedDelegate
 namespace UnityEngine {
@@ -22,44 +21,44 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10070))
 // CS Name: UnityEngine.Display::DisplaysUpdatedDelegate
-class CORDL_TYPE ____UnityEngine__Display__DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
+class CORDL_TYPE UnityEngine__Display__DisplaysUpdatedDelegate : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x80};
 
-virtual ~____UnityEngine__Display__DisplaysUpdatedDelegate() = default;
+virtual ~UnityEngine__Display__DisplaysUpdatedDelegate() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Display__DisplaysUpdatedDelegate", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate(____UnityEngine__Display__DisplaysUpdatedDelegate const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Display__DisplaysUpdatedDelegate", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__Display__DisplaysUpdatedDelegate(UnityEngine__Display__DisplaysUpdatedDelegate const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__Display__DisplaysUpdatedDelegate", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate(____UnityEngine__Display__DisplaysUpdatedDelegate&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__Display__DisplaysUpdatedDelegate", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__Display__DisplaysUpdatedDelegate(UnityEngine__Display__DisplaysUpdatedDelegate&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__Display__DisplaysUpdatedDelegate(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit UnityEngine__Display__DisplaysUpdatedDelegate(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
-  constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__Display__DisplaysUpdatedDelegate& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate& operator=(void* o) noexcept {
+  constexpr UnityEngine__Display__DisplaysUpdatedDelegate& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate& operator=(____UnityEngine__Display__DisplaysUpdatedDelegate&& o) noexcept = default;
-  constexpr ____UnityEngine__Display__DisplaysUpdatedDelegate& operator=(____UnityEngine__Display__DisplaysUpdatedDelegate const& o) noexcept = default;
+  constexpr UnityEngine__Display__DisplaysUpdatedDelegate& operator=(UnityEngine__Display__DisplaysUpdatedDelegate&& o) noexcept = default;
+  constexpr UnityEngine__Display__DisplaysUpdatedDelegate& operator=(UnityEngine__Display__DisplaysUpdatedDelegate const& o) noexcept = default;
                 
 
 
 // Methods
 
 // Ctor Parameters [CppParam { name: "object", ty: "::bs_hook::Il2CppWrapperType", modifiers: "", def_value: None }, CppParam { name: "method", ty: "::cordl_internals::intptr_t", modifiers: "", def_value: None }]
-explicit ____UnityEngine__Display__DisplaysUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
+explicit UnityEngine__Display__DisplaysUpdatedDelegate(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method .ctor addr 0x2b4c6bc size 0xbc virtual false final false
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
@@ -80,7 +79,7 @@ namespace UnityEngine {
 class CORDL_TYPE Display : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using DisplaysUpdatedDelegate = ::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate;
+using DisplaysUpdatedDelegate = UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x18};
@@ -121,17 +120,17 @@ constexpr void __set_nativeDisplay(::cordl_internals::intptr_t value) ;
 
 constexpr ::cordl_internals::intptr_t __get_nativeDisplay() const;
 
-static ::ArrayW<::UnityEngine::Display> __declspec(property(get=__get_displays, put=__set_displays))  displays;
+static ::ArrayW<UnityEngine::Display> __declspec(property(get=__get_displays, put=__set_displays))  displays;
 
-static void __set_displays(::ArrayW<::UnityEngine::Display> value) ;
+static void __set_displays(::ArrayW<UnityEngine::Display> value) ;
 
-static ::ArrayW<::UnityEngine::Display> __get_displays() ;
+static ::ArrayW<UnityEngine::Display> __get_displays() ;
 
-static ::UnityEngine::Display __declspec(property(get=__get__mainDisplay, put=__set__mainDisplay))  _mainDisplay;
+static UnityEngine::Display __declspec(property(get=__get__mainDisplay, put=__set__mainDisplay))  _mainDisplay;
 
-static void __set__mainDisplay(::UnityEngine::Display value) ;
+static void __set__mainDisplay(UnityEngine::Display value) ;
 
-static ::UnityEngine::Display __get__mainDisplay() ;
+static UnityEngine::Display __get__mainDisplay() ;
 
 static int32_t __declspec(property(get=__get_m_ActiveEditorGameViewTarget, put=__set_m_ActiveEditorGameViewTarget))  m_ActiveEditorGameViewTarget;
 
@@ -139,11 +138,11 @@ static void __set_m_ActiveEditorGameViewTarget(int32_t value) ;
 
 static int32_t __get_m_ActiveEditorGameViewTarget() ;
 
-static ::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate __declspec(property(get=__get_onDisplaysUpdated, put=__set_onDisplaysUpdated))  onDisplaysUpdated;
+static UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate __declspec(property(get=__get_onDisplaysUpdated, put=__set_onDisplaysUpdated))  onDisplaysUpdated;
 
-static void __set_onDisplaysUpdated(::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate value) ;
+static void __set_onDisplaysUpdated(UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate value) ;
 
-static ::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate __get_onDisplaysUpdated() ;
+static UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate __get_onDisplaysUpdated() ;
 
 
 // Properties
@@ -156,7 +155,7 @@ static ::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate __get_on
 
  int32_t __declspec(property(get=get_systemHeight))  systemHeight;
 
-static ::UnityEngine::Display __declspec(property(get=get_main))  main;
+static UnityEngine::Display __declspec(property(get=get_main))  main;
 
 
 // Methods
@@ -186,10 +185,10 @@ explicit Display(::cordl_internals::intptr_t nativeDisplay) ;
  int32_t get_systemHeight() ;
 
 /// @brief Method RelativeMouseAt addr 0x2b4c248 size 0xd0 virtual false final false
-static ::UnityEngine::Vector3 RelativeMouseAt(::UnityEngine::Vector3 inputMouseCoordinates) ;
+static UnityEngine::Vector3 RelativeMouseAt(UnityEngine::Vector3 inputMouseCoordinates) ;
 
 /// @brief Method get_main addr 0x2b4c374 size 0x58 virtual false final false
-static ::UnityEngine::Display get_main() ;
+static UnityEngine::Display get_main() ;
 
 /// @brief Method RecreateDisplayList addr 0x2b4c3cc size 0x14c virtual false final false
 static void RecreateDisplayList(::ArrayW<::cordl_internals::intptr_t> nativeDisplay) ;
@@ -210,8 +209,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Display);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Display, "UnityEngine", "Display");
-NEED_NO_BOX(::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__Display__DisplaysUpdatedDelegate, "UnityEngine", "Display/DisplaysUpdatedDelegate");
+NEED_NO_BOX(UnityEngine::Display);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display, "UnityEngine", "Display");
+NEED_NO_BOX(UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__Display__DisplaysUpdatedDelegate, "UnityEngine", "Display/DisplaysUpdatedDelegate");

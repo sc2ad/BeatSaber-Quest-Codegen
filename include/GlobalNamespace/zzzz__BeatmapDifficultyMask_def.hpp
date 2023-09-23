@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
@@ -71,26 +70,25 @@ constexpr void __set_value__(uint8_t value) ;
 constexpr uint8_t __get_value__() const;
 
 /// @brief Field Easy offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const Easy;
+static GlobalNamespace::BeatmapDifficultyMask const Easy;
 
 /// @brief Field Normal offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const Normal;
+static GlobalNamespace::BeatmapDifficultyMask const Normal;
 
 /// @brief Field Hard offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const Hard;
+static GlobalNamespace::BeatmapDifficultyMask const Hard;
 
 /// @brief Field Expert offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const Expert;
+static GlobalNamespace::BeatmapDifficultyMask const Expert;
 
 /// @brief Field ExpertPlus offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const ExpertPlus;
+static GlobalNamespace::BeatmapDifficultyMask const ExpertPlus;
 
 /// @brief Field All offset 0
-static ::GlobalNamespace::BeatmapDifficultyMask const All;
+static GlobalNamespace::BeatmapDifficultyMask const All;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyMask, "", "BeatmapDifficultyMask");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyMask, "", "BeatmapDifficultyMask");

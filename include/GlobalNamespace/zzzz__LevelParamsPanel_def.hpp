@@ -3,7 +3,6 @@
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
-namespace {
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -17,7 +16,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5880))
 // CS Name: LevelParamsPanel
-class CORDL_TYPE LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LevelParamsPanel : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr LevelParamsPanel(LevelParamsPanel const& ) noexcept = default;
 constexpr LevelParamsPanel(LevelParamsPanel&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LevelParamsPanel(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LevelParamsPanel(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -53,29 +52,29 @@ constexpr explicit LevelParamsPanel(void* ptr) noexcept : ::UnityEngine::MonoBeh
 
 // Fields
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__notesPerSecondText, put=__set__notesPerSecondText))  _notesPerSecondText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__notesPerSecondText, put=__set__notesPerSecondText))  _notesPerSecondText;
 
-constexpr void __set__notesPerSecondText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__notesPerSecondText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__notesPerSecondText() const;
+constexpr TMPro::TextMeshProUGUI __get__notesPerSecondText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__notesCountText, put=__set__notesCountText))  _notesCountText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__notesCountText, put=__set__notesCountText))  _notesCountText;
 
-constexpr void __set__notesCountText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__notesCountText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__notesCountText() const;
+constexpr TMPro::TextMeshProUGUI __get__notesCountText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__obstaclesCountText, put=__set__obstaclesCountText))  _obstaclesCountText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__obstaclesCountText, put=__set__obstaclesCountText))  _obstaclesCountText;
 
-constexpr void __set__obstaclesCountText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__obstaclesCountText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__obstaclesCountText() const;
+constexpr TMPro::TextMeshProUGUI __get__obstaclesCountText() const;
 
- ::TMPro::TextMeshProUGUI __declspec(property(get=__get__bombsCountText, put=__set__bombsCountText))  _bombsCountText;
+ TMPro::TextMeshProUGUI __declspec(property(get=__get__bombsCountText, put=__set__bombsCountText))  _bombsCountText;
 
-constexpr void __set__bombsCountText(::TMPro::TextMeshProUGUI value) ;
+constexpr void __set__bombsCountText(TMPro::TextMeshProUGUI value) ;
 
-constexpr ::TMPro::TextMeshProUGUI __get__bombsCountText() const;
+constexpr TMPro::TextMeshProUGUI __get__bombsCountText() const;
 
 
 // Properties
@@ -113,6 +112,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LevelParamsPanel);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelParamsPanel, "", "LevelParamsPanel");
+NEED_NO_BOX(GlobalNamespace::LevelParamsPanel);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelParamsPanel, "", "LevelParamsPanel");

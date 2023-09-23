@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class NavigationSubmitEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7347)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7347), inst: 4562 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7353))
 // CS Name: UnityEngine.UIElements.NavigationSubmitEvent
-class CORDL_TYPE NavigationSubmitEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationSubmitEvent> {
+class CORDL_TYPE NavigationSubmitEvent : public UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationSubmitEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr NavigationSubmitEvent(NavigationSubmitEvent const& ) noexcept = defaul
 constexpr NavigationSubmitEvent(NavigationSubmitEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit NavigationSubmitEvent(void* ptr) noexcept : ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationSubmitEvent>(ptr) {
+constexpr explicit NavigationSubmitEvent(void* ptr) noexcept : UnityEngine::UIElements::NavigationEventBase_1<UnityEngine::UIElements::NavigationSubmitEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::NavigationSubmitEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::NavigationSubmitEvent, "UnityEngine.UIElements", "NavigationSubmitEvent");
+NEED_NO_BOX(UnityEngine::UIElements::NavigationSubmitEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::NavigationSubmitEvent, "UnityEngine.UIElements", "NavigationSubmitEvent");

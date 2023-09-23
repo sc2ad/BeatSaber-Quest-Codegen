@@ -3,7 +3,6 @@
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::ComponentModel {
 class ListChangedEventArgs;
 }
@@ -17,7 +16,7 @@ namespace System::ComponentModel {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2610))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8291))
 // CS Name: System.ComponentModel.ListChangedEventHandler
-class CORDL_TYPE ListChangedEventHandler : public ::System::MulticastDelegate {
+class CORDL_TYPE ListChangedEventHandler : public System::MulticastDelegate {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -32,7 +31,7 @@ constexpr ListChangedEventHandler(ListChangedEventHandler const& ) noexcept = de
 constexpr ListChangedEventHandler(ListChangedEventHandler&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ListChangedEventHandler(void* ptr) noexcept : ::System::MulticastDelegate(ptr) {
+constexpr explicit ListChangedEventHandler(void* ptr) noexcept : System::MulticastDelegate(ptr) {
 }
 
 
@@ -60,12 +59,11 @@ explicit ListChangedEventHandler(::bs_hook::Il2CppWrapperType object, ::cordl_in
  void _ctor(::bs_hook::Il2CppWrapperType object, ::cordl_internals::intptr_t method) ;
 
 /// @brief Method Invoke addr 0x277ed14 size 0x14 virtual true final false
- void Invoke(::bs_hook::Il2CppWrapperType sender, ::System::ComponentModel::ListChangedEventArgs e) ;
+ void Invoke(::bs_hook::Il2CppWrapperType sender, System::ComponentModel::ListChangedEventArgs e) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::ComponentModel
-} // end anonymous namespace
-NEED_NO_BOX(::System::ComponentModel::ListChangedEventHandler);
-DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ListChangedEventHandler, "System.ComponentModel", "ListChangedEventHandler");
+NEED_NO_BOX(System::ComponentModel::ListChangedEventHandler);
+DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ListChangedEventHandler, "System.ComponentModel", "ListChangedEventHandler");

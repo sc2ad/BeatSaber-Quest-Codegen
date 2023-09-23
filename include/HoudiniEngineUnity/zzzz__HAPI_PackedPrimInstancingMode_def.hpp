@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace HoudiniEngineUnity {
 struct HAPI_PackedPrimInstancingMode;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field HAPI_PACKEDPRIM_INSTANCING_MODE_INVALID offset 0
-static ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_INVALID;
+static HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_INVALID;
 
 /// @brief Field HAPI_PACKEDPRIM_INSTANCING_MODE_DISABLED offset 0
-static ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_DISABLED;
+static HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_DISABLED;
 
 /// @brief Field HAPI_PACKEDPRIM_INSTANCING_MODE_HIERARCHY offset 0
-static ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_HIERARCHY;
+static HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_HIERARCHY;
 
 /// @brief Field HAPI_PACKEDPRIM_INSTANCING_MODE_FLAT offset 0
-static ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_FLAT;
+static HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_FLAT;
 
 /// @brief Field HAPI_PACKEDPRIM_INSTANCING_MODE_MAX offset 0
-static ::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_MAX;
+static HoudiniEngineUnity::HAPI_PackedPrimInstancingMode const HAPI_PACKEDPRIM_INSTANCING_MODE_MAX;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HAPI_PackedPrimInstancingMode, "HoudiniEngineUnity", "HAPI_PackedPrimInstancingMode");
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HAPI_PackedPrimInstancingMode, "HoudiniEngineUnity", "HAPI_PackedPrimInstancingMode");

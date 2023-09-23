@@ -4,21 +4,20 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -33,8 +32,8 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE PssSigner : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Crypto::ISigner
-constexpr operator  ::Org::BouncyCastle::Crypto::ISigner() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Crypto::ISigner
+constexpr operator  Org::BouncyCastle::Crypto::ISigner() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x70};
@@ -72,35 +71,35 @@ constexpr explicit PssSigner(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(
 /// @brief Field TrailerImplicit offset 0
 static constexpr uint8_t  TrailerImplicit{188u};
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_contentDigest1, put=__set_contentDigest1))  contentDigest1;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_contentDigest1, put=__set_contentDigest1))  contentDigest1;
 
-constexpr void __set_contentDigest1(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_contentDigest1(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_contentDigest1() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_contentDigest1() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_contentDigest2, put=__set_contentDigest2))  contentDigest2;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_contentDigest2, put=__set_contentDigest2))  contentDigest2;
 
-constexpr void __set_contentDigest2(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_contentDigest2(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_contentDigest2() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_contentDigest2() const;
 
- ::Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mgfDigest, put=__set_mgfDigest))  mgfDigest;
+ Org::BouncyCastle::Crypto::IDigest __declspec(property(get=__get_mgfDigest, put=__set_mgfDigest))  mgfDigest;
 
-constexpr void __set_mgfDigest(::Org::BouncyCastle::Crypto::IDigest value) ;
+constexpr void __set_mgfDigest(Org::BouncyCastle::Crypto::IDigest value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IDigest __get_mgfDigest() const;
+constexpr Org::BouncyCastle::Crypto::IDigest __get_mgfDigest() const;
 
- ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
+ Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __declspec(property(get=__get_cipher, put=__set_cipher))  cipher;
 
-constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
+constexpr void __set_cipher(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher value) ;
 
-constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_cipher() const;
+constexpr Org::BouncyCastle::Crypto::IAsymmetricBlockCipher __get_cipher() const;
 
- ::Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
+ Org::BouncyCastle::Security::SecureRandom __declspec(property(get=__get_random, put=__set_random))  random;
 
-constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom value) ;
+constexpr void __set_random(Org::BouncyCastle::Security::SecureRandom value) ;
 
-constexpr ::Org::BouncyCastle::Security::SecureRandom __get_random() const;
+constexpr Org::BouncyCastle::Security::SecureRandom __get_random() const;
 
  int32_t __declspec(property(get=__get_hLen, put=__set_hLen))  hLen;
 
@@ -165,64 +164,64 @@ constexpr uint8_t __get_trailer() const;
 // Methods
 
 /// @brief Method CreateRawSigner addr 0xec53e8 size 0x134 virtual false final false
-static ::Org::BouncyCastle::Crypto::Signers::PssSigner CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+static Org::BouncyCastle::Crypto::Signers::PssSigner CreateRawSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method CreateRawSigner addr 0xec56c8 size 0xcc virtual false final false
-static ::Org::BouncyCastle::Crypto::Signers::PssSigner CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
+static Org::BouncyCastle::Crypto::Signers::PssSigner CreateRawSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;
 
 /// @brief Method .ctor addr 0xec5794 size 0xe0 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen) ;
 
 /// @brief Method .ctor addr 0xec5874 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt) ;
 
 /// @brief Method .ctor addr 0xec58cc size 0x34 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, ::ArrayW<uint8_t> salt) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen) ;
 
 /// @brief Method .ctor addr 0xec5900 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt) ;
 
 /// @brief Method .ctor addr 0xec5958 size 0x34 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, ::ArrayW<uint8_t> salt) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "digest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer) ;
 
 /// @brief Method .ctor addr 0xec58a0 size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest digest, int32_t saltLen, uint8_t trailer) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
 
 /// @brief Method .ctor addr 0xec592c size 0x2c virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, uint8_t trailer) ;
 
-// Ctor Parameters [CppParam { name: "cipher", ty: "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest1", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "contentDigest2", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "::Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
-explicit PssSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest1, ::Org::BouncyCastle::Crypto::IDigest contentDigest2, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) ;
+// Ctor Parameters [CppParam { name: "cipher", ty: "Org::BouncyCastle::Crypto::IAsymmetricBlockCipher", modifiers: "", def_value: None }, CppParam { name: "contentDigest1", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "contentDigest2", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "mgfDigest", ty: "Org::BouncyCastle::Crypto::IDigest", modifiers: "", def_value: None }, CppParam { name: "saltLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "salt", ty: "::ArrayW<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "trailer", ty: "uint8_t", modifiers: "", def_value: None }]
+explicit PssSigner(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest1, Org::BouncyCastle::Crypto::IDigest contentDigest2, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) ;
 
 /// @brief Method .ctor addr 0xec551c size 0x1ac virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, ::Org::BouncyCastle::Crypto::IDigest contentDigest1, ::Org::BouncyCastle::Crypto::IDigest contentDigest2, ::Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) ;
+ void _ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher cipher, Org::BouncyCastle::Crypto::IDigest contentDigest1, Org::BouncyCastle::Crypto::IDigest contentDigest2, Org::BouncyCastle::Crypto::IDigest mgfDigest, int32_t saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) ;
 
 /// @brief Method get_AlgorithmName addr 0xec598c size 0xc0 virtual true final false
  ::StringW get_AlgorithmName() ;
 
 /// @brief Method Init addr 0xec5a4c size 0x288 virtual true final false
- void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method ClearBlock addr 0xec5cd4 size 0x24 virtual false final false
  void ClearBlock(::ArrayW<uint8_t> block) ;
@@ -252,6 +251,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Signers
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::PssSigner);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::PssSigner, "Org.BouncyCastle.Crypto.Signers", "PssSigner");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Signers::PssSigner);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::PssSigner, "Org.BouncyCastle.Crypto.Signers", "PssSigner");

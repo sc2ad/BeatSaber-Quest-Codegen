@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace LIV::SDK::Unity {
 class SDKShaders;
@@ -125,6 +124,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def LIV::SDK::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::LIV::SDK::Unity::SDKShaders);
-DEFINE_IL2CPP_ARG_TYPE(::LIV::SDK::Unity::SDKShaders, "LIV.SDK.Unity", "SDKShaders");
+NEED_NO_BOX(LIV::SDK::Unity::SDKShaders);
+DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::SDKShaders, "LIV.SDK.Unity", "SDKShaders");

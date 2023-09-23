@@ -2,7 +2,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace OVR::OpenVR {
 struct EVRSettingsError;
@@ -71,26 +70,25 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field None offset 0
-static ::OVR::OpenVR::EVRSettingsError const None;
+static OVR::OpenVR::EVRSettingsError const None;
 
 /// @brief Field IPCFailed offset 0
-static ::OVR::OpenVR::EVRSettingsError const IPCFailed;
+static OVR::OpenVR::EVRSettingsError const IPCFailed;
 
 /// @brief Field WriteFailed offset 0
-static ::OVR::OpenVR::EVRSettingsError const WriteFailed;
+static OVR::OpenVR::EVRSettingsError const WriteFailed;
 
 /// @brief Field ReadFailed offset 0
-static ::OVR::OpenVR::EVRSettingsError const ReadFailed;
+static OVR::OpenVR::EVRSettingsError const ReadFailed;
 
 /// @brief Field JsonParseFailed offset 0
-static ::OVR::OpenVR::EVRSettingsError const JsonParseFailed;
+static OVR::OpenVR::EVRSettingsError const JsonParseFailed;
 
 /// @brief Field UnsetSettingHasNoDefault offset 0
-static ::OVR::OpenVR::EVRSettingsError const UnsetSettingHasNoDefault;
+static OVR::OpenVR::EVRSettingsError const UnsetSettingHasNoDefault;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def OVR::OpenVR
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::EVRSettingsError, "OVR.OpenVR", "EVRSettingsError");
+DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRSettingsError, "OVR.OpenVR", "EVRSettingsError");

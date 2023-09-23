@@ -5,33 +5,32 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace System {
 class Exception;
+}
+namespace System::IO {
+struct FileMode;
+}
+namespace System::IO {
+struct MonoIOError;
+}
+namespace System::IO {
+struct SeekOrigin;
+}
+namespace System::IO {
+struct FileShare;
+}
+namespace System::IO {
+struct FileOptions;
+}
+namespace System::IO {
+struct FileAccess;
 }
 namespace System::IO {
 struct MonoFileType;
 }
 namespace System::Runtime::InteropServices {
 class SafeHandle;
-}
-namespace System::IO {
-struct FileShare;
-}
-namespace System::IO {
-struct SeekOrigin;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System::IO {
-struct MonoIOError;
-}
-namespace System::IO {
-struct FileMode;
-}
-namespace System::IO {
-struct FileOptions;
 }
 // Forward declare root types
 namespace System::IO {
@@ -112,64 +111,64 @@ static char16_t __declspec(property(get=get_PathSeparator))  PathSeparator;
 // Methods
 
 /// @brief Method GetException addr 0x23d0b14 size 0x130 virtual false final false
-static ::System::Exception GetException(::System::IO::MonoIOError error) ;
+static System::Exception GetException(System::IO::MonoIOError error) ;
 
 /// @brief Method GetException addr 0x23cd168 size 0x71c virtual false final false
-static ::System::Exception GetException(::StringW path, ::System::IO::MonoIOError error) ;
+static System::Exception GetException(::StringW path, System::IO::MonoIOError error) ;
 
 /// @brief Method GetCurrentDirectory addr 0x23d0c48 size 0x4 virtual false final false
-static ::StringW GetCurrentDirectory(ByRef<::System::IO::MonoIOError> error) ;
+static ::StringW GetCurrentDirectory(ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method GetFileType addr 0x23d0c4c size 0x4 virtual false final false
-static ::System::IO::MonoFileType GetFileType(::cordl_internals::intptr_t handle, ByRef<::System::IO::MonoIOError> error) ;
+static System::IO::MonoFileType GetFileType(::cordl_internals::intptr_t handle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method GetFileType addr 0x23cd884 size 0x128 virtual false final false
-static ::System::IO::MonoFileType GetFileType(::System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<::System::IO::MonoIOError> error) ;
+static System::IO::MonoFileType GetFileType(System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Open addr 0x23d0c50 size 0x4 virtual false final false
-static ::cordl_internals::intptr_t Open(void* filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error) ;
+static ::cordl_internals::intptr_t Open(void* filename, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, System::IO::FileOptions options, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Open addr 0x23cd054 size 0x9c virtual false final false
-static ::cordl_internals::intptr_t Open(::StringW filename, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare share, ::System::IO::FileOptions options, ByRef<::System::IO::MonoIOError> error) ;
+static ::cordl_internals::intptr_t Open(::StringW filename, System::IO::FileMode mode, System::IO::FileAccess access, System::IO::FileShare share, System::IO::FileOptions options, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Cancel_internal addr 0x23d0c54 size 0x4 virtual false final false
-static bool Cancel_internal(::cordl_internals::intptr_t handle, ByRef<::System::IO::MonoIOError> error) ;
+static bool Cancel_internal(::cordl_internals::intptr_t handle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Cancel addr 0x23d0c58 size 0x128 virtual false final false
-static bool Cancel(::System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<::System::IO::MonoIOError> error) ;
+static bool Cancel(System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Close addr 0x23d07e4 size 0x4 virtual false final false
-static bool Close(::cordl_internals::intptr_t handle, ByRef<::System::IO::MonoIOError> error) ;
+static bool Close(::cordl_internals::intptr_t handle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Read addr 0x23d0d80 size 0x4 virtual false final false
-static int32_t Read(::cordl_internals::intptr_t handle, ::ArrayW<uint8_t> dest, int32_t dest_offset, int32_t count, ByRef<::System::IO::MonoIOError> error) ;
+static int32_t Read(::cordl_internals::intptr_t handle, ::ArrayW<uint8_t> dest, int32_t dest_offset, int32_t count, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Read addr 0x23d0878 size 0x148 virtual false final false
-static int32_t Read(::System::Runtime::InteropServices::SafeHandle safeHandle, ::ArrayW<uint8_t> dest, int32_t dest_offset, int32_t count, ByRef<::System::IO::MonoIOError> error) ;
+static int32_t Read(System::Runtime::InteropServices::SafeHandle safeHandle, ::ArrayW<uint8_t> dest, int32_t dest_offset, int32_t count, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Write addr 0x23d0d84 size 0x4 virtual false final false
-static int32_t Write(::cordl_internals::intptr_t handle, ByRefConst<::ArrayW<uint8_t>> src, int32_t src_offset, int32_t count, ByRef<::System::IO::MonoIOError> error) ;
+static int32_t Write(::cordl_internals::intptr_t handle, ByRefConst<::ArrayW<uint8_t>> src, int32_t src_offset, int32_t count, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Write addr 0x23cf578 size 0x148 virtual false final false
-static int32_t Write(::System::Runtime::InteropServices::SafeHandle safeHandle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count, ByRef<::System::IO::MonoIOError> error) ;
+static int32_t Write(System::Runtime::InteropServices::SafeHandle safeHandle, ::ArrayW<uint8_t> src, int32_t src_offset, int32_t count, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Seek addr 0x23d0d88 size 0x4 virtual false final false
-static int64_t Seek(::cordl_internals::intptr_t handle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error) ;
+static int64_t Seek(::cordl_internals::intptr_t handle, int64_t offset, System::IO::SeekOrigin origin, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method Seek addr 0x23cdc60 size 0x140 virtual false final false
-static int64_t Seek(::System::Runtime::InteropServices::SafeHandle safeHandle, int64_t offset, ::System::IO::SeekOrigin origin, ByRef<::System::IO::MonoIOError> error) ;
+static int64_t Seek(System::Runtime::InteropServices::SafeHandle safeHandle, int64_t offset, System::IO::SeekOrigin origin, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method GetLength addr 0x23d0d8c size 0x4 virtual false final false
-static int64_t GetLength(::cordl_internals::intptr_t handle, ByRef<::System::IO::MonoIOError> error) ;
+static int64_t GetLength(::cordl_internals::intptr_t handle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method GetLength addr 0x23cdf44 size 0x128 virtual false final false
-static int64_t GetLength(::System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<::System::IO::MonoIOError> error) ;
+static int64_t GetLength(System::Runtime::InteropServices::SafeHandle safeHandle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method SetLength addr 0x23d0d90 size 0x4 virtual false final false
-static bool SetLength(::cordl_internals::intptr_t handle, int64_t length, ByRef<::System::IO::MonoIOError> error) ;
+static bool SetLength(::cordl_internals::intptr_t handle, int64_t length, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method SetLength addr 0x23d0264 size 0x130 virtual false final false
-static bool SetLength(::System::Runtime::InteropServices::SafeHandle safeHandle, int64_t length, ByRef<::System::IO::MonoIOError> error) ;
+static bool SetLength(System::Runtime::InteropServices::SafeHandle safeHandle, int64_t length, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method get_ConsoleOutput addr 0x23d0d94 size 0x4 virtual false final false
 static ::cordl_internals::intptr_t get_ConsoleOutput() ;
@@ -181,10 +180,10 @@ static ::cordl_internals::intptr_t get_ConsoleInput() ;
 static ::cordl_internals::intptr_t get_ConsoleError() ;
 
 /// @brief Method CreatePipe addr 0x23d0da0 size 0x4 virtual false final false
-static bool CreatePipe(ByRef<::cordl_internals::intptr_t> read_handle, ByRef<::cordl_internals::intptr_t> write_handle, ByRef<::System::IO::MonoIOError> error) ;
+static bool CreatePipe(ByRef<::cordl_internals::intptr_t> read_handle, ByRef<::cordl_internals::intptr_t> write_handle, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method DuplicateHandle addr 0x23d0da4 size 0x4 virtual false final false
-static bool DuplicateHandle(::cordl_internals::intptr_t source_process_handle, ::cordl_internals::intptr_t source_handle, ::cordl_internals::intptr_t target_process_handle, ByRef<::cordl_internals::intptr_t> target_handle, int32_t access, int32_t inherit, int32_t options, ByRef<::System::IO::MonoIOError> error) ;
+static bool DuplicateHandle(::cordl_internals::intptr_t source_process_handle, ::cordl_internals::intptr_t source_handle, ::cordl_internals::intptr_t target_process_handle, ByRef<::cordl_internals::intptr_t> target_handle, int32_t access, int32_t inherit, int32_t options, ByRef<System::IO::MonoIOError> error) ;
 
 /// @brief Method get_VolumeSeparatorChar addr 0x23d0da8 size 0x4 virtual false final false
 static char16_t get_VolumeSeparatorChar() ;
@@ -208,6 +207,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::IO
-} // end anonymous namespace
-NEED_NO_BOX(::System::IO::MonoIO);
-DEFINE_IL2CPP_ARG_TYPE(::System::IO::MonoIO, "System.IO", "MonoIO");
+NEED_NO_BOX(System::IO::MonoIO);
+DEFINE_IL2CPP_ARG_TYPE(System::IO::MonoIO, "System.IO", "MonoIO");

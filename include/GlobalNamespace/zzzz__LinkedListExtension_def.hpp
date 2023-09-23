@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace System::Collections::Generic {
 template<typename T>
 class LinkedListNode_1;
@@ -55,12 +54,11 @@ constexpr explicit LinkedListExtension(void* ptr) noexcept : ::bs_hook::Il2CppWr
 
 /// @brief Method Index addr 0x0 size 0xffffffffffffffff virtual false final false
 template<typename T>
-static int32_t Index(::System::Collections::Generic::LinkedListNode_1<T> searchNode) ;
+static int32_t Index(System::Collections::Generic::LinkedListNode_1<T> searchNode) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LinkedListExtension);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LinkedListExtension, "", "LinkedListExtension");
+NEED_NO_BOX(GlobalNamespace::LinkedListExtension);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LinkedListExtension, "", "LinkedListExtension");

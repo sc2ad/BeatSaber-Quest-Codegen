@@ -4,18 +4,17 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-namespace {
-namespace UnityEngine {
-class Avatar;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace UnityEngine {
 class AnimationClip;
 }
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 class Transform;
+}
+namespace UnityEngine {
+class AnimationCurve;
 }
 namespace UnityEngine {
 struct AvatarIKGoal;
@@ -24,7 +23,7 @@ namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
-struct Vector3;
+class Avatar;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -72,11 +71,11 @@ constexpr explicit BakerHumanoidQT(void* ptr) noexcept : ::bs_hook::Il2CppWrappe
 
 // Fields
 
- ::UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
+ UnityEngine::Transform __declspec(property(get=__get_transform, put=__set_transform))  transform;
 
-constexpr void __set_transform(::UnityEngine::Transform value) ;
+constexpr void __set_transform(UnityEngine::Transform value) ;
 
-constexpr ::UnityEngine::Transform __get_transform() const;
+constexpr UnityEngine::Transform __get_transform() const;
 
  ::StringW __declspec(property(get=__get_Qx, put=__set_Qx))  Qx;
 
@@ -120,59 +119,59 @@ constexpr void __set_Tz(::StringW value) ;
 
 constexpr ::StringW __get_Tz() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotX, put=__set_rotX))  rotX;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotX, put=__set_rotX))  rotX;
 
-constexpr void __set_rotX(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotX(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotX() const;
+constexpr UnityEngine::AnimationCurve __get_rotX() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotY, put=__set_rotY))  rotY;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotY, put=__set_rotY))  rotY;
 
-constexpr void __set_rotY(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotY(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotY() const;
+constexpr UnityEngine::AnimationCurve __get_rotY() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotZ, put=__set_rotZ))  rotZ;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotZ, put=__set_rotZ))  rotZ;
 
-constexpr void __set_rotZ(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotZ(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotZ() const;
+constexpr UnityEngine::AnimationCurve __get_rotZ() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_rotW, put=__set_rotW))  rotW;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_rotW, put=__set_rotW))  rotW;
 
-constexpr void __set_rotW(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_rotW(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_rotW() const;
+constexpr UnityEngine::AnimationCurve __get_rotW() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posX, put=__set_posX))  posX;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posX, put=__set_posX))  posX;
 
-constexpr void __set_posX(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posX(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posX() const;
+constexpr UnityEngine::AnimationCurve __get_posX() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posY, put=__set_posY))  posY;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posY, put=__set_posY))  posY;
 
-constexpr void __set_posY(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posY(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posY() const;
+constexpr UnityEngine::AnimationCurve __get_posY() const;
 
- ::UnityEngine::AnimationCurve __declspec(property(get=__get_posZ, put=__set_posZ))  posZ;
+ UnityEngine::AnimationCurve __declspec(property(get=__get_posZ, put=__set_posZ))  posZ;
 
-constexpr void __set_posZ(::UnityEngine::AnimationCurve value) ;
+constexpr void __set_posZ(UnityEngine::AnimationCurve value) ;
 
-constexpr ::UnityEngine::AnimationCurve __get_posZ() const;
+constexpr UnityEngine::AnimationCurve __get_posZ() const;
 
- ::UnityEngine::AvatarIKGoal __declspec(property(get=__get_goal, put=__set_goal))  goal;
+ UnityEngine::AvatarIKGoal __declspec(property(get=__get_goal, put=__set_goal))  goal;
 
-constexpr void __set_goal(::UnityEngine::AvatarIKGoal value) ;
+constexpr void __set_goal(UnityEngine::AvatarIKGoal value) ;
 
-constexpr ::UnityEngine::AvatarIKGoal __get_goal() const;
+constexpr UnityEngine::AvatarIKGoal __get_goal() const;
 
- ::UnityEngine::Quaternion __declspec(property(get=__get_lastQ, put=__set_lastQ))  lastQ;
+ UnityEngine::Quaternion __declspec(property(get=__get_lastQ, put=__set_lastQ))  lastQ;
 
-constexpr void __set_lastQ(::UnityEngine::Quaternion value) ;
+constexpr void __set_lastQ(UnityEngine::Quaternion value) ;
 
-constexpr ::UnityEngine::Quaternion __get_lastQ() const;
+constexpr UnityEngine::Quaternion __get_lastQ() const;
 
  bool __declspec(property(get=__get_lastQSet, put=__set_lastQSet))  lastQSet;
 
@@ -189,20 +188,20 @@ explicit BakerHumanoidQT(::StringW name) ;
 /// @brief Method .ctor addr 0x11a8a60 size 0x178 virtual false final false
  void _ctor(::StringW name) ;
 
-// Ctor Parameters [CppParam { name: "transform", ty: "::UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "goal", ty: "::UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
-explicit BakerHumanoidQT(::UnityEngine::Transform transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name) ;
+// Ctor Parameters [CppParam { name: "transform", ty: "UnityEngine::Transform", modifiers: "", def_value: None }, CppParam { name: "goal", ty: "UnityEngine::AvatarIKGoal", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }]
+explicit BakerHumanoidQT(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name) ;
 
 /// @brief Method .ctor addr 0x11a8d1c size 0x188 virtual false final false
- void _ctor(::UnityEngine::Transform transform, ::UnityEngine::AvatarIKGoal goal, ::StringW name) ;
+ void _ctor(UnityEngine::Transform transform, UnityEngine::AvatarIKGoal goal, ::StringW name) ;
 
 /// @brief Method Reset addr 0x11a8bd8 size 0x144 virtual false final false
  void Reset() ;
 
 /// @brief Method SetIKKeyframes addr 0x11a8ea4 size 0x234 virtual false final false
- void SetIKKeyframes(float_t time, ::UnityEngine::Avatar avatar, float_t humanScale, ::UnityEngine::Vector3 bodyPosition, ::UnityEngine::Quaternion bodyRotation) ;
+ void SetIKKeyframes(float_t time, UnityEngine::Avatar avatar, float_t humanScale, UnityEngine::Vector3 bodyPosition, UnityEngine::Quaternion bodyRotation) ;
 
 /// @brief Method SetKeyframes addr 0x11a90d8 size 0xf0 virtual false final false
- void SetKeyframes(float_t time, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) ;
+ void SetKeyframes(float_t time, UnityEngine::Vector3 pos, UnityEngine::Quaternion rot) ;
 
 /// @brief Method MoveLastKeyframes addr 0x11a91c8 size 0x68 virtual false final false
  void MoveLastKeyframes(float_t time) ;
@@ -211,18 +210,17 @@ explicit BakerHumanoidQT(::UnityEngine::Transform transform, ::UnityEngine::Avat
  void SetLoopFrame(float_t time) ;
 
 /// @brief Method MoveLastKeyframe addr 0x11a9230 size 0x7c virtual false final false
- void MoveLastKeyframe(float_t time, ::UnityEngine::AnimationCurve curve) ;
+ void MoveLastKeyframe(float_t time, UnityEngine::AnimationCurve curve) ;
 
 /// @brief Method MultiplyLength addr 0x11a9314 size 0xa8 virtual false final false
- void MultiplyLength(::UnityEngine::AnimationCurve curve, float_t mlp) ;
+ void MultiplyLength(UnityEngine::AnimationCurve curve, float_t mlp) ;
 
 /// @brief Method SetCurves addr 0x11a93bc size 0x2ec virtual false final false
- void SetCurves(ByRef<::UnityEngine::AnimationClip> clip, float_t maxError, float_t lengthMlp) ;
+ void SetCurves(ByRef<UnityEngine::AnimationClip> clip, float_t maxError, float_t lengthMlp) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def RootMotion
-} // end anonymous namespace
-NEED_NO_BOX(::RootMotion::BakerHumanoidQT);
-DEFINE_IL2CPP_ARG_TYPE(::RootMotion::BakerHumanoidQT, "RootMotion", "BakerHumanoidQT");
+NEED_NO_BOX(RootMotion::BakerHumanoidQT);
+DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT, "RootMotion", "BakerHumanoidQT");

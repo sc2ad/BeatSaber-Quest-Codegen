@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace HoudiniEngineUnity {
 struct HAPI_Transform;
 }
@@ -18,7 +17,7 @@ namespace HoudiniEngineUnity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9745))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
 // CS Name: HoudiniEngineUnity.HEU_LoadBufferInstancer
-class CORDL_TYPE HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
+class CORDL_TYPE HEU_LoadBufferInstancer : public HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr HEU_LoadBufferInstancer(HEU_LoadBufferInstancer const& ) noexcept = de
 constexpr HEU_LoadBufferInstancer(HEU_LoadBufferInstancer&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit HEU_LoadBufferInstancer(void* ptr) noexcept : ::HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
+constexpr explicit HEU_LoadBufferInstancer(void* ptr) noexcept : HoudiniEngineUnity::HEU_LoadBufferBase(ptr) {
 }
 
 
@@ -54,11 +53,11 @@ constexpr explicit HEU_LoadBufferInstancer(void* ptr) noexcept : ::HoudiniEngine
 
 // Fields
 
- ::ArrayW<::HoudiniEngineUnity::HAPI_Transform> __declspec(property(get=__get__instanceTransforms, put=__set__instanceTransforms))  _instanceTransforms;
+ ::ArrayW<HoudiniEngineUnity::HAPI_Transform> __declspec(property(get=__get__instanceTransforms, put=__set__instanceTransforms))  _instanceTransforms;
 
-constexpr void __set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform> value) ;
+constexpr void __set__instanceTransforms(::ArrayW<HoudiniEngineUnity::HAPI_Transform> value) ;
 
-constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_Transform> __get__instanceTransforms() const;
+constexpr ::ArrayW<HoudiniEngineUnity::HAPI_Transform> __get__instanceTransforms() const;
 
  ::ArrayW<::StringW> __declspec(property(get=__get__instancePrefixes, put=__set__instancePrefixes))  _instancePrefixes;
 
@@ -97,6 +96,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def HoudiniEngineUnity
-} // end anonymous namespace
-NEED_NO_BOX(::HoudiniEngineUnity::HEU_LoadBufferInstancer);
-DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_LoadBufferInstancer, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");
+NEED_NO_BOX(HoudiniEngineUnity::HEU_LoadBufferInstancer);
+DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferInstancer, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");

@@ -3,12 +3,11 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
-namespace {
-namespace Org::BouncyCastle::Math::EC::Multiplier {
-class PreCompInfo;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -23,8 +22,8 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE WNafPreCompInfo : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
-constexpr operator  ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() const noexcept;
+/// @brief Convert operator to Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
+constexpr operator  Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -71,23 +70,23 @@ constexpr void __set_m_confWidth(int32_t value) ;
 
 constexpr int32_t __get_m_confWidth() const;
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=__get_m_preComp, put=__set_m_preComp))  m_preComp;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=__get_m_preComp, put=__set_m_preComp))  m_preComp;
 
-constexpr void __set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> value) ;
+constexpr void __set_m_preComp(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __get_m_preComp() const;
+constexpr ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __get_m_preComp() const;
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=__get_m_preCompNeg, put=__set_m_preCompNeg))  m_preCompNeg;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=__get_m_preCompNeg, put=__set_m_preCompNeg))  m_preCompNeg;
 
-constexpr void __set_m_preCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> value) ;
+constexpr void __set_m_preCompNeg(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> value) ;
 
-constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __get_m_preCompNeg() const;
+constexpr ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __get_m_preCompNeg() const;
 
- ::Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=__get_m_twice, put=__set_m_twice))  m_twice;
+ Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=__get_m_twice, put=__set_m_twice))  m_twice;
 
-constexpr void __set_m_twice(::Org::BouncyCastle::Math::EC::ECPoint value) ;
+constexpr void __set_m_twice(Org::BouncyCastle::Math::EC::ECPoint value) ;
 
-constexpr ::Org::BouncyCastle::Math::EC::ECPoint __get_m_twice() const;
+constexpr Org::BouncyCastle::Math::EC::ECPoint __get_m_twice() const;
 
  int32_t __declspec(property(get=__get_m_width, put=__set_m_width))  m_width;
 
@@ -104,11 +103,11 @@ constexpr int32_t __get_m_width() const;
 
  int32_t __declspec(property(get=get_ConfWidth, put=set_ConfWidth))  ConfWidth;
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=get_PreComp, put=set_PreComp))  PreComp;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=get_PreComp, put=set_PreComp))  PreComp;
 
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=get_PreCompNeg, put=set_PreCompNeg))  PreCompNeg;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> __declspec(property(get=get_PreCompNeg, put=set_PreCompNeg))  PreCompNeg;
 
- ::Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Twice, put=set_Twice))  Twice;
+ Org::BouncyCastle::Math::EC::ECPoint __declspec(property(get=get_Twice, put=set_Twice))  Twice;
 
  int32_t __declspec(property(get=get_Width, put=set_Width))  Width;
 
@@ -134,22 +133,22 @@ constexpr int32_t __get_m_width() const;
  void set_ConfWidth(int32_t value) ;
 
 /// @brief Method get_PreComp addr 0xfaadec size 0x8 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> get_PreComp() ;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> get_PreComp() ;
 
 /// @brief Method set_PreComp addr 0xfaadf4 size 0x8 virtual true final false
- void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> value) ;
+ void set_PreComp(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> value) ;
 
 /// @brief Method get_PreCompNeg addr 0xfaadfc size 0x8 virtual true final false
- ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> get_PreCompNeg() ;
+ ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> get_PreCompNeg() ;
 
 /// @brief Method set_PreCompNeg addr 0xfaae04 size 0x8 virtual true final false
- void set_PreCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint> value) ;
+ void set_PreCompNeg(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint> value) ;
 
 /// @brief Method get_Twice addr 0xfaae0c size 0x8 virtual true final false
- ::Org::BouncyCastle::Math::EC::ECPoint get_Twice() ;
+ Org::BouncyCastle::Math::EC::ECPoint get_Twice() ;
 
 /// @brief Method set_Twice addr 0xfaae14 size 0x8 virtual true final false
- void set_Twice(::Org::BouncyCastle::Math::EC::ECPoint value) ;
+ void set_Twice(Org::BouncyCastle::Math::EC::ECPoint value) ;
 
 /// @brief Method get_Width addr 0xfaae1c size 0x8 virtual true final false
  int32_t get_Width() ;
@@ -167,6 +166,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Math::EC::Multiplier
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");
+NEED_NO_BOX(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");

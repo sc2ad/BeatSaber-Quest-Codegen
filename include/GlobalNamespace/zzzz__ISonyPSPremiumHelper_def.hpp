@@ -2,20 +2,19 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Threading::Tasks {
 template<typename TResult>
 class Task_1;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 // Forward declare root types
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+struct GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 }
 namespace GlobalNamespace {
-struct ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult;
+struct GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult;
 }
 namespace GlobalNamespace {
 class ISonyPSPremiumHelper;
@@ -26,20 +25,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4664))
 // CS Name: ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
-struct CORDL_TYPE ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(int32_t value__) noexcept;
+constexpr GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const&) = default;
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult&&) = default;
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult& operator=(____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const& o) {
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const&) = default;
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult&&) = default;
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult& operator=(GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult& operator=(____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult&& o) noexcept {
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult& operator=(GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -52,7 +51,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -60,14 +59,14 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped : int32_t {
+enum class __GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped : int32_t {
 __OK = 0,
 __Failed = 1,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult_Unwrapped>(__instance);
 }
 
 
@@ -80,10 +79,10 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field OK offset 0
-static ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const OK;
+static GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const OK;
 
 /// @brief Field Failed offset 0
-static ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const Failed;
+static GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult const Failed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -95,20 +94,20 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2558))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
 // CS Name: ISonyPSPremiumHelper::GetPremiumStatusResult
-struct CORDL_TYPE ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult : public ::bs_hook::EnumTypeWrapper {
+struct CORDL_TYPE GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult : public ::bs_hook::EnumTypeWrapper {
 public:
 // Declarations
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-constexpr ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(int32_t value__) noexcept;
+constexpr GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(int32_t value__) noexcept;
 
 
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const&) = default;
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult&&) = default;
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult& operator=(____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const& o) {
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const&) = default;
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult&&) = default;
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult& operator=(GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult& operator=(____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult&& o) noexcept {
+                    constexpr GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult& operator=(GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -121,7 +120,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x4};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::EnumTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -129,15 +128,15 @@ constexpr void* convert() const noexcept {
 return const_cast<void*>(static_cast<const void*>(__instance.data()));
 }
 
-enum class ______GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped : int32_t {
+enum class __GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped : int32_t {
 __Authorized = 0,
 __Unauthorized = 1,
 __Failed = 2,
 };
 
 /// @brief Conversion into unwrapped enum value
-constexpr operator ______GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped () const noexcept {
-return std::bit_cast<______GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped>(__instance);
+constexpr operator __GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped () const noexcept {
+return std::bit_cast<__GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult_Unwrapped>(__instance);
 }
 
 
@@ -150,13 +149,13 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Authorized offset 0
-static ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Authorized;
+static GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Authorized;
 
 /// @brief Field Unauthorized offset 0
-static ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Unauthorized;
+static GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Unauthorized;
 
 /// @brief Field Failed offset 0
-static ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Failed;
+static GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult const Failed;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -171,9 +170,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE ISonyPSPremiumHelper : public ::cordl_internals::InterfaceW {
 public:
 // Declarations
-using GetPremiumStatusResult = ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult;
+using GetPremiumStatusResult = GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult;
 
-using DisplayJoinPremiumDialogResult = ::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
+using DisplayJoinPremiumDialogResult = GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 
 ~ISonyPSPremiumHelper() = default;
 
@@ -185,10 +184,10 @@ constexpr explicit ISonyPSPremiumHelper(void* ptr) noexcept : ::cordl_internals:
 // Methods
 
 /// @brief Method DisplayJoinPremiumDialogAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult> DisplayJoinPremiumDialogAsync(::System::Threading::CancellationToken token) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult> DisplayJoinPremiumDialogAsync(System::Threading::CancellationToken token) ;
 
 /// @brief Method GetPremiumStatusAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::System::Threading::Tasks::Task_1<::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult> GetPremiumStatusAsync(::System::Threading::CancellationToken token) ;
+ System::Threading::Tasks::Task_1<GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult> GetPremiumStatusAsync(System::Threading::CancellationToken token) ;
 
 /// @brief Method NotifyPremiumFeature addr 0x0 size 0xffffffffffffffff virtual true final false
  void NotifyPremiumFeature(bool isSpectator) ;
@@ -197,8 +196,7 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult, "", "ISonyPSPremiumHelper/DisplayJoinPremiumDialogResult");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::____GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult, "", "ISonyPSPremiumHelper/GetPremiumStatusResult");
-NEED_NO_BOX(::GlobalNamespace::ISonyPSPremiumHelper);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ISonyPSPremiumHelper, "", "ISonyPSPremiumHelper");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult, "", "ISonyPSPremiumHelper/DisplayJoinPremiumDialogResult");
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GlobalNamespace__ISonyPSPremiumHelper__GetPremiumStatusResult, "", "ISonyPSPremiumHelper/GetPremiumStatusResult");
+NEED_NO_BOX(GlobalNamespace::ISonyPSPremiumHelper);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISonyPSPremiumHelper, "", "ISonyPSPremiumHelper");

@@ -4,7 +4,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +17,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(756))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(771))
 // CS Name: Org.BouncyCastle.Crypto.Digests.Sha512Digest
-class CORDL_TYPE Sha512Digest : public ::Org::BouncyCastle::Crypto::Digests::LongDigest {
+class CORDL_TYPE Sha512Digest : public Org::BouncyCastle::Crypto::Digests::LongDigest {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -33,7 +32,7 @@ constexpr Sha512Digest(Sha512Digest const& ) noexcept = default;
 constexpr Sha512Digest(Sha512Digest&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit Sha512Digest(void* ptr) noexcept : ::Org::BouncyCastle::Crypto::Digests::LongDigest(ptr) {
+constexpr explicit Sha512Digest(void* ptr) noexcept : Org::BouncyCastle::Crypto::Digests::LongDigest(ptr) {
 }
 
 
@@ -71,11 +70,11 @@ explicit Sha512Digest() ;
 /// @brief Method .ctor addr 0xe177f0 size 0x58 virtual false final false
  void _ctor() ;
 
-// Ctor Parameters [CppParam { name: "t", ty: "::Org::BouncyCastle::Crypto::Digests::Sha512Digest", modifiers: "", def_value: None }]
-explicit Sha512Digest(::Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
+// Ctor Parameters [CppParam { name: "t", ty: "Org::BouncyCastle::Crypto::Digests::Sha512Digest", modifiers: "", def_value: None }]
+explicit Sha512Digest(Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
 
 /// @brief Method .ctor addr 0xe17848 size 0x68 virtual false final false
- void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
+ void _ctor(Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
 
 /// @brief Method get_AlgorithmName addr 0xe178b0 size 0x40 virtual true final false
  ::StringW get_AlgorithmName() ;
@@ -90,15 +89,14 @@ explicit Sha512Digest(::Org::BouncyCastle::Crypto::Digests::Sha512Digest t) ;
  void Reset() ;
 
 /// @brief Method Copy addr 0xe17a20 size 0x60 virtual true final false
- ::Org::BouncyCastle::Utilities::IMemoable Copy() ;
+ Org::BouncyCastle::Utilities::IMemoable Copy() ;
 
 /// @brief Method Reset addr 0xe17a80 size 0x88 virtual true final false
- void Reset(::Org::BouncyCastle::Utilities::IMemoable other) ;
+ void Reset(Org::BouncyCastle::Utilities::IMemoable other) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto::Digests
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::Sha512Digest);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::Sha512Digest, "Org.BouncyCastle.Crypto.Digests", "Sha512Digest");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::Digests::Sha512Digest);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha512Digest, "Org.BouncyCastle.Crypto.Digests", "Sha512Digest");

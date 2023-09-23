@@ -1,24 +1,23 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::X509::Store {
+class X509CrlStoreSelector;
 }
 namespace System {
 struct DateTime;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixParameters;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::X509::Store {
-class X509CrlStoreSelector;
-}
-namespace System::Collections {
-class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -67,13 +66,13 @@ constexpr explicit PkixCrlUtilities(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 // Methods
 
 /// @brief Method FindCrls addr 0x1078ed4 size 0x764 virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlselect, ::Org::BouncyCastle::Pkix::PkixParameters paramsPkix, ::System::DateTime currentDate) ;
+ Org::BouncyCastle::Utilities::Collections::ISet FindCrls(Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlselect, Org::BouncyCastle::Pkix::PkixParameters paramsPkix, System::DateTime currentDate) ;
 
 /// @brief Method FindCrls addr 0x1079bb0 size 0x1d4 virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlselect, ::Org::BouncyCastle::Pkix::PkixParameters paramsPkix) ;
+ Org::BouncyCastle::Utilities::Collections::ISet FindCrls(Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlselect, Org::BouncyCastle::Pkix::PkixParameters paramsPkix) ;
 
 /// @brief Method FindCrls addr 0x1079638 size 0x578 virtual false final false
- ::System::Collections::ICollection FindCrls(::Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlSelect, ::System::Collections::IList crlStores) ;
+ System::Collections::ICollection FindCrls(Org::BouncyCastle::X509::Store::X509CrlStoreSelector crlSelect, System::Collections::IList crlStores) ;
 
 // Ctor Parameters []
 explicit PkixCrlUtilities() ;
@@ -85,6 +84,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixCrlUtilities);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixCrlUtilities, "Org.BouncyCastle.Pkix", "PkixCrlUtilities");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixCrlUtilities);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixCrlUtilities, "Org.BouncyCastle.Pkix", "PkixCrlUtilities");

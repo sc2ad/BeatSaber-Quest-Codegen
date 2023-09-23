@@ -2,21 +2,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
+namespace System {
+class Type;
+}
 namespace UnityEngine::Playables {
 struct PlayableBinding;
 }
 namespace UnityEngine {
 class Object;
 }
-namespace System {
-class Type;
+namespace UnityEngine::Playables {
+struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct PlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -65,15 +64,14 @@ constexpr explicit ScriptPlayableBinding(void* ptr) noexcept : ::bs_hook::Il2Cpp
 // Methods
 
 /// @brief Method Create addr 0x2b7cff0 size 0xbc virtual false final false
-static ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object key, ::System::Type type) ;
+static UnityEngine::Playables::PlayableBinding Create(::StringW name, UnityEngine::Object key, System::Type type) ;
 
 /// @brief Method CreateScriptOutput addr 0x2b7d0ac size 0x4 virtual false final false
-static ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
+static UnityEngine::Playables::PlayableOutput CreateScriptOutput(UnityEngine::Playables::PlayableGraph graph, ::StringW name) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::Playables
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::Playables::ScriptPlayableBinding);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::ScriptPlayableBinding, "UnityEngine.Playables", "ScriptPlayableBinding");
+NEED_NO_BOX(UnityEngine::Playables::ScriptPlayableBinding);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableBinding, "UnityEngine.Playables", "ScriptPlayableBinding");

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace UnityEngine::Events {
 class UnityAction;
 }
@@ -16,7 +15,7 @@ namespace UnityEngine {
 class BeforeRenderHelper;
 }
 namespace UnityEngine {
-struct ____UnityEngine__BeforeRenderHelper__OrderBlock;
+struct UnityEngine__BeforeRenderHelper__OrderBlock;
 }
 // Type: ::OrderBlock
 namespace UnityEngine {
@@ -24,20 +23,20 @@ namespace UnityEngine {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10041))
 // CS Name: UnityEngine.BeforeRenderHelper::OrderBlock
-struct CORDL_TYPE ____UnityEngine__BeforeRenderHelper__OrderBlock : public ::bs_hook::ValueTypeWrapper {
+struct CORDL_TYPE UnityEngine__BeforeRenderHelper__OrderBlock : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "::UnityEngine::Events::UnityAction", modifiers: "", def_value: None }]
-constexpr ____UnityEngine__BeforeRenderHelper__OrderBlock(int32_t order, ::UnityEngine::Events::UnityAction callback) noexcept;
+// Ctor Parameters [CppParam { name: "order", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "callback", ty: "UnityEngine::Events::UnityAction", modifiers: "", def_value: None }]
+constexpr UnityEngine__BeforeRenderHelper__OrderBlock(int32_t order, UnityEngine::Events::UnityAction callback) noexcept;
 
 
-                    constexpr ____UnityEngine__BeforeRenderHelper__OrderBlock(____UnityEngine__BeforeRenderHelper__OrderBlock const&) = default;
-                    constexpr ____UnityEngine__BeforeRenderHelper__OrderBlock(____UnityEngine__BeforeRenderHelper__OrderBlock&&) = default;
-                    constexpr ____UnityEngine__BeforeRenderHelper__OrderBlock& operator=(____UnityEngine__BeforeRenderHelper__OrderBlock const& o) {
+                    constexpr UnityEngine__BeforeRenderHelper__OrderBlock(UnityEngine__BeforeRenderHelper__OrderBlock const&) = default;
+                    constexpr UnityEngine__BeforeRenderHelper__OrderBlock(UnityEngine__BeforeRenderHelper__OrderBlock&&) = default;
+                    constexpr UnityEngine__BeforeRenderHelper__OrderBlock& operator=(UnityEngine__BeforeRenderHelper__OrderBlock const& o) {
                         __instance = o.__instance;
                         return *this;
                     };
-                    constexpr ____UnityEngine__BeforeRenderHelper__OrderBlock& operator=(____UnityEngine__BeforeRenderHelper__OrderBlock&& o) noexcept {
+                    constexpr UnityEngine__BeforeRenderHelper__OrderBlock& operator=(UnityEngine__BeforeRenderHelper__OrderBlock&& o) noexcept {
                         __instance = std::move(o.__instance);
                         return *this;
                     };
@@ -50,7 +49,7 @@ static constexpr auto  __CORDL_VALUE_TYPE_SIZE{0x10};
  std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>  __instance;
 
 // Ctor Parameters [CppParam { name: "instance", ty: "std::array<std::byte, __CORDL_VALUE_TYPE_SIZE>", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__BeforeRenderHelper__OrderBlock(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
+constexpr explicit UnityEngine__BeforeRenderHelper__OrderBlock(std::array<std::byte, __CORDL_VALUE_TYPE_SIZE> instance) noexcept : ::bs_hook::ValueTypeWrapper(),__instance(std::move(instance)) {
 }
 
 /// @brief conversion method for value type
@@ -67,11 +66,11 @@ constexpr void __set_order(int32_t value) ;
 
 constexpr int32_t __get_order() const;
 
- ::UnityEngine::Events::UnityAction __declspec(property(get=__get_callback, put=__set_callback))  callback;
+ UnityEngine::Events::UnityAction __declspec(property(get=__get_callback, put=__set_callback))  callback;
 
-constexpr void __set_callback(::UnityEngine::Events::UnityAction value) ;
+constexpr void __set_callback(UnityEngine::Events::UnityAction value) ;
 
-constexpr ::UnityEngine::Events::UnityAction __get_callback() const;
+constexpr UnityEngine::Events::UnityAction __get_callback() const;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
@@ -86,7 +85,7 @@ namespace UnityEngine {
 class CORDL_TYPE BeforeRenderHelper : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using OrderBlock = ::UnityEngine::____UnityEngine__BeforeRenderHelper__OrderBlock;
+using OrderBlock = UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x10};
@@ -121,23 +120,23 @@ constexpr explicit BeforeRenderHelper(void* ptr) noexcept : ::bs_hook::Il2CppWra
 
 // Fields
 
-static ::System::Collections::Generic::List_1<::UnityEngine::____UnityEngine__BeforeRenderHelper__OrderBlock> __declspec(property(get=__get_s_OrderBlocks, put=__set_s_OrderBlocks))  s_OrderBlocks;
+static System::Collections::Generic::List_1<UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock> __declspec(property(get=__get_s_OrderBlocks, put=__set_s_OrderBlocks))  s_OrderBlocks;
 
-static void __set_s_OrderBlocks(::System::Collections::Generic::List_1<::UnityEngine::____UnityEngine__BeforeRenderHelper__OrderBlock> value) ;
+static void __set_s_OrderBlocks(System::Collections::Generic::List_1<UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock> value) ;
 
-static ::System::Collections::Generic::List_1<::UnityEngine::____UnityEngine__BeforeRenderHelper__OrderBlock> __get_s_OrderBlocks() ;
+static System::Collections::Generic::List_1<UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock> __get_s_OrderBlocks() ;
 
 
 // Methods
 
 /// @brief Method GetUpdateOrder addr 0x2b4b554 size 0x118 virtual false final false
-static int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction callback) ;
+static int32_t GetUpdateOrder(UnityEngine::Events::UnityAction callback) ;
 
 /// @brief Method RegisterCallback addr 0x2b4b66c size 0x348 virtual false final false
-static void RegisterCallback(::UnityEngine::Events::UnityAction callback) ;
+static void RegisterCallback(UnityEngine::Events::UnityAction callback) ;
 
 /// @brief Method UnregisterCallback addr 0x2b4b9b4 size 0x310 virtual false final false
-static void UnregisterCallback(::UnityEngine::Events::UnityAction callback) ;
+static void UnregisterCallback(UnityEngine::Events::UnityAction callback) ;
 
 /// @brief Method Invoke addr 0x2b4bcc4 size 0x19c virtual false final false
 static void Invoke() ;
@@ -146,7 +145,6 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::BeforeRenderHelper);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::BeforeRenderHelper, "UnityEngine", "BeforeRenderHelper");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::____UnityEngine__BeforeRenderHelper__OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");
+NEED_NO_BOX(UnityEngine::BeforeRenderHelper);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BeforeRenderHelper, "UnityEngine", "BeforeRenderHelper");
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityEngine__BeforeRenderHelper__OrderBlock, "UnityEngine", "BeforeRenderHelper/OrderBlock");

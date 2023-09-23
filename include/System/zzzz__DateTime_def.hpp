@@ -7,48 +7,31 @@
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
-namespace {
-namespace System {
-struct DayOfWeek;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System {
 template<typename T>
 struct ReadOnlySpan_1;
 }
 namespace System {
-template<typename T>
-struct Span_1;
+struct DateTimeKind;
 }
-namespace System {
-class Type;
-}
-namespace System::Globalization {
-struct DateTimeStyles;
-}
-namespace System {
-class ISpanFormattable;
-}
-namespace System {
-struct TypeCode;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 template<typename T>
 class IEquatable_1;
 }
 namespace System {
-struct Decimal;
+class IConvertible;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System {
 class IComparable;
-}
-namespace System {
-struct DateTimeKind;
-}
-namespace System::Globalization {
-class Calendar;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System {
 class IFormattable;
@@ -56,21 +39,37 @@ class IFormattable;
 namespace System {
 struct TimeSpan;
 }
-namespace System {
-class IConvertible;
+namespace System::Globalization {
+struct DateTimeStyles;
 }
 namespace System {
 template<typename T>
-class IComparable_1;
+struct Span_1;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Type;
+}
+namespace System {
+struct TypeCode;
+}
+namespace System {
+struct DayOfWeek;
+}
+namespace System {
+class ISpanFormattable;
 }
 namespace System {
 class IFormatProvider;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System::Globalization {
+class Calendar;
+}
+namespace System {
+template<typename T>
+class IComparable_1;
 }
 // Forward declare root types
 namespace System {
@@ -85,26 +84,26 @@ namespace System {
 struct CORDL_TYPE DateTime : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-/// @brief Convert operator to ::System::IComparable
-constexpr operator  ::System::IComparable() const;
+/// @brief Convert operator to System::IComparable
+constexpr operator  System::IComparable() const;
 
-/// @brief Convert operator to ::System::IFormattable
-constexpr operator  ::System::IFormattable() const;
+/// @brief Convert operator to System::IFormattable
+constexpr operator  System::IFormattable() const;
 
-/// @brief Convert operator to ::System::IConvertible
-constexpr operator  ::System::IConvertible() const;
+/// @brief Convert operator to System::IConvertible
+constexpr operator  System::IConvertible() const;
 
-/// @brief Convert operator to ::System::IComparable_1<::System::DateTime>
-constexpr operator  ::System::IComparable_1<::System::DateTime>() const;
+/// @brief Convert operator to System::IComparable_1<System::DateTime>
+constexpr operator  System::IComparable_1<System::DateTime>() const;
 
-/// @brief Convert operator to ::System::IEquatable_1<::System::DateTime>
-constexpr operator  ::System::IEquatable_1<::System::DateTime>() const;
+/// @brief Convert operator to System::IEquatable_1<System::DateTime>
+constexpr operator  System::IEquatable_1<System::DateTime>() const;
 
-/// @brief Convert operator to ::System::Runtime::Serialization::ISerializable
-constexpr operator  ::System::Runtime::Serialization::ISerializable() const;
+/// @brief Convert operator to System::Runtime::Serialization::ISerializable
+constexpr operator  System::Runtime::Serialization::ISerializable() const;
 
-/// @brief Convert operator to ::System::ISpanFormattable
-constexpr operator  ::System::ISpanFormattable() const;
+/// @brief Convert operator to System::ISpanFormattable
+constexpr operator  System::ISpanFormattable() const;
 
 // Ctor Parameters [CppParam { name: "_dateData", ty: "uint64_t", modifiers: "", def_value: None }]
 constexpr DateTime(uint64_t _dateData) noexcept;
@@ -242,23 +241,23 @@ static void __set_s_daysToMonth366(::ArrayW<int32_t> value) ;
 
 static ::ArrayW<int32_t> __get_s_daysToMonth366() ;
 
-static ::System::DateTime __declspec(property(get=__get_MinValue, put=__set_MinValue))  MinValue;
+static System::DateTime __declspec(property(get=__get_MinValue, put=__set_MinValue))  MinValue;
 
-static void __set_MinValue(::System::DateTime value) ;
+static void __set_MinValue(System::DateTime value) ;
 
-static ::System::DateTime __get_MinValue() ;
+static System::DateTime __get_MinValue() ;
 
-static ::System::DateTime __declspec(property(get=__get_MaxValue, put=__set_MaxValue))  MaxValue;
+static System::DateTime __declspec(property(get=__get_MaxValue, put=__set_MaxValue))  MaxValue;
 
-static void __set_MaxValue(::System::DateTime value) ;
+static void __set_MaxValue(System::DateTime value) ;
 
-static ::System::DateTime __get_MaxValue() ;
+static System::DateTime __get_MaxValue() ;
 
-static ::System::DateTime __declspec(property(get=__get_UnixEpoch, put=__set_UnixEpoch))  UnixEpoch;
+static System::DateTime __declspec(property(get=__get_UnixEpoch, put=__set_UnixEpoch))  UnixEpoch;
 
-static void __set_UnixEpoch(::System::DateTime value) ;
+static void __set_UnixEpoch(System::DateTime value) ;
 
-static ::System::DateTime __get_UnixEpoch() ;
+static System::DateTime __get_UnixEpoch() ;
 
 /// @brief Field TicksMask offset 0
 static constexpr uint64_t  TicksMask{4611686018427387903u};
@@ -306,15 +305,15 @@ constexpr uint64_t __get__dateData() const;
 
  uint64_t __declspec(property(get=get_InternalKind))  InternalKind;
 
- ::System::DateTime __declspec(property(get=get_Date))  Date;
+ System::DateTime __declspec(property(get=get_Date))  Date;
 
  int32_t __declspec(property(get=get_Day))  Day;
 
- ::System::DayOfWeek __declspec(property(get=get_DayOfWeek))  DayOfWeek;
+ System::DayOfWeek __declspec(property(get=get_DayOfWeek))  DayOfWeek;
 
  int32_t __declspec(property(get=get_Hour))  Hour;
 
- ::System::DateTimeKind __declspec(property(get=get_Kind))  Kind;
+ System::DateTimeKind __declspec(property(get=get_Kind))  Kind;
 
  int32_t __declspec(property(get=get_Millisecond))  Millisecond;
 
@@ -322,17 +321,17 @@ constexpr uint64_t __get__dateData() const;
 
  int32_t __declspec(property(get=get_Month))  Month;
 
-static ::System::DateTime __declspec(property(get=get_Now))  Now;
+static System::DateTime __declspec(property(get=get_Now))  Now;
 
  int32_t __declspec(property(get=get_Second))  Second;
 
  int64_t __declspec(property(get=get_Ticks))  Ticks;
 
- ::System::TimeSpan __declspec(property(get=get_TimeOfDay))  TimeOfDay;
+ System::TimeSpan __declspec(property(get=get_TimeOfDay))  TimeOfDay;
 
  int32_t __declspec(property(get=get_Year))  Year;
 
-static ::System::DateTime __declspec(property(get=get_UtcNow))  UtcNow;
+static System::DateTime __declspec(property(get=get_UtcNow))  UtcNow;
 
 
 // Methods
@@ -344,10 +343,10 @@ static ::System::DateTime __declspec(property(get=get_UtcNow))  UtcNow;
  void _ctor(uint64_t dateData) ;
 
 /// @brief Method .ctor addr 0x2420884 size 0xe8 virtual false final false
- void _ctor(int64_t ticks, ::System::DateTimeKind kind) ;
+ void _ctor(int64_t ticks, System::DateTimeKind kind) ;
 
 /// @brief Method .ctor addr 0x242096c size 0xa4 virtual false final false
- void _ctor(int64_t ticks, ::System::DateTimeKind kind, bool isAmbiguousDst) ;
+ void _ctor(int64_t ticks, System::DateTimeKind kind, bool isAmbiguousDst) ;
 
 /// @brief Method .ctor addr 0x2420a10 size 0x80 virtual false final false
  void _ctor(int32_t year, int32_t month, int32_t day) ;
@@ -356,19 +355,19 @@ static ::System::DateTime __declspec(property(get=get_UtcNow))  UtcNow;
  void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second) ;
 
 /// @brief Method .ctor addr 0x2420dc0 size 0x11c virtual false final false
- void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, ::System::DateTimeKind kind) ;
+ void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, System::DateTimeKind kind) ;
 
 /// @brief Method .ctor addr 0x2420edc size 0x1d8 virtual false final false
  void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond) ;
 
 /// @brief Method .ctor addr 0x24210b4 size 0x234 virtual false final false
- void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ::System::DateTimeKind kind) ;
+ void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, System::DateTimeKind kind) ;
 
 /// @brief Method .ctor addr 0x24212e8 size 0x1a8 virtual false final false
- void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ::System::Globalization::Calendar calendar) ;
+ void _ctor(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, System::Globalization::Calendar calendar) ;
 
 /// @brief Method .ctor addr 0x242149c size 0x2a8 virtual false final false
- void _ctor(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void _ctor(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method get_InternalTicks addr 0x2421744 size 0xc virtual false final false
  int64_t get_InternalTicks() ;
@@ -377,37 +376,37 @@ static ::System::DateTime __declspec(property(get=get_UtcNow))  UtcNow;
  uint64_t get_InternalKind() ;
 
 /// @brief Method Add addr 0x242175c size 0x4 virtual false final false
- ::System::DateTime Add(::System::TimeSpan value) ;
+ System::DateTime Add(System::TimeSpan value) ;
 
 /// @brief Method Add addr 0x2421810 size 0xd4 virtual false final false
- ::System::DateTime Add(double_t value, int32_t scale) ;
+ System::DateTime Add(double_t value, int32_t scale) ;
 
 /// @brief Method AddDays addr 0x24218e4 size 0xc virtual false final false
- ::System::DateTime AddDays(double_t value) ;
+ System::DateTime AddDays(double_t value) ;
 
 /// @brief Method AddMilliseconds addr 0x24218f0 size 0x8 virtual false final false
- ::System::DateTime AddMilliseconds(double_t value) ;
+ System::DateTime AddMilliseconds(double_t value) ;
 
 /// @brief Method AddMonths addr 0x24218f8 size 0x244 virtual false final false
- ::System::DateTime AddMonths(int32_t months) ;
+ System::DateTime AddMonths(int32_t months) ;
 
 /// @brief Method AddSeconds addr 0x2421e58 size 0x8 virtual false final false
- ::System::DateTime AddSeconds(double_t value) ;
+ System::DateTime AddSeconds(double_t value) ;
 
 /// @brief Method AddTicks addr 0x2421760 size 0xb0 virtual false final false
- ::System::DateTime AddTicks(int64_t value) ;
+ System::DateTime AddTicks(int64_t value) ;
 
 /// @brief Method AddYears addr 0x2421e60 size 0x88 virtual false final false
- ::System::DateTime AddYears(int32_t value) ;
+ System::DateTime AddYears(int32_t value) ;
 
 /// @brief Method Compare addr 0x2421ee8 size 0x20 virtual false final false
-static int32_t Compare(::System::DateTime t1, ::System::DateTime t2) ;
+static int32_t Compare(System::DateTime t1, System::DateTime t2) ;
 
 /// @brief Method CompareTo addr 0x2421f08 size 0x100 virtual true final true
  int32_t CompareTo(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method CompareTo addr 0x2422008 size 0x74 virtual true final true
- int32_t CompareTo(::System::DateTime value) ;
+ int32_t CompareTo(System::DateTime value) ;
 
 /// @brief Method DateToTicks addr 0x2420a90 size 0x1ac virtual false final false
 static int64_t DateToTicks(int32_t year, int32_t month, int32_t day) ;
@@ -422,28 +421,28 @@ static int32_t DaysInMonth(int32_t year, int32_t month) ;
  bool Equals(::bs_hook::Il2CppWrapperType value) ;
 
 /// @brief Method Equals addr 0x24221c4 size 0x14 virtual true final true
- bool Equals(::System::DateTime value) ;
+ bool Equals(System::DateTime value) ;
 
 /// @brief Method FromBinary addr 0x24221d8 size 0x234 virtual false final false
-static ::System::DateTime FromBinary(int64_t dateData) ;
+static System::DateTime FromBinary(int64_t dateData) ;
 
 /// @brief Method FromBinaryRaw addr 0x242240c size 0x88 virtual false final false
-static ::System::DateTime FromBinaryRaw(int64_t dateData) ;
+static System::DateTime FromBinaryRaw(int64_t dateData) ;
 
 /// @brief Method FromFileTime addr 0x2422494 size 0x74 virtual false final false
-static ::System::DateTime FromFileTime(int64_t fileTime) ;
+static System::DateTime FromFileTime(int64_t fileTime) ;
 
 /// @brief Method FromFileTimeUtc addr 0x2422508 size 0xb0 virtual false final false
-static ::System::DateTime FromFileTimeUtc(int64_t fileTime) ;
+static System::DateTime FromFileTimeUtc(int64_t fileTime) ;
 
 /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x24225c0 size 0xd0 virtual true final true
- void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo info, ::System::Runtime::Serialization::StreamingContext context) ;
+ void System_Runtime_Serialization_ISerializable_GetObjectData(System::Runtime::Serialization::SerializationInfo info, System::Runtime::Serialization::StreamingContext context) ;
 
 /// @brief Method SpecifyKind addr 0x2422690 size 0x24 virtual false final false
-static ::System::DateTime SpecifyKind(::System::DateTime value, ::System::DateTimeKind kind) ;
+static System::DateTime SpecifyKind(System::DateTime value, System::DateTimeKind kind) ;
 
 /// @brief Method get_Date addr 0x24226b4 size 0x3c virtual false final false
- ::System::DateTime get_Date() ;
+ System::DateTime get_Date() ;
 
 /// @brief Method GetDatePart addr 0x24226f0 size 0x1f0 virtual false final false
  int32_t GetDatePart(int32_t part) ;
@@ -455,7 +454,7 @@ static ::System::DateTime SpecifyKind(::System::DateTime value, ::System::DateTi
  int32_t get_Day() ;
 
 /// @brief Method get_DayOfWeek addr 0x24228e8 size 0x4c virtual false final false
- ::System::DayOfWeek get_DayOfWeek() ;
+ System::DayOfWeek get_DayOfWeek() ;
 
 /// @brief Method GetHashCode addr 0x2422934 size 0x10 virtual true final false
  int32_t GetHashCode() ;
@@ -467,7 +466,7 @@ static ::System::DateTime SpecifyKind(::System::DateTime value, ::System::DateTi
  bool IsAmbiguousDaylightSavingTime() ;
 
 /// @brief Method get_Kind addr 0x2420184 size 0x28 virtual false final false
- ::System::DateTimeKind get_Kind() ;
+ System::DateTimeKind get_Kind() ;
 
 /// @brief Method get_Millisecond addr 0x2422994 size 0x48 virtual false final false
  int32_t get_Millisecond() ;
@@ -479,7 +478,7 @@ static ::System::DateTime SpecifyKind(::System::DateTime value, ::System::DateTi
  int32_t get_Month() ;
 
 /// @brief Method get_Now addr 0x2422a20 size 0xf4 virtual false final false
-static ::System::DateTime get_Now() ;
+static System::DateTime get_Now() ;
 
 /// @brief Method get_Second addr 0x2422b78 size 0x3c virtual false final false
  int32_t get_Second() ;
@@ -488,7 +487,7 @@ static ::System::DateTime get_Now() ;
  int64_t get_Ticks() ;
 
 /// @brief Method get_TimeOfDay addr 0x2422bb4 size 0x34 virtual false final false
- ::System::TimeSpan get_TimeOfDay() ;
+ System::TimeSpan get_TimeOfDay() ;
 
 /// @brief Method get_Year addr 0x24200c8 size 0x8 virtual false final false
  int32_t get_Year() ;
@@ -497,25 +496,25 @@ static ::System::DateTime get_Now() ;
 static bool IsLeapYear(int32_t year) ;
 
 /// @brief Method Parse addr 0x2422be8 size 0xf4 virtual false final false
-static ::System::DateTime Parse(::StringW s, ::System::IFormatProvider provider) ;
+static System::DateTime Parse(::StringW s, System::IFormatProvider provider) ;
 
 /// @brief Method Parse addr 0x2422dcc size 0x130 virtual false final false
-static ::System::DateTime Parse(::StringW s, ::System::IFormatProvider provider, ::System::Globalization::DateTimeStyles styles) ;
+static System::DateTime Parse(::StringW s, System::IFormatProvider provider, System::Globalization::DateTimeStyles styles) ;
 
 /// @brief Method ParseExact addr 0x2422efc size 0x164 virtual false final false
-static ::System::DateTime ParseExact(::StringW s, ::StringW format, ::System::IFormatProvider provider) ;
+static System::DateTime ParseExact(::StringW s, ::StringW format, System::IFormatProvider provider) ;
 
 /// @brief Method ParseExact addr 0x2423168 size 0x1a0 virtual false final false
-static ::System::DateTime ParseExact(::StringW s, ::StringW format, ::System::IFormatProvider provider, ::System::Globalization::DateTimeStyles style) ;
+static System::DateTime ParseExact(::StringW s, ::StringW format, System::IFormatProvider provider, System::Globalization::DateTimeStyles style) ;
 
 /// @brief Method Subtract addr 0x2423308 size 0x14 virtual false final false
- ::System::TimeSpan Subtract(::System::DateTime value) ;
+ System::TimeSpan Subtract(System::DateTime value) ;
 
 /// @brief Method ToLocalTime addr 0x24225b8 size 0x8 virtual false final false
- ::System::DateTime ToLocalTime() ;
+ System::DateTime ToLocalTime() ;
 
 /// @brief Method ToLocalTime addr 0x242331c size 0x154 virtual false final false
- ::System::DateTime ToLocalTime(bool throwOnOverflow) ;
+ System::DateTime ToLocalTime(bool throwOnOverflow) ;
 
 /// @brief Method ToString addr 0x2423470 size 0x60 virtual true final false
  ::StringW ToString() ;
@@ -524,103 +523,103 @@ static ::System::DateTime ParseExact(::StringW s, ::StringW format, ::System::IF
  ::StringW ToString(::StringW format) ;
 
 /// @brief Method ToString addr 0x24235b4 size 0x6c virtual true final true
- ::StringW ToString(::System::IFormatProvider provider) ;
+ ::StringW ToString(System::IFormatProvider provider) ;
 
 /// @brief Method ToString addr 0x2423620 size 0x70 virtual true final true
- ::StringW ToString(::StringW format, ::System::IFormatProvider provider) ;
+ ::StringW ToString(::StringW format, System::IFormatProvider provider) ;
 
 /// @brief Method TryFormat addr 0x2423690 size 0xa0 virtual true final true
- bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider provider) ;
+ bool TryFormat(System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, System::ReadOnlySpan_1<char16_t> format, System::IFormatProvider provider) ;
 
 /// @brief Method ToUniversalTime addr 0x24237e8 size 0x60 virtual false final false
- ::System::DateTime ToUniversalTime() ;
+ System::DateTime ToUniversalTime() ;
 
 /// @brief Method TryParse addr 0x2423848 size 0x144 virtual false final false
-static bool TryParse(::StringW s, ::System::IFormatProvider provider, ::System::Globalization::DateTimeStyles styles, ByRef<::System::DateTime> result) ;
+static bool TryParse(::StringW s, System::IFormatProvider provider, System::Globalization::DateTimeStyles styles, ByRef<System::DateTime> result) ;
 
 /// @brief Method TryParseExact addr 0x2423aa4 size 0x190 virtual false final false
-static bool TryParseExact(::StringW s, ::StringW format, ::System::IFormatProvider provider, ::System::Globalization::DateTimeStyles style, ByRef<::System::DateTime> result) ;
+static bool TryParseExact(::StringW s, ::StringW format, System::IFormatProvider provider, System::Globalization::DateTimeStyles style, ByRef<System::DateTime> result) ;
 
 /// @brief Method op_Addition addr 0x2423d64 size 0xa4 virtual false final false
-static ::System::DateTime op_Addition(::System::DateTime d, ::System::TimeSpan t) ;
+static System::DateTime op_Addition(System::DateTime d, System::TimeSpan t) ;
 
 /// @brief Method op_Subtraction addr 0x2423e08 size 0x9c virtual false final false
-static ::System::DateTime op_Subtraction(::System::DateTime d, ::System::TimeSpan t) ;
+static System::DateTime op_Subtraction(System::DateTime d, System::TimeSpan t) ;
 
 /// @brief Method op_Subtraction addr 0x2423ea4 size 0x10 virtual false final false
-static ::System::TimeSpan op_Subtraction(::System::DateTime d1, ::System::DateTime d2) ;
+static System::TimeSpan op_Subtraction(System::DateTime d1, System::DateTime d2) ;
 
 /// @brief Method op_Equality addr 0x2423eb4 size 0x10 virtual false final false
-static bool op_Equality(::System::DateTime d1, ::System::DateTime d2) ;
+static bool op_Equality(System::DateTime d1, System::DateTime d2) ;
 
 /// @brief Method op_Inequality addr 0x2423ec4 size 0x10 virtual false final false
-static bool op_Inequality(::System::DateTime d1, ::System::DateTime d2) ;
+static bool op_Inequality(System::DateTime d1, System::DateTime d2) ;
 
 /// @brief Method op_LessThan addr 0x2423ed4 size 0x14 virtual false final false
-static bool op_LessThan(::System::DateTime t1, ::System::DateTime t2) ;
+static bool op_LessThan(System::DateTime t1, System::DateTime t2) ;
 
 /// @brief Method op_LessThanOrEqual addr 0x2423ee8 size 0x14 virtual false final false
-static bool op_LessThanOrEqual(::System::DateTime t1, ::System::DateTime t2) ;
+static bool op_LessThanOrEqual(System::DateTime t1, System::DateTime t2) ;
 
 /// @brief Method op_GreaterThan addr 0x2423efc size 0x14 virtual false final false
-static bool op_GreaterThan(::System::DateTime t1, ::System::DateTime t2) ;
+static bool op_GreaterThan(System::DateTime t1, System::DateTime t2) ;
 
 /// @brief Method op_GreaterThanOrEqual addr 0x2423f10 size 0x14 virtual false final false
-static bool op_GreaterThanOrEqual(::System::DateTime t1, ::System::DateTime t2) ;
+static bool op_GreaterThanOrEqual(System::DateTime t1, System::DateTime t2) ;
 
 /// @brief Method GetTypeCode addr 0x2423f24 size 0x8 virtual true final true
- ::System::TypeCode GetTypeCode() ;
+ System::TypeCode GetTypeCode() ;
 
 /// @brief Method System.IConvertible.ToBoolean addr 0x2423f2c size 0x8c virtual true final true
- bool System_IConvertible_ToBoolean(::System::IFormatProvider provider) ;
+ bool System_IConvertible_ToBoolean(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToChar addr 0x2423fb8 size 0x8c virtual true final true
- char16_t System_IConvertible_ToChar(::System::IFormatProvider provider) ;
+ char16_t System_IConvertible_ToChar(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToSByte addr 0x2424044 size 0x8c virtual true final true
- int8_t System_IConvertible_ToSByte(::System::IFormatProvider provider) ;
+ int8_t System_IConvertible_ToSByte(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToByte addr 0x24240d0 size 0x8c virtual true final true
- uint8_t System_IConvertible_ToByte(::System::IFormatProvider provider) ;
+ uint8_t System_IConvertible_ToByte(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt16 addr 0x242415c size 0x8c virtual true final true
- int16_t System_IConvertible_ToInt16(::System::IFormatProvider provider) ;
+ int16_t System_IConvertible_ToInt16(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt16 addr 0x24241e8 size 0x8c virtual true final true
- uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider provider) ;
+ uint16_t System_IConvertible_ToUInt16(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt32 addr 0x2424274 size 0x8c virtual true final true
- int32_t System_IConvertible_ToInt32(::System::IFormatProvider provider) ;
+ int32_t System_IConvertible_ToInt32(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt32 addr 0x2424300 size 0x8c virtual true final true
- uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider provider) ;
+ uint32_t System_IConvertible_ToUInt32(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToInt64 addr 0x242438c size 0x8c virtual true final true
- int64_t System_IConvertible_ToInt64(::System::IFormatProvider provider) ;
+ int64_t System_IConvertible_ToInt64(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToUInt64 addr 0x2424418 size 0x8c virtual true final true
- uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider provider) ;
+ uint64_t System_IConvertible_ToUInt64(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToSingle addr 0x24244a4 size 0x8c virtual true final true
- float_t System_IConvertible_ToSingle(::System::IFormatProvider provider) ;
+ float_t System_IConvertible_ToSingle(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDouble addr 0x2424530 size 0x8c virtual true final true
- double_t System_IConvertible_ToDouble(::System::IFormatProvider provider) ;
+ double_t System_IConvertible_ToDouble(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDecimal addr 0x24245bc size 0x8c virtual true final true
- ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider provider) ;
+ System::Decimal System_IConvertible_ToDecimal(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToDateTime addr 0x2424648 size 0x8 virtual true final true
- ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider provider) ;
+ System::DateTime System_IConvertible_ToDateTime(System::IFormatProvider provider) ;
 
 /// @brief Method System.IConvertible.ToType addr 0x2424650 size 0xac virtual true final true
- ::bs_hook::Il2CppWrapperType System_IConvertible_ToType(::System::Type type, ::System::IFormatProvider provider) ;
+ ::bs_hook::Il2CppWrapperType System_IConvertible_ToType(System::Type type, System::IFormatProvider provider) ;
 
 /// @brief Method TryCreate addr 0x24246fc size 0x1f0 virtual false final false
-static bool TryCreate(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ByRef<::System::DateTime> result) ;
+static bool TryCreate(int32_t year, int32_t month, int32_t day, int32_t hour, int32_t minute, int32_t second, int32_t millisecond, ByRef<System::DateTime> result) ;
 
 /// @brief Method get_UtcNow addr 0x2422b14 size 0x64 virtual false final false
-static ::System::DateTime get_UtcNow() ;
+static System::DateTime get_UtcNow() ;
 
 /// @brief Method GetSystemTimeAsFileTime addr 0x24248ec size 0x4 virtual false final false
 static int64_t GetSystemTimeAsFileTime() ;
@@ -632,5 +631,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DateTime, "System", "DateTime");
+DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");

@@ -4,7 +4,6 @@
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_def.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include <cstdint>
-namespace {
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
 }
@@ -13,48 +12,48 @@ namespace UnityEngine::UIElements::UIR {
 class BestFitAllocator;
 }
 namespace UnityEngine::UIElements::UIR {
-class ____UnityEngine__UIElements__UIR__BestFitAllocator__Block;
+class UnityEngine__UIElements__UIR__BestFitAllocator__Block;
 }
 namespace UnityEngine::UIElements::UIR {
-class ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool;
+class UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool;
 }
 // Type: ::Block
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 3839 }), TypeDefinitionIndex(TypeDefinitionIndex(7499))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7499)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7499), inst: 3839 })}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7535))
 // CS Name: UnityEngine.UIElements.UIR.BestFitAllocator::Block
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__BestFitAllocator__Block : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block> {
+class CORDL_TYPE UnityEngine__UIElements__UIR__BestFitAllocator__Block : public UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x48};
 
-virtual ~____UnityEngine__UIElements__UIR__BestFitAllocator__Block() = default;
+virtual ~UnityEngine__UIElements__UIR__BestFitAllocator__Block() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__BestFitAllocator__Block", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block(____UnityEngine__UIElements__UIR__BestFitAllocator__Block const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__BestFitAllocator__Block", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block(UnityEngine__UIElements__UIR__BestFitAllocator__Block const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__BestFitAllocator__Block", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block(____UnityEngine__UIElements__UIR__BestFitAllocator__Block&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__BestFitAllocator__Block", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block(UnityEngine__UIElements__UIR__BestFitAllocator__Block&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__BestFitAllocator__Block(void* ptr) noexcept : ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block>(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__BestFitAllocator__Block(void* ptr) noexcept : UnityEngine::UIElements::UIR::LinkedPoolItem_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(____UnityEngine__UIElements__UIR__BestFitAllocator__Block&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(____UnityEngine__UIElements__UIR__BestFitAllocator__Block const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(UnityEngine__UIElements__UIR__BestFitAllocator__Block&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__Block& operator=(UnityEngine__UIElements__UIR__BestFitAllocator__Block const& o) noexcept = default;
                 
 
 
@@ -72,29 +71,29 @@ constexpr void __set_end(uint32_t value) ;
 
 constexpr uint32_t __get_end() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_prev, put=__set_prev))  prev;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_prev, put=__set_prev))  prev;
 
-constexpr void __set_prev(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_prev(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_prev() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_prev() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_next, put=__set_next))  next;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_next, put=__set_next))  next;
 
-constexpr void __set_next(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_next(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_next() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_next() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_prevAvailable, put=__set_prevAvailable))  prevAvailable;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_prevAvailable, put=__set_prevAvailable))  prevAvailable;
 
-constexpr void __set_prevAvailable(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_prevAvailable(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_prevAvailable() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_prevAvailable() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_nextAvailable, put=__set_nextAvailable))  nextAvailable;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_nextAvailable, put=__set_nextAvailable))  nextAvailable;
 
-constexpr void __set_nextAvailable(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_nextAvailable(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_nextAvailable() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_nextAvailable() const;
 
  bool __declspec(property(get=__get_allocated, put=__set_allocated))  allocated;
 
@@ -114,7 +113,7 @@ constexpr bool __get_allocated() const;
  uint32_t get_size() ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIR__BestFitAllocator__Block() ;
+explicit UnityEngine__UIElements__UIR__BestFitAllocator__Block() ;
 
 /// @brief Method .ctor addr 0x2c5c6fc size 0x48 virtual false final false
  void _ctor() ;
@@ -126,53 +125,53 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 // Type: ::BlockPool
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 3839 }), TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(7500))}
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7500), inst: 3839 }), TypeDefinitionIndex(TypeDefinitionIndex(7500)), TypeDefinitionIndex(TypeDefinitionIndex(7535))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7534))
 // CS Name: UnityEngine.UIElements.UIR.BestFitAllocator::BlockPool
-class CORDL_TYPE ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block> {
+class CORDL_TYPE UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool : public UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block> {
 public:
 // Declarations
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
 
-virtual ~____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool() = default;
+virtual ~UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool() = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool", modifiers: " const&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool const& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool", modifiers: " const&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool const& ) noexcept = default;
 
-// Ctor Parameters [CppParam { name: "", ty: "____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool", modifiers: "&&", def_value: None }]
-constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool&& ) noexcept = default;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool", modifiers: "&&", def_value: None }]
+constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(void* ptr) noexcept : ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block>(ptr) {
+constexpr explicit UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool(void* ptr) noexcept : UnityEngine::UIElements::UIR::LinkedPool_1<UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block>(ptr) {
 }
 
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(std::nullptr_t) noexcept {
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(std::nullptr_t) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = nullptr;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(void* o) noexcept {
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(void* o) noexcept {
     this->::bs_hook::Il2CppWrapperType::instance = o;
     return *this;
   };
 
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool&& o) noexcept = default;
-  constexpr ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool const& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool&& o) noexcept = default;
+  constexpr UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool& operator=(UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool const& o) noexcept = default;
                 
 
 
 // Methods
 
 /// @brief Method CreateBlock addr 0x2c5c6a4 size 0x58 virtual false final false
-static ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block CreateBlock() ;
+static UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block CreateBlock() ;
 
 /// @brief Method ResetBlock addr 0x2c5c744 size 0x4 virtual false final false
-static void ResetBlock(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block block) ;
+static void ResetBlock(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block block) ;
 
 // Ctor Parameters []
-explicit ____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool() ;
+explicit UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool() ;
 
 /// @brief Method .ctor addr 0x2c5c36c size 0xf0 virtual false final false
  void _ctor() ;
@@ -190,9 +189,9 @@ namespace UnityEngine::UIElements::UIR {
 class CORDL_TYPE BestFitAllocator : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-using Block = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block;
+using Block = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block;
 
-using BlockPool = ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool;
+using BlockPool = UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x38};
@@ -233,23 +232,23 @@ constexpr void __set__totalSize_k__BackingField(uint32_t value) ;
 
 constexpr uint32_t __get__totalSize_k__BackingField() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_m_FirstBlock, put=__set_m_FirstBlock))  m_FirstBlock;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_m_FirstBlock, put=__set_m_FirstBlock))  m_FirstBlock;
 
-constexpr void __set_m_FirstBlock(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_m_FirstBlock(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_m_FirstBlock() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_m_FirstBlock() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_m_FirstAvailableBlock, put=__set_m_FirstAvailableBlock))  m_FirstAvailableBlock;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __declspec(property(get=__get_m_FirstAvailableBlock, put=__set_m_FirstAvailableBlock))  m_FirstAvailableBlock;
 
-constexpr void __set_m_FirstAvailableBlock(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
+constexpr void __set_m_FirstAvailableBlock(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_m_FirstAvailableBlock() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block __get_m_FirstAvailableBlock() const;
 
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool __declspec(property(get=__get_m_BlockPool, put=__set_m_BlockPool))  m_BlockPool;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool __declspec(property(get=__get_m_BlockPool, put=__set_m_BlockPool))  m_BlockPool;
 
-constexpr void __set_m_BlockPool(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool value) ;
+constexpr void __set_m_BlockPool(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool value) ;
 
-constexpr ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool __get_m_BlockPool() const;
+constexpr UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool __get_m_BlockPool() const;
 
  uint32_t __declspec(property(get=__get_m_HighWatermark, put=__set_m_HighWatermark))  m_HighWatermark;
 
@@ -280,28 +279,27 @@ explicit BestFitAllocator(uint32_t size) ;
  uint32_t get_highWatermark() ;
 
 /// @brief Method Allocate addr 0x2c53200 size 0x194 virtual false final false
- ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size) ;
+ UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size) ;
 
 /// @brief Method Free addr 0x2c536f0 size 0x25c virtual false final false
- void Free(::UnityEngine::UIElements::UIR::Alloc alloc) ;
+ void Free(UnityEngine::UIElements::UIR::Alloc alloc) ;
 
 /// @brief Method CoalesceBlockWithPrevious addr 0x2c5c59c size 0x108 virtual false final false
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block CoalesceBlockWithPrevious(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block block) ;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block CoalesceBlockWithPrevious(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block block) ;
 
 /// @brief Method BestFitFindAvailableBlock addr 0x2c5c464 size 0x40 virtual false final false
- ::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block BestFitFindAvailableBlock(uint32_t size) ;
+ UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block BestFitFindAvailableBlock(uint32_t size) ;
 
 /// @brief Method SplitBlock addr 0x2c5c4b0 size 0xec virtual false final false
- void SplitBlock(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block block, uint32_t size) ;
+ void SplitBlock(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block block, uint32_t size) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements::UIR
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::BestFitAllocator);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::BestFitAllocator, "UnityEngine.UIElements.UIR", "BestFitAllocator");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__Block, "UnityEngine.UIElements.UIR", "BestFitAllocator/Block");
-NEED_NO_BOX(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::____UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool, "UnityEngine.UIElements.UIR", "BestFitAllocator/BlockPool");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::BestFitAllocator);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::BestFitAllocator, "UnityEngine.UIElements.UIR", "BestFitAllocator");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__Block, "UnityEngine.UIElements.UIR", "BestFitAllocator/Block");
+NEED_NO_BOX(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::UIR::UnityEngine__UIElements__UIR__BestFitAllocator__BlockPool, "UnityEngine.UIElements.UIR", "BestFitAllocator/BlockPool");

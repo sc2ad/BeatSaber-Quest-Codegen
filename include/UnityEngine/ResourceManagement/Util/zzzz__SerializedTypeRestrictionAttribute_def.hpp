@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
-namespace {
 namespace System {
 class Type;
 }
@@ -15,7 +14,7 @@ namespace UnityEngine::ResourceManagement::Util {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14261))
 // CS Name: UnityEngine.ResourceManagement.Util.SerializedTypeRestrictionAttribute
-class CORDL_TYPE SerializedTypeRestrictionAttribute : public ::System::Attribute {
+class CORDL_TYPE SerializedTypeRestrictionAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -30,7 +29,7 @@ constexpr SerializedTypeRestrictionAttribute(SerializedTypeRestrictionAttribute 
 constexpr SerializedTypeRestrictionAttribute(SerializedTypeRestrictionAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit SerializedTypeRestrictionAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit SerializedTypeRestrictionAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -51,11 +50,11 @@ constexpr explicit SerializedTypeRestrictionAttribute(void* ptr) noexcept : ::Sy
 
 // Fields
 
- ::System::Type __declspec(property(get=__get_type, put=__set_type))  type;
+ System::Type __declspec(property(get=__get_type, put=__set_type))  type;
 
-constexpr void __set_type(::System::Type value) ;
+constexpr void __set_type(System::Type value) ;
 
-constexpr ::System::Type __get_type() const;
+constexpr System::Type __get_type() const;
 
 
 // Methods
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::Util
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute, "UnityEngine.ResourceManagement.Util", "SerializedTypeRestrictionAttribute");
+NEED_NO_BOX(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::SerializedTypeRestrictionAttribute, "UnityEngine.ResourceManagement.Util", "SerializedTypeRestrictionAttribute");

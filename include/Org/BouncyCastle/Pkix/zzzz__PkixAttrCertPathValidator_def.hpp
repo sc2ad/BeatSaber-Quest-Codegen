@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
@@ -58,7 +57,7 @@ constexpr explicit PkixAttrCertPathValidator(void* ptr) noexcept : ::bs_hook::Il
 // Methods
 
 /// @brief Method Validate addr 0x105fa58 size 0x3cc virtual true final false
- ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult Validate(::Org::BouncyCastle::Pkix::PkixCertPath certPath, ::Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
+ Org::BouncyCastle::Pkix::PkixCertPathValidatorResult Validate(Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::PkixParameters pkixParams) ;
 
 // Ctor Parameters []
 explicit PkixAttrCertPathValidator() ;
@@ -70,6 +69,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixAttrCertPathValidator, "Org.BouncyCastle.Pkix", "PkixAttrCertPathValidator");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixAttrCertPathValidator);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixAttrCertPathValidator, "Org.BouncyCastle.Pkix", "PkixAttrCertPathValidator");

@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System {
 struct DTSubStringType;
@@ -70,23 +69,22 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Unknown offset 0
-static ::System::DTSubStringType const Unknown;
+static System::DTSubStringType const Unknown;
 
 /// @brief Field Invalid offset 0
-static ::System::DTSubStringType const Invalid;
+static System::DTSubStringType const Invalid;
 
 /// @brief Field Number offset 0
-static ::System::DTSubStringType const Number;
+static System::DTSubStringType const Number;
 
 /// @brief Field End offset 0
-static ::System::DTSubStringType const End;
+static System::DTSubStringType const End;
 
 /// @brief Field Other offset 0
-static ::System::DTSubStringType const Other;
+static System::DTSubStringType const Other;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::DTSubStringType, "System", "DTSubStringType");
+DEFINE_IL2CPP_ARG_TYPE(System::DTSubStringType, "System", "DTSubStringType");

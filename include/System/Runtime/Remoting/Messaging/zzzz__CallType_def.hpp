@@ -2,7 +2,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
 struct CallType;
@@ -69,20 +68,19 @@ constexpr void __set_value__(int32_t value) ;
 constexpr int32_t __get_value__() const;
 
 /// @brief Field Sync offset 0
-static ::System::Runtime::Remoting::Messaging::CallType const Sync;
+static System::Runtime::Remoting::Messaging::CallType const Sync;
 
 /// @brief Field BeginInvoke offset 0
-static ::System::Runtime::Remoting::Messaging::CallType const BeginInvoke;
+static System::Runtime::Remoting::Messaging::CallType const BeginInvoke;
 
 /// @brief Field EndInvoke offset 0
-static ::System::Runtime::Remoting::Messaging::CallType const EndInvoke;
+static System::Runtime::Remoting::Messaging::CallType const EndInvoke;
 
 /// @brief Field OneWay offset 0
-static ::System::Runtime::Remoting::Messaging::CallType const OneWay;
+static System::Runtime::Remoting::Messaging::CallType const OneWay;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Remoting::Messaging
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallType, "System.Runtime.Remoting.Messaging", "CallType");
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallType, "System.Runtime.Remoting.Messaging", "CallType");

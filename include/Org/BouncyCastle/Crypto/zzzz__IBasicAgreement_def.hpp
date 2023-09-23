@@ -1,7 +1,6 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include <cstdint>
-namespace {
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -31,18 +30,17 @@ constexpr explicit IBasicAgreement(void* ptr) noexcept : ::cordl_internals::Inte
 // Methods
 
 /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
- void Init(::Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
+ void Init(Org::BouncyCastle::Crypto::ICipherParameters parameters) ;
 
 /// @brief Method GetFieldSize addr 0x0 size 0xffffffffffffffff virtual true final false
  int32_t GetFieldSize() ;
 
 /// @brief Method CalculateAgreement addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Math::BigInteger CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
+ Org::BouncyCastle::Math::BigInteger CalculateAgreement(Org::BouncyCastle::Crypto::ICipherParameters pubKey) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Crypto
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Crypto::IBasicAgreement);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IBasicAgreement, "Org.BouncyCastle.Crypto", "IBasicAgreement");
+NEED_NO_BOX(Org::BouncyCastle::Crypto::IBasicAgreement);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBasicAgreement, "Org.BouncyCastle.Crypto", "IBasicAgreement");

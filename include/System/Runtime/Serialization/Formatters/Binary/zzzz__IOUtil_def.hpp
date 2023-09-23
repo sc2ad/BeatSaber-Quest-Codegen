@@ -2,15 +2,14 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+struct MessageEnum;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct MessageEnum;
+class __BinaryWriter;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -59,18 +58,17 @@ constexpr explicit IOUtil(void* ptr) noexcept : ::bs_hook::Il2CppWrapperType(ptr
 // Methods
 
 /// @brief Method FlagTest addr 0x2354f18 size 0xc virtual false final false
-static bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target) ;
+static bool FlagTest(System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, System::Runtime::Serialization::Formatters::Binary::MessageEnum target) ;
 
 /// @brief Method WriteStringWithCode addr 0x2354f24 size 0x74 virtual false final false
-static void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+static void WriteStringWithCode(::StringW value, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 /// @brief Method WriteWithCode addr 0x2354f98 size 0x12c virtual false final false
-static void WriteWithCode(::System::Type type, ::bs_hook::Il2CppWrapperType value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
+static void WriteWithCode(System::Type type, ::bs_hook::Il2CppWrapperType value, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter sout) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Runtime::Serialization::Formatters::Binary
-} // end anonymous namespace
-NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::IOUtil);
-DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::IOUtil, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
+NEED_NO_BOX(System::Runtime::Serialization::Formatters::Binary::IOUtil);
+DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");

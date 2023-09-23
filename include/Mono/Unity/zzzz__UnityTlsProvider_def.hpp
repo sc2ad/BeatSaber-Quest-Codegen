@@ -4,15 +4,14 @@
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace System {
-struct Guid;
+namespace Mono::Net::Security {
+class ChainValidationHelper;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::IO {
-class Stream;
+class X509Chain;
 }
 namespace Mono::Net::Security {
 class MobileAuthenticatedStream;
@@ -20,26 +19,26 @@ class MobileAuthenticatedStream;
 namespace Mono::Security::Interface {
 class MonoTlsSettings;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Net::Security {
-struct SslPolicyErrors;
+namespace Mono::Unity {
+struct Mono__Unity__UnityTls__unitytls_x509_ref;
 }
 namespace System::Net::Security {
 class SslStream;
 }
-namespace Mono::Net::Security {
-class ChainValidationHelper;
-}
 namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_x509verify_result;
+struct Mono__Unity__UnityTls__unitytls_x509verify_result;
 }
-namespace Mono::Unity {
-struct ____Mono__Unity__UnityTls__unitytls_x509_ref;
+namespace System {
+struct Guid;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Mono::Unity {
@@ -51,7 +50,7 @@ namespace Mono::Unity {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7689))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7663))
 // CS Name: Mono.Unity.UnityTlsProvider
-class CORDL_TYPE UnityTlsProvider : public ::Mono::Net::Security::MobileTlsProvider {
+class CORDL_TYPE UnityTlsProvider : public Mono::Net::Security::MobileTlsProvider {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -66,7 +65,7 @@ constexpr UnityTlsProvider(UnityTlsProvider const& ) noexcept = default;
 constexpr UnityTlsProvider(UnityTlsProvider&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit UnityTlsProvider(void* ptr) noexcept : ::Mono::Net::Security::MobileTlsProvider(ptr) {
+constexpr explicit UnityTlsProvider(void* ptr) noexcept : Mono::Net::Security::MobileTlsProvider(ptr) {
 }
 
 
@@ -89,7 +88,7 @@ constexpr explicit UnityTlsProvider(void* ptr) noexcept : ::Mono::Net::Security:
 
  ::StringW __declspec(property(get=get_Name))  Name;
 
- ::System::Guid __declspec(property(get=get_ID))  ID;
+ System::Guid __declspec(property(get=get_ID))  ID;
 
  bool __declspec(property(get=get_SupportsSslStream))  SupportsSslStream;
 
@@ -99,7 +98,7 @@ constexpr explicit UnityTlsProvider(void* ptr) noexcept : ::Mono::Net::Security:
 
  bool __declspec(property(get=get_SupportsCleanShutdown))  SupportsCleanShutdown;
 
- ::System::Security::Authentication::SslProtocols __declspec(property(get=get_SupportedProtocols))  SupportedProtocols;
+ System::Security::Authentication::SslProtocols __declspec(property(get=get_SupportedProtocols))  SupportedProtocols;
 
 
 // Methods
@@ -108,7 +107,7 @@ constexpr explicit UnityTlsProvider(void* ptr) noexcept : ::Mono::Net::Security:
  ::StringW get_Name() ;
 
 /// @brief Method get_ID addr 0x268b268 size 0x58 virtual true final false
- ::System::Guid get_ID() ;
+ System::Guid get_ID() ;
 
 /// @brief Method get_SupportsSslStream addr 0x268b2c0 size 0x8 virtual true final false
  bool get_SupportsSslStream() ;
@@ -123,16 +122,16 @@ constexpr explicit UnityTlsProvider(void* ptr) noexcept : ::Mono::Net::Security:
  bool get_SupportsCleanShutdown() ;
 
 /// @brief Method get_SupportedProtocols addr 0x268b2e0 size 0x8 virtual true final false
- ::System::Security::Authentication::SslProtocols get_SupportedProtocols() ;
+ System::Security::Authentication::SslProtocols get_SupportedProtocols() ;
 
 /// @brief Method CreateSslStream addr 0x268b2e8 size 0x90 virtual true final false
- ::Mono::Net::Security::MobileAuthenticatedStream CreateSslStream(::System::Net::Security::SslStream sslStream, ::System::IO::Stream innerStream, bool leaveInnerStreamOpen, ::Mono::Security::Interface::MonoTlsSettings settings) ;
+ Mono::Net::Security::MobileAuthenticatedStream CreateSslStream(System::Net::Security::SslStream sslStream, System::IO::Stream innerStream, bool leaveInnerStreamOpen, Mono::Security::Interface::MonoTlsSettings settings) ;
 
 /// @brief Method x509verify_callback addr 0x268b1c4 size 0x64 virtual false final false
-static ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result x509verify_callback(void* userData, ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509_ref cert, ::Mono::Unity::____Mono__Unity__UnityTls__unitytls_x509verify_result result, void* errorState) ;
+static Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result x509verify_callback(void* userData, Mono::Unity::Mono__Unity__UnityTls__unitytls_x509_ref cert, Mono::Unity::Mono__Unity__UnityTls__unitytls_x509verify_result result, void* errorState) ;
 
 /// @brief Method ValidateCertificate addr 0x268b40c size 0x978 virtual true final false
- bool ValidateCertificate(::Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<::System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
+ bool ValidateCertificate(Mono::Net::Security::ChainValidationHelper validator, ::StringW targetHost, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection certificates, bool wantsChain, ByRef<System::Security::Cryptography::X509Certificates::X509Chain> chain, ByRef<System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11) ;
 
 // Ctor Parameters []
 explicit UnityTlsProvider() ;
@@ -144,6 +143,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Mono::Unity
-} // end anonymous namespace
-NEED_NO_BOX(::Mono::Unity::UnityTlsProvider);
-DEFINE_IL2CPP_ARG_TYPE(::Mono::Unity::UnityTlsProvider, "Mono.Unity", "UnityTlsProvider");
+NEED_NO_BOX(Mono::Unity::UnityTlsProvider);
+DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsProvider, "Mono.Unity", "UnityTlsProvider");

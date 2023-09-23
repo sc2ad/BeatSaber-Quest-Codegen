@@ -1,9 +1,8 @@
 #pragma once
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
-namespace {
-namespace System::Collections {
-class ICollection;
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
 }
 namespace Org::BouncyCastle::Utilities::Collections {
 class ISet;
@@ -11,8 +10,8 @@ class ISet;
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -61,13 +60,13 @@ constexpr explicit PkixAttrCertChecker(void* ptr) noexcept : ::bs_hook::Il2CppWr
 // Methods
 
 /// @brief Method GetSupportedExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Utilities::Collections::ISet GetSupportedExtensions() ;
+ Org::BouncyCastle::Utilities::Collections::ISet GetSupportedExtensions() ;
 
 /// @brief Method Check addr 0x0 size 0xffffffffffffffff virtual true final false
- void Check(::Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath certPath, ::Org::BouncyCastle::Pkix::PkixCertPath holderCertPath, ::System::Collections::ICollection unresolvedCritExts) ;
+ void Check(Org::BouncyCastle::X509::IX509AttributeCertificate attrCert, Org::BouncyCastle::Pkix::PkixCertPath certPath, Org::BouncyCastle::Pkix::PkixCertPath holderCertPath, System::Collections::ICollection unresolvedCritExts) ;
 
 /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
- ::Org::BouncyCastle::Pkix::PkixAttrCertChecker Clone() ;
+ Org::BouncyCastle::Pkix::PkixAttrCertChecker Clone() ;
 
 // Ctor Parameters []
 explicit PkixAttrCertChecker() ;
@@ -79,6 +78,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def Org::BouncyCastle::Pkix
-} // end anonymous namespace
-NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixAttrCertChecker);
-DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixAttrCertChecker, "Org.BouncyCastle.Pkix", "PkixAttrCertChecker");
+NEED_NO_BOX(Org::BouncyCastle::Pkix::PkixAttrCertChecker);
+DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkix::PkixAttrCertChecker, "Org.BouncyCastle.Pkix", "PkixAttrCertChecker");

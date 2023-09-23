@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 struct MultiplayerPlacementErrorCode;
 }
@@ -23,8 +22,8 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceResponse : public ::bs_hook::ValueTypeWrapper {
 public:
 // Declarations
-// Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty: "::BGNet::Core::GameLift::PlayerSessionInfo", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None }]
-constexpr GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) noexcept;
+// Ctor Parameters [CppParam { name: "errorCode", ty: "GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty: "BGNet::Core::GameLift::PlayerSessionInfo", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr GetMultiplayerInstanceResponse(GlobalNamespace::MultiplayerPlacementErrorCode errorCode, BGNet::Core::GameLift::PlayerSessionInfo playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) noexcept;
 
 
                     constexpr GetMultiplayerInstanceResponse(GetMultiplayerInstanceResponse const&) = default;
@@ -57,17 +56,17 @@ return const_cast<void*>(static_cast<const void*>(__instance.data()));
 
 // Fields
 
- ::GlobalNamespace::MultiplayerPlacementErrorCode __declspec(property(get=__get_errorCode, put=__set_errorCode))  errorCode;
+ GlobalNamespace::MultiplayerPlacementErrorCode __declspec(property(get=__get_errorCode, put=__set_errorCode))  errorCode;
 
-constexpr void __set_errorCode(::GlobalNamespace::MultiplayerPlacementErrorCode value) ;
+constexpr void __set_errorCode(GlobalNamespace::MultiplayerPlacementErrorCode value) ;
 
-constexpr ::GlobalNamespace::MultiplayerPlacementErrorCode __get_errorCode() const;
+constexpr GlobalNamespace::MultiplayerPlacementErrorCode __get_errorCode() const;
 
- ::BGNet::Core::GameLift::PlayerSessionInfo __declspec(property(get=__get_playerSessionInfo, put=__set_playerSessionInfo))  playerSessionInfo;
+ BGNet::Core::GameLift::PlayerSessionInfo __declspec(property(get=__get_playerSessionInfo, put=__set_playerSessionInfo))  playerSessionInfo;
 
-constexpr void __set_playerSessionInfo(::BGNet::Core::GameLift::PlayerSessionInfo value) ;
+constexpr void __set_playerSessionInfo(BGNet::Core::GameLift::PlayerSessionInfo value) ;
 
-constexpr ::BGNet::Core::GameLift::PlayerSessionInfo __get_playerSessionInfo() const;
+constexpr BGNet::Core::GameLift::PlayerSessionInfo __get_playerSessionInfo() const;
 
  int32_t __declspec(property(get=__get_pollIntervalMs, put=__set_pollIntervalMs))  pollIntervalMs;
 
@@ -103,11 +102,10 @@ constexpr ::StringW __get_placementStatus() const;
 // Methods
 
 /// @brief Method .ctor addr 0xdd3d9c size 0x18 virtual false final false
- void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) ;
+ void _ctor(GlobalNamespace::MultiplayerPlacementErrorCode errorCode, BGNet::Core::GameLift::PlayerSessionInfo playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace end def BGNet::Core::GameLift
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, "BGNet.Core.GameLift", "GetMultiplayerInstanceResponse");
+DEFINE_IL2CPP_ARG_TYPE(BGNet::Core::GameLift::GetMultiplayerInstanceResponse, "BGNet.Core.GameLift", "GetMultiplayerInstanceResponse");

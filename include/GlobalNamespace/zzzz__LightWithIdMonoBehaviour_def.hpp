@@ -2,7 +2,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
-namespace {
 namespace GlobalNamespace {
 class LightWithIdManager;
 }
@@ -22,11 +21,11 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10166))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14703))
 // CS Name: LightWithIdMonoBehaviour
-class CORDL_TYPE LightWithIdMonoBehaviour : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE LightWithIdMonoBehaviour : public UnityEngine::MonoBehaviour {
 public:
 // Declarations
-/// @brief Convert operator to ::GlobalNamespace::ILightWithId
-constexpr operator  ::GlobalNamespace::ILightWithId() const noexcept;
+/// @brief Convert operator to GlobalNamespace::ILightWithId
+constexpr operator  GlobalNamespace::ILightWithId() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x30};
@@ -40,7 +39,7 @@ constexpr LightWithIdMonoBehaviour(LightWithIdMonoBehaviour const& ) noexcept = 
 constexpr LightWithIdMonoBehaviour(LightWithIdMonoBehaviour&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit LightWithIdMonoBehaviour(void* ptr) noexcept : ::UnityEngine::MonoBehaviour(ptr) {
+constexpr explicit LightWithIdMonoBehaviour(void* ptr) noexcept : UnityEngine::MonoBehaviour(ptr) {
 }
 
 
@@ -67,11 +66,11 @@ constexpr void __set__ID(int32_t value) ;
 
 constexpr int32_t __get__ID() const;
 
- ::GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
+ GlobalNamespace::LightWithIdManager __declspec(property(get=__get__lightManager, put=__set__lightManager))  _lightManager;
 
-constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager value) ;
+constexpr void __set__lightManager(GlobalNamespace::LightWithIdManager value) ;
 
-constexpr ::GlobalNamespace::LightWithIdManager __get__lightManager() const;
+constexpr GlobalNamespace::LightWithIdManager __get__lightManager() const;
 
  bool __declspec(property(get=__get__isRegistered, put=__set__isRegistered))  _isRegistered;
 
@@ -102,7 +101,7 @@ constexpr bool __get__isRegistered() const;
  void __SetIsUnRegistered() ;
 
 /// @brief Method ColorWasSet addr 0x0 size 0xffffffffffffffff virtual true final false
- void ColorWasSet(::UnityEngine::Color color) ;
+ void ColorWasSet(UnityEngine::Color color) ;
 
 /// @brief Method OnEnable addr 0x1f9e718 size 0x4 virtual true final false
  void OnEnable() ;
@@ -129,6 +128,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::LightWithIdMonoBehaviour);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightWithIdMonoBehaviour, "", "LightWithIdMonoBehaviour");
+NEED_NO_BOX(GlobalNamespace::LightWithIdMonoBehaviour);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour, "", "LightWithIdMonoBehaviour");

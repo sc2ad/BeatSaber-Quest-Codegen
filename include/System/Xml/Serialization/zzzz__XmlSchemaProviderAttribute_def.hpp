@@ -2,7 +2,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
 // Forward declare root types
 namespace System::Xml::Serialization {
 class XmlSchemaProviderAttribute;
@@ -13,7 +12,7 @@ namespace System::Xml::Serialization {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2546))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11532))
 // CS Name: System.Xml.Serialization.XmlSchemaProviderAttribute
-class CORDL_TYPE XmlSchemaProviderAttribute : public ::System::Attribute {
+class CORDL_TYPE XmlSchemaProviderAttribute : public System::Attribute {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -28,7 +27,7 @@ constexpr XmlSchemaProviderAttribute(XmlSchemaProviderAttribute const& ) noexcep
 constexpr XmlSchemaProviderAttribute(XmlSchemaProviderAttribute&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit XmlSchemaProviderAttribute(void* ptr) noexcept : ::System::Attribute(ptr) {
+constexpr explicit XmlSchemaProviderAttribute(void* ptr) noexcept : System::Attribute(ptr) {
 }
 
 
@@ -82,6 +81,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def System::Xml::Serialization
-} // end anonymous namespace
-NEED_NO_BOX(::System::Xml::Serialization::XmlSchemaProviderAttribute);
-DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlSchemaProviderAttribute, "System.Xml.Serialization", "XmlSchemaProviderAttribute");
+NEED_NO_BOX(System::Xml::Serialization::XmlSchemaProviderAttribute);
+DEFINE_IL2CPP_ARG_TYPE(System::Xml::Serialization::XmlSchemaProviderAttribute, "System.Xml.Serialization", "XmlSchemaProviderAttribute");

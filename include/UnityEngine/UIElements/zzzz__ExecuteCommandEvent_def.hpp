@@ -1,7 +1,6 @@
 #pragma once
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_def.hpp"
-namespace {
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class ExecuteCommandEvent;
@@ -12,7 +11,7 @@ namespace UnityEngine::UIElements {
 // Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7328), inst: 994 }), TypeDefinitionIndex(TypeDefinitionIndex(7328))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7330))
 // CS Name: UnityEngine.UIElements.ExecuteCommandEvent
-class CORDL_TYPE ExecuteCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent> {
+class CORDL_TYPE ExecuteCommandEvent : public UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ExecuteCommandEvent> {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -27,7 +26,7 @@ constexpr ExecuteCommandEvent(ExecuteCommandEvent const& ) noexcept = default;
 constexpr ExecuteCommandEvent(ExecuteCommandEvent&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit ExecuteCommandEvent(void* ptr) noexcept : ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent>(ptr) {
+constexpr explicit ExecuteCommandEvent(void* ptr) noexcept : UnityEngine::UIElements::CommandEventBase_1<UnityEngine::UIElements::ExecuteCommandEvent>(ptr) {
 }
 
 
@@ -58,6 +57,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::UIElements
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::UIElements::ExecuteCommandEvent);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ExecuteCommandEvent, "UnityEngine.UIElements", "ExecuteCommandEvent");
+NEED_NO_BOX(UnityEngine::UIElements::ExecuteCommandEvent);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UIElements::ExecuteCommandEvent, "UnityEngine.UIElements", "ExecuteCommandEvent");

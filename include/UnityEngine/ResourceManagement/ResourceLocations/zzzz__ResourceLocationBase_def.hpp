@@ -4,20 +4,19 @@
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
-namespace {
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class List_1;
 }
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template<typename T>
 class IList_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -32,8 +31,8 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 class CORDL_TYPE ResourceLocationBase : public ::bs_hook::Il2CppWrapperType {
 public:
 // Declarations
-/// @brief Convert operator to ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
-constexpr operator  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() const noexcept;
+/// @brief Convert operator to UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
+constexpr operator  UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() const noexcept;
 
 /// @brief The size of the true reference type
 static constexpr auto  __CORDL_REFERENCE_TYPE_SIZE{0x50};
@@ -104,17 +103,17 @@ constexpr void __set_m_HashCode(int32_t value) ;
 
 constexpr int32_t __get_m_HashCode() const;
 
- ::System::Type __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
+ System::Type __declspec(property(get=__get_m_Type, put=__set_m_Type))  m_Type;
 
-constexpr void __set_m_Type(::System::Type value) ;
+constexpr void __set_m_Type(System::Type value) ;
 
-constexpr ::System::Type __get_m_Type() const;
+constexpr System::Type __get_m_Type() const;
 
- ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=__get_m_Dependencies, put=__set_m_Dependencies))  m_Dependencies;
+ System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=__get_m_Dependencies, put=__set_m_Dependencies))  m_Dependencies;
 
-constexpr void __set_m_Dependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> value) ;
+constexpr void __set_m_Dependencies(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> value) ;
 
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __get_m_Dependencies() const;
+constexpr System::Collections::Generic::List_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __get_m_Dependencies() const;
 
  ::StringW __declspec(property(get=__get_m_PrimaryKey, put=__set_m_PrimaryKey))  m_PrimaryKey;
 
@@ -129,7 +128,7 @@ constexpr ::StringW __get_m_PrimaryKey() const;
 
  ::StringW __declspec(property(get=get_ProviderId))  ProviderId;
 
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> __declspec(property(get=get_Dependencies))  Dependencies;
 
  bool __declspec(property(get=get_HasDependencies))  HasDependencies;
 
@@ -139,7 +138,7 @@ constexpr ::StringW __get_m_PrimaryKey() const;
 
  int32_t __declspec(property(get=get_DependencyHashCode))  DependencyHashCode;
 
- ::System::Type __declspec(property(get=get_ResourceType))  ResourceType;
+ System::Type __declspec(property(get=get_ResourceType))  ResourceType;
 
 
 // Methods
@@ -151,7 +150,7 @@ constexpr ::StringW __get_m_PrimaryKey() const;
  ::StringW get_ProviderId() ;
 
 /// @brief Method get_Dependencies addr 0x2a43160 size 0x8 virtual true final true
- ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
+ System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> get_Dependencies() ;
 
 /// @brief Method get_HasDependencies addr 0x2a43168 size 0x54 virtual true final true
  bool get_HasDependencies() ;
@@ -172,19 +171,19 @@ constexpr ::StringW __get_m_PrimaryKey() const;
  int32_t get_DependencyHashCode() ;
 
 /// @brief Method get_ResourceType addr 0x2a431e4 size 0x8 virtual true final true
- ::System::Type get_ResourceType() ;
+ System::Type get_ResourceType() ;
 
 /// @brief Method Hash addr 0x2a431ec size 0x54 virtual true final true
- int32_t Hash(::System::Type t) ;
+ int32_t Hash(System::Type t) ;
 
 /// @brief Method ToString addr 0x2a43240 size 0x8 virtual true final false
  ::StringW ToString() ;
 
-// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "t", ty: "::System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }]
-explicit ResourceLocationBase(::StringW name, ::StringW id, ::StringW providerId, ::System::Type t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
+// Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "id", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "providerId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "t", ty: "System::Type", modifiers: "", def_value: None }, CppParam { name: "dependencies", ty: "::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation>", modifiers: "", def_value: None }]
+explicit ResourceLocationBase(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
 
 /// @brief Method .ctor addr 0x2a43248 size 0x224 virtual false final false
- void _ctor(::StringW name, ::StringW id, ::StringW providerId, ::System::Type t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
+ void _ctor(::StringW name, ::StringW id, ::StringW providerId, System::Type t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation> dependencies) ;
 
 /// @brief Method ComputeDependencyHash addr 0x2a4346c size 0x258 virtual false final false
  void ComputeDependencyHash() ;
@@ -193,6 +192,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::ResourceManagement::ResourceLocations
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, "UnityEngine.ResourceManagement.ResourceLocations", "ResourceLocationBase");
+NEED_NO_BOX(UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase, "UnityEngine.ResourceManagement.ResourceLocations", "ResourceLocationBase");

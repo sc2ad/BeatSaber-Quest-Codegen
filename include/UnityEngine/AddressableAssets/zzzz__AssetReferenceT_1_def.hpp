@@ -2,13 +2,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReference_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace UnityEngine {
-class Object;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template<typename TObject>
 struct AsyncOperationHandle_1;
+}
+namespace UnityEngine {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -28,7 +27,7 @@ template<::cordl_internals::il2cpp_reference_type TObject>
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14370)), TypeDefinitionIndex(TypeDefinitionIndex(14363))}
 // Self: GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14363), inst: 2 })
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceT`1
-class CORDL_TYPE AssetReferenceT_1<TObject> : public ::UnityEngine::AddressableAssets::AssetReference {
+class CORDL_TYPE AssetReferenceT_1<TObject> : public UnityEngine::AddressableAssets::AssetReference {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -43,7 +42,7 @@ constexpr AssetReferenceT_1(AssetReferenceT_1 const& ) noexcept = default;
 constexpr AssetReferenceT_1(AssetReferenceT_1&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit AssetReferenceT_1(void* ptr) noexcept : ::UnityEngine::AddressableAssets::AssetReference(ptr) {
+constexpr explicit AssetReferenceT_1(void* ptr) noexcept : UnityEngine::AddressableAssets::AssetReference(ptr) {
 }
 
 
@@ -71,13 +70,13 @@ explicit AssetReferenceT_1(::StringW guid) ;
  void _ctor(::StringW guid) ;
 
 /// @brief Method LoadAsset addr 0x0 size 0xffffffffffffffff virtual false final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset() ;
 
 /// @brief Method LoadAssetAsync addr 0x0 size 0xffffffffffffffff virtual true final false
- ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync() ;
+ UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync() ;
 
 /// @brief Method ValidateAsset addr 0x0 size 0xffffffffffffffff virtual true final false
- bool ValidateAsset(::UnityEngine::Object obj) ;
+ bool ValidateAsset(UnityEngine::Object obj) ;
 
 /// @brief Method ValidateAsset addr 0x0 size 0xffffffffffffffff virtual true final false
  bool ValidateAsset(::StringW mainAssetPath) ;
@@ -86,5 +85,4 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::AddressableAssets
-} // end anonymous namespace
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::AddressableAssets::AssetReferenceT_1, "UnityEngine.AddressableAssets", "AssetReferenceT`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::AddressableAssets::AssetReferenceT_1, "UnityEngine.AddressableAssets", "AssetReferenceT`1");

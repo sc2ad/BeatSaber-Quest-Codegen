@@ -2,15 +2,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cmath>
-namespace {
 namespace GlobalNamespace {
-class ScreenCaptureAfterDelay;
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class BloomFogSO;
+class ScreenCaptureAfterDelay;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +21,7 @@ namespace GlobalNamespace {
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11080))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6084))
 // CS Name: GameCoreSceneSetup
-class CORDL_TYPE GameCoreSceneSetup : public ::Zenject::MonoInstaller {
+class CORDL_TYPE GameCoreSceneSetup : public Zenject::MonoInstaller {
 public:
 // Declarations
 /// @brief The size of the true reference type
@@ -37,7 +36,7 @@ constexpr GameCoreSceneSetup(GameCoreSceneSetup const& ) noexcept = default;
 constexpr GameCoreSceneSetup(GameCoreSceneSetup&& ) noexcept = default;
 
 // Ctor Parameters [CppParam { name: "ptr", ty: "void*", modifiers: "", def_value: None }]
-constexpr explicit GameCoreSceneSetup(void* ptr) noexcept : ::Zenject::MonoInstaller(ptr) {
+constexpr explicit GameCoreSceneSetup(void* ptr) noexcept : Zenject::MonoInstaller(ptr) {
 }
 
 
@@ -58,23 +57,23 @@ constexpr explicit GameCoreSceneSetup(void* ptr) noexcept : ::Zenject::MonoInsta
 
 // Fields
 
- ::GlobalNamespace::ScreenCaptureAfterDelay __declspec(property(get=__get__screenCaptureAfterDelayPrefab, put=__set__screenCaptureAfterDelayPrefab))  _screenCaptureAfterDelayPrefab;
+ GlobalNamespace::ScreenCaptureAfterDelay __declspec(property(get=__get__screenCaptureAfterDelayPrefab, put=__set__screenCaptureAfterDelayPrefab))  _screenCaptureAfterDelayPrefab;
 
-constexpr void __set__screenCaptureAfterDelayPrefab(::GlobalNamespace::ScreenCaptureAfterDelay value) ;
+constexpr void __set__screenCaptureAfterDelayPrefab(GlobalNamespace::ScreenCaptureAfterDelay value) ;
 
-constexpr ::GlobalNamespace::ScreenCaptureAfterDelay __get__screenCaptureAfterDelayPrefab() const;
+constexpr GlobalNamespace::ScreenCaptureAfterDelay __get__screenCaptureAfterDelayPrefab() const;
 
- ::GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
+ GlobalNamespace::MainSettingsModelSO __declspec(property(get=__get__mainSettingsModel, put=__set__mainSettingsModel))  _mainSettingsModel;
 
-constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO value) ;
+constexpr void __set__mainSettingsModel(GlobalNamespace::MainSettingsModelSO value) ;
 
-constexpr ::GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
+constexpr GlobalNamespace::MainSettingsModelSO __get__mainSettingsModel() const;
 
- ::GlobalNamespace::BloomFogSO __declspec(property(get=__get__bloomFog, put=__set__bloomFog))  _bloomFog;
+ GlobalNamespace::BloomFogSO __declspec(property(get=__get__bloomFog, put=__set__bloomFog))  _bloomFog;
 
-constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO value) ;
+constexpr void __set__bloomFog(GlobalNamespace::BloomFogSO value) ;
 
-constexpr ::GlobalNamespace::BloomFogSO __get__bloomFog() const;
+constexpr GlobalNamespace::BloomFogSO __get__bloomFog() const;
 
 /// @brief Field kPauseButtonPressDurationMultiplier offset 0
 static constexpr float_t  kPauseButtonPressDurationMultiplier{0.75};
@@ -95,6 +94,5 @@ static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def GlobalNamespace
-} // end anonymous namespace
-NEED_NO_BOX(::GlobalNamespace::GameCoreSceneSetup);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameCoreSceneSetup, "", "GameCoreSceneSetup");
+NEED_NO_BOX(GlobalNamespace::GameCoreSceneSetup);
+DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameCoreSceneSetup, "", "GameCoreSceneSetup");

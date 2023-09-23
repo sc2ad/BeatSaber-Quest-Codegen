@@ -2,12 +2,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 #include "beatsaber-hook/shared/utils/base-wrapper-type.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-namespace {
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct TypeTable;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -55,28 +54,27 @@ constexpr explicit InputInteraction(void* ptr) noexcept : ::bs_hook::Il2CppWrapp
 
 // Fields
 
-static ::UnityEngine::InputSystem::Utilities::TypeTable __declspec(property(get=__get_s_Interactions, put=__set_s_Interactions))  s_Interactions;
+static UnityEngine::InputSystem::Utilities::TypeTable __declspec(property(get=__get_s_Interactions, put=__set_s_Interactions))  s_Interactions;
 
-static void __set_s_Interactions(::UnityEngine::InputSystem::Utilities::TypeTable value) ;
+static void __set_s_Interactions(UnityEngine::InputSystem::Utilities::TypeTable value) ;
 
-static ::UnityEngine::InputSystem::Utilities::TypeTable __get_s_Interactions() ;
+static UnityEngine::InputSystem::Utilities::TypeTable __get_s_Interactions() ;
 
 
 // Methods
 
 /// @brief Method GetValueType addr 0x28a3b58 size 0xf4 virtual false final false
-static ::System::Type GetValueType(::System::Type interactionType) ;
+static System::Type GetValueType(System::Type interactionType) ;
 
 /// @brief Method GetDisplayName addr 0x28a3c4c size 0x104 virtual false final false
 static ::StringW GetDisplayName(::StringW interaction) ;
 
 /// @brief Method GetDisplayName addr 0x28a3d50 size 0x198 virtual false final false
-static ::StringW GetDisplayName(::System::Type interactionType) ;
+static ::StringW GetDisplayName(System::Type interactionType) ;
 
 static constexpr bool __CORDL_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace end def UnityEngine::InputSystem
-} // end anonymous namespace
-NEED_NO_BOX(::UnityEngine::InputSystem::InputInteraction);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputInteraction, "UnityEngine.InputSystem", "InputInteraction");
+NEED_NO_BOX(UnityEngine::InputSystem::InputInteraction);
+DEFINE_IL2CPP_ARG_TYPE(UnityEngine::InputSystem::InputInteraction, "UnityEngine.InputSystem", "InputInteraction");
